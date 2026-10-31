@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Domain Shift in Passage Retrieval for Question Answering",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare sparse and dense passage retrieval across general reference and technical support documents.",
+        "Controlled passage length and candidate pool composition, then analyzed retrieval errors involving terminology mismatch and questions requiring evidence across passages."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Calibration of Text Classifiers Under Label Noise",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine how synthetic label corruption affects confidence calibration in pretrained text classifiers.",
+        "Compared temperature scaling and label smoothing using held-out calibration splits, documenting sensitivity to corruption patterns through reliability diagrams and error analysis."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration Under Label Corruption: Comparing Temperature Scaling and Label Smoothing for Text Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Processing and Search Services",
+      "bullets": [
+        "Implemented Python services for document ingestion, metadata validation, and search request handling within an existing application architecture.",
+        "Added regression tests for malformed inputs and duplicate records, investigated processing failures, and maintained error handling for downstream service responses."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Sentiment Classification with Sparse and Neural Models",
+      "bullets": [
+        "Implemented term frequency–inverse document frequency logistic regression and a pretrained transformer classifier for sentiment classification using consistent training and evaluation splits.",
+        "Compared macro-averaged classification scores and inference costs, then examined disagreements involving negation, mixed sentiment, and vocabulary absent from training examples."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification baselines using a bidirectional recurrent network and a pretrained transformer, preserving entity boundaries during tokenization.",
+        "Compared entity-level precision and recall under a shared evaluation protocol, categorizing errors involving boundary detection, rare entities, and ambiguous names."
+      ]
+    }
+  ]
+}

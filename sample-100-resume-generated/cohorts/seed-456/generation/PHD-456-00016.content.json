@@ -1,0 +1,24 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification: Preprocessing and Evaluation",
+      "bullets": [
+        "Implemented assigned text cleaning and label validation routines for support requests, following existing preprocessing specifications and predefined dataset splits.",
+        "Ran the provided classification pipeline and grouped misclassified requests by label pair for review of ambiguous wording and overlapping categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Product Review Sentiment Classification Baseline",
+      "bullets": [
+        "Implemented a sentiment classification baseline using term frequency–inverse document frequency features and logistic regression in scikit-learn.",
+        "Compared predictions against a majority class baseline and inspected errors involving negation, mixed sentiment, and short reviews."
+      ]
+    }
+  ]
+}

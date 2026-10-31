@@ -1,0 +1,10 @@
+{
+  "profile_id": "PHD-789-00000",
+  "facts_hash": "e681bb81cb36436b9046ddf5778962708f4607fa63114842b6bf6ab006c4658d",
+  "status": "needs_revision",
+  "issues": [
+    "Unspecified numerical detail in T1"
+  ],
+  "model": "gpt-6-astra",
+  "review": null
+}

@@ -1,0 +1,54 @@
+Applicant PHD-456-00042
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.85/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Uncertainty Estimation Under Changing Feature Missingness
+Contribution: formulated a research question and led method development.
+- Formulated how changes in feature missingness affect predictive uncertainty and led development of a missingness-conditioned probabilistic regression approach.
+- Evaluated interval calibration against imputation baselines using controlled missingness mechanisms, separating uncertainty from unobserved features and observation noise.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Regularized Class Proportion Estimation Under Label Shift
+Contribution: formulated a research question and led method development.
+- Investigated instability in label shift correction and led development of a constrained class proportion estimator with confusion matrix regularization.
+- Compared regularization choices under simulated class prevalence changes, examining estimation sensitivity to calibration errors and limited labeled validation data.
+Research assistant, University Research Group | 2024-04 to 2026-05 | 10 hours/week
+Robust Weighted Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated questions about estimated density ratios in conformal prediction and led development of a stabilized weighting procedure for shifted regression data.
+- Designed simulation studies and diagnostic analyses comparing coverage, interval width, and weight concentration across controlled covariate shifts and density ratio estimators.
+
+PUBLICATIONS
+Stabilized Density Ratio Weighting for Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2025-07; published; author position 3.
+Diagnosing Coverage Sensitivity to Estimated Weights in Conformal Regression. Peer-reviewed ML conference, 2026-01; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-07 to 2024-04 | 10 hours/week
+Data Import Validation and Error Handling
+- Implemented assigned validation checks for tabular data imports, handling missing fields, inconsistent types, and duplicate records within existing application workflows.
+- Added regression tests for import failures and revised error messages to distinguish malformed input from processing failures during maintenance.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sparse Regression Estimators | technical course project, 2026
+- Implemented coordinate descent for lasso regression and compared its solutions with reference estimators using synthetic datasets with correlated predictors.
+- Evaluated ridge, lasso, and elastic net regression through nested cross-validation, examining prediction error and coefficient stability across resampled training sets.
+Approximate Inference for Bayesian Logistic Regression | technical course project, 2026
+- Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression, using shared priors and preprocessing for comparative evaluation.
+- Compared posterior uncertainty and predictive calibration across approximation methods, inspecting sensitivity to prior scale and class separation in simulated datasets.
+Calibration Methods for Probabilistic Classification | technical course project, 2026
+- Implemented temperature scaling and isotonic calibration for probabilistic classifiers, keeping calibration data separate from model fitting and final evaluation.
+- Compared reliability diagrams, proper scoring rules, and calibration sensitivity to validation sample size across linear classifiers and neural networks.
+Kernel Two-Sample Testing for Distribution Shift | technical course project, 2026
+- Implemented maximum mean discrepancy tests with permutation calibration and compared kernel choices on synthetic location, scale, and mixture shifts.
+- Evaluated rejection behavior under matched and shifted distributions, examining bandwidth selection and computation costs against a classifier-based two-sample baseline.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

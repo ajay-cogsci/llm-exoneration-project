@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visual Surface Defect Classification with Handcrafted Features",
+      "bullets": [
+        "Prepared surface inspection images by checking defect labels, standardizing image dimensions, and separating training and evaluation sets by source specimen.",
+        "Implemented a prescribed baseline using pooled image gradients and a linear support vector classifier; summarized confusion patterns across defect categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed missing item reports to the appropriate staff.",
+        "Maintained order paperwork, organized storage areas, and coordinated routine pickup schedules while tracking outstanding requests through completion."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Scene Classification with Spatial Color Histograms",
+      "bullets": [
+        "Implemented a scene classification baseline using spatially pooled color histograms and a random forest classifier on labeled indoor and outdoor images.",
+        "Compared global and spatial histogram representations under a fixed data split, inspecting misclassified images for lighting variation and similar color distributions."
+      ]
+    }
+  ]
+}

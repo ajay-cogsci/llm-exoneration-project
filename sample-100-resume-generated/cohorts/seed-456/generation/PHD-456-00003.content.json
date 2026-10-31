@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed experiments varying passage relevance, ordering, and distractor content to assess evidence dependence in retrieval-augmented question answering.",
+        "Analyzed answer correctness and supporting passage attribution, distinguishing retrieval failures from generation errors through controlled perturbations and manual error review."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Negation and Lexical Overlap in Natural Language Inference",
+      "bullets": [
+        "Designed matched evaluation sets manipulating negation placement and lexical overlap to examine shortcut behavior in natural language inference models.",
+        "Compared prediction changes across original and perturbed sentence pairs, analyzing error patterns by inference label and syntactic construction."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Domain Shift and Confidence Calibration in Support Request Classification",
+      "bullets": [
+        "Designed cross-domain experiments comparing sparse lexical classifiers and pretrained text encoders for support request classification under changing vocabulary and label distributions.",
+        "Analyzed calibration, selective prediction, and classwise errors using held-out domains, separating effects of terminology changes from differences in category prevalence."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration and Selective Prediction for Support Request Classification Across Domains"
+    },
+    {
+      "id": "P2",
+      "title": "Lexical and Encoder-Based Baselines for Cross-Domain Support Request Classification"
+    },
+    {
+      "id": "P3",
+      "title": "Terminology Shift and Category Prevalence in Support Request Classification Errors"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Intake Validation and Search Maintenance",
+      "bullets": [
+        "Implemented input validation and text normalization for document intake, adding regression tests for malformed records, encoding issues, and duplicate submissions.",
+        "Maintained keyword search components, investigated indexing discrepancies, and corrected document update handling to keep retrieved records consistent with stored content."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Named Entity Recognition Models",
+      "bullets": [
+        "Implemented a conditional random field baseline and fine-tuned a pretrained token classifier for named entity recognition using consistent dataset splits.",
+        "Compared entity-level precision and recall, examining boundary errors, rare entity types, and sensitivity to tokenization differences through manually reviewed predictions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented BM25 and dense passage retrieval pipelines with shared document preprocessing and evaluation queries to support a controlled comparison.",
+        "Evaluated ranking quality and inspected retrieval disagreements, categorizing failures involving synonymy, exact phrase matching, and ambiguous query terms."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Graph Ranking and Sentence Embeddings",
+      "bullets": [
+        "Implemented graph-based sentence ranking and embedding-based sentence selection for extractive summarization, applying identical preprocessing and summary length constraints.",
+        "Compared summaries using reference overlap and manual content checks, analyzing redundancy, missing salient information, and dependence on sentence position."
+      ]
+    }
+  ]
+}

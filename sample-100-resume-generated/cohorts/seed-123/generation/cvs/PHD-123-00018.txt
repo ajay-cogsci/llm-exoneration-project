@@ -1,0 +1,36 @@
+Applicant PHD-123-00018
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.94/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Baseline Classification of Clarification Requests in Dialogue
+Contribution: data preparation and baseline implementation.
+- Prepared dialogue excerpts for classification by standardizing text fields, checking annotation consistency, and removing duplicate conversations across predefined data splits.
+- Implemented TF-IDF and logistic regression baselines using scikit-learn, then summarized classification errors involving indirect questions and context-dependent clarification requests.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-05 to 2026-08 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded discrepancies, and routed damaged or missing items to the appropriate staff for follow-up.
+- Prepared routine order paperwork, maintained organized stock records, and coordinated collection times with customers using established scheduling procedures.
+
+TECHNICAL PROJECTS
+Lexical Baselines for Product Review Sentiment | technical course project, 2026
+- Implemented unigram and bigram TF-IDF representations with a multinomial naive Bayes classifier for positive and negative product review classification.
+- Compared feature configurations on a held-out validation split and inspected misclassified reviews containing negation, mixed sentiment, and domain-specific vocabulary.
+Extractive Summarization with Sentence Similarity | technical course project, 2026
+- Implemented an extractive summarization baseline that ranked sentences by cosine similarity between sentence TF-IDF vectors and the document centroid.
+- Compared selected sentences with a lead-sentence baseline, examining reference-summary overlap and documenting redundancy and missing context in generated summaries.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

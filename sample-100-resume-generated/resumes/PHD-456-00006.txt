@@ -1,0 +1,43 @@
+Applicant PHD-456-00006
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.62/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Visibility-Aware Consistency for Occluded Keypoint Detection
+Contribution: formulated a research question and led method development.
+- Investigated whether visibility-aware consistency improves keypoint localization under partial occlusion; developed a training objective separating visible landmarks from synthetically obscured landmarks.
+- Evaluated localization errors across occlusion patterns and compared visibility weighting against uniform consistency penalties using controlled masking experiments.
+Research assistant, University Research Group | 2023-09 to 2026-08 | 10 hours/week
+Illumination-Robust Semantic Segmentation Through Appearance Consistency
+Contribution: formulated a research question and led method development.
+- Formulated questions about illumination sensitivity in semantic segmentation and led development of feature moment perturbations, patchwise consistency objectives, and confidence-weighted training.
+- Compared these components under held-out lighting conditions, examining classwise segmentation errors, confidence calibration, and sensitivity to appearance perturbation strength through ablation experiments.
+
+PUBLICATIONS
+Confidence-Weighted Appearance Consistency for Semantic Segmentation Under Lighting Shifts. Peer-reviewed ML conference, 2026-11; published; author position 2.
+Patchwise Prediction Consistency for Illumination-Robust Semantic Segmentation. Peer-reviewed ML conference, 2025-01; published; author position 3.
+Feature Moment Perturbations for Semantic Segmentation Across Illumination Conditions. Peer-reviewed ML conference, 2024-10; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Retrieval Descriptors | technical course project, 2026
+- Implemented image retrieval pipelines using color histograms and gradient descriptors, with standardized preprocessing and distance-based ranking over a shared image collection.
+- Compared retrieval precision across descriptor choices and dimensionality reduction settings, inspecting failure cases involving viewpoint changes, background clutter, and similar color distributions.
+Loss Functions for Imbalanced Image Classification | technical course project, 2026
+- Implemented a convolutional image classifier with cross-entropy, class-weighted cross-entropy, and focal loss while holding architecture and data partitions fixed.
+- Compared per-class recall and confusion patterns under controlled class imbalance, examining how loss selection affected minority-class predictions and overall calibration.
+Classical and Learned Methods for Image Denoising | technical course project, 2026
+- Implemented Gaussian filtering, nonlocal means, and a convolutional denoising autoencoder using matched clean images and synthetically corrupted inputs.
+- Compared reconstruction quality across noise levels using peak signal-to-noise ratio and structural similarity, inspecting edge preservation and texture smoothing artifacts.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

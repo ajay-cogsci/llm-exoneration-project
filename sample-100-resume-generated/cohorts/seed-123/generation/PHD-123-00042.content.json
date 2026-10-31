@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance, evidence placement, and distractor content to examine answer grounding in retrieval-augmented question answering.",
+        "Analyzed answer correctness and supporting passage attribution, categorizing failures involving unsupported claims, conflicting evidence, and retrieval omissions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Intent Classification and Confidence Calibration Under Domain Shift",
+      "bullets": [
+        "Designed cross-domain evaluations comparing lexical and transformer classifiers, with controlled training subsets and held-out domains for intent recognition.",
+        "Analyzed calibration and abstention behavior across domain shifts, using reliability diagrams and error breakdowns to distinguish ambiguous requests from unfamiliar vocabulary."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration and Selective Prediction for Intent Classification Under Domain Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Lexical and Transformer Baselines for Cross-Domain Intent Recognition"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Record Validation and Search Maintenance",
+      "bullets": [
+        "Implemented validation checks for incoming text records, handling missing fields, inconsistent encodings, and duplicate submissions within an existing ingestion service.",
+        "Maintained search endpoint behavior and regression tests, investigating malformed queries and documenting reproducible cases for review during routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sequence Labeling for Entity Extraction",
+      "bullets": [
+        "Implemented conditional random field and recurrent sequence tagging baselines for entity extraction, using consistent tokenization and shared training partitions.",
+        "Compared span-level precision and recall, examining boundary errors, rare entity categories, and sensitivity to lexical features through controlled ablations."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Relevance and Redundancy Controls",
+      "bullets": [
+        "Implemented sentence ranking baselines using term weighting and graph centrality, with configurable redundancy penalties for selecting summary sentences.",
+        "Compared summaries using reference overlap and manual content checks, analyzing omitted information and repeated statements under matched summary length constraints."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented sparse term matching and pretrained sentence embedding retrieval pipelines, keeping document segmentation and query preprocessing consistent across comparisons.",
+        "Evaluated ranking quality on held-out queries and inspected disagreements, separating failures involving exact terminology, paraphrases, and context-dependent query meanings."
+      ]
+    }
+  ]
+}

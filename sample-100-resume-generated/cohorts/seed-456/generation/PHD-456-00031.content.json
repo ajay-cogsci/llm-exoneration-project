@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness Evaluation for Object Detection Under Image Degradation",
+      "bullets": [
+        "Designed controlled experiments comparing object detectors under motion blur, sensor noise, and compression artifacts while holding training data and evaluation splits fixed.",
+        "Analyzed detection errors by object size and corruption severity, separating localization failures from classification errors to assess sensitivity to image degradation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Evaluation of Semantic Segmentation",
+      "bullets": [
+        "Designed experiments comparing segmentation models across daylight and nighttime street imagery, controlling augmentation settings and training schedules to isolate domain effects.",
+        "Analyzed classwise overlap scores and boundary errors, examining whether illumination changes disproportionately affected small objects and visually similar foreground categories."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Calibration of Image Classifiers with Limited Training Data",
+      "bullets": [
+        "Designed experiments varying training subset size and label imbalance to evaluate confidence calibration in convolutional image classifiers using held-out validation data.",
+        "Analyzed reliability diagrams, calibration error, and classification accuracy before and after temperature scaling, distinguishing aggregate trends from minority-class confidence patterns."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration in Data-Limited Image Classification: Effects of Class Imbalance and Temperature Scaling"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned image ingestion components that checked file formats, normalized metadata, and routed malformed uploads through existing application error handling.",
+        "Added regression tests for decoding failures and duplicate submissions, and investigated processing defects using application logs and reproducible image fixtures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Feature Matching",
+      "bullets": [
+        "Implemented image matching pipelines using SIFT and ORB descriptors with nearest-neighbor matching and robust homography estimation on paired scene images.",
+        "Compared matching precision and geometric alignment under rotation, scale changes, and partial occlusion, documenting failure cases associated with repetitive textures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning Strategies for Image Classification",
+      "bullets": [
+        "Implemented frozen-feature classification and partial fine-tuning of a pretrained convolutional network, using identical data partitions and preprocessing for comparative evaluation.",
+        "Compared validation accuracy, training behavior, and classwise confusion across adaptation settings, examining sensitivity to augmentation choices and the extent of layer freezing."
+      ]
+    }
+  ]
+}

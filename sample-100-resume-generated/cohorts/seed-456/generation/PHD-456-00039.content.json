@@ -1,0 +1,90 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion-Aware Temporal Consistency for Video Segmentation",
+      "bullets": [
+        "Formulated whether excluding unreliable frame correspondences improves temporal segmentation consistency, and led development of an occlusion-aware consistency objective.",
+        "Compared masked and unmasked temporal supervision under controlled occlusions, examining segmentation accuracy, boundary stability, and failure cases near moving objects."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Spatially Adaptive Feature Alignment for Visual Anomaly Detection",
+      "bullets": [
+        "Investigated whether local feature alignment distinguishes surface defects from benign texture shifts, and led development of a patchwise matching approach.",
+        "Evaluated nearest-neighbor and spatially constrained matching baselines, analyzing localization errors under illumination changes, repetitive textures, and small geometric misalignments."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Boundary-Guided Learning with Sparse Segmentation Labels",
+      "bullets": [
+        "Asked how image boundaries can constrain learning from sparse annotations, and led development of an edge-weighted label propagation objective.",
+        "Compared propagation and consistency-based baselines using controlled annotation masks, assessing boundary adherence and sensitivity to misleading texture edges."
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Uncertainty-Aware Adaptation for Semantic Segmentation under Visual Shift",
+      "bullets": [
+        "Formulated how class-dependent uncertainty affects segmentation adaptation, and led development of calibrated pseudo-label selection with class-specific confidence thresholds.",
+        "Designed calibration, corruption, and selective prediction evaluations, comparing thresholding alternatives and examining confidence failures across image regions and semantic classes."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Regionwise Confidence Calibration for Semantic Segmentation under Visual Corruptions"
+    },
+    {
+      "id": "P2",
+      "title": "Class-Conditional Pseudo-Label Selection for Uncertainty-Aware Segmentation Adaptation"
+    },
+    {
+      "id": "P3",
+      "title": "Evaluating Confidence Thresholds for Segmentation Adaptation under Lighting and Weather Shifts"
+    },
+    {
+      "id": "P4",
+      "title": "Selective Prediction after Adaptation: Classwise Risk and Coverage in Semantic Segmentation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion Validation and Preprocessing",
+      "bullets": [
+        "Implemented assigned image validation and resizing routines in an existing ingestion pipeline, handling unsupported formats, invalid dimensions, and corrupted inputs.",
+        "Added regression tests for preprocessing behavior and investigated reported failures by tracing input validation errors through existing processing stages."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparing Local Features for Image Matching",
+      "bullets": [
+        "Implemented gradient-based local descriptors and nearest-neighbor matching, comparing correspondence quality against normalized image patches under rotation and illumination changes.",
+        "Evaluated geometric verification with robust homography estimation, inspecting mismatches caused by repetitive patterns, weak texture, and viewpoint differences."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Image Classification under Limited Training Data",
+      "bullets": [
+        "Implemented convolutional classification baselines with standard augmentation and pretrained feature extraction, using consistent training partitions for comparative evaluation.",
+        "Compared learning curves, classwise errors, and calibration across training subsets, examining sensitivity to augmentation choices and frozen versus trainable features."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Learned Approaches to Image Denoising",
+      "bullets": [
+        "Implemented Gaussian filtering, patch-based averaging, and a convolutional denoiser, comparing their behavior on images with controlled additive noise.",
+        "Evaluated reconstruction fidelity and edge preservation across noise conditions, documenting oversmoothing, residual artifacts, and differences between matched and mismatched training noise."
+      ]
+    }
+  ]
+}

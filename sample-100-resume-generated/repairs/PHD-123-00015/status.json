@@ -1,0 +1,28 @@
+{
+  "profile_id": "PHD-123-00015",
+  "facts_hash": "416f1bdf8b092a4f4122d6310d7d0a358df8cdc172697ac6214bf44aa8c6893c",
+  "attempt": 1,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "model": "gpt-6-astra",
+  "status": "ready_for_human_review",
+  "repair_attempts": 1,
+  "cv_hash": "eb1932f380568cd12b896ee2c1cf11bd43400a1448353d9a45c5d654702199d7",
+  "attempts": [
+    {
+      "profile_id": "PHD-123-00015",
+      "facts_hash": "416f1bdf8b092a4f4122d6310d7d0a358df8cdc172697ac6214bf44aa8c6893c",
+      "attempt": 1,
+      "issues": [],
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "model": "gpt-6-astra",
+      "status": "ready_for_human_review"
+    }
+  ]
+}

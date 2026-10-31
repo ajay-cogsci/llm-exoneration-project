@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:18:08.074740+00:00",
+  "request_hash": "12711645ef1bd324942db9b25eef12bac3645ef10b70cd43dd5221854650d765",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a multinomial naive Bayes baseline with bag-of-words features for sentiment classification, using separate training and validation partitions.\", \"Compared unigram and bigram feature configurations under the same evaluation procedure, reviewing misclassified examples involving negation and mixed sentiment.\"], \"id\": \"T1\", \"title\": \"Bag-of-Words Baseline for Review Sentiment Classification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned text normalization and label mapping routines for support requests, following existing preprocessing specifications and documenting ambiguous category assignments.\", \"Ran prescribed classification experiments using term frequency–inverse document frequency features and logistic regression, inspecting confusion matrices for recurring category errors.\"], \"id\": \"R1\", \"title\": \"Preprocessing and Evaluation for Support Request Classification\"}], \"work\": [{\"bullets\": [\"Processed incoming orders, checked required paperwork for completeness, and coordinated with relevant departments to resolve missing information before fulfillment.\", \"Maintained inventory records, reconciled delivery documents against received goods, and escalated discrepancies through established procedures for follow-up.\"], \"id\": \"W1\", \"title\": \"Order Processing and Inventory Record Maintenance\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00013\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2020-05\", \"institution\": \"University A\", \"start\": \"2016-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.7, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 2, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2025-09\", \"hours_per_week\": 40, \"id\": \"W1\", \"months\": 35, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2022-10\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0e5e4b812f947b73016ae614c0372c87d085934e9490e7f655",
+    "object": "response",
+    "created_at": 1793463488,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463489,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0e5e4b812f947b73016ae614c1ae0487d0a30450d6b519c396",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 855,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 871
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

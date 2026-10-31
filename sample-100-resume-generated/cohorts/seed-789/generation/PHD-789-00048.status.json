@@ -1,0 +1,12 @@
+{
+  "profile_id": "PHD-789-00048",
+  "facts_hash": "bcd14b7a5e3ab27546a93d8e3025279f40cfc798a5aa6122dbd3e11ae99b34b5",
+  "status": "ready_for_human_review",
+  "issues": [],
+  "model": "gpt-6-astra",
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "cv_hash": "a814074b3126b7eeea30dfbb18c07c14671ec06bde454896b0e54708cc76f735"
+}

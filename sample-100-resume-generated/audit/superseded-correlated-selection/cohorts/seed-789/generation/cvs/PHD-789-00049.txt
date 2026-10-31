@@ -1,0 +1,43 @@
+Applicant PHD-789-00049
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.91/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robust Covariance Estimation for Heavy-Tailed Classification
+Contribution: formulated a research question and led method development.
+- Formulated a research question on how heavy-tailed feature distributions affect covariance estimation and downstream uncertainty in discriminant classifiers.
+- Led development of a robust shrinkage estimator combining truncated covariance estimates with diagonal regularization; evaluated classification error and calibration under contamination.
+Research assistant, University Research Group | 2024-10 to 2026-08 | 10 hours/week
+Adaptive Importance Weighting for Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated a research question on stabilizing weighted conformal prediction when estimated density ratios concentrate on sparse regions of feature space.
+- Led development of adaptive weight clipping and effective sample size diagnostics; evaluated coverage and interval width across controlled covariate shifts.
+
+PUBLICATIONS
+Adaptive Weight Clipping for Conformal Prediction Under Covariate Shift. Peer-reviewed ML conference, 2026-10; published; author position 1.
+Effective Sample Size Diagnostics for Density-Ratio-Weighted Conformal Prediction. Peer-reviewed ML conference, 2026-01; published; author position 2.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Kernel Ridge Regression with Approximate Feature Maps | technical course project, 2026
+- Implemented exact kernel ridge regression, random Fourier features, and Nyström approximations using shared preprocessing and regularization selection procedures.
+- Compared predictive error, memory requirements, and training time across feature dimensions; examined sensitivity to kernel bandwidth and approximation randomness.
+Gaussian Mixture Estimation with Missing Features | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixtures with incomplete observations, computing conditional sufficient statistics during the expectation step.
+- Compared clustering stability and held-out likelihood against mean-imputation baselines under random missingness; inspected sensitivity to initialization and covariance regularization.
+Comparative Evaluation of Probabilistic Classifier Calibration | technical course project, 2026
+- Implemented temperature scaling, Platt scaling, and isotonic regression for classifier probability calibration using separate fitting and evaluation partitions.
+- Compared log loss, Brier score, and reliability diagrams across class imbalance settings; examined how calibration sample size affected method selection.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

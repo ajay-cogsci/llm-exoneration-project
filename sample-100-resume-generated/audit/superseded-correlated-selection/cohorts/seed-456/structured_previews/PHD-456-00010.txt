@@ -1,0 +1,37 @@
+STRUCTURED PREVIEW - API prose not generated
+
+Applicant PHD-456-00010
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.25/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Research in statistical machine learning
+Contribution: formulated a research question and led method development.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Research in statistical machine learning
+Contribution: formulated a research question and led method development.
+
+PUBLICATIONS
+Publication P1 (title pending API generation). Peer-reviewed ML conference, 2026-06; published; author position 4.
+Publication P2 (title pending API generation). Peer-reviewed ML conference, 2025-04; published; author position 4.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-09 to 2024-06 | 10 hours/week
+
+TECHNICAL PROJECTS
+Project T1 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+Project T2 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+Project T3 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

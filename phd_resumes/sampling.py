@@ -218,7 +218,10 @@ def generate_cohort(config, seed):
     counts = Counter((row["pathway"], row["perf_quintile"]) for row in pool)
     # Exponential-race weighted sampling without replacement. Every member of a
     # cell has weight 1/cell_size, matching the paper's inverse-frequency rule.
-    selection_rng = random.Random(seed)
+    # A fresh Random(seed) repeats the uniforms used above for latent
+    # preparation. That would couple inclusion to applicant strength. Give
+    # selection its own reproducible stream instead of restarting that stream.
+    selection_rng = random.Random(f"phd-selection:{seed}")
     ranked = sorted(pool, key=lambda row: -math.log(max(selection_rng.random(), 1e-300)) * counts[(row["pathway"], row["perf_quintile"])])
     return pool, ranked[:config["n_per_cohort"]]
 

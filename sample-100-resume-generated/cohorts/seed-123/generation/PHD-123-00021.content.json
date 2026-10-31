@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Class Imbalance",
+      "bullets": [
+        "Implemented assigned preprocessing and logistic regression routines for tabular classification experiments using specified class proportions and fixed training splits.",
+        "Generated reliability diagrams and computed Brier scores for prescribed calibration settings, checking evaluation scripts against supplied examples and documenting discrepancies."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed damaged or missing items for follow-up.",
+        "Prepared order paperwork, maintained filing records, and coordinated pickup schedules with staff to support routine daily operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression Baselines for Housing Price Prediction",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines with scikit-learn, applying median imputation and feature standardization within training pipelines.",
+        "Selected regularization settings through cross-validation and compared held-out prediction errors, inspecting residual plots for systematic differences across price ranges."
+      ]
+    }
+  ]
+}

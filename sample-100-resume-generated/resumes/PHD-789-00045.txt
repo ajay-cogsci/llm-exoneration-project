@@ -1,0 +1,41 @@
+Applicant PHD-789-00045
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.65/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Support Request Classification with Sparse Text Baselines
+Contribution: data preparation and baseline implementation.
+- Prepared support request text by removing duplicate messages, standardizing category labels, and checking training and evaluation partitions for overlapping records.
+- Implemented TF-IDF and logistic regression baselines using specified settings, then inspected confusion matrices and documented errors involving closely related request categories.
+Research assistant, University Research Group | 2026-06 to 2026-08 | 10 hours/week
+Sentence Relevance Baselines for Question Answering
+Contribution: data preparation and baseline implementation.
+- Prepared question and candidate sentence pairs from supplied documents, preserving relevance annotations and grouping examples by source document for evaluation.
+- Implemented a TF-IDF cosine similarity baseline for sentence ranking and reviewed retrieved candidates to characterize lexical overlap errors.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-03 to 2026-06 | 10 hours/week
+Order Documentation and Inventory Support
+- Checked incoming order forms for missing information, organized supporting paperwork, and routed incomplete requests to the appropriate staff members.
+- Maintained stockroom inventory logs, reconciled delivery slips against received supplies, and prepared routine handover notes for pending orders.
+
+TECHNICAL PROJECTS
+Product Review Sentiment Classification | technical course project, 2026
+- Implemented a multinomial naive Bayes baseline for review sentiment classification using token counts and a fixed training and test split.
+- Compared count and TF-IDF representations under the same evaluation procedure, examining misclassified reviews containing negation or mixed sentiment.
+Extractive Summarization with Sentence Similarity | technical course project, 2026
+- Implemented a sentence ranking baseline that selected document sentences by cosine similarity to the document's average TF-IDF vector.
+- Compared selected sentences with a lead sentence baseline, reviewing summaries for repeated information, missing context, and coverage of central topics.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

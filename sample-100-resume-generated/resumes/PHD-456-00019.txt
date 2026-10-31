@@ -1,0 +1,45 @@
+Applicant PHD-456-00019
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.55/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance and distractor placement to assess how retrieved context affects answer correctness and evidence attribution.
+- Analyzed response errors across retrieval conditions, distinguishing unsupported answers from failures to use relevant evidence through structured manual annotation.
+Research assistant, University Research Group | 2025-02 to 2026-08 | 10 hours/week
+Cross-Domain Robustness of Negation-Aware Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing lexical and transformer classifiers across review domains, with matched evaluation subsets isolating negation patterns and sentiment-bearing vocabulary.
+- Analyzed domain transfer errors using confusion matrices and sentence-level inspection, examining interactions between negation scope, input length, and prediction confidence.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-11 to 2025-02 | 10 hours/week
+Document Import Validation and Error Handling
+- Implemented assigned validation checks for document import requests, handling missing fields, unsupported encodings, and malformed metadata within an existing processing service.
+- Added regression tests for import failures and revised error messages to help support staff distinguish invalid submissions from temporary processing errors.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of News Topic Classifiers | technical course project, 2026
+- Implemented TF-IDF classifiers and a fine-tuned transformer baseline for news categorization, using consistent data partitions and preprocessing rules across comparisons.
+- Compared macro-averaged classification metrics and inspected confusion patterns, examining how rare categories and overlapping topic vocabulary affected model predictions.
+Lexical and Dense Retrieval for FAQ Matching | technical course project, 2026
+- Implemented probabilistic lexical ranking and sentence-embedding retrieval for matching user questions to FAQ entries, evaluating both approaches against shared relevance judgments.
+- Compared ranking quality across paraphrased and keyword-heavy queries, inspecting retrieval failures involving ambiguous terminology and closely related candidate answers.
+Sequence Labeling Approaches to Named Entity Recognition | technical course project, 2026
+- Implemented a conditional random field tagger and a transformer token classifier, aligning tokenization and label conversion for comparable entity extraction evaluation.
+- Compared entity-level precision and recall, categorizing boundary and type errors while examining performance differences for unseen names and multiword entities.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

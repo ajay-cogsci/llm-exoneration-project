@@ -1,0 +1,41 @@
+Applicant PHD-456-00033
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Baseline Classification of Surface Defects in Inspection Images
+Contribution: data preparation and baseline implementation.
+- Prepared inspection images by checking defect labels, removing duplicate frames, and organizing training and evaluation partitions by source object.
+- Implemented histogram of oriented gradients features with a linear classifier, then reviewed confusion matrices and misclassified examples under varying illumination.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Foreground Segmentation in Fixed-Camera Scenes
+Contribution: data preparation and baseline implementation.
+- Prepared fixed-camera image sequences and foreground masks, checking annotation alignment and separating evaluation sequences from training footage.
+- Implemented a background subtraction baseline with morphological cleanup, evaluating mask overlap and reviewing errors caused by shadows and intermittent motion.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-02 to 2026-02 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded discrepancies, and routed missing or damaged items to the appropriate staff.
+- Organized order paperwork, maintained stockroom labels, and prepared handover notes covering pending shipments and unresolved inventory discrepancies.
+
+TECHNICAL PROJECTS
+Visual Word Baseline for Scene Classification | technical course project, 2026
+- Implemented a scene classification baseline using local image descriptors, clustering to construct a visual vocabulary, and linear classification.
+- Compared vocabulary settings on a held-out validation split and inspected confusion patterns among scenes with similar textures.
+Color Histogram Baseline for Image Retrieval | technical course project, 2026
+- Implemented image retrieval using normalized color histograms and nearest-neighbor ranking, with consistent resizing and color conversion during preprocessing.
+- Evaluated retrieval rankings against category labels and inspected mismatches involving similar colors but different object shapes or backgrounds.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robust Covariance Estimation for Heavy-Tailed Classification",
+      "bullets": [
+        "Formulated a research question on how heavy-tailed feature distributions affect covariance estimation and downstream uncertainty in discriminant classifiers.",
+        "Led development of a robust shrinkage estimator combining truncated covariance estimates with diagonal regularization; evaluated classification error and calibration under contamination."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Adaptive Importance Weighting for Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated a research question on stabilizing weighted conformal prediction when estimated density ratios concentrate on sparse regions of feature space.",
+        "Led development of adaptive weight clipping and effective sample size diagnostics; evaluated coverage and interval width across controlled covariate shifts."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Adaptive Weight Clipping for Conformal Prediction Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Effective Sample Size Diagnostics for Density-Ratio-Weighted Conformal Prediction"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Kernel Ridge Regression with Approximate Feature Maps",
+      "bullets": [
+        "Implemented exact kernel ridge regression, random Fourier features, and Nyström approximations using shared preprocessing and regularization selection procedures.",
+        "Compared predictive error, memory requirements, and training time across feature dimensions; examined sensitivity to kernel bandwidth and approximation randomness."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Estimation with Missing Features",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixtures with incomplete observations, computing conditional sufficient statistics during the expectation step.",
+        "Compared clustering stability and held-out likelihood against mean-imputation baselines under random missingness; inspected sensitivity to initialization and covariance regularization."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Probabilistic Classifier Calibration",
+      "bullets": [
+        "Implemented temperature scaling, Platt scaling, and isotonic regression for classifier probability calibration using separate fitting and evaluation partitions.",
+        "Compared log loss, Brier score, and reliability diagrams across class imbalance settings; examined how calibration sample size affected method selection."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:16:06.795678+00:00",
+  "request_hash": "73f3659231aa8fd3641e85864479edb0c0ab6c2951e96370bf2e4df8cad6c9a1",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a scene classification baseline using color histograms, local binary pattern features, and a support vector machine with standardized feature inputs.\", \"Evaluated predictions on a held-out image split using confusion matrices and inspected misclassified examples for lighting variation and visually similar scene categories.\"], \"id\": \"T1\", \"title\": \"Baseline Scene Classification with Color and Texture Features\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned image resizing, grayscale normalization, and patch extraction routines for surface defect classification using an established preprocessing specification.\", \"Checked processed samples against annotation files and documented mismatched labels and boundary handling issues for review within the existing experimental workflow.\"], \"id\": \"R1\", \"title\": \"Image Preprocessing for Surface Defect Classification\"}], \"work\": [{\"bullets\": [\"Processed incoming order paperwork, checked item descriptions against stock records, and routed incomplete requests to the appropriate staff for clarification.\", \"Maintained filing records, coordinated routine delivery appointments, and reconciled shipment documents with received goods before forwarding discrepancies for follow-up.\"], \"id\": \"W1\", \"title\": \"Order Processing and Inventory Coordination\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00001\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2020-05\", \"institution\": \"University A\", \"start\": \"2016-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.69, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 2, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2025-09\", \"hours_per_week\": 40, \"id\": \"W1\", \"months\": 13, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2024-08\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0b3dbd798b313667016ae61446f4d887d09d4310dad93e9d59",
+    "object": "response",
+    "created_at": 1793463367,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463368,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0b3dbd798b313667016ae6144832b087d0bf4c13e30d8bf49d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 852,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 868
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

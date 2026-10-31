@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare probability calibration methods under controlled changes in feature distributions while preserving conditional label mechanisms.",
+        "Evaluated temperature scaling and isotonic regression using reliability diagrams, log loss, and repeated sampling to examine sensitivity to calibration sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regularization Stability with Correlated Predictors",
+      "bullets": [
+        "Planned simulation experiments with supervisor guidance to examine how predictor correlation and signal sparsity affect regularized regression performance.",
+        "Compared ridge, lasso, and elastic net using nested cross validation, documenting prediction error and coefficient stability across resampled training sets."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented Python validation routines for incoming tabular records, checking required fields, type consistency, and duplicate identifiers before downstream processing.",
+        "Maintained batch processing components and regression tests, reproducing reported failures and documenting expected behavior for malformed inputs and interrupted runs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Classification with Incomplete Tabular Features",
+      "bullets": [
+        "Implemented preprocessing pipelines combining median or iterative imputation with logistic regression and random forests for classification with missing features.",
+        "Compared predictive performance across simulated missingness patterns, fitting preprocessing within training folds to prevent information leakage during cross validation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Prediction Intervals for Nonlinear Regression",
+      "bullets": [
+        "Implemented split conformal prediction around linear and random forest regressors, using held out calibration residuals to construct prediction intervals.",
+        "Compared empirical coverage and interval width across nonlinear and heteroscedastic simulations, examining conditional coverage patterns within predefined feature ranges."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Density Estimation for Multimodal Distributions",
+      "bullets": [
+        "Implemented kernel density estimation and Gaussian mixture baselines, selecting bandwidths and mixture complexity through validation likelihood on synthetic distributions.",
+        "Compared held out log likelihood and sensitivity to initialization, using density plots to inspect oversmoothing and poorly represented modes."
+      ]
+    }
+  ]
+}

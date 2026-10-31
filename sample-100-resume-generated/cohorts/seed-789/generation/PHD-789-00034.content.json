@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Sensitivity-Aware Regression with Missing Covariates",
+      "bullets": [
+        "Formulated a research question on prediction stability under changing covariate missingness, distinguishing imputation error from sensitivity to missingness patterns.",
+        "Led development of a regression objective penalizing prediction variation across plausible imputations; evaluated robustness against standard imputation baselines under controlled missingness mechanisms."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Adaptive Prediction Sets under Covariate Shift",
+      "bullets": [
+        "Formulated research questions about prediction set reliability under covariate shift and led development of density ratio weighted conformal calibration procedures.",
+        "Developed weight stabilization and local calibration variants; evaluated coverage, set size, and subgroup behavior using synthetic shifts and tabular classification benchmarks."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Stabilizing Importance Weights for Conformal Prediction under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Local Calibration of Prediction Sets under Heterogeneous Covariate Shift"
+    },
+    {
+      "id": "P3",
+      "title": "Density Ratio Estimation and Coverage Sensitivity in Weighted Conformal Classification"
+    },
+    {
+      "id": "P4",
+      "title": "Evaluating Coverage and Set Size in Shifted Tabular Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented assigned validation routines for incoming tabular records, checking required fields, data types, and duplicate identifiers before downstream processing.",
+        "Added regression tests for parsing failures and updated error messages; investigated reported processing defects and documented fixes for maintenance handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Probabilistic Classifier Calibration",
+      "bullets": [
+        "Implemented logistic regression and neural network classifiers with temperature scaling and isotonic calibration using separate training, calibration, and test partitions.",
+        "Compared reliability diagrams, log loss, and calibration error across class imbalance settings, documenting sensitivity to calibration sample composition."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented coordinate descent for lasso and elastic net regression, checking optimization convergence against reference estimators on standardized synthetic datasets.",
+        "Compared prediction error and coefficient stability across correlated feature settings, using nested cross validation to separate regularization selection from evaluation."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Bootstrap Intervals for Regression Predictions",
+      "bullets": [
+        "Implemented residual and pairs bootstrap procedures for linear regression, generating prediction intervals with explicit treatment of observation noise.",
+        "Compared empirical coverage and interval width under heteroscedasticity and model misspecification, using repeated simulations to characterize each procedure's limitations."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Retrieval Sensitivity in Document-Grounded Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance and distractor placement to examine answer grounding in retrieval-augmented question answering.",
+        "Analyzed answer correctness and unsupported claims across retrieval conditions, separating evidence selection failures from generation errors through manual review."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Negation-Aware Sentiment Classification",
+      "bullets": [
+        "Designed cross-domain experiments comparing lexical and contextual sentiment classifiers, with evaluation subsets targeting negation scope and contrasting sentiment clauses.",
+        "Analyzed classification errors across review domains and training conditions, using bootstrap intervals and ablations to assess sensitivity to negation cues."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Negation and Domain Shift in Sentiment Classification: A Comparative Evaluation of Lexical and Contextual Models"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Ticket Processing and Search Maintenance",
+      "bullets": [
+        "Implemented assigned changes to ticket text normalization and duplicate detection, preserving existing interface contracts and documenting edge cases.",
+        "Added regression tests for malformed inputs and investigated search indexing failures using application logs and reproducible test cases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sequence Labeling Approaches for Named Entity Recognition",
+      "bullets": [
+        "Implemented conditional random field and transformer token classification baselines with consistent token alignment and shared training, validation, and test partitions.",
+        "Compared entity-level precision and recall, examining boundary errors, rare entity categories, and sensitivity to reduced training data."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for FAQ Matching",
+      "bullets": [
+        "Implemented lexical ranking and sentence embedding retrieval for matching user questions to FAQ entries under a shared evaluation protocol.",
+        "Compared ranking quality across paraphrase and vocabulary mismatch subsets, inspecting retrieved candidates to characterize lexical overlap and semantic confusion."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Graph Ranking and Sentence Centroids",
+      "bullets": [
+        "Implemented graph-based sentence ranking and centroid-based selection for document summarization, applying identical preprocessing and summary length constraints.",
+        "Compared summaries using reference overlap and manual redundancy checks, analyzing how sentence position and document structure affected content selection."
+      ]
+    }
+  ]
+}

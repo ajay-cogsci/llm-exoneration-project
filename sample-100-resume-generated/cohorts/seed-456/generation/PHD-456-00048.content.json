@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Textual Entailment Models",
+      "bullets": [
+        "Designed supervisor-guided experiments using paired premise and hypothesis edits to examine how negation placement affects textual entailment predictions.",
+        "Compared pretrained classifier responses across lexical overlap conditions, manually reviewing prediction reversals to distinguish semantic sensitivity from superficial token matching."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Sentiment Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to separate vocabulary shift from sentiment distribution changes when transferring review classifiers across product domains.",
+        "Evaluated sparse linear and transformer baselines under matched training splits, examining calibration and classification errors involving domain-specific expressions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded stock discrepancies, and routed damaged or incomplete shipments to the responsible staff.",
+        "Prepared order paperwork, maintained organized inventory records, and coordinated routine pickup schedules with colleagues handling dispatch and customer collection."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented term-weighted retrieval and pretrained sentence embedding baselines to match incoming questions with relevant entries in a question archive.",
+        "Compared ranking quality using held-out relevance labels and inspected retrieval failures involving paraphrases, ambiguous wording, and rare technical terms."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field baseline and fine-tuned a transformer token classifier using consistent entity labels and train-test partitions.",
+        "Compared entity-level precision and recall, analyzing boundary errors and performance differences between common entity mentions and previously unseen names."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization Through Sentence Ranking",
+      "bullets": [
+        "Implemented frequency-based and graph-based sentence ranking methods for document summarization, applying identical preprocessing and summary length constraints across comparisons.",
+        "Evaluated summaries against reference texts using overlap metrics and manually examined redundancy, missing context, and sentence ordering in selected examples."
+      ]
+    }
+  ]
+}

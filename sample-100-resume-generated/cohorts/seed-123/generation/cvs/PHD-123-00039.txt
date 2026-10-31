@@ -1,0 +1,36 @@
+Applicant PHD-123-00039
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.84/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-11 to 2026-11 | 10 hours/week
+Evaluating Image Classifier Robustness to Background Changes
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare image classifiers under background replacement, using controlled foreground masks and consistent training splits.
+- Implemented evaluation pipelines in PyTorch and analyzed prediction changes across background conditions, documenting potential confounds from mask boundaries and object scale.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-02 to 2025-11 | 10 hours/week
+Image Ingestion Validation and Processing
+- Implemented Python validation routines for uploaded images, checking file readability, channel consistency, and dimension constraints before downstream processing.
+- Added regression tests for malformed inputs and maintained preprocessing components, investigating failures through application logs and reproducible test cases.
+
+TECHNICAL PROJECTS
+Comparing Feature Representations for Image Classification | technical course project, 2026
+- Implemented histogram of oriented gradients with a linear classifier and a convolutional baseline for classification on a shared image dataset.
+- Compared classification errors and sensitivity to translation using matched data splits, documenting preprocessing choices and differences between learned and handcrafted features.
+Comparative Evaluation of Image Denoising Methods | technical course project, 2026
+- Implemented median filtering and a convolutional denoising autoencoder, applying identical synthetic corruption settings to paired clean and noisy images.
+- Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, examining edge preservation and artifacts across corruption types.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

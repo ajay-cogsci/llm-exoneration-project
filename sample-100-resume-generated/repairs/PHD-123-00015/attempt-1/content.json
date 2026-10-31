@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and label mapping routines for support request classification using preprocessing rules specified by the research team.",
+        "Ran prescribed logistic regression experiments with word frequency features and compiled confusion matrices to support review of commonly confused request categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Processing",
+      "bullets": [
+        "Checked incoming delivery paperwork against purchase orders, recorded discrepancies, and routed incomplete documentation to the appropriate staff members for follow-up.",
+        "Maintained inventory logs, organized order records, and prepared routine handover notes covering pending deliveries and unresolved stock discrepancies."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Baseline for Product Review Sentiment Classification",
+      "bullets": [
+        "Implemented a sentiment classification baseline using TF-IDF features and logistic regression, fitting the vocabulary exclusively on the training partition.",
+        "Evaluated predictions with precision, recall, and macro F score, then inspected misclassified reviews for negation, mixed sentiment, and uncommon vocabulary."
+      ]
+    }
+  ]
+}

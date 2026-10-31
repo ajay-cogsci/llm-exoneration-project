@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Surface Defect Segmentation Under Illumination Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess how illumination augmentation affects convolutional segmentation models trained on images of manufactured surfaces.",
+        "Compared augmentation settings using overlap metrics, boundary accuracy, and error inspection, separating lighting sensitivity from failures associated with small defects."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Illumination Augmentation for Surface Defect Segmentation: A Controlled Evaluation"
+    },
+    {
+      "id": "P2",
+      "title": "Boundary and Small-Defect Errors in Surface Segmentation Under Lighting Shift"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs with overlapping views.",
+        "Compared descriptor normalization and matching thresholds using reprojection errors and visual inspection of alignment failures under rotation and brightness changes."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine-tuning baselines for distinguishing visually similar object categories using a pretrained convolutional network.",
+        "Evaluated classification performance across training configurations, inspecting confusion matrices and misclassified images to characterize background dependence and subtle appearance differences."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted by synthetic impulse and Gaussian noise.",
+        "Compared reconstruction quality using peak signal-to-noise ratio and structural similarity, inspecting edge preservation and texture smoothing across noise conditions."
+      ]
+    }
+  ]
+}

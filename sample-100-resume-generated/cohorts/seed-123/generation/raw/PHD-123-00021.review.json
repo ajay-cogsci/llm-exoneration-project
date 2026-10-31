@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:23:11.821567+00:00",
+  "request_hash": "40307172d49937ff36fe82e476b7766114472c34b7df04602b7f49116f7f3df5",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ordinary least squares and ridge regression baselines with scikit-learn, applying median imputation and feature standardization within training pipelines.\", \"Selected regularization settings through cross-validation and compared held-out prediction errors, inspecting residual plots for systematic differences across price ranges.\"], \"id\": \"T1\", \"title\": \"Regularized Regression Baselines for Housing Price Prediction\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned preprocessing and logistic regression routines for tabular classification experiments using specified class proportions and fixed training splits.\", \"Generated reliability diagrams and computed Brier scores for prescribed calibration settings, checking evaluation scripts against supplied examples and documenting discrepancies.\"], \"id\": \"R1\", \"title\": \"Probability Calibration Under Class Imbalance\"}], \"work\": [{\"bullets\": [\"Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed damaged or missing items for follow-up.\", \"Prepared order paperwork, maintained filing records, and coordinated pickup schedules with staff to support routine daily operations.\"], \"id\": \"W1\", \"title\": \"Inventory and Order Processing Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00021\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.22, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 2, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-09\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-09\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0cef97e760b06363016ae615eff5c887d08b64d47bd9fc67df",
+    "object": "response",
+    "created_at": 1793463791,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463793,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0cef97e760b06363016ae615f12e7087d0a05fe51182d9d1ba",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hXxaf0Uvawb9OqEzt9Ix5MreaEOZuDZnnBZd0zLTTB3V0ung455EsVARnvtgC761N7YhRqah72m7nIJWK7i2KUviKvu3emNGI9u3JllSmp5JwNGVvAPWOVAnsP0FrQ41iLrLhBjuQIg0RJFbYi3z8VwHPjG0ZrgHkO3kMeSf-kXV6FNdXh6AINcN6Z53lY6fiYXtSwE3aTI1imLkdvCb6W85bMPnh30FK68a2zJAegbIC4ItkzMs5SnkpsgxOr0oZsCRqc38aLkue6dO7ZV8Qp25-eNVWUAnDRTUtmNwBVAhXd5IaIVxNGJZFsG94pJHdQL8FuFJzQkb9hX37QJH_3fZYllflVh9I3oRhJ8JRQDBW3JEcZeWJ6T3b79xR8H80j24aLNWvXXbjCNhHRPsHi_2mYUKkwg5P1hIF649rFiDYqwwMwJGh0FrDkW0NrcPjWbSEnlp9a_1VdW7Qhkvtv8CwzkbbMCt8aYn7vbBYa56zixT_1opjLyrxczUMSp1QipvYmOfZVe6d-Y9p9JIqg4Tc6PVYGpFJZ4jKcPPjoeTTkvj7ochINyrhC8oznn0mYf9_C3_tDlbFj16Vy_azuaqkwv9JIsIW-2iWENPFqxK-lX8oCf18tVaKPiVfGLjA23M5-CivOY4AeirisjDGVud8r5V3_A4yaQ2tsjocIYC8l5QvyFo8MEPiJxWsWiOEnKzt7XJ10QUPnRs-UzbHNWJOhI93PzR7b6uUmH9rpquusFJKHQTOnpc1mff-Bhz46mUnj-BdyxDES9QCfg7t_Sav0tMYGcI_ZBVxR12o8VkqqI6FXwCnb2meXf587qCwUTerZVjHzcxYjseosAe5TMh-APEXo4Ztv-DDFlchYA5u-PjCdilahsRYB0H33kkPI7mnSRBHp1Oe1g7afXuyyIVE-RTcTpkqNTEiS6ITYAZPVQTCoMDdJGa2uyMdyaNasCZI1Dp3cLy9TZPaN9m2CxpCU4nYzIt1LQOmHboU_rK7GalsGSHkZG4TSSV8OoZ4sYlPOflUnfRv2JizcN5G-gLIvqp4HenjqDfwrhxyDUnVeoqMk1Taywg6iAlhAB_CEc8MZUzB9RyE7EOH8mtJmsJo7aZmD0BSZqekTTNhQ0W3l4KVenBmKIa2YG5WVvFaEm9a8NIulDHBsmLcZXrKTO7a_RP914gjGTy16O1C39q0rTlTcBQk-lQe6uSeZGH6UAFRxo2WNwkQY2HyUpUqTerY9cQLzUQf3S71EMIvumi577OC-2XLWXiQIJIY5Lek7wenjtNPGULSenVB7W8v0J3iaguuvO9VP_hPzzqxuursytFWaBEoG-tAbsTWJK9HDNuIXowTRFytBpPcjH-Hs0K09Wa2FMZTLrlCfuQMUPYdsd37lcCDjzLcMXDytXAP-TYZTcjh7B-OGsR7LGngD_gOK1yJBF-Gfr5TdBoZa4oBn6nf1rrQ44coLfs7wrO2xW0GdUEiHeDVRca3dcffVVYv8F-o6foGC3hrBCIto4FGKa_zHrYECVOSS-Wo707FR9xpzGygOXrz1qpG00bOYMJSHSnS1CSQH6q_rlfo9KjczHp2Eo9czTHLEAABZDjee4O8555FJloZaTokXlgw6dGBBaYz2TPUu9XDj3ZDTp9NrmKEck1vlp36pzHY-zg26gWY-ZILEKNGrijITRNbbGWg==",
+        "summary": []
+      },
+      {
+        "id": "msg_0cef97e760b06363016ae615f1d80c87d08e032de560464449",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 805,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 37,
+      "output_tokens_details": {
+        "reasoning_tokens": 19
+      },
+      "total_tokens": 842
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

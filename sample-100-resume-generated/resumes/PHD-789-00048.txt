@@ -1,0 +1,44 @@
+Applicant PHD-789-00048
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.49/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Regularized Prediction with Correlated and Missing Covariates
+Contribution: designed experiments and analyzed results.
+- Designed simulation experiments varying feature correlation and missingness mechanisms to compare regularized regression models under matched training and evaluation conditions.
+- Analyzed prediction errors and coefficient stability across repeated samples, separating sensitivity to imputation choices from sensitivity to regularization strength.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Probability Calibration under Distribution Shift
+Contribution: designed experiments and analyzed results.
+- Designed comparative experiments evaluating probability calibration methods under class prevalence shifts, varying calibration sample size and classifier family.
+- Analyzed proper scoring rules, reliability diagrams, and subgroup calibration patterns to characterize tradeoffs between aggregate calibration and performance across shifted populations.
+
+PUBLICATIONS
+Probability Calibration under Class Prevalence Shift: A Comparative Evaluation. Peer-reviewed ML conference, 2026-09; published; author position 3.
+Calibration Sample Size and the Stability of Post-Hoc Probability Estimates. Regional applied computing conference, 2026-07; published; author position 1.
+Subgroup Reliability Diagnostics for Classifiers Evaluated under Prevalence Shift. Regional applied computing conference, 2026-11; published; author position 4.
+Interactions between Prior Probability Correction and Post-Hoc Calibration: An Empirical Study. Peer-reviewed ML conference, 2026-08; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-09 to 2024-06 | 10 hours/week
+Batch Data Validation and Reporting Utilities
+- Implemented assigned Python utilities for validating incoming tabular records, handling malformed fields, and generating summaries for existing internal reporting workflows.
+- Added regression tests for parsing and validation behavior, investigated reported processing failures, and documented expected inputs and error handling.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Linear and Nonlinear Classification Models | technical course project, 2026
+- Implemented classification pipelines using logistic regression, support vector machines, and random forests, with preprocessing fitted exclusively on training partitions.
+- Compared predictive discrimination and probability quality using stratified cross-validation, examining how feature scaling and hyperparameter selection affected each model.
+Bootstrap and Analytic Confidence Intervals for Regression | technical course project, 2026
+- Implemented residual bootstrap, pairs bootstrap, and analytic confidence intervals for linear regression using Python and NumPy.
+- Compared empirical coverage and interval width across simulated noise distributions, assessing sensitivity to heteroscedasticity and departures from Gaussian errors.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

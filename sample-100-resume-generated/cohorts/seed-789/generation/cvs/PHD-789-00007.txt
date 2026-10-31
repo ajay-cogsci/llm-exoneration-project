@@ -1,0 +1,46 @@
+Applicant PHD-789-00007
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.77/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Negation Sensitivity in Extractive Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments using negated questions and matched affirmative variants to assess answer selection behavior in pretrained extractive models.
+- Analyzed prediction changes by negation scope, answer location, and lexical overlap, distinguishing unsupported answers from failures to identify relevant passages.
+Research assistant, University Research Group | 2025-05 to 2026-08 | 10 hours/week
+Cross-Domain Robustness and Calibration in Intent Classification
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain evaluation protocols comparing lexical and transformer classifiers under vocabulary shifts, with controls for label overlap and training composition.
+- Analyzed calibration and abstention behavior across domains, examining confidence distributions and error categories to characterize unreliable predictions on unfamiliar requests.
+
+PUBLICATIONS
+Evaluating Vocabulary Shift in Cross-Domain Intent Classification. Regional applied computing conference, 2026-06; published; author position 2.
+Confidence Calibration and Selective Prediction for Intent Classification Under Domain Shift. Peer-reviewed ML conference, 2026-09; published; author position 2.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-08 to 2025-05 | 10 hours/week
+Document Ingestion and Validation
+- Implemented Python routines for document ingestion, metadata validation, and duplicate detection within an existing text processing service.
+- Maintained unit tests for malformed inputs and encoding inconsistencies, investigated processing failures, and documented fixes for routine service maintenance.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sequence Taggers for Entity Recognition | technical course project, 2026
+- Implemented conditional random field and bidirectional recurrent sequence taggers for named entity recognition using a shared preprocessing and evaluation pipeline.
+- Compared entity-level precision and recall across entity types, inspecting boundary errors and unfamiliar tokens to contextualize differences between tagging approaches.
+Lexical and Dense Retrieval for Passage Search | technical course project, 2026
+- Implemented lexical ranking and pretrained sentence embedding retrieval for passage search, using consistent query sets and relevance judgments.
+- Compared retrieval rankings under paraphrased queries and rare terminology, examining missed passages and lexical distractors through structured error analysis.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented frequency-based and graph-based sentence ranking for extractive summarization, applying shared sentence segmentation and summary length constraints.
+- Compared summaries using reference overlap and manual checks for redundancy, tracing omitted information to sentence scoring and selection behavior.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

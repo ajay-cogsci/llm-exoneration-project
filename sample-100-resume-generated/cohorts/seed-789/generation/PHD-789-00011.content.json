@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Surface Defect Classification with Handcrafted Visual Features",
+      "bullets": [
+        "Prepared surface inspection images by checking defect labels, standardizing image dimensions, and grouping related samples to prevent overlap between evaluation splits.",
+        "Implemented a baseline classifier using local texture descriptors and a support vector machine, then reviewed confusion matrices to characterize common classification errors."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Documentation",
+      "bullets": [
+        "Checked incoming delivery paperwork against purchase records, logged discrepancies, and routed incomplete documentation to the appropriate staff for follow-up.",
+        "Maintained inventory filing records, organized order forms, and prepared routine handover notes covering outstanding requests and pending delivery confirmations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Pedestrian Classification Using Gradient Features",
+      "bullets": [
+        "Implemented a baseline pedestrian image classifier using histogram of oriented gradients features and a linear support vector machine in scikit-learn.",
+        "Evaluated predictions on held-out image crops and inspected false positives associated with vertical background structures, partial occlusion, and low contrast."
+      ]
+    }
+  ]
+}

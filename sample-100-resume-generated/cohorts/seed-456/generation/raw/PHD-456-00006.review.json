@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:21:49.048527+00:00",
+  "request_hash": "16f1437eccb695226c1c159b819662bbbbe84839518f33a2aa8be8e95b374621",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented image retrieval pipelines using color histograms and gradient descriptors, with standardized preprocessing and distance-based ranking over a shared image collection.\", \"Compared retrieval precision across descriptor choices and dimensionality reduction settings, inspecting failure cases involving viewpoint changes, background clutter, and similar color distributions.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Image Retrieval Descriptors\"}, {\"bullets\": [\"Implemented a convolutional image classifier with cross-entropy, class-weighted cross-entropy, and focal loss while holding architecture and data partitions fixed.\", \"Compared per-class recall and confusion patterns under controlled class imbalance, examining how loss selection affected minority-class predictions and overall calibration.\"], \"id\": \"T2\", \"title\": \"Loss Functions for Imbalanced Image Classification\"}, {\"bullets\": [\"Implemented Gaussian filtering, nonlocal means, and a convolutional denoising autoencoder using matched clean images and synthetically corrupted inputs.\", \"Compared reconstruction quality across noise levels using peak signal-to-noise ratio and structural similarity, inspecting edge preservation and texture smoothing artifacts.\"], \"id\": \"T3\", \"title\": \"Classical and Learned Methods for Image Denoising\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Confidence-Weighted Appearance Consistency for Semantic Segmentation Under Lighting Shifts\"}, {\"id\": \"P2\", \"title\": \"Patchwise Prediction Consistency for Illumination-Robust Semantic Segmentation\"}, {\"id\": \"P3\", \"title\": \"Feature Moment Perturbations for Semantic Segmentation Across Illumination Conditions\"}], \"research\": [{\"bullets\": [\"Investigated whether visibility-aware consistency improves keypoint localization under partial occlusion; developed a training objective separating visible landmarks from synthetically obscured landmarks.\", \"Evaluated localization errors across occlusion patterns and compared visibility weighting against uniform consistency penalties using controlled masking experiments.\"], \"id\": \"R1\", \"title\": \"Visibility-Aware Consistency for Occluded Keypoint Detection\"}, {\"bullets\": [\"Formulated questions about illumination sensitivity in semantic segmentation and led development of feature moment perturbations, patchwise consistency objectives, and confidence-weighted training.\", \"Compared these components under held-out lighting conditions, examining classwise segmentation errors, confidence calibration, and sensitivity to appearance perturbation strength through ablation experiments.\"], \"id\": \"R2\", \"title\": \"Illumination-Robust Semantic Segmentation Through Appearance Consistency\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00006\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A\"}, {\"course\": \"Algorithms\", \"grade\": \"A\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.62, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 2, \"date\": \"2026-11\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 3, \"date\": \"2025-01\", \"id\": \"P2\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 1, \"date\": \"2024-10\", \"id\": \"P3\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 35, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2023-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0fb4f30cd723f9dc016ae6159d2f6887d0879d84e85041e09c",
+    "object": "response",
+    "created_at": 1793463709,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463710,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0fb4f30cd723f9dc016ae6159e7d3087d09e9798fc5c33f106",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1300,
+      "input_tokens_details": {
+        "cache_write_tokens": 1297,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1316
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

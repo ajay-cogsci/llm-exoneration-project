@@ -1,0 +1,50 @@
+Applicant PHD-456-00024
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.98/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion-Aware Feature Matching for Visual Correspondence
+Contribution: formulated a research question and led method development.
+- Formulated whether visibility estimates could distinguish unreliable correspondences from appearance changes, and led development of an occlusion-weighted feature matching objective.
+- Designed controlled evaluations using synthetic occlusions and viewpoint changes, comparing correspondence accuracy and confidence calibration against unweighted matching baselines.
+Research assistant, University Research Group | 2024-04 to 2026-08 | 10 hours/week
+Boundary-Aware Confidence Learning for Semantic Segmentation Under Domain Shift
+Contribution: formulated a research question and led method development.
+- Formulated how boundary uncertainty affects segmentation adaptation, and led development of confidence-weighted pseudo-labeling with spatial consistency constraints.
+- Developed boundary-sensitive calibration analyses and comparative experiments examining pseudo-label selection, consistency losses, and segmentation errors across appearance shifts.
+
+PUBLICATIONS
+Spatially Consistent Confidence Weighting for Semantic Segmentation Adaptation. Peer-reviewed ML conference, 2026-03; published; author position 1.
+Boundary-Aware Pseudo-Label Selection Under Visual Domain Shift. Peer-reviewed ML conference, 2025-09; published; author position 2.
+Characterizing Boundary Confidence in Semantic Segmentation Across Appearance Shifts. Peer-reviewed ML conference, 2024-10; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-04 to 2024-04 | 10 hours/week
+Image Processing Service Maintenance
+- Implemented assigned image validation and resizing components, handling malformed uploads and preserving consistent output formats for downstream application services.
+- Added regression tests for image processing edge cases, investigated service failures, and documented component behavior during routine maintenance.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Classification Transfer Strategies | technical course project, 2026
+- Implemented frozen-feature classification and full-network fine-tuning using pretrained convolutional models, with consistent preprocessing and matched training partitions.
+- Compared classification performance across limited-label settings, examining confusion patterns and sensitivity to augmentation choices using held-out validation data.
+Classical and Learned Stereo Matching | technical course project, 2026
+- Implemented block matching and a convolutional stereo baseline, aligning disparity conventions and preprocessing across a shared image-pair evaluation pipeline.
+- Compared disparity errors in textured, reflective, and occluded regions, inspecting failure cases and the effects of matching-window size.
+Image Retrieval with Local and Global Descriptors | technical course project, 2026
+- Implemented local-feature aggregation and pretrained global image embeddings for retrieval, applying consistent descriptor normalization and nearest-neighbor ranking procedures.
+- Evaluated retrieval rankings under cropping and illumination changes, comparing descriptor behavior through relevance metrics and qualitative inspection of mismatched images.
+Optical Flow Estimation Under Motion and Brightness Changes | technical course project, 2026
+- Implemented a pyramidal gradient-based optical flow baseline and evaluated an existing learned estimator with shared frame preprocessing.
+- Compared endpoint errors across motion boundaries and brightness perturbations, documenting failure cases associated with large displacements and low-texture regions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

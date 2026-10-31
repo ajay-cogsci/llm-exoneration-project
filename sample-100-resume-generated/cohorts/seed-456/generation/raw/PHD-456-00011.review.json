@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:59.509534+00:00",
+  "request_hash": "df8abd83f47c5fe773f07a8855dba022b93530bb9ce5df5bf19b43416bc06c70",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a ridge regression baseline with scikit-learn, applying training-set standardization and cross-validation to select the regularization parameter for continuous outcome prediction.\", \"Compared held-out prediction errors against an ordinary least squares baseline and inspected residual plots for systematic deviations across target ranges.\"], \"id\": \"T1\", \"title\": \"Ridge Regression Baseline for Tabular Prediction\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned logistic regression evaluation routines using predefined train and validation splits to examine probability calibration on imbalanced tabular datasets.\", \"Generated reliability diagrams and computed Brier scores under specified regularization settings, documenting discrepancies between predicted probabilities and observed class frequencies.\"], \"id\": \"R1\", \"title\": \"Calibration Evaluation for Regularized Classifiers\"}], \"work\": [{\"bullets\": [\"Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent data types, and duplicate identifiers within existing import workflows.\", \"Added regression tests for malformed input cases and corrected parsing defects, preserving established interfaces and documenting error handling behavior.\"], \"id\": \"W1\", \"title\": \"Validation and Maintenance of Tabular Data Imports\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00011\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.08, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 3, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-08\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 6, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2026-02\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0bcb878f771f85f7016ae6152fa45887d09421abfe5d98fd54",
+    "object": "response",
+    "created_at": 1793463599,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463602,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0bcb878f771f85f7016ae61531297087d0842b1a1164f2a89a",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hUyMSevo0ZgKGDBjlH5wf9H0v11l7wyKJV1kJQokA0IzcOpwHyv7wUI36jWRkaXihcTFtDVGsl2ihP03D4fNc9BScWeNxZklFUGzK-JDnGuNZGzCmp-fNUfcdv_wHxnB0pNW2eON_iBfQpM4h3Ul0l4H4McqMkJpatGhKR22bUo-yTdv0tph_OrYlWyC7NfgC7YFcaw6LPzTWz6LHUokDWbj7O1P6rSixEfG6OZagoB-VUf-NUQpttB9_WyFqj7FHhDDEcE8k5CUm1Jbvft3E-tvR1xSys_TTblE63672T24Zld_Lw4BqaB9pr6z78EgJbrgFIpVX16-2OeLwF8mNff4AvKprOMEm69xFykmyma8u1wpdqXRgZq_1RElGcprxblMJJmaZdoO7lu4s2D1luNvNzPqKO2dH5uOjrDJmBe-h9XRIBm25dj24PGn0T1mwf1ULiyX9m3h1vHDBj8ySNRMC5GUgSDEjPAXZe-SyT5NtHWIWryqvzTPafEhFHQ_oA6Uoi9OtTy4FLo4398CazxjV97sZDbOAcPvVRvJ8Udsa8ZEyuPTnkvfWimd2a8-9A4L9QPqJ9T5i1ZPz5-IOs0u0NE522LmGXea9qgcDlLz_fNRarQMFgR_0brUteeM0cKOa3nA80OSm0id81C_slYVs7Jl7cikAOXuCMHUAbx2-liXDAW7NyIQTr5_wxtHDSisiQ3jwhwjOxhkXrxpja3Qj98Z4eXsHQdptYG28dL7TglXNUuixsI34f10CyJiB2TPZnw6lalIEzX5h1C4ynmsQJUmZ39IjjF_b2zDn1UTRrtB_b4Duas6E19pmOnqNl947q3xr_VcYhIUN6xl20qmN5_nOnBzI_PUk1zmSJ9D8ogQOMsjPF-khEriwQ20jLGyj5_zy4xDxzJla7hkSaxuteohH03BrrMaG9tOixLoKNiTqqm14BPLy25BCuVOzFjSmdhRELo_bzCVhEFC2lMnUa8-sHccU0EWxrV7gijGW-kor7FYunAZEgzeYsNipGTCXp-rrpzrw8DnpJBOIgE0k_uNl-lavdgEgkvvgblqLW0bY2xpRdxwrKaVTszQama14KOiQUjmyOTSJSpOukfJHHi8gGKCNqWL2D4MG0eUObBoM5caCY8e-eGFpSzS9VZFWtQZ0VJ2fubDun98jvg80SWOHcv7asut8Lb1zVVkijMe8nbHWWmKiSjFqp6aHX4AS8zdPURwm-AMNJwXBaL6MtKdDUy07N-SxPTY1zFKDM0G0EOxvZTcB2K7dNAaYX3raucpsWhPV-NYl55YhN3bFWRdM8Q7a6odAPIMp55TvDhNHcK0EKk4JH0mfgQVFrVWvZdkMdyioJT8rnbGGInVg27i_6hC1S_KMowC9eaIxDFXFMWYerpZ0xAS__MYeruj8IQyhsdyP_GLiVIaR1ju4G-ienN0vjkyNGw8c75EuTqRtSYdkoszMSIUxfAli8Vat9q758T-vftgWUkM_wvUK-JK0lgr9qLn9HkIHB_NCIeG4CHknhqv7bQR5ZK1VVSSlmUSmthdMnOsCwOtQjPgud7a5PW-FdMNx3mVHvA1MMEcZnm-y-rbbvgiZxEC4jPCg3Zh0TU1KIGrjV5O6g8PWA-k7_mioX1Q_UqcoWI2zmVRokQaUXGIH55_9FQk82xGehq18a9ukEXz0EBIJ4VDWK0dkUYtroR2h3-OzqrDqJtca8dnNci3KINbnM88YnduWfwUW3cikrW4dN_uEsHDA==",
+        "summary": []
+      },
+      {
+        "id": "msg_0bcb878f771f85f7016ae615321d4487d0a62cae0c09270fc3",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 858,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 25
+      },
+      "total_tokens": 901
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

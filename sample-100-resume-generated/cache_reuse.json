@@ -1,0 +1,181 @@
+{
+  "rationale": "Facts and wording requests are unchanged by the selection-RNG fix. Selection was completed before cache reuse. cached_call will verify each request hash before using it.",
+  "reused_responses": [
+    {
+      "profile_id": "PHD-123-00016",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00016.generation.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00016.generation.json",
+      "facts_hash": "840197b606f4342074f53ec4f9b484507e621a76f868bb88ba621a0a31ee7cf8",
+      "request_hash": "db3fbfee3f73c220eda9bae49543e0d9a696e8e6995dc5c417011b99256a9a81"
+    },
+    {
+      "profile_id": "PHD-123-00001",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00001.generation.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00001.generation.json",
+      "facts_hash": "706e8393406900307e589383cf6d9f4f01e655a40a83550e0c6c4b709a78d2a8",
+      "request_hash": "8dcecbf1da0139d0a2598a041d13d0b758c43cf7e5a036334174b685771f779f"
+    },
+    {
+      "profile_id": "PHD-123-00001",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00001.review.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00001.review.json",
+      "facts_hash": "706e8393406900307e589383cf6d9f4f01e655a40a83550e0c6c4b709a78d2a8",
+      "request_hash": "73f3659231aa8fd3641e85864479edb0c0ab6c2951e96370bf2e4df8cad6c9a1"
+    },
+    {
+      "profile_id": "PHD-123-00028",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00028.generation.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00028.generation.json",
+      "facts_hash": "4b98746f6c5e30a6d2bd6ccd66930333fcc2c040fc0d91fded779af5278ae00e",
+      "request_hash": "ded0e39d1d7fb3bf5ab85676767ad6b0505b497989c9aaad92603bc85cc3bea9"
+    },
+    {
+      "profile_id": "PHD-123-00028",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00028.review.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00028.review.json",
+      "facts_hash": "4b98746f6c5e30a6d2bd6ccd66930333fcc2c040fc0d91fded779af5278ae00e",
+      "request_hash": "21c50d237705572704b9c17dc01fc8ca6c8e823cf13718f706e5cee359fd37c1"
+    },
+    {
+      "profile_id": "PHD-123-00002",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00002.generation.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00002.generation.json",
+      "facts_hash": "07822c8d3f21833f07a8cba8a40e266947accd912b6fa7707c8830067f32833b",
+      "request_hash": "5d105b1d17961f8169f321a406ef2ff2396e2b9b1f9d6db6917416530fccc959"
+    },
+    {
+      "profile_id": "PHD-123-00002",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-123/generation/raw/PHD-123-00002.review.json",
+      "destination": "cohorts/seed-123/generation/raw/PHD-123-00002.review.json",
+      "facts_hash": "07822c8d3f21833f07a8cba8a40e266947accd912b6fa7707c8830067f32833b",
+      "request_hash": "adff8522cc12d5901bad00397d0fe5ac730b7280454823ea3b62114df795b418"
+    },
+    {
+      "profile_id": "PHD-456-00010",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00010.generation.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00010.generation.json",
+      "facts_hash": "b6edb69fad985963af8590c25cabee7f077a639b16f08afcd1df4d9db1ce4ff7",
+      "request_hash": "15588f00008a24b68b424357b4203f127b1112fb516a274fa56d30135cb23b3e"
+    },
+    {
+      "profile_id": "PHD-456-00010",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00010.review.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00010.review.json",
+      "facts_hash": "b6edb69fad985963af8590c25cabee7f077a639b16f08afcd1df4d9db1ce4ff7",
+      "request_hash": "fd50416037ad304f1b69795c31ba2bb964ca3302ab774309feadb5d65a1b81d7"
+    },
+    {
+      "profile_id": "PHD-456-00012",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00012.generation.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00012.generation.json",
+      "facts_hash": "af4ebb3a9ce21df10faebd6a51aec5270664eaa27a06bc7528d822645458598b",
+      "request_hash": "6ff860d13b2ce4826955ca09519a73c1a99b6949ece04bb11e0248f44753809b"
+    },
+    {
+      "profile_id": "PHD-456-00012",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00012.review.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00012.review.json",
+      "facts_hash": "af4ebb3a9ce21df10faebd6a51aec5270664eaa27a06bc7528d822645458598b",
+      "request_hash": "1f1dcd10c9b68b459e171ede7b7e83697ab260de09576b0617f900c73d233af2"
+    },
+    {
+      "profile_id": "PHD-456-00038",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00038.generation.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00038.generation.json",
+      "facts_hash": "74a68b89607a9e9171b61272c319eabec5803cb3080c6117a74ff478d134a8bc",
+      "request_hash": "ad74ec55857b2a3cce7db3c206a33f6a5f8c24ad07d3ed5c9a8bdca35bb7c44a"
+    },
+    {
+      "profile_id": "PHD-456-00038",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00038.review.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00038.review.json",
+      "facts_hash": "74a68b89607a9e9171b61272c319eabec5803cb3080c6117a74ff478d134a8bc",
+      "request_hash": "b109270f8a5dc758425a538d3cf0703c2911d5b42ba22b89c7d15ce924962373"
+    },
+    {
+      "profile_id": "PHD-456-00029",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00029.generation.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00029.generation.json",
+      "facts_hash": "1535c37ef2081a0a62a1e72cf0a5881f41b30415936bf891b7c1851f6b69e264",
+      "request_hash": "8eb3956e08c65943dfeebad351d3e172dbc0a8b4e0b0122cbb38bac420958dae"
+    },
+    {
+      "profile_id": "PHD-456-00029",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-456/generation/raw/PHD-456-00029.review.json",
+      "destination": "cohorts/seed-456/generation/raw/PHD-456-00029.review.json",
+      "facts_hash": "1535c37ef2081a0a62a1e72cf0a5881f41b30415936bf891b7c1851f6b69e264",
+      "request_hash": "9a686e350601a83f19d38efd6133d6bfd22e98a4973d0c927da21cd0c9556d93"
+    },
+    {
+      "profile_id": "PHD-789-00022",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00022.generation.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00022.generation.json",
+      "facts_hash": "346d8b1f633fece8bffdba400b86b9cb3083c20063d26772a1e09bcbfbc203c5",
+      "request_hash": "4bf036695aef451ab8b10a8e235519c495691a242cc905cb08c5ed6d24e9099a"
+    },
+    {
+      "profile_id": "PHD-789-00022",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00022.review.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00022.review.json",
+      "facts_hash": "346d8b1f633fece8bffdba400b86b9cb3083c20063d26772a1e09bcbfbc203c5",
+      "request_hash": "b811a73b3eed1c6cf83119fe74736b2b9dabba1fec1593217f3e557bfa6852a0"
+    },
+    {
+      "profile_id": "PHD-789-00017",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00017.generation.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00017.generation.json",
+      "facts_hash": "b9cf062b3481cf1d3e760603b138fbf79a20925423d0077119de5ec056c465cf",
+      "request_hash": "67304b3c85cdedfb65411d6eed98abdc4c008876a289a6f2aa242e25b853588d"
+    },
+    {
+      "profile_id": "PHD-789-00017",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00017.review.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00017.review.json",
+      "facts_hash": "b9cf062b3481cf1d3e760603b138fbf79a20925423d0077119de5ec056c465cf",
+      "request_hash": "d5d4e72f3c868cb4a72b263ab2b57b132a683d58d064e38661b48c1fa78e92ad"
+    },
+    {
+      "profile_id": "PHD-789-00030",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00030.generation.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00030.generation.json",
+      "facts_hash": "52580c3aceb2cae805a1cc95c950586a3cb73aa8bbff81f554b70522f65a0a90",
+      "request_hash": "7ae76e03bfd4bb20b2c5011c8f95ef4ff974e0156196d3cb88b4a3d8abe04e57"
+    },
+    {
+      "profile_id": "PHD-789-00030",
+      "stage": "review",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00030.review.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00030.review.json",
+      "facts_hash": "52580c3aceb2cae805a1cc95c950586a3cb73aa8bbff81f554b70522f65a0a90",
+      "request_hash": "abace5c21b34b7d8ce2ae57fe2b1b475e46dbefa30c62bd6165d791b2c4a7472"
+    },
+    {
+      "profile_id": "PHD-789-00013",
+      "stage": "generation",
+      "source": "audit/superseded-correlated-selection/cohorts/seed-789/generation/raw/PHD-789-00013.generation.json",
+      "destination": "cohorts/seed-789/generation/raw/PHD-789-00013.generation.json",
+      "facts_hash": "1773b773f43ab038a342467b42e2f8631da09a19fe0bb026526df2ae4235ff8d",
+      "request_hash": "43205b608440ae3a815b09b5e8dc542b8f652e3099ea9a5a7b96932e9d3f149e"
+    }
+  ]
+}

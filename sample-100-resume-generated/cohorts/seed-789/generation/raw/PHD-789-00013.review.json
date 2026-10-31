@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:09.124541+00:00",
+  "request_hash": "8cc1673e20fc76e90088adce90cde63efcd03be04ed9172304e5b29b7920339f",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented frozen feature extraction and partial fine tuning for pretrained image classifiers using shared data splits and consistent preprocessing.\", \"Compared classification errors across adaptation strategies, inspecting confusion matrices and learning curves to identify overfitting and visually ambiguous categories.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Image Classification Transfer Learning\"}, {\"bullets\": [\"Implemented an image alignment pipeline using local descriptors, nearest neighbor matching, and robust homography estimation for overlapping image pairs.\", \"Compared descriptor matching thresholds and outlier rejection settings, examining reprojection errors and alignment failures under viewpoint changes and repetitive textures.\"], \"id\": \"T2\", \"title\": \"Local Feature Matching for Image Alignment\"}, {\"bullets\": [\"Implemented bilateral filtering and a convolutional denoising autoencoder, constructing paired clean and corrupted images with controlled synthetic noise.\", \"Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and artifacts across noise conditions.\"], \"id\": \"T3\", \"title\": \"Classical and Learned Methods for Image Denoising\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to assess segmentation models under blur, sensor noise, and illumination shifts using controlled corruption protocols.\", \"Implemented evaluation routines and augmentation ablations, examining classwise intersection over union and boundary errors to characterize sensitivity across corruption types.\"], \"id\": \"R1\", \"title\": \"Robustness of Semantic Segmentation Under Image Corruptions\"}], \"work\": [{\"bullets\": [\"Implemented image ingestion and preprocessing components for inspection workflows, handling inconsistent file formats, missing metadata, and malformed uploads.\", \"Maintained regression tests for image transformations and investigated processing failures through log review, reproducible test cases, and documented fixes.\"], \"id\": \"W1\", \"title\": \"Image Processing and Validation for Inspection Workflows\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00013\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2020-05\", \"institution\": \"University A\", \"start\": \"2016-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.88, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 17, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-06\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2025-09\", \"hours_per_week\": 40, \"id\": \"W1\", \"months\": 29, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-04\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_09e5f5c8970bdf44016ae614fd416087d087653dcc14e2dc73",
+    "object": "response",
+    "created_at": 1793463549,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463551,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_09e5f5c8970bdf44016ae614fe402487d08ce31bac9c59ac6c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hT_NyGTCahOFpUIJ9q260FcPyIXCuNFvoq2gbT-hQ6me2YzoMtdFsVHX_ZKlMoqBvU-Il2_bAz51KXs6jE1z9pPo9V_v2_2dquXjOJ6nu4Yk9P1o9cZIbt7u2JLN9D5yl1V2ExDXbUcTQ4-AEvNvDEaTQuPiij8brQf-nK4IJG6VTNzYa9z0HpqqRl0P0-ZWOrCZH15GKRzursEjqD_aEoz6lesMQ2VG_SsyV3wLMafGBBS8FAS6C3Lrv0S15UlXeKWuLr0PfcO9lID2psz0_wH-6W_xk43dRMfZbobYSpRyIKiQVNEvbuX3IeuKxez59WFEkiUw-w-rofto15269V46MQ3_iEguogxTnqNpKK0klvOyDROJW9mVHAhVG-WtI6F-xQX0GyXC58p97jcbQhGTTWGycidMGEhc3YmsoRky4UHR3QDxgvngcI2qDV-6nwK2QSurV9YxNFP99Q7LJvgRp0cp2CIDVKv-LosWuyNQfvGL10sVaEUtCinmElN5aQ-LxPS8ADWDANlMUXB4JymmSDA-jK5x-zTJ_yjbQ5tOxSDC3GGKNZeB-fZs7dHDGRy6xwWOQDPHJxgPrlVzVjo-yFHz7KlQW7zEjkrK9gqBCSwHutIn5EXzgrxqEariUJ1r1NPFH7oUUf3uxvV4evi78uv7IsRKd6qKZ0pIabW6fLZwIQGlbCqvzNkqz_o-R9eqrN9hZU7sArTksDLDIQ69wbUQIP72LpW8o_mLh3_vpSngSzoL7q_NYl0pCY5Q1OmH42B9zNuP5lqmp8SzzNdPxkMnmYkhdHlhaXZhi99xZxffarohw58QXS5lArhv_RxDabGSAejqF3e9yHSBsZD-dDZUyI7dsJlkGQeW0sqkW7vjPwIBx495bwJcx8O1Pg4UHuppsYgrn09R5SvIkWb250dBY8tALa1NmsgmKRsFv-A0ik_yO2k2PY4oh35JLeHswnj_GsddGqmUxZp7kivM5WAmd1HhAXeWSSPolNUsb-zPvV4X8Q0uTr1kHlaFKGUBD1HbxUI0q9RNs5-wgT07KHIr39m96qUwFmRdVIrD4N-ynQpD4eO_6Hh4BI2FKJr6F_Amn-qW7UBcUV7CHQbCRxiJJAB2sp3vnQesiLe5E8O1BeS3om6JkAAgrkzjCdr-S5whxJ0ocAXkrIFhxAhBKFEM5PwbtJKRcwYIFa7uUx162FQsFH4GEOWLw52cfMTB3STeKYX_HqyFITuc3zvlEaNCCi93v8nGiX91njkVNt4jk9ce-d8DCIg52h7NW4C5ogqkT8sHZzI_d0fPGV5vQLdar1NhzOAeICRwwVnbLfNV-cK5RpzMjHa7U_y7Kr00QpEgl9LUV88wLjp7zhMmU0LLoFmPE34_zxm1uTxy3zyKz6pvocAWgk_3KBVEjBteKkf674vaL7fFPq0t5ZNYg0SavDEur20ayX50B6L8daG8ny4_J04MEoD8EfdHi3jtjyBEHGxFAJS9vXSqcO5-q1LogisfMoBGODao--WGfX7IWMCm3qpxd74X5a7dBRq9aKirqTfRtciXY4VFbNwWHMhgRyYWvSCwMUDcy_LO6CFmaPubhi5ZWze1EKswKo0TpompQ0ikBbDCX_inklBawBrGCf-960Gpd-S9LM-n_wl8KAmXuyYJbUKVAat_BTU05YUS_rqFoCF8AlyZHPg12dOHCjRtJ78QWZD67J618W41OVXGDHp8Xp-m2SiZ17KwX4wevlWxE5muR1uVaMu4XLU3zRRWdpKlLXzVCTWICU7rK3FEtlHy_XUev0R851yGZngTX5hhC9UUfgIDObvMs1kFGu9HRj88wx3WMlSjDarZlNOotplX9gTSJDGM4qR",
+        "summary": []
+      },
+      {
+        "id": "msg_09e5f5c8970bdf44016ae614ff3e5487d08353e81bcae73de9",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1068,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1065
+      },
+      "output_tokens": 48,
+      "output_tokens_details": {
+        "reasoning_tokens": 30
+      },
+      "total_tokens": 1116
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

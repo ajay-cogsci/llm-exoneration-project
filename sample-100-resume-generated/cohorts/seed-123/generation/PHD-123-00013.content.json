@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and label mapping routines for support requests, following existing preprocessing specifications and documenting ambiguous category assignments.",
+        "Ran prescribed classification experiments using term frequency–inverse document frequency features and logistic regression, inspecting confusion matrices for recurring category errors."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Record Maintenance",
+      "bullets": [
+        "Processed incoming orders, checked required paperwork for completeness, and coordinated with relevant departments to resolve missing information before fulfillment.",
+        "Maintained inventory records, reconciled delivery documents against received goods, and escalated discrepancies through established procedures for follow-up."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baseline for Review Sentiment Classification",
+      "bullets": [
+        "Implemented a multinomial naive Bayes baseline with bag-of-words features for sentiment classification, using separate training and validation partitions.",
+        "Compared unigram and bigram feature configurations under the same evaluation procedure, reviewing misclassified examples involving negation and mixed sentiment."
+      ]
+    }
+  ]
+}

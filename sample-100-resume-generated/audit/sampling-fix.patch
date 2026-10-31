@@ -1,0 +1,41 @@
+diff --git a/phd_resumes/sampling.py b/phd_resumes/sampling.py
+index cd78781..3e672ce 100644
+--- a/phd_resumes/sampling.py
++++ b/phd_resumes/sampling.py
+@@ -218,7 +218,10 @@ def generate_cohort(config, seed):
+     counts = Counter((row["pathway"], row["perf_quintile"]) for row in pool)
+     # Exponential-race weighted sampling without replacement. Every member of a
+     # cell has weight 1/cell_size, matching the paper's inverse-frequency rule.
+-    selection_rng = random.Random(seed)
++    # A fresh Random(seed) repeats the uniforms used above for latent
++    # preparation. That would couple inclusion to applicant strength. Give
++    # selection its own reproducible stream instead of restarting that stream.
++    selection_rng = random.Random(f"phd-selection:{seed}")
+     ranked = sorted(pool, key=lambda row: -math.log(max(selection_rng.random(), 1e-300)) * counts[(row["pathway"], row["perf_quintile"])])
+     return pool, ranked[:config["n_per_cohort"]]
+ 
+diff --git a/tests/test_pipeline.py b/tests/test_pipeline.py
+index f6e8ad4..16c0d75 100644
+--- a/tests/test_pipeline.py
++++ b/tests/test_pipeline.py
+@@ -95,6 +95,20 @@ class SamplingTests(unittest.TestCase):
+             for row in pool:
+                 self.assertEqual(validate_profile(row), [])
+ 
++    def test_equal_cell_selection_is_not_coupled_to_preparation_draws(self):
++        cfg = config()
++        cfg.update(n_per_cohort=400, oversample=200)
++        # One pathway makes the performance-quintile cells equal-sized, so
++        # inverse-frequency selection should not favor high preparation.
++        cfg["pathways"] = {key: float(key == "bachelors") for key in cfg["pathways"]}
++        pool_levels, selected_levels = [], []
++        for seed in cfg["seeds"]:
++            pool, selected = generate_cohort(cfg, seed)
++            pool_levels.extend(r["latent_preparation_quintile"] for r in pool)
++            selected_levels.extend(r["latent_preparation_quintile"] for r in selected)
++        difference = sum(selected_levels) / len(selected_levels) - sum(pool_levels) / len(pool_levels)
++        self.assertLess(abs(difference), 0.15)
++
+     def test_no_analysis_metadata_in_cv_or_writer_input(self):
+         row = generate_cohort(config(), 123)[1][0]
+         for field in ("strength", "strength_status", "latent_preparation_quintile", "perf_quintile", "performance_index"):

@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction under Covariate Shift",
+      "bullets": [
+        "Designed controlled experiments comparing standard and importance-weighted conformal prediction under covariate shifts in synthetic regression datasets.",
+        "Analyzed empirical coverage and interval width across shift conditions, examining sensitivity to density-ratio estimation and calibration sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration under Class Imbalance",
+      "bullets": [
+        "Designed experiments comparing temperature scaling, isotonic regression, and uncalibrated classifiers across controlled class imbalance conditions and held-out evaluation sets.",
+        "Analyzed reliability diagrams, Brier scores, and class-conditional calibration errors to distinguish calibration effects from changes in discrimination and class prevalence."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Class Imbalance and Post-Hoc Probability Calibration: An Empirical Comparison of Temperature Scaling and Isotonic Regression"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented Python routines for validating incoming tabular records, handling missing fields, and producing consistent outputs for downstream application components.",
+        "Added regression tests for malformed inputs and revised error handling to support diagnosis of failed batch processing jobs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors, nested cross-validation, and synthetic datasets containing correlated features.",
+        "Compared predictive error and coefficient stability across regularization settings, examining how predictor correlation affected variable selection and estimation variability."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Inference for Bayesian Logistic Regression",
+      "bullets": [
+        "Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression using shared likelihood definitions and matched prior settings.",
+        "Compared posterior summaries, predictive log loss, and optimization behavior on synthetic classification datasets with varying sample sizes and feature dependence."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Kernel Methods for Nonlinear Regression",
+      "bullets": [
+        "Implemented kernel ridge regression and Gaussian process regression with radial basis kernels, using common preprocessing and validation splits.",
+        "Compared held-out prediction errors and computational demands across kernel settings, inspecting residual patterns for misspecification on nonlinear regression tasks."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Bootstrap Confidence Intervals for Skewed Data",
+      "bullets": [
+        "Implemented percentile, basic, and bias-corrected bootstrap intervals for estimating population means from simulated skewed and heavy-tailed distributions.",
+        "Compared empirical coverage and interval lengths across sampling conditions, documenting sensitivity to extreme observations and the number of bootstrap resamples."
+      ]
+    }
+  ]
+}

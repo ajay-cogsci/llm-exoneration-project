@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:21:22.909795+00:00",
+  "request_hash": "ad51c13ae7af012e70343b4b97d0171dbc3e46b6b82c732bd7d710fc0d0eebc1",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting overlapping views of planar scenes.\", \"Compared descriptor normalization and matching criteria using reprojection error and visual inspection under changes in viewpoint, illumination, and texture.\"], \"id\": \"T1\", \"title\": \"Local Feature Matching for Planar Image Alignment\"}, {\"bullets\": [\"Implemented median filtering, Gaussian smoothing, and a convolutional denoising model for images corrupted by synthetic impulse and Gaussian noise.\", \"Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation across noise settings.\"], \"id\": \"T2\", \"title\": \"Comparing Classical and Learned Image Denoising\"}, {\"bullets\": [\"Implemented histogram of oriented gradients features with a linear classifier and trained a compact convolutional network on the same image dataset.\", \"Compared classification accuracy, training behavior, and categorywise errors using shared data splits, documenting differences on texture dominated and shape dominated examples.\"], \"id\": \"T3\", \"title\": \"Image Classification with Handcrafted and Convolutional Features\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to compare segmentation models under controlled brightness shifts, contrast changes, and spatially uneven illumination.\", \"Implemented image perturbation pipelines in PyTorch and analyzed classwise overlap metrics to distinguish boundary errors from missed foreground regions.\"], \"id\": \"R1\", \"title\": \"Robustness of Image Segmentation Under Illumination Changes\"}, {\"bullets\": [\"Planned experiments with supervisor guidance comparing frozen pretrained representations and supervised fine-tuning across controlled subsets of labeled images.\", \"Maintained consistent data splits and preprocessing, then examined confusion matrices and nearest neighbors to characterize errors among visually similar categories.\"], \"id\": \"R2\", \"title\": \"Evaluating Visual Representations for Limited-Label Classification\"}], \"work\": [{\"bullets\": [\"Implemented Python components for image upload validation, thumbnail generation, and metadata extraction within an existing application processing pipeline.\", \"Added regression tests for corrupted files and unsupported formats, and investigated processing failures using application logs and reproducible test inputs.\"], \"id\": \"W1\", \"title\": \"Image Upload Validation and Processing Services\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00025\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.73, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 9, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-11\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2025-11\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2024-11\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0125339356c028d5016ae615830fe887d09c59ef2ae4396cf7",
+    "object": "response",
+    "created_at": 1793463683,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463684,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0125339356c028d5016ae61584018c87d08d0ec27b13b3256b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hWES0Ew0DdC_EEz9USh9PwQ6oX2RzS2nHXbbra7PU2t9IpUP02-GJbOv2lGu1ukNPgat-o7HRlQuNRklJvlTcIjAQkrZvwWDbFQ9KJJc69G0sR8kb9TyqJ05XBBeJGwzh5cew1BCpoMdUc1fzW1n92e32-jyQvtV6NrExEpflNNI9FEb9AF-9iHEPn3DzRoToccK8nBRp_I226GNlAGBakJhhoW1z-rUot9K4B3gcU8PQ9NKPa-VOXFs4yLfZmM2tg96Ivn7PfGCTFbUkLq-gIENMdM0t640NGq9fOrWpDOaRzvO7IuMvNGGLxYP0MBGfiZoNDhb-LwD4jGhRNqygwX1I6myMlbU58Y7VK-6LA2sBx7OWqcUJPk5NUrPQNgaF26Rd5p8BrK0mzLMv2DEa20CKwyjf0BbuPX9W4VG4RnRe2wxZAxOPcGa2_8Po8sL2xc6cgdGsmTmEgKnZO58S9Nm2r2LjSFrYAFkN5yXLpPD2ZlzPtfb4nK_-jiIbALKTah38TwvhDjKzh4rXjc-fM6iNPkZAbjYeunGhg5fqXiFmqfiiCKJ1Ex4oyO24sphw1lpGndI5pEdnw05vTD_wp8Cl6QaFECUty3C-_j-MZrn-H_iI12vCu4C2UuGcyvXRZvnrIf9XI2MIulvtq311fdK_E4Oii2I1V2_z2PTkJMTLjo-IEWxa_mhF0K0csV21b8vVO-dthzGBE1QeXFcVGY6-W19wUDzW3PWBkG2kKML7sPAnysfUCToCez7VJkha9RkIXcxuh3SWH763JChistbo7_9fTNXSSK42KgVeQKn6c0p-Suv3nfSt3A5fnKCZSKg8b0D8AKWBOQ43a7Mzs074mrPHRPezSYY6MKNKG5TL1GFGwv5rHSCVxLtC_KTnpUoKKHFHnICCbyhrjynGrHL0ThEnJ2AzMvn3lCIuVmmNg1aVzfIsCNWao3IAeUJ6uSaGFLDFEDDrX72GI2M1VkHbMgd03cIxoFblbVjfOXyWbBbn1ezvsOkrNiO64T5AcJEkuvYygBdDl55V151WO9oGNG8O5z8FoVWjDRxWqujSNuHJoGl-MsEI3fu2-L99h1A2kqiai3xwdrqoV_6xXEceB7tFD2B88E-_kHLMxw2LP9UewhqIZaw8YnCRvmlDyCDiGpT1IDntPRVILA7b8-UVo3xx5H5fIH6gQULeyImbb7_UgqXoRfHzI6BZlY3lmIFTsYryDEhCUphjggqap4BQjqIgMtVjwVvFBFTktH6VlWVjJGYJayDgTdo04teQrcsxX49U5gXeCWJHk14zA2fTtQxc8Vf1eLq1VxGhmIA0PDuFZEAb7n8BGgddKsWxnKGH1ngC4cCFi8R275sFnju1H7NFgVKH7ubRtlGgWNe_7y13fLPYICJSODwHVmQJJXj-cWOBwW5jgUGBsY2rBw2UcqY5UUzPNQ8b2XRzjMQuvfjOULc-7PZoE14wwtO7VEybVqau8UmEbRFJiKMcSmf5gCa846dueY_PhoTBLHrKXFDcYtgPYaYx_sU73R6c5V08uHrv-U-xlbfDpRotrd3kxTW0RSmJ5by5NQYpQtzUDsFyY4C0zgAcqOYU8EbQaiSbjkayhefxodTTQLd0Fm4rATiwWdKHrqav2LKhZj3D6RA1McBPnfbsID2i3_FfmD5G2eaf6aU7JMu5EUY_eHlJLH0hg9zz4ocs4a4VKN7Cc=",
+        "summary": []
+      },
+      {
+        "id": "msg_0125339356c028d5016ae6158475d087d09634a172d6308ce8",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1170,
+      "input_tokens_details": {
+        "cache_write_tokens": 1167,
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 21
+      },
+      "total_tokens": 1209
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

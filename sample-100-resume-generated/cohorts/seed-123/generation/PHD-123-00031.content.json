@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion-Aware Feature Aggregation for Object Detection",
+      "bullets": [
+        "Formulated whether visibility estimates could improve detection under partial occlusion and led development of a visibility-weighted feature aggregation module.",
+        "Designed controlled occlusion experiments and component ablations to examine localization errors, missed detections, and sensitivity to visibility estimation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Uncertainty-Guided Adaptation for Semantic Segmentation",
+      "bullets": [
+        "Formulated how class-dependent uncertainty affects segmentation adaptation across visual domains and led development of class-aware pseudo-label selection with consistency regularization.",
+        "Developed an uncertainty calibration procedure and evaluated adaptation behavior through classwise error analysis, threshold ablations, and comparisons against self-training baselines."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Class-Aware Pseudo-Label Selection for Semantic Segmentation Across Visual Domains"
+    },
+    {
+      "id": "P2",
+      "title": "Calibrating Class-Dependent Uncertainty for Consistent Segmentation Adaptation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing Service Implementation and Maintenance",
+      "bullets": [
+        "Implemented image validation, resizing, and normalization components for an image ingestion service, including explicit handling of malformed inputs.",
+        "Maintained automated regression tests, investigated processing failures from service logs, and coordinated interface changes with downstream application developers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Strategies",
+      "bullets": [
+        "Implemented frozen-feature classification and end-to-end fine-tuning using pretrained convolutional networks, maintaining consistent preprocessing and data partitions across experiments.",
+        "Compared classification errors, training behavior, and sensitivity to augmentation choices, inspecting confusion patterns to identify differences between transfer strategies."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Local Feature Matching Under Viewpoint Changes",
+      "bullets": [
+        "Implemented patch descriptors, nearest-neighbor matching, and robust homography estimation for image pairs with changes in viewpoint and illumination.",
+        "Compared descriptor normalization and match filtering strategies using reprojection errors and qualitative correspondence inspection under a shared evaluation protocol."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Image Denoising with Classical Filters and Convolutional Models",
+      "bullets": [
+        "Implemented bilateral filtering and a convolutional denoising baseline, generating matched noisy inputs to support controlled comparisons across restoration approaches.",
+        "Evaluated reconstruction quality and edge preservation across noise conditions, examining residual images to characterize oversmoothing and remaining noise artifacts."
+      ]
+    }
+  ]
+}

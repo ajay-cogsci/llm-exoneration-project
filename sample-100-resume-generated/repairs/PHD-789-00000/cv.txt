@@ -1,0 +1,36 @@
+Applicant PHD-789-00000
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.99/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-07 to 2026-11 | 10 hours/week
+Robustness of Intent Classification to Conversational Paraphrases
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to assess intent classifier sensitivity to paraphrases, separating lexical substitutions from changes in sentence structure.
+- Compared pretrained encoder and bag-of-words baselines under matched training conditions, inspecting prediction disagreements and documenting ambiguity in intent labels.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-04 to 2025-07 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing slips, recorded stock discrepancies, and routed damaged items for review according to established procedures.
+- Prepared order paperwork, maintained organized storage areas, and coordinated routine handoffs between receiving and dispatch staff during scheduled shifts.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Document Retrieval Methods | technical course project, 2026
+- Implemented TF-IDF and Okapi retrieval baselines for a document collection, using shared tokenization and relevance judgments for consistent comparison.
+- Evaluated ranked results with precision and reciprocal rank, examining queries where term frequency normalization changed the ordering of relevant documents.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented token classification using a bidirectional recurrent network and a pretrained encoder, aligning subword predictions with annotated word boundaries.
+- Compared entity-level precision and recall across model configurations, analyzing boundary errors and confusions between organization and location mentions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

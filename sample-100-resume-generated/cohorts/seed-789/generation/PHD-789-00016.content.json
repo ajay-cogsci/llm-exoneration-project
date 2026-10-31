@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Predictors",
+      "bullets": [
+        "Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting preprocessing transformations exclusively on training partitions.",
+        "Implemented logistic regression and random forest baselines under specified missingness conditions, recording discrimination and calibration metrics across held-out evaluation splits."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Services",
+      "bullets": [
+        "Maintained Python batch processing components that validated incoming records, normalized field formats, and routed malformed inputs for operational review.",
+        "Added regression tests for parsing edge cases and investigated processing failures using service logs, documenting fixes and recovery procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression for Residential Energy Demand",
+      "bullets": [
+        "Implemented ridge and lasso regression baselines for residential energy prediction using standardized weather and calendar features in scikit-learn.",
+        "Selected regularization parameters through training-set cross-validation and examined held-out residuals by season to identify systematic prediction errors."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Baselines for Customer Segmentation",
+      "bullets": [
+        "Implemented a Gaussian mixture clustering baseline using scikit-learn on standardized purchase summaries, comparing diagonal and full covariance assumptions.",
+        "Examined information criteria and cluster assignments across initializations, documenting sensitivity to feature scaling and the chosen number of components."
+      ]
+    }
+  ]
+}

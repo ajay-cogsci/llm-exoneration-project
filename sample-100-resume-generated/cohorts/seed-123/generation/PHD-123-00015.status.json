@@ -1,0 +1,10 @@
+{
+  "profile_id": "PHD-123-00015",
+  "facts_hash": "416f1bdf8b092a4f4122d6310d7d0a358df8cdc172697ac6214bf44aa8c6893c",
+  "status": "needs_revision",
+  "issues": [
+    "Unspecified numerical detail in T1"
+  ],
+  "model": "gpt-6-astra",
+  "review": null
+}

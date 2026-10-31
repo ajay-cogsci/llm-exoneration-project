@@ -1,0 +1,33 @@
+Applicant PHD-456-00015
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.18/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Calibration Assessment for Binary Classifiers
+Contribution: assigned implementation tasks.
+- Implemented assigned routines for grouping predicted probabilities into bins and computing calibration summaries using NumPy.
+- Ran prescribed logistic regression experiments on tabular data, checking probability outputs and documenting discrepancies between calibration plots and aggregate metrics.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-01 to 2026-10 | 10 hours/week
+Inventory and Order Records Support
+- Updated inventory records from receiving paperwork, checked item descriptions against delivery documents, and flagged discrepancies for supervisor review.
+- Prepared order packets, maintained filing records, and coordinated routine status updates with staff handling incoming deliveries and outgoing orders.
+
+TECHNICAL PROJECTS
+Regularized Logistic Regression for Tabular Classification | technical course project, 2026
+- Implemented a scikit-learn baseline with missing value imputation, feature standardization, and regularized logistic regression for a tabular classification task.
+- Compared regularization settings through cross-validation on training data and summarized held-out predictions using confusion matrices and probability-based evaluation metrics.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

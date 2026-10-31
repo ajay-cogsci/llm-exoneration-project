@@ -1,0 +1,34 @@
+Applicant PHD-123-00049
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.54/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image normalization and patch extraction routines in NumPy following the group's preprocessing specification for surface defect images.
+- Ran prescribed classification experiments and inspected misclassified patches, documenting preprocessing inconsistencies and recurring confusion between texture variations and visible defects.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-08 | 10 hours/week
+Inventory Records and Order Processing
+- Updated inventory records from receiving paperwork, checked item descriptions against delivery documents, and flagged discrepancies for supervisor review.
+- Prepared routine order paperwork, organized delivery records, and coordinated missing documentation with staff before forwarding completed files for processing.
+
+TECHNICAL PROJECTS
+Handwritten Character Classification with Linear Baselines | technical course project, 2026
+- Implemented a baseline handwritten character classifier using flattened grayscale images and logistic regression in scikit-learn, with separate training and evaluation partitions.
+- Compared raw and standardized pixel features under a fixed evaluation split, examining confusion matrices and representative errors involving visually similar characters.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

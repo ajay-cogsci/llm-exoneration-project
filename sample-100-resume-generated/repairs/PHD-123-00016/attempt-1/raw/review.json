@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:25:03.204485+00:00",
+  "request_hash": "f7c0915c2b617957d16ff0bca04838461845ed17127688efaa29498df5cbc140",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented TF-IDF and pretrained sentence embedding baselines for matching user questions to relevant entries in a question archive.\", \"Compared retrieval rankings using reciprocal rank and recall, inspecting failures involving paraphrases, rare terminology, and overlapping question topics.\"], \"id\": \"T1\", \"title\": \"Lexical and Dense Retrieval for Question Matching\"}, {\"bullets\": [\"Implemented recurrent and transformer sequence labeling baselines using a shared tokenization alignment procedure and consistent training and evaluation splits.\", \"Compared entity span precision and recall, analyzing boundary errors and performance differences between frequent and infrequent entity types.\"], \"id\": \"T2\", \"title\": \"Comparative Sequence Labeling for Named Entity Recognition\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Evaluating Intent Classifier Robustness to Spelling Errors and Informal Conversational Text\"}], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to compare intent classifiers under spelling errors, abbreviated phrasing, and missing punctuation using controlled text perturbations.\", \"Evaluated linear and transformer classifiers on matched data splits, examining macro F score, prediction confidence, and confusion patterns across noise conditions.\"], \"id\": \"R1\", \"title\": \"Robust Intent Classification Under Conversational Noise\"}], \"work\": [{\"bullets\": [\"Maintained Python components for document ingestion, input validation, and metadata extraction within an existing processing service.\", \"Investigated parsing failures, added regression tests for malformed inputs, and updated error handling to support routine operational troubleshooting.\"], \"id\": \"W1\", \"title\": \"Document Processing Service Maintenance\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00016\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2020-05\", \"institution\": \"University A\", \"start\": \"2016-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 2.97, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2026-07\", \"id\": \"P1\", \"research_id\": \"R1\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 11, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-12\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2025-09\", \"hours_per_week\": 40, \"id\": \"W1\", \"months\": 26, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-07\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0a7a1d36a626295d016ae6165f5b0c87d08a57f960e001b5c5",
+    "object": "response",
+    "created_at": 1793463903,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463905,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0a7a1d36a626295d016ae616604b1c87d0ae92b61e6ae39919",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hZhJmxrcvx6O3OGQ1QkRC4dLavTtj9xGgCqmplbcJKvvifBwNHQR70bTb7Csgynu9wZKhPfABh8vf5KMizj1sobVBEgzoMgw7upnk8EEzQ7ZHfz42NiLbVp3MNIucUSjzXkBr6jPHSo11GZAfCj8bwWwdUXaHDuPdnsjSFzXgycN31_51OJZ-m2SLuBwWlFPgMSc4EEcMFTAbSCdMqzTS8Sy8bgZk39exYCHKoUEl2VIgeSAwAmKbRdyBKURwxsXr7-jJldP-cPFmLj8sG7DZZbT1pjAf8iyBEPw1soCvEWwCtgRVC17-QIzQew_RPfwTw5mZTgwGoBtrII1UPqYrDlVjR6P8fAlqMGZVNrFvybHicVCezjyMSJOIDlBTJWrWghkbhL-2M_nrRfSJwWTLeooi_Ce2r22UKbZ7ZnHe4wLbRgybjAUiuQCT019quQIYeDa5g-SuJzjZxrLX0uREAxjH5a-Zw7gE3tVEe17VKp0fctc2meWarRc3jJKFWkbAIWiYW3vmMC82LBiHDgQ6oAgBeRvdNHaFeh5vFjkQBed9ORTwdw2smiNIOtNn9tXX3WLeKsNw9usu55QlIFGl9cRo3I_Xeu-4OWXJBT-sSMHaFaUygKs1ztLRzE0oLhyI9vgDyxHKtm-hLC1WShrKNqlNYmrOGQLfW0ht3xDx2JWdhpSJ1UliVOmQysQx9gqoGNgnMInHDrOIctjrOd71t5Ykcew1_-UCpEYLpco6yH6qkxSyWCbJRpaHuGPp4IrWNCSEYZbEgDo9VnbnZcYKTDa43DtxwmGcZsn-pRB0cy5p0aauSuBSOV_R_TnFV9hf8VxRkFTnPHoTEM86HFvIc3P30G7KNOtnD0lBCWj67fKNa6pGab8ilhhYUYrT1OI8TmeT1i1jHw4Wy1xz6bNW5-nFlsB9Cws1-i884-fT8h488CihHbR8lq0jjk2FYmkUrCKovWqOe3Y5WDn9hdaq5jpHMpjBbqk-GLEn_EHv6gCzx09jfMd5gxDVz9J3wsM01wxLvHf49oR1crM2KgHedXZ6VW5HOKA_1Ocl8I3kgt01fVMR58mENv-2ZBfhDXwLkchxCyHHF0LAU7xXSWNu5kOxs_2PIZtTAeKuaLaBdXj8B6LJbfwfbS1GBLj5xDB8Mf7ED4ZPHVk90dGsSZbnAFKO0IjuUU_h9snkMBXHSMP5CiYs2sVPFO3Q_YHDsjepIXST1K7sk5O4irr5DZ6XfnRI_mSz8xZWCnra30zGyhw12cbvrsJcyyo0FZHHl2NPtMOsEpGv0uf7zdVkQw0uVE4WQlgzi2odZREZSp_BU0jOex9C6fQ91OCGw7-sUZbjnLBDeMYF-lxbMLrfUT_Sxq1N3bCRlw0bIQ_KQtlrmOancX6FYHi4Pbg9ddds_sLK4DNBpLdfEFBD2DXBpCs8zdV_RfPvnlFR0ZOXJbHf5RHD5lXqnxBOZWAH8PVvLJx8khHVvlowR7e3YtRTXaNgwchgGVUHp0n8i3OecpkojjqV2dDljjvIo7G0wGymSIM1lrz9YrxSSISVZWI5xD9H0TVBiktROMFfGEB-hPvuK9felWHKaJy0qNMdZ5fAEJqVR8QJsuifnycN_TrOBHDlYShmyLjAdBftGU12qbF8LoTSQsctfCDKhfMUTyzI2RSHB9thoH1UqvQUE85EqYHOfudwg4QO5biBuexTItFh05ATQ=",
+        "summary": []
+      },
+      {
+        "id": "msg_0a7a1d36a626295d016ae61660e97487d09f4e4c98e48aea28",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1032,
+      "input_tokens_details": {
+        "cache_write_tokens": 1029,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 1074
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

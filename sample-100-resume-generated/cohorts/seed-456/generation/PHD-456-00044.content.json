@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Designed controlled experiments comparing standard and importance weighted conformal prediction under covariate shifts that preserved conditional response distributions.",
+        "Analyzed empirical coverage and interval width across shifted subgroups, examining sensitivity to density ratio estimation and calibration sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration in Imbalanced Classification",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and isotonic regression across class imbalance conditions, using separate training, calibration, and evaluation partitions.",
+        "Analyzed reliability diagrams, Brier scores, and class conditional calibration errors to distinguish changes in predictive discrimination from probability estimation."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Regularization and Feature Stability With Correlated Predictors",
+      "bullets": [
+        "Designed simulation experiments varying predictor correlation and signal sparsity to compare ridge, lasso, and elastic net regression under matched evaluation conditions.",
+        "Analyzed prediction error and coefficient variability across repeated samples, examining how cross validation choices affected feature selection stability."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Error Handling",
+      "bullets": [
+        "Implemented validation checks for structured data imports, handling missing fields, inconsistent types, and duplicate records within an existing application.",
+        "Added regression tests for malformed inputs and revised error messages to support troubleshooting of failed imports by application users."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Kernel Regression and Predictive Uncertainty",
+      "bullets": [
+        "Implemented Gaussian process and kernel ridge regression baselines, comparing predictive error under shared data splits and consistent hyperparameter search procedures.",
+        "Evaluated Gaussian process uncertainty on noisy regression data, examining interval coverage and sensitivity to kernel choice and noise assumptions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Mixture Models for Clustering With Unequal Variances",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models and compared clustering assignments with k means on synthetic data with unequal cluster variances.",
+        "Compared covariance parameterizations and initialization strategies using held out likelihood and assignment agreement, documenting convergence behavior and sensitivity to overlapping clusters."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+Applicant PHD-456-00021
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.29/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Predictive Uncertainty Under Changing Missingness Patterns
+Contribution: formulated a research question and led method development.
+- Formulated whether changes in feature missingness undermine regression interval calibration, separating missingness shifts from changes in observed covariate distributions.
+- Led development of a missingness-stratified residual calibration procedure and evaluated interval coverage against pooled calibration under controlled masking mechanisms.
+Research assistant, University Research Group | 2024-02 to 2026-08 | 10 hours/week
+Stabilized Conformal Regression Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated how unstable density ratio estimates affect weighted conformal regression and led development of a clipping procedure with held-out tuning.
+- Designed controlled shift experiments and coverage diagnostics, examining interactions among ratio estimation, weight regularization, and conditional interval behavior.
+
+PUBLICATIONS
+Density Ratio Estimation and Coverage Sensitivity in Weighted Conformal Regression. Peer-reviewed ML conference, 2025-07; published; author position 2.
+Diagnosing Local Coverage Failures Under Covariate Shift. Peer-reviewed ML conference, 2025-11; published; author position 4.
+Clipped Importance Weights for Stabilizing Conformal Regression Intervals. Peer-reviewed ML conference, 2026-07; published; author position 3.
+Held-Out Tuning of Weight Clipping in Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2026-11; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Regularized Regression With Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression pipelines with standardized predictors, selecting regularization parameters through cross-validation confined to training data.
+- Compared prediction error and coefficient stability across correlated feature settings, documenting how penalty choices affected recovery of sparse signals.
+Probability Calibration for Binary Classification | technical course project, 2026
+- Implemented sigmoid and isotonic calibration for classifier scores, keeping model fitting, calibration, and final evaluation on separate data partitions.
+- Compared reliability diagrams, Brier scores, and log loss across calibration methods, examining sensitivity to calibration sample size and class imbalance.
+Mixture Models for Overlapping Clusters | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture models with diagonal and full covariance structures, using multiple initializations to assess optimization sensitivity.
+- Compared mixture models with k-means on simulated overlapping clusters, evaluating held-out likelihood and agreement with known generating labels.
+Bootstrap Intervals for Regression Coefficients | technical course project, 2026
+- Implemented residual and pairs bootstrap procedures for linear regression coefficients, reusing fixed simulation settings to support comparable uncertainty estimates.
+- Compared empirical coverage and interval width under heteroskedastic errors and influential observations, documenting settings where resampling assumptions were violated.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

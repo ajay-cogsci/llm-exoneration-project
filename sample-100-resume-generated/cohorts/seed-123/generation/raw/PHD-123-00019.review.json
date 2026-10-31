@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:21:49.097944+00:00",
+  "request_hash": "78fd88fea0ca70e39b41574bc31fc08da0b1fd49090aa93a21f54b569bee4511",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs with overlapping views.\", \"Compared descriptor normalization and matching thresholds using reprojection errors and visual inspection of alignment failures under rotation and brightness changes.\"], \"id\": \"T1\", \"title\": \"Local Feature Matching for Image Alignment\"}, {\"bullets\": [\"Implemented frozen feature extraction and partial fine-tuning baselines for distinguishing visually similar object categories using a pretrained convolutional network.\", \"Evaluated classification performance across training configurations, inspecting confusion matrices and misclassified images to characterize background dependence and subtle appearance differences.\"], \"id\": \"T2\", \"title\": \"Transfer Learning for Fine-Grained Image Classification\"}, {\"bullets\": [\"Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted by synthetic impulse and Gaussian noise.\", \"Compared reconstruction quality using peak signal-to-noise ratio and structural similarity, inspecting edge preservation and texture smoothing across noise conditions.\"], \"id\": \"T3\", \"title\": \"Comparative Evaluation of Image Denoising Methods\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Illumination Augmentation for Surface Defect Segmentation: A Controlled Evaluation\"}, {\"id\": \"P2\", \"title\": \"Boundary and Small-Defect Errors in Surface Segmentation Under Lighting Shift\"}], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to assess how illumination augmentation affects convolutional segmentation models trained on images of manufactured surfaces.\", \"Compared augmentation settings using overlap metrics, boundary accuracy, and error inspection, separating lighting sensitivity from failures associated with small defects.\"], \"id\": \"R1\", \"title\": \"Robustness of Surface Defect Segmentation Under Illumination Shift\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00019\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.62, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2026-06\", \"id\": \"P1\", \"research_id\": \"R1\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}, {\"author_position\": 1, \"date\": \"2026-04\", \"id\": \"P2\", \"research_id\": \"R1\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 14, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0737932016b0982c016ae6159d3c3c87d0b2b4f049decd33c8",
+    "object": "response",
+    "created_at": 1793463709,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463710,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0737932016b0982c016ae6159e5bf487d0b5524c206b103ad5",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1044,
+      "input_tokens_details": {
+        "cache_write_tokens": 1041,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1060
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

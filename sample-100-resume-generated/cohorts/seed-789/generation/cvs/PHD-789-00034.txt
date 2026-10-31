@@ -1,0 +1,47 @@
+Applicant PHD-789-00034
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.52/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Sensitivity-Aware Regression with Missing Covariates
+Contribution: formulated a research question and led method development.
+- Formulated a research question on prediction stability under changing covariate missingness, distinguishing imputation error from sensitivity to missingness patterns.
+- Led development of a regression objective penalizing prediction variation across plausible imputations; evaluated robustness against standard imputation baselines under controlled missingness mechanisms.
+Research assistant, University Research Group | 2023-10 to 2026-08 | 10 hours/week
+Adaptive Prediction Sets under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated research questions about prediction set reliability under covariate shift and led development of density ratio weighted conformal calibration procedures.
+- Developed weight stabilization and local calibration variants; evaluated coverage, set size, and subgroup behavior using synthetic shifts and tabular classification benchmarks.
+
+PUBLICATIONS
+Stabilizing Importance Weights for Conformal Prediction under Covariate Shift. Peer-reviewed ML conference, 2026-02; published; author position 2.
+Local Calibration of Prediction Sets under Heterogeneous Covariate Shift. Peer-reviewed ML conference, 2026-09; published; author position 4.
+Density Ratio Estimation and Coverage Sensitivity in Weighted Conformal Classification. Peer-reviewed ML conference, 2024-08; published; author position 3.
+Evaluating Coverage and Set Size in Shifted Tabular Classification. Regional applied computing conference, 2025-12; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-10 to 2023-10 | 10 hours/week
+Batch Data Validation and Processing
+- Implemented assigned validation routines for incoming tabular records, checking required fields, data types, and duplicate identifiers before downstream processing.
+- Added regression tests for parsing failures and updated error messages; investigated reported processing defects and documented fixes for maintenance handoffs.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Probabilistic Classifier Calibration | technical course project, 2026
+- Implemented logistic regression and neural network classifiers with temperature scaling and isotonic calibration using separate training, calibration, and test partitions.
+- Compared reliability diagrams, log loss, and calibration error across class imbalance settings, documenting sensitivity to calibration sample composition.
+Sparse Regression with Correlated Predictors | technical course project, 2026
+- Implemented coordinate descent for lasso and elastic net regression, checking optimization convergence against reference estimators on standardized synthetic datasets.
+- Compared prediction error and coefficient stability across correlated feature settings, using nested cross validation to separate regularization selection from evaluation.
+Bootstrap Intervals for Regression Predictions | technical course project, 2026
+- Implemented residual and pairs bootstrap procedures for linear regression, generating prediction intervals with explicit treatment of observation noise.
+- Compared empirical coverage and interval width under heteroscedasticity and model misspecification, using repeated simulations to characterize each procedure's limitations.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

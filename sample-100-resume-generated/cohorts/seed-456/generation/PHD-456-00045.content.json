@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion Sensitivity in Visual Object Tracking",
+      "bullets": [
+        "Designed controlled experiments comparing existing tracking models under partial occlusion, varying occluder placement while holding target motion and image resolution constant.",
+        "Analyzed tracking failures by occlusion duration and target appearance, distinguishing localization drift from failures to recover after objects reappeared."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Robustness and Calibration of Semantic Segmentation Under Image Corruptions",
+      "bullets": [
+        "Designed experiments evaluating existing semantic segmentation models under blur, noise, and illumination changes, controlling training data and corruption severity across comparisons.",
+        "Analyzed classwise segmentation errors and confidence calibration, using boundary regions and object size strata to characterize where predictive reliability deteriorated."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Classwise Error Patterns in Semantic Segmentation Under Controlled Image Corruptions"
+    },
+    {
+      "id": "P2",
+      "title": "Confidence Calibration at Object Boundaries Under Corruption Shift in Semantic Segmentation"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Features for Image Matching",
+      "bullets": [
+        "Implemented an image matching pipeline using established local descriptors, nearest neighbor matching, and robust homography estimation for overlapping image pairs.",
+        "Compared descriptor configurations under viewpoint and illumination changes, examining match precision, geometric consistency, and failure cases involving repetitive textures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning Strategies for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine tuning of pretrained convolutional networks for fine-grained classification using consistent training and validation splits.",
+        "Compared adaptation strategies through per-class recall and confusion analysis, examining visually similar categories and sensitivity to training augmentation choices."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed incomplete order paperwork to the appropriate staff.",
+        "Maintained stockroom records, organized order documents, and prepared routine replenishment requests for review using established procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF–IDF Baseline for Support Request Classification",
+      "bullets": [
+        "Implemented a baseline text classification pipeline using TF–IDF features and logistic regression to categorize support requests by topic.",
+        "Evaluated held-out predictions with macro F1 and a confusion matrix, inspecting misclassified requests for overlapping vocabulary and ambiguous labels."
+      ]
+    }
+  ]
+}

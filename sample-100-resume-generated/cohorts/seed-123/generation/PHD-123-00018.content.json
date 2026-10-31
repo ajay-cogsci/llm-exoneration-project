@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Classification of Clarification Requests in Dialogue",
+      "bullets": [
+        "Prepared dialogue excerpts for classification by standardizing text fields, checking annotation consistency, and removing duplicate conversations across predefined data splits.",
+        "Implemented TF-IDF and logistic regression baselines using scikit-learn, then summarized classification errors involving indirect questions and context-dependent clarification requests."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded discrepancies, and routed damaged or missing items to the appropriate staff for follow-up.",
+        "Prepared routine order paperwork, maintained organized stock records, and coordinated collection times with customers using established scheduling procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Lexical Baselines for Product Review Sentiment",
+      "bullets": [
+        "Implemented unigram and bigram TF-IDF representations with a multinomial naive Bayes classifier for positive and negative product review classification.",
+        "Compared feature configurations on a held-out validation split and inspected misclassified reviews containing negation, mixed sentiment, and domain-specific vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Sentence Similarity",
+      "bullets": [
+        "Implemented an extractive summarization baseline that ranked sentences by cosine similarity between sentence TF-IDF vectors and the document centroid.",
+        "Compared selected sentences with a lead-sentence baseline, examining reference-summary overlap and documenting redundancy and missing context in generated summaries."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+Applicant PHD-123-00001
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.69/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image resizing, grayscale normalization, and patch extraction routines for surface defect classification using an established preprocessing specification.
+- Checked processed samples against annotation files and documented mismatched labels and boundary handling issues for review within the existing experimental workflow.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-08 to 2025-09 | 40 hours/week
+Order Processing and Inventory Coordination
+- Processed incoming order paperwork, checked item descriptions against stock records, and routed incomplete requests to the appropriate staff for clarification.
+- Maintained filing records, coordinated routine delivery appointments, and reconciled shipment documents with received goods before forwarding discrepancies for follow-up.
+
+TECHNICAL PROJECTS
+Baseline Scene Classification with Color and Texture Features | technical course project, 2026
+- Implemented a scene classification baseline using color histograms, local binary pattern features, and a support vector machine with standardized feature inputs.
+- Evaluated predictions on a held-out image split using confusion matrices and inspected misclassified examples for lighting variation and visually similar scene categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

@@ -1,0 +1,352 @@
+{
+  "created_at": "2026-10-31T16:21:29.729544+00:00",
+  "request_hash": "a070cd59f46666d497176865b4535d45f0dd9c06ea0a164d2f41fd0dce774276",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Write fictional PhD-applicant CV entries from the supplied fixed record.\nThis is research stimulus generation. All people, projects and publication titles are fictional.\nReturn JSON conforming to the schema. Return one item for every supplied entry, with exactly its ID.\nThe Python program will render all degrees, grades, dates, roles, organizations, publication venues,\nauthorship positions and counts from the fixed record. Do not restate or change those fields.\nYour task is to invent coherent, specific titles and concise technical descriptions within the\nsupplied research area, contribution, work domain and project scope. Match sophistication to the\nstated contribution; do not inflate assigned implementation work into independent method creation.\nEach experience/project gets exactly two factual CV bullets of 12 to 30 words each.\nPublication titles must correspond to the referenced research entry. Multiple publications may\ndescribe different aspects of that work. Use realistic methods appropriate to the research area.\nYou may invent technical subject matter, methods and qualitative activities; do not invent numerical\nresults, awards, extra outputs, skills, named people, employers, universities, or prestigious venues.\nDo not imply a publication for a project unless the fixed record explicitly links one to it.\nFor nontechnical work, describe actual operations duties without adding software/research tasks.\nUse a consistent professional tone. Do not include strength labels, an admissions judgment,\nrecommendations, essays, personal identity details, character praise, or academic-integrity history.\nEmpty source lists must produce empty corresponding output lists.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"applicant_id\": \"PHD-123-00032\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.23, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 5, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-03\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": []}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "phd_cv",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "research": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "publications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "work": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "projects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "research",
+            "publications",
+            "work",
+            "projects"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 6000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_071cb0ca7e125fea016ae61589e3ac87d088cc87b05eb46acc",
+    "object": "response",
+    "created_at": 1793463689,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463697,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_071cb0ca7e125fea016ae6158aa63487d0b107a131ffcc710f",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hWRH50Q2JmqtemGKBTWcX4VTCd5dFtKftmeAG7RX9cY9QvcLZ5Rb9FBjRGIc_6mH4Wg7iLTiX7TbTciwAQ_gZwSf60pcBGOgEUJgVFE8tHy7Tv2SleUrvGk0glvPSuNeC-DhdKzbT4i7cMo_jexaLBVrm0mV0iXjozZuaSxUDZi9lF1lpdLWhN8FAYsmp2PJ7_H7gK68BjyyC4_2ITOut8xnEraLRZJtnzxlnjxukrZ02fMLG8zcnnXXz3t618hWUU4-VXrKJe-tOAyF-jg41V250ZGT_dawJiSqlRKsZOxRulcf6JU7WXPi01EyMYwSQh8lygAeR-7lo5wrkBwBS9DcuQipdDlZDgIryjkctRZhuUIQ91TPJ3EjTjkIZU1PTKn-q6p4ysicmhLCVhL_eq3Xv4LqIJ5UxMdyoUQOD98-KsCbMtXB4qEILCi0ya-Fgz1pHJNo0SeGga94s3T54-E_y2XjmpAvidLOt3daxS8LwQNkV62pF6N0SWE6ooqpLccDJtAWjHz-vCfYMV8FnLYoqji0BApUkai7nXvq_xXJm2dmCCtyEA0A7juDXXEZ-SxKX7W2rqFhfhqbul7so1rEob7GOIdoY7hRfbrnORo2WKiaXdMnZnWd56rzflqCjkhuLnJo-ReRpk_kt4oescz0Ggnq6h0lZssb9j4JlesvzA-yR0fA-y9jp5Ex1Ivz_15VwbyTl9sYjVyYQww_JvKSSackhvAsYbAUEo1YwBtCKFicbW_rJqTAUXL1SWE0nlylkIzWlZTXU8dLAw-2QYJXe1vX4nBFQaSaEIYFsFnbpOPQWpUnF4cm-_V2taKpB1WklWzeA5CNK11jqwlPlgwoL0uPYRJ4YAp6Ckc500BgYvTQFtghEZq51Zi6TcThLFvhx6af6-HXq2Z1Lb8eqc4Pe_Hh7HAyPaWjHZ1Fv62tVW1oq-gKsV3yeGQ1Q8ekqv-K82OaGn3go3Y1OItiesucOcPsU0XZ4zSbPinS1JuhromO68wyiJygc6sv8i3t3Zix0IgT85iCHtk3q-TxQMtAWixWhpJTY_XHA_OAh55o8Lzsmmu1m9cbAlYGrrAcbb15bFgdyUIMagQzyGo-HMwioWVtbD0juNoEZgoxZ6FqD99J9mSpVoTDF3qyW7y6CoPOb3sy4uYqRf0WBnyfVF7bF4Pf-FrjjgwpLi3muP2pZV-RN6KJXK45TK7VY92bAc3xQ0MRn9gtyjupVp0-VGniEOOLQRLngaXpqcKpmVKILAYI55ywnZv-9pnRDOjVZohENc4XLyt4a_D--wfSWkiOea07ioMl7P3VGnk7slbUE8yJoyESiLi3Nj0CFK8BuEgwcPk6DxjV7s9G6DE6F4_oty0JdwkmmTWGTMR9BCH-wZytruUvcDGXSh2xDXI-PRQxGhPlRP2FRgMGdx5m_ySBg8Cwbx7eBLWBZOBJaPtjnxyixB0xxbDAMA_G5ZZi1e_AwOZ85VCsuE97jhtjuMC_6raDzS2XJdYn07E3CQZOURc_g9XtzIObXrVbYa7arzOF2h_pUXKiSdokmXJCGKOINa6COUm6X_PBd1rtXb3NATEDkpCCwN77FWu-oCm79m7UrRN9MYUbTUuruoMfrpTYWUZTxq26qvc91MU-Cb6MLRgQT1vxppM7Lk3-CQ6f2BtukOdM98qJ7HCUNDtPOK3t8NpiFkAZE6TNMYVYnretPIs2Ae5W5bOu99N8-GzFkf-SYAO9ScEWxuWxRfwrpS5_Ufpa011kHGIclfbuHoJZmmSBh5WieUwUPOYxGWq01qnRt3GmzNDElHSTaOP4M5xJuecYtfqZqFFcHYuRNWSNBH6hftiWzxi_P3PpGEtZOtynjjx_3WbXlYAsR2NUCyruzrNskKnkpQe-UU471-mIYNlispqOgFzLHzB59zunLKQCPHZHIbsc7ZtSdzG7geeBuLYzCoxW9vxXYSPjfh2gLNjO3_AAB0zLNid0P2Nl5y03-IXYq5Em8gB_iXyiHNs4bvFYiWZDc3DOS_ryb86X7U4Ih88Hrx45OgWAGCSEoqt1E_9f9WNf7oxV6_sfZDmzKsJ33QGdyGdO8ScKzAHVza5tBAmQ9mOAcqA4F8Uog5-_63_OSrrv0kU24RwCHpJtwaMbAM414dHRQMl23nVtUQh7R3kmUKx8LudEkctsqvD7fqKvFN9wLAxEgirACmrTA==",
+        "summary": []
+      },
+      {
+        "id": "msg_071cb0ca7e125fea016ae6158c51ac87d0849ce4dd97d6a7e2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"research\": [\n    {\n      \"id\": \"R1\",\n      \"title\": \"Intent Classification for Short Support Requests\",\n      \"bullets\": [\n        \"Prepared labeled support requests by normalizing whitespace, removing duplicate messages, and checking intent labels against the supplied annotation guidelines.\",\n        \"Implemented a TF-IDF logistic regression baseline and inspected confusion matrices to document errors among closely related request categories.\"\n      ]\n    },\n    {\n      \"id\": \"R2\",\n      \"title\": \"Sentence Function Classification in Scientific Abstracts\",\n      \"bullets\": [\n        \"Segmented scientific abstracts into sentences, reconciled label formatting, and maintained document-level splits to prevent overlap between training and evaluation data.\",\n        \"Implemented a word n-gram classification baseline using supplied sentence labels and summarized misclassifications between background, methods, and conclusion statements.\"\n      ]\n    }\n  ],\n  \"publications\": [],\n  \"work\": [],\n  \"projects\": [\n    {\n      \"id\": \"T1\",\n      \"title\": \"Baseline Sentiment Classification of Product Reviews\",\n      \"bullets\": [\n        \"Implemented a multinomial naive Bayes sentiment classifier with bag-of-words features, fitting vocabulary and preprocessing transformations only on training reviews.\",\n        \"Evaluated held-out predictions using precision, recall, and confusion matrices, then examined errors involving negation and mixed sentiment.\"\n      ]\n    }\n  ]\n}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "phd_cv",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "research": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "publications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "work": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "projects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "research",
+            "publications",
+            "work",
+            "projects"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 903,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 356,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 1259
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

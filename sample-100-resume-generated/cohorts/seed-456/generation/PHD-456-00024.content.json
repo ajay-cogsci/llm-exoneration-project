@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion-Aware Feature Matching for Visual Correspondence",
+      "bullets": [
+        "Formulated whether visibility estimates could distinguish unreliable correspondences from appearance changes, and led development of an occlusion-weighted feature matching objective.",
+        "Designed controlled evaluations using synthetic occlusions and viewpoint changes, comparing correspondence accuracy and confidence calibration against unweighted matching baselines."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Boundary-Aware Confidence Learning for Semantic Segmentation Under Domain Shift",
+      "bullets": [
+        "Formulated how boundary uncertainty affects segmentation adaptation, and led development of confidence-weighted pseudo-labeling with spatial consistency constraints.",
+        "Developed boundary-sensitive calibration analyses and comparative experiments examining pseudo-label selection, consistency losses, and segmentation errors across appearance shifts."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Spatially Consistent Confidence Weighting for Semantic Segmentation Adaptation"
+    },
+    {
+      "id": "P2",
+      "title": "Boundary-Aware Pseudo-Label Selection Under Visual Domain Shift"
+    },
+    {
+      "id": "P3",
+      "title": "Characterizing Boundary Confidence in Semantic Segmentation Across Appearance Shifts"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing Service Maintenance",
+      "bullets": [
+        "Implemented assigned image validation and resizing components, handling malformed uploads and preserving consistent output formats for downstream application services.",
+        "Added regression tests for image processing edge cases, investigated service failures, and documented component behavior during routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Strategies",
+      "bullets": [
+        "Implemented frozen-feature classification and full-network fine-tuning using pretrained convolutional models, with consistent preprocessing and matched training partitions.",
+        "Compared classification performance across limited-label settings, examining confusion patterns and sensitivity to augmentation choices using held-out validation data."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical and Learned Stereo Matching",
+      "bullets": [
+        "Implemented block matching and a convolutional stereo baseline, aligning disparity conventions and preprocessing across a shared image-pair evaluation pipeline.",
+        "Compared disparity errors in textured, reflective, and occluded regions, inspecting failure cases and the effects of matching-window size."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Image Retrieval with Local and Global Descriptors",
+      "bullets": [
+        "Implemented local-feature aggregation and pretrained global image embeddings for retrieval, applying consistent descriptor normalization and nearest-neighbor ranking procedures.",
+        "Evaluated retrieval rankings under cropping and illumination changes, comparing descriptor behavior through relevance metrics and qualitative inspection of mismatched images."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Optical Flow Estimation Under Motion and Brightness Changes",
+      "bullets": [
+        "Implemented a pyramidal gradient-based optical flow baseline and evaluated an existing learned estimator with shared frame preprocessing.",
+        "Compared endpoint errors across motion boundaries and brightness perturbations, documenting failure cases associated with large displacements and low-texture regions."
+      ]
+    }
+  ]
+}

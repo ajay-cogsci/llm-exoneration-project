@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-31T16:15:12.821104+00:00",
+  "implementation_hash": "1a4cb3ddc1f11b605df2642dddc11a1f6772a6a9a65fef6568b46642bb3638d6",
+  "config_hash": "4d2089c562f10d0f3a3950ae391d5e41b976e3190ed0152c1a9232c97384bfc4",
+  "profiles_hash": "e9f533f241cc151761642470e0b59a0f69ac351b2f8372af25b95c8f5df1d3b3",
+  "source_map_hash": "055c3884d75405c1825a4845c3e0494247b24868d479c1bdbcb1258698060528",
+  "method_reference": "https://arxiv.org/html/2509.16400v1#S3",
+  "reference_code_revision": "5817943ef9509c49494e15408463a51cc82a034e",
+  "profile_count": 34,
+  "pool_count": 51,
+  "parameter_status": "Provisional values included for user review; not empirical PhD estimates, approved calibration, or permission to execute. See phd_resumes/provenance.py for source mapping.",
+  "dataset_status": "provisional_for_review"
+}

@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Intent Classification Under Meaning-Preserving Paraphrases",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare intent classifier predictions across original utterances and paraphrases preserving the requested action.",
+        "Evaluated lexical and transformer baselines, grouped errors by paraphrase type, and inspected prediction changes involving negation and indirect requests."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Domain-Specific Lexical Cues in Review Sentiment Classification",
+      "bullets": [
+        "Planned cross-domain sentiment experiments with supervisor guidance, separating review categories to examine reliance on domain-specific vocabulary.",
+        "Implemented lexical masking comparisons and analyzed classification errors to distinguish sentiment-bearing expressions from category cues across training and evaluation domains."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Examining Domain-Specific Lexical Cues Through Masking in Cross-Domain Sentiment Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Checked incoming delivery paperwork against received items, recorded discrepancies, and routed unresolved issues to the appropriate staff.",
+        "Maintained stock records, organized order documents, and coordinated routine pickup arrangements using established procedures and daily task lists."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Named Entity Taggers",
+      "bullets": [
+        "Implemented token classification baselines using linear and recurrent models, applying consistent tokenization and label mappings across training and evaluation.",
+        "Compared entity-level precision and recall, then inspected boundary errors and confusion between organization and location labels."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented term-weighted and sentence-embedding retrieval pipelines to rank candidate questions, using shared preprocessing and identical evaluation queries.",
+        "Compared ranking quality and inspected mismatches involving rare terminology, short queries, and semantically related questions with different answer requirements."
+      ]
+    }
+  ]
+}

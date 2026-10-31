@@ -1,0 +1,38 @@
+Applicant PHD-456-00017
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.58/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Support Request Classification with Sparse Text Features
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by normalizing text, removing duplicate messages, and checking category consistency under an established annotation guide.
+- Implemented TF-IDF and logistic regression baselines using predefined data splits, then summarized classification errors across overlapping request categories.
+Research assistant, University Research Group | 2026-04 to 2026-08 | 10 hours/week
+Sentence Retrieval for Policy Question Answering
+Contribution: data preparation and baseline implementation.
+- Segmented policy documents into candidate sentences and organized annotated question–sentence pairs into the prescribed training and evaluation partitions.
+- Implemented a TF-IDF cosine similarity retrieval baseline and reviewed missed matches involving paraphrases, abbreviations, and questions requiring surrounding context.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Character N-Gram Baselines for Language Identification | technical course project, 2026
+- Prepared a labeled short-text dataset with consistent Unicode normalization and stratified splits for evaluating language identification on brief inputs.
+- Implemented character n-gram features with multinomial naive Bayes, comparing confusion patterns for closely related languages and texts containing borrowed words.
+Extractive Summarization with Sentence Similarity | technical course project, 2026
+- Implemented a centroid-based summarization baseline that ranked article sentences by TF-IDF similarity and selected sentences under a fixed length constraint.
+- Compared selected sentences against reference summaries using unigram overlap, and inspected examples for redundant content and missing central information.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

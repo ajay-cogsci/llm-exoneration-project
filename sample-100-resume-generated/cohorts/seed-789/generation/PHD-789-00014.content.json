@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preparation and Baselines for Surface Defect Classification",
+      "bullets": [
+        "Prepared surface inspection images by checking defect labels, standardizing crop dimensions, and separating training and evaluation sets by source object.",
+        "Implemented assigned texture descriptor and linear classifier baselines, documenting preprocessing settings and reviewing confusion matrices for visually similar defect categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Processing Support",
+      "bullets": [
+        "Checked incoming delivery paperwork against purchase records, recorded discrepancies, and forwarded unresolved quantity or item mismatches to the responsible staff.",
+        "Organized order forms and stock records, prepared routine handover notes, and coordinated collection times with customers and dispatch staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handcrafted Feature Baselines for Scene Classification",
+      "bullets": [
+        "Implemented a scene classification baseline using spatial color histograms and a support vector classifier, following the prescribed feature extraction procedure.",
+        "Compared histogram settings on a held out validation split and inspected misclassified images to identify confusion between scenes with similar color distributions."
+      ]
+    }
+  ]
+}

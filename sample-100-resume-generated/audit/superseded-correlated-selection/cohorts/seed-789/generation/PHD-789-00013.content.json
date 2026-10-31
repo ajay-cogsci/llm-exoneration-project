@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Semantic Segmentation Under Image Corruptions",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess segmentation models under blur, sensor noise, and illumination shifts using controlled corruption protocols.",
+        "Implemented evaluation routines and augmentation ablations, examining classwise intersection over union and boundary errors to characterize sensitivity across corruption types."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing and Validation for Inspection Workflows",
+      "bullets": [
+        "Implemented image ingestion and preprocessing components for inspection workflows, handling inconsistent file formats, missing metadata, and malformed uploads.",
+        "Maintained regression tests for image transformations and investigated processing failures through log review, reproducible test cases, and documented fixes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Learning",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine tuning for pretrained image classifiers using shared data splits and consistent preprocessing.",
+        "Compared classification errors across adaptation strategies, inspecting confusion matrices and learning curves to identify overfitting and visually ambiguous categories."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented an image alignment pipeline using local descriptors, nearest neighbor matching, and robust homography estimation for overlapping image pairs.",
+        "Compared descriptor matching thresholds and outlier rejection settings, examining reprojection errors and alignment failures under viewpoint changes and repetitive textures."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Learned Methods for Image Denoising",
+      "bullets": [
+        "Implemented bilateral filtering and a convolutional denoising autoencoder, constructing paired clean and corrupted images with controlled synthetic noise.",
+        "Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and artifacts across noise conditions."
+      ]
+    }
+  ]
+}

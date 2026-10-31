@@ -1,0 +1,10 @@
+{
+  "profile_id": "PHD-456-00043",
+  "facts_hash": "2fc953289191b6b8cd3662c3f6bdd519b99e5f5ca4266f087c9f9b0a4e450449",
+  "status": "needs_revision",
+  "issues": [
+    "Treatment or strength leakage in W1"
+  ],
+  "model": "gpt-6-astra",
+  "review": null
+}

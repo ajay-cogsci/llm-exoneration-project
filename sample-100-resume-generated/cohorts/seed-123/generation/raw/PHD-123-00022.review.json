@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:22:03.755724+00:00",
+  "request_hash": "1ed3364be048b67da76072ec59d3aed8f0e5ffc819ac2d719ad9dc20b4ee546d",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ordinary least squares and ridge regression baselines to predict residential energy demand from weather measurements and calendar features.\", \"Applied training-set standardization, selected ridge penalties using cross-validation, and compared held-out prediction errors with a mean-demand baseline.\"], \"id\": \"T1\", \"title\": \"Baseline Regression for Residential Energy Demand\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned routines for fitting regularized logistic regression models and generating reliability diagrams using predefined training and validation splits.\", \"Computed Brier scores and calibration summaries across specified regularization settings, checking evaluation code against reference calculations supplied by the group.\"], \"id\": \"R1\", \"title\": \"Calibration Evaluation for Regularized Binary Classifiers\"}], \"work\": [{\"bullets\": [\"Checked incoming deliveries against packing slips, recorded inventory discrepancies, and forwarded missing or damaged item reports to the appropriate staff.\", \"Organized order paperwork, updated fulfillment logs, and coordinated routine pickup arrangements while maintaining records of pending requests and completed handoffs.\"], \"id\": \"W1\", \"title\": \"Inventory Records and Order Processing\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00022\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.6, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 3, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-08\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-11\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_03833ae2afba12c9016ae615abe94887d0966d327afc824e1d",
+    "object": "response",
+    "created_at": 1793463723,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463725,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_03833ae2afba12c9016ae615acb3f487d08cbd191a8c345645",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hWtaA4uRc83w0hTFCNiu3wOPVsC0g355FzjhGqeNz8gh6jkoahZxZnnS2NRdq3VkX3FL7vyYX3zNBjW-yZefgzME71s9t3DdyjcXI1zQO0sIfNrJ28F-kid7XkcG1ZdA_ADqxS5gX00DRK_YLMwEbFwuOPYQ25CQveidQHt-OJk8pscis0g0w0YyJLfnJEIDVcsTgW8Ce3-QoVn_Q4x92i66YC3zE1V1KgT2fhLbLHFj7-IcCBgIZgpmKRgsZXeEyx66GX3w1TCUrXFl_-wm-UWnrofVPTQkI31iZq2p1eaZOs0OdEBRDLvYc8aG56kCJSVsb-rnZ4ayQ1H8RUnZTnY6ViigHIBJzDrsypQ7MJkd7w8wljCOBE89DTLnm2mYXamQ9pyxntgJxRUi5XN0QgOd3gIBzQZkOjX3bhsD0SLobxeJT-KstA-xTxCQ5kgH64HlrVqj5K_l8IDuVTJE7MnhX7_yUmre0NQCxV1h0uPnvBSBbnLEcU8QObTcxjfz54UtiTfDMLsltMUL-APYp_TkyDXmERex1lzK3sD_OPQAuISGSTQJ5zpKr8smshhj5fwJqEQieWkrJPwbbaSLjVcO5Be1ysW_A_stjzeDYo616Ashk9Ue8YkeUPIGLSzqT_AJ27hs7ztWAjK3IuIn1vuKAQAGoWiI3yEFqZc1M7hBO0tzp0cZMMFLAlCfCUfb_z-08tIOpu8B9f5Flcg0_OQmoXAu3RSl1sCrsn5mCfAtOEllw7uiDne-eVEglAVVYmuty-M-8J9oouuCK4mhaIgKCenQh3bykj_Yx5ncCAe_YfrNXuRWBvj0CLLmMiQuvEaSUDn25lxZiMoZPuP-cC5cBlcAICgQtSxBHKwn7YKk9oj6Ae-skENtVeyM5nRJJC6y_gBmEzomTR_TTXhz-b_9VOK-0N2rCCa0deUFdlf1ZlChDpZMh8mzrlYZGWZcWGdCiZuE3jXrhmd-SOV6aupa1LGNnd_xEBqMonpqYhtJojvkMmVlYGmpgWjAVE3jN6oNCmU7U3AEbCgWUBi7O8DU1UGNMeh9DLaqe75YfGridp-qZKpYeAIZMh086fTglFH37lsSeH34XgVS-S7r_xX4j7KIoEnxs_NriLU-97Pt1iYIrF5PwMgDkK9MdC43wI61NZD0zkrM_w9mCR0YI0Ud02a3Hj37DaM_t-GfXSpmKWIRXqULBbhtR-fqfrIigVJAnRlR3WY0e5SiPKEsaI8s_rFnFTAx1Vsp97EXoeN3yLQBxjXHzjT8uPBOJZRbggBzvlCTMnaT-5lGm6Y3agD0Ll6qKc9xTxxEnXyH3WTYxLsJvdRplGkuvclIfYFNYyJZPnLVbYgdhD08lYzF0tVN-GipvS-CyvK6VdyrO6i5lkLtFlO7C1Bk1FVpolk5NO4pkPhnZ8XL6aL6MwWzKA2jSxM92olF75o_rbF0ym3S96z5Uml7VmaZDzekOQsiK88_SUxM4fcxjE0xlvMOzY3MooFcIHk_SXWPe60hpqMj0W5tGzkmUfQpyRLIy7mQKNi-q9tt_qc9gOJ_jvUu34Tkq17GHQ8Ue3erJa0TgLOGDOsy_iW2FWp1r6FOadjTtY2_oCIbPZFQFaDi041nb7jZ2ZwodF65B3BqqV7UT54B7DDUC_5hmyGa8nsq4QvIV1i344bj62nvhcUDWSLQymlngekhtZgWvmUkVvdc0DtdVs2Ql1BSm9u3527wnftdGezq7uTozlR0aovgrafQLSLp8l8FFbvQEV-8zyri21jHUE44aZHJZTdm5GLt4kA2MosOsIheJBchztE-LU4QoYuWe3YrA88wZuCX1jF2-QlB9keGWWq14G5X3HS5-6ekwlH813RzQkjEO_vQZcUf7OHlzRSGZqrQZKKZl2WGzdk2f8=",
+        "summary": []
+      },
+      {
+        "id": "msg_03833ae2afba12c9016ae615ad815887d0a313635ee9ab0e48",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 807,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 53,
+      "output_tokens_details": {
+        "reasoning_tokens": 35
+      },
+      "total_tokens": 860
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

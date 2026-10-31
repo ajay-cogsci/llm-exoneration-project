@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and isotonic regression under controlled covariate shifts, separating calibration effects from changes in classification accuracy.",
+        "Analyzed reliability diagrams and bootstrap uncertainty estimates to assess how calibration performance depended on validation sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Covariance Shrinkage for High-Dimensional Classification",
+      "bullets": [
+        "Designed simulation experiments comparing empirical and shrinkage covariance estimators within discriminant classifiers across correlated feature distributions.",
+        "Analyzed classification error and covariance estimation stability as feature dependence, sample availability, and departures from Gaussian assumptions varied."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Conformal Prediction Under Heteroskedastic Noise",
+      "bullets": [
+        "Designed experiments comparing residual-based and quantile-based conformal prediction intervals on synthetic regression tasks with input-dependent noise.",
+        "Analyzed marginal coverage, subgroup coverage, and interval width to characterize uncertainty estimation tradeoffs across noise patterns and calibration splits."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Coverage and Width Tradeoffs in Conformal Regression with Input-Dependent Noise"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Validation and Error Handling for Batch Data Imports",
+      "bullets": [
+        "Implemented input validation and error handling for batch imports, checking required fields, duplicate records, and inconsistent data types.",
+        "Added regression tests for malformed inputs and revised diagnostic messages to support investigation of failed imports."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Missing-Data Strategies for Tabular Classification",
+      "bullets": [
+        "Implemented median imputation and iterative imputation within classification pipelines, keeping preprocessing confined to training folds during cross-validation.",
+        "Compared predictive performance under random and feature-dependent missingness, examining sensitivity to imputation choice and missingness indicators."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented coordinate descent for lasso and elastic net regression, checking convergence against reference implementations on standardized datasets.",
+        "Compared prediction error and coefficient selection stability across regularization settings using synthetic designs with correlated predictors."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Kernel Approximation for Nonlinear Regression",
+      "bullets": [
+        "Implemented random Fourier features and Nyström approximations for kernel ridge regression, using shared preprocessing and validation splits.",
+        "Compared predictive error, runtime, and memory requirements while varying approximation size and kernel bandwidth on nonlinear regression tasks."
+      ]
+    }
+  ]
+}

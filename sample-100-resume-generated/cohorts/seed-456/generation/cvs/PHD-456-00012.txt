@@ -1,0 +1,44 @@
+Applicant PHD-456-00012
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.69/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Predictive Calibration Under Covariate Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare probability calibration methods under controlled changes in feature distributions while preserving conditional label mechanisms.
+- Evaluated temperature scaling and isotonic regression using reliability diagrams, log loss, and repeated sampling to examine sensitivity to calibration sample composition.
+Research assistant, University Research Group | 2025-12 to 2026-08 | 10 hours/week
+Regularization Stability with Correlated Predictors
+Contribution: experimental design with supervisor guidance.
+- Planned simulation experiments with supervisor guidance to examine how predictor correlation and signal sparsity affect regularized regression performance.
+- Compared ridge, lasso, and elastic net using nested cross validation, documenting prediction error and coefficient stability across resampled training sets.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-03 to 2025-12 | 10 hours/week
+Batch Data Validation and Processing
+- Implemented Python validation routines for incoming tabular records, checking required fields, type consistency, and duplicate identifiers before downstream processing.
+- Maintained batch processing components and regression tests, reproducing reported failures and documenting expected behavior for malformed inputs and interrupted runs.
+
+TECHNICAL PROJECTS
+Classification with Incomplete Tabular Features | technical course project, 2026
+- Implemented preprocessing pipelines combining median or iterative imputation with logistic regression and random forests for classification with missing features.
+- Compared predictive performance across simulated missingness patterns, fitting preprocessing within training folds to prevent information leakage during cross validation.
+Prediction Intervals for Nonlinear Regression | technical course project, 2026
+- Implemented split conformal prediction around linear and random forest regressors, using held out calibration residuals to construct prediction intervals.
+- Compared empirical coverage and interval width across nonlinear and heteroscedastic simulations, examining conditional coverage patterns within predefined feature ranges.
+Density Estimation for Multimodal Distributions | technical course project, 2026
+- Implemented kernel density estimation and Gaussian mixture baselines, selecting bandwidths and mixture complexity through validation likelihood on synthetic distributions.
+- Compared held out log likelihood and sensitivity to initialization, using density plots to inspect oversmoothing and poorly represented modes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

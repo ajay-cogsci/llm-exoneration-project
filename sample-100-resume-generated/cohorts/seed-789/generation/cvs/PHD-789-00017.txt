@@ -1,0 +1,36 @@
+Applicant PHD-789-00017
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.63/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-07 to 2026-11 | 10 hours/week
+Probability Calibration Under Class Imbalance and Distribution Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine how training class imbalance and shifted test distributions affect probabilistic classifier calibration.
+- Compared sigmoid and isotonic calibration using held-out validation sets, reliability diagrams, and bootstrap uncertainty estimates while checking for data leakage.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Regularized Regression Under Correlated Features | technical course project, 2026
+- Implemented ridge, lasso, and elastic net regression pipelines with standardized features and cross-validation for selecting regularization parameters.
+- Compared prediction error and coefficient stability across synthetic datasets with correlated predictors, varying noise levels, and irrelevant features.
+Clustering with Gaussian Mixture Models | technical course project, 2026
+- Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including initialization checks and convergence monitoring.
+- Compared mixture models with k-means on synthetic clusters with unequal dispersion, examining assignment agreement and sensitivity to initialization.
+Comparative Evaluation of Regression Prediction Intervals | technical course project, 2026
+- Implemented split conformal prediction around linear regression and random forest models, separating training, calibration, and evaluation data.
+- Compared interval coverage and width under constant and input-dependent noise, inspecting conditional coverage across predefined regions of the feature space.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

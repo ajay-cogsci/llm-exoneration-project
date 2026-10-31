@@ -1,0 +1,33 @@
+Applicant PHD-123-00046
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.75/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-07 to 2026-11 | 10 hours/week
+Visual Surface Defect Classification with Handcrafted Features
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, standardizing image dimensions, and separating training and evaluation sets by source specimen.
+- Implemented a prescribed baseline using pooled image gradients and a linear support vector classifier; summarized confusion patterns across defect categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-10 to 2026-07 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed missing item reports to the appropriate staff.
+- Maintained order paperwork, organized storage areas, and coordinated routine pickup schedules while tracking outstanding requests through completion.
+
+TECHNICAL PROJECTS
+Scene Classification with Spatial Color Histograms | technical course project, 2026
+- Implemented a scene classification baseline using spatially pooled color histograms and a random forest classifier on labeled indoor and outdoor images.
+- Compared global and spatial histogram representations under a fixed data split, inspecting misclassified images for lighting variation and similar color distributions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

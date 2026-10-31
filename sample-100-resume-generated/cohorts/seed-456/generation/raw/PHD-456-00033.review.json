@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:18:10.832621+00:00",
+  "request_hash": "032d7317682123dd622f83940dc3df382e45042ae2c8f651609563cc373a9432",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a scene classification baseline using local image descriptors, clustering to construct a visual vocabulary, and linear classification.\", \"Compared vocabulary settings on a held-out validation split and inspected confusion patterns among scenes with similar textures.\"], \"id\": \"T1\", \"title\": \"Visual Word Baseline for Scene Classification\"}, {\"bullets\": [\"Implemented image retrieval using normalized color histograms and nearest-neighbor ranking, with consistent resizing and color conversion during preprocessing.\", \"Evaluated retrieval rankings against category labels and inspected mismatches involving similar colors but different object shapes or backgrounds.\"], \"id\": \"T2\", \"title\": \"Color Histogram Baseline for Image Retrieval\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Prepared inspection images by checking defect labels, removing duplicate frames, and organizing training and evaluation partitions by source object.\", \"Implemented histogram of oriented gradients features with a linear classifier, then reviewed confusion matrices and misclassified examples under varying illumination.\"], \"id\": \"R1\", \"title\": \"Baseline Classification of Surface Defects in Inspection Images\"}, {\"bullets\": [\"Prepared fixed-camera image sequences and foreground masks, checking annotation alignment and separating evaluation sequences from training footage.\", \"Implemented a background subtraction baseline with morphological cleanup, evaluating mask overlap and reviewing errors caused by shadows and intermittent motion.\"], \"id\": \"R2\", \"title\": \"Foreground Segmentation in Fixed-Camera Scenes\"}], \"work\": [{\"bullets\": [\"Checked incoming deliveries against packing lists, recorded discrepancies, and routed missing or damaged items to the appropriate staff.\", \"Organized order paperwork, maintained stockroom labels, and prepared handover notes covering pending shipments and unresolved inventory discrepancies.\"], \"id\": \"W1\", \"title\": \"Inventory and Order Processing Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00033\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.7, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 6, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-02\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-02\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-02\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_006d2054e1243314016ae614c3007487d09ea0e8473bebf6c6",
+    "object": "response",
+    "created_at": 1793463491,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463492,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_006d2054e1243314016ae614c412b087d0a436bd8d74699d94",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hTFZBy3d3eb_BvGg9pKricwabnNigT3VdLPAm54P6Yu1JSrddlyFBUNalrayLyg1iVPQQEDj7OOjgqw7HJCZ6EfvuXB0V05bJPt0PteIJ_VBkmJL6LPzPdkmdygsKFk-mrNZi4qsomlzucf8UjUo4sfzPg53vsoOUmEvQFZlLG4bKv2E4QA6DAgdNlJPsXoIMIT75E29p2u9iZEktAsZgs4_OyhmBzD0DPe869Cuh8xciBkYLiCxeyM7wJhX4issCr9GUnaI_r72Agtk4ZVqArOrzV0J-IPfd0d6gc0294Tcv4AFbwQhWf9Npr6OU60e4QRMeFEepwli5KwRNnTgymu7X7-icYYmag14qd-NNTuX0ILNFX4sK4Qu5UazMJ0FAiF1XOWvndSFm6T4PPOanPQTf1LV0NBpTpUNHpJiCWOLvIw5o04wZGXZmqYp1FZ4Sw-2-KSWp2Som6yjbEXDQ_Rd-TXmfIYix3tj_GjMhNqOcBSaKQ_0MLq0jzPRojTuoJC-WJxFBSjsDh-UuA-Qb0LprDrtZOIOvtHM_83-HGP-FvajXLJniRd9pPPBl9NMXcWIRFVOwLjKKJXaEw4Fk3OcaHeuH0Rm4kY4BJ1uBOje00fn2k4vtAw-z6KW3gL9PK0JHYuPahqOVVwXtejwIJVfkGGYddNZk8fQUV0KZ7FxzoN1ZPv7ydfWMqoXl6KFCNhrkovonaNO6Vb61Bl5tQibTVpKgvpePAdGgkh8VZ9QqO3dFZDybN4AliC1cSvCwPJ_v4cdzabyOgkA5LBlOFhwg-1xZDVDaWwEFUQH5qK9ZiH2HdNhMDJN626YGUDXc2sEpEAN-a7r4usbutioZwWqhZtWqp0pm3O_GMSAFuZnsQO1JtiNazWpmAQRDH40RRYWLQU1lsJkDKCzoRkrlrlV0DHS6H4QiD7r279_jmxXhFY7MjRwF6USeIymft92AS7nwe-FR13VrTq-44dwPTwDE7vIbmyveNO2fKPl4i6c8y5nJNYkF7UZeFcpldmaufdExg-B07PXIqSOvi2ZKa4v49ZdEDkK3HRb3ulPPpPdYPbuaM5QESsK8IDcRHgU1CfUKxGbXyEDMIfOs-vIxpk7wOWHHQQ0wCGIHrSrMDMTb5uWUu61uxF7hODLz4ln6rhc_yFnhKiQWHx-k2lvbv_yv-oS90kDRQ611SIFqGS-KQSxmBzwWvkZW67oG81LYKGiEdm9pjuO74VZs97VhPQmRdSNvopZBlbum6raS1N6fDt6Y_8W6j7cjhXrxxl8jntN2PPHXJ_fvFM9T2HCsza5KGpQfg-aykrG3_-4bR_J0BAOBg4EWP6tSEpVgWbIge9JgpEcVK5j64q6F1LtJbGVMT30xvfNZTCKFQGyIqoMzgwrrsBC5OKKB9rkf9DF0HfH7FuBcp6NXotOCxT0rFP-Mhi7SHwkFKNJQ4B6Om43CLcvneqnwSbxRY9MY1NAhFdyd1BX_PjTecCDRf5BnRQ9GQqnfg22ho-4A7TiixmkVz6HIwehBW9THKWHf4nqIstpG9GnaekTHC3pN_kZ8DTl_4mfk_Od-ei-qBnAaLSvtXwWdP51vzWoFN3yWk84ddLY42oYpULirT6JSdc0BfQYUwimYAEgw18eAOI-gdMh9SUuGnTf5K1yXBEEAfRQYbjcDlCxtikQa62BTC8TQXKN2mnQ8j4C6iW5fUlzJcMw0RVOPz01CLe0HYMPFf_Ngmr",
+        "summary": []
+      },
+      {
+        "id": "msg_006d2054e1243314016ae614c4dac887d08dfd8348c9091eca",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1031,
+      "input_tokens_details": {
+        "cache_write_tokens": 1028,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 1073
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

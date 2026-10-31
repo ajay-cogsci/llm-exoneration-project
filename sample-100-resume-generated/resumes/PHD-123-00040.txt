@@ -1,0 +1,50 @@
+Applicant PHD-123-00040
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.51/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion Sensitivity in Visual Object Detection
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing object detectors under synthetic occlusion, varying mask placement and coverage while preserving consistent evaluation splits.
+- Analyzed localization and classification errors by object size and occlusion pattern, distinguishing missed detections from inaccurate bounding box predictions.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Boundary Robustness in Semantic Segmentation
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing segmentation models under image resizing and compression, using matched training settings to isolate preprocessing effects.
+- Analyzed boundary accuracy and classwise overlap, inspecting prediction maps to characterize errors around thin structures and adjacent object regions.
+Research assistant, University Research Group | 2024-09 to 2026-05 | 10 hours/week
+Confidence Calibration Under Visual Domain Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating temperature scaling and ensemble confidence estimates for image classifiers exposed to lighting changes and image corruptions.
+- Analyzed reliability diagrams, calibration errors, and selective prediction curves, examining how validation domain choice affected confidence estimates across shifted conditions.
+
+PUBLICATIONS
+Validation Domain Choice in Confidence Calibration for Image Classification Under Visual Shift. Peer-reviewed ML conference, 2026-04; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-11 to 2025-09 | 40 hours/week
+Image Processing Service Maintenance
+- Implemented image upload validation and thumbnail generation within an existing service, handling malformed files and preserving consistent output dimensions.
+- Maintained automated tests for image processing endpoints, investigated production failures, and updated error handling for unsupported formats and interrupted requests.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Retrieval Representations | technical course project, 2026
+- Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent normalization and distance calculations across representations.
+- Compared ranked retrieval results using precision and recall, inspecting failures involving background similarity, viewpoint variation, and visually similar categories.
+Classical and Learned Approaches to Image Denoising | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising autoencoder, generating matched noisy inputs to support controlled comparisons across restoration approaches.
+- Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, inspecting texture preservation and edge blurring across noise conditions.
+Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented corner detection, local patch descriptors, and robust homography estimation to align image pairs depicting approximately planar scenes.
+- Compared descriptor matching strategies under rotation and illumination changes, analyzing reprojection errors and alignment failures caused by repetitive textures.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

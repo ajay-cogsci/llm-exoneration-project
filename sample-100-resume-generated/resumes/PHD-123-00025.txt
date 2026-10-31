@@ -1,0 +1,54 @@
+Applicant PHD-123-00025
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion-Aware Feature Aggregation for Object Detection
+Contribution: formulated a research question and led method development.
+- Formulated whether visible-region consistency could improve detection under partial occlusion; led development of a feature aggregation module using spatial confidence weights.
+- Evaluated controlled occlusion patterns against standard detection baselines, using component ablations and localization error analysis to examine failure cases.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Illumination-Robust Self-Supervised Depth Estimation
+Contribution: formulated a research question and led method development.
+- Investigated how illumination changes distort photometric supervision and led development of a depth training objective combining feature consistency with exposure-aware masking.
+- Compared alternative masking criteria under synthetic lighting shifts, examining depth discontinuities, textureless surfaces, and sensitivity to photometric augmentation.
+Research assistant, University Research Group | 2024-08 to 2026-05 | 10 hours/week
+Cross-View Consistency for Weakly Supervised Semantic Segmentation
+Contribution: formulated a research question and led method development.
+- Formulated how agreement across transformed views could refine segmentation from image labels; led development of confidence-weighted pseudo-label fusion and consistency training.
+- Designed ablations separating localization cues, pseudo-label filtering, and boundary regularization; analyzed class confusion and foreground coverage across training stages.
+
+PUBLICATIONS
+Confidence-Weighted Cross-View Pseudo-Label Fusion for Weakly Supervised Semantic Segmentation. Peer-reviewed ML conference, 2026-09; published; author position 1.
+Foreground Coverage and Boundary Errors in Cross-View Weakly Supervised Segmentation. Peer-reviewed ML conference, 2026-11; published; author position 2.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-04 to 2025-09 | 40 hours/week
+Image Processing Service Maintenance
+- Implemented image validation, resizing, and metadata extraction within an existing processing service, following established interface specifications and error-handling conventions.
+- Maintained regression tests for malformed uploads and format conversions, investigated processing failures, and documented fixes for operational handoffs.
+
+TECHNICAL PROJECTS
+Comparative Image Classification with Limited Training Data | technical course project, 2026
+- Implemented convolutional classification baselines and pretrained feature extraction, using consistent data splits and augmentation settings for comparative evaluation.
+- Compared training from scratch with classifier-only adaptation and full fine-tuning, inspecting learning curves and class-level errors under limited supervision.
+Stereo Matching Under Texture and Occlusion Challenges | technical course project, 2026
+- Implemented block matching and semi-global matching for rectified stereo images, including disparity consistency checks and invalid-pixel handling.
+- Compared disparity errors across textured, textureless, and occluded regions, examining how matching costs and smoothness penalties affected reconstruction artifacts.
+Motion and Appearance Cues for Multi-Object Tracking | technical course project, 2026
+- Implemented tracking baselines combining motion prediction with assignment-based association, then added appearance features within the same detection-driven pipeline.
+- Compared association strategies on crowded sequences, analyzing identity switches, fragmented trajectories, and recovery after temporary occlusion using shared detections.
+Confidence Calibration for Image Classification Under Corruption | technical course project, 2026
+- Implemented temperature scaling and histogram binning for image classifiers, fitting calibration parameters on held-out predictions without changing classifier weights.
+- Compared calibration error and predictive accuracy across blur, noise, and contrast corruptions, examining reliability diagrams and sensitivity to validation distribution.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

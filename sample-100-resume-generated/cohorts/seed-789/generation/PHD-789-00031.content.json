@@ -1,0 +1,61 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and isotonic regression under controlled covariate shifts, separating calibration fitting from held-out evaluation.",
+        "Analyzed reliability diagrams, Brier scores, and subgroup calibration errors to examine how shifted feature distributions affected predicted probabilities."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sensitivity of Tabular Classifiers to Missing Data",
+      "bullets": [
+        "Designed comparisons of median and iterative imputation across simulated missingness mechanisms, using shared data splits and matched classifier settings.",
+        "Analyzed discrimination and calibration across missingness patterns, examining whether observed differences depended on feature correlations or imputation choices."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Model Selection for Classification with Noisy Labels",
+      "bullets": [
+        "Designed experiments evaluating regularized logistic regression and gradient boosting under symmetric and class-dependent label corruption, with separate clean test sets.",
+        "Analyzed how validation label quality affected hyperparameter selection, using repeated splits and bootstrap intervals to characterize variability in model comparisons."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Validation Label Quality and Model Selection Under Symmetric and Class-Dependent Label Noise"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression pipelines with standardized predictors, selecting regularization parameters through cross-validation without exposing held-out test data.",
+        "Compared prediction error and coefficient stability on synthetic datasets with correlated features, examining sensitivity to noise and regularization strength."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Clustering and Initialization Sensitivity",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance matrices, including convergence checks and safeguards for nearly singular estimates.",
+        "Compared clustering assignments and held-out likelihood against k-means and reference mixture implementations, examining sensitivity to initialization and overlapping component distributions."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Bootstrap Aggregation for Decision Tree Regression",
+      "bullets": [
+        "Implemented bootstrap aggregation around decision tree regressors, tracking out-of-bag predictions and comparing aggregated estimates with individual tree predictions.",
+        "Evaluated bagged trees and random forests using matched validation splits, examining prediction variability and error across tree depths and feature subsampling settings."
+      ]
+    }
+  ]
+}

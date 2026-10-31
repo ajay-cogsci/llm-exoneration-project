@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion-Aware Confidence Estimation for Image Classification",
+      "bullets": [
+        "Formulated whether localized occlusions cause systematic overconfidence, separating prediction errors associated with foreground obstruction from those associated with background changes.",
+        "Led development of a visibility-conditioned confidence estimator and evaluated calibration against temperature scaling using controlled image masking and held-out corruption settings."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Exposure-Consistent Features for Low-Light Object Detection",
+      "bullets": [
+        "Investigated whether feature consistency across simulated exposure changes improves object detection robustness without suppressing information needed to localize small objects.",
+        "Led development of an exposure-weighted consistency objective and compared detector variants through brightness-stratified evaluation and ablations of feature alignment locations."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Boundary Uncertainty in Weakly Supervised Semantic Segmentation",
+      "bullets": [
+        "Formulated how uncertain object boundaries affect segmentation learned from sparse annotations, distinguishing ambiguity in pseudo-labels from errors within object interiors.",
+        "Led development of boundary-weighted pseudo-label refinement, comparing uncertainty estimates and conducting annotation-density ablations alongside evaluation on visually ambiguous scene boundaries."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Boundary Uncertainty Across Sparse Annotation Settings for Semantic Segmentation"
+    },
+    {
+      "id": "P2",
+      "title": "Boundary-Weighted Pseudo-Label Refinement for Weakly Supervised Semantic Segmentation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned Python utilities for validating uploaded images, checking file integrity, dimensions, and supported formats before downstream processing.",
+        "Added regression tests for malformed inputs and maintained error-handling routines, documenting reproducible failures and coordinating fixes within the existing ingestion workflow."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Retrieval Representations",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, keeping preprocessing and similarity calculations consistent across comparison settings.",
+        "Compared retrieval rankings under cropping, color shifts, and background clutter, examining failure cases where global appearance conflicted with object identity."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Optical Flow Estimation Under Challenging Motion",
+      "bullets": [
+        "Implemented local gradient-based and coarse-to-fine optical flow baselines, using shared image pyramids and consistent handling of image borders.",
+        "Compared motion estimates on synthetic translations and image sequences, analyzing sensitivity to displacement, texture scarcity, and violations of brightness constancy."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Class Imbalance Strategies for Visual Defect Classification",
+      "bullets": [
+        "Implemented weighted cross-entropy, focal loss, and balanced sampling within a shared image classification pipeline for comparing approaches to imbalanced defect recognition.",
+        "Evaluated classwise precision and recall under fixed data splits, inspecting confusion patterns and sensitivity to decision thresholds across training configurations."
+      ]
+    }
+  ]
+}

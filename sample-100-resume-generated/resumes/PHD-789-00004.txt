@@ -1,0 +1,34 @@
+Applicant PHD-789-00004
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.72/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Surface Defect Classification Under Variable Lighting
+Contribution: data preparation and baseline implementation.
+- Prepared labeled surface image datasets by checking annotation consistency, standardizing image dimensions, and separating training and evaluation samples by source specimen.
+- Implemented assigned histogram and texture feature baselines with support vector classifiers, inspecting confusion matrices across lighting conditions and documenting recurring classification errors.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2022-10 to 2025-09 | 40 hours/week
+Inventory Records and Shipment Coordination
+- Maintained inventory logs, checked incoming delivery paperwork against purchase records, and referred quantity discrepancies to the appropriate staff for resolution.
+- Coordinated routine shipment scheduling, organized dispatch documents, and followed up on outstanding orders with suppliers and internal operations staff.
+
+TECHNICAL PROJECTS
+Handwritten Digit Recognition with Classical Classifiers | technical course project, 2026
+- Implemented nearest neighbor and logistic regression baselines for handwritten digit classification using normalized pixel arrays and a predefined training and test split.
+- Compared classifier predictions through confusion matrices and inspected misclassified images to document ambiguities associated with stroke thickness, slant, and digit shape.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

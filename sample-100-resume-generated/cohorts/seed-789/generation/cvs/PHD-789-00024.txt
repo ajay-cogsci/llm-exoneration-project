@@ -1,0 +1,45 @@
+Applicant PHD-789-00024
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.92/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Regression Uncertainty Under Structured Missingness
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing regression uncertainty estimates across feature missingness mechanisms, imputation strategies, and training sample compositions.
+- Analyzed interval coverage and prediction error across missingness patterns, distinguishing effects of imputation choices from uncertainty estimation procedures.
+Research assistant, University Research Group | 2024-10 to 2026-08 | 10 hours/week
+Probability Calibration Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing temperature scaling, isotonic regression, and importance-weighted calibration under simulated covariate shifts in classification datasets.
+- Analyzed reliability diagrams, proper scoring rules, and subgroup calibration to characterize sensitivity to validation composition and density ratio estimation.
+
+PUBLICATIONS
+Validation Composition and Importance Weighting in Probability Calibration Under Covariate Shift. Peer-reviewed ML conference, 2025-11; published; author position 1.
+Subgroup Reliability Diagnostics for Calibrated Tabular Classifiers Under Covariate Shift. Regional applied computing conference, 2026-02; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-10 to 2024-10 | 10 hours/week
+Data Import Validation and Service Maintenance
+- Implemented validation checks for tabular data imports, handling malformed records and maintaining consistent error responses across service endpoints.
+- Added regression tests for parsing failures and duplicate submissions, and investigated defects using application logs and reproducible test cases.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression workflows with standardized predictors, selecting regularization strengths through cross-validation on training data.
+- Compared held-out prediction error and coefficient stability across correlated feature settings, examining sensitivity to resampling and regularization choices.
+Kernel Classification with Nonlinear Decision Boundaries | technical course project, 2026
+- Implemented kernel support vector classification and logistic regression baselines, using nested cross-validation to separate hyperparameter selection from evaluation.
+- Compared predictive performance and decision boundaries on synthetic nonlinear datasets, examining effects of feature scaling, class overlap, and kernel bandwidth.
+Gaussian Mixture Clustering Under Model Misspecification | technical course project, 2026
+- Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance matrices, including initialization checks and convergence monitoring.
+- Compared mixture clustering with k-means on synthetic datasets, evaluating assignment agreement and sensitivity to cluster overlap and covariance misspecification.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

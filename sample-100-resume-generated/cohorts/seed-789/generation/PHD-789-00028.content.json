@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Contradiction-Aware Evidence Selection for Extractive Question Answering",
+      "bullets": [
+        "Formulated a research question on whether conflicting retrieved passages undermine answer selection when lexical relevance remains high.",
+        "Led development of an evidence reranking method combining relevance and textual entailment scores; evaluated answer consistency through controlled passage substitutions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Uncertainty-Aware Text Classification Under Domain Shift",
+      "bullets": [
+        "Investigated how domain shift affects selective text classification, separating errors associated with vocabulary changes from failures of confidence calibration.",
+        "Led development of a domain-aware confidence calibrator using representation similarity; evaluated abstention behavior with cross-domain splits, ablations, and qualitative error analysis."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Vocabulary Shift and Confidence Reliability in Cross-Domain Text Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Evaluating Abstention Threshold Transfer Across Text Classification Domains"
+    },
+    {
+      "id": "P3",
+      "title": "Representation-Similarity Calibration for Selective Text Classification Under Domain Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Ticket Processing and Routing",
+      "bullets": [
+        "Implemented ticket normalization and routing components within an existing service, following specified handling rules for missing fields and duplicate submissions.",
+        "Added regression tests for routing changes, investigated malformed input failures, and documented expected behavior for maintenance and handoff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented term-weighted and dense embedding retrieval baselines over a shared document collection, using consistent preprocessing and query evaluation splits.",
+        "Compared ranking quality and retrieval latency, then inspected failed queries involving paraphrases, rare terms, and mismatched document granularity."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented recurrent and transformer-based sequence labeling baselines with aligned tokenization, padding masks, and consistent entity span decoding.",
+        "Compared entity-level precision and recall, examining boundary errors and performance differences between frequent entities and previously unseen surface forms."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented frequency-based and graph-based sentence ranking methods, applying a shared length budget and redundancy filtering to generated summaries.",
+        "Compared lexical overlap scores and manually inspected summaries for repeated content, missing central facts, and unresolved references."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Subword Tokenization for Morphologically Varied Text",
+      "bullets": [
+        "Implemented byte-pair and unigram tokenization pipelines for a shared text corpus, controlling normalization and vocabulary allocation across comparisons.",
+        "Compared sequence lengths and reconstruction behavior, inspecting segmentation patterns for inflected words, uncommon names, and mixed-script inputs."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance and distractor placement to assess how retrieved context affects answer correctness and evidence attribution.",
+        "Analyzed response errors across retrieval conditions, distinguishing unsupported answers from failures to use relevant evidence through structured manual annotation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Negation-Aware Sentiment Classification",
+      "bullets": [
+        "Designed experiments comparing lexical and transformer classifiers across review domains, with matched evaluation subsets isolating negation patterns and sentiment-bearing vocabulary.",
+        "Analyzed domain transfer errors using confusion matrices and sentence-level inspection, examining interactions between negation scope, input length, and prediction confidence."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Import Validation and Error Handling",
+      "bullets": [
+        "Implemented assigned validation checks for document import requests, handling missing fields, unsupported encodings, and malformed metadata within an existing processing service.",
+        "Added regression tests for import failures and revised error messages to help support staff distinguish invalid submissions from temporary processing errors."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of News Topic Classifiers",
+      "bullets": [
+        "Implemented TF-IDF classifiers and a fine-tuned transformer baseline for news categorization, using consistent data partitions and preprocessing rules across comparisons.",
+        "Compared macro-averaged classification metrics and inspected confusion patterns, examining how rare categories and overlapping topic vocabulary affected model predictions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for FAQ Matching",
+      "bullets": [
+        "Implemented BM25 and sentence-embedding retrieval for matching user questions to FAQ entries, evaluating both approaches against shared relevance judgments.",
+        "Compared ranking quality across paraphrased and keyword-heavy queries, inspecting retrieval failures involving ambiguous terminology and closely related candidate answers."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Sequence Labeling Approaches to Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field tagger and a transformer token classifier, aligning tokenization and label conversion for comparable entity extraction evaluation.",
+        "Compared entity-level precision and recall, categorizing boundary and type errors while examining performance differences for unseen names and multiword entities."
+      ]
+    }
+  ]
+}

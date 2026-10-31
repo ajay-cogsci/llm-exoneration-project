@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evaluating Semantic Segmentation Robustness under Image Corruptions",
+      "bullets": [
+        "Designed experiments with supervisor guidance to evaluate semantic segmentation under blur, noise, and illumination shifts, controlling data splits and augmentation settings.",
+        "Implemented corruption pipelines and compared classwise intersection over union across conditions, inspecting prediction overlays to characterize boundary errors and small object failures."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Learning",
+      "bullets": [
+        "Implemented frozen feature extraction and end to end fine tuning for pretrained convolutional classifiers using consistent preprocessing and training partitions.",
+        "Compared classification accuracy and confusion patterns across training strategies, examining how augmentation choices affected predictions for visually similar categories."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented image alignment pipelines using Harris corners and patch descriptors, comparing raw intensity descriptors against normalized patches under controlled transformations.",
+        "Estimated homographies with robust sampling and evaluated reprojection errors, inspecting failed matches in repetitive textures and images with limited overlap."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Neural Approaches to Image Denoising",
+      "bullets": [
+        "Implemented Gaussian filtering, median filtering, and a convolutional denoising autoencoder, using matched image partitions and synthetic noise generation for comparison.",
+        "Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and residual artifacts across noise conditions."
+      ]
+    }
+  ]
+}

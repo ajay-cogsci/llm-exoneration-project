@@ -1,0 +1,39 @@
+Applicant PHD-456-00046
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Visual Baselines for Surface Defect Classification
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, removing duplicate captures, and organizing training and evaluation splits by source specimen.
+- Implemented a prescribed linear support vector machine baseline using gradient descriptors, then inspected classification errors across lighting conditions and defect categories.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Color and Texture Features for Indoor Scene Recognition
+Contribution: data preparation and baseline implementation.
+- Standardized indoor image dimensions, checked scene category annotations, and maintained predefined dataset partitions for baseline scene recognition experiments.
+- Implemented nearest neighbor classification with color histograms and local texture descriptors, comparing feature configurations and documenting confusion between visually similar rooms.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-08 to 2026-02 | 10 hours/week
+Inventory and Order Coordination
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items through established procedures.
+- Maintained stock records, assembled routine order paperwork, and coordinated pickup schedules with staff to support daily operations.
+
+TECHNICAL PROJECTS
+Handwritten Digit Recognition with Linear Classifiers | technical course project, 2026
+- Implemented a logistic regression baseline for handwritten digit recognition using normalized pixel intensities and predefined training and test partitions.
+- Compared raw pixels with gradient features under the same evaluation procedure, inspecting confusion patterns and representative misclassified images.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

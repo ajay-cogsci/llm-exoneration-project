@@ -1,0 +1,42 @@
+Applicant PHD-789-00030
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Visual Baselines for Surface Defect Classification
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, standardizing crop dimensions, and separating related samples across training and evaluation splits.
+- Implemented a prescribed histogram of oriented gradients baseline with a support vector classifier, reviewing misclassifications under uneven illumination and textured backgrounds.
+Research assistant, University Research Group | 2026-07 to 2026-08 | 10 hours/week
+Color-Based Baselines for Scene Image Retrieval
+Contribution: data preparation and baseline implementation.
+- Organized scene images into reference and query sets, checked category annotations, and removed duplicate files before baseline evaluation.
+- Implemented normalized color histograms and nearest neighbor retrieval following an existing protocol, inspecting retrieved examples for confusion between visually similar scene categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-07 to 2026-07 | 10 hours/week
+Routine Operations and Supply Coordination
+- Maintained supply inventories, checked incoming deliveries against order records, and routed missing item reports to the responsible staff.
+- Organized routine paperwork, updated shared schedules, and tracked outstanding service requests to support daily office operations and shift handoffs.
+
+TECHNICAL PROJECTS
+Color Clustering for Image Segmentation | technical course project, 2026
+- Implemented a baseline image segmentation pipeline using color normalization and k-means clustering, converting cluster assignments into pixelwise region maps.
+- Compared segmentations with reference masks and inspected boundary errors, documenting sensitivity to cluster initialization and foreground objects with similar background colors.
+Dimensionality Reduction for Handwritten Digit Classification | technical course project, 2026
+- Implemented a handwritten digit classification baseline using flattened grayscale images, principal component analysis, and logistic regression within a fixed evaluation split.
+- Compared predictions with and without dimensionality reduction, examining confusion matrices and misclassified images to characterize errors involving ambiguous strokes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

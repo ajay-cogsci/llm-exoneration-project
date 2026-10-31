@@ -1,0 +1,32 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Intent Classification for Short Support Requests",
+      "bullets": [
+        "Prepared labeled support requests by normalizing whitespace, removing duplicate messages, and checking intent labels against the supplied annotation guidelines.",
+        "Implemented a TF-IDF logistic regression baseline and inspected confusion matrices to document errors among closely related request categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence Function Classification in Scientific Abstracts",
+      "bullets": [
+        "Segmented scientific abstracts into sentences, reconciled label formatting, and maintained document-level splits to prevent overlap between training and evaluation data.",
+        "Implemented a word n-gram classification baseline using supplied sentence labels and summarized misclassifications between background, methods, and conclusion statements."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Sentiment Classification of Product Reviews",
+      "bullets": [
+        "Implemented a multinomial naive Bayes sentiment classifier with bag-of-words features, fitting vocabulary and preprocessing transformations only on training reviews.",
+        "Evaluated held-out predictions using precision, recall, and confusion matrices, then examined errors involving negation and mixed sentiment."
+      ]
+    }
+  ]
+}

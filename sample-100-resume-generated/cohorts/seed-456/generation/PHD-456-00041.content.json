@@ -1,0 +1,69 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion-Aware Temporal Consistency for Monocular Depth Estimation",
+      "bullets": [
+        "Formulated whether visibility uncertainty could reduce erroneous temporal supervision in monocular depth estimation, focusing on disocclusions and independently moving objects.",
+        "Led development of visibility-weighted consistency losses and evaluated depth predictions against photometric baselines using controlled occlusion tests and component ablations."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Confidence-Gated Adaptation for Visual Recognition under Appearance Shift",
+      "bullets": [
+        "Investigated when prediction confidence provides reliable supervision for adapting image classifiers to changing illumination, texture, and background conditions.",
+        "Led development of confidence-gated feature alignment, comparing fixed and adaptive acceptance criteria through corruption evaluations and analyses of incorrect pseudo-labels."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Boundary-Aware Learning for Weakly Supervised Semantic Segmentation",
+      "bullets": [
+        "Formulated how boundary ambiguity affects segmentation learned from image-level labels, and led development of uncertainty-aware seed expansion and region consistency objectives.",
+        "Designed comparative experiments separating seed quality, boundary refinement, and augmentation consistency, with ablations examining object extent errors and background leakage."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Region Consistency with Uncertain Boundaries for Weakly Supervised Semantic Segmentation"
+    },
+    {
+      "id": "P2",
+      "title": "Uncertainty-Aware Seed Expansion for Segmentation from Image-Level Labels"
+    },
+    {
+      "id": "P3",
+      "title": "Tracing Boundary Ambiguity and Background Leakage in Weakly Supervised Segmentation"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Features for Image Matching",
+      "bullets": [
+        "Implemented patch extraction, descriptor matching, and geometric verification for image pairs, comparing gradient-based descriptors with normalized intensity patches.",
+        "Evaluated correspondence reliability under rotation, blur, and viewpoint changes, inspecting mismatches and comparing nearest-neighbor filtering with ratio-based acceptance."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning Strategies for Image Classification",
+      "bullets": [
+        "Implemented frozen-feature classification and partial network fine-tuning using a pretrained convolutional backbone, maintaining consistent preprocessing and training splits.",
+        "Compared classification behavior across training schedules and augmentation settings, examining confusion patterns and sensitivity to class imbalance without changing evaluation partitions."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Neural Approaches to Image Denoising",
+      "bullets": [
+        "Implemented Gaussian filtering, bilateral filtering, and a convolutional denoising model for images corrupted with synthetic noise under matched evaluation conditions.",
+        "Compared reconstruction fidelity and edge preservation across noise settings, examining residual images to distinguish oversmoothing from remaining structured artifacts."
+      ]
+    }
+  ]
+}

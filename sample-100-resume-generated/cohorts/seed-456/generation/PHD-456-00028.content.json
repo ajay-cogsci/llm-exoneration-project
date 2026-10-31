@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Data Preparation and Baselines for Support Request Classification",
+      "bullets": [
+        "Cleaned support request text, standardized category labels using supplied guidelines, and removed duplicate messages before preparing training and evaluation splits.",
+        "Implemented TF-IDF and logistic regression baselines in scikit-learn, reporting macro-averaged classification metrics and reviewing confusion patterns between related request categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Documentation and Dispatch Support",
+      "bullets": [
+        "Checked incoming order forms for missing information, maintained filing records, and routed incomplete requests to the appropriate staff for clarification.",
+        "Updated dispatch checklists, reconciled packing slips with order records, and communicated outstanding paperwork during routine handovers between operations staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Review Sentiment Classification",
+      "bullets": [
+        "Implemented count-based text representations and multinomial naive Bayes for review sentiment classification, following the prescribed preprocessing and train-test split procedure.",
+        "Compared unigram and bigram feature settings on validation data, inspected misclassified reviews, and documented errors involving negation and mixed sentiment."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "TF-IDF Baseline for Document Retrieval",
+      "bullets": [
+        "Built a baseline retrieval pipeline using TF-IDF document vectors and cosine similarity to rank short articles against natural language queries.",
+        "Evaluated ranked results against supplied relevance labels, compared stopword filtering settings, and inspected failures caused by vocabulary mismatch between queries and documents."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Calibration Under Changing Missingness Patterns",
+      "bullets": [
+        "Formulated whether changes in feature missingness degrade predictive calibration, and led development of a recalibration procedure conditioned on missingness indicators.",
+        "Evaluated the procedure against global recalibration using simulated missingness mechanisms, examining reliability diagrams and sensitivity to sparse calibration groups."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Stable Importance Weighting for Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated how unstable density ratios affect uncertainty estimation under covariate shift, and led development of regularized weighting for conformal prediction.",
+        "Developed weight clipping and diagnostic procedures, comparing interval coverage and width across controlled distribution shifts and tabular regression benchmarks."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Regularized Importance Weighting for Conformal Prediction Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Diagnosing Density Ratio Instability in Shifted Regression Problems"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Input Validation and Batch Processing Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for structured data imports, handling missing fields, inconsistent types, and malformed records within existing processing workflows.",
+        "Added regression tests for reported parsing defects and revised error messages to support debugging and routine maintenance of batch processing jobs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Regularized Linear Regression",
+      "bullets": [
+        "Implemented ridge and lasso regression pipelines with standardized predictors, selecting regularization parameters through cross validation on synthetic and tabular datasets.",
+        "Compared prediction error and coefficient stability under correlated features, documenting how regularization choices affected variable selection and sensitivity to sampling variation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Probability Calibration for Imbalanced Classification",
+      "bullets": [
+        "Implemented logistic regression and tree ensemble baselines, applying sigmoid and isotonic calibration using held out predictions from imbalanced classification datasets.",
+        "Compared calibration curves, Brier scores, and discrimination metrics across class proportions, checking whether calibration gains persisted under alternative data splits."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Gaussian Mixture and Centroid Clustering Comparisons",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixtures and a centroid clustering baseline, testing both on synthetic datasets with overlapping and elongated clusters.",
+        "Compared cluster assignments, initialization sensitivity, and held out mixture likelihood, examining how covariance restrictions changed fit and convergence behavior."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+Applicant PHD-456-00005
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.78/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Sensitivity of Extractive Question Answering to Distractor Passages
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying distractor relevance and passage ordering to examine context sensitivity in pretrained extractive question answering models.
+- Analyzed answer span errors across question types, separating failures associated with lexical overlap from those involving competing answer candidates.
+Research assistant, University Research Group | 2024-09 to 2026-08 | 10 hours/week
+Domain Shift and Calibration in Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain evaluation protocols comparing linear and transformer sentiment classifiers under matched preprocessing, training partitions, and label availability.
+- Analyzed calibration curves and misclassified examples to characterize confidence changes associated with domain vocabulary, negation, and mixed sentiment.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-06 to 2024-09 | 10 hours/week
+Maintenance of Data Import and Validation Utilities
+- Implemented assigned updates to Python import utilities, adding schema checks and clearer error messages for malformed tabular records.
+- Wrote regression tests for parsing edge cases and investigated reported import failures by tracing validation logic and reproducing problematic inputs.
+
+TECHNICAL PROJECTS
+Comparing Sparse and Dense Retrieval for FAQ Matching | technical course project, 2026
+- Implemented term-weighted and pretrained sentence-embedding retrieval baselines for matching user questions to relevant FAQ entries using a shared evaluation split.
+- Compared ranking metrics and inspected retrieval errors involving paraphrases, rare terminology, and questions sharing keywords but expressing different intents.
+Sequence Labeling Approaches to Named Entity Recognition | technical course project, 2026
+- Implemented a feature-based sequence tagger and fine-tuned a pretrained token classifier using consistent entity labels and sentence-level data partitions.
+- Compared entity-level precision and recall, examining boundary errors, ambiguous names, and tokenization differences through manually reviewed prediction examples.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented sentence-frequency scoring and graph-based sentence ranking for document summarization, applying identical preprocessing and summary length constraints.
+- Compared reference overlap and reviewed selected sentences for redundancy, topic coverage, and dependence on context omitted from generated summaries.
+Character and Word Representations for Noisy Text Classification | technical course project, 2026
+- Implemented character-based and word-based text classification pipelines, evaluating both on clean inputs and controlled spelling and whitespace perturbations.
+- Compared classification performance across perturbation types and inspected feature weights to identify sensitivity to fragmented words and altered character sequences.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

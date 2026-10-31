@@ -1,0 +1,30 @@
+STRUCTURED PREVIEW - API prose not generated
+
+Applicant PHD-123-00013
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Research in natural language processing
+Contribution: assigned implementation tasks.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2022-10 to 2025-09 | 40 hours/week
+
+TECHNICAL PROJECTS
+Project T1 (title pending API generation) | technical course project, 2026
+Scope: baseline implementation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

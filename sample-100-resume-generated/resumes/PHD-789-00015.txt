@@ -1,0 +1,36 @@
+Applicant PHD-789-00015
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.78/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Image Classification Robustness Under Acquisition Shifts
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare image classifiers under blur, compression, and illumination shifts using consistent training splits and preprocessing.
+- Evaluated augmentation strategies through controlled ablations, examining classwise errors and prediction confidence to distinguish corruption sensitivity from baseline classification difficulty.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-11 to 2026-02 | 10 hours/week
+Image Preprocessing and Validation Utilities
+- Implemented assigned image validation routines that checked file readability, channel consistency, and dimensions before passing inputs to an existing processing pipeline.
+- Added regression tests for malformed inputs and updated error handling to provide actionable diagnostics during routine image ingestion.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Semantic Segmentation Architectures | technical course project, 2026
+- Implemented a U-Net and a convolutional encoder-decoder baseline for foreground segmentation, using shared preprocessing and matched training settings.
+- Compared overlap metrics and inspected boundary errors across object sizes, examining how skip connections affected segmentation of thin structures.
+Visual Similarity Retrieval with Color and Learned Features | technical course project, 2026
+- Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent feature normalization and nearest-neighbor ranking procedures.
+- Compared retrieval precision using category labels and inspected mismatched results to assess sensitivity to background clutter and viewpoint changes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

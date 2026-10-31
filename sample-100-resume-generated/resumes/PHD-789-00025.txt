@@ -1,0 +1,44 @@
+Applicant PHD-789-00025
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.73/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness of Image Segmentation Under Illumination Changes
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare segmentation models under controlled brightness shifts, contrast changes, and spatially uneven illumination.
+- Implemented image perturbation pipelines in PyTorch and analyzed classwise overlap metrics to distinguish boundary errors from missed foreground regions.
+Research assistant, University Research Group | 2025-11 to 2026-08 | 10 hours/week
+Evaluating Visual Representations for Limited-Label Classification
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance comparing frozen pretrained representations and supervised fine-tuning across controlled subsets of labeled images.
+- Maintained consistent data splits and preprocessing, then examined confusion matrices and nearest neighbors to characterize errors among visually similar categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-11 to 2025-11 | 10 hours/week
+Image Upload Validation and Processing Services
+- Implemented Python components for image upload validation, thumbnail generation, and metadata extraction within an existing application processing pipeline.
+- Added regression tests for corrupted files and unsupported formats, and investigated processing failures using application logs and reproducible test inputs.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting overlapping views of planar scenes.
+- Compared descriptor normalization and matching criteria using reprojection error and visual inspection under changes in viewpoint, illumination, and texture.
+Comparing Classical and Learned Image Denoising | technical course project, 2026
+- Implemented median filtering, Gaussian smoothing, and a convolutional denoising model for images corrupted by synthetic impulse and Gaussian noise.
+- Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation across noise settings.
+Image Classification with Handcrafted and Convolutional Features | technical course project, 2026
+- Implemented histogram of oriented gradients features with a linear classifier and trained a compact convolutional network on the same image dataset.
+- Compared classification accuracy, training behavior, and categorywise errors using shared data splits, documenting differences on texture dominated and shape dominated examples.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

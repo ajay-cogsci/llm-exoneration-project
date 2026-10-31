@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:41.069992+00:00",
+  "request_hash": "bfb220e7fc21d835707840743e6ce6efd3ea417cfde66f5e29a72b51f232f76a",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a multinomial naive Bayes classifier with bag-of-words features for labeled movie reviews, following the assigned baseline specification.\", \"Compared count and TF-IDF feature representations on held-out reviews, and categorized prediction errors involving negation, mixed sentiment, and uncommon vocabulary.\"], \"id\": \"T1\", \"title\": \"Movie Review Sentiment Classification Baseline\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Cleaned support request text, standardized category labels, and removed duplicate messages before constructing training and evaluation splits.\", \"Implemented TF-IDF and logistic regression baselines using specified preprocessing settings, then inspected classification errors involving overlapping product terminology.\"], \"id\": \"R1\", \"title\": \"Support Request Classification Across Product Categories\"}, {\"bullets\": [\"Prepared labeled question pairs by normalizing whitespace, checking missing text, and separating repeated questions across the supplied dataset partitions.\", \"Implemented a word overlap baseline and TF-IDF cosine similarity scoring, documenting false matches caused by shared vocabulary with different intent.\"], \"id\": \"R2\", \"title\": \"Lexical Baselines for Question Pair Matching\"}], \"work\": [{\"bullets\": [\"Maintained Python routines for importing text records, validating required fields, and reporting malformed entries for correction before downstream processing.\", \"Added regression tests for encoding errors and missing fields, and reproduced reported import failures using sanitized sample records.\"], \"id\": \"W1\", \"title\": \"Text Import Validation and Maintenance\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00027\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.75, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 1, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2026-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2025-10\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0543173b62caccc5016ae6151d34a087d08204bce438bf8e68",
+    "object": "response",
+    "created_at": 1793463581,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463583,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0543173b62caccc5016ae6151e4f0c87d0ae395f315533d9d2",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hUfDPQ4obiSmF5J2jtwSrKpMI31F61vOQH9lU-hSdtfRwrRlCvF4a6DElFnjhwcI-KULqXuGe2xjo8CM3cBptcL9gSD57-e4S3EbeN4Z4amEp6T74h-4-tgTZGUHO6nlVPS7iVCkPObFTo-sQYxMVjklXM0J1SZbbxWljJXn9KvrH8DtvLrHQgzSwK1w07jZzRgfo6WE72Md_qHiHZtaT5WZRl0hnN4V76FCspYqcwDACSDGnvU8b1bfV-EV7MIDTFj-FYAECnygqb4j6waE6JuzIF024_ctEIoK-qQq7fLgnlOzLm00vfw_24UCq8J34HiuFF1InRMJ3PcdUJTXM0u_i6Damzu5E0nzNVUWCj3SsclD-5urpg_G9VX1IX-bXIf0-4j4LhY4RFtFfj3qieuLHqoEtylbeNMOuOY1KH1_9KzZCHrI8BMa1EIi-1WHOhz27yJwEHk-ousJcq94Y5VJf1Rr1pfijWbGZNXcfq_680kjqyVmIgaPGbZ4x4sHWHvE7agwsNpzmOL0gAFQPCUcVJsOKzaHytwOAS9bMOvuhcrT2KL2ZUsxLjeIicFfeHdM-Dc_Ama_yPL6kxSVAvMHJ_pgOp6D7p06_B983xnCv9cUZoRoEZ_sovCHOrnQ7rv1rePzBZz2IewWxjzfHU061-j9TgglXj3FnJCa9NvFhcGBoZLHR51LM7EMrcQ7XjR_qfxOtsnA-kUokr797ExPPGPBbxA0WAlCrGD9Bq4GIY3EpTg85xJsN-af-X1pCq4AqiF3t99_wkqCyN980xv9xHRlOq_pfrNGNrBtAAf8aPpdFjevSVGQIuVV1WzcxsaXFa6VqC_9-zTTsnnEoXcbDR2kn-xg8XEqTMqeqmmq54OC2TYzeKkKrQ_yqIbAP3AvQXnyhS7hAUFA8QmljAOUPiVmR-v7ibZtVD_0rnTqWRoERjfwhmK2xcwN0gn1w9PZ8Y2nsaHGoECoIb2b74c3zyvc7vPygoFqaEMMlOziy9wBqHLpyX8z7p9KZyNSLV0ThIBR3pTtBgDy7beDskQc66p1yoy6aug2XknkM-Rdbbca89dQAxadbLCZ_CYq9YzQB_NQ_-AI6PQljJrQlW_b271vYiqBTOIM_Q39mBbt9zZawAH46IC4QFc7Bs2smt3v8dX4bZccWJ_TJarugXR-lb_kTnGsxLVhWip4GOL_fSeFhLN4X1La6PC6phwv0wqgS9j88j8P-TXv-tHE_X_udZOKZ4hego2RkEtja4JEbSjal6oV7d3Zz-C9Hwr2hWUmNyIuscFeSop3D4NWqV8lttYmCw3CKmg4M6B6MoA2_2965n8cnk_CNIwkHuObcd7EJBBFoVf1KB-5_hNwjv44ltPXykIZdSyp7O9Xt-J85PSnByYSwo7QT91cO0nYsbVa54T2g6OiKhbIWHhvHqodQWHBdIhjukghmOd_DLQ9XYUAtHdxfkCGPsecO5oNqOpH-9iPvw8Sg4JUP3TvptttAPm5FYCKn2mHNrW7k_qcUm12uEIyazVUF1ToxZko4rJ4mbA9-ZQO7CKxNgmWfny34jtBRenE7ivlNIMv3wFqFowWuKYf6r1icG29ntBJ9wriCp3DqI3EqyMpDtbZ3MnipxsGQ1gyhPBXESh97glKQNZx3sk1KRLXcGy2LQQO-6H_W68idYOO7KvjCJT2FSGk6LkmRICnXwSfsmZy5cdg3GQFTn56khJaQNCc19eNGHb1UbWQKYRggxVXCi8gjUHscfdXjEmI5m3i8J9YPBpX9o=",
+        "summary": []
+      },
+      {
+        "id": "msg_0543173b62caccc5016ae6151f15d087d0b5f7d84e0f870869",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 944,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 986
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance and distractor placement to assess evidence use in retrieval-augmented question answering.",
+        "Analyzed answer correctness and citation support across retrieval conditions, separating failures associated with missing evidence from unsupported generation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Lexical Shortcut Reliance in Natural Language Inference",
+      "bullets": [
+        "Designed experiments using lexical overlap controls and label-preserving sentence edits to examine shortcut reliance in natural language inference models.",
+        "Analyzed prediction changes across linguistic challenge sets, distinguishing sensitivity to superficial vocabulary cues from errors involving negation and argument structure."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Separating Lexical Overlap from Semantic Evidence in Natural Language Inference"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Ticket Classification and Text Processing",
+      "bullets": [
+        "Implemented text normalization and input validation for support ticket processing, handling malformed records and inconsistent category labels.",
+        "Maintained a ticket classification component and added regression tests covering preprocessing behavior, prediction interfaces, and empty input handling."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sparse and Dense Document Retrieval",
+      "bullets": [
+        "Implemented sparse term weighting and dense embedding retrieval baselines over a shared document collection with consistent query preprocessing.",
+        "Compared retrieval rankings using relevance judgments and inspected disagreements involving rare terminology, paraphrased queries, and documents with overlapping vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Approaches for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification and conditional random field decoding baselines for named entity recognition using a common training split.",
+        "Compared entity-level precision and recall, examining boundary errors, ambiguous names, and decoding behavior under inconsistent token-level predictions."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Positional and Graph-Based Baselines",
+      "bullets": [
+        "Implemented lead sentence selection and graph-based sentence ranking for extractive summarization with matched token budgets and shared sentence segmentation.",
+        "Compared lexical overlap scores and manually inspected summaries for redundancy, omitted central claims, and dependence on document structure."
+      ]
+    }
+  ]
+}

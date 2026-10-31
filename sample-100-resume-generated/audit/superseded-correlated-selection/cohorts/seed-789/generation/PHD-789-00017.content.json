@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Class Imbalance and Distribution Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine how training class imbalance and shifted test distributions affect probabilistic classifier calibration.",
+        "Compared sigmoid and isotonic calibration using held-out validation sets, reliability diagrams, and bootstrap uncertainty estimates while checking for data leakage."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression Under Correlated Features",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression pipelines with standardized features and cross-validation for selecting regularization parameters.",
+        "Compared prediction error and coefficient stability across synthetic datasets with correlated predictors, varying noise levels, and irrelevant features."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Clustering with Gaussian Mixture Models",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including initialization checks and convergence monitoring.",
+        "Compared mixture models with k-means on synthetic clusters with unequal dispersion, examining assignment agreement and sensitivity to initialization."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Regression Prediction Intervals",
+      "bullets": [
+        "Implemented split conformal prediction around linear regression and random forest models, separating training, calibration, and evaluation data.",
+        "Compared interval coverage and width under constant and input-dependent noise, inspecting conditional coverage across predefined regions of the feature space."
+      ]
+    }
+  ]
+}

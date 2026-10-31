@@ -1,0 +1,45 @@
+Applicant PHD-456-00023
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.92/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance and distractor placement to assess evidence use in retrieval-augmented question answering.
+- Analyzed answer correctness and citation support across retrieval conditions, separating failures associated with missing evidence from unsupported generation.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Lexical Shortcut Reliance in Natural Language Inference
+Contribution: designed experiments and analyzed results.
+- Designed experiments using lexical overlap controls and label-preserving sentence edits to examine shortcut reliance in natural language inference models.
+- Analyzed prediction changes across linguistic challenge sets, distinguishing sensitivity to superficial vocabulary cues from errors involving negation and argument structure.
+
+PUBLICATIONS
+Separating Lexical Overlap from Semantic Evidence in Natural Language Inference. Peer-reviewed ML conference, 2025-02; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-09 to 2024-06 | 10 hours/week
+Support Ticket Classification and Text Processing
+- Implemented text normalization and input validation for support ticket processing, handling malformed records and inconsistent category labels.
+- Maintained a ticket classification component and added regression tests covering preprocessing behavior, prediction interfaces, and empty input handling.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sparse and Dense Document Retrieval | technical course project, 2026
+- Implemented sparse term weighting and dense embedding retrieval baselines over a shared document collection with consistent query preprocessing.
+- Compared retrieval rankings using relevance judgments and inspected disagreements involving rare terminology, paraphrased queries, and documents with overlapping vocabulary.
+Sequence Labeling Approaches for Named Entity Recognition | technical course project, 2026
+- Implemented token classification and conditional random field decoding baselines for named entity recognition using a common training split.
+- Compared entity-level precision and recall, examining boundary errors, ambiguous names, and decoding behavior under inconsistent token-level predictions.
+Extractive Summarization with Positional and Graph-Based Baselines | technical course project, 2026
+- Implemented lead sentence selection and graph-based sentence ranking for extractive summarization with matched token budgets and shared sentence segmentation.
+- Compared lexical overlap scores and manually inspected summaries for redundancy, omitted central claims, and dependence on document structure.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

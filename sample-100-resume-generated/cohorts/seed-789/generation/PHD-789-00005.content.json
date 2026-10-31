@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Intent Classification for Customer Support Requests",
+      "bullets": [
+        "Prepared labeled support requests by removing duplicates, standardizing text fields, and checking label consistency across predefined training and evaluation partitions.",
+        "Implemented TF-IDF and logistic regression baselines using an established evaluation protocol, inspecting confusion matrices for errors between closely related request categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence-Level Classification of Scientific Abstracts",
+      "bullets": [
+        "Cleaned abstract text, checked sentence boundaries, and organized rhetorical labels while preserving document-level separation between training and evaluation sets.",
+        "Implemented bag-of-words and linear support vector machine baselines, comparing feature configurations and reviewing misclassifications involving background, methods, and conclusion sentences."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Routine Operations and Records Support",
+      "bullets": [
+        "Maintained routine inventory records, checked incoming deliveries against order documentation, and referred discrepancies to the appropriate staff for resolution.",
+        "Organized physical records, prepared materials for daily activities, and communicated scheduling changes and outstanding supply requests during shift handovers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Lexical Baselines for Duplicate Question Detection",
+      "bullets": [
+        "Implemented a baseline classifier for question pairs using token overlap, length differences, and cosine similarity between TF-IDF representations.",
+        "Evaluated predictions on a held-out partition and inspected false matches involving shared vocabulary but different requested information."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Frequency-Based Extractive Document Summarization",
+      "bullets": [
+        "Implemented a sentence-ranking baseline using normalized term frequencies, with stopword filtering and source-order preservation when assembling extractive summaries.",
+        "Compared generated summaries with a lead-sentence baseline using reference overlap measures and manually reviewed redundancy and missing context."
+      ]
+    }
+  ]
+}

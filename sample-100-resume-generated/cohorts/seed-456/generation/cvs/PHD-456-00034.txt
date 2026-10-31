@@ -1,0 +1,55 @@
+Applicant PHD-456-00034
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.64/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Negation Sensitivity in Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing sentiment classifiers on paired sentences with negation, preserving topic and vocabulary wherever possible.
+- Analyzed prediction changes across negation scope and sentence complexity, distinguishing polarity errors from sensitivity to unrelated lexical substitutions.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Evidence Consistency in Abstractive Summarization
+Contribution: designed experiments and analyzed results.
+- Designed evaluation experiments comparing summary factuality under source truncation and sentence reordering, using consistent decoding settings across conditions.
+- Analyzed unsupported claims through manual error categorization and entailment scores, examining disagreements between automated assessments and source evidence.
+Research assistant, University Research Group | 2024-09 to 2026-05 | 10 hours/week
+Evidence Robustness in Retrieval-Based Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed experiments isolating passage relevance, evidence position, and distractor similarity in question answering with retrieved textual context.
+- Analyzed answer accuracy and abstention behavior across retrieval conditions, using passage ablations to distinguish retrieval failures from evidence interpretation errors.
+
+PUBLICATIONS
+Evidence Position and Distractor Similarity in Retrieval-Based Question Answering. Peer-reviewed ML conference, 2026-07; published; author position 2.
+Abstention Under Incomplete Retrieved Evidence in Question Answering. Peer-reviewed ML conference, 2026-10; published; author position 2.
+Separating Retrieval Failures from Evidence Interpretation Errors Through Passage Ablation. Peer-reviewed ML conference, 2025-04; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-06 to 2024-09 | 10 hours/week
+Text Record Validation and Search Maintenance
+- Implemented input validation and text normalization for an existing record search service, following established interface requirements and review procedures.
+- Added regression tests for malformed records and updated error handling, documenting reproducible failures for maintenance discussions.
+
+TECHNICAL PROJECTS
+Sparse and Dense Retrieval for Document Search | technical course project, 2026
+- Implemented term-weighted and embedding-based document retrieval pipelines with shared preprocessing, query sets, and relevance judgments for comparative evaluation.
+- Compared ranking quality and query latency, inspecting failures involving rare terminology, paraphrases, and documents containing repeated query terms.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented recurrent and transformer-based sequence labeling baselines, applying identical token alignment rules and dataset partitions for comparison.
+- Evaluated entity span precision and recall, categorizing boundary errors and confusions involving ambiguous names and infrequent entity types.
+Confidence Calibration for Text Classification | technical course project, 2026
+- Implemented temperature scaling and an uncalibrated baseline for a text classifier, fitting calibration parameters on a separate validation partition.
+- Compared calibration error and selective prediction behavior, examining how confidence estimates varied across document length and class frequency.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented graph-based and centroid-based sentence ranking methods for extractive summarization, holding sentence segmentation and summary length constraints constant.
+- Compared reference overlap and content redundancy, manually inspecting summaries for missing central claims and unresolved references.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

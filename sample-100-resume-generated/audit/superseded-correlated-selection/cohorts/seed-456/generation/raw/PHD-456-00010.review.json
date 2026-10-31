@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:15:47.820071+00:00",
+  "request_hash": "fd50416037ad304f1b69795c31ba2bb964ca3302ab774309feadb5d65a1b81d7",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ridge and lasso regression pipelines with standardized predictors, selecting regularization parameters through cross validation on synthetic and tabular datasets.\", \"Compared prediction error and coefficient stability under correlated features, documenting how regularization choices affected variable selection and sensitivity to sampling variation.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Regularized Linear Regression\"}, {\"bullets\": [\"Implemented logistic regression and tree ensemble baselines, applying sigmoid and isotonic calibration using held out predictions from imbalanced classification datasets.\", \"Compared calibration curves, Brier scores, and discrimination metrics across class proportions, checking whether calibration gains persisted under alternative data splits.\"], \"id\": \"T2\", \"title\": \"Probability Calibration for Imbalanced Classification\"}, {\"bullets\": [\"Implemented expectation maximization for Gaussian mixtures and a centroid clustering baseline, testing both on synthetic datasets with overlapping and elongated clusters.\", \"Compared cluster assignments, initialization sensitivity, and held out mixture likelihood, examining how covariance restrictions changed fit and convergence behavior.\"], \"id\": \"T3\", \"title\": \"Gaussian Mixture and Centroid Clustering Comparisons\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Regularized Importance Weighting for Conformal Prediction Under Covariate Shift\"}, {\"id\": \"P2\", \"title\": \"Diagnosing Density Ratio Instability in Shifted Regression Problems\"}], \"research\": [{\"bullets\": [\"Formulated whether changes in feature missingness degrade predictive calibration, and led development of a recalibration procedure conditioned on missingness indicators.\", \"Evaluated the procedure against global recalibration using simulated missingness mechanisms, examining reliability diagrams and sensitivity to sparse calibration groups.\"], \"id\": \"R1\", \"title\": \"Predictive Calibration Under Changing Missingness Patterns\"}, {\"bullets\": [\"Formulated how unstable density ratios affect uncertainty estimation under covariate shift, and led development of regularized weighting for conformal prediction.\", \"Developed weight clipping and diagnostic procedures, comparing interval coverage and width across controlled distribution shifts and tabular regression benchmarks.\"], \"id\": \"R2\", \"title\": \"Stable Importance Weighting for Prediction Under Covariate Shift\"}], \"work\": [{\"bullets\": [\"Implemented assigned validation checks for structured data imports, handling missing fields, inconsistent types, and malformed records within existing processing workflows.\", \"Added regression tests for reported parsing defects and revised error messages to support debugging and routine maintenance of batch processing jobs.\"], \"id\": \"W1\", \"title\": \"Input Validation and Batch Processing Maintenance\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00010\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A\"}, {\"course\": \"Algorithms\", \"grade\": \"A\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.25, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 4, \"date\": \"2026-06\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 4, \"date\": \"2025-04\", \"id\": \"P2\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 26, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-06\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2024-06\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-09\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0e5e33da57c2171d016ae61433fb7487d09bfdb6ff41f9a6eb",
+    "object": "response",
+    "created_at": 1793463348,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463350,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e5e33da57c2171d016ae614351c2487d0a2f880bdc840004e",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hQ2q7gIRMM8jXAGswxG7blyL57c8V8KHnauq0bDRnYkt-oK3VXUlJdLnwHJpjZWf9Vqto8cImg8tAXnwi9NcLpbfe3l24t0vQHPmuCeM4I5bSUqkRsS4tCEeVFxf0GMLxLb99edEqG43g8dDrilfOx3Z_BFD4aYrH-Ny4FPBd_7lMeQ58DnJrhWh2maYf1kktC-izi4I4VLNM9TmYjRbMUkW1McX16KUTsL4Fubdor-LL1vnBgbCq5dLBuUf1Df7Y0WDhnbFzZgg_WApfVIKA2aUKw1-SFvBDmBDVI4j_siyPwQU9ug9rpMW4PCvdtomIjdaaeo0KWjyFt80PdCRGOsJqOs8SwOEk033h9aokZm3nx0s8puzCQ4G4hlhOLk2M_HrAWTVY6U-Nhi3tjYWzPgJpjDbYNw010crg2LpoRunuQe7YfwqpBp74IETn0Eaxqn9d5t-OuxOIZNO_KFTXXQID3G__SeTtmbAX9qf7TTdJUFUZ4HhN72bjxI3jVZMCdoPYEJul0lt_B-nt8hhxOyZcNuY3YBhtf9HY-dQvVnKuUeRBFy3a7iK0urhRRiwNGUKR9V5A5IE90Mo9K5ojC9M1P_7SriNF8JsKgTWKBGV8Hxn4a4IaLynbLungJ5Fy-W_QyiziG9nl6swSboYtxmn8kqqVbNRU5a3-zCNz6cn6HQzBybDVLtLDEGP1wJMJRrD5UC5w6W64VmdyJtfwi6x1b2dj7emEJSddPU0nOEM4hFhj5XkBU3AWmnJ1LOhkHORoCClCkrk6XcaKzVOY80fj4SY07uYh2ZQ7nK05fDI8-MKqQ1wH5vZcZNMPpP_njfY81dkPgiBK8vWMCUAYqovdTEullAekLEDEuuzsy0LA673lg96yyCvoYQzHmKyWHDJ-Gw27QwygNzX6Xl7vCohLdeH6Aw0ywhPH_D4A508wslcf-MtdiKFsr-Ing8tLNZTA0Z0dD4Dbhn0JloHdHSRHEQzipiioijp91A_2Qn77ZhDV3PD2SwAraNuBbDTkbT1nRPSNX5Y6tancMi5SfIcHQLFDJKOyuF1i7df-F7IPerAoDgqNGomPZPN8ZkBkbjn2Eb5am8wLUwrqVs5TrR9N6nxLTArEPsvzkd0waYNR0TvD40dsFbTGVXvsWTgc-Wov8-wkiDLWDL5z5KG1W_FLTbL03mKDOF1EBOveoPrQ7KaLQNamKqp6gOG9DNZiMAsop9HVVQYCzzdE19R4dxag-CXrP2w-1AU-SQ-5-VYsHQVqy0lTlUt6k6o4UlcbmoOf8iwkBXyz49jFwdeakfO8nTXwWO2pX3W49dJGpNkBsvbuKixOp_WH69Fa9Eti54vr1ehjGBeRqRBdjGPSJ7toqmyGJVrmeOR5LPW-iELnFUCEwbdyzxas426hsCeFauMzhm88VCrpvIJcP5CHDWGLnD0W4RBwn0DV1fHQRgUOf9pBOh8BCMUl82zIN0haS16CtQhuQrRLDrhu22Ey1o9KME6_q7MTfLEFhd8aV76a0ldMQeB9KOqIPWlIbSW6RjXw8G4ByZRuGmx-4B5xmfkEe1is9RHrrCyU9RzBrjXcj_awQp4hZRi7nDHR12WdRHd7tBx1Ajx7hBMSugh676wr3fZT651ZrXIa76B2raE5LlKlD2YJgAL89cFEbIXqCF7U1sTj9FFNARZ7-hUGA0Kg6z_VqzXFUGja4yEPYcE2mw_5qu3882aOmmJKUZof-GI51NVinhlHWJ54XWQT06XjrMDDHnNuo-qpnYA3c_bfSVdKB516CgFE_QRsqfeWPpMo7DVX9MJ8zW9GGPbR74mA==",
+        "summary": []
+      },
+      {
+        "id": "msg_0e5e33da57c2171d016ae61436300887d0ac51c2bab462972a",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1328,
+      "input_tokens_details": {
+        "cache_write_tokens": 1325,
+        "cached_tokens": 0
+      },
+      "output_tokens": 50,
+      "output_tokens_details": {
+        "reasoning_tokens": 32
+      },
+      "total_tokens": 1378
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

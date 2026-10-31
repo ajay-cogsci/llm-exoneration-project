@@ -1,0 +1,33 @@
+Applicant PHD-789-00021
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.33/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Preprocessing and Evaluation for Support Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and feature extraction routines for classifying support requests using TF-IDF representations and logistic regression.
+- Ran prescribed evaluation splits, inspected confusion matrices, and documented classification errors involving ambiguous requests and overlapping category definitions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-02 to 2026-08 | 10 hours/week
+Validation Utilities for Text Record Imports
+- Maintained Python import routines for text records, adding checks for missing fields, duplicate identifiers, and inconsistent character encoding.
+- Reproduced reported import failures, updated validation logic, and added regression tests covering malformed records and expected error messages.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baselines for Review Sentiment Classification | technical course project, 2026
+- Implemented multinomial naive Bayes and logistic regression baselines with scikit-learn to classify review sentiment from bag-of-words features.
+- Compared models on a held-out split using precision, recall, and confusion matrices, then inspected errors associated with negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

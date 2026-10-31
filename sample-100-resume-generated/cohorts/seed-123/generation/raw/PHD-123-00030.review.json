@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:20:44.846138+00:00",
+  "request_hash": "ab55332e7f3fd67771793249700630b17d835fb30f158225a60971566e457641",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a baseline summarizer that ranked sentences by similarity to a document centroid and selected sentences within a specified length budget.\", \"Compared generated summaries with lead-sentence selections, reviewing coverage of central topics and redundancy introduced by repeated terms across sentences.\"], \"id\": \"T1\", \"title\": \"Extractive Summarization with TF-IDF Sentence Ranking\"}, {\"bullets\": [\"Prepared short text samples with consistent language labels and implemented a multinomial naive Bayes baseline using character n-gram counts.\", \"Evaluated predictions on held-out samples and inspected errors involving borrowed words, closely related languages, and texts with limited alphabetic content.\"], \"id\": \"T2\", \"title\": \"Character N-Gram Baselines for Language Identification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Prepared labeled support requests by removing duplicate messages, standardizing category labels, and checking training and evaluation partitions for overlapping text.\", \"Implemented TF-IDF and logistic regression baselines under an established protocol, examining confusion matrices and misclassified requests with ambiguous intent.\"], \"id\": \"R1\", \"title\": \"Support Request Classification with Lexical Baselines\"}, {\"bullets\": [\"Cleaned review sentences and checked relevance annotations against supplied guidelines, flagging inconsistent labels and preserving document boundaries during dataset splitting.\", \"Implemented a bag-of-words classifier using supplied settings and inspected false positives associated with product mentions lacking substantive feature descriptions.\"], \"id\": \"R2\", \"title\": \"Sentence-Level Relevance Detection in Product Reviews\"}], \"work\": [{\"bullets\": [\"Maintained routine inventory records, checked incoming deliveries against order paperwork, and referred discrepancies to the responsible staff for resolution.\", \"Organized filing materials, prepared supplies for scheduled activities, and tracked outstanding administrative requests through established handoff and follow-up procedures.\"], \"id\": \"W1\", \"title\": \"Routine Operations and Records Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00030\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.86, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 1, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-07\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0d124d5c7dc3c11a016ae6155cff7087d084a40bb71bf4d915",
+    "object": "response",
+    "created_at": 1793463645,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463647,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0d124d5c7dc3c11a016ae6155e684087d0a02daea346c28f2a",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hVfl2t_CUL10my5XsQEQ5DrOewl47Noo8aY7jH-D3javeOeb_QX8lJpZzSB5Y6A0oVnek8QZENweQNv5Yy36Jh3wiMej_8hKxP_vdlcq5_FEC8ExCZq6QQqGZZRoC_ByYT9fTfs3zBtJCRhFl1JwGcI6wIYw7EpPXeNIvi-GZWZOI1xjqcx2778NdwoYcinadvvADWPNlLN9etrfhq6KBJqiBZSKkhG7iuCWJpV_9RDfOtnf1HSw-sFHp3JxwbA0OhlfllPovGpcoV8gLKkIA_Dn5T6_BLI5STNwvLALjAVJlaPpWbapow21s17tkbmacpM8_ZhQdwHOOsXLNa9LDi_WlUbIlX9RdR6GL-OkQMx40NYGNDszlkE6231Kv4WAsKHjz3FvLiPqNbmcIuhxJuMMP8jZymFRioEa1N74SvbL_w1uEEedHPhZItkSNI3u6i6mKNc1uiWET8CRJ3oBaqJ_1eA2wkixM5iGk5EvJh9Bek_Z65FMXbNkMYXd41JsdB_U77mxOEcw4bvzrjyLG-WMX2iCtc6IdLt7JxVDAyv5v91WyBDXp9fm6cnoDaT3jPdkFYwpvXRxUjdpmCFY04Nd6shzG8KccWj0ZkD_I0-TrQfJ7-zrSygyqoFQ_rNnBihyVd5dNYEymnBlDoea4uLppMAHxGrxo0HL11APMGvVdeKzHq4NyEuBevgOOL27UqZZVXfDESVYQndNcHz055eIbklgqfAKDLmsxZDZ4XyCCifu56jEhMhaCQvKTKrtTxKc-EsalXlgNUTryAcstkgbZsR7XT_WCLW9U5H0lFqOjj2eQwe2mAe_1J6OJoRoIbzFCpC_ZWwVhDMMKq10nOY530eZBqMmDAobcbvp6Q4foIXibocJDGR_ciOmKhSwL_iD6RV8c_i-QYo9inI1Q5PAthBXCnjWCqop1Q2jDKEk4vfFHST0D2gxGTMKMIo3pQDi49n1oFGhtXJocVg1jlbf_k_ocHn4M04jDHtCuvXeWwGbRYBPxGf3XVSm4UtgFDsGlha8udDC80m3EqXeXGrtWJaOMk2oFn92jxKqDmewjy3YSgLPavSR3nvWZq17GrVJGW8TR8Jlqu7n12OYTonlL90rSv0dNoO-AqpOsaEXOAdKKmZHUIp7aRPWPnBt0VHbZqB022quC4bWlJP7UVGtENDFsusS2JXLmu_Vgj7IJFh3FmszvCDT5kbLcs_jIzZ2lJI_5HsjAPmYuogzb_m0ClzvflSRi7RwvH-M-_3YE3QjtzZduREtegxZ8Ph5DFcT0X9PbX548ZOUqaw_aUPMVZkBa67GZrhn6KHwC5HYvXUtcm3DhTi8jxNZ6bEBc6wF2_MoQPxYUXIZAykPcyZAa0jWA4BEM9V1HMoAirfcrM2_rtACUsDmxDVd8mfusTVKwVqGde0y1L415_EVStyMLMRjnshwjRuLami5KAhR3qs5Pdqmx-t-gsLLEKan_uaPfJ3NR-ZmF4bPJeQOTYEfu8-RVFoa-i2dokufk8S893LxRaR-87AHBtyrpwShHfpdwYXMqhA5i2Qjp7cnHl1Imlmzqymmi_cHtIQ8hbgtckD7iT0eeyME6whAN1crSY9HWDrMi83dMsNrhkUbAQm6-zXW_ku8m-vdW81SjbcJPs4eS-mFsSU8amKvDf0IAc_W4zc6RNM926CgLu4IEKq7RHglEtTS7BTmHGUz3SNFuoCH6OVwhDwXDpI5jxYu_X7NOhlOUoNjyUwbIpuQM4zN7oq6eMAI8NBellZKC6HgwpWMI-LDP62URSNSzDk22lO",
+        "summary": []
+      },
+      {
+        "id": "msg_0d124d5c7dc3c11a016ae6155f35dc87d09e05f01b1223e645",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1102,
+      "input_tokens_details": {
+        "cache_write_tokens": 1099,
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "total_tokens": 1146
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

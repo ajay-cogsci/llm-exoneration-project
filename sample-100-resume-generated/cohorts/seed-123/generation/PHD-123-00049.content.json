@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preprocessing for Surface Defect Classification",
+      "bullets": [
+        "Implemented assigned image normalization and patch extraction routines in NumPy following the group's preprocessing specification for surface defect images.",
+        "Ran prescribed classification experiments and inspected misclassified patches, documenting preprocessing inconsistencies and recurring confusion between texture variations and visible defects."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Processing",
+      "bullets": [
+        "Updated inventory records from receiving paperwork, checked item descriptions against delivery documents, and flagged discrepancies for supervisor review.",
+        "Prepared routine order paperwork, organized delivery records, and coordinated missing documentation with staff before forwarding completed files for processing."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Character Classification with Linear Baselines",
+      "bullets": [
+        "Implemented a baseline handwritten character classifier using flattened grayscale images and logistic regression in scikit-learn, with separate training and evaluation partitions.",
+        "Compared raw and standardized pixel features under a fixed evaluation split, examining confusion matrices and representative errors involving visually similar characters."
+      ]
+    }
+  ]
+}

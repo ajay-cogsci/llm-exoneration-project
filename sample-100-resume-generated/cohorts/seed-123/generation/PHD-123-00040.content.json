@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion Sensitivity in Visual Object Detection",
+      "bullets": [
+        "Designed controlled experiments comparing object detectors under synthetic occlusion, varying mask placement and coverage while preserving consistent evaluation splits.",
+        "Analyzed localization and classification errors by object size and occlusion pattern, distinguishing missed detections from inaccurate bounding box predictions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Boundary Robustness in Semantic Segmentation",
+      "bullets": [
+        "Designed experiments comparing segmentation models under image resizing and compression, using matched training settings to isolate preprocessing effects.",
+        "Analyzed boundary accuracy and classwise overlap, inspecting prediction maps to characterize errors around thin structures and adjacent object regions."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Confidence Calibration Under Visual Domain Shift",
+      "bullets": [
+        "Designed experiments evaluating temperature scaling and ensemble confidence estimates for image classifiers exposed to lighting changes and image corruptions.",
+        "Analyzed reliability diagrams, calibration errors, and selective prediction curves, examining how validation domain choice affected confidence estimates across shifted conditions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Validation Domain Choice in Confidence Calibration for Image Classification Under Visual Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing Service Maintenance",
+      "bullets": [
+        "Implemented image upload validation and thumbnail generation within an existing service, handling malformed files and preserving consistent output dimensions.",
+        "Maintained automated tests for image processing endpoints, investigated production failures, and updated error handling for unsupported formats and interrupted requests."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Retrieval Representations",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent normalization and distance calculations across representations.",
+        "Compared ranked retrieval results using precision and recall, inspecting failures involving background similarity, viewpoint variation, and visually similar categories."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical and Learned Approaches to Image Denoising",
+      "bullets": [
+        "Implemented bilateral filtering and a convolutional denoising autoencoder, generating matched noisy inputs to support controlled comparisons across restoration approaches.",
+        "Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, inspecting texture preservation and edge blurring across noise conditions."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented corner detection, local patch descriptors, and robust homography estimation to align image pairs depicting approximately planar scenes.",
+        "Compared descriptor matching strategies under rotation and illumination changes, analyzing reprojection errors and alignment failures caused by repetitive textures."
+      ]
+    }
+  ]
+}

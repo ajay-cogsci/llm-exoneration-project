@@ -1,0 +1,18 @@
+{
+  "issue": "Selection restarted the same random stream used to draw latent preparation, creating unintended inclusion bias.",
+  "fix": "Domain-separated deterministic seed phd-selection:<cohort_seed>.",
+  "regression_design": "One pathway and equally populated performance quintiles: selection should not systematically favor higher latent preparation. Three seeds; 1800 pool and 1200 selected records.",
+  "before": {
+    "pool_preparation_mean": 2.951111111111111,
+    "selected_preparation_mean": 3.7616666666666667,
+    "difference": 0.8105555555555557
+  },
+  "after": {
+    "pool_preparation_mean": 2.951111111111111,
+    "selected_preparation_mean": 2.9741666666666666,
+    "difference": 0.023055555555555607
+  },
+  "tolerance": 0.15,
+  "tests_passed": 26,
+  "stopped_run": "26 responses recorded for 13 profiles; up to three in-flight calls may have been billed without a saved response. Preserved here, excluded from final deliverables unless identical requests are explicitly reused."
+}

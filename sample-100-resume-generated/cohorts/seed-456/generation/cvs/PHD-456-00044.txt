@@ -1,0 +1,47 @@
+Applicant PHD-456-00044
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Conformal Prediction Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing standard and importance weighted conformal prediction under covariate shifts that preserved conditional response distributions.
+- Analyzed empirical coverage and interval width across shifted subgroups, examining sensitivity to density ratio estimation and calibration sample composition.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Probability Calibration in Imbalanced Classification
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and isotonic regression across class imbalance conditions, using separate training, calibration, and evaluation partitions.
+- Analyzed reliability diagrams, Brier scores, and class conditional calibration errors to distinguish changes in predictive discrimination from probability estimation.
+Research assistant, University Research Group | 2024-07 to 2026-05 | 10 hours/week
+Regularization and Feature Stability With Correlated Predictors
+Contribution: designed experiments and analyzed results.
+- Designed simulation experiments varying predictor correlation and signal sparsity to compare ridge, lasso, and elastic net regression under matched evaluation conditions.
+- Analyzed prediction error and coefficient variability across repeated samples, examining how cross validation choices affected feature selection stability.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-07 to 2024-07 | 10 hours/week
+Data Import Validation and Error Handling
+- Implemented validation checks for structured data imports, handling missing fields, inconsistent types, and duplicate records within an existing application.
+- Added regression tests for malformed inputs and revised error messages to support troubleshooting of failed imports by application users.
+
+TECHNICAL PROJECTS
+Kernel Regression and Predictive Uncertainty | technical course project, 2026
+- Implemented Gaussian process and kernel ridge regression baselines, comparing predictive error under shared data splits and consistent hyperparameter search procedures.
+- Evaluated Gaussian process uncertainty on noisy regression data, examining interval coverage and sensitivity to kernel choice and noise assumptions.
+Mixture Models for Clustering With Unequal Variances | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture models and compared clustering assignments with k means on synthetic data with unequal cluster variances.
+- Compared covariance parameterizations and initialization strategies using held out likelihood and assignment agreement, documenting convergence behavior and sensitivity to overlapping clusters.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

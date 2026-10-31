@@ -1,0 +1,33 @@
+Applicant PHD-789-00010
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.50/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-04 to 2026-11 | 10 hours/week
+Surface Defect Classification Under Variable Illumination
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, standardizing image dimensions, and organizing training and evaluation splits by acquisition session.
+- Implemented assigned histogram of oriented gradients and linear classifier baselines, comparing preprocessing settings and reviewing misclassified images across lighting conditions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Nearest-Neighbor Baselines for Handwritten Digit Recognition | technical course project, 2026
+- Implemented nearest-neighbor classification using normalized pixel features, with consistent preprocessing for training, validation, and held-out handwritten digit images.
+- Compared distance metrics and neighborhood sizes on validation data, then inspected confusion matrices to identify frequently confused digit shapes.
+Color Histogram Baselines for Scene Classification | technical course project, 2026
+- Constructed global and spatially partitioned color histograms from scene images and trained support vector machine baselines using scikit-learn.
+- Compared histogram binning and feature normalization choices using a fixed validation split, inspecting errors associated with visually similar scene categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

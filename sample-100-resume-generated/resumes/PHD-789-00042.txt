@@ -1,0 +1,57 @@
+Applicant PHD-789-00042
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.59/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Uncertainty-Aware Annotation for Low-Resource Entity Recognition
+Contribution: formulated a research question and led method development.
+- Formulated whether span uncertainty could guide annotation under limited supervision; led development of an acquisition strategy combining boundary disagreement and representation diversity.
+- Compared acquisition strategies using simulated annotation rounds, examining entity coverage, boundary errors, and sensitivity to annotation noise across document types.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Negation-Sensitive Contrastive Learning for Sentence Representations
+Contribution: formulated a research question and led method development.
+- Investigated whether contrastive sentence encoders preserve meaning changes introduced by negation; led development of a training objective using controlled semantic contrasts.
+- Constructed matched sentence pairs and evaluated similarity rankings, separating negation failures from lexical overlap effects through targeted ablations and error analysis.
+Research intern, Research Lab 3 | 2026-02 to 2026-05 | 15 hours/week
+Context Selection for Conversational Query Rewriting
+Contribution: formulated a research question and led method development.
+- Formulated how irrelevant dialogue history affects query rewriting; led development of a context selector trained with relevance supervision and distractor turns.
+- Evaluated rewritten queries through retrieval comparisons and manual reference resolution analysis, testing robustness to topic shifts and ambiguous conversational references.
+Research assistant, University Research Group | 2024-01 to 2026-02 | 10 hours/week
+Evidence Sufficiency and Calibrated Abstention in Retrieval-Grounded Question Answering
+Contribution: formulated a research question and led method development.
+- Formulated when retrieved passages provide sufficient support for answering; led development of an evidence sufficiency model coupling passage relevance with entailment signals.
+- Designed abstention rules and evaluated calibration under retrieval corruption and domain shift, using controlled ablations to distinguish unsupported answers from retrieval failures.
+
+PUBLICATIONS
+Modeling Evidence Sufficiency for Abstention in Retrieval-Grounded Question Answering. Peer-reviewed ML conference, 2024-12; published; author position 1.
+Diagnosing Retrieval Failures and Unsupported Answers with Evidence Sufficiency Scores. Regional applied computing conference, 2026-03; published; author position 1.
+Calibrating Answer Abstention Under Retrieval Corruption and Domain Shift. Peer-reviewed ML conference, 2025-05; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-08 to 2025-09 | 40 hours/week
+Document Ingestion and Search Service Maintenance
+- Implemented document ingestion handlers and search endpoint updates, validating metadata fields and handling malformed records within established service interfaces.
+- Maintained regression tests for indexing and retrieval behavior, investigated processing failures, and corrected retry handling to prevent duplicate document ingestion.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Document Classification Models | technical course project, 2026
+- Implemented sparse linear and neural document classifiers using shared preprocessing and data splits to support controlled comparisons across text representations.
+- Compared classification errors by document length and label frequency, examining how vocabulary restrictions and regularization affected behavior on held-out examples.
+Lexical and Dense Retrieval for Passage Search | technical course project, 2026
+- Implemented lexical ranking and dense passage retrieval baselines, standardizing corpus segmentation and relevance judgments for a comparative passage search evaluation.
+- Examined ranking quality across exact-match and paraphrased queries, tracing retrieval errors to tokenization choices, passage boundaries, and semantic ambiguity.
+Decoding Strategies for Abstractive Text Summarization | technical course project, 2026
+- Implemented greedy, beam search, and sampling decoders for an existing summarization model, keeping model parameters fixed during comparative evaluation.
+- Compared summaries for repetition, source coverage, and unsupported statements, using automatic text overlap measures alongside structured manual inspection.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

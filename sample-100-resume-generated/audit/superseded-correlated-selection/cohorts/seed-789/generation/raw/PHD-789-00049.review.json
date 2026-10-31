@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:15:58.708638+00:00",
+  "request_hash": "c0941811fb99796a9e8d8d4448359f68989494408aa248a65e1d4c859be0fdaf",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented exact kernel ridge regression, random Fourier features, and Nyström approximations using shared preprocessing and regularization selection procedures.\", \"Compared predictive error, memory requirements, and training time across feature dimensions; examined sensitivity to kernel bandwidth and approximation randomness.\"], \"id\": \"T1\", \"title\": \"Kernel Ridge Regression with Approximate Feature Maps\"}, {\"bullets\": [\"Implemented expectation maximization for Gaussian mixtures with incomplete observations, computing conditional sufficient statistics during the expectation step.\", \"Compared clustering stability and held-out likelihood against mean-imputation baselines under random missingness; inspected sensitivity to initialization and covariance regularization.\"], \"id\": \"T2\", \"title\": \"Gaussian Mixture Estimation with Missing Features\"}, {\"bullets\": [\"Implemented temperature scaling, Platt scaling, and isotonic regression for classifier probability calibration using separate fitting and evaluation partitions.\", \"Compared log loss, Brier score, and reliability diagrams across class imbalance settings; examined how calibration sample size affected method selection.\"], \"id\": \"T3\", \"title\": \"Comparative Evaluation of Probabilistic Classifier Calibration\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Adaptive Weight Clipping for Conformal Prediction Under Covariate Shift\"}, {\"id\": \"P2\", \"title\": \"Effective Sample Size Diagnostics for Density-Ratio-Weighted Conformal Prediction\"}], \"research\": [{\"bullets\": [\"Formulated a research question on how heavy-tailed feature distributions affect covariance estimation and downstream uncertainty in discriminant classifiers.\", \"Led development of a robust shrinkage estimator combining truncated covariance estimates with diagonal regularization; evaluated classification error and calibration under contamination.\"], \"id\": \"R1\", \"title\": \"Robust Covariance Estimation for Heavy-Tailed Classification\"}, {\"bullets\": [\"Formulated a research question on stabilizing weighted conformal prediction when estimated density ratios concentrate on sparse regions of feature space.\", \"Led development of adaptive weight clipping and effective sample size diagnostics; evaluated coverage and interval width across controlled covariate shifts.\"], \"id\": \"R2\", \"title\": \"Adaptive Importance Weighting for Conformal Prediction Under Covariate Shift\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00049\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A\"}, {\"course\": \"Algorithms\", \"grade\": \"A\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.91, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2026-10\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 2, \"date\": \"2026-01\", \"id\": \"P2\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 22, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-10\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0b81efa4453c3f74016ae6143edd1887d0b91d44d46e486c22",
+    "object": "response",
+    "created_at": 1793463358,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463361,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0b81efa4453c3f74016ae6143fec5887d0b44244c1cfdf6228",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hRBci4k1iOEH15-_CKXFBTQYsRG5WMOXYohS9axhKK-dloyUthMWZynf3ljwGo2sNDY4F1OZ9FOEzoirMiV0E7zEN2LKqHWT-038oClfcmZKXQPL3jcivQM3bF9EIRnOV_PeQtYa8dmzNhLJqyyOJWymYquxC7wzZd-eEDJxxvYAELX4KA2rYXNG4EwLM2zkLTPAjQ2eFF000theFBNX0J1GkCry-qj8sGSjF-SLPLPaFpoVRVMpNJxJ021e4p8ACGYyrAHbMy6Szi4CBIvTlhen5yCUU2chtv5bkJu9Jqsq63euK27RbsC9Hah0u646GNFsF-GjlDMwFOInj37-y1gab7xV67rD-Jwiw810Oj8BYBKk87MWqH77SERz5i1Je8NQL1y5-EhgAHa35vVNaRFjN4Cv33OANlacMeRW_5YV28K12HuWPll6YEuSClZQZoo8Bi156Ors-5pJ2cbv7Z8nVdxZBHTzuZ0aw8Ff6EPwFMFJkHJUXlQHlAKw55D_2WAUEvMizKgy2h5ddEQOZ7BlklsbqZMJNibfw8ukPE60llKJRdyvbaDZG47DzSHkYjCksdkEOsQdX0kBFYLDen3FjL1DzgkRW6GUuOOaZDyKEBRMO0UD2bT52jARI7vFgyBxYtohw__eqC_4vYfHdqVRVNxOjcWIM1A-UfHtirJitC9t15GEWRZI5TiE1EL9iwHW-tmjUc5uzfCRW_dRYMmQoeTHFqDomd0T37Nl9M8pWIBTXbOlofeN1ob9nJd_WWwqA-dn0LCWfkdkPccVCtI47sg6A3DHA2qcfOPYTZub7Nc832Vi5b3RgGhQS83d1fDOxA55IiKRo32coTInZegBIWjCtpRUYQ6u1o5UErHkslbhqkaol02Gzw0xzyFmTJjih2sXYsc3v9exwBwbblLw9JdXadi95cPf7u16GhBcRHoe2VzqfY2bfEmu0eRadE657Kido-wRlebHE1KUBwtC4MxVUUpQcEOwX7OaUiTpPxIvIrtDFmmdSXBHd9REwTAfZWpEGQ9HUYaIVHdfB03B63IgUFw0GHPYBErJo2Tq_lFKxjmL0bn8VFhu_hPbnVCKs30V3ez6uozQuDPhK2TJUHZEWpsGYIGcJf9_fvuO5r3WDBLopkqu2pBjpVUxVk4bC85gAauF3wymIbHaxVQPrbD6GU_MjoktjNqqaf5HwvcRqq3VjfPuJeLNBSOztyV6qn-XMzxUcYumVSYHpg2IGeHVYQR0HcmdDIOcgg3fccHkJYQ0I1XCttNSD_mBcj8dIO2bFVpcBLfdC27F5JfjpNePBjaEWTeaIWDOju7Vidglr-dUdJtpJnpcxSVG2Do_1_atzKNjzQGwPV2n6dsHg7lzcUgq9FvHiNHGrVMgSvFpV5XGxBsfwpmjrM661t_MLAs7uDYf4R7YgZFSj6o7jZBkoXw3QD2pIfFW6wM7QIbdohTx0iq_4wscg_g8_g2hgbQdw2LCihJlsbcs6GNOwCpDmDbR7QcBrHJN7RCEJJgl4oPUiT1oPB3QFygbamMrd4W4w1s0Oya3TysUx_Hv67F-upAd_hvPATKkDfbsstD7SvwdDpPAFcoqCAewDZZu2-wumfCrW4BVv5TWUj157afVGtB6naTQgQrdO1hMQ24nuqXT-tlr_lc-M9yZ56dPx5loHLljADOWBx3DFz5romsXn6WoHkdBLrS974HDYp0Nv4ZAQozWu-WX_KqTDBVoW1DxyqFUO41-kknwBARvaDXX3qRJvjiVl5_JWzeSd6sAa3NtI-K9Ls5gXgURiIdsXa66Soh_34dGDweVG6Upw==",
+        "summary": []
+      },
+      {
+        "id": "msg_0b81efa4453c3f74016ae61441277887d087144e4905d8502b",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1240,
+      "input_tokens_details": {
+        "cache_write_tokens": 1237,
+        "cached_tokens": 0
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 29
+      },
+      "total_tokens": 1287
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

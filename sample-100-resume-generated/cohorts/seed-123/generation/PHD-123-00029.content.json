@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance, evidence ordering, and distractor content to assess answer consistency in retrieval-augmented question answering.",
+        "Analyzed answer errors across paraphrased queries, separating retrieval failures from unsupported generation through manual review of retrieved passages and responses."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Calibration and Abstention for Intent Classification Under Domain Shift",
+      "bullets": [
+        "Designed cross-domain experiments comparing classifier calibration and abstention strategies under shifts in intent frequency and vocabulary.",
+        "Analyzed reliability diagrams, selective prediction curves, and confusion patterns to characterize relationships between confidence errors and minority-intent performance."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Under Domain Shift: Calibration and Selective Prediction for Intent Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Intent Frequency and Vocabulary Shift: An Empirical Analysis of Classifier Confidence"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Neural Sequence Taggers",
+      "bullets": [
+        "Implemented token-independent and recurrent sequence tagging baselines in PyTorch, using shared preprocessing and consistent training partitions for named entity recognition.",
+        "Compared entity-level precision and recall across entity categories, inspecting boundary errors and predictions involving words absent from training data."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Neural Baselines for Review Sentiment Classification",
+      "bullets": [
+        "Implemented term-weighted logistic regression and pooled word-embedding classifiers, evaluating both approaches with matched data partitions and preprocessing choices.",
+        "Compared classification errors across review lengths and negation patterns, examining how vocabulary filtering affected lexical and neural model behavior."
+      ]
+    }
+  ]
+}

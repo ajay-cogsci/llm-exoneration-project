@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation-Sensitive Transfer for Textual Entailment",
+      "bullets": [
+        "Formulated whether negation sensitivity transfers across text domains, and developed a contrastive training objective using meaning-preserving and polarity-reversing sentence edits.",
+        "Designed controlled evaluations separating lexical overlap from logical polarity, and analyzed prediction errors against standard entailment fine-tuning baselines."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Evidence Attribution and Selective Answering in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Investigated when retrieved passages support generated answers, and led development of evidence-aware training combining passage attribution with contrastive supervision.",
+        "Developed evidence-perturbation evaluations and attribution-based abstention criteria; compared retrieval conditions, inspected unsupported answers, and conducted ablations of supervision and calibration components."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Attribution-Guided Abstention for Retrieval-Augmented Question Answering"
+    },
+    {
+      "id": "P2",
+      "title": "Evaluating Evidence Support in Document-Based Question Answering with Passage Perturbations"
+    },
+    {
+      "id": "P3",
+      "title": "Passage Attribution as a Diagnostic for Unsupported Answers in Retrieval-Augmented Generation"
+    },
+    {
+      "id": "P4",
+      "title": "Contrastive Evidence Supervision for Grounded Answer Generation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Service Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for tabular data imports, handling missing fields, malformed values, and duplicate records within an existing service.",
+        "Added regression tests for reported import failures, reproduced defects from application logs, and documented error-handling behavior for maintenance handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparing Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented term-weighted retrieval and pretrained sentence-embedding retrieval over a shared document collection, using identical query sets and relevance annotations.",
+        "Compared ranking quality and retrieval latency, and categorized disagreements involving rare terminology, paraphrased queries, and documents containing overlapping vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Methods for Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field tagger and a bidirectional recurrent tagger, applying consistent tokenization and entity-label conventions across experiments.",
+        "Compared entity-level precision and recall, examined boundary errors and unseen names, and evaluated sensitivity to capitalization features and training-data subsampling."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Probability Calibration for Sentiment Classification",
+      "bullets": [
+        "Implemented linear and neural sentiment classifiers with shared dataset splits, then applied temperature scaling to held-out validation predictions.",
+        "Compared classification accuracy, calibration error, and reliability diagrams; inspected confidence patterns for ambiguous reviews, negation, and mixed sentiment."
+      ]
+    }
+  ]
+}

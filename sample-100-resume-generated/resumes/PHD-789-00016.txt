@@ -1,0 +1,37 @@
+Applicant PHD-789-00016
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.63/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-05 to 2026-11 | 10 hours/week
+Classification Baselines for Tabular Data with Missing Predictors
+Contribution: data preparation and baseline implementation.
+- Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting preprocessing transformations exclusively on training partitions.
+- Implemented logistic regression and random forest baselines under specified missingness conditions, recording discrimination and calibration metrics across held-out evaluation splits.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-12 to 2025-09 | 40 hours/week
+Data Validation and Batch Processing Services
+- Maintained Python batch processing components that validated incoming records, normalized field formats, and routed malformed inputs for operational review.
+- Added regression tests for parsing edge cases and investigated processing failures using service logs, documenting fixes and recovery procedures.
+
+TECHNICAL PROJECTS
+Regularized Regression for Residential Energy Demand | technical course project, 2026
+- Implemented ridge and lasso regression baselines for residential energy prediction using standardized weather and calendar features in scikit-learn.
+- Selected regularization parameters through training-set cross-validation and examined held-out residuals by season to identify systematic prediction errors.
+Gaussian Mixture Baselines for Customer Segmentation | technical course project, 2026
+- Implemented a Gaussian mixture clustering baseline using scikit-learn on standardized purchase summaries, comparing diagonal and full covariance assumptions.
+- Examined information criteria and cluster assignments across initializations, documenting sensitivity to feature scaling and the chosen number of components.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

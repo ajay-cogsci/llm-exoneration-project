@@ -1,0 +1,42 @@
+Applicant PHD-789-00022
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.15/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Domain Shift in Passage Retrieval for Question Answering
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare sparse and dense passage retrieval across general reference and technical support documents.
+- Controlled passage length and candidate pool composition, then analyzed retrieval errors involving terminology mismatch and questions requiring evidence across passages.
+Research assistant, University Research Group | 2025-10 to 2026-08 | 10 hours/week
+Calibration of Text Classifiers Under Label Noise
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine how synthetic label corruption affects confidence calibration in pretrained text classifiers.
+- Compared temperature scaling and label smoothing using held-out calibration splits, documenting sensitivity to corruption patterns through reliability diagrams and error analysis.
+
+PUBLICATIONS
+Confidence Calibration Under Label Corruption: Comparing Temperature Scaling and Label Smoothing for Text Classification. Peer-reviewed ML conference, 2026-08; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-11 to 2025-09 | 40 hours/week
+Document Processing and Search Services
+- Implemented Python services for document ingestion, metadata validation, and search request handling within an existing application architecture.
+- Added regression tests for malformed inputs and duplicate records, investigated processing failures, and maintained error handling for downstream service responses.
+
+TECHNICAL PROJECTS
+Comparative Sentiment Classification with Sparse and Neural Models | technical course project, 2026
+- Implemented term frequency–inverse document frequency logistic regression and a pretrained transformer classifier for sentiment classification using consistent training and evaluation splits.
+- Compared macro-averaged classification scores and inference costs, then examined disagreements involving negation, mixed sentiment, and vocabulary absent from training examples.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented token classification baselines using a bidirectional recurrent network and a pretrained transformer, preserving entity boundaries during tokenization.
+- Compared entity-level precision and recall under a shared evaluation protocol, categorizing errors involving boundary detection, rare entities, and ambiguous names.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

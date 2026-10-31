@@ -1,0 +1,44 @@
+Applicant PHD-789-00019
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.60/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Sensitivity of Passage Retrieval to Conversational Query Reformulation
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing lexical and dense retrieval under query paraphrasing, omitted context, and conversational references using fixed passage collections.
+- Analyzed retrieval errors by query transformation and passage relevance, distinguishing vocabulary mismatch from failures to resolve context dependent references.
+Research assistant, University Research Group | 2024-12 to 2026-08 | 10 hours/week
+Negation and Lexical Shortcuts in Intent Classification
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing linear and transformer classifiers on intent examples with negation, contrasting random splits with lexical overlap controlled splits.
+- Analyzed confusion patterns and prediction changes across paired utterances, examining whether classifiers relied on intent keywords despite changes in negation scope.
+
+PUBLICATIONS
+Intent Keywords Under Negation: A Controlled Evaluation of Utterance Classifiers. Regional applied computing conference, 2026-01; published; author position 3.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sequence Models for Entity Recognition | technical course project, 2026
+- Implemented token classification pipelines using a conditional random field and a bidirectional recurrent model with consistent preprocessing and label conventions.
+- Compared entity level precision and recall, inspecting boundary errors, rare entity mentions, and predictions involving tokens absent from training data.
+Extractive Summarization with Frequency and Graph Ranking | technical course project, 2026
+- Implemented sentence selection using term frequency scores and graph based ranking, applying identical sentence segmentation and summary length constraints.
+- Compared summaries using reference overlap and manual content checks, documenting redundancy, missing central claims, and sensitivity to document length.
+Cross-Domain Sentiment Classification with Sparse Text Features | technical course project, 2026
+- Implemented logistic regression and naive Bayes sentiment classifiers using word and character features, keeping preprocessing consistent across review domains.
+- Compared within domain and cross domain performance, examining errors associated with domain specific vocabulary, mixed sentiment, and short reviews.
+Topic Discovery in Short Documents | technical course project, 2026
+- Implemented latent Dirichlet allocation and nonnegative matrix factorization pipelines, comparing count and weighted term representations under consistent vocabulary filtering.
+- Evaluated topic coherence and assignment stability across initializations, inspecting representative documents to identify overlapping themes and preprocessing sensitive topics.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

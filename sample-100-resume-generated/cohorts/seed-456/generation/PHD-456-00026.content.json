@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and label mapping routines for support request classification, following existing preprocessing specifications.",
+        "Ran prescribed classification evaluations and inspected confusion matrices, documenting mislabeled examples and recurring ambiguity between related request categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded inventory discrepancies, and routed missing item reports to the appropriate staff.",
+        "Updated order status records, organized shipping paperwork, and coordinated routine pickup arrangements using established office procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Baseline for Movie Review Sentiment Classification",
+      "bullets": [
+        "Implemented a sentiment classification baseline using TF-IDF features and logistic regression, fitting the vocabulary only on training reviews.",
+        "Compared unigram and bigram feature settings on validation data, then reviewed test errors involving negation and mixed sentiment."
+      ]
+    }
+  ]
+}

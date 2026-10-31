@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:16:13.581201+00:00",
+  "request_hash": "abace5c21b34b7d8ce2ae57fe2b1b475e46dbefa30c62bd6165d791b2c4a7472",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a baseline image segmentation pipeline using color normalization and k-means clustering, converting cluster assignments into pixelwise region maps.\", \"Compared segmentations with reference masks and inspected boundary errors, documenting sensitivity to cluster initialization and foreground objects with similar background colors.\"], \"id\": \"T1\", \"title\": \"Color Clustering for Image Segmentation\"}, {\"bullets\": [\"Implemented a handwritten digit classification baseline using flattened grayscale images, principal component analysis, and logistic regression within a fixed evaluation split.\", \"Compared predictions with and without dimensionality reduction, examining confusion matrices and misclassified images to characterize errors involving ambiguous strokes.\"], \"id\": \"T2\", \"title\": \"Dimensionality Reduction for Handwritten Digit Classification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Prepared surface inspection images by checking defect labels, standardizing crop dimensions, and separating related samples across training and evaluation splits.\", \"Implemented a prescribed histogram of oriented gradients baseline with a support vector classifier, reviewing misclassifications under uneven illumination and textured backgrounds.\"], \"id\": \"R1\", \"title\": \"Visual Baselines for Surface Defect Classification\"}, {\"bullets\": [\"Organized scene images into reference and query sets, checked category annotations, and removed duplicate files before baseline evaluation.\", \"Implemented normalized color histograms and nearest neighbor retrieval following an existing protocol, inspecting retrieved examples for confusion between visually similar scene categories.\"], \"id\": \"R2\", \"title\": \"Color-Based Baselines for Scene Image Retrieval\"}], \"work\": [{\"bullets\": [\"Maintained supply inventories, checked incoming deliveries against order records, and routed missing item reports to the responsible staff.\", \"Organized routine paperwork, updated shared schedules, and tracked outstanding service requests to support daily office operations and shift handoffs.\"], \"id\": \"W1\", \"title\": \"Routine Operations and Supply Coordination\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00030\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.71, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 1, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-07\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_017eadd1c296e45d016ae6144db98487d0b5402124017cb005",
+    "object": "response",
+    "created_at": 1793463373,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463375,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_017eadd1c296e45d016ae6144ea3dc87d08eb53680e7a6cb97",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hRPm9oy9uA4I8kFGTifznJr-HRJRLNZEKkiUtYloA1r7P9g4m0feSs7nKWJiEbkTCJtJKMe05Jgs4dtr8uESvgqJLql2K9719Oq-J_OKFOcwWEk8kxooSJNkUZ3LhzPFds0X-qjvOfqVU_roemSu44q4s385907HmhejalCf88r2oV5wZ4qwBGcVklf9WBBxP6UCEbV6abz7h7MxG04SYOEoL2PGqr6d0CwA9wE7XYZEhw0WPqHajjEzj4OXu3AjeINX-MHDVzFPg3vaa_0O114yPn2d7AUcujqGF6GbGDFHvGlcZWWspFBO5bRQmGdEZiJeTswJaGZIUANbP7WifAhaiTn9SOpENHThCgELvse6UGotScDmjPLqBN6v3q5rt6H17Kvj8ly4Q9hJqJVI7CZnvCk24DmGW2dC7ihCaGia2ro9pk1_bMjx9xLl7yPabvYw-BH05gwBkYVHx6DzJeTlcjov5lRBHfvDcRgLgZWvne0o-Zuw7rh8W-kiNZuHTAJ60WEYpKGexBn2hTzoW8lskjEArdzhlJZQu8cOCOJp6a76jpRZUOU0MFujEW57k0hnF6eR8TdDGDtjRlXY43RBN8SMIGZCjWV8whXuaEinE_sG4LNvblYpK1wc5vzbYfgkueM6o85w0Dmyir_LNUf6khQfQaLQ_BNKer44v6Y7EP9Lqg6PjrVD3UCWtc8VLcObY8fKQcFZ7qPezIwOxQosB-l-0sm40pFNc_woGMlreG3aaM3k0-Rtbz9iOHdsd18o-xxnZsbZQTzcDXdz9YRfnFMX6SGLv3AXTpIck28zspwppS86kMPCmL6CJVUze8q8PRRnkfKHioFTkj49HqFp7Tot_Tc7K-YU29lyyCY1b-fq58xzhBQaIf5hD-UD_zkvJi-XuHg1bNfTjgax4EAgy1TLUoJH251ax77-cbjrXvYpQ9_fq3nWXFepHYrq1PAGZWPNbYZe1KGu8ncxRMlD2oLXVFc72wIg0m-mPzgiK9sxX2lDJ2X1sDu8Rt3I-edIFnh2e5SVY3yaldf1tuwejHiAEuF4MckDFfpSRNPYztAXVSkZw8ST9w02P-unF4ghCG5RQfMyQjHg9vtU3kPAhmF_6FQCDyzeu0fSDgGXmn5m35bYeTVLWOZEmOGXe5T0D28X0Yp0vJKUHz2meoX7tgbxphN6d8Muo7_urHG5Z28tysK9fKKxYAG351g6L_iF0q8PkpExq5rmlSEtmrTlHlAO14yiy9_HqpHH1b3h6k-_9jbyLBacPajSwbY_rs2bDfBLJt8vFzP5_ciPxUetQ-wyuYj8tycrpQfIjxjD09gskWb01ZaKRn98IL6iU14flb0tOsb7Z6b_ql0QKb52EXfvgbKAxznqBqZFKxJZLmIavhQ7gOsLBmFZxsh8V32Wd5F7FdxSurcwOy6cy6UIWPf2_kxlOxdcqsZ_DhIakXDJxSKW5AuY6J0aHn1TakW7Ya-PasNl9rLsi-D1DCejs4K5lm4N5MwKDfO_nMdvAJN2tk13ys8lN3xTUHgYHynsincJ6C9YDHTD4GYggWKc6zgeZDICCWc0Z47FTKAqn14Sweo0a2DiXr522L-KFE5hcQFpiS1QMmqIF0SZX_oLRtNWkxRRQpLBf0wN4DpJNCsb5cCavuqw18L98yx-Tok1MJwuVyiz4QVCPBSfI-Kq9FaFoK0CNKCIJen0jwTURBIdbfMjLrRnRZ_UbDFWiFC",
+        "summary": []
+      },
+      {
+        "id": "msg_017eadd1c296e45d016ae6144f4ddc87d0aef0ce375fd30958",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1094,
+      "input_tokens_details": {
+        "cache_write_tokens": 1091,
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "total_tokens": 1135
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

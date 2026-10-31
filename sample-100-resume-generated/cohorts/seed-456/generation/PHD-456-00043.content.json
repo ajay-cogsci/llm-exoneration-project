@@ -1,0 +1,65 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Object Detection Robustness Under Image Degradation",
+      "bullets": [
+        "Designed controlled experiments comparing pretrained object detectors under motion blur, compression artifacts, and reduced illumination using matched image subsets.",
+        "Analyzed precision and recall by object size and corruption severity, inspecting localization errors separately from missed detections."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Calibration of Semantic Segmentation Under Domain Shift",
+      "bullets": [
+        "Designed evaluations of segmentation confidence across changing weather conditions, comparing uncalibrated predictions with temperature scaling fitted on held-out images.",
+        "Analyzed classwise calibration and boundary errors, examining whether confidence estimates remained informative for rare categories and visually ambiguous regions."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Training Data Composition for Fine-Grained Visual Recognition",
+      "bullets": [
+        "Designed experiments varying class balance and augmentation policies for fine-grained image classification while holding model architecture and evaluation splits fixed.",
+        "Analyzed confusion patterns across visually similar categories and repeated training runs, documenting sensitivity to sampling choices and background variation."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned image ingestion utilities that checked file integrity, normalized metadata fields, and reported unsupported formats for downstream processing.",
+        "Added regression tests for malformed inputs and revised error handling based on bug reports from routine processing workflows."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented local feature matching and robust homography estimation to align overlapping images, including filtering of ambiguous descriptor matches.",
+        "Compared feature configurations under rotation, scale changes, and illumination differences using reprojection error and visual inspection of alignment failures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Small-Sample Image Classification",
+      "bullets": [
+        "Implemented frozen-feature classification and partial network fine-tuning with pretrained convolutional models, using consistent preprocessing and stratified training splits.",
+        "Compared validation accuracy, classwise recall, and training behavior across adaptation settings, inspecting errors associated with limited examples and background cues."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Convolutional Image Denoising",
+      "bullets": [
+        "Implemented median filtering, nonlocal means, and a convolutional denoising baseline for images with synthetically generated Gaussian and impulse noise.",
+        "Compared reconstruction quality across noise conditions using peak signal-to-noise ratio and structural similarity, examining edge preservation and texture smoothing."
+      ]
+    }
+  ]
+}

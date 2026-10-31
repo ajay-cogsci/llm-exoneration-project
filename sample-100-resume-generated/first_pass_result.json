@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-10-31T16:24:40.234182+00:00",
+  "completed_cohorts": {
+    "123": {
+      "status_counts": {
+        "ready_for_human_review": 30,
+        "needs_revision": 3
+      },
+      "usage": {
+        "input_tokens": 64645,
+        "output_tokens": 16732,
+        "total_tokens": 81377
+      }
+    },
+    "789": {
+      "status_counts": {
+        "ready_for_human_review": 31,
+        "needs_revision": 3
+      },
+      "usage": {
+        "input_tokens": 68370,
+        "output_tokens": 18979,
+        "total_tokens": 87349
+      }
+    },
+    "456": {
+      "status_counts": {
+        "ready_for_human_review": 30,
+        "needs_revision": 3
+      },
+      "usage": {
+        "input_tokens": 70492,
+        "output_tokens": 20490,
+        "total_tokens": 90982
+      }
+    }
+  },
+  "failed_cohorts": {}
+}

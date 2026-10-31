@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Extractive Question Answering",
+      "bullets": [
+        "Designed controlled experiments using negated questions and matched affirmative variants to assess answer selection behavior in pretrained extractive models.",
+        "Analyzed prediction changes by negation scope, answer location, and lexical overlap, distinguishing unsupported answers from failures to identify relevant passages."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness and Calibration in Intent Classification",
+      "bullets": [
+        "Designed cross-domain evaluation protocols comparing lexical and transformer classifiers under vocabulary shifts, with controls for label overlap and training composition.",
+        "Analyzed calibration and abstention behavior across domains, examining confidence distributions and error categories to characterize unreliable predictions on unfamiliar requests."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Vocabulary Shift in Cross-Domain Intent Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Confidence Calibration and Selective Prediction for Intent Classification Under Domain Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Ingestion and Validation",
+      "bullets": [
+        "Implemented Python routines for document ingestion, metadata validation, and duplicate detection within an existing text processing service.",
+        "Maintained unit tests for malformed inputs and encoding inconsistencies, investigated processing failures, and documented fixes for routine service maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sequence Taggers for Entity Recognition",
+      "bullets": [
+        "Implemented conditional random field and bidirectional recurrent sequence taggers for named entity recognition using a shared preprocessing and evaluation pipeline.",
+        "Compared entity-level precision and recall across entity types, inspecting boundary errors and unfamiliar tokens to contextualize differences between tagging approaches."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented lexical ranking and pretrained sentence embedding retrieval for passage search, using consistent query sets and relevance judgments.",
+        "Compared retrieval rankings under paraphrased queries and rare terminology, examining missed passages and lexical distractors through structured error analysis."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Frequency and Graph-Based Ranking",
+      "bullets": [
+        "Implemented frequency-based and graph-based sentence ranking for extractive summarization, applying shared sentence segmentation and summary length constraints.",
+        "Compared summaries using reference overlap and manual checks for redundancy, tracing omitted information to sentence scoring and selection behavior."
+      ]
+    }
+  ]
+}

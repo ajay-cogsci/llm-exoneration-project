@@ -1,0 +1,34 @@
+Applicant PHD-123-00013
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Preprocessing and Evaluation for Support Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and label mapping routines for support requests, following existing preprocessing specifications and documenting ambiguous category assignments.
+- Ran prescribed classification experiments using term frequency–inverse document frequency features and logistic regression, inspecting confusion matrices for recurring category errors.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2022-10 to 2025-09 | 40 hours/week
+Order Processing and Inventory Record Maintenance
+- Processed incoming orders, checked required paperwork for completeness, and coordinated with relevant departments to resolve missing information before fulfillment.
+- Maintained inventory records, reconciled delivery documents against received goods, and escalated discrepancies through established procedures for follow-up.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baseline for Review Sentiment Classification | technical course project, 2026
+- Implemented a multinomial naive Bayes baseline with bag-of-words features for sentiment classification, using separate training and validation partitions.
+- Compared unigram and bigram feature configurations under the same evaluation procedure, reviewing misclassified examples involving negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

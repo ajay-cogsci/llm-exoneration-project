@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:23:36.706729+00:00",
+  "request_hash": "4814549c6df6b6548e66e1256d01463f3f4894be4d52a4e4c9724da509f24b72",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ridge and lasso regression baselines for tabular demand estimation, using training data to fit feature scaling and categorical encodings.\", \"Selected regularization settings through cross-validation and examined residual patterns to compare baseline behavior across low-demand and high-demand observations.\"], \"id\": \"T1\", \"title\": \"Regularized Regression for Demand Estimation\"}, {\"bullets\": [\"Applied standard Gaussian mixture and k-means implementations to standardized purchase features, comparing assignments under alternative covariance assumptions and initialization settings.\", \"Examined cluster profiles and assignment stability across repeated fits, documenting how feature scaling influenced the resulting segmentation.\"], \"id\": \"T2\", \"title\": \"Gaussian Mixture Baselines for Customer Segmentation\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Prepared tabular datasets by checking missing values, standardizing feature encodings, and separating training and evaluation records according to the prescribed protocol.\", \"Implemented logistic regression and random forest baselines with imputation pipelines, documenting predictive performance and calibration across specified missingness conditions.\"], \"id\": \"R1\", \"title\": \"Baseline Classification with Incomplete Tabular Data\"}], \"work\": [{\"bullets\": [\"Checked incoming deliveries against order documents, recorded discrepancies, and routed unresolved quantity or packaging issues to the appropriate staff.\", \"Maintained stock records, organized routine order paperwork, and coordinated collection schedules with staff to support daily dispatch operations.\"], \"id\": \"W1\", \"title\": \"Inventory and Order Coordination\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00039\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.55, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 8, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-03\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-03\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 3, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-12\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_00903c9ab1c954fe016ae61608db1087d08b780e9b78b2610a",
+    "object": "response",
+    "created_at": 1793463816,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463818,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_00903c9ab1c954fe016ae61609e83087d0ac6dbf9fa4de3b8b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hYK2LV76iINyoIaCHooedG4047eXufCMTotpze2uHprf-3rk_ETyU0gPFj1IhfoU4sSu93F4AKmI28TrD8tj2i5K4JY4YYihA98Mrb5gi6dRf5b3CO0ZZkG-_baGSywdVAybKG2WJgmdHCKIZC6sPjbgRYg5ts-TD0f51P8YgMZifszPBIrCUukOp75R6NXBQuMA9tCXSjybOlQpYemmfLjezJKQsU-yHDtAyyb9EKttjE-MeE5LvtRi5-CFrdYG8NAEj5zbciXPCHx8hU1obO1M0n3iKWPpk4BEbmcn5GcEZWMVVnGTnPUGZTTms7fZNF0GOVYGGVztZ_vhMZ5fOiaFVOXi6Ap_LX8CWj6-Qkwy2a2wDdCnAg1iD8gL0bKy2w40NydCuf3Xuc0XfDPVh8iIVwieDW4HiP71Qgl4xg5Ijv1XCtPTV7dJgFMAavBhDzknN0xnk9mAbtAzL1Rjiv1hGNqfAmfjhwUwr_MwQEvkcxB7uoLL3wCtv-WVPOf4yVO46R0KWKiUTaHqYnonVG24TOCbLzoDAkNdhLkPHMEbuJhPs3XsYDrkCkpPdLwhYmH7HwlrDzbIY57iMSJPq3kMOCvRdQjzQV0Tbx5zkUof2auQ7vkyYX6qyy_83zCFCk0biBQQoYrKkKB2EVloiCW9wwU_-CMUQ3jelH1jBXMPsbxLgKddVUq_e_Zfou81xuzSwNnJmvBFPrsoCl5ioFpzLrAjEoJhiH5lEFROeEaSpadw-BTcqSNssy9Y13YQoQLGKLBTEOIqmdRHEpBuNMhTD1o0kKBpHjxafmU8kKiG9rfUagn1zCycFNdfTZSfP22Pb2idTtoAxc7cbFPzWLIK0yeTvqHXTH0AEnZGavv-7L27zj3vuUWFeku7Z-QK6P-3IrbZYj3fV5GxRivhYMUEDAis5hsjrxQ6YgdO1-VNZcitsFBxXsBpdDErL5JkowZrYGt7GKxM1dDkg3NVcqM_66kDtrTSn-m5wrxxkYw0XgPYL0JcGw7ywrasv9Zy1khk0h9_Audp9xHaAH4dNtaXBUgw0Q1VW8aOyaHQcMlEO_6Z3YYAmSaSz5lzEachSSd3CoKlmil1w-rdJI_L1NMuGY9_vd2w00BLciGNtBGkRj0ABqdIlIzrBpf_7Jp940iWnzGlyp0Xia4kukyIOY8AyOYh1HJFA4bJFBUoBXbdAvhBIVq7vrJx61vrgiPLs9jOXGhJEhzbVVtbbNnMbkhCkvDRD6wewpIWwuerPOjdFM9jBvQx0tKu_GcsdILBzENSzQLG3KlaFQKhYoSXCcJ1Ya_47bHR7sbQKcW5yXZIDkWJsij4pF1fXngxDnRj5XMkbNx42G_JIDgcVevqnaDU2aFCEgxcrF9Anp85iPT3ZHPkyQ3oujQpIyuD2LbWYIxM6ExBXL0c2wlAN2UEQ7j1_-Q5J1mRZqMwECGipGH0FXeDJm8Qnxyg11_MhJiloeyp_LPaimFy8Hjr3U6xyxQ9u6ZRCe4YyAXddfARwjPKYh4s-X7sE8UKp9Oou8htnkibOjV_H6ME7FmUTOD_S651T-FOTIeKBZi5BRZw2x56wFyvgBK69J4XlakwW907FKHLbW-lL-fnjVBPV_3uv9PnYHyAFB3Dnn0xj8lOZJF3BCkGGg6DufiLigxp2eWUN5rr8hFbLDeTxzhr2R4Zoojd6GWVXXrI1gvLgp7khJ9qutQ93K1VvuTeKN0qTSCXk3zn96r6ovrypR1toJr3XxwtzSE2tT4QopU9bXl-jnJo_GMry3VjyBfWiHTBHTbX_M5o3k-Ecy_WPkdZNz9k7WJ-ErNYoU4A8yK501DXPMukAvZDwsgJD0ttpebtZ2TdwZZ",
+        "summary": []
+      },
+      {
+        "id": "msg_00903c9ab1c954fe016ae6160ac32c87d0bb1190457fc940d3",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 953,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 48,
+      "output_tokens_details": {
+        "reasoning_tokens": 30
+      },
+      "total_tokens": 1001
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

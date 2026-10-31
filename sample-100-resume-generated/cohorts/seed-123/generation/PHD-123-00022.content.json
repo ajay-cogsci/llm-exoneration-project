@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Evaluation for Regularized Binary Classifiers",
+      "bullets": [
+        "Implemented assigned routines for fitting regularized logistic regression models and generating reliability diagrams using predefined training and validation splits.",
+        "Computed Brier scores and calibration summaries across specified regularization settings, checking evaluation code against reference calculations supplied by the group."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Processing",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded inventory discrepancies, and forwarded missing or damaged item reports to the appropriate staff.",
+        "Organized order paperwork, updated fulfillment logs, and coordinated routine pickup arrangements while maintaining records of pending requests and completed handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Regression for Residential Energy Demand",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines to predict residential energy demand from weather measurements and calendar features.",
+        "Applied training-set standardization, selected ridge penalties using cross-validation, and compared held-out prediction errors with a mean-demand baseline."
+      ]
+    }
+  ]
+}

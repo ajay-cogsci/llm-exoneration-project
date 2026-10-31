@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Conflict and Abstention in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Formulated whether disagreement among retrieved passages can guide answer abstention when question answering systems encounter conflicting evidence.",
+        "Led development of an evidence agreement scoring method and evaluated abstention behavior using controlled passage substitutions and confidence calibration."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Paraphrase-Invariant Representations for Intent Classification",
+      "bullets": [
+        "Formulated how paraphrase variation affects intent classification under domain shift, separating lexical changes from changes in underlying user intent.",
+        "Led development of contrastive representation learning and consistency regularization methods, evaluating their behavior through paraphrase perturbations and cross-domain transfer experiments."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Measuring Intent Classification Stability Under Controlled Paraphrase Variation"
+    },
+    {
+      "id": "P2",
+      "title": "Contrastive Learning with Paraphrase Consistency for Cross-Domain Intent Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Search Service Maintenance",
+      "bullets": [
+        "Implemented assigned updates to document ingestion and query filtering, handling malformed records and preserving existing search interface behavior.",
+        "Added regression tests for indexing and retrieval workflows, investigated reported failures, and documented reproduction steps and fixes for maintainers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented term-weighted and sentence embedding retrieval baselines using a shared passage collection, query set, and relevance evaluation procedure.",
+        "Compared retrieval rankings and query latency, inspecting failures involving rare terminology, ambiguous queries, and passages with overlapping vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Approaches to Named Entity Recognition",
+      "bullets": [
+        "Implemented a feature-based sequence tagger and a recurrent neural baseline with consistent tokenization, label encoding, and evaluation splits.",
+        "Compared entity-level precision and recall, categorizing boundary errors and examining performance differences between frequently observed and unfamiliar entity strings."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Graph and Centroid Ranking",
+      "bullets": [
+        "Implemented graph-based sentence ranking and centroid similarity baselines for extractive summarization, applying shared preprocessing and summary length constraints.",
+        "Compared lexical overlap scores and manually inspected summaries for redundancy, topic coverage, and dependence on sentence position."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Calibration Methods for Sentiment Classification",
+      "bullets": [
+        "Implemented linear and neural sentiment classifiers, then applied temperature scaling using held-out validation predictions without modifying classifier training.",
+        "Compared classification accuracy, calibration error, and reliability diagrams, examining confidence patterns in negated statements and examples containing mixed sentiment."
+      ]
+    }
+  ]
+}

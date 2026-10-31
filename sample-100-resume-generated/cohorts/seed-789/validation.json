@@ -1,0 +1,397 @@
+{
+  "structural_errors": [],
+  "cohorts": {
+    "789": {
+      "pool": {
+        "n": 51,
+        "strength_counts": {
+          "borderline": 10,
+          "strong": 20,
+          "weak": 21
+        },
+        "pathway_counts": {
+          "bachelors": 19,
+          "industry_returner": 8,
+          "masters": 16,
+          "recent_graduate": 8
+        },
+        "quintile_counts": {
+          "3": 10,
+          "4": 10,
+          "2": 10,
+          "5": 10,
+          "1": 11
+        },
+        "cell_counts": {
+          "bachelors:3": 4,
+          "bachelors:4": 4,
+          "bachelors:2": 5,
+          "industry_returner:2": 2,
+          "masters:3": 4,
+          "masters:4": 3,
+          "masters:5": 3,
+          "bachelors:1": 4,
+          "masters:1": 4,
+          "industry_returner:1": 2,
+          "industry_returner:3": 2,
+          "recent_graduate:2": 1,
+          "industry_returner:4": 1,
+          "recent_graduate:1": 1,
+          "recent_graduate:5": 4,
+          "masters:2": 2,
+          "recent_graduate:4": 2,
+          "industry_returner:5": 1,
+          "bachelors:5": 2
+        },
+        "features": {
+          "gpa": {
+            "mean": 3.6212,
+            "sd": 0.2638,
+            "min": 3.0,
+            "max": 3.99,
+            "frequencies": {
+              "3.99": 1,
+              "3.86": 1,
+              "3.6": 2,
+              "3.58": 2,
+              "3.72": 2,
+              "3.81": 1,
+              "3.24": 2,
+              "3.77": 1,
+              "3.89": 2,
+              "3.44": 1,
+              "3.5": 1,
+              "3.01": 1,
+              "3.71": 2,
+              "3.88": 2,
+              "3.59": 2,
+              "3.78": 1,
+              "3.63": 2,
+              "3.0": 1,
+              "3.67": 1,
+              "3.33": 1,
+              "3.15": 1,
+              "3.97": 1,
+              "3.92": 1,
+              "3.73": 1,
+              "3.3": 1,
+              "3.07": 1,
+              "3.91": 3,
+              "3.55": 2,
+              "3.52": 2,
+              "3.95": 1,
+              "3.82": 1,
+              "3.47": 1,
+              "3.28": 1,
+              "3.34": 1,
+              "3.85": 1,
+              "3.65": 1,
+              "3.98": 1,
+              "3.49": 1
+            }
+          },
+          "research_months": {
+            "mean": 15.0196,
+            "sd": 10.4738,
+            "min": 0,
+            "max": 37,
+            "frequencies": {
+              "16": 2,
+              "26": 1,
+              "18": 4,
+              "7": 2,
+              "9": 6,
+              "10": 1,
+              "28": 1,
+              "4": 2,
+              "8": 2,
+              "2": 1,
+              "17": 2,
+              "6": 2,
+              "1": 3,
+              "23": 1,
+              "22": 2,
+              "3": 1,
+              "13": 2,
+              "34": 3,
+              "25": 2,
+              "12": 1,
+              "5": 2,
+              "15": 1,
+              "32": 1,
+              "37": 2,
+              "21": 1,
+              "0": 1,
+              "14": 1,
+              "29": 1
+            }
+          },
+          "publication_count": {
+            "mean": 0.7255,
+            "sd": 1.0969,
+            "min": 0,
+            "max": 4,
+            "frequencies": {
+              "0": 31,
+              "1": 9,
+              "2": 7,
+              "3": 2,
+              "4": 2
+            }
+          },
+          "research_internships": {
+            "mean": 0.7255,
+            "sd": 0.7233,
+            "min": 0,
+            "max": 3,
+            "frequencies": {
+              "0": 21,
+              "1": 24,
+              "2": 5,
+              "3": 1
+            }
+          },
+          "technical_projects": {
+            "mean": 2.2549,
+            "sd": 0.9131,
+            "min": 1,
+            "max": 4,
+            "frequencies": {
+              "2": 18,
+              "3": 17,
+              "1": 12,
+              "4": 4
+            }
+          }
+        },
+        "pearson_correlations": {
+          "gpa": {
+            "gpa": 1.0,
+            "research_months": 0.37514,
+            "publication_count": 0.12004,
+            "research_internships": 0.17156,
+            "technical_projects": 0.49282
+          },
+          "research_months": {
+            "gpa": 0.37514,
+            "research_months": 1.0,
+            "publication_count": 0.78736,
+            "research_internships": 0.60531,
+            "technical_projects": 0.77743
+          },
+          "publication_count": {
+            "gpa": 0.12004,
+            "research_months": 0.78736,
+            "publication_count": 1.0,
+            "research_internships": 0.45773,
+            "technical_projects": 0.47065
+          },
+          "research_internships": {
+            "gpa": 0.17156,
+            "research_months": 0.60531,
+            "publication_count": 0.45773,
+            "research_internships": 1.0,
+            "technical_projects": 0.56233
+          },
+          "technical_projects": {
+            "gpa": 0.49282,
+            "research_months": 0.77743,
+            "publication_count": 0.47065,
+            "research_internships": 0.56233,
+            "technical_projects": 1.0
+          }
+        },
+        "observed_latent_gpa_correlation": 0.40257
+      },
+      "selected": {
+        "n": 34,
+        "strength_counts": {
+          "weak": 15,
+          "borderline": 5,
+          "strong": 14
+        },
+        "pathway_counts": {
+          "masters": 8,
+          "bachelors": 12,
+          "recent_graduate": 7,
+          "industry_returner": 7
+        },
+        "quintile_counts": {
+          "1": 7,
+          "2": 8,
+          "3": 5,
+          "5": 8,
+          "4": 6
+        },
+        "cell_counts": {
+          "masters:1": 2,
+          "bachelors:2": 3,
+          "bachelors:3": 2,
+          "recent_graduate:5": 4,
+          "bachelors:5": 2,
+          "industry_returner:2": 2,
+          "bachelors:1": 3,
+          "industry_returner:5": 1,
+          "industry_returner:3": 2,
+          "industry_returner:4": 1,
+          "bachelors:4": 2,
+          "industry_returner:1": 1,
+          "recent_graduate:2": 1,
+          "masters:2": 2,
+          "recent_graduate:1": 1,
+          "masters:4": 2,
+          "masters:5": 1,
+          "recent_graduate:4": 1,
+          "masters:3": 1
+        },
+        "features": {
+          "gpa": {
+            "mean": 3.6279,
+            "sd": 0.2289,
+            "min": 3.01,
+            "max": 3.99,
+            "frequencies": {
+              "3.28": 1,
+              "3.78": 1,
+              "3.99": 1,
+              "3.97": 1,
+              "3.85": 1,
+              "3.72": 2,
+              "3.34": 1,
+              "3.44": 1,
+              "3.59": 2,
+              "3.15": 1,
+              "3.58": 1,
+              "3.67": 1,
+              "3.49": 1,
+              "3.73": 1,
+              "3.71": 2,
+              "3.63": 2,
+              "3.01": 1,
+              "3.52": 1,
+              "3.33": 1,
+              "3.65": 1,
+              "3.6": 1,
+              "3.88": 1,
+              "3.5": 1,
+              "3.95": 1,
+              "3.82": 1,
+              "3.47": 1,
+              "3.55": 1,
+              "3.81": 1,
+              "3.92": 1,
+              "3.77": 1
+            }
+          },
+          "research_months": {
+            "mean": 15.9706,
+            "sd": 11.1423,
+            "min": 0,
+            "max": 37,
+            "frequencies": {
+              "9": 5,
+              "16": 2,
+              "34": 3,
+              "0": 1,
+              "4": 2,
+              "13": 2,
+              "32": 1,
+              "22": 1,
+              "29": 1,
+              "12": 1,
+              "2": 1,
+              "8": 2,
+              "37": 2,
+              "3": 1,
+              "5": 1,
+              "23": 1,
+              "17": 1,
+              "7": 1,
+              "21": 1,
+              "18": 2,
+              "6": 1,
+              "25": 1
+            }
+          },
+          "publication_count": {
+            "mean": 0.8235,
+            "sd": 1.2424,
+            "min": 0,
+            "max": 4,
+            "frequencies": {
+              "0": 21,
+              "2": 5,
+              "3": 2,
+              "1": 4,
+              "4": 2
+            }
+          },
+          "research_internships": {
+            "mean": 0.7647,
+            "sd": 0.7808,
+            "min": 0,
+            "max": 3,
+            "frequencies": {
+              "0": 14,
+              "1": 15,
+              "3": 1,
+              "2": 4
+            }
+          },
+          "technical_projects": {
+            "mean": 2.3529,
+            "sd": 0.9497,
+            "min": 1,
+            "max": 4,
+            "frequencies": {
+              "1": 7,
+              "2": 12,
+              "4": 4,
+              "3": 11
+            }
+          }
+        },
+        "pearson_correlations": {
+          "gpa": {
+            "gpa": 1.0,
+            "research_months": 0.25628,
+            "publication_count": 0.00721,
+            "research_internships": 0.18204,
+            "technical_projects": 0.47882
+          },
+          "research_months": {
+            "gpa": 0.25628,
+            "research_months": 1.0,
+            "publication_count": 0.84673,
+            "research_internships": 0.60874,
+            "technical_projects": 0.73983
+          },
+          "publication_count": {
+            "gpa": 0.00721,
+            "research_months": 0.84673,
+            "publication_count": 1.0,
+            "research_internships": 0.51818,
+            "technical_projects": 0.49096
+          },
+          "research_internships": {
+            "gpa": 0.18204,
+            "research_months": 0.60874,
+            "publication_count": 0.51818,
+            "research_internships": 1.0,
+            "technical_projects": 0.60578
+          },
+          "technical_projects": {
+            "gpa": 0.47882,
+            "research_months": 0.73983,
+            "publication_count": 0.49096,
+            "research_internships": 0.60578,
+            "technical_projects": 1.0
+          }
+        },
+        "observed_latent_gpa_correlation": 0.32888
+      }
+    }
+  },
+  "empirical_phd_calibration": "not_established",
+  "note": "Descriptive checks of the pool and selected sample, not empirical PhD validation. The admissions links do not supply joint-distribution targets. Penn admitted-only GPA means are context, not targets for the applicant pool. Provisional strength labels need human review."
+}

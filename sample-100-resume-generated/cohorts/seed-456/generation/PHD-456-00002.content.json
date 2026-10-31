@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Uncertainty Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine interval coverage under controlled shifts in tabular regression feature distributions.",
+        "Compared split conformal prediction across regression baselines, tracking coverage and interval width across predefined shift conditions and repeated splits."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Missing Data and Probability Calibration in Tabular Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to compare imputation strategies under random and feature-dependent missingness in tabular classification.",
+        "Evaluated logistic regression and tree ensemble predictions using calibration curves and Brier scores, separating imputation fitting from held-out evaluation."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Probability Calibration Under Simulated Missingness: Comparing Imputation Strategies for Tabular Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented assigned validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries within existing processing routines.",
+        "Added regression tests for malformed inputs and updated error messages to support troubleshooting during routine batch processing."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularization for Regression with Correlated Features",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized features and cross-validation for selecting regularization strength on tabular datasets.",
+        "Compared prediction error and coefficient stability under correlated predictors, using repeated data splits and training-only preprocessing to limit leakage."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel Methods for Nonlinear Regression",
+      "bullets": [
+        "Implemented kernel ridge regression with linear and radial basis function kernels, checking predictions against a reference library implementation.",
+        "Compared generalization error across kernel choices and bandwidth settings using synthetic nonlinear functions with controlled observation noise."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classification Under Class Imbalance",
+      "bullets": [
+        "Implemented class weighting and random undersampling within classification pipelines, applying resampling only to training partitions during evaluation.",
+        "Compared logistic regression and random forest models using precision-recall curves, examining threshold sensitivity across datasets with differing class proportions."
+      ]
+    }
+  ]
+}

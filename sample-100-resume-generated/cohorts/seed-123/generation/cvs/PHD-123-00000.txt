@@ -1,0 +1,31 @@
+Applicant PHD-123-00000
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.26/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Preprocessing and Baseline Evaluation for Support Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and label mapping routines for support requests, following the research group's preprocessing specification.
+- Ran an established TF-IDF classification pipeline and inspected misclassified requests to document recurring confusion between overlapping intent categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baselines for Movie Review Sentiment Classification | technical course project, 2026
+- Implemented unigram count features and logistic regression using scikit-learn to classify movie reviews by sentiment.
+- Compared count and TF-IDF representations on a held-out split, reviewing errors involving negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

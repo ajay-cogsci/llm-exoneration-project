@@ -1,0 +1,17 @@
+{
+  "reviewer": "assistant; not a human admissions reviewer",
+  "profiles_read": [
+    "PHD-123-00013",
+    "PHD-123-00010",
+    "PHD-123-00043"
+  ],
+  "observations": [
+    "An introductory NLP applicant retained assigned implementation responsibility, no publications, and nontechnical operations duties.",
+    "A computer-vision applicant retained baseline implementation tasks and no invented publication.",
+    "An NLP applicant with leading-method-development responsibility retained two publications linked to the relevant research topic."
+  ],
+  "limitations": [
+    "Three examples only; no empirical representativeness claim.",
+    "Cohort strength labels and perceived admissions competitiveness still need human calibration."
+  ]
+}

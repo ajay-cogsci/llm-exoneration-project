@@ -1,0 +1,36 @@
+Applicant PHD-123-00032
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.23/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Intent Classification for Short Support Requests
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by normalizing whitespace, removing duplicate messages, and checking intent labels against the supplied annotation guidelines.
+- Implemented a TF-IDF logistic regression baseline and inspected confusion matrices to document errors among closely related request categories.
+Research assistant, University Research Group | 2026-03 to 2026-08 | 10 hours/week
+Sentence Function Classification in Scientific Abstracts
+Contribution: data preparation and baseline implementation.
+- Segmented scientific abstracts into sentences, reconciled label formatting, and maintained document-level splits to prevent overlap between training and evaluation data.
+- Implemented a word n-gram classification baseline using supplied sentence labels and summarized misclassifications between background, methods, and conclusion statements.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Baseline Sentiment Classification of Product Reviews | technical course project, 2026
+- Implemented a multinomial naive Bayes sentiment classifier with bag-of-words features, fitting vocabulary and preprocessing transformations only on training reviews.
+- Evaluated held-out predictions using precision, recall, and confusion matrices, then examined errors involving negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

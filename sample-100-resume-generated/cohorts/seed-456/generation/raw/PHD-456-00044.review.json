@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:22:01.596623+00:00",
+  "request_hash": "08801b1b077994837c60bc95a81b60fab49cecf971857dbf14730f210a3c71bc",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented Gaussian process and kernel ridge regression baselines, comparing predictive error under shared data splits and consistent hyperparameter search procedures.\", \"Evaluated Gaussian process uncertainty on noisy regression data, examining interval coverage and sensitivity to kernel choice and noise assumptions.\"], \"id\": \"T1\", \"title\": \"Kernel Regression and Predictive Uncertainty\"}, {\"bullets\": [\"Implemented expectation maximization for Gaussian mixture models and compared clustering assignments with k means on synthetic data with unequal cluster variances.\", \"Compared covariance parameterizations and initialization strategies using held out likelihood and assignment agreement, documenting convergence behavior and sensitivity to overlapping clusters.\"], \"id\": \"T2\", \"title\": \"Mixture Models for Clustering With Unequal Variances\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed controlled experiments comparing standard and importance weighted conformal prediction under covariate shifts that preserved conditional response distributions.\", \"Analyzed empirical coverage and interval width across shifted subgroups, examining sensitivity to density ratio estimation and calibration sample composition.\"], \"id\": \"R1\", \"title\": \"Conformal Prediction Under Covariate Shift\"}, {\"bullets\": [\"Designed experiments comparing temperature scaling and isotonic regression across class imbalance conditions, using separate training, calibration, and evaluation partitions.\", \"Analyzed reliability diagrams, Brier scores, and class conditional calibration errors to distinguish changes in predictive discrimination from probability estimation.\"], \"id\": \"R2\", \"title\": \"Probability Calibration in Imbalanced Classification\"}, {\"bullets\": [\"Designed simulation experiments varying predictor correlation and signal sparsity to compare ridge, lasso, and elastic net regression under matched evaluation conditions.\", \"Analyzed prediction error and coefficient variability across repeated samples, examining how cross validation choices affected feature selection stability.\"], \"id\": \"R3\", \"title\": \"Regularization and Feature Stability With Correlated Predictors\"}], \"work\": [{\"bullets\": [\"Implemented validation checks for structured data imports, handling missing fields, inconsistent types, and duplicate records within an existing application.\", \"Added regression tests for malformed inputs and revised error messages to support troubleshooting of failed imports by application users.\"], \"id\": \"W1\", \"title\": \"Data Import Validation and Error Handling\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00044\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.89, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 15, \"id\": \"R2\", \"months\": 3, \"organization\": \"Research Lab 2\", \"role\": \"Research intern\", \"start\": \"2026-05\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-05\", \"hours_per_week\": 10, \"id\": \"R3\", \"months\": 22, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2024-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-07\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_02b01da50110e2c9016ae615a9befc87d099050f292815ec8d",
+    "object": "response",
+    "created_at": 1793463721,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463723,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_02b01da50110e2c9016ae615ab035887d0a2288be8cc3c2e9a",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1243,
+      "input_tokens_details": {
+        "cache_write_tokens": 1240,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1259
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

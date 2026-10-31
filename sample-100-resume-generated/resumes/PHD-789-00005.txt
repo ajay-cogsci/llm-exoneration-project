@@ -1,0 +1,42 @@
+Applicant PHD-789-00005
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.81/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Intent Classification for Customer Support Requests
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by removing duplicates, standardizing text fields, and checking label consistency across predefined training and evaluation partitions.
+- Implemented TF-IDF and logistic regression baselines using an established evaluation protocol, inspecting confusion matrices for errors between closely related request categories.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Sentence-Level Classification of Scientific Abstracts
+Contribution: data preparation and baseline implementation.
+- Cleaned abstract text, checked sentence boundaries, and organized rhetorical labels while preserving document-level separation between training and evaluation sets.
+- Implemented bag-of-words and linear support vector machine baselines, comparing feature configurations and reviewing misclassifications involving background, methods, and conclusion sentences.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-02 to 2026-02 | 10 hours/week
+Routine Operations and Records Support
+- Maintained routine inventory records, checked incoming deliveries against order documentation, and referred discrepancies to the appropriate staff for resolution.
+- Organized physical records, prepared materials for daily activities, and communicated scheduling changes and outstanding supply requests during shift handovers.
+
+TECHNICAL PROJECTS
+Lexical Baselines for Duplicate Question Detection | technical course project, 2026
+- Implemented a baseline classifier for question pairs using token overlap, length differences, and cosine similarity between TF-IDF representations.
+- Evaluated predictions on a held-out partition and inspected false matches involving shared vocabulary but different requested information.
+Frequency-Based Extractive Document Summarization | technical course project, 2026
+- Implemented a sentence-ranking baseline using normalized term frequencies, with stopword filtering and source-order preservation when assembling extractive summaries.
+- Compared generated summaries with a lead-sentence baseline using reference overlap measures and manually reviewed redundancy and missing context.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

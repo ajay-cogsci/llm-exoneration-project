@@ -1,0 +1,40 @@
+Applicant PHD-789-00013
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.88/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-06 to 2026-11 | 10 hours/week
+Robustness of Semantic Segmentation Under Image Corruptions
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to assess segmentation models under blur, sensor noise, and illumination shifts using controlled corruption protocols.
+- Implemented evaluation routines and augmentation ablations, examining classwise intersection over union and boundary errors to characterize sensitivity across corruption types.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-04 to 2025-09 | 40 hours/week
+Image Processing and Validation for Inspection Workflows
+- Implemented image ingestion and preprocessing components for inspection workflows, handling inconsistent file formats, missing metadata, and malformed uploads.
+- Maintained regression tests for image transformations and investigated processing failures through log review, reproducible test cases, and documented fixes.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Classification Transfer Learning | technical course project, 2026
+- Implemented frozen feature extraction and partial fine tuning for pretrained image classifiers using shared data splits and consistent preprocessing.
+- Compared classification errors across adaptation strategies, inspecting confusion matrices and learning curves to identify overfitting and visually ambiguous categories.
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented an image alignment pipeline using local descriptors, nearest neighbor matching, and robust homography estimation for overlapping image pairs.
+- Compared descriptor matching thresholds and outlier rejection settings, examining reprojection errors and alignment failures under viewpoint changes and repetitive textures.
+Classical and Learned Methods for Image Denoising | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising autoencoder, constructing paired clean and corrupted images with controlled synthetic noise.
+- Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and artifacts across noise conditions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

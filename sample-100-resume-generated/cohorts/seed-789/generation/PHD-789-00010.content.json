@@ -1,0 +1,32 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Surface Defect Classification Under Variable Illumination",
+      "bullets": [
+        "Prepared surface inspection images by checking defect labels, standardizing image dimensions, and organizing training and evaluation splits by acquisition session.",
+        "Implemented assigned histogram of oriented gradients and linear classifier baselines, comparing preprocessing settings and reviewing misclassified images across lighting conditions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Nearest-Neighbor Baselines for Handwritten Digit Recognition",
+      "bullets": [
+        "Implemented nearest-neighbor classification using normalized pixel features, with consistent preprocessing for training, validation, and held-out handwritten digit images.",
+        "Compared distance metrics and neighborhood sizes on validation data, then inspected confusion matrices to identify frequently confused digit shapes."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Color Histogram Baselines for Scene Classification",
+      "bullets": [
+        "Constructed global and spatially partitioned color histograms from scene images and trained support vector machine baselines using scikit-learn.",
+        "Compared histogram binning and feature normalization choices using a fixed validation split, inspecting errors associated with visually similar scene categories."
+      ]
+    }
+  ]
+}

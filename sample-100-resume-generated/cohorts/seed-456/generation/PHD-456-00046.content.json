@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visual Baselines for Surface Defect Classification",
+      "bullets": [
+        "Prepared surface inspection images by checking defect labels, removing duplicate captures, and organizing training and evaluation splits by source specimen.",
+        "Implemented a prescribed linear support vector machine baseline using gradient descriptors, then inspected classification errors across lighting conditions and defect categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Color and Texture Features for Indoor Scene Recognition",
+      "bullets": [
+        "Standardized indoor image dimensions, checked scene category annotations, and maintained predefined dataset partitions for baseline scene recognition experiments.",
+        "Implemented nearest neighbor classification with color histograms and local texture descriptors, comparing feature configurations and documenting confusion between visually similar rooms."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items through established procedures.",
+        "Maintained stock records, assembled routine order paperwork, and coordinated pickup schedules with staff to support daily operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Digit Recognition with Linear Classifiers",
+      "bullets": [
+        "Implemented a logistic regression baseline for handwritten digit recognition using normalized pixel intensities and predefined training and test partitions.",
+        "Compared raw pixels with gradient features under the same evaluation procedure, inspecting confusion patterns and representative misclassified images."
+      ]
+    }
+  ]
+}

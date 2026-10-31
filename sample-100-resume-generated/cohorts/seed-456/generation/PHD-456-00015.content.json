@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Assessment for Binary Classifiers",
+      "bullets": [
+        "Implemented assigned routines for grouping predicted probabilities into bins and computing calibration summaries using NumPy.",
+        "Ran prescribed logistic regression experiments on tabular data, checking probability outputs and documenting discrepancies between calibration plots and aggregate metrics."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Records Support",
+      "bullets": [
+        "Updated inventory records from receiving paperwork, checked item descriptions against delivery documents, and flagged discrepancies for supervisor review.",
+        "Prepared order packets, maintained filing records, and coordinated routine status updates with staff handling incoming deliveries and outgoing orders."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Logistic Regression for Tabular Classification",
+      "bullets": [
+        "Implemented a scikit-learn baseline with missing value imputation, feature standardization, and regularized logistic regression for a tabular classification task.",
+        "Compared regularization settings through cross-validation on training data and summarized held-out predictions using confusion matrices and probability-based evaluation metrics."
+      ]
+    }
+  ]
+}

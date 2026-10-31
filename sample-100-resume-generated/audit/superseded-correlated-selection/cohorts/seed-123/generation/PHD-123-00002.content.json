@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Classification Robustness Under Camera Degradations",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare image classifiers under simulated blur, sensor noise, and exposure shifts.",
+        "Evaluated augmentation settings using matched training configurations, examining classwise errors and confidence changes across clean and degraded images."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Pseudo-Label Selection for Semantic Segmentation",
+      "bullets": [
+        "Planned supervised comparisons of confidence thresholds and class balancing for pseudo-label selection with guidance on experimental controls.",
+        "Implemented segmentation training configurations and examined boundary errors, separating effects of label availability from changes in pseudo-label filtering."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded stock discrepancies, and routed missing-item reports to the responsible staff.",
+        "Organized order paperwork, updated routine inventory logs, and coordinated handoffs of pending requests between shifts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented a feature matching pipeline with descriptor comparison and robust homography estimation for aligning overlapping image pairs.",
+        "Compared matching filters under viewpoint and illumination changes, inspecting alignment residuals and failure cases involving repetitive textures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Small Image Collections",
+      "bullets": [
+        "Implemented frozen-feature and partial fine-tuning baselines for image classification, keeping preprocessing and evaluation splits consistent across configurations.",
+        "Compared validation behavior and classwise confusion under alternative augmentation settings, documenting errors associated with background clutter and visual similarity."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Convolutional Image Denoising",
+      "bullets": [
+        "Implemented median filtering, bilateral filtering, and a convolutional denoising baseline using paired clean images and synthetically corrupted inputs.",
+        "Compared reconstruction metrics and visual artifacts across noise conditions, examining tradeoffs between texture preservation and smoothing of flat regions."
+      ]
+    }
+  ]
+}

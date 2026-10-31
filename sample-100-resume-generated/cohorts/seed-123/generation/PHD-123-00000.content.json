@@ -1,0 +1,24 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Baseline Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and label mapping routines for support requests, following the research group's preprocessing specification.",
+        "Ran an established TF-IDF classification pipeline and inspected misclassified requests to document recurring confusion between overlapping intent categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Movie Review Sentiment Classification",
+      "bullets": [
+        "Implemented unigram count features and logistic regression using scikit-learn to classify movie reviews by sentiment.",
+        "Compared count and TF-IDF representations on a held-out split, reviewing errors involving negation and mixed sentiment."
+      ]
+    }
+  ]
+}

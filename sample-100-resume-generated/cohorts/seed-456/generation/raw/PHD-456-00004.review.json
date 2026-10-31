@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:17.006130+00:00",
+  "request_hash": "06913899b1c176b84a9bf65c4fac0a235aa19571ee4a1f1559cbd5e8743e2011",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented image retrieval pipelines using color histograms, local feature aggregation, and pretrained convolutional embeddings with consistent image preprocessing.\", \"Compared retrieval precision and ranked examples across viewpoint changes and background clutter, documenting characteristic errors for each feature representation.\"], \"id\": \"T1\", \"title\": \"Classical and Learned Features for Image Retrieval\"}, {\"bullets\": [\"Implemented block matching and semi global matching pipelines with configurable matching costs, disparity ranges, and left right consistency checks.\", \"Compared disparity errors on annotated stereo pairs and inspected failures near occlusion boundaries, reflective surfaces, and regions with weak texture.\"], \"id\": \"T2\", \"title\": \"Comparative Evaluation of Stereo Matching Methods\"}, {\"bullets\": [\"Implemented median filtering, bilateral filtering, and a convolutional denoising baseline using paired clean and synthetically corrupted images.\", \"Compared reconstruction quality using peak signal to noise ratio and structural similarity, examining edge preservation across noise types and intensities.\"], \"id\": \"T3\", \"title\": \"Image Denoising with Spatial Filters and Convolutional Networks\"}, {\"bullets\": [\"Implemented linear probing, partial backbone tuning, and full fine tuning for a pretrained image classifier under a shared training protocol.\", \"Compared validation accuracy, training behavior, and class confusion across adaptation strategies, inspecting errors among categories with similar shapes and textures.\"], \"id\": \"T4\", \"title\": \"Transfer Learning Strategies for Fine Grained Image Classification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed controlled experiments comparing segmentation models under synthetic fog, motion blur, and exposure shifts while holding training data and preprocessing constant.\", \"Analyzed classwise intersection over union and boundary errors to distinguish sensitivity to image degradation from failures involving small objects.\"], \"id\": \"R1\", \"title\": \"Semantic Segmentation Robustness Under Adverse Imaging Conditions\"}, {\"bullets\": [\"Designed evaluation protocols comparing temperature scaling and uncalibrated predictions across clean images, common corruptions, and held out visual categories.\", \"Analyzed reliability diagrams, calibration error, and selective prediction curves to characterize relationships between confidence, classification accuracy, and corruption severity.\"], \"id\": \"R2\", \"title\": \"Calibration of Image Classifiers Under Distribution Shift\"}, {\"bullets\": [\"Designed experiments comparing frozen feature extraction and supervised fine tuning across controlled label subsets using consistent data splits and augmentation settings.\", \"Analyzed class confusion, nearest neighbor retrievals, and variation across training runs to examine representation quality and sensitivity to label availability.\"], \"id\": \"R3\", \"title\": \"Evaluating Visual Representations for Limited Label Recognition\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00004\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.7, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T4\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 15, \"id\": \"R2\", \"months\": 3, \"organization\": \"Research Lab 2\", \"role\": \"Research intern\", \"start\": \"2026-05\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-05\", \"hours_per_week\": 10, \"id\": \"R3\", \"months\": 19, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-10\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0861660375696516016ae615052cec87d0a706a52f052f58a6",
+    "object": "response",
+    "created_at": 1793463557,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463559,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0861660375696516016ae61506dc7887d0ba14e0b0f3040244",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hUHyRGPebdL118cXLlNThumhKObDg4kRmNIfW29RBZPFXXhuluwT_dgcPD3Ew5Ef3U3NbNQlc4N0fT8ve_UA_qbBC3Bfu7RMOA7J4_euI6dHrQLj7S6J_zOep6gxuQChkxSxzZT2Vtnx859LJaFksClQVQTSO9JffdtkaToUNjG97ZBLnUednUjXKm_p0LG65N89ALc9aUwAwhuUG1B8Dj0-k0xR5-SBN0AKDwlK8LvsIgQRRtvx1PVHcEi8wMoKKsmX88mgWu2bXBUZCvic84wzp3F7M7GhwIQUkVvfUklEeu9miuw7W9Kn1k9tV54scz7mzp5CoOc76mqRPk1grtbP8MwoX3QuJT3p7xbRmqfwEBKyJqnAnNt3zcLq0w2PzW4YZXVMyVJfMR1g7QFiNbVPMflt2cPwwLAFX7iulgPQ0uLc_fVmXroDSI0hdVZkppfVlbEzeS8QOWmwu87bF8ajhxOo3xlwHnL48T6xkKRu_oi4X9G4THRAMpWONtv0QHTJE44TKCZrayrbNVZ9S_VApgwmLmnlPu0QNTEvuO9gR0njeTnVXl6XadBaIE3BSub4K4kOwuTcQZKpyMEcgp3GKyVO_VPoBaWjHUR2YQ6h-EIR7EwnvdM7Oz4vp39CJ7qspQTnnHJBkqwP1Og-V74oTM7o46qZ0uK6woIk1GAD_ojDy7iZEyIqvIPMX7WkimYm6hXJIgBdKceoVaok_mNzZG7WS21gJY0BENXcs9-dfISuU4RKTmydiwb48DrMfb_wE3dHbK9xMfMzPbnKP8B60vEJTDssivgMh3vMGCrxAXBoWv4kADx1k4Vx_khOFNJrQ_TWs20vFop6xUwy6Ae9cHOc3QyvsoxkheHsWNamyW8xdZRaxEjQpWoxScIphs2TFtBC7HVkefBmYK-vDdSwsHTmpbFo7Pjr7FYIE8cP4hSSj-4Ol90WA2rCY6AhywLlGZyqAVhHmXesqq4oubNI8GzhbLer9FdNjAyA4fktteOWAFfWwujl79Xr9MP73vpEm-Ycr7qlt6eh6H4hu1_heRNJeeE1X6f2sfxTHUoPoyDXCEldG34m_BlXfyJeyveUrmjSZon1BI1v2HmIzv2E0f6LJfkKXYsryg9n4fMpU0q-WNunh1NJ_zvzzB98F8smhJKNrwGPkzyieB2TxYAOCidpghw3CvYyLfERlf1HZfUb-Mp5mVMIiZ0i5yUj0PsE1GqujX-jHqFFMNRw-5aM7I1-OFd9i6WtRToo9T7u8__TFQGseT7CtccRHnCijzTsNFd1DpsBUCgq0PWRv4hmyICkXaWeLdb8B12sz4ExaHoXNisW-4Qd0fhpuIO2hvsTUDVmmQ5TPMKmuXNfoQrFGe_qPE731CnLTDW8Nn3BgUBneHj8B_mlSXcXxtqa46thjWk_UfeAVSiXNLPekRZQPLeEJfCVSRDVdBhOCIFQKVbxxd_rIqDAKYq-MnvxWaBTvzQgwjxBzP5nzs6YdjWO5yVY2vsAfpj-bl-CIP7EqupybbaBdra-O45LARXMKcXUxef3l7dP94KkkUxBbLFX8ZD1blFZT1rP5G8ihB-ve76HkQqA4DWoZsiWQBibmOPnHznYNjC-iHrhYS0KqRh2VyNUIXBMoA7Rv5jq0saMthosJcnFBICypQEbAbsECFxDkMKHu0ozZDvK7amTAIrGpOvGpISCb3rR6d08BTa0RU=",
+        "summary": []
+      },
+      {
+        "id": "msg_0861660375696516016ae61507d75487d0bc065332c0db782c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1330,
+      "input_tokens_details": {
+        "cache_write_tokens": 1327,
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "total_tokens": 1370
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "created_at": "2026-10-31T16:21:24.635938+00:00",
+  "request_hash": "10f53645bfe932e59eb82cd1c29cbfcc00711c82077b2341b8e2244e32302b9c",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Write fictional PhD-applicant CV entries from the supplied fixed record.\nThis is research stimulus generation. All people, projects and publication titles are fictional.\nReturn JSON conforming to the schema. Return one item for every supplied entry, with exactly its ID.\nThe Python program will render all degrees, grades, dates, roles, organizations, publication venues,\nauthorship positions and counts from the fixed record. Do not restate or change those fields.\nYour task is to invent coherent, specific titles and concise technical descriptions within the\nsupplied research area, contribution, work domain and project scope. Match sophistication to the\nstated contribution; do not inflate assigned implementation work into independent method creation.\nEach experience/project gets exactly two factual CV bullets of 12 to 30 words each.\nPublication titles must correspond to the referenced research entry. Multiple publications may\ndescribe different aspects of that work. Use realistic methods appropriate to the research area.\nYou may invent technical subject matter, methods and qualitative activities; do not invent numerical\nresults, awards, extra outputs, skills, named people, employers, universities, or prestigious venues.\nDo not imply a publication for a project unless the fixed record explicitly links one to it.\nFor nontechnical work, describe actual operations duties without adding software/research tasks.\nUse a consistent professional tone. Do not include strength labels, an admissions judgment,\nrecommendations, essays, personal identity details, character praise, or academic-integrity history.\nEmpty source lists must produce empty corresponding output lists.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"applicant_id\": \"PHD-789-00034\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A\"}, {\"course\": \"Algorithms\", \"grade\": \"A\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.52, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 2, \"date\": \"2026-02\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 4, \"date\": \"2026-09\", \"id\": \"P2\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 3, \"date\": \"2024-08\", \"id\": \"P3\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 1, \"date\": \"2025-12\", \"id\": \"P4\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"formulated a research question and led method development\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 34, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2023-10\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2023-10\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2022-10\"}]}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "phd_cv",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "research": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "publications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "work": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "projects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "research",
+            "publications",
+            "work",
+            "projects"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 6000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0e6c4d2f841335f9016ae61584d16487d08bd22557c5485ed3",
+    "object": "response",
+    "created_at": 1793463684,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463698,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e6c4d2f841335f9016ae6158667ec87d0a38eadd1d5e74a02",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hWSz1BG3IoVaC9FXHNG3Ksd9-xKrGknygAb1C90-QZCPPwlFJrXR9dATXqNUckIYb5dltIwjTSNngAfWvchAd5JJShY1F4RJP4QPdY2XLJ6GoCzKTxd1JjbSbckIOuxzcPU2mOIk2AARO4DIvaN4Uv34X5Ec2SzfK5eZWKDKgeaqrxDtQxRIFQGAaTy6naf6r3eXWdkHWBCWWtEvsi33BDtuLwzKRw-mmAKlxw4udRikDMcqdJPrOIBKtl5Vy4topxCatTtJgQ4gGzavSyTBcF3g4Bj3GWFcdEGKq9n6L6vkyw4gLiHzQFJ4t2WfY4klvFKNzORanE7MrxHJHhYd0U3CBGTjMZl2hPnL2w3tFsuYTXO0geerSjs6pBBuZZl0LQtYL_2J0osQ8xBAvHld4LJQ_I2Xw3yjolX8xWT4aPGLiSjHpcMvoC5z69sQ-pWakH3VAnOLeuTSORR_Aiif_5krW3Xap0MX8_Doc8Kc5I7jE8BrIpA7uHnoTXt4QM0tYwIwHi6AOgzd2tUYQDcGv6tm1pWQUwHs9KV-jQ4uKTIIvingShMt-t4FPtsYUIHHOMuhastsPzjNj9iDvnKAjQ92124eyHEf6Zl_FL2dq6Y1i-xLZA0Vtako0_3zuERS1DAoph0EBhs6mrZhYk1i3FXLtPjxY6HjX6AxyyEX39iPU_QItpGz2L_xM1gsyAY4wBq9FiEvhZhx1LBryflgavcxb7Tgd_bXCU8P65JZW5iVJiwGsHbibYhD-7qaf5qq-pickEoAk-topwneVvZVvkhZ3_jYAgf6v_2UHTmrNhR7vfjG76CfS9vtlkKoEx3YdeiIyDviwiVgHlec1m0-Vc4UxxLLUDDn2qTvg3OPTTa1o7KzTAiIWRUz3JgrDaydI2MI918PIhw-XE7cRMOAynsCRTtHg_e72dsLwuzhJHOBR2m9GXcUkIZ4xeSlfIr4ABi0Tfc7wX56nljBeE6msHa7znkY7SXJirXFzyo1KZxT59S3UaWtz1hPypUWFBiQVl5Y7FTMo-N2IeD3Qf6XIQKT9x0EgymUpRbl_Wriuh87xYOocevZ8U_NiIGWL8_YH9a8KPO7B6JYoFt_qAdYbNrdkwJkhCJylp0oY6gI_FzMSVz04zA9cuFuvD749I3kz7w4g6A9QcDvqxhntRzB36pLbO3u087qRgX9hDQ8g6SJe5SndiFqxOsH1RmPjJrUmP3KqKl3k9QZnmebf1Sj86ybLNhv2IKE4hTudzjLN_Fex2-tc4JyBe9_83ASfOemPTELePgu8r-_RnRYLxmjqTLAL5HGrWsnr1P47co9Llj1JnXaz3yzj2nitdffqJk2yTLsRb7EgEtsr069Eeq-aPhT__zeHJy2-lgb_R4bdLFjluM9ny9PoqTXICqiYsBycuysuPAmorThznf2pPZ4v4IvyTpE4uK127J2NyyNOoBqZD049DNS2Q6dtXRqTKkV-M1VWPbKSph5PvTxJ5PS_P2doim6139zRTlCfbIrFIl1y41k1IT9Z1PLqXxYoj63LN-6Ve5WpYDHXiT6Tc3_8XWZR0N0_04-CHIrWYZsTM-yFVb184QCLK1mphXC2LIKbIcGZaKLF1l17UwhumWlgE7cUuJazaiQFOHmhfJku9xi9lBy0wbz2VG8sej4n8rQ7xNq8rveGJ_OoM6KxReyYhw5pu04F7rEiMpqsU-TMuOjs5DPOrnItJYrlT9obqN5LauNXWiykDOrvZ3iR1yHFrXy5JXPvoQRyqVLgHXYb2NiI_1FkysULcKIovl5xwW-yirHXH0W6JtA5L8mGU8ucD8Ih-oajbU3PXNQgF7v28A6Eot4SAXNK8o1PTaYfhcMaqXSSo5iS47eJsxNrKqqrZjAK5M1ei5dZ270DoTeNjcHXdzae7iJGp-PQz6kWj_AeONfbzRrh7S1d9on0m15_hGMrxNHtv1LJ4RAHzJ6s9UbCjQMLcd-VBpIhfq1NYhsKbgQz-MZSu61z9pUjJ-oIC5dwU7v6yLXjdIFHyoZ7ElFK1jv1bVEPrQ_4vR-guxHew5vGxg8dXDUUtzoy-9dOLQ6Fb64xVB3cIsa1bVu7ZMTQY=",
+        "summary": []
+      },
+      {
+        "id": "msg_0e6c4d2f841335f9016ae61588194887d09c789d0e8c83c1c9",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"research\": [\n    {\n      \"id\": \"R1\",\n      \"title\": \"Sensitivity-Aware Regression with Missing Covariates\",\n      \"bullets\": [\n        \"Formulated a research question on prediction stability under changing covariate missingness, distinguishing imputation error from sensitivity to missingness patterns.\",\n        \"Led development of a regression objective penalizing prediction variation across plausible imputations; evaluated robustness against standard imputation baselines under controlled missingness mechanisms.\"\n      ]\n    },\n    {\n      \"id\": \"R2\",\n      \"title\": \"Adaptive Prediction Sets under Covariate Shift\",\n      \"bullets\": [\n        \"Formulated research questions about prediction set reliability under covariate shift and led development of density ratio weighted conformal calibration procedures.\",\n        \"Developed weight stabilization and local calibration variants; evaluated coverage, set size, and subgroup behavior using synthetic shifts and tabular classification benchmarks.\"\n      ]\n    }\n  ],\n  \"publications\": [\n    {\n      \"id\": \"P1\",\n      \"title\": \"Stabilizing Importance Weights for Conformal Prediction under Covariate Shift\"\n    },\n    {\n      \"id\": \"P2\",\n      \"title\": \"Local Calibration of Prediction Sets under Heterogeneous Covariate Shift\"\n    },\n    {\n      \"id\": \"P3\",\n      \"title\": \"Density Ratio Estimation and Coverage Sensitivity in Weighted Conformal Classification\"\n    },\n    {\n      \"id\": \"P4\",\n      \"title\": \"Evaluating Coverage and Set Size in Shifted Tabular Classification\"\n    }\n  ],\n  \"work\": [\n    {\n      \"id\": \"W1\",\n      \"title\": \"Batch Data Validation and Processing\",\n      \"bullets\": [\n        \"Implemented assigned validation routines for incoming tabular records, checking required fields, data types, and duplicate identifiers before downstream processing.\",\n        \"Added regression tests for parsing failures and updated error messages; investigated reported processing defects and documented fixes for maintenance handoffs.\"\n      ]\n    }\n  ],\n  \"projects\": [\n    {\n      \"id\": \"T1\",\n      \"title\": \"Comparative Evaluation of Probabilistic Classifier Calibration\",\n      \"bullets\": [\n        \"Implemented logistic regression and neural network classifiers with temperature scaling and isotonic calibration using separate training, calibration, and test partitions.\",\n        \"Compared reliability diagrams, log loss, and calibration error across class imbalance settings, documenting sensitivity to calibration sample composition.\"\n      ]\n    },\n    {\n      \"id\": \"T2\",\n      \"title\": \"Sparse Regression with Correlated Predictors\",\n      \"bullets\": [\n        \"Implemented coordinate descent for lasso and elastic net regression, checking optimization convergence against reference estimators on standardized synthetic datasets.\",\n        \"Compared prediction error and coefficient stability across correlated feature settings, using nested cross validation to separate regularization selection from evaluation.\"\n      ]\n    },\n    {\n      \"id\": \"T3\",\n      \"title\": \"Bootstrap Intervals for Regression Predictions\",\n      \"bullets\": [\n        \"Implemented residual and pairs bootstrap procedures for linear regression, generating prediction intervals with explicit treatment of observation noise.\",\n        \"Compared empirical coverage and interval width under heteroscedasticity and model misspecification, using repeated simulations to characterize each procedure's limitations.\"\n      ]\n    }\n  ]\n}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "phd_cv",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "research": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "publications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "work": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "projects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "bullets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "bullets"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "research",
+            "publications",
+            "work",
+            "projects"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1181,
+      "input_tokens_details": {
+        "cache_write_tokens": 1178,
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 1920
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

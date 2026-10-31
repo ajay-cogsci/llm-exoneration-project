@@ -1,0 +1,45 @@
+Applicant PHD-789-00023
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.97/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Partial Pooling for Regression Uncertainty in Sparse Subgroups
+Contribution: formulated a research question and led method development.
+- Formulated the question of how subgroup sample scarcity affects residual variance estimation and led development of an empirical Bayes pooling approach.
+- Compared pooled, subgroup-specific, and shrinkage estimators on simulated heteroskedastic data, examining interval coverage and sensitivity to misspecified subgroup structure.
+Research assistant, University Research Group | 2024-01 to 2026-08 | 10 hours/week
+Stabilized Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated a research question about unstable importance weights and led development of a clipped, density-ratio-weighted conformal procedure for regression under covariate shift.
+- Investigated clipping and residual normalization through controlled shift experiments, comparing empirical coverage, interval width, and sensitivity to density-ratio estimation errors.
+
+PUBLICATIONS
+Clipped Importance Weights for Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2025-03; published; author position 1.
+Residual Normalization and Density-Ratio Error in Weighted Conformal Prediction. Peer-reviewed ML conference, 2026-04; published; author position 3.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Kernel and Tree-Based Regression Comparisons | technical course project, 2026
+- Implemented a comparative regression pipeline using kernel ridge regression and random forests, with standardized preprocessing and cross-validation for hyperparameter selection.
+- Compared held-out prediction errors across smooth and discontinuous response functions, examining sensitivity to irrelevant features and training sample availability.
+Post-Hoc Calibration of Probabilistic Classifiers | technical course project, 2026
+- Implemented temperature scaling and isotonic calibration for neural and logistic classifiers, separating model fitting, calibration, and evaluation data.
+- Compared reliability diagrams, Brier scores, and log loss under class imbalance, examining how calibration sample size affected probability estimates.
+Gaussian Mixture Estimation and Initialization Sensitivity | technical course project, 2026
+- Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including covariance regularization and convergence checks.
+- Compared random and clustering-based initializations on overlapping synthetic mixtures, evaluating held-out likelihood, assignment stability, and sensitivity to component specification.
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented coordinate descent for lasso regression and compared its solutions with ridge and elastic net baselines using matched validation splits.
+- Evaluated prediction error and feature selection stability across correlated synthetic designs, tracking how regularization choices changed coefficient sparsity.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

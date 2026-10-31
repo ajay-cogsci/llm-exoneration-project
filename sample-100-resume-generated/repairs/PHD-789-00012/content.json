@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and duplicate detection routines for support requests, following existing preprocessing specifications and documenting ambiguous cases.",
+        "Ran prescribed classification experiments with fixed data splits and summarized confusion patterns across request categories for group review."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory logs, checked incoming deliveries against purchase records, and referred discrepancies to the appropriate staff for resolution.",
+        "Prepared order paperwork, coordinated pickup schedules, and organized filing records to support routine handoffs between shifts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Baseline for Review Sentiment Classification",
+      "bullets": [
+        "Implemented a scikit-learn sentiment classification baseline using TF-IDF features and logistic regression on labeled product reviews.",
+        "Represented product review text with TF-IDF features as inputs to the logistic regression sentiment classifier."
+      ]
+    }
+  ]
+}

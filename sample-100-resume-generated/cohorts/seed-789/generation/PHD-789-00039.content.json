@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Classification with Incomplete Tabular Data",
+      "bullets": [
+        "Prepared tabular datasets by checking missing values, standardizing feature encodings, and separating training and evaluation records according to the prescribed protocol.",
+        "Implemented logistic regression and random forest baselines with imputation pipelines, documenting predictive performance and calibration across specified missingness conditions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against order documents, recorded discrepancies, and routed unresolved quantity or packaging issues to the appropriate staff.",
+        "Maintained stock records, organized routine order paperwork, and coordinated collection schedules with staff to support daily dispatch operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression for Demand Estimation",
+      "bullets": [
+        "Implemented ridge and lasso regression baselines for tabular demand estimation, using training data to fit feature scaling and categorical encodings.",
+        "Selected regularization settings through cross-validation and examined residual patterns to compare baseline behavior across low-demand and high-demand observations."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Baselines for Customer Segmentation",
+      "bullets": [
+        "Applied standard Gaussian mixture and k-means implementations to standardized purchase features, comparing assignments under alternative covariance assumptions and initialization settings.",
+        "Examined cluster profiles and assignment stability across repeated fits, documenting how feature scaling influenced the resulting segmentation."
+      ]
+    }
+  ]
+}

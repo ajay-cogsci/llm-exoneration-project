@@ -1,0 +1,24 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Prediction with Incomplete Tabular Data",
+      "bullets": [
+        "Prepared tabular datasets by checking missing values, standardizing continuous variables, and fitting preprocessing transformations exclusively on training partitions.",
+        "Implemented assigned logistic regression and random forest baselines, comparing imputation strategies through held-out discrimination metrics and subgroup error summaries."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Probability Calibration for Binary Classification",
+      "bullets": [
+        "Implemented logistic regression and naive Bayes baselines in scikit-learn, using stratified splits to separate model fitting, calibration, and evaluation.",
+        "Compared uncalibrated predictions with sigmoid calibration using reliability diagrams and Brier scores, documenting sensitivity to class imbalance."
+      ]
+    }
+  ]
+}

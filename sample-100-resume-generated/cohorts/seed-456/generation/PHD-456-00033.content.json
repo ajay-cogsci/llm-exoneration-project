@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Classification of Surface Defects in Inspection Images",
+      "bullets": [
+        "Prepared inspection images by checking defect labels, removing duplicate frames, and organizing training and evaluation partitions by source object.",
+        "Implemented histogram of oriented gradients features with a linear classifier, then reviewed confusion matrices and misclassified examples under varying illumination."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Foreground Segmentation in Fixed-Camera Scenes",
+      "bullets": [
+        "Prepared fixed-camera image sequences and foreground masks, checking annotation alignment and separating evaluation sequences from training footage.",
+        "Implemented a background subtraction baseline with morphological cleanup, evaluating mask overlap and reviewing errors caused by shadows and intermittent motion."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded discrepancies, and routed missing or damaged items to the appropriate staff.",
+        "Organized order paperwork, maintained stockroom labels, and prepared handover notes covering pending shipments and unresolved inventory discrepancies."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Visual Word Baseline for Scene Classification",
+      "bullets": [
+        "Implemented a scene classification baseline using local image descriptors, clustering to construct a visual vocabulary, and linear classification.",
+        "Compared vocabulary settings on a held-out validation split and inspected confusion patterns among scenes with similar textures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Color Histogram Baseline for Image Retrieval",
+      "bullets": [
+        "Implemented image retrieval using normalized color histograms and nearest-neighbor ranking, with consistent resizing and color conversion during preprocessing.",
+        "Evaluated retrieval rankings against category labels and inspected mismatches involving similar colors but different object shapes or backgrounds."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "updated_at": "2026-10-31T16:24:40.233156+00:00",
+  "selected_in_this_invocation": 33,
+  "status_counts": {
+    "ready_for_human_review": 30,
+    "needs_revision": 3
+  },
+  "usage_all_cached_responses_in_batch": {
+    "input_tokens": 70492,
+    "output_tokens": 20490,
+    "total_tokens": 90982
+  },
+  "profiles": [
+    {
+      "profile_id": "PHD-456-00033",
+      "facts_hash": "19c69861f2a57fab02e8d236d9d9fdce78f428455f636f477597c8b5536744e8",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "28370c5727e906e2c8db74b9d18a26f4b8148fa263b081609f7fb6c2946b5886"
+    },
+    {
+      "profile_id": "PHD-456-00043",
+      "facts_hash": "2fc953289191b6b8cd3662c3f6bdd519b99e5f5ca4266f087c9f9b0a4e450449",
+      "status": "needs_revision",
+      "issues": [
+        "Treatment or strength leakage in W1"
+      ],
+      "model": "gpt-6-astra",
+      "review": null
+    },
+    {
+      "profile_id": "PHD-456-00021",
+      "facts_hash": "e45a8c3757499b734b64db6066b6fd3d4941f455ceada9753d90016473100eac",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "586fc68bf06497ec10bb94477b25edfcbe21a291e6cb0300b54190aed03ac0ee"
+    },
+    {
+      "profile_id": "PHD-456-00026",
+      "facts_hash": "1376c246453b37d2761c556a6c4f83fa68464350a000ba978df58b344158e46b",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "2dbf7f6d889e2535b3bb622522a803dea268caf8b2bd9e9fb8781d3ad13df4d7"
+    },
+    {
+      "profile_id": "PHD-456-00031",
+      "facts_hash": "ac810b41c17118ee4ace2f7e0bec5b988a67af234281d421039834069afc6015",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "13bf4c97c19ab82615a862dc00876b13372b99aa5e31974a63098376d0783bf0"
+    },
+    {
+      "profile_id": "PHD-456-00004",
+      "facts_hash": "84d0962cdd396b7af3e9daaaa872daee6f07b6fd3a08df3ae3aa0c28be9fefc8",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "83323850becfc94d104313031f1bc905f2ec5af75ade74940e0be6fd0d330af3"
+    },
+    {
+      "profile_id": "PHD-456-00002",
+      "facts_hash": "5c2887f7a5d4d4a7aed34ca17d133bb2c63d1edfc96d826625d8167267cb82c2",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "047825bd234c96f3d00d44600fc94c9b16b2ae48a8e810d98632994a62cd7d50"
+    },
+    {
+      "profile_id": "PHD-456-00010",
+      "facts_hash": "b6edb69fad985963af8590c25cabee7f077a639b16f08afcd1df4d9db1ce4ff7",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "e9d2e7bf8fe0760d209d4067ad5779be3def313e72c64b07eaa4af5634fad315"
+    },
+    {
+      "profile_id": "PHD-456-00042",
+      "facts_hash": "83a2c992d4ba86a5f3321b14e0d3957ec99e82be85c688d5eff88ddcd1b28fdd",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "f237ecdd19296166628db8b59f602f6014cf31f7c08c85aafa56036a68d10386"
+    },
+    {
+      "profile_id": "PHD-456-00011",
+      "facts_hash": "820e721fbc13b322ea10578f5626ead8155da7d758738ae3fdcda3159ed04895",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "25fab6141f9e4ed356956e8cbc0511d0fba1b4b6cc0171a258010c84268e96a4"
+    },
+    {
+      "profile_id": "PHD-456-00048",
+      "facts_hash": "a8836ea5a7585ba7a8042ff5c40d2402e402c11b71d587b51bce9c25dd0c643c",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "58d83961928e643a5b5684f69f31873997fe04356ba8e6fa06856174416c4b55"
+    },
+    {
+      "profile_id": "PHD-456-00034",
+      "facts_hash": "02027e238cfbc8056f949d141b8b73dafab8854e3995ac55e5f24bf81d1a37b3",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "3ec2e795b4a22184cb223bf25f39cba7783b429e4195b9378b0153dcfe462b92"
+    },
+    {
+      "profile_id": "PHD-456-00046",
+      "facts_hash": "89df6c2d9c946684911547d1fa1dad03321cec842e59a02fea1924546f32885c",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "678a59a221fa5c19bab189068d8cac889023352bb5a02e67ab69389926d93436"
+    },
+    {
+      "profile_id": "PHD-456-00019",
+      "facts_hash": "75224c5e4baf8ee0ccc352a6cf55de0675d497ee9fe5b3ce58b689ca0ecc77b1",
+      "status": "needs_revision",
+      "issues": [
+        "Unspecified numerical detail in T2"
+      ],
+      "model": "gpt-6-astra",
+      "review": null
+    },
+    {
+      "profile_id": "PHD-456-00023",
+      "facts_hash": "029b474288971617a67d521b4ddf0c75f2db1a4df359eff0c0d1d12a195fc01c",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "d05428a93540ef0615f313abcdb8bf509ac9156b17c5b2a608b649c86ecfc166"
+    },
+    {
+      "profile_id": "PHD-456-00016",
+      "facts_hash": "fb9f8637dd22459d7cdd05c06d1735fd170528362f9f90196d731d036a68397e",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "b4b7ccf6b9c222bfd73645a0d9112569d26805436a2bc547d39fc1c22401205a"
+    },
+    {
+      "profile_id": "PHD-456-00045",
+      "facts_hash": "d15be29ea52e592fc96df4800603d391e9fa9e86a335608e0e6229392fb06eb2",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "5c0345b33c6c24eee50dc6bdb4c3cb7cd0efa6db893907ed582250c686b17146"
+    },
+    {
+      "profile_id": "PHD-456-00006",
+      "facts_hash": "b1e94edc22385ae7196513afc33d5435d8700eac462f9c326b4972cc80017629",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "a19cacb1aa5c00d78f489d4d838567d99af2a057089a512a49fba629d94bd550"
+    },
+    {
+      "profile_id": "PHD-456-00012",
+      "facts_hash": "af4ebb3a9ce21df10faebd6a51aec5270664eaa27a06bc7528d822645458598b",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "a0d4769393bd18c3f87cee6660540168cbe52f9508db420594b91be09c9b4553"
+    },
+    {
+      "profile_id": "PHD-456-00044",
+      "facts_hash": "41088e46816ee24b6f06d83bf860875a8eeed1804f650e5f4bb3ac68e10e5283",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "7fdf52340e1af63cdbae4cbfd294e2ced1c23f6cdb3184cc07217993c88b43f9"
+    },
+    {
+      "profile_id": "PHD-456-00047",
+      "facts_hash": "b1d40270b27c2a5f80bd2c3f2b9185db499f56a44e522637b1e96628f9cd1072",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "bbfbe677bed456c372d5702809ceebad0d3d8f41cace9830d1562f7edd429abf"
+    },
+    {
+      "profile_id": "PHD-456-00038",
+      "facts_hash": "74a68b89607a9e9171b61272c319eabec5803cb3080c6117a74ff478d134a8bc",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "c5a08145fa4fbef0f24b8a9a9eedf7b3a342c39c9cc95b2dc8cd4c21f3687587"
+    },
+    {
+      "profile_id": "PHD-456-00005",
+      "facts_hash": "2455ad110cfd5dbf4dd2aab69da1fb7104a801d249859e8b6c237303396bb7b9",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "9252952f01abc8c0bf03ab85fc4cc3274d2f4f46ab79bb5fc978910a84cffe9b"
+    },
+    {
+      "profile_id": "PHD-456-00029",
+      "facts_hash": "1535c37ef2081a0a62a1e72cf0a5881f41b30415936bf891b7c1851f6b69e264",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "6f4bd71c79ed6c0519aba4b6d1e9ec32e080ae52b3b0e0ad40e8db3ec66cdb24"
+    },
+    {
+      "profile_id": "PHD-456-00022",
+      "facts_hash": "7306ede9c7d7aa9f05b5ddedce01371c7d7740230086616b4cecd0252e370772",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "aa1a73fb578b8c26fed7aa20022012bc9245bd35ceaefddce641a0399f785583"
+    },
+    {
+      "profile_id": "PHD-456-00024",
+      "facts_hash": "4a154e6c514a971098404722e8a6c212c88fdf862da808fc98862d86dcbaecf5",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "fa019a14c834e38e35cfc959707b2a8c45b0b91eabf4f6028e29f2b5864af47d"
+    },
+    {
+      "profile_id": "PHD-456-00015",
+      "facts_hash": "cc3e9c73bc04b95ccb539313f1763a8bff303659d23b1d5c64ab97cca4438dc9",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "31efb157f9f77eb8d15f9c59980358205dca3897ed63d1c671d3c54c2aee9f33"
+    },
+    {
+      "profile_id": "PHD-456-00041",
+      "facts_hash": "ec8571fc19f2eb01f114101ad717029d874da0bbb34f644861f05746f938ba33",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "928c9dbd982a75093ce86772d00c778a696e898acdc35b3f986e2fbb8a84be2f"
+    },
+    {
+      "profile_id": "PHD-456-00028",
+      "facts_hash": "a2eecdc039959557302d1837874d568d4c2ffd5b8be4da02768a7d3cc3911308",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "9e11df4df95e27c374b1ce97ff11d9f2e206e3f70f5f2affa271f948b371029d"
+    },
+    {
+      "profile_id": "PHD-456-00003",
+      "facts_hash": "58de2427f37f31b78d7aeb9780667bcfecddf89a99265df96fd98bab1c5967f9",
+      "status": "needs_revision",
+      "issues": [
+        "Unspecified numerical detail in T2"
+      ],
+      "model": "gpt-6-astra",
+      "review": null
+    },
+    {
+      "profile_id": "PHD-456-00018",
+      "facts_hash": "e997f2744d964e2a9b3116b596451463b749330adf9162bd83db5e1539f7e9d1",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "763f238451c178e85cb19cb47ec3cb46e2d413e3b11f52e1c969fe91da55cba8"
+    },
+    {
+      "profile_id": "PHD-456-00039",
+      "facts_hash": "f5a57c833b227205d033380ce6f1e7677ea42e24e42e4378b026ec38376f4c61",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "7fa172873a95f2b8eddabeea66751067e3152f90ea6cd2bf3764444151aa22be"
+    },
+    {
+      "profile_id": "PHD-456-00017",
+      "facts_hash": "82851b9bec2a0ccb5021759a76d1d93862d90a422a2d1b0340fa385466ce0892",
+      "status": "ready_for_human_review",
+      "issues": [],
+      "model": "gpt-6-astra",
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "cv_hash": "6bbb978cfc4dcd8e7bab262d12e973d113204a6f5332c096b16bc31bbff26fbb"
+    }
+  ],
+  "note": "Automated checks do not replace human review. Cached raw responses are reused; changing a request requires a new batch."
+}

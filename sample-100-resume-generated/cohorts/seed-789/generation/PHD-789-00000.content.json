@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Intent Classification to Conversational Paraphrases",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess intent classifier sensitivity to paraphrases, separating lexical substitutions from changes in sentence structure.",
+        "Compared pretrained encoder and bag-of-words baselines under matched training conditions, inspecting prediction disagreements and documenting ambiguity in intent labels."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded stock discrepancies, and routed damaged items for review according to established procedures.",
+        "Prepared order paperwork, maintained organized storage areas, and coordinated routine handoffs between receiving and dispatch staff during scheduled shifts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Document Retrieval Methods",
+      "bullets": [
+        "Implemented TF-IDF and BM25 retrieval baselines for a document collection, using shared tokenization and relevance judgments for consistent comparison.",
+        "Evaluated ranked results with precision and reciprocal rank, examining queries where term frequency normalization changed the ordering of relevant documents."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification using a bidirectional recurrent network and a pretrained encoder, aligning subword predictions with annotated word boundaries.",
+        "Compared entity-level precision and recall across model configurations, analyzing boundary errors and confusions between organization and location mentions."
+      ]
+    }
+  ]
+}

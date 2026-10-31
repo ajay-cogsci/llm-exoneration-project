@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:49.053628+00:00",
+  "request_hash": "0f4d4760d41ba8935f94eb872fca47546c4425a6041a8ee144b632008c3489b1",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented mean, nearest-neighbor, and iterative imputation pipelines for tabular classification, fitting preprocessing steps exclusively within training folds.\", \"Compared downstream logistic regression performance under random and feature-dependent missingness, documenting sensitivity to missingness patterns and imputation choices.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Missing-Data Imputation Strategies\"}, {\"bullets\": [\"Implemented percentile bootstrap, residual bootstrap, and analytical confidence intervals for linear regression coefficients using simulated datasets with known parameters.\", \"Compared empirical coverage and interval width across sample sizes and error distributions, examining departures from constant-variance assumptions.\"], \"id\": \"T2\", \"title\": \"Bootstrap and Analytical Confidence Intervals for Regression\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to compare temperature scaling and isotonic regression under controlled changes in class prevalence.\", \"Evaluated calibration curves and probabilistic losses across held-out datasets, separating calibration sample effects from changes in the test distribution.\"], \"id\": \"R1\", \"title\": \"Probability Calibration Under Class Distribution Shift\"}, {\"bullets\": [\"Planned simulation experiments with supervisor guidance to examine how feature correlation and noise affect lasso and elastic net estimation.\", \"Implemented repeated sampling and nested cross-validation, summarizing coefficient stability, variable selection consistency, and prediction error across experimental conditions.\"], \"id\": \"R2\", \"title\": \"Regularization and Feature Correlation in Sparse Regression\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00037\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.82, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 10, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-10\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0295ea7a90c4b4a3016ae61525359c87d088ec0b7ea16231bf",
+    "object": "response",
+    "created_at": 1793463589,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463591,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0295ea7a90c4b4a3016ae61526244487d0b81312ea431d2ee6",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hUnT2VxhnEkEUAQ7Q2l14p4kBuHimvqmb2SF5YSLagqIDea37WimOebDGs3DSjfR8YgxHz83PdNDiczKgiccRqsDIqFuleO3d9QBxCXPDUzpc5ully-dCDTVzHsR6LTEA1XqpbSktfbBBMicIBE6vhV55LGQEsL7ItvRPqzAXqV4iLu4tibiG6MZ_iFvLw4lY4BiBfcXLC4dKTOUPS14wxaQOoA-0qkPd4IS2NWmWdxSw_XGxKc5eeq8m_WnctPPSY8UCcw3OKqhtNf0KYY8Ba6qSGsVxYnjk2sZ99y4hLDjJlB06ey_PyaGkTJb8t_JoIt3uKcOG8bWPsL04jlfEnav-5z0JMh-LujqpdvBuzuhGfwUs_eBV0_xJXeX2TiiB67mhkVoRobtgJQ6pcJmGa55vZrx6nRYuIYhDKyF03RCGHCG9xz69DK4rs_9xBTe9D0FCD5lWZnWdy-2NiZ8l2THoYhTV9YdiY8T2oeQkFmsKqeu_pgm-MmKUgpML1kpATWiWQN_E3wplx9mxtAIxdBumFy3v3EjH3kdXuZS-sY3QmnqFrfPPR73rAlK9OlBPS2t8j0QfReG9miwe4KAJCoCSsyN8Bh9ryNP2uSENEeRAAe52r-dstQHuyg0QIDC3EwLX62t_pRZnGx_hKz_CesnP1PbeqqRrhecOycBkkESRnCcKHI48pOIVDZy8qdsPIHNgPDug3HPUAuxtctmN9EbpTMDySoSvHcXB7gmrP7DwgtN4K--3bioS7fooygl-DLUTbpf7YUBmV42rImvjiWDwJehwMrAR0GuLM8f6m8I6SRAVxKaT_o0bXMCpFYjsiRN0Aa7sScSiTC5Fb8Rr_9t59ivYBQ9CeDFZSXvKx98k8q1dlf21ZOLpxH9jv5BryRuQVjw0CQI1S6TjEaO3_Mm8vsB_JNtzp7qKl6EyYQl0jCI-0LKefML5dMg9B-ua996OAX3Nd87QqG223FylQWNo4EqtBTI_OJp0PPoShVLIebtphBK7q8HYQp8vKDxoQU3AtnP-2qWjJpgfR7WT8NAbD50H6SYzK9enPtNXylk1UxouqYh9FuknB0TiesMITNhoXx9lwKPVq2zJdXfCJUyFFljLUPdIjDbNdT8y35SuCPEK-6Zyo5HRlXL_-UI7GP_H3Fk31qEjSxFBORdmyT3449ULgcFC2P93-MzIhVS8mGiBiAUOYwqDsCGNpifNG7N9YH3N5OHC--qD-OrmhVUu-3PKORstbv0SBgqxUl4ScW6P1cF84QQ4rgQSmOJXUWlov2387CU2b8BbeC7Efxb6aeBUtH2Z1xlCfMTIMUaYCm-qHOIOTJshmITuzuPafmHwPedJ7V7QrQgBvKNQsqSIOj6Hk6gBGtNNalvB44G_rCMcYPlFamrzROKaQf__I1KSlKVo0kdDAVqtWVsjA8d7AhTZSdy_QaVYbhYraN7k5aAt5fq4P4ur_7q2NVtXKLXRnZUROktNReKeDUKg6OBt6bQgpn9ZsaZeVpGwoDRU4LVS66_KrjK6ZZVUMJOOTj0b2I9kQRtL3BxFJogD3_JASonBqLiePlKhEmXS3T7SpW0ckMrlC4guN530tUFDmqt3_BpRCMD0Cr6pG8GxS6Jdt2p5QK7Y-FLZsqfR1meVq2JFE6dSht6wb2oXHTTv_3tuNwFtYgDgy6L3VyUC7qJPYRkD4oC7-LuOCHqtUHuhmr7_fAtcK_yXPYXhpt_WDFwRhXpFwWEwOPvRhbqus1R3o0Vhy4uUmO_5l8aKvu5s_T8Grw-RrB5X8s_bQlvruDv9iFXpTrKJLzULFQ4K_hkIuZAEPh-r8UivoEpRvSIBgF71wS2zqgbZJEFno0lw2lP-yvEuRwTB_IHnG1G1tNEr2nuvv4CN8S3n1gqR2fOze5gzLh8EjdeEXVsGHiYED1",
+        "summary": []
+      },
+      {
+        "id": "msg_0295ea7a90c4b4a3016ae615270ea887d0b189605ab3e0365d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 930,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 51,
+      "output_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "total_tokens": 981
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

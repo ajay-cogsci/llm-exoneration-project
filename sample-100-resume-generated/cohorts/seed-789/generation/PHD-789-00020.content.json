@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Label Shift",
+      "bullets": [
+        "Designed controlled label shift experiments comparing temperature scaling and prior correction while holding class conditional feature distributions fixed.",
+        "Analyzed calibration error, log loss, and reliability diagrams across resampled test distributions, examining sensitivity to estimated class priors."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Missing Data Effects on Predictive Uncertainty",
+      "bullets": [
+        "Designed experiments comparing multiple imputation and missingness indicators under random and feature dependent masking of tabular predictors.",
+        "Analyzed predictive error and interval coverage across missingness conditions, separating variability attributable to imputation from downstream model fitting."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Conformal Prediction Under Heteroskedastic Noise",
+      "bullets": [
+        "Designed simulation and tabular regression experiments comparing split conformal and conformalized quantile prediction under varying conditional noise patterns.",
+        "Analyzed marginal coverage, subgroup coverage, and interval width to characterize how calibration sample composition affected uncertainty estimates."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Calibration Sample Composition and Subgroup Coverage in Conformal Regression Under Heteroskedastic Noise"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Services",
+      "bullets": [
+        "Implemented validation checks and retry handling for batch data ingestion, enforcing schema consistency before records entered downstream processing.",
+        "Maintained integration tests and investigated processing failures using application logs, documenting error conditions and coordinating fixes with dependent service maintainers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors and nested cross validation for selecting regularization parameters.",
+        "Compared prediction error and coefficient stability across correlated feature settings, examining how resampling affected variable selection."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel Approximation for Nonlinear Classification",
+      "bullets": [
+        "Implemented random Fourier feature and Nyström approximations for kernel classification, using shared preprocessing and matched training splits.",
+        "Compared approximation settings through held out classification performance, training time, and memory requirements while varying feature representation size."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Gaussian Mixture Estimation with Incomplete Observations",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixtures with missing features and a baseline using mean imputation before mixture fitting.",
+        "Compared clustering agreement and observed data likelihood across masking patterns, checking convergence behavior and sensitivity to initialization."
+      ]
+    }
+  ]
+}

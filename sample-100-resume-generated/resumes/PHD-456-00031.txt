@@ -1,0 +1,47 @@
+Applicant PHD-456-00031
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.59/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness Evaluation for Object Detection Under Image Degradation
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing object detectors under motion blur, sensor noise, and compression artifacts while holding training data and evaluation splits fixed.
+- Analyzed detection errors by object size and corruption severity, separating localization failures from classification errors to assess sensitivity to image degradation.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Cross-Domain Evaluation of Semantic Segmentation
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing segmentation models across daylight and nighttime street imagery, controlling augmentation settings and training schedules to isolate domain effects.
+- Analyzed classwise overlap scores and boundary errors, examining whether illumination changes disproportionately affected small objects and visually similar foreground categories.
+Research assistant, University Research Group | 2025-04 to 2026-05 | 10 hours/week
+Calibration of Image Classifiers with Limited Training Data
+Contribution: designed experiments and analyzed results.
+- Designed experiments varying training subset size and label imbalance to evaluate confidence calibration in convolutional image classifiers using held-out validation data.
+- Analyzed reliability diagrams, calibration error, and classification accuracy before and after temperature scaling, distinguishing aggregate trends from minority-class confidence patterns.
+
+PUBLICATIONS
+Confidence Calibration in Data-Limited Image Classification: Effects of Class Imbalance and Temperature Scaling. Regional applied computing conference, 2026-01; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-10 to 2025-04 | 10 hours/week
+Image Ingestion and Validation Utilities
+- Implemented assigned image ingestion components that checked file formats, normalized metadata, and routed malformed uploads through existing application error handling.
+- Added regression tests for decoding failures and duplicate submissions, and investigated processing defects using application logs and reproducible image fixtures.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Local Feature Matching | technical course project, 2026
+- Implemented image matching pipelines using SIFT and ORB descriptors with nearest-neighbor matching and robust homography estimation on paired scene images.
+- Compared matching precision and geometric alignment under rotation, scale changes, and partial occlusion, documenting failure cases associated with repetitive textures.
+Transfer Learning Strategies for Image Classification | technical course project, 2026
+- Implemented frozen-feature classification and partial fine-tuning of a pretrained convolutional network, using identical data partitions and preprocessing for comparative evaluation.
+- Compared validation accuracy, training behavior, and classwise confusion across adaptation settings, examining sensitivity to augmentation choices and the extent of layer freezing.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

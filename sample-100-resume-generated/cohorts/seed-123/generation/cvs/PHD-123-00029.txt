@@ -1,0 +1,39 @@
+Applicant PHD-123-00029
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance, evidence ordering, and distractor content to assess answer consistency in retrieval-augmented question answering.
+- Analyzed answer errors across paraphrased queries, separating retrieval failures from unsupported generation through manual review of retrieved passages and responses.
+Research assistant, University Research Group | 2025-05 to 2026-08 | 10 hours/week
+Calibration and Abstention for Intent Classification Under Domain Shift
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain experiments comparing classifier calibration and abstention strategies under shifts in intent frequency and vocabulary.
+- Analyzed reliability diagrams, selective prediction curves, and confusion patterns to characterize relationships between confidence errors and minority-intent performance.
+
+PUBLICATIONS
+Confidence Under Domain Shift: Calibration and Selective Prediction for Intent Classification. Peer-reviewed ML conference, 2026-11; published; author position 1.
+Intent Frequency and Vocabulary Shift: An Empirical Analysis of Classifier Confidence. Regional applied computing conference, 2026-09; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Neural Sequence Taggers | technical course project, 2026
+- Implemented token-independent and recurrent sequence tagging baselines in PyTorch, using shared preprocessing and consistent training partitions for named entity recognition.
+- Compared entity-level precision and recall across entity categories, inspecting boundary errors and predictions involving words absent from training data.
+Lexical and Neural Baselines for Review Sentiment Classification | technical course project, 2026
+- Implemented term-weighted logistic regression and pooled word-embedding classifiers, evaluating both approaches with matched data partitions and preprocessing choices.
+- Compared classification errors across review lengths and negation patterns, examining how vocabulary filtering affected lexical and neural model behavior.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

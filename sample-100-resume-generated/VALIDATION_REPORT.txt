@@ -1,0 +1,29 @@
+100 PhD applicant resumes — live validation
+
+Final resumes: 100 in resumes/. Browse index.html.
+Model: GPT-6 Astra, medium reasoning, strict structured outputs.
+Each accepted CV passed fixed-fact checks, content checks, a separate-context model review, and exact-render/hash verification.
+Human review remains pending. Use human_review.csv.
+
+Sampling: three seeds (123, 456, 789); retained 33, 33, 34 from pools of 50, 49, 51.
+Provisional strength counts: {"strong": 40, "weak": 41, "borderline": 19}
+Pathways: {"bachelors": 33, "industry_returner": 14, "masters": 34, "recent_graduate": 19}
+Research areas: {"natural language processing": 37, "computer vision": 37, "statistical machine learning": 26}
+
+First-pass outcomes: {"ready_for_human_review": 91, "needs_revision": 9}
+Wording repairs: 9 profiles, 9 attempts; original failures retained.
+No source facts or selected applicants were replaced to resolve wording failures.
+
+Sampling bug found and fixed: reinitializing the selection RNG with the preparation seed repeated its random stream and favored stronger applicants. Selection now has a separate reproducible stream.
+A regression check with equally sized cells reduced the selected-minus-pool preparation mean difference from 0.811 to 0.023; all 26 tests passed.
+The first, interrupted selection is preserved under audit/superseded-correlated-selection/. Identical saved requests were reused only after independent corrected selection.
+
+Unique saved API responses, including superseded outputs and repairs: 213.
+Reported token usage: {"input_tokens": 231298, "output_tokens": 62727, "total_tokens": 294025}
+Deduplicated by response ID. Up to three interrupted initial calls may have been billed without a saved response; check the API dashboard for actual charges.
+
+Limits: the pipeline is a PhD adaptation of the paper, with provisional distributions and labels. This run validates execution and automated constraints; it does not establish empirical calibration, admissions validity, or human approval.
+The original pipeline has no automatic repair loop. finish_validation.py supplied a bounded, logged wording-repair step for this validation run.
+
+Audit files: run_plan.json, validation_summary.json, resume_manifest.json, sampling_fix_verification.json, cache_reuse.json, cohorts/, repairs/, audit/.
+No API keys are stored in these files. No Git commit or upload was performed for this run.

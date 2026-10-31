@@ -1,0 +1,42 @@
+Applicant PHD-123-00048
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.92/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness of Semantic Segmentation Under Camera Degradation
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying blur, sensor noise, and compression to assess segmentation robustness while holding training data and model configurations fixed.
+- Analyzed classwise overlap scores and boundary errors to distinguish degradation sensitivity in small objects from failures across larger background regions.
+Research assistant, University Research Group | 2025-02 to 2026-08 | 10 hours/week
+Illumination Shift in Visual Surface Defect Detection
+Contribution: designed experiments and analyzed results.
+- Designed comparisons of illumination normalization and color augmentation for surface defect detection, using specimen separated splits to limit visual leakage.
+- Analyzed precision recall behavior across lighting conditions and inspected false detections to characterize confusion between surface defects, shadows, and specular reflections.
+
+PUBLICATIONS
+Evaluating Illumination Normalization and Color Augmentation for Visual Surface Defect Detection. Regional applied computing conference, 2026-01; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-11 to 2025-02 | 10 hours/week
+Image Ingestion Validation and Preprocessing
+- Implemented image validation and resizing routines within an existing ingestion service, handling unsupported formats and malformed files through established error reporting paths.
+- Added regression tests for orientation handling and color conversion, and investigated preprocessing failures using service logs and representative image fixtures.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Stereo Matching Methods | technical course project, 2026
+- Implemented block matching and semiglobal matching for rectified stereo images, comparing disparity estimates under consistent preprocessing and disparity search ranges.
+- Evaluated disparity errors in occluded and low texture regions, examining how matching window size and smoothness penalties affected reconstruction artifacts.
+Transfer Learning for Fine Grained Image Classification | technical course project, 2026
+- Implemented frozen feature extraction and partial fine tuning with a pretrained convolutional network, maintaining identical data splits and augmentation settings.
+- Compared classification errors and training behavior across adaptation strategies, using confusion matrices to inspect mistakes between visually similar object categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

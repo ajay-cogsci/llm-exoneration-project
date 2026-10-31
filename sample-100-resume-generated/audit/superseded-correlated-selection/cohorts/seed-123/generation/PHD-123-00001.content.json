@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preprocessing for Surface Defect Classification",
+      "bullets": [
+        "Implemented assigned image resizing, grayscale normalization, and patch extraction routines for surface defect classification using an established preprocessing specification.",
+        "Checked processed samples against annotation files and documented mismatched labels and boundary handling issues for review within the existing experimental workflow."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Processed incoming order paperwork, checked item descriptions against stock records, and routed incomplete requests to the appropriate staff for clarification.",
+        "Maintained filing records, coordinated routine delivery appointments, and reconciled shipment documents with received goods before forwarding discrepancies for follow-up."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Scene Classification with Color and Texture Features",
+      "bullets": [
+        "Implemented a scene classification baseline using color histograms, local binary pattern features, and a support vector machine with standardized feature inputs.",
+        "Evaluated predictions on a held-out image split using confusion matrices and inspected misclassified examples for lighting variation and visually similar scene categories."
+      ]
+    }
+  ]
+}

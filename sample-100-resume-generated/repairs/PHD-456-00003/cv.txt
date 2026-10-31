@@ -1,0 +1,52 @@
+Applicant PHD-456-00003
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed experiments varying passage relevance, ordering, and distractor content to assess evidence dependence in retrieval-augmented question answering.
+- Analyzed answer correctness and supporting passage attribution, distinguishing retrieval failures from generation errors through controlled perturbations and manual error review.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Negation and Lexical Overlap in Natural Language Inference
+Contribution: designed experiments and analyzed results.
+- Designed matched evaluation sets manipulating negation placement and lexical overlap to examine shortcut behavior in natural language inference models.
+- Compared prediction changes across original and perturbed sentence pairs, analyzing error patterns by inference label and syntactic construction.
+Research assistant, University Research Group | 2025-05 to 2026-05 | 10 hours/week
+Domain Shift and Confidence Calibration in Support Request Classification
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain experiments comparing sparse lexical classifiers and pretrained text encoders for support request classification under changing vocabulary and label distributions.
+- Analyzed calibration, selective prediction, and classwise errors using held-out domains, separating effects of terminology changes from differences in category prevalence.
+
+PUBLICATIONS
+Confidence Calibration and Selective Prediction for Support Request Classification Across Domains. Peer-reviewed ML conference, 2026-11; published; author position 2.
+Lexical and Encoder-Based Baselines for Cross-Domain Support Request Classification. Regional applied computing conference, 2025-12; published; author position 2.
+Terminology Shift and Category Prevalence in Support Request Classification Errors. Regional applied computing conference, 2025-12; published; author position 4.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-05 to 2025-05 | 10 hours/week
+Text Intake Validation and Search Maintenance
+- Implemented input validation and text normalization for document intake, adding regression tests for malformed records, encoding issues, and duplicate submissions.
+- Maintained keyword search components, investigated indexing discrepancies, and corrected document update handling to keep retrieved records consistent with stored content.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Named Entity Recognition Models | technical course project, 2026
+- Implemented a conditional random field baseline and fine-tuned a pretrained token classifier for named entity recognition using consistent dataset splits.
+- Compared entity-level precision and recall, examining boundary errors, rare entity types, and sensitivity to tokenization differences through manually reviewed predictions.
+Sparse and Dense Retrieval for Passage Search | technical course project, 2026
+- Implemented probabilistic sparse retrieval and dense passage retrieval pipelines with shared document preprocessing and evaluation queries to support a controlled comparison.
+- Evaluated ranking quality and inspected retrieval disagreements, categorizing failures involving synonymy, exact phrase matching, and ambiguous query terms.
+Extractive Summarization with Graph Ranking and Sentence Embeddings | technical course project, 2026
+- Implemented graph-based sentence ranking and embedding-based sentence selection for extractive summarization, applying identical preprocessing and summary length constraints.
+- Compared summaries using reference overlap and manual content checks, analyzing redundancy, missing salient information, and dependence on sentence position.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

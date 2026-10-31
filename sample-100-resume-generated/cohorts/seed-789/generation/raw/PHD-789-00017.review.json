@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:15:30.591213+00:00",
+  "request_hash": "d5d4e72f3c868cb4a72b263ab2b57b132a683d58d064e38661b48c1fa78e92ad",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ridge, lasso, and elastic net regression pipelines with standardized features and cross-validation for selecting regularization parameters.\", \"Compared prediction error and coefficient stability across synthetic datasets with correlated predictors, varying noise levels, and irrelevant features.\"], \"id\": \"T1\", \"title\": \"Regularized Regression Under Correlated Features\"}, {\"bullets\": [\"Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including initialization checks and convergence monitoring.\", \"Compared mixture models with k-means on synthetic clusters with unequal dispersion, examining assignment agreement and sensitivity to initialization.\"], \"id\": \"T2\", \"title\": \"Clustering with Gaussian Mixture Models\"}, {\"bullets\": [\"Implemented split conformal prediction around linear regression and random forest models, separating training, calibration, and evaluation data.\", \"Compared interval coverage and width under constant and input-dependent noise, inspecting conditional coverage across predefined regions of the feature space.\"], \"id\": \"T3\", \"title\": \"Comparative Evaluation of Regression Prediction Intervals\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to examine how training class imbalance and shifted test distributions affect probabilistic classifier calibration.\", \"Compared sigmoid and isotonic calibration using held-out validation sets, reliability diagrams, and bootstrap uncertainty estimates while checking for data leakage.\"], \"id\": \"R1\", \"title\": \"Probability Calibration Under Class Imbalance and Distribution Shift\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00017\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.63, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 16, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0936210dff462393016ae61422c5fc87d0bdc89173316c431b",
+    "object": "response",
+    "created_at": 1793463330,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463332,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0936210dff462393016ae61423e05487d092fc367bcda3d6ff",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hQkHHCNe-HHJ6gaXptndhfjyM3NNKuj1KF6A62indeTj9_2aThaECPC_fqlojBpIBT9D_Mdd6685skVovRyqYXEWI2hDylC9ccEvBs_xi0dVgkG60smws1UScA3MFCRc249pkf-UUn8d02zGNWoAipWtG3mJfklqu-9RYY8j8_qoJhxFZ4tsSPXLG_I4L2q5gf1mMQzrmehyRQ0UvJpeLuTTH1wtpKUU1_vgkDfoCw_JcoAHlbJPO-dBhtC0LW3u7SivJe0aH--0KEs3HahJCaXGf6RuxzB6nndczfGYL-Ek29ttGm2czTApXFjW3y-vbhQTf8QlVfpcg1QTKm8lKcwf8uw-OMqArV_031jfyGIMNf72D48am4qqHmp2OhLrri1Db-9T4BXu-8QOEFWmdw2zluTrpHdQh_8z4EzDyAb7K-umPhivqDzzO15k3ZkkitcxaEqZgEHIqL328Qw4cQvK0mnVzGOMWwIM2-cceaDlZ3MWcw_zQXPG2iWz8IGKC09ll47p7pvKts9Nq8auMa5fZIJHkI5YIOg_3W2vw3kZyusWRga1JVnplhfPtAphAVL-su9j9M2mU2gXPMiYwBujgywpLvPjU7Ooayxw59RQNM0ngCKzy_2zvLpXB1L-LNTJ4kb_AagZrawPCeyEgOe0EjKfOZ6OXxExNcz50X_iUB7gYLLH-uTZTy-8JZHPagDd3e9wxFmtUUkKsprQVIDHcNJhAs-CDcZB1vB5VagGRO9IamGtoamFnwTQ39RVOMyfjlU2YaQR7ud_Up4uOe8pnxl5aFBZT3WEd4Jt_fvNL9pKy2zoC_1zx7pC10AkUU7uw75fA3DR0y6SViQ8MElM7GRB4NIdjMqItcDVwDMNrPI9dqumNiaS_wXBKbfigfDHljPO6CVosmpshmGI8haQcDTJe2nHxk_kEr0oOLYVUvj8pwcRPMcENurgNl4YkM-jzpm4es3RvLBiJB-qT0hxKTIVsQDJh_7XuTjqLl5RCTxxa0bl6XYVim3iXc3oI5uvdC9JVLj-3kn679ZCE_cxyEXJ6RqWCraX7f-zY28OM6esHwf2giK9gAnBSuyhr55rzp5diTQWvV24urlT6FwtbecTK1577CVRtrla_dH9Jz1xSZ15juJemhEPf4qkYWihUybZSbDhD3xDcytiPyHZKItFts2pMOfvqWARIVb0D4fYoErjd33NdjoB1ppBksRqSrtTUEzZBuMp-B4Jp3c-oHiQJyxxZPq-G9zy0rE_SSSNNNSUvBx4QttArJrL7OqC9q0aIaFMqOQGcmZlGdKJ-561CKNFXfMax3m2m6GSqzo4MIa5XQxMVeOwJoRYDsrump8gqyjIARzliHNy_lc57oVZ2OZ4Wnh-EDj7LxrgDvUCMy71tggNFsNoCKd6UQWq4zBdmdWijyDGABelY4HYPWNsjkFQCCsackBLE1A1HPhacVTWHr0iy8haKQl9c-xUsJ4gzZ-Aav_rI7g0eAe6euIZhk3Ydm3othR2gkn-e4SqHF-hLLz8zZGJ6DSs-waSBTHrjEBpePU2DcqeP6J0YPHDoeliGDY-_vbO6ohmZWAJBgu7TTSahh-fsPqUcbK8-bVqBRCLY0LBS7dyACM1L5mUKJ0ZKum58fXWloY_XCaKSoLJHXPH6szkh9NlXmSXu5yicCx90JzgxLcW-ljl0K_fFwUqLZvyq4p5UJ-0GDxdrY2tME5Acj8NsAI52TQ4kc9Aj8h50C0yjBnF1BirX3bCOVwuaqIdehZUPAqmmkReKZMw5915s1SEueSRDuYk6f1ZG6T1HJ51tUt1GSthbc52xvwOrvStn3rBk3rqpZshSvOjAc4sTQchg2m12ny",
+        "summary": []
+      },
+      {
+        "id": "msg_0936210dff462393016ae61424637487d084ecf7e348eb07fb",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 889,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 29
+      },
+      "total_tokens": 936
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

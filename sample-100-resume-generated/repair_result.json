@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-31T16:25:25.788929+00:00",
+  "profiles": [
+    {
+      "profile_id": "PHD-123-00024",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-123-00015",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-123-00016",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-456-00043",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-456-00003",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-456-00019",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-789-00000",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-789-00012",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    },
+    {
+      "profile_id": "PHD-789-00038",
+      "repair_attempts": 1,
+      "status": "ready_for_human_review"
+    }
+  ]
+}

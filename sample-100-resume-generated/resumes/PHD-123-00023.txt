@@ -1,0 +1,45 @@
+Applicant PHD-123-00023
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.34/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Retrieval Sensitivity in Document-Grounded Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance and distractor placement to examine answer grounding in retrieval-augmented question answering.
+- Analyzed answer correctness and unsupported claims across retrieval conditions, separating evidence selection failures from generation errors through manual review.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Cross-Domain Robustness of Negation-Aware Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain experiments comparing lexical and contextual sentiment classifiers, with evaluation subsets targeting negation scope and contrasting sentiment clauses.
+- Analyzed classification errors across review domains and training conditions, using bootstrap intervals and ablations to assess sensitivity to negation cues.
+
+PUBLICATIONS
+Negation and Domain Shift in Sentiment Classification: A Comparative Evaluation of Lexical and Contextual Models. Regional applied computing conference, 2026-05; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-06 to 2024-06 | 10 hours/week
+Support Ticket Processing and Search Maintenance
+- Implemented assigned changes to ticket text normalization and duplicate detection, preserving existing interface contracts and documenting edge cases.
+- Added regression tests for malformed inputs and investigated search indexing failures using application logs and reproducible test cases.
+
+TECHNICAL PROJECTS
+Sequence Labeling Approaches for Named Entity Recognition | technical course project, 2026
+- Implemented conditional random field and transformer token classification baselines with consistent token alignment and shared training, validation, and test partitions.
+- Compared entity-level precision and recall, examining boundary errors, rare entity categories, and sensitivity to reduced training data.
+Lexical and Dense Retrieval for FAQ Matching | technical course project, 2026
+- Implemented lexical ranking and sentence embedding retrieval for matching user questions to FAQ entries under a shared evaluation protocol.
+- Compared ranking quality across paraphrase and vocabulary mismatch subsets, inspecting retrieved candidates to characterize lexical overlap and semantic confusion.
+Extractive Summarization with Graph Ranking and Sentence Centroids | technical course project, 2026
+- Implemented graph-based sentence ranking and centroid-based selection for document summarization, applying identical preprocessing and summary length constraints.
+- Compared summaries using reference overlap and manual redundancy checks, analyzing how sentence position and document structure affected content selection.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

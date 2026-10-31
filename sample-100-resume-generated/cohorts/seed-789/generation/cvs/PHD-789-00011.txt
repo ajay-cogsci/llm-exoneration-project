@@ -1,0 +1,34 @@
+Applicant PHD-789-00011
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.01/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-03 to 2026-11 | 10 hours/week
+Surface Defect Classification with Handcrafted Visual Features
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, standardizing image dimensions, and grouping related samples to prevent overlap between evaluation splits.
+- Implemented a baseline classifier using local texture descriptors and a support vector machine, then reviewed confusion matrices to characterize common classification errors.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-12 to 2026-03 | 10 hours/week
+Inventory Records and Order Documentation
+- Checked incoming delivery paperwork against purchase records, logged discrepancies, and routed incomplete documentation to the appropriate staff for follow-up.
+- Maintained inventory filing records, organized order forms, and prepared routine handover notes covering outstanding requests and pending delivery confirmations.
+
+TECHNICAL PROJECTS
+Pedestrian Classification Using Gradient Features | technical course project, 2026
+- Implemented a baseline pedestrian image classifier using histogram of oriented gradients features and a linear support vector machine in scikit-learn.
+- Evaluated predictions on held-out image crops and inspected false positives associated with vertical background structures, partial occlusion, and low contrast.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

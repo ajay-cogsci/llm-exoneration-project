@@ -1,0 +1,46 @@
+Applicant PHD-123-00031
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.52/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion-Aware Feature Aggregation for Object Detection
+Contribution: formulated a research question and led method development.
+- Formulated whether visibility estimates could improve detection under partial occlusion and led development of a visibility-weighted feature aggregation module.
+- Designed controlled occlusion experiments and component ablations to examine localization errors, missed detections, and sensitivity to visibility estimation.
+Research assistant, University Research Group | 2024-05 to 2026-08 | 10 hours/week
+Uncertainty-Guided Adaptation for Semantic Segmentation
+Contribution: formulated a research question and led method development.
+- Formulated how class-dependent uncertainty affects segmentation adaptation across visual domains and led development of class-aware pseudo-label selection with consistency regularization.
+- Developed an uncertainty calibration procedure and evaluated adaptation behavior through classwise error analysis, threshold ablations, and comparisons against self-training baselines.
+
+PUBLICATIONS
+Class-Aware Pseudo-Label Selection for Semantic Segmentation Across Visual Domains. Peer-reviewed ML conference, 2026-09; published; author position 2.
+Calibrating Class-Dependent Uncertainty for Consistent Segmentation Adaptation. Peer-reviewed ML conference, 2026-10; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-06 to 2025-09 | 40 hours/week
+Image Processing Service Implementation and Maintenance
+- Implemented image validation, resizing, and normalization components for an image ingestion service, including explicit handling of malformed inputs.
+- Maintained automated regression tests, investigated processing failures from service logs, and coordinated interface changes with downstream application developers.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Classification Transfer Strategies | technical course project, 2026
+- Implemented frozen-feature classification and end-to-end fine-tuning using pretrained convolutional networks, maintaining consistent preprocessing and data partitions across experiments.
+- Compared classification errors, training behavior, and sensitivity to augmentation choices, inspecting confusion patterns to identify differences between transfer strategies.
+Local Feature Matching Under Viewpoint Changes | technical course project, 2026
+- Implemented patch descriptors, nearest-neighbor matching, and robust homography estimation for image pairs with changes in viewpoint and illumination.
+- Compared descriptor normalization and match filtering strategies using reprojection errors and qualitative correspondence inspection under a shared evaluation protocol.
+Image Denoising with Classical Filters and Convolutional Models | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising baseline, generating matched noisy inputs to support controlled comparisons across restoration approaches.
+- Evaluated reconstruction quality and edge preservation across noise conditions, examining residual images to characterize oversmoothing and remaining noise artifacts.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

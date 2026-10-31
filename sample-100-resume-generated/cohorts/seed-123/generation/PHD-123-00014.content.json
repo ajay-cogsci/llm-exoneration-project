@@ -1,0 +1,53 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Intent Classification to Conversational Noise",
+      "bullets": [
+        "Designed supervised evaluation protocols with supervisor guidance to isolate effects of spelling variation, filler phrases, and paraphrasing on intent classification.",
+        "Compared classifier behavior across clean and perturbed utterances, examining confusion patterns and documenting ambiguities introduced by meaning-altering perturbations."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Generalization in Negation-Aware Sentiment Classification",
+      "bullets": [
+        "Designed cross-domain sentiment experiments with supervisor guidance, separating domain vocabulary effects from negation handling through controlled training and evaluation splits.",
+        "Evaluated lexical and neural baselines using macro-averaged metrics, then categorized errors involving negation scope, mixed sentiment, and domain-specific expressions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Negation Sensitivity in Cross-Domain Sentiment Classification: A Controlled Baseline Comparison"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented sentence ranking using term frequency weighting and graph centrality, applying consistent tokenization and summary length constraints across methods.",
+        "Compared generated summaries against reference summaries using lexical overlap measures and manually inspected redundancy, missing context, and sentence ordering."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification and recurrent sequence labeling baselines with shared preprocessing, padding masks, and label mappings for named entity recognition.",
+        "Compared entity-level precision and recall across models, inspecting boundary mistakes, unseen entity mentions, and errors associated with infrequent labels."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Sparse and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented lexical retrieval and pooled neural representation baselines to rank candidate questions, maintaining identical candidate collections and query preprocessing.",
+        "Compared ranking quality using reciprocal rank and recall measures, examining failures involving paraphrases, rare terminology, and superficially similar questions."
+      ]
+    }
+  ]
+}

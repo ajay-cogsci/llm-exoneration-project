@@ -1,0 +1,86 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Sentiment Classification",
+      "bullets": [
+        "Designed controlled experiments comparing sentiment classifiers on paired sentences with negation, preserving topic and vocabulary wherever possible.",
+        "Analyzed prediction changes across negation scope and sentence complexity, distinguishing polarity errors from sensitivity to unrelated lexical substitutions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Evidence Consistency in Abstractive Summarization",
+      "bullets": [
+        "Designed evaluation experiments comparing summary factuality under source truncation and sentence reordering, using consistent decoding settings across conditions.",
+        "Analyzed unsupported claims through manual error categorization and entailment scores, examining disagreements between automated assessments and source evidence."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Evidence Robustness in Retrieval-Based Question Answering",
+      "bullets": [
+        "Designed experiments isolating passage relevance, evidence position, and distractor similarity in question answering with retrieved textual context.",
+        "Analyzed answer accuracy and abstention behavior across retrieval conditions, using passage ablations to distinguish retrieval failures from evidence interpretation errors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evidence Position and Distractor Similarity in Retrieval-Based Question Answering"
+    },
+    {
+      "id": "P2",
+      "title": "Abstention Under Incomplete Retrieved Evidence in Question Answering"
+    },
+    {
+      "id": "P3",
+      "title": "Separating Retrieval Failures from Evidence Interpretation Errors Through Passage Ablation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Record Validation and Search Maintenance",
+      "bullets": [
+        "Implemented input validation and text normalization for an existing record search service, following established interface requirements and review procedures.",
+        "Added regression tests for malformed records and updated error handling, documenting reproducible failures for maintenance discussions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented term-weighted and embedding-based document retrieval pipelines with shared preprocessing, query sets, and relevance judgments for comparative evaluation.",
+        "Compared ranking quality and query latency, inspecting failures involving rare terminology, paraphrases, and documents containing repeated query terms."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented recurrent and transformer-based sequence labeling baselines, applying identical token alignment rules and dataset partitions for comparison.",
+        "Evaluated entity span precision and recall, categorizing boundary errors and confusions involving ambiguous names and infrequent entity types."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Confidence Calibration for Text Classification",
+      "bullets": [
+        "Implemented temperature scaling and an uncalibrated baseline for a text classifier, fitting calibration parameters on a separate validation partition.",
+        "Compared calibration error and selective prediction behavior, examining how confidence estimates varied across document length and class frequency."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented graph-based and centroid-based sentence ranking methods for extractive summarization, holding sentence segmentation and summary length constraints constant.",
+        "Compared reference overlap and content redundancy, manually inspecting summaries for missing central claims and unresolved references."
+      ]
+    }
+  ]
+}

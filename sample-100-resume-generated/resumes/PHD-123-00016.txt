@@ -1,0 +1,37 @@
+Applicant PHD-123-00016
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.97/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-12 to 2026-11 | 10 hours/week
+Robust Intent Classification Under Conversational Noise
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare intent classifiers under spelling errors, abbreviated phrasing, and missing punctuation using controlled text perturbations.
+- Evaluated linear and transformer classifiers on matched data splits, examining macro F score, prediction confidence, and confusion patterns across noise conditions.
+
+PUBLICATIONS
+Evaluating Intent Classifier Robustness to Spelling Errors and Informal Conversational Text. Regional applied computing conference, 2026-07; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-07 to 2025-09 | 40 hours/week
+Document Processing Service Maintenance
+- Maintained Python components for document ingestion, input validation, and metadata extraction within an existing processing service.
+- Investigated parsing failures, added regression tests for malformed inputs, and updated error handling to support routine operational troubleshooting.
+
+TECHNICAL PROJECTS
+Lexical and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented TF-IDF and pretrained sentence embedding baselines for matching user questions to relevant entries in a question archive.
+- Compared retrieval rankings using reciprocal rank and recall, inspecting failures involving paraphrases, rare terminology, and overlapping question topics.
+Comparative Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented recurrent and transformer sequence labeling baselines using a shared tokenization alignment procedure and consistent training and evaluation splits.
+- Compared entity span precision and recall, analyzing boundary errors and performance differences between frequent and infrequent entity types.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

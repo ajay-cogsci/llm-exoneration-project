@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Calibration under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare probability calibration methods under controlled covariate shifts in synthetic and tabular classification datasets.",
+        "Evaluated temperature scaling and isotonic regression using held-out calibration sets, reliability diagrams, and bootstrap uncertainty estimates across predefined shift conditions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Processed incoming orders, checked shipment documentation against purchase records, and coordinated corrections with warehouse staff before dispatch.",
+        "Maintained inventory logs, reconciled delivery discrepancies, and prepared routine handover notes documenting outstanding requests and scheduled follow-up actions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularization for Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression pipelines with standardized predictors and cross-validation for selecting regularization parameters.",
+        "Compared prediction error and coefficient stability on synthetic datasets with correlated features, using repeated train-test splits and controlled noise settings."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Missing-Data Strategies for Tabular Classification",
+      "bullets": [
+        "Implemented median and nearest-neighbor imputation pipelines for logistic regression and random forest classifiers under simulated missing-data mechanisms.",
+        "Compared discrimination and calibration across missingness patterns, fitting imputers within training folds to prevent information leakage during evaluation."
+      ]
+    }
+  ]
+}

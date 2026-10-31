@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification Across Product Categories",
+      "bullets": [
+        "Cleaned support request text, standardized category labels, and removed duplicate messages before constructing training and evaluation splits.",
+        "Implemented TF-IDF and logistic regression baselines using specified preprocessing settings, then inspected classification errors involving overlapping product terminology."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Lexical Baselines for Question Pair Matching",
+      "bullets": [
+        "Prepared labeled question pairs by normalizing whitespace, checking missing text, and separating repeated questions across the supplied dataset partitions.",
+        "Implemented a word overlap baseline and TF-IDF cosine similarity scoring, documenting false matches caused by shared vocabulary with different intent."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Import Validation and Maintenance",
+      "bullets": [
+        "Maintained Python routines for importing text records, validating required fields, and reporting malformed entries for correction before downstream processing.",
+        "Added regression tests for encoding errors and missing fields, and reproduced reported import failures using sanitized sample records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Movie Review Sentiment Classification Baseline",
+      "bullets": [
+        "Implemented a multinomial naive Bayes classifier with bag-of-words features for labeled movie reviews, following the assigned baseline specification.",
+        "Compared count and TF-IDF feature representations on held-out reviews, and categorized prediction errors involving negation, mixed sentiment, and uncommon vocabulary."
+      ]
+    }
+  ]
+}

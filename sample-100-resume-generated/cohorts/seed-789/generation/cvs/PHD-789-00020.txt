@@ -1,0 +1,50 @@
+Applicant PHD-789-00020
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.67/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Label Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled label shift experiments comparing temperature scaling and prior correction while holding class conditional feature distributions fixed.
+- Analyzed calibration error, log loss, and reliability diagrams across resampled test distributions, examining sensitivity to estimated class priors.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Missing Data Effects on Predictive Uncertainty
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing multiple imputation and missingness indicators under random and feature dependent masking of tabular predictors.
+- Analyzed predictive error and interval coverage across missingness conditions, separating variability attributable to imputation from downstream model fitting.
+Research assistant, University Research Group | 2025-01 to 2026-05 | 10 hours/week
+Conformal Prediction Under Heteroskedastic Noise
+Contribution: designed experiments and analyzed results.
+- Designed simulation and tabular regression experiments comparing split conformal and conformalized quantile prediction under varying conditional noise patterns.
+- Analyzed marginal coverage, subgroup coverage, and interval width to characterize how calibration sample composition affected uncertainty estimates.
+
+PUBLICATIONS
+Calibration Sample Composition and Subgroup Coverage in Conformal Regression Under Heteroskedastic Noise. Peer-reviewed ML conference, 2026-05; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-03 to 2025-09 | 40 hours/week
+Data Validation and Batch Processing Services
+- Implemented validation checks and retry handling for batch data ingestion, enforcing schema consistency before records entered downstream processing.
+- Maintained integration tests and investigated processing failures using application logs, documenting error conditions and coordinating fixes with dependent service maintainers.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression workflows with standardized predictors and nested cross validation for selecting regularization parameters.
+- Compared prediction error and coefficient stability across correlated feature settings, examining how resampling affected variable selection.
+Kernel Approximation for Nonlinear Classification | technical course project, 2026
+- Implemented random Fourier feature and Nyström approximations for kernel classification, using shared preprocessing and matched training splits.
+- Compared approximation settings through held out classification performance, training time, and memory requirements while varying feature representation size.
+Gaussian Mixture Estimation with Incomplete Observations | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixtures with missing features and a baseline using mean imputation before mixture fitting.
+- Compared clustering agreement and observed data likelihood across masking patterns, checking convergence behavior and sensitivity to initialization.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

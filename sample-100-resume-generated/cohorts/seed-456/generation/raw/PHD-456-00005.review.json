@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:22:31.700385+00:00",
+  "request_hash": "e4987eb1ea31c3ada58fdb6914ccdeb37ac24061bebcea0d800ec382ce0b5462",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented term-weighted and pretrained sentence-embedding retrieval baselines for matching user questions to relevant FAQ entries using a shared evaluation split.\", \"Compared ranking metrics and inspected retrieval errors involving paraphrases, rare terminology, and questions sharing keywords but expressing different intents.\"], \"id\": \"T1\", \"title\": \"Comparing Sparse and Dense Retrieval for FAQ Matching\"}, {\"bullets\": [\"Implemented a feature-based sequence tagger and fine-tuned a pretrained token classifier using consistent entity labels and sentence-level data partitions.\", \"Compared entity-level precision and recall, examining boundary errors, ambiguous names, and tokenization differences through manually reviewed prediction examples.\"], \"id\": \"T2\", \"title\": \"Sequence Labeling Approaches to Named Entity Recognition\"}, {\"bullets\": [\"Implemented sentence-frequency scoring and graph-based sentence ranking for document summarization, applying identical preprocessing and summary length constraints.\", \"Compared reference overlap and reviewed selected sentences for redundancy, topic coverage, and dependence on context omitted from generated summaries.\"], \"id\": \"T3\", \"title\": \"Extractive Summarization with Frequency and Graph-Based Ranking\"}, {\"bullets\": [\"Implemented character-based and word-based text classification pipelines, evaluating both on clean inputs and controlled spelling and whitespace perturbations.\", \"Compared classification performance across perturbation types and inspected feature weights to identify sensitivity to fragmented words and altered character sequences.\"], \"id\": \"T4\", \"title\": \"Character and Word Representations for Noisy Text Classification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed controlled experiments varying distractor relevance and passage ordering to examine context sensitivity in pretrained extractive question answering models.\", \"Analyzed answer span errors across question types, separating failures associated with lexical overlap from those involving competing answer candidates.\"], \"id\": \"R1\", \"title\": \"Sensitivity of Extractive Question Answering to Distractor Passages\"}, {\"bullets\": [\"Designed cross-domain evaluation protocols comparing linear and transformer sentiment classifiers under matched preprocessing, training partitions, and label availability.\", \"Analyzed calibration curves and misclassified examples to characterize confidence changes associated with domain vocabulary, negation, and mixed sentiment.\"], \"id\": \"R2\", \"title\": \"Domain Shift and Calibration in Sentiment Classification\"}], \"work\": [{\"bullets\": [\"Implemented assigned updates to Python import utilities, adding schema checks and clearer error messages for malformed tabular records.\", \"Wrote regression tests for parsing edge cases and investigated reported import failures by tracing validation logic and reproducing problematic inputs.\"], \"id\": \"W1\", \"title\": \"Maintenance of Data Import and Validation Utilities\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00005\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.78, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T4\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 23, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-09\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2024-09\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 3, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2024-06\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_05a82d6ffb84608f016ae615c7dbd887d0a0a5ddd1ba8de044",
+    "object": "response",
+    "created_at": 1793463751,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463753,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_05a82d6ffb84608f016ae615c8c70c87d0ba97ebd4af1ef7f4",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hXJgeU_gcs3pXUhX3buS7LljR9dJhOuxmFQVn4zYr-WskHUG3MVsikshvqAVDXc77Q5tx761yX_piZ0rgkxpQrjhcpj75xMZp9jm90T_b-YN-eF6ugcywVqC98nnQIMGY9uwuzRgsmvWTHYZcN6n4Drk3bCQPNksB5MzFWqplbDOBN4SL-LTpYFDZoJpgal7y8hprrhAHjAefNA-UebTA2X4mInGhJoCCroskdBD5nEysxJ-g0c6EhUKWx5sUF3cCku0ALoBP9jOhpJHM-A2CmQXyjQ95mP-YAHKondgJOX0iLscB-S2ZwarxjSz2Gw-1wEXL9EqDFRBTUKdKkj32gmApH0ASzGjclS3m8R8b4zT7kajMSWj96bETI1lSYiZpd_d7R8PmlqhEKv6IBQOkOQkAHAIgfFM-S-IHC597lAP-tFfiSzL0M4SXX9nrNAARyyJ8-FxAYiIcFB2ZF57_ryTBkpnUcd9pLdIdSxdFCoscBlST3AjRVI7RdMUlqxZAFVy3S4jj1NFIg5lalNhCluIt_U_BenlbeZtTHd9ULNaUeVO7nuXFLfmOuZa_J8NdEwDclhNIzCliJ6017uk68idCOsQenPJEJHwGiz4gfXJL9hx5PMUXDXf4iF2SG6lnKc2DVcRsC6v9RHyeyVIcSW59nKKWgHtRTSFZPGcgxagdxh4pHDVJcNS_tCH4ILks4cg3rSelpSvyUJb4GWRjscHWgMrKgK_yAlh0K-K5z3JKH3qAGE_WDi4yfblClsZk-YzT9zjhUqPSaZcIxcFdNIkSLE9IzHFSyRvRODydHor4FZVVi9k4TjL3Qt4hF0I3_FzSVP17f-26o5wDF-u0NvjhqASzq8oFM14Db-eC7Yp4mONtQ2XXAFh0duxq9JR8686n4fdQQ4SUao0AVz1AROjpXjm28sIQmpmeDNu29a8jYzrSyD4GHT6p4ECkFutILlvucT1-HbOzWwZeF3XIpF5tfqw-rpsw9jIGYYgH2Ue6hivS5RV-3nFEzmicSiSrgnVaKKZFHAPWFaZcE55h830NGWVJlpV1pZlWCmO4YayHkegjy5XgFTibJt3tKBTrSdV2vaQ7ohX9JEHX_RHTZ2I1cRMemk8i1GGCq6W_hfa0XAtCTi4ETPbZUrV_L99tzOG6YP4s6MFvpvTKhZ_xR6qkxzLCbjGzkuGFs0aM9YrirKjVNPxspMdgtxdMYzLxefN_OQKCVO3r_uHCIBOVSva1JN-WXhXHsFdN58ZHsqKOauqvWZC0daXyjr9JhqP_36FA6x2jbvX4vHUN1JKYbmvtdKhKE3SThFUyfuymy5Zd6MeFk6cNX8CTNAIMVOGDte7Iqadtjl4rBeTEQ2fKvvmYVDSmjw4G_WQjvBDQZaKnoX7lyM_ywQ5311G5uOAiWkY0lkrE8GCvLOYe9wDpXRLaqoNKE_DxVWrMF-5InCUXlDwfoTrz2N0iucM2tCQtgbQ1gHCSu9ee7G_8k2BHfUPiJzzOb8sJE2Gp-_T5qNfHF6YEltWr8s58-9AATJ_erXOOQ7khkeP3gW3mpzuJNtZoWCaXhLq2BzqsdznN5SC8jz8ASQSwmTZyT6Gh0ZufkGNbxksZlZAJErfKbW0cBF0a7IuiMc0-aOAcQuVAopMCpq_d_zGR_lQ18FPNzYsd35TDIKcW3VLST8BsY6E4u5Z-kKGn_87Bi-Z587cV5lmOxROMapO06ldJ7PxEF6HQ1V",
+        "summary": []
+      },
+      {
+        "id": "msg_05a82d6ffb84608f016ae615c9826487d0a233000b13417551",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1278,
+      "input_tokens_details": {
+        "cache_write_tokens": 1275,
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "total_tokens": 1319
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

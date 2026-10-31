@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:23:42.434376+00:00",
+  "request_hash": "ad8e59af577bbf23f3379045479b89b54811d5b6d75454b6f34ebeb675bb16c3",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented count-based text representations and multinomial naive Bayes for review sentiment classification, following the prescribed preprocessing and train-test split procedure.\", \"Compared unigram and bigram feature settings on validation data, inspected misclassified reviews, and documented errors involving negation and mixed sentiment.\"], \"id\": \"T1\", \"title\": \"Bag-of-Words Baselines for Review Sentiment Classification\"}, {\"bullets\": [\"Built a baseline retrieval pipeline using TF-IDF document vectors and cosine similarity to rank short articles against natural language queries.\", \"Evaluated ranked results against supplied relevance labels, compared stopword filtering settings, and inspected failures caused by vocabulary mismatch between queries and documents.\"], \"id\": \"T2\", \"title\": \"TF-IDF Baseline for Document Retrieval\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Cleaned support request text, standardized category labels using supplied guidelines, and removed duplicate messages before preparing training and evaluation splits.\", \"Implemented TF-IDF and logistic regression baselines in scikit-learn, reporting macro-averaged classification metrics and reviewing confusion patterns between related request categories.\"], \"id\": \"R1\", \"title\": \"Data Preparation and Baselines for Support Request Classification\"}], \"work\": [{\"bullets\": [\"Checked incoming order forms for missing information, maintained filing records, and routed incomplete requests to the appropriate staff for clarification.\", \"Updated dispatch checklists, reconciled packing slips with order records, and communicated outstanding paperwork during routine handovers between operations staff.\"], \"id\": \"W1\", \"title\": \"Order Documentation and Dispatch Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00028\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 2.83, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 3, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-08\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-11\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_03c843c50400204d016ae6160e963c87d0b541f7a409ecec2e",
+    "object": "response",
+    "created_at": 1793463822,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463824,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_03c843c50400204d016ae6160fa21087d0adfa8b4f38b8e3d2",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hYQeaq9GkDf8vipVsNJiZC7qTYhnLzK81ncIEIX27209JhWnjVfAAPNptlZ28EACtjPXnG6hCBeITe7XTlTYXgDerv98SlmmG1tyhdCM8fLbAqQ9aal7HtzD3Eiz7vWReugGsngE1ZMbPPP70invI2hLfVgt2EZNZILz26XHDFHUfZEIetr9fjeCTjhPoK9QxIICV-zPT-oYjWXYBRX380KwA_wp8mn1EFraR9witQraWWA-E2AIzAZj3qqThEaEHmzoDG2gWLaGirLr_bNRr2PQh4T4QWLOfTSKgzw5kfTfJQy8WznGylCvT-tUcuqXAhjeutsL5UUW5bs5KeoyPiAReQmrY2fHbiaeaiMiAgLnZRKIpUZIltz-uikvVoETeHlrYklbmAD03gIkIS3FI6GiAgEIh9mlGkz1Ljvj2tmLlvMcW9BXPOmx6zHE3tf0O25qsMb9TJDAXfKT7YWGlCdNGzZxgf6gOdAysbcL5TawzWoEz92Ak6cT0gsr-k_0yf6gCq0UYu7Ij6FATG9p-HJ_RrLMiUMoDB6DZ8BUpbzYUphNlUAScq6vqB91dPMYjphYtaAc4TWUVaNMiDHPYghbQl2wjeVc_1m6sHdDGZM5nZL6nfB8lbbDORsAlmHUMpvsyspKolPOMs3aXncoELLPqlvjZGUuJK7eZxUafsaVv8iWv7a4a0n6ai9z07x5zh_MdMLv1_lHOeFm2w2rcIjQbEEYvRuvBxKoWDpUUnYya2UNAvjubOHC3v05vfXXSuiDxst_51y6u4NXgByafoUJq-ncoub1hnuXdbP7O1pA-Cy4-JXQ1qxG1uIb2GkijBkXevYZ4HinIpV4ZWNQfLOF60qrHsP-71lsRlmk4wAJbCYjyCsjdjgXPEnZzLRiOMjp47D3GLoz-p7DPiQPLA_jTLnR8b-NFr-F7l09wQtBCD0JwIcqBQnOTngk5qLDkJfIkZx6aj0hCmg4Cjs_AVHFRQhxM0mkSYau56x5CrhmB6viM4wfDFcR6DwAORQy55ABA-vx0-UVbDBSE-J9tvW0_y2P4Xv2Kae8MaJ9EArWja5QVYrPM8nrB8Sx-fAHVs1lLAI5iwgz-UKJAdpxkM4wV0PJQPD8CQReSu09RXoc91jzEpjwNoaZejc5mQrKsgiuxAoHNLzzERrmfbGLhJWaAw__DfNpWDh_8NfzvXSpxHMYduEHCoZwBm-l5u3Uyco7_qfDJ01M3d50WiHvdaaNePPmd71qVxQZHHX_2ETTShV2cyjxnuVtf9efUmWIjxPP7LJd2sLecXuP7Bcsy084mQNImAb5ryXGlgrSj_izqpQBO8xKi2OFB8EYN4z9acTFV27GXmPQ7GiA8iUkswj1E8SxuqhEZI-c6R-JTq3YMes461K9Tpu_4tAFV-R2YJTDyIgpBGDNlWeY9xsRiBHlhT08pvztLFDbl41khF4J70yhhrxGoMKwkVSM0OaM8f5jRU7GSMwt-JLhwuofC5k-uo1bGr1arWf4RpjGK5wT9YvTFMFUS4nAVf3qk9T5sdGMzdNXpQqjS9SixKYXh8UmMK2deOxXf2EX5-9CV8MeAYc7jvPPug1cO8NlGiAZTyU7dBYpZfoF9kxR4mGx2sUFeGxga8Q5vz0QP8jQJGrTkk=",
+        "summary": []
+      },
+      {
+        "id": "msg_03c843c50400204d016ae61610324c87d085c0a9a9e3e79278",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 975,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 36,
+      "output_tokens_details": {
+        "reasoning_tokens": 18
+      },
+      "total_tokens": 1011
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

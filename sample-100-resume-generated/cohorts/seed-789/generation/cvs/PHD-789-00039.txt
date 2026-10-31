@@ -1,0 +1,37 @@
+Applicant PHD-789-00039
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.55/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-03 to 2026-11 | 10 hours/week
+Baseline Classification with Incomplete Tabular Data
+Contribution: data preparation and baseline implementation.
+- Prepared tabular datasets by checking missing values, standardizing feature encodings, and separating training and evaluation records according to the prescribed protocol.
+- Implemented logistic regression and random forest baselines with imputation pipelines, documenting predictive performance and calibration across specified missingness conditions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-12 to 2026-03 | 10 hours/week
+Inventory and Order Coordination
+- Checked incoming deliveries against order documents, recorded discrepancies, and routed unresolved quantity or packaging issues to the appropriate staff.
+- Maintained stock records, organized routine order paperwork, and coordinated collection schedules with staff to support daily dispatch operations.
+
+TECHNICAL PROJECTS
+Regularized Regression for Demand Estimation | technical course project, 2026
+- Implemented ridge and lasso regression baselines for tabular demand estimation, using training data to fit feature scaling and categorical encodings.
+- Selected regularization settings through cross-validation and examined residual patterns to compare baseline behavior across low-demand and high-demand observations.
+Gaussian Mixture Baselines for Customer Segmentation | technical course project, 2026
+- Applied standard Gaussian mixture and k-means implementations to standardized purchase features, comparing assignments under alternative covariance assumptions and initialization settings.
+- Examined cluster profiles and assignment stability across repeated fits, documenting how feature scaling influenced the resulting segmentation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

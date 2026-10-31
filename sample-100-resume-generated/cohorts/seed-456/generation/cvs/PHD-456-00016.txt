@@ -1,0 +1,30 @@
+Applicant PHD-456-00016
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 2.82/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Support Request Classification: Preprocessing and Evaluation
+Contribution: assigned implementation tasks.
+- Implemented assigned text cleaning and label validation routines for support requests, following existing preprocessing specifications and predefined dataset splits.
+- Ran the provided classification pipeline and grouped misclassified requests by label pair for review of ambiguous wording and overlapping categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Product Review Sentiment Classification Baseline | technical course project, 2026
+- Implemented a sentiment classification baseline using term frequency–inverse document frequency features and logistic regression in scikit-learn.
+- Compared predictions against a majority class baseline and inspected errors involving negation, mixed sentiment, and short reviews.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

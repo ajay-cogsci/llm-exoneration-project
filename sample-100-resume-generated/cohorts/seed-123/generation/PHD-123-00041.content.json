@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Designed controlled experiments comparing split conformal and importance-weighted prediction intervals under simulated covariate shifts in regression datasets.",
+        "Analyzed coverage and interval width across feature subgroups, examining sensitivity to density ratio estimation and calibration sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration for Imbalanced Classification",
+      "bullets": [
+        "Designed experiments comparing sigmoid and isotonic calibration for classifiers trained with class weighting and resampling on imbalanced tabular datasets.",
+        "Analyzed reliability diagrams, Brier scores, and stratified bootstrap intervals to assess calibration differences across prevalence settings and validation strategies."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Validation Strategies for Probability Calibration in Imbalanced Tabular Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Import Maintenance",
+      "bullets": [
+        "Implemented Python validation routines for batch imports, checking required fields, duplicate records, and inconsistent value formats before database insertion.",
+        "Maintained regression tests for parsing failures and updated error reporting to support investigation of rejected records during routine imports."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Missing Data Strategies for Tabular Prediction",
+      "bullets": [
+        "Implemented preprocessing pipelines comparing median, nearest-neighbor, and iterative imputation before logistic regression and tree-based classification on tabular datasets.",
+        "Evaluated predictive performance under simulated missingness mechanisms, fitting imputers within training folds to prevent information leakage during cross-validation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Covariance Regularization for Discriminant Classification",
+      "bullets": [
+        "Implemented discriminant classifiers using empirical, diagonal, and shrinkage covariance estimates, with shared preprocessing and cross-validation procedures for comparative evaluation.",
+        "Compared classification error and covariance conditioning across correlated feature settings, examining sensitivity to training sample size and regularization choices."
+      ]
+    }
+  ]
+}

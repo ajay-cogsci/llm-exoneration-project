@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Regression Uncertainty Under Structured Missingness",
+      "bullets": [
+        "Designed experiments comparing regression uncertainty estimates across feature missingness mechanisms, imputation strategies, and training sample compositions.",
+        "Analyzed interval coverage and prediction error across missingness patterns, distinguishing effects of imputation choices from uncertainty estimation procedures."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed controlled experiments comparing temperature scaling, isotonic regression, and importance-weighted calibration under simulated covariate shifts in classification datasets.",
+        "Analyzed reliability diagrams, proper scoring rules, and subgroup calibration to characterize sensitivity to validation composition and density ratio estimation."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Validation Composition and Importance Weighting in Probability Calibration Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Subgroup Reliability Diagnostics for Calibrated Tabular Classifiers Under Covariate Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Service Maintenance",
+      "bullets": [
+        "Implemented validation checks for tabular data imports, handling malformed records and maintaining consistent error responses across service endpoints.",
+        "Added regression tests for parsing failures and duplicate submissions, and investigated defects using application logs and reproducible test cases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors, selecting regularization strengths through cross-validation on training data.",
+        "Compared held-out prediction error and coefficient stability across correlated feature settings, examining sensitivity to resampling and regularization choices."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel Classification with Nonlinear Decision Boundaries",
+      "bullets": [
+        "Implemented kernel support vector classification and logistic regression baselines, using nested cross-validation to separate hyperparameter selection from evaluation.",
+        "Compared predictive performance and decision boundaries on synthetic nonlinear datasets, examining effects of feature scaling, class overlap, and kernel bandwidth."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Gaussian Mixture Clustering Under Model Misspecification",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance matrices, including initialization checks and convergence monitoring.",
+        "Compared mixture clustering with k-means on synthetic datasets, evaluating assignment agreement and sensitivity to cluster overlap and covariance misspecification."
+      ]
+    }
+  ]
+}

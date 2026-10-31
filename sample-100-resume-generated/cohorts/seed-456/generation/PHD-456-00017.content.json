@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification with Sparse Text Features",
+      "bullets": [
+        "Prepared labeled support requests by normalizing text, removing duplicate messages, and checking category consistency under an established annotation guide.",
+        "Implemented TF-IDF and logistic regression baselines using predefined data splits, then summarized classification errors across overlapping request categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence Retrieval for Policy Question Answering",
+      "bullets": [
+        "Segmented policy documents into candidate sentences and organized annotated question–sentence pairs into the prescribed training and evaluation partitions.",
+        "Implemented a TF-IDF cosine similarity retrieval baseline and reviewed missed matches involving paraphrases, abbreviations, and questions requiring surrounding context."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Character N-Gram Baselines for Language Identification",
+      "bullets": [
+        "Prepared a labeled short-text dataset with consistent Unicode normalization and stratified splits for evaluating language identification on brief inputs.",
+        "Implemented character n-gram features with multinomial naive Bayes, comparing confusion patterns for closely related languages and texts containing borrowed words."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Sentence Similarity",
+      "bullets": [
+        "Implemented a centroid-based summarization baseline that ranked article sentences by TF-IDF similarity and selected sentences under a fixed length constraint.",
+        "Compared selected sentences against reference summaries using unigram overlap, and inspected examples for redundant content and missing central information."
+      ]
+    }
+  ]
+}

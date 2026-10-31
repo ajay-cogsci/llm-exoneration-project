@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:21:10.076364+00:00",
+  "request_hash": "29b02f7f5730dddc8248928110b7cdca5129d286e518cf965ae7fc56392a833a",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented classification pipelines using logistic regression, support vector machines, and random forests, with preprocessing fitted exclusively on training partitions.\", \"Compared predictive discrimination and probability quality using stratified cross-validation, examining how feature scaling and hyperparameter selection affected each model.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Linear and Nonlinear Classification Models\"}, {\"bullets\": [\"Implemented residual bootstrap, pairs bootstrap, and analytic confidence intervals for linear regression using Python and NumPy.\", \"Compared empirical coverage and interval width across simulated noise distributions, assessing sensitivity to heteroscedasticity and departures from Gaussian errors.\"], \"id\": \"T2\", \"title\": \"Bootstrap and Analytic Confidence Intervals for Regression\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Probability Calibration under Class Prevalence Shift: A Comparative Evaluation\"}, {\"id\": \"P2\", \"title\": \"Calibration Sample Size and the Stability of Post-Hoc Probability Estimates\"}, {\"id\": \"P3\", \"title\": \"Subgroup Reliability Diagnostics for Classifiers Evaluated under Prevalence Shift\"}, {\"id\": \"P4\", \"title\": \"Interactions between Prior Probability Correction and Post-Hoc Calibration: An Empirical Study\"}], \"research\": [{\"bullets\": [\"Designed simulation experiments varying feature correlation and missingness mechanisms to compare regularized regression models under matched training and evaluation conditions.\", \"Analyzed prediction errors and coefficient stability across repeated samples, separating sensitivity to imputation choices from sensitivity to regularization strength.\"], \"id\": \"R1\", \"title\": \"Regularized Prediction with Correlated and Missing Covariates\"}, {\"bullets\": [\"Designed comparative experiments evaluating probability calibration methods under class prevalence shifts, varying calibration sample size and classifier family.\", \"Analyzed proper scoring rules, reliability diagrams, and subgroup calibration patterns to characterize tradeoffs between aggregate calibration and performance across shifted populations.\"], \"id\": \"R2\", \"title\": \"Probability Calibration under Distribution Shift\"}], \"work\": [{\"bullets\": [\"Implemented assigned Python utilities for validating incoming tabular records, handling malformed fields, and generating summaries for existing internal reporting workflows.\", \"Added regression tests for parsing and validation behavior, investigated reported processing failures, and documented expected inputs and error handling.\"], \"id\": \"W1\", \"title\": \"Batch Data Validation and Reporting Utilities\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00048\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.49, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 3, \"date\": \"2026-09\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}, {\"author_position\": 1, \"date\": \"2026-07\", \"id\": \"P2\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}, {\"author_position\": 4, \"date\": \"2026-11\", \"id\": \"P3\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}, {\"author_position\": 1, \"date\": \"2026-08\", \"id\": \"P4\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 26, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-06\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2024-06\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-09\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0e22ce8690d4afb0016ae61576403887d09e057d0eae7e7cbf",
+    "object": "response",
+    "created_at": 1793463670,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463671,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0e22ce8690d4afb0016ae615779ae887d0ae1e5b84ca9b8592",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1349,
+      "input_tokens_details": {
+        "cache_write_tokens": 1346,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1365
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,33 @@
+Applicant PHD-123-00021
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.22/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Probability Calibration Under Class Imbalance
+Contribution: assigned implementation tasks.
+- Implemented assigned preprocessing and logistic regression routines for tabular classification experiments using specified class proportions and fixed training splits.
+- Generated reliability diagrams and computed Brier scores for prescribed calibration settings, checking evaluation scripts against supplied examples and documenting discrepancies.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-09 to 2026-09 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed damaged or missing items for follow-up.
+- Prepared order paperwork, maintained filing records, and coordinated pickup schedules with staff to support routine daily operations.
+
+TECHNICAL PROJECTS
+Regularized Regression Baselines for Housing Price Prediction | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines with scikit-learn, applying median imputation and feature standardization within training pipelines.
+- Selected regularization settings through cross-validation and compared held-out prediction errors, inspecting residual plots for systematic differences across price ranges.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

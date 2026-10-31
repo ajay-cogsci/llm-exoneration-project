@@ -1,0 +1,49 @@
+Applicant PHD-789-00028
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.58/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Contradiction-Aware Evidence Selection for Extractive Question Answering
+Contribution: formulated a research question and led method development.
+- Formulated a research question on whether conflicting retrieved passages undermine answer selection when lexical relevance remains high.
+- Led development of an evidence reranking method combining relevance and textual entailment scores; evaluated answer consistency through controlled passage substitutions.
+Research assistant, University Research Group | 2024-03 to 2026-08 | 10 hours/week
+Uncertainty-Aware Text Classification Under Domain Shift
+Contribution: formulated a research question and led method development.
+- Investigated how domain shift affects selective text classification, separating errors associated with vocabulary changes from failures of confidence calibration.
+- Led development of a domain-aware confidence calibrator using representation similarity; evaluated abstention behavior with cross-domain splits, ablations, and qualitative error analysis.
+
+PUBLICATIONS
+Vocabulary Shift and Confidence Reliability in Cross-Domain Text Classification. Regional applied computing conference, 2025-03; published; author position 3.
+Evaluating Abstention Threshold Transfer Across Text Classification Domains. Regional applied computing conference, 2026-02; published; author position 1.
+Representation-Similarity Calibration for Selective Text Classification Under Domain Shift. Peer-reviewed ML conference, 2025-04; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-03 to 2024-03 | 10 hours/week
+Support Ticket Processing and Routing
+- Implemented ticket normalization and routing components within an existing service, following specified handling rules for missing fields and duplicate submissions.
+- Added regression tests for routing changes, investigated malformed input failures, and documented expected behavior for maintenance and handoff.
+
+TECHNICAL PROJECTS
+Sparse and Dense Retrieval for Document Search | technical course project, 2026
+- Implemented term-weighted and dense embedding retrieval baselines over a shared document collection, using consistent preprocessing and query evaluation splits.
+- Compared ranking quality and retrieval latency, then inspected failed queries involving paraphrases, rare terms, and mismatched document granularity.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented recurrent and transformer-based sequence labeling baselines with aligned tokenization, padding masks, and consistent entity span decoding.
+- Compared entity-level precision and recall, examining boundary errors and performance differences between frequent entities and previously unseen surface forms.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented frequency-based and graph-based sentence ranking methods, applying a shared length budget and redundancy filtering to generated summaries.
+- Compared lexical overlap scores and manually inspected summaries for repeated content, missing central facts, and unresolved references.
+Subword Tokenization for Morphologically Varied Text | technical course project, 2026
+- Implemented byte-pair and unigram tokenization pipelines for a shared text corpus, controlling normalization and vocabulary allocation across comparisons.
+- Compared sequence lengths and reconstruction behavior, inspecting segmentation patterns for inflected words, uncommon names, and mixed-script inputs.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

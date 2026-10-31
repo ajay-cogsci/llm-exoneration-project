@@ -1,0 +1,33 @@
+STRUCTURED PREVIEW - API prose not generated
+
+Applicant PHD-123-00010
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Research in computer vision
+Contribution: data preparation and baseline implementation.
+Research assistant, University Research Group | 2026-07 to 2026-08 | 10 hours/week
+Research in computer vision
+Contribution: data preparation and baseline implementation.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-01 to 2026-07 | 10 hours/week
+
+TECHNICAL PROJECTS
+Project T1 (title pending API generation) | technical course project, 2026
+Scope: baseline implementation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

@@ -1,0 +1,73 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Semantic Segmentation Robustness Under Image Corruptions",
+      "bullets": [
+        "Designed controlled experiments comparing segmentation models under blur, sensor noise, and illumination changes, holding training data and evaluation procedures constant.",
+        "Analyzed classwise overlap and boundary errors across corruption conditions, distinguishing failures on small objects from degradation in large homogeneous regions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Confidence Calibration for Visual Recognition Under Domain Shift",
+      "bullets": [
+        "Designed experiments evaluating temperature scaling for image classifiers across source and shifted domains, using separate calibration and evaluation partitions.",
+        "Analyzed reliability diagrams, calibration error, and selective prediction behavior to characterize confidence mismatches associated with background and texture changes."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Training Data Composition and Fine-Grained Visual Recognition",
+      "bullets": [
+        "Designed ablation experiments examining class imbalance, image resolution, and augmentation choices in fine-grained recognition while controlling architecture and optimization settings.",
+        "Analyzed confusion patterns and repeated training runs to assess whether classification errors reflected visual similarity, limited examples, or background dependence."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Preprocessing Utilities",
+      "bullets": [
+        "Implemented image validation and preprocessing utilities for an existing application, handling unsupported formats, inconsistent dimensions, and malformed inputs.",
+        "Added regression tests for preprocessing edge cases and investigated ingestion failures using application logs and reproducible sample inputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented image alignment pipelines using SIFT and ORB descriptors, nearest neighbor matching, and robust homography estimation.",
+        "Compared alignment accuracy and runtime across viewpoint and lighting changes, inspecting mismatches in repetitive textures and low detail regions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Encoder–Decoder Architectures for Foreground Segmentation",
+      "bullets": [
+        "Implemented U-Net and a fully convolutional baseline for foreground segmentation, using matched preprocessing, training splits, and loss functions.",
+        "Compared overlap scores and boundary quality, examining how skip connections affected thin structures and objects with ambiguous foreground boundaries."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Transfer Learning Strategies for Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine-tuning with pretrained convolutional networks, maintaining consistent classification heads and data partitions.",
+        "Compared validation performance and training cost across adaptation strategies, examining sensitivity to training set composition and augmentation choices."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Classical Optical Flow Under Challenging Motion",
+      "bullets": [
+        "Implemented Lucas–Kanade and Horn–Schunck optical flow estimators with image pyramids to compare local and global motion estimation.",
+        "Evaluated endpoint errors on synthetic image pairs with known displacement, inspecting failures near occlusions, motion boundaries, and textureless regions."
+      ]
+    }
+  ]
+}

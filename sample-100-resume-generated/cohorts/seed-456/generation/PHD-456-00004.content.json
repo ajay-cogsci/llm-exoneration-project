@@ -1,0 +1,64 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Semantic Segmentation Robustness Under Adverse Imaging Conditions",
+      "bullets": [
+        "Designed controlled experiments comparing segmentation models under synthetic fog, motion blur, and exposure shifts while holding training data and preprocessing constant.",
+        "Analyzed classwise intersection over union and boundary errors to distinguish sensitivity to image degradation from failures involving small objects."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Calibration of Image Classifiers Under Distribution Shift",
+      "bullets": [
+        "Designed evaluation protocols comparing temperature scaling and uncalibrated predictions across clean images, common corruptions, and held out visual categories.",
+        "Analyzed reliability diagrams, calibration error, and selective prediction curves to characterize relationships between confidence, classification accuracy, and corruption severity."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Evaluating Visual Representations for Limited Label Recognition",
+      "bullets": [
+        "Designed experiments comparing frozen feature extraction and supervised fine tuning across controlled label subsets using consistent data splits and augmentation settings.",
+        "Analyzed class confusion, nearest neighbor retrievals, and variation across training runs to examine representation quality and sensitivity to label availability."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Classical and Learned Features for Image Retrieval",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms, local feature aggregation, and pretrained convolutional embeddings with consistent image preprocessing.",
+        "Compared retrieval precision and ranked examples across viewpoint changes and background clutter, documenting characteristic errors for each feature representation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Evaluation of Stereo Matching Methods",
+      "bullets": [
+        "Implemented block matching and semi global matching pipelines with configurable matching costs, disparity ranges, and left right consistency checks.",
+        "Compared disparity errors on annotated stereo pairs and inspected failures near occlusion boundaries, reflective surfaces, and regions with weak texture."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Image Denoising with Spatial Filters and Convolutional Networks",
+      "bullets": [
+        "Implemented median filtering, bilateral filtering, and a convolutional denoising baseline using paired clean and synthetically corrupted images.",
+        "Compared reconstruction quality using peak signal to noise ratio and structural similarity, examining edge preservation across noise types and intensities."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Transfer Learning Strategies for Fine Grained Image Classification",
+      "bullets": [
+        "Implemented linear probing, partial backbone tuning, and full fine tuning for a pretrained image classifier under a shared training protocol.",
+        "Compared validation accuracy, training behavior, and class confusion across adaptation strategies, inspecting errors among categories with similar shapes and textures."
+      ]
+    }
+  ]
+}

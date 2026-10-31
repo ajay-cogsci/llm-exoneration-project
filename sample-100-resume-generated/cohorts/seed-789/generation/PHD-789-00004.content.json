@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Surface Defect Classification Under Variable Lighting",
+      "bullets": [
+        "Prepared labeled surface image datasets by checking annotation consistency, standardizing image dimensions, and separating training and evaluation samples by source specimen.",
+        "Implemented assigned histogram and texture feature baselines with support vector classifiers, inspecting confusion matrices across lighting conditions and documenting recurring classification errors."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Shipment Coordination",
+      "bullets": [
+        "Maintained inventory logs, checked incoming delivery paperwork against purchase records, and referred quantity discrepancies to the appropriate staff for resolution.",
+        "Coordinated routine shipment scheduling, organized dispatch documents, and followed up on outstanding orders with suppliers and internal operations staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Digit Recognition with Classical Classifiers",
+      "bullets": [
+        "Implemented nearest neighbor and logistic regression baselines for handwritten digit classification using normalized pixel arrays and a predefined training and test split.",
+        "Compared classifier predictions through confusion matrices and inspected misclassified images to document ambiguities associated with stroke thickness, slant, and digit shape."
+      ]
+    }
+  ]
+}

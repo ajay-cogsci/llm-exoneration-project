@@ -1,0 +1,10 @@
+{
+  "profile_id": "PHD-789-00012",
+  "facts_hash": "f9b689c281c4197da6a129b1ef00421ef666f1be3ec901aedf68ff56ec1cba72",
+  "status": "needs_revision",
+  "issues": [
+    "Expected two 12-30 word bullets for T1"
+  ],
+  "model": "gpt-6-astra",
+  "review": null
+}

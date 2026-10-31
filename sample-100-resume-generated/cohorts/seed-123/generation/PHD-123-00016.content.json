@@ -1,0 +1,46 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robust Intent Classification Under Conversational Noise",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare intent classifiers under spelling errors, abbreviated phrasing, and missing punctuation using controlled text perturbations.",
+        "Evaluated linear and transformer classifiers on matched data splits, examining macro F1, prediction confidence, and confusion patterns across noise conditions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Intent Classifier Robustness to Spelling Errors and Informal Conversational Text"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Processing Service Maintenance",
+      "bullets": [
+        "Maintained Python components for document ingestion, input validation, and metadata extraction within an existing processing service.",
+        "Investigated parsing failures, added regression tests for malformed inputs, and updated error handling to support routine operational troubleshooting."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Lexical and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented TF-IDF and pretrained sentence embedding baselines for matching user questions to relevant entries in a question archive.",
+        "Compared retrieval rankings using reciprocal rank and recall, inspecting failures involving paraphrases, rare terminology, and overlapping question topics."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented recurrent and transformer sequence labeling baselines using a shared tokenization alignment procedure and consistent training and evaluation splits.",
+        "Compared entity span precision and recall, analyzing boundary errors and performance differences between frequent and infrequent entity types."
+      ]
+    }
+  ]
+}

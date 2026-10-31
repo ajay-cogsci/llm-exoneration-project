@@ -1,0 +1,65 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Partial Pooling for Regression Uncertainty in Sparse Subgroups",
+      "bullets": [
+        "Formulated the question of how subgroup sample scarcity affects residual variance estimation and led development of an empirical Bayes pooling approach.",
+        "Compared pooled, subgroup-specific, and shrinkage estimators on simulated heteroskedastic data, examining interval coverage and sensitivity to misspecified subgroup structure."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Stabilized Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated a research question about unstable importance weights and led development of a clipped, density-ratio-weighted conformal procedure for regression under covariate shift.",
+        "Investigated clipping and residual normalization through controlled shift experiments, comparing empirical coverage, interval width, and sensitivity to density-ratio estimation errors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Clipped Importance Weights for Conformal Regression Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Residual Normalization and Density-Ratio Error in Weighted Conformal Prediction"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Kernel and Tree-Based Regression Comparisons",
+      "bullets": [
+        "Implemented a comparative regression pipeline using kernel ridge regression and random forests, with standardized preprocessing and cross-validation for hyperparameter selection.",
+        "Compared held-out prediction errors across smooth and discontinuous response functions, examining sensitivity to irrelevant features and training sample availability."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Post-Hoc Calibration of Probabilistic Classifiers",
+      "bullets": [
+        "Implemented temperature scaling and isotonic calibration for neural and logistic classifiers, separating model fitting, calibration, and evaluation data.",
+        "Compared reliability diagrams, Brier scores, and log loss under class imbalance, examining how calibration sample size affected probability estimates."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Gaussian Mixture Estimation and Initialization Sensitivity",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including covariance regularization and convergence checks.",
+        "Compared random and clustering-based initializations on overlapping synthetic mixtures, evaluating held-out likelihood, assignment stability, and sensitivity to component specification."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented coordinate descent for lasso regression and compared its solutions with ridge and elastic net baselines using matched validation splits.",
+        "Evaluated prediction error and feature selection stability across correlated synthetic designs, tracking how regularization choices changed coefficient sparsity."
+      ]
+    }
+  ]
+}

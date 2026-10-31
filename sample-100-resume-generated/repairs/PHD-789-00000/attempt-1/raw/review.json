@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:25:18.165694+00:00",
+  "request_hash": "fe204fbeca906202150a01e9f85f632e9af0ff3bf541f683eb28ac3d9ac51b0e",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented TF-IDF and Okapi retrieval baselines for a document collection, using shared tokenization and relevance judgments for consistent comparison.\", \"Evaluated ranked results with precision and reciprocal rank, examining queries where term frequency normalization changed the ordering of relevant documents.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Document Retrieval Methods\"}, {\"bullets\": [\"Implemented token classification using a bidirectional recurrent network and a pretrained encoder, aligning subword predictions with annotated word boundaries.\", \"Compared entity-level precision and recall across model configurations, analyzing boundary errors and confusions between organization and location mentions.\"], \"id\": \"T2\", \"title\": \"Sequence Labeling for Named Entity Recognition\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Designed experiments with supervisor guidance to assess intent classifier sensitivity to paraphrases, separating lexical substitutions from changes in sentence structure.\", \"Compared pretrained encoder and bag-of-words baselines under matched training conditions, inspecting prediction disagreements and documenting ambiguity in intent labels.\"], \"id\": \"R1\", \"title\": \"Robustness of Intent Classification to Conversational Paraphrases\"}], \"work\": [{\"bullets\": [\"Checked incoming deliveries against packing slips, recorded stock discrepancies, and routed damaged items for review according to established procedures.\", \"Prepared order paperwork, maintained organized storage areas, and coordinated routine handoffs between receiving and dispatch staff during scheduled shifts.\"], \"id\": \"W1\", \"title\": \"Inventory and Order Processing Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-789-00000\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.99, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 16, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2025-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 3, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2025-04\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_03a40061a82e8132016ae6166e4d1887d08f297264db63225a",
+    "object": "response",
+    "created_at": 1793463918,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463919,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_03a40061a82e8132016ae6166f374487d0a539df5d3e4749e3",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hZv_QAUu6b9-NGA7EXn8CYeOk3x6RrucwBX8Y0X83WMr_9rIZL1xI8ZZPf9YwTOviF4iI_OEdJxsa4-INKz_fohQafIeyNNJpCRrgmgV1jbTs4bIkVlYqGRpjsqXSOln9e5uds--_QT9Z0tBZ4hiTtn_FNVWo_qkIlrEa3zQ164fLgHPL74anZbHxEreST-rvaQyNJ2qJwRCuu5DrdROyQxzvdrhrgmofbwyrcPSjE6__OXC1Q-7RvoITEakhlkgi091Ii2IYKLWr40b2JDYf_zz5zG3WlV12snlP4-0ZNL3DhCvyl-fNTlvfPGeZFQZtsVLaIGVaZKskstxuO-MaUqFjCQV9XVBaXKVRLgpl5mRyZQA3vu6JThWI-z5S4qvGAsmISNnT8_dDudwWT4t1GCEFbhAJRpjGY-aCm-_I1wtBgxTpQj1hoyh9aYaQXfTCnOp62inGodjNcylEz3RIKfWsPV9A_MhEA1MLrItxXLODizhpbCGChWP1daYRi3kaonBW5gWgNIW4BvY9BFPVRR-hQ1-umHPqY1lhDKKeZrs_5DIiHtA68Xq9oUS7ggCSFNQBBow1_C31Kd1aIFmDjw1wzYRKaD8SK8cdsD-I-N8BC3zcCm7nz0t2Ii_juhioRWApcqRkGukQsmA2BheGkTjSVU9-XmQlmOZAHi6Y62R-jVemmnRN4BQwU0rap6iCWhtW3mV5IosTfH8JizTFg8www_gZBMC_y8r2PmZNt1DMGvudB9lW3l1D9Y39cqO1JFaocjwUaMn0QvPAgMmozsp2nkKIOry2mZ4kdk4vUrhiiaBniTz7IwYOC2ZNIxTcxcm2IlcCuWHJobdHpRA2BP7l3aRbgR_U3v7tVjSJOql5O0HldPMQJaz1VEOn5cwTQ8IYZoF_TjLrkPgZTa0nyhkkEd7hwf6ghBwKlZMu6ePl4nCywL68wAq7xH6m0BNH9T4qN8erfEQDFyyD_jDTcsDFmIJ4xVAh33qSVteI_VIJMM1Ryu6q4LSxqK3c0dRGTW7xGZr5610XGUjqDopVpyYEbrW78KPgi7Rw5u5nEAyIn00213JpcrRGdzIJxNxa14ZBCoJVyzqa3R1On3HnhMn_fO5VplthWzg8znui4-9ohhAKOl1ickGhmaZ8gEuwYiiuBs3kOPa-rb4WqRh17MpUPe5b6mSSyWEX0nSaC9DzM2Tgy7EaMUzDntHFXlFR4D3aPG5s74HKaGqm1t0_Tk83zsUtLS5iWlstqhCqsq_T00URgbDAZoGrURqVruSjV3KU34ZZbbxV0cCxYk1LhG25nVoa6vhJhH2vowptuzjhXbVJHCJ6kkQQ-fgpPEluwh7m49jHJWA-jusrSIjMBVELvFj8Qe1-HnSKh3yy6DyFBzssRygi1Mo8UfpP760yU2FugkcV4JfFMOih3vcSQGUrRbL23YuVgJfJgYpKOdEiQLzmm5z6oYVnuSHA540OBwFz_C_uQY01tJJEbKkX-V1bC6LJKM5IzXI8tsCSvve_eRQwL71rwKW5XsIdE1iuv_PlXobqmQLgynzbgzOm6gxvSHn4rvjEcR4cJROQSlt8n1mxaCgMhHbHt5OoXobX70MAPZp6SnbLq57lD0Rfu7Bw85n-ZfmgQDc5moGl6yIHiEfEUb7Rc3jZ2hcV7QzQz1-6Ue9Nm4NvzYDylQqIkYfjWTdW7gQo7XyiWp0XKnucfiosTRIim19tHQRR3GMIup",
+        "summary": []
+      },
+      {
+        "id": "msg_03a40061a82e8132016ae6166fc63887d0ae408981407c3f3c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 925,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 21
+      },
+      "total_tokens": 964
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+Applicant PHD-456-00011
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.08/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Calibration Evaluation for Regularized Classifiers
+Contribution: assigned implementation tasks.
+- Implemented assigned logistic regression evaluation routines using predefined train and validation splits to examine probability calibration on imbalanced tabular datasets.
+- Generated reliability diagrams and computed Brier scores under specified regularization settings, documenting discrepancies between predicted probabilities and observed class frequencies.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-02 to 2026-08 | 10 hours/week
+Validation and Maintenance of Tabular Data Imports
+- Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent data types, and duplicate identifiers within existing import workflows.
+- Added regression tests for malformed input cases and corrected parsing defects, preserving established interfaces and documenting error handling behavior.
+
+TECHNICAL PROJECTS
+Ridge Regression Baseline for Tabular Prediction | technical course project, 2026
+- Implemented a ridge regression baseline with scikit-learn, applying training-set standardization and cross-validation to select the regularization parameter for continuous outcome prediction.
+- Compared held-out prediction errors against an ordinary least squares baseline and inspected residual plots for systematic deviations across target ranges.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

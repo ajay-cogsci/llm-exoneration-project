@@ -1,0 +1,29 @@
+Applicant PHD-123-00024
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.01/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+None reported.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-05 to 2026-11 | 10 hours/week
+Inventory and Order Documentation
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed incomplete order paperwork to the appropriate staff.
+- Maintained stockroom records, organized order documents, and prepared routine replenishment requests for review using established procedures.
+
+TECHNICAL PROJECTS
+TF–IDF Baseline for Support Request Classification | technical course project, 2026
+- Implemented a baseline text classification pipeline using TF–IDF features and logistic regression to categorize support requests by topic.
+- Evaluated held-out predictions with macro F score and a confusion matrix, inspecting misclassified requests for overlapping vocabulary and ambiguous labels.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

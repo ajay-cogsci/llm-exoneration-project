@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Boundary-Aware Adaptation for Low-Light Semantic Segmentation",
+      "bullets": [
+        "Formulated whether boundary consistency could stabilize segmentation under illumination shifts; led development of an adaptation objective combining edge alignment and confidence filtering.",
+        "Evaluated the objective against entropy minimization baselines using controlled brightness perturbations, inspecting boundary errors and ablations of confidence thresholds."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Occlusion-Aware Representation Learning for Fine-Grained Recognition",
+      "bullets": [
+        "Formulated how localized occlusion affects fine-grained recognition; led development of a patch consistency objective aligning visible regions across masked image views.",
+        "Extended the approach with visibility-weighted feature aggregation and evaluated generalization across occlusion patterns through component ablations and class-level error analysis."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Visible Patch Consistency for Fine-Grained Recognition Under Occlusion"
+    },
+    {
+      "id": "P2",
+      "title": "Visibility-Weighted Feature Aggregation for Recognition Across Occlusion Patterns"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned image validation routines checking file readability, color modes, and metadata consistency before ingestion into an internal processing pipeline.",
+        "Added regression tests for malformed inputs and documented validation failures to support debugging and maintenance of existing image processing utilities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Classical and Learned Image Classification Baselines",
+      "bullets": [
+        "Implemented histogram of oriented gradients features with a linear classifier and a convolutional baseline for image classification using shared data splits.",
+        "Compared classification errors, training behavior, and sensitivity to image resizing while controlling preprocessing and documenting differences in class-level confusion patterns."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting planar scenes under viewpoint changes.",
+        "Compared descriptor normalization and matching thresholds using reprojection errors and visual overlays, examining failures caused by repetitive textures and limited overlap."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented Gaussian filtering, nonlocal means, and a convolutional denoising baseline using clean images corrupted with synthetic noise for controlled comparisons.",
+        "Evaluated reconstruction quality and edge preservation across noise conditions, inspecting residual images to distinguish oversmoothing from retained noise artifacts."
+      ]
+    }
+  ]
+}

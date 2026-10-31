@@ -1,0 +1,34 @@
+Applicant PHD-789-00012
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Preprocessing for Support Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and duplicate detection routines for support requests, following existing preprocessing specifications and documenting ambiguous cases.
+- Ran prescribed classification experiments with fixed data splits and summarized confusion patterns across request categories for group review.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-04 to 2025-09 | 40 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against purchase records, and referred discrepancies to the appropriate staff for resolution.
+- Prepared order paperwork, coordinated pickup schedules, and organized filing records to support routine handoffs between shifts.
+
+TECHNICAL PROJECTS
+TF-IDF Baseline for Review Sentiment Classification | technical course project, 2026
+- Implemented a scikit-learn sentiment classification baseline using TF-IDF features and logistic regression on labeled product reviews.
+- Represented product review text with TF-IDF features as inputs to the logistic regression sentiment classifier.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

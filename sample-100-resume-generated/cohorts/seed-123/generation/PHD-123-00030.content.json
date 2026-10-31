@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification with Lexical Baselines",
+      "bullets": [
+        "Prepared labeled support requests by removing duplicate messages, standardizing category labels, and checking training and evaluation partitions for overlapping text.",
+        "Implemented TF-IDF and logistic regression baselines under an established protocol, examining confusion matrices and misclassified requests with ambiguous intent."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence-Level Relevance Detection in Product Reviews",
+      "bullets": [
+        "Cleaned review sentences and checked relevance annotations against supplied guidelines, flagging inconsistent labels and preserving document boundaries during dataset splitting.",
+        "Implemented a bag-of-words classifier using supplied settings and inspected false positives associated with product mentions lacking substantive feature descriptions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Routine Operations and Records Support",
+      "bullets": [
+        "Maintained routine inventory records, checked incoming deliveries against order paperwork, and referred discrepancies to the responsible staff for resolution.",
+        "Organized filing materials, prepared supplies for scheduled activities, and tracked outstanding administrative requests through established handoff and follow-up procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Extractive Summarization with TF-IDF Sentence Ranking",
+      "bullets": [
+        "Implemented a baseline summarizer that ranked sentences by similarity to a document centroid and selected sentences within a specified length budget.",
+        "Compared generated summaries with lead-sentence selections, reviewing coverage of central topics and redundancy introduced by repeated terms across sentences."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Character N-Gram Baselines for Language Identification",
+      "bullets": [
+        "Prepared short text samples with consistent language labels and implemented a multinomial naive Bayes baseline using character n-gram counts.",
+        "Evaluated predictions on held-out samples and inspected errors involving borrowed words, closely related languages, and texts with limited alphabetic content."
+      ]
+    }
+  ]
+}

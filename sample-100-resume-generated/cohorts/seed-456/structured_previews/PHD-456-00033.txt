@@ -1,0 +1,34 @@
+STRUCTURED PREVIEW - API prose not generated
+
+Applicant PHD-456-00033
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Research in computer vision
+Contribution: data preparation and baseline implementation.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Research in computer vision
+Contribution: data preparation and baseline implementation.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-02 to 2026-02 | 10 hours/week
+
+TECHNICAL PROJECTS
+Project T1 (title pending API generation) | technical course project, 2026
+Scope: baseline implementation.
+Project T2 (title pending API generation) | technical course project, 2026
+Scope: baseline implementation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

@@ -1,0 +1,33 @@
+Applicant PHD-123-00005
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.60/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Image Corruption Evaluation for Visual Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image preprocessing routines in NumPy to apply brightness shifts and additive noise under a predefined evaluation protocol.
+- Ran supplied classification baselines on corrupted images, checked label alignment, and summarized confusion patterns for review by the research team.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-02 to 2026-08 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items to the appropriate staff.
+- Maintained order logs, organized stockroom materials, and prepared routine handover notes covering pending requests and delivery status.
+
+TECHNICAL PROJECTS
+Handwritten Digit Classification with Linear Baselines | technical course project, 2026
+- Implemented a scikit-learn logistic regression baseline for handwritten digit recognition using normalized pixel intensities and a predefined training split.
+- Compared predictions against a nearest neighbor baseline, inspected misclassified images, and documented recurring confusion between visually similar digits.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

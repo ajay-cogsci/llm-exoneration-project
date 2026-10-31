@@ -1,0 +1,57 @@
+Applicant PHD-456-00039
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion-Aware Temporal Consistency for Video Segmentation
+Contribution: formulated a research question and led method development.
+- Formulated whether excluding unreliable frame correspondences improves temporal segmentation consistency, and led development of an occlusion-aware consistency objective.
+- Compared masked and unmasked temporal supervision under controlled occlusions, examining segmentation accuracy, boundary stability, and failure cases near moving objects.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Spatially Adaptive Feature Alignment for Visual Anomaly Detection
+Contribution: formulated a research question and led method development.
+- Investigated whether local feature alignment distinguishes surface defects from benign texture shifts, and led development of a patchwise matching approach.
+- Evaluated nearest-neighbor and spatially constrained matching baselines, analyzing localization errors under illumination changes, repetitive textures, and small geometric misalignments.
+Research intern, Research Lab 3 | 2026-02 to 2026-05 | 15 hours/week
+Boundary-Guided Learning with Sparse Segmentation Labels
+Contribution: formulated a research question and led method development.
+- Asked how image boundaries can constrain learning from sparse annotations, and led development of an edge-weighted label propagation objective.
+- Compared propagation and consistency-based baselines using controlled annotation masks, assessing boundary adherence and sensitivity to misleading texture edges.
+Research assistant, University Research Group | 2024-03 to 2026-02 | 10 hours/week
+Uncertainty-Aware Adaptation for Semantic Segmentation under Visual Shift
+Contribution: formulated a research question and led method development.
+- Formulated how class-dependent uncertainty affects segmentation adaptation, and led development of calibrated pseudo-label selection with class-specific confidence thresholds.
+- Designed calibration, corruption, and selective prediction evaluations, comparing thresholding alternatives and examining confidence failures across image regions and semantic classes.
+
+PUBLICATIONS
+Regionwise Confidence Calibration for Semantic Segmentation under Visual Corruptions. Peer-reviewed ML conference, 2025-11; published; author position 2.
+Class-Conditional Pseudo-Label Selection for Uncertainty-Aware Segmentation Adaptation. Peer-reviewed ML conference, 2025-07; published; author position 1.
+Evaluating Confidence Thresholds for Segmentation Adaptation under Lighting and Weather Shifts. Regional applied computing conference, 2026-03; published; author position 1.
+Selective Prediction after Adaptation: Classwise Risk and Coverage in Semantic Segmentation. Peer-reviewed ML conference, 2026-04; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-12 to 2024-03 | 10 hours/week
+Image Ingestion Validation and Preprocessing
+- Implemented assigned image validation and resizing routines in an existing ingestion pipeline, handling unsupported formats, invalid dimensions, and corrupted inputs.
+- Added regression tests for preprocessing behavior and investigated reported failures by tracing input validation errors through existing processing stages.
+
+TECHNICAL PROJECTS
+Comparing Local Features for Image Matching | technical course project, 2026
+- Implemented gradient-based local descriptors and nearest-neighbor matching, comparing correspondence quality against normalized image patches under rotation and illumination changes.
+- Evaluated geometric verification with robust homography estimation, inspecting mismatches caused by repetitive patterns, weak texture, and viewpoint differences.
+Image Classification under Limited Training Data | technical course project, 2026
+- Implemented convolutional classification baselines with standard augmentation and pretrained feature extraction, using consistent training partitions for comparative evaluation.
+- Compared learning curves, classwise errors, and calibration across training subsets, examining sensitivity to augmentation choices and frozen versus trainable features.
+Classical and Learned Approaches to Image Denoising | technical course project, 2026
+- Implemented Gaussian filtering, patch-based averaging, and a convolutional denoiser, comparing their behavior on images with controlled additive noise.
+- Evaluated reconstruction fidelity and edge preservation across noise conditions, documenting oversmoothing, residual artifacts, and differences between matched and mismatched training noise.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

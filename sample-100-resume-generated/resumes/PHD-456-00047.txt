@@ -1,0 +1,49 @@
+Applicant PHD-456-00047
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and isotonic regression under controlled covariate shifts, separating calibration effects from changes in classification accuracy.
+- Analyzed reliability diagrams and bootstrap uncertainty estimates to assess how calibration performance depended on validation sample composition.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Covariance Shrinkage for High-Dimensional Classification
+Contribution: designed experiments and analyzed results.
+- Designed simulation experiments comparing empirical and shrinkage covariance estimators within discriminant classifiers across correlated feature distributions.
+- Analyzed classification error and covariance estimation stability as feature dependence, sample availability, and departures from Gaussian assumptions varied.
+Research assistant, University Research Group | 2025-03 to 2026-05 | 10 hours/week
+Conformal Prediction Under Heteroskedastic Noise
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing residual-based and quantile-based conformal prediction intervals on synthetic regression tasks with input-dependent noise.
+- Analyzed marginal coverage, subgroup coverage, and interval width to characterize uncertainty estimation tradeoffs across noise patterns and calibration splits.
+
+PUBLICATIONS
+Coverage and Width Tradeoffs in Conformal Regression with Input-Dependent Noise. Peer-reviewed ML conference, 2025-11; published; author position 2.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-12 to 2025-03 | 10 hours/week
+Validation and Error Handling for Batch Data Imports
+- Implemented input validation and error handling for batch imports, checking required fields, duplicate records, and inconsistent data types.
+- Added regression tests for malformed inputs and revised diagnostic messages to support investigation of failed imports.
+
+TECHNICAL PROJECTS
+Missing-Data Strategies for Tabular Classification | technical course project, 2026
+- Implemented median imputation and iterative imputation within classification pipelines, keeping preprocessing confined to training folds during cross-validation.
+- Compared predictive performance under random and feature-dependent missingness, examining sensitivity to imputation choice and missingness indicators.
+Sparse Regression with Correlated Predictors | technical course project, 2026
+- Implemented coordinate descent for lasso and elastic net regression, checking convergence against reference implementations on standardized datasets.
+- Compared prediction error and coefficient selection stability across regularization settings using synthetic designs with correlated predictors.
+Kernel Approximation for Nonlinear Regression | technical course project, 2026
+- Implemented random Fourier features and Nyström approximations for kernel ridge regression, using shared preprocessing and validation splits.
+- Compared predictive error, runtime, and memory requirements while varying approximation size and kernel bandwidth on nonlinear regression tasks.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

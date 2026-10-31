@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Semantic Segmentation Under Camera Degradation",
+      "bullets": [
+        "Designed controlled experiments varying blur, sensor noise, and compression to assess segmentation robustness while holding training data and model configurations fixed.",
+        "Analyzed classwise overlap scores and boundary errors to distinguish degradation sensitivity in small objects from failures across larger background regions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Illumination Shift in Visual Surface Defect Detection",
+      "bullets": [
+        "Designed comparisons of illumination normalization and color augmentation for surface defect detection, using specimen separated splits to limit visual leakage.",
+        "Analyzed precision recall behavior across lighting conditions and inspected false detections to characterize confusion between surface defects, shadows, and specular reflections."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Illumination Normalization and Color Augmentation for Visual Surface Defect Detection"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion Validation and Preprocessing",
+      "bullets": [
+        "Implemented image validation and resizing routines within an existing ingestion service, handling unsupported formats and malformed files through established error reporting paths.",
+        "Added regression tests for orientation handling and color conversion, and investigated preprocessing failures using service logs and representative image fixtures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Stereo Matching Methods",
+      "bullets": [
+        "Implemented block matching and semiglobal matching for rectified stereo images, comparing disparity estimates under consistent preprocessing and disparity search ranges.",
+        "Evaluated disparity errors in occluded and low texture regions, examining how matching window size and smoothness penalties affected reconstruction artifacts."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Fine Grained Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine tuning with a pretrained convolutional network, maintaining identical data splits and augmentation settings.",
+        "Compared classification errors and training behavior across adaptation strategies, using confusion matrices to inspect mistakes between visually similar object categories."
+      ]
+    }
+  ]
+}

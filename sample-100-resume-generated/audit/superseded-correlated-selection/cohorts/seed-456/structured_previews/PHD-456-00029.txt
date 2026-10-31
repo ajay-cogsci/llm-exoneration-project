@@ -1,0 +1,39 @@
+STRUCTURED PREVIEW - API prose not generated
+
+Applicant PHD-456-00029
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.54/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Research in natural language processing
+Contribution: formulated a research question and led method development.
+Research assistant, University Research Group | 2023-08 to 2026-08 | 10 hours/week
+Research in natural language processing
+Contribution: formulated a research question and led method development.
+
+PUBLICATIONS
+Publication P1 (title pending API generation). Peer-reviewed ML conference, 2026-11; published; author position 1.
+Publication P2 (title pending API generation). Regional applied computing conference, 2026-05; published; author position 1.
+Publication P3 (title pending API generation). Peer-reviewed ML conference, 2024-04; published; author position 2.
+Publication P4 (title pending API generation). Peer-reviewed ML conference, 2025-07; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-09 to 2023-08 | 10 hours/week
+
+TECHNICAL PROJECTS
+Project T1 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+Project T2 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+Project T3 (title pending API generation) | technical course project, 2026
+Scope: implementation and comparative evaluation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

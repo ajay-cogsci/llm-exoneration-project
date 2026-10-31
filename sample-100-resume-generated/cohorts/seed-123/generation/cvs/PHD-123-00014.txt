@@ -1,0 +1,41 @@
+Applicant PHD-123-00014
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.98/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness of Intent Classification to Conversational Noise
+Contribution: experimental design with supervisor guidance.
+- Designed supervised evaluation protocols with supervisor guidance to isolate effects of spelling variation, filler phrases, and paraphrasing on intent classification.
+- Compared classifier behavior across clean and perturbed utterances, examining confusion patterns and documenting ambiguities introduced by meaning-altering perturbations.
+Research assistant, University Research Group | 2025-07 to 2026-08 | 10 hours/week
+Cross-Domain Generalization in Negation-Aware Sentiment Classification
+Contribution: experimental design with supervisor guidance.
+- Designed cross-domain sentiment experiments with supervisor guidance, separating domain vocabulary effects from negation handling through controlled training and evaluation splits.
+- Evaluated lexical and neural baselines using macro-averaged metrics, then categorized errors involving negation scope, mixed sentiment, and domain-specific expressions.
+
+PUBLICATIONS
+Negation Sensitivity in Cross-Domain Sentiment Classification: A Controlled Baseline Comparison. Regional applied computing conference, 2026-01; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Extractive Summarization Methods | technical course project, 2026
+- Implemented sentence ranking using term frequency weighting and graph centrality, applying consistent tokenization and summary length constraints across methods.
+- Compared generated summaries against reference summaries using lexical overlap measures and manually inspected redundancy, missing context, and sentence ordering.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented token classification and recurrent sequence labeling baselines with shared preprocessing, padding masks, and label mappings for named entity recognition.
+- Compared entity-level precision and recall across models, inspecting boundary mistakes, unseen entity mentions, and errors associated with infrequent labels.
+Sparse and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented lexical retrieval and pooled neural representation baselines to rank candidate questions, maintaining identical candidate collections and query preprocessing.
+- Compared ranking quality using reciprocal rank and recall measures, examining failures involving paraphrases, rare terminology, and superficially similar questions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

@@ -1,0 +1,49 @@
+Applicant PHD-456-00043
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.78/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Object Detection Robustness Under Image Degradation
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing pretrained object detectors under motion blur, compression artifacts, and reduced illumination using matched image subsets.
+- Analyzed precision and recall by object size and corruption severity, inspecting localization errors separately from missed detections.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Calibration of Semantic Segmentation Under Domain Shift
+Contribution: designed experiments and analyzed results.
+- Designed evaluations of segmentation confidence across changing weather conditions, comparing uncalibrated predictions with temperature scaling fitted on held-out images.
+- Analyzed classwise calibration and boundary errors, examining whether confidence estimates remained informative for rare categories and visually ambiguous regions.
+Research assistant, University Research Group | 2024-10 to 2026-05 | 10 hours/week
+Training Data Composition for Fine-Grained Visual Recognition
+Contribution: designed experiments and analyzed results.
+- Designed experiments varying class balance and augmentation policies for fine-grained image classification while holding model architecture and evaluation splits fixed.
+- Analyzed confusion patterns across visually similar categories and repeated training runs, documenting sensitivity to sampling choices and background variation.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-01 to 2024-10 | 10 hours/week
+Image Ingestion and Validation Utilities
+- Implemented assigned image ingestion utilities that checked file readability, normalized metadata fields, and reported unsupported formats for downstream processing.
+- Added regression tests for malformed inputs and revised error handling based on bug reports from routine processing workflows.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented local feature matching and robust homography estimation to align overlapping images, including filtering of ambiguous descriptor matches.
+- Compared feature configurations under rotation, scale changes, and illumination differences using reprojection error and visual inspection of alignment failures.
+Transfer Learning for Small-Sample Image Classification | technical course project, 2026
+- Implemented frozen-feature classification and partial network fine-tuning with pretrained convolutional models, using consistent preprocessing and stratified training splits.
+- Compared validation accuracy, classwise recall, and training behavior across adaptation settings, inspecting errors associated with limited examples and background cues.
+Classical and Convolutional Image Denoising | technical course project, 2026
+- Implemented median filtering, nonlocal means, and a convolutional denoising baseline for images with synthetically generated Gaussian and impulse noise.
+- Compared reconstruction quality across noise conditions using peak signal-to-noise ratio and structural similarity, examining edge preservation and texture smoothing.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Regularized Prediction with Correlated and Missing Covariates",
+      "bullets": [
+        "Designed simulation experiments varying feature correlation and missingness mechanisms to compare regularized regression models under matched training and evaluation conditions.",
+        "Analyzed prediction errors and coefficient stability across repeated samples, separating sensitivity to imputation choices from sensitivity to regularization strength."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration under Distribution Shift",
+      "bullets": [
+        "Designed comparative experiments evaluating probability calibration methods under class prevalence shifts, varying calibration sample size and classifier family.",
+        "Analyzed proper scoring rules, reliability diagrams, and subgroup calibration patterns to characterize tradeoffs between aggregate calibration and performance across shifted populations."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Probability Calibration under Class Prevalence Shift: A Comparative Evaluation"
+    },
+    {
+      "id": "P2",
+      "title": "Calibration Sample Size and the Stability of Post-Hoc Probability Estimates"
+    },
+    {
+      "id": "P3",
+      "title": "Subgroup Reliability Diagnostics for Classifiers Evaluated under Prevalence Shift"
+    },
+    {
+      "id": "P4",
+      "title": "Interactions between Prior Probability Correction and Post-Hoc Calibration: An Empirical Study"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Reporting Utilities",
+      "bullets": [
+        "Implemented assigned Python utilities for validating incoming tabular records, handling malformed fields, and generating summaries for existing internal reporting workflows.",
+        "Added regression tests for parsing and validation behavior, investigated reported processing failures, and documented expected inputs and error handling."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Linear and Nonlinear Classification Models",
+      "bullets": [
+        "Implemented classification pipelines using logistic regression, support vector machines, and random forests, with preprocessing fitted exclusively on training partitions.",
+        "Compared predictive discrimination and probability quality using stratified cross-validation, examining how feature scaling and hyperparameter selection affected each model."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Bootstrap and Analytic Confidence Intervals for Regression",
+      "bullets": [
+        "Implemented residual bootstrap, pairs bootstrap, and analytic confidence intervals for linear regression using Python and NumPy.",
+        "Compared empirical coverage and interval width across simulated noise distributions, assessing sensitivity to heteroscedasticity and departures from Gaussian errors."
+      ]
+    }
+  ]
+}

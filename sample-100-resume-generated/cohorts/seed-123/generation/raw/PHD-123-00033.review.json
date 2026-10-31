@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:23:26.901581+00:00",
+  "request_hash": "2284695a2ddbb52d6f9b51f4ac12c277d58a20c036ec455abf58afae469c6ea1",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented ridge and lasso regression workflows with standardized predictors, nested cross-validation, and synthetic datasets containing correlated features.\", \"Compared predictive error and coefficient stability across regularization settings, examining how predictor correlation affected variable selection and estimation variability.\"], \"id\": \"T1\", \"title\": \"Regularized Regression with Correlated Predictors\"}, {\"bullets\": [\"Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression using shared likelihood definitions and matched prior settings.\", \"Compared posterior summaries, predictive log loss, and optimization behavior on synthetic classification datasets with varying sample sizes and feature dependence.\"], \"id\": \"T2\", \"title\": \"Approximate Inference for Bayesian Logistic Regression\"}, {\"bullets\": [\"Implemented kernel ridge regression and Gaussian process regression with radial basis kernels, using common preprocessing and validation splits.\", \"Compared held-out prediction errors and computational demands across kernel settings, inspecting residual patterns for misspecification on nonlinear regression tasks.\"], \"id\": \"T3\", \"title\": \"Kernel Methods for Nonlinear Regression\"}, {\"bullets\": [\"Implemented percentile, basic, and bias-corrected bootstrap intervals for estimating population means from simulated skewed and heavy-tailed distributions.\", \"Compared empirical coverage and interval lengths across sampling conditions, documenting sensitivity to extreme observations and the number of bootstrap resamples.\"], \"id\": \"T4\", \"title\": \"Bootstrap Confidence Intervals for Skewed Data\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Class Imbalance and Post-Hoc Probability Calibration: An Empirical Comparison of Temperature Scaling and Isotonic Regression\"}], \"research\": [{\"bullets\": [\"Designed controlled experiments comparing standard and importance-weighted conformal prediction under covariate shifts in synthetic regression datasets.\", \"Analyzed empirical coverage and interval width across shift conditions, examining sensitivity to density-ratio estimation and calibration sample composition.\"], \"id\": \"R1\", \"title\": \"Conformal Prediction under Covariate Shift\"}, {\"bullets\": [\"Designed experiments comparing temperature scaling, isotonic regression, and uncalibrated classifiers across controlled class imbalance conditions and held-out evaluation sets.\", \"Analyzed reliability diagrams, Brier scores, and class-conditional calibration errors to distinguish calibration effects from changes in discrimination and class prevalence.\"], \"id\": \"R2\", \"title\": \"Probability Calibration under Class Imbalance\"}], \"work\": [{\"bullets\": [\"Implemented Python routines for validating incoming tabular records, handling missing fields, and producing consistent outputs for downstream application components.\", \"Added regression tests for malformed inputs and revised error handling to support diagnosis of failed batch processing jobs.\"], \"id\": \"W1\", \"title\": \"Batch Data Validation and Processing\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00033\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.52, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T4\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2025-06\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 25, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2024-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2024-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 12, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2023-07\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0d6a13d36b69050d016ae615ff11dc87d09fe07b3d869cb523",
+    "object": "response",
+    "created_at": 1793463807,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463809,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0d6a13d36b69050d016ae6160028ac87d09113368385325dc1",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hYBDDn1l_HAdPVi77ztVymW3H5WQp1lYWR0MS2T_oY8Lu7FDDIpo1u2z-n4I8eFbIe-hGM187-a1YNfsPuG-Ayr1pPLqD7Hv7PvB62X-lqMph6fUHR9-8U0vCgwIlBD26H3iYKHARC0wdH3CJa04jJLzO5XUz1cq3-CsIuE4VS5xOhlGWBj0MTrca_QPzMXL8NJt5GVIjN19vsGfdHUhRqsV-bX07a9zSbFqznrVlBltb1IH1px2vAIzHACKTFkj_wbE1Nvv-hqJUkZidxhjHNW1Klbd8vU5TiQ33aVDz5toyxrtZNGjE3tGzye_hGF4AayUpSnr2ZWbJphpK4PCr6NO1iU-I4kHfpDzlSqZr5t82Mhd2FNJkA8Ci3mkJBtAbwtWfDvvOx_tiI0GdyeK4L7DlgY5T92Wr42B0qLEkQFg0Du9zDbancid9vuiMFw49UbAKdJvaLCaQWwZ2Ne-PBIw2fKjNviBDMNGZ3Rz1K9eHGfDzTiwC5BPYhgkkgR9_6szcLFaI5ZB8jHqYKIz0hcGhhUlC7i4BUd8zQco1Jz9mxExMwYDWEbyXvJ6NJwVfTgdGAsfrOVG8MhHQ42fLK3ji_olSuiZx_h2_Va8XIQ0VsFX_nAaZUk5Hjh0SGUNj6J2A9lS5bR_rhUmQ7wNsyiskPm50l_ULY3pWTkWod7ebl_1dbxyxu9KTK5xykHp-xf1_X7EIgOksTC46Q7tLbp7yAGm5VML7p-cVcOxBb3yVhj5xI26IRxxwoHzeMrkUz8EFbmoeVxCZ7Lj6XPSkYl8BNXXP1DjNQot51zn-YXpvtkgacw0HKDcTIxCVOtwMlNM8eMsTmmC-ljSMHBIVEhocwocKdgugcbc3ZTzvj4rD2Yz-E5GqHaOonnaBSK57J_hnhfPIohnNYzHoaUur93x4YJLOkZ0QqtlcWKdLguAuST1TkxS2ppSokpnND7pHOAQ6j5zUc3Rog09Mhvxt9limqnF-8GAAfl_Szl2TCq6oq4alAQu0KO0V_08qv5tjx88ogd7dheOyocnf9a-BXoMSRfsgRWaZ_OKYWJLh47F2QxRXCu0TSo0EXQVI41NsukdFTH03NHpzrKoKdxyxZ7ciZ_6ImoDer7uIa4RPURnNjqmtt06HpDluHXOHaJXJqwUF-wJEFf4BuuqkO9FSlBEp4w5LTI0PAEMclTevhlmjZTe-mQLNrO6vi4OCtWYVdAGiK-N6GG1mMBN-LvbKZq5PAMDIN-ey2bTWiJpLKxZcjSD4PYZKDxejdfesujqsk9DlraIXCipVIFadYXp8WLMIT23xHC3i6ZiAaQJj20e5c7beDWc_Rd-HpGfoBE6MwarYt256PQLLAaglObQz99e-T_1mlwgnYF2OuPw-f6dZmf4EZeMCen2Ue4lR-QUMra2tf2t0573arnB8IhPEWnz5nXrFEV8Oh93PoeVJetuvqcmuAYf8odoY9kaGzamuF4nE2SdpstfBRnezt97WXtge2UlTDKziSwXkPXYvzDP3CghcYW91paPqzg-S03w7W12zfA4w3J5lm88mmjFyWU_tGY1gXTHyYKlrs1lXphI3w-hw7a3pagxaedQnDbY8y1V1obHglZ1JUDe9utA6H-806ngVMOWdAGJTxHxBimzV9dQvGpqsrUlTkBTTFCBfb1MG12Kl7QeSZ21-oqintieuC3BW82rdMQKAtl0GJhEtasCatybV2lkHG618R9nYo_etMjcd_AEelMwGuP8mF4227raNxEslgCNJTsd5VqYS3gGcmxOnqj0gF79tRg58st",
+        "summary": []
+      },
+      {
+        "id": "msg_0d6a13d36b69050d016ae61600ebec87d08e3d2662289d16c2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1386,
+      "input_tokens_details": {
+        "cache_write_tokens": 1383,
+        "cached_tokens": 0
+      },
+      "output_tokens": 44,
+      "output_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "total_tokens": 1430
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:23:13.184267+00:00",
+  "request_hash": "abd5805c4bf250f7f0420ccbf81d1f7cc444ad25eeda61e7a8f5f3da683e6520",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a scikit-learn baseline with missing value imputation, feature standardization, and regularized logistic regression for a tabular classification task.\", \"Compared regularization settings through cross-validation on training data and summarized held-out predictions using confusion matrices and probability-based evaluation metrics.\"], \"id\": \"T1\", \"title\": \"Regularized Logistic Regression for Tabular Classification\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Implemented assigned routines for grouping predicted probabilities into bins and computing calibration summaries using NumPy.\", \"Ran prescribed logistic regression experiments on tabular data, checking probability outputs and documenting discrepancies between calibration plots and aggregate metrics.\"], \"id\": \"R1\", \"title\": \"Calibration Assessment for Binary Classifiers\"}], \"work\": [{\"bullets\": [\"Updated inventory records from receiving paperwork, checked item descriptions against delivery documents, and flagged discrepancies for supervisor review.\", \"Prepared order packets, maintained filing records, and coordinated routine status updates with staff handling incoming deliveries and outgoing orders.\"], \"id\": \"W1\", \"title\": \"Inventory and Order Records Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00015\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"C+\"}, {\"course\": \"Algorithms\", \"grade\": \"B\"}, {\"course\": \"Machine Learning\", \"grade\": \"B-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.18, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"assigned implementation tasks\", \"end\": \"2026-11\", \"hours_per_week\": 10, \"id\": \"R1\", \"months\": 1, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-10\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-10\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 9, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2026-01\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0b85de1f84936613016ae615f1549487d0b048f9914eebbbc9",
+    "object": "response",
+    "created_at": 1793463793,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463795,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0b85de1f84936613016ae615f284bc87d089ccb89110ecd952",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hXzuv7wBDcMxlTSQDG6Pq_0Z3qTxqxxQRaLy3PgKtnPXquR57sA2K8ujtUq3l20n6rqvQY2v7sMD1EZznjKsfW8UhCV41w76SMM4CSL6BSHFQFljiWVexiO4a0veIY3xjEhMY-OTdfQVHkbDAmMQjtjgSEDMNuh3dF5P9LZw3uBfohXXSs9moimf4Q02sEMhnpjdUXiBbL3Y-qAAn2jEWOtYpkLpH4GaqUKBAKHR0nuxIzcOrWpUpqee4Quv3vrdVFKXlOF-9EHtH-mWCrq8h_btVlnxMwmtXfamp5dkEgQ1rEOrEK6xkt6dODCVi2Um85QspAy-NOtfUfyPcf7-nonJXJCyIpo2ul03swJ9wCn1hL0BlvpQadz-mCl3skebsJgKSnaHRQmBH9O_yUq7WAH6WRT3lK0M14XVawxGs5P2sMsJ8x1KbHvHgmrrmJ6IR-wRM2UeuBx8h-UY-A2Dd8q6S62sLau2MEt8d5tpWvK1NiCPIOOMPqy5gdjCa741B1RjDTS_MO51kvV-6uZQoeLTIFRuznUbMgSST_8RpFfsOY9_aBV-Mz09zq9RBnM9u1yk5dDydk_bhDdI1_jHCbD6NrbVBhlDD9sT6-zsq12uXJv7JD0CMcALm6Vl_uDmGic1Kz96CIz38Q4DrHBwivawHLR-67M8T9YIKvMu45uy-tSwp_m_OkPrzTI9DoGTShygA4vdpDVotA1cgqln2niRmMsjOWSDUCGQjgSJT7dNo3V8nFM5IKT7mDTg5dEAoIJ4vrjW_DFwHAhAsBi5ViXgU3MAxtwYaI9dtqDfj44y1ipZFVcYtBcwP9cfqldEFReK7RFJ8F1qxiZGUh6dpWRSMLLP3wwhQHw5jLJ31zkzfBS8cI4ILuF2zzKD7cTZXqs97pnMt9rdkikONOciZNI74E4BxLwWAmEHMOUcy0OUkxvfwxsoOXzgyDDCH72SaMw7qYTXnhyBSoCPWcGv3qlf2VIIBDkc85Gn_dNdyGYtcSYKtX84XIRx7HdUJI2pbljt2fUIhYdcU2b9JRgoo0GcyE1wVj4IE_jO6zMLyqVTgT-tHpACB2kkXN-34UZLmc303Spn--EgdPwrfTaq1Cp6alUW12WDxaYDZyZinlTJWIIVaW4irOFg2a0LooNDoiIltRBq7wEhvCw7v2FPn5hzLYn0jWs1Koh63Xo5gDUES0Eifu3RJ0yg4eAaFOT_lJ0M-n_sGq5UxoTLZorjpmQmnP4TvlRh_6UNUxmTY9eX2cHhsujfbIJmrj-cqHmrEauZr8zc2qPCcI4-b-YEXnoTgTZeVEr3aCdblJMn9aTvIqJrs7mGIhBzx5X17SSI9z_JdWdCdkfdJii16zNpQPD25MVAMzxfW9StPNiQTj1O660Uno02z1q6I04u6UJSQKut6gOupQi2xKWEkewTTrOpjKIoEZtKHLjx5haLALeEvECdSwYWc2h9wbGcKTxwrSkk37AeTmf4VnhV-nPtMcAzidtrxCrfyaOihAX-DeE-YRkGOGeLrn0y9SX5VdDZDlTkbF7d1OSJ8SL23y8u7JCB41OFgpuz_8v3LfgjsYAtWYyA8ABIDcXClnyPJPSBwMY2z26CmkduVHYNmZUZTBt6U_DJmHD2yOMFvXV_RjKvdjeSUdpckjvdw7aIuZzvgxUFFhEoks3O7UJEDDVz2_WaBX583GcbAYKxXbGTGP0moF0evNCrwz9oTW-asIkE8Ucrhy5KTBdf-tKdtGj5GxcLdALyYxrPCP6qLq78-mF5tRTxQCqR6S8zQ-tPKppax8i",
+        "summary": []
+      },
+      {
+        "id": "msg_0b85de1f84936613016ae615f356f887d0b77e19fb95c4d2ff",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 803,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 45,
+      "output_tokens_details": {
+        "reasoning_tokens": 27
+      },
+      "total_tokens": 848
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:19:03.036060+00:00",
+  "request_hash": "a18fb057ca4f61e2ccb729ab5a102d7ec353bfa101e17e25aa08fd98e038740c",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented image matching pipelines using SIFT and ORB descriptors with nearest-neighbor matching and robust homography estimation on paired scene images.\", \"Compared matching precision and geometric alignment under rotation, scale changes, and partial occlusion, documenting failure cases associated with repetitive textures.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Local Feature Matching\"}, {\"bullets\": [\"Implemented frozen-feature classification and partial fine-tuning of a pretrained convolutional network, using identical data partitions and preprocessing for comparative evaluation.\", \"Compared validation accuracy, training behavior, and classwise confusion across adaptation settings, examining sensitivity to augmentation choices and the extent of layer freezing.\"], \"id\": \"T2\", \"title\": \"Transfer Learning Strategies for Image Classification\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Confidence Calibration in Data-Limited Image Classification: Effects of Class Imbalance and Temperature Scaling\"}], \"research\": [{\"bullets\": [\"Designed controlled experiments comparing object detectors under motion blur, sensor noise, and compression artifacts while holding training data and evaluation splits fixed.\", \"Analyzed detection errors by object size and corruption severity, separating localization failures from classification errors to assess sensitivity to image degradation.\"], \"id\": \"R1\", \"title\": \"Robustness Evaluation for Object Detection Under Image Degradation\"}, {\"bullets\": [\"Designed experiments comparing segmentation models across daylight and nighttime street imagery, controlling augmentation settings and training schedules to isolate domain effects.\", \"Analyzed classwise overlap scores and boundary errors, examining whether illumination changes disproportionately affected small objects and visually similar foreground categories.\"], \"id\": \"R2\", \"title\": \"Cross-Domain Evaluation of Semantic Segmentation\"}, {\"bullets\": [\"Designed experiments varying training subset size and label imbalance to evaluate confidence calibration in convolutional image classifiers using held-out validation data.\", \"Analyzed reliability diagrams, calibration error, and classification accuracy before and after temperature scaling, distinguishing aggregate trends from minority-class confidence patterns.\"], \"id\": \"R3\", \"title\": \"Calibration of Image Classifiers with Limited Training Data\"}], \"work\": [{\"bullets\": [\"Implemented assigned image ingestion components that checked file formats, normalized metadata, and routed malformed uploads through existing application error handling.\", \"Added regression tests for decoding failures and duplicate submissions, and investigated processing defects using application logs and reproducible image fixtures.\"], \"id\": \"W1\", \"title\": \"Image Ingestion and Validation Utilities\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00031\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.59, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2026-01\", \"id\": \"P1\", \"research_id\": \"R3\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 15, \"id\": \"R2\", \"months\": 3, \"organization\": \"Research Lab 2\", \"role\": \"Research intern\", \"start\": \"2026-05\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-05\", \"hours_per_week\": 10, \"id\": \"R3\", \"months\": 13, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-04\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2025-04\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 6, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2024-10\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_02ace8d4aa07413f016ae614f730b487d0aa334c46d65ecb19",
+    "object": "response",
+    "created_at": 1793463543,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463545,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_02ace8d4aa07413f016ae614f8369087d0b4d0c65784f76bd5",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hT5CUtHp8oOnLcGpjFAajyif1HsuwpzIfb-SVpwNkwzoURVjX_eIBlKC-AZB65HGzIdXJVGECXZy8WzlFnXideVXS4kuHaK4RiWLjIPqw3TYesq7LLI5-2w18kIa7PWcdyUgAhg8-K5VbWiLsY32m1LAmQi4-glPC8K1plrgpTCmVp5O3x_JPz_YNb7CiQzgu6tCILr2gdbnj4u9nJ0__45xpJUdLM37em1hi0PvhQmngAdi6URURbO3hJjAHKgPLA7GEkW_UhRv7IQE9aNcOc2-nSSt8MeIYsa_iH9g5073R4lSpWrx4MNyaH_NEw-1IWUE2MT4RfG10qDfi5EQuXRhMg3lXZijIRdzCjqBBtOgFiKricW0hoBUbYMv9dmOnCtGJE23_XgQi6a3pdFEphZR-v82mKbN9YP2eLwaPhGgEs7wTRlenXvDj3nAdBRykBBljymqSrZ0NwfwnOG2or2wkibZhTqmcx-ikiOMPyEIu2DHXZK1qUjVpFrisZZNuVvG2vEq77XYFbsMK23zXrppaC7aTzE01dHO4DrK5dbIqIFRgYe10ulwdYwSLzUizQzRZl972Muer2dWxNWY-p_iYAjaumgD_DOte6_VKgJrvE4nEpUU4adwcyhhdddF1f5fE8p5JjIoSdACzqxBLHC1DobweZsBC557JYb5TYdNrsMC11wsdr9626tfbO8oey26PbPvR-COQcZeUWl_X6sSBnBugWLmZv18cdrFHPdnCbwcMUuQTI9XWvayF9963KLNN3Z_PxWXMjaGKYG73i0t54R59mOb6_WBWsTUvui4KB9v54MyX4QzwpNZMxMgn0e0u6Z3h9UsQIemBVuQ2DYby5c08pq0Q5OSfOCI228flEnr601pKimJdCUAfpBDvm40K1-mXxgny4z9b-VXC9AmKoaHq396SfsySCSVQghoUfFjCnLMYmf8BtUOIofUJgUqUvZi8Vbxi6x1B2lkyAWSDeEJv94iGk4_x3M-GPBAm05LzXF0jplCzV4pcOB9APRGDSCV-oqT0jblujR7rqUEC_8Fk2nbkRH-LtzMKGzPdNWRwl1CcbZnJKhDE-OxA54w6TQqZjhhMoGO2xD3YQAdUE1pdfaI0Y1B4fzN47K6Y7ZffAFqzti_xq763GvOvQlqvll5RzN-JQSDRoZsQ5tvCi6uLV09CwCHz8sKpKgHIN_zKSRCIXh_j0K8p5rpoKZckimiBkygRaIHwyaSGP0sxwB60Idz-t22wV9jBrl7Ye_FBOoHZm1qcKx3_k7UUFNlEAbyAKXnSjAd39JG4QHMMdASxTLUg1swccuJA8c40GAyGpn-iUnRUW1VIISGuT0Gies0p4NjvWcirgsrH43SvdJkZe2egoS4G4irLGs4VAwOCRMgnUQSQMIwiSs3yA4d70TC61z2LxIV59M3UUhpq_simg0tQBFqiqlAX46c_dsgXqAs1CYChfuT7ywRy_G46I35l6P2LE4WqC_c5XF6w6EDcZRe4NGTv7GNtQA_SjMQ20PpC0F3T0HK79Gf2OwJAymHEzNplT0REXr47eN-gTG8qFwx_iQtaJEmuuS5Pd3-KlW_POdOq4uKQR0og-UyKQf_ipqE08jta8cqJekhoXTVUDbngVyYfQBhANxJdlFpUjgp_beLLiWlVY8j8wMpJQx6ADBBhVerKMu-g8RGhxSBe9mOiDYmxjAbiH9v-X2jElBKVTUlTFk0wM0SjFBnUNQPbZTDjM5SW17NqkbaUPcwmLlSH77fB36C4xMrSkK42EU0WKBCXfoSoqUtDBk",
+        "summary": []
+      },
+      {
+        "id": "msg_02ace8d4aa07413f016ae614f93af887d0b68479e90d5ac5c0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1334,
+      "input_tokens_details": {
+        "cache_write_tokens": 1331,
+        "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 1380
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

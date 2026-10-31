@@ -1,0 +1,37 @@
+Applicant PHD-123-00019
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.62/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-09 to 2026-11 | 10 hours/week
+Robustness of Surface Defect Segmentation Under Illumination Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to assess how illumination augmentation affects convolutional segmentation models trained on images of manufactured surfaces.
+- Compared augmentation settings using overlap metrics, boundary accuracy, and error inspection, separating lighting sensitivity from failures associated with small defects.
+
+PUBLICATIONS
+Illumination Augmentation for Surface Defect Segmentation: A Controlled Evaluation. Regional applied computing conference, 2026-06; published; author position 1.
+Boundary and Small-Defect Errors in Surface Segmentation Under Lighting Shift. Regional applied computing conference, 2026-04; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs with overlapping views.
+- Compared descriptor normalization and matching thresholds using reprojection errors and visual inspection of alignment failures under rotation and brightness changes.
+Transfer Learning for Fine-Grained Image Classification | technical course project, 2026
+- Implemented frozen feature extraction and partial fine-tuning baselines for distinguishing visually similar object categories using a pretrained convolutional network.
+- Evaluated classification performance across training configurations, inspecting confusion matrices and misclassified images to characterize background dependence and subtle appearance differences.
+Comparative Evaluation of Image Denoising Methods | technical course project, 2026
+- Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted by synthetic impulse and Gaussian noise.
+- Compared reconstruction quality using peak signal-to-noise ratio and structural similarity, inspecting edge preservation and texture smoothing across noise conditions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

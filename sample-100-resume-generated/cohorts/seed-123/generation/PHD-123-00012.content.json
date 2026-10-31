@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visual Surface Defect Classification",
+      "bullets": [
+        "Prepared surface inspection images by checking defect annotations, standardizing image dimensions, and separating training and evaluation sets by source object.",
+        "Implemented a prescribed baseline using histogram of oriented gradients and a linear support vector machine, reviewing confusion matrices across defect categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Foreground Segmentation in Fixed-Camera Scenes",
+      "bullets": [
+        "Organized fixed-camera image sequences, checked foreground masks for annotation inconsistencies, and applied the supplied sequence-level split for baseline evaluation.",
+        "Implemented frame differencing and threshold-based segmentation baselines, comparing predicted masks with annotations and inspecting errors caused by shadows and illumination changes."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Color Histogram Baseline for Image Retrieval",
+      "bullets": [
+        "Implemented a nearest-neighbor image retrieval baseline using normalized color histograms and distance calculations for ranking images against a query.",
+        "Evaluated retrieval rankings against category labels and inspected mismatched results to identify limitations from similar colors and differing object arrangements."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Principal Component Baseline for Handwritten Character Recognition",
+      "bullets": [
+        "Prepared grayscale character images through intensity normalization and flattening, fitting principal component analysis exclusively on the training partition.",
+        "Implemented nearest-neighbor classification on projected features, comparing it with raw-pixel classification and reviewing confusion between visually similar characters."
+      ]
+    }
+  ]
+}

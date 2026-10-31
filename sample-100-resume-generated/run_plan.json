@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-31T16:17:42.086296+00:00",
+  "purpose": "User-authorized live validation with 100 PhD applicant resumes",
+  "model": "gpt-6-astra",
+  "review_model": "gpt-6-astra",
+  "model_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+  "model_selection": "Quality-first reasoning model with Responses and Structured Outputs support; account access verified.",
+  "baseline_config_hash": "1329de7febedeaae2c7259a0f7e99b6f7b7ff5987d735b72222b189bc5a2c91b",
+  "implementation_hash": "6eec4c2b77ff752d8ff20edbbaebf022f0adadc96df36d0e8d028e1abe1f3f9b",
+  "expected_selected": 100,
+  "expected_pool": 150,
+  "max_parallel_cohorts": 3,
+  "cohorts": [
+    {
+      "seed": 123,
+      "path": "cohorts/seed-123",
+      "profiles": 33,
+      "pool": 50,
+      "strength_counts": {
+        "strong": 14,
+        "weak": 13,
+        "borderline": 6
+      }
+    },
+    {
+      "seed": 456,
+      "path": "cohorts/seed-456",
+      "profiles": 33,
+      "pool": 49,
+      "strength_counts": {
+        "strong": 12,
+        "borderline": 8,
+        "weak": 13
+      }
+    },
+    {
+      "seed": 789,
+      "path": "cohorts/seed-789",
+      "profiles": 34,
+      "pool": 51,
+      "strength_counts": {
+        "weak": 15,
+        "borderline": 5,
+        "strong": 14
+      }
+    }
+  ],
+  "limits": [
+    "Small validation sample; provisional PhD distributions are not empirically calibrated.",
+    "Same-model review in a separate context is not independent-model or human validation.",
+    "Cohort-relative strength labels are metadata and do not appear in resumes.",
+    "The original pipeline does not automatically repair rejected CV content."
+  ]
+}

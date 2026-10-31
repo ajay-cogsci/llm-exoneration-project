@@ -1,0 +1,29 @@
+Applicant PHD-789-00043
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.34/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+None reported.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-08 to 2026-11 | 10 hours/week
+Support Ticket Text Processing
+- Implemented Python routines to normalize support ticket text and validate required fields before ingestion into an existing classification pipeline.
+- Added regression tests for malformed records, missing descriptions, and inconsistent encodings; documented processing failures for maintenance follow-up.
+
+TECHNICAL PROJECTS
+Baseline Sentiment Classification of Product Reviews | technical course project, 2026
+- Implemented a scikit-learn sentiment classification baseline using TF-IDF features and logistic regression, with separate training and evaluation partitions.
+- Compared predictions against a majority-class baseline and inspected misclassified reviews for negation, mixed sentiment, and vocabulary absent from training data.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

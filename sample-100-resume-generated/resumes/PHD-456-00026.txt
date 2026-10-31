@@ -1,0 +1,33 @@
+Applicant PHD-456-00026
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.34/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Preprocessing and Evaluation for Support Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and label mapping routines for support request classification, following existing preprocessing specifications.
+- Ran prescribed classification evaluations and inspected confusion matrices, documenting mislabeled examples and recurring ambiguity between related request categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-07 to 2026-10 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming deliveries against packing slips, recorded inventory discrepancies, and routed missing item reports to the appropriate staff.
+- Updated order status records, organized shipping paperwork, and coordinated routine pickup arrangements using established office procedures.
+
+TECHNICAL PROJECTS
+TF-IDF Baseline for Movie Review Sentiment Classification | technical course project, 2026
+- Implemented a sentiment classification baseline using TF-IDF features and logistic regression, fitting the vocabulary only on training reviews.
+- Compared unigram and bigram feature settings on validation data, then reviewed test errors involving negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

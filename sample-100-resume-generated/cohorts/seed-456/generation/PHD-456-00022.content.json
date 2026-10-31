@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Prediction Interval Coverage Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine split conformal prediction under controlled changes in input distributions for regression tasks.",
+        "Implemented evaluation routines comparing interval coverage and width across shift conditions, using repeated data splits to characterize variability."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration in Imbalanced Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to compare probability calibration methods across class imbalance settings, separating model fitting, calibration, and evaluation data.",
+        "Evaluated logistic regression and neural classifiers using reliability diagrams, Brier scores, and log loss; examined sensitivity to calibration sample composition."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Maintenance",
+      "bullets": [
+        "Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries before downstream processing.",
+        "Maintained batch processing routines and added regression tests for reported defects, documenting expected behavior and failure cases for code review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression comparisons on synthetic and tabular datasets, using standardized predictors and cross validation for penalty selection.",
+        "Compared held out prediction error and coefficient stability under correlated features, documenting how regularization affected model sensitivity across repeated splits."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Estimation and Cluster Assignment",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models in NumPy, including covariance regularization and convergence checks for stable parameter estimation.",
+        "Compared mixture models with k means on synthetic datasets, examining cluster assignments and sensitivity to initialization under overlapping and anisotropic distributions."
+      ]
+    }
+  ]
+}

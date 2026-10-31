@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Uncertainty Under Changing Missingness Patterns",
+      "bullets": [
+        "Formulated a research question on uncertainty calibration when feature missingness patterns differ between training and deployment populations.",
+        "Led development of a missingness-aware calibration procedure, comparing pooled and pattern-conditioned residual quantiles under simulated changes in feature availability."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Stable Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated research questions about unstable importance weights in conformal regression and led development of regularized density-ratio weighting procedures.",
+        "Designed comparisons of weight clipping, calibration sample reuse, and overlap diagnostics, examining empirical coverage and interval width across controlled distribution shifts."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Regularized Density-Ratio Weighting for Conformal Regression Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Overlap Diagnostics and Calibration Sample Reuse in Weighted Conformal Regression"
+    },
+    {
+      "id": "P3",
+      "title": "Weight Clipping and Coverage Sensitivity in Conformal Prediction Under Covariate Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers within existing batch processing workflows.",
+        "Added regression tests for parsing failures and revised error messages, documenting reproduction steps and expected behavior for maintenance handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Probabilistic Classifier Calibration",
+      "bullets": [
+        "Implemented logistic regression and neural network classifiers, applying temperature scaling and isotonic regression to held-out predictions.",
+        "Compared reliability diagrams, log loss, and calibration error across class imbalance settings, keeping preprocessing and evaluation splits consistent."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse Regression With Correlated Predictors",
+      "bullets": [
+        "Implemented coordinate descent for lasso regression and compared fitted models with ridge and elastic net baselines.",
+        "Evaluated prediction error and coefficient stability on synthetic correlated designs, selecting regularization parameters through cross-validation without using test observations."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Approximate Inference for Bayesian Logistic Regression",
+      "bullets": [
+        "Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression using a shared Gaussian prior specification.",
+        "Compared posterior predictive probabilities, uncertainty estimates, and optimization behavior across sample regimes, checking sensitivity to initialization and prior scale."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Kernel Two-Sample Testing for Distribution Shift",
+      "bullets": [
+        "Implemented maximum mean discrepancy tests with permutation calibration and compared them against classifier-based tests for detecting distribution changes.",
+        "Evaluated false positive behavior and detection sensitivity under simulated location, scale, and mixture shifts, examining effects of kernel bandwidth selection."
+      ]
+    }
+  ]
+}

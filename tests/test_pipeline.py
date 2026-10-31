@@ -95,6 +95,20 @@ class SamplingTests(unittest.TestCase):
             for row in pool:
                 self.assertEqual(validate_profile(row), [])
 
+    def test_equal_cell_selection_is_not_coupled_to_preparation_draws(self):
+        cfg = config()
+        cfg.update(n_per_cohort=400, oversample=200)
+        # One pathway makes the performance-quintile cells equal-sized, so
+        # inverse-frequency selection should not favor high preparation.
+        cfg["pathways"] = {key: float(key == "bachelors") for key in cfg["pathways"]}
+        pool_levels, selected_levels = [], []
+        for seed in cfg["seeds"]:
+            pool, selected = generate_cohort(cfg, seed)
+            pool_levels.extend(r["latent_preparation_quintile"] for r in pool)
+            selected_levels.extend(r["latent_preparation_quintile"] for r in selected)
+        difference = sum(selected_levels) / len(selected_levels) - sum(pool_levels) / len(pool_levels)
+        self.assertLess(abs(difference), 0.15)
+
     def test_no_analysis_metadata_in_cv_or_writer_input(self):
         row = generate_cohort(config(), 123)[1][0]
         for field in ("strength", "strength_status", "latent_preparation_quintile", "perf_quintile", "performance_index"):

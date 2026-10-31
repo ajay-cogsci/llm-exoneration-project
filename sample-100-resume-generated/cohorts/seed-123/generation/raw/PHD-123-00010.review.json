@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:18:19.227710+00:00",
+  "request_hash": "1756506b64c60e1c43fa22fc1cfa8f6456597613d292731b4b5b555f959c373a",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented a logistic regression baseline for handwritten digit classification using normalized grayscale pixel features and a prescribed training split.\", \"Compared predictions with reference labels using a confusion matrix, and inspected representative errors involving ambiguous strokes and off-center digits.\"], \"id\": \"T1\", \"title\": \"Handwritten Digit Recognition with Linear Classifiers\"}], \"publications\": [], \"research\": [{\"bullets\": [\"Prepared surface inspection images by checking label consistency, removing duplicate samples, and organizing training and evaluation splits by source object.\", \"Implemented a baseline classifier using local binary pattern features and a support vector machine, then inspected confusion patterns across defect categories.\"], \"id\": \"R1\", \"title\": \"Visual Surface Defect Classification with Texture Features\"}, {\"bullets\": [\"Organized indoor scene images into predefined categories, checked unreadable files, and applied consistent resizing for the supplied evaluation protocol.\", \"Implemented a nearest neighbor baseline using color histograms, and reviewed misclassified images to document ambiguities between visually similar scene categories.\"], \"id\": \"R2\", \"title\": \"Baseline Recognition of Indoor Scene Categories\"}], \"work\": [{\"bullets\": [\"Checked incoming delivery quantities against packing slips, recorded discrepancies, and routed unresolved items to the responsible staff for follow-up.\", \"Maintained order paperwork, organized stockroom supplies, and prepared routine handover notes covering pending requests and outstanding delivery issues.\"], \"id\": \"W1\", \"title\": \"Inventory Records and Order Processing Support\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00010\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"B\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"B\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2025-05\", \"institution\": \"University A\", \"start\": \"2021-09\", \"status\": \"completed\"}, {\"degree\": \"MS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University B\", \"start\": \"2025-09\", \"status\": \"in progress\"}], \"gpa\": 3.7, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"baseline implementation\", \"year\": 2026}], \"publications\": [], \"research_area\": \"computer vision\", \"research_experience\": [{\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"data preparation and baseline implementation\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 1, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2026-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\"], \"work_experience\": [{\"domain\": \"nontechnical\", \"end\": \"2026-07\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 6, \"organization\": \"Company A\", \"role\": \"Operations assistant\", \"start\": \"2026-01\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_08a710729e588dfd016ae614cb634887d08f23e626fc18f517",
+    "object": "response",
+    "created_at": 1793463499,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463501,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a710729e588dfd016ae614cc631887d0a7ec866b5645768f",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hTNBOnoUB9EAL72bdn6Tt4GN4QgVCJEeDO4jwtf8PAE6t5I9OvLug8LDYkxae2RWfowuZ6x9zkh0VpHTQW6oFY0EPnnyB4TAo4hER-clAVhI_cWkG9An_D4y1LMcupAMkr56ZVdwS5qwd-oHdlQgnDtbm3jjh2IbQImZKrGBmu8-7yo-eEfZcboP9U42n7UQsXY3PaX99SjLlERwfdTJ6D-lMoSNZRA_ncBff74OAQiaQwh8vMCSZn7qbarQa5Wv7t_HX5F75nETht5InwKkvC-3Im1c2otHGdarya55xrqOkqGkKPb6i7JrdZmBWoEsI2fXb9D_CVxuQK0uot17cKmlzDAjjMXvjgWa-kiDb0qCwMk8B4VyO4TXcKdzYxgiVhD4CJoCXmG7qSNmGnxnpcxGTSwcTPfkaxDmPjE5bd9J8LuuzPRKiSXkJ5RopoFded9VA4CVGksg9E7MBqJlUF9mf_G3TGrfYja3KNKHJHwx9_64x0aNCy-uZT20g0olO3aNAOODboXbsxjup87Y4dzbMgWzJzwxi77OdXcN1EtHt22ojmgj1X9sFtsgE4snVSF9s9KSfmVmQSkA4iRYwNDAPkDyFsR1t_yPBX_7W6IhqHlkVDLNjOIc0pjLI8QsBSPh52TGAIv3RrExRCmO3hdapRXQIIjyFN1Pwnln3iFrbb8Vrwhy5KMHPFdlW32FgHOQ-uI_sATsioTLH3wV8evxq8l2pzZ0Hdu1Spt9kr0VYS8QISHLSynXOx_v6u_xaTpgTuVIGh4ElyRduqYt7C6_pb425EUFmAA4IXtN7UFAwEB1hMXCQwjiz-tLKq-lcjVxU4UBiIa_FJA7c23VmDdc8DeflTciVHd4ObBaxcG9jh70pBDOFiOxMfWVgwlXfCJGPMwWske6qbjNUnXH5Bvv9PXi6fW95cpn36RX3xhMtQpO6BRNlUY2CYabAO3hB1Blu20sGjYoD18RhCDBlfakNNvYqPQ1-sSAAR0WfhJt0TV9DfTIVSRPoGzJIL1k2pGKRdGBfXw2aEkOCENo4AzVZBNiezJ3q5LQD1YtpwWHFFDsSN-NlbFGyTMfpzD8vH1n6U4X3bAuN1k57Bl1prIwxAWLCS0cBTELj4yVWc_hsggFdRbG5bhbA2cq_xFpabizkpHh-FB1vlGZO-HJR6ZE0V5oOZnDxZ-yV-dxWvC9FU5H0JLScvBYblkXiMsn6C4TnwMm5FCDYQaLxcni0sdc9L2oxhhPwrAy9H83Cv4MLK8CjJ8sbewBZhGmEdWFwhrxCzRfgZaWSuzRsPeZXMbEwx5ceFaWHAaRRzJDsI4Ticv5MyOMBl3Xfl0jIiWX0ImjU8WjRfXaoC4X-NSAFNMDSRJ0ojGcXai-BFjq32YGo8RVhZdR2hJ0Zud3OSkCVYmQViwQMpZIrMNORl3ydyF3BHF5jkBn5MtO_QLEQtjmxPWJ12lxQSF1ywug0YoM_O-WkOq1Od2Qowo6UKKBzKUU_9PITf5H8cU6D-PbqxIukPxF9USr2ATR7UxStGmEZ8zb5z_YTBmxhJcp-xahQ6My7CJnWjpJsG4gtvlwm_PhDDTRH6osZH9wixON1zIEAk9DUogomgoEbxpcTintl5576p1HqkDKvddX-r4oaA3ZGIIYV3BUfsUyzrfpV0mt7Z7p4Qe4MnUl6zl63efjgtmEzLhkOvfWKf3xWPN18ylzrs=",
+        "summary": []
+      },
+      {
+        "id": "msg_08a710729e588dfd016ae614cd05c887d09dea367ce03f1c38",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 984,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 24
+      },
+      "total_tokens": 1026
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

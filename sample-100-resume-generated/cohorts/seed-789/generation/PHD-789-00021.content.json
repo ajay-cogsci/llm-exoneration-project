@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and feature extraction routines for classifying support requests using TF-IDF representations and logistic regression.",
+        "Ran prescribed evaluation splits, inspected confusion matrices, and documented classification errors involving ambiguous requests and overlapping category definitions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Validation Utilities for Text Record Imports",
+      "bullets": [
+        "Maintained Python import routines for text records, adding checks for missing fields, duplicate identifiers, and inconsistent character encoding.",
+        "Reproduced reported import failures, updated validation logic, and added regression tests covering malformed records and expected error messages."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Review Sentiment Classification",
+      "bullets": [
+        "Implemented multinomial naive Bayes and logistic regression baselines with scikit-learn to classify review sentiment from bag-of-words features.",
+        "Compared models on a held-out split using precision, recall, and confusion matrices, then inspected errors associated with negation and mixed sentiment."
+      ]
+    }
+  ]
+}

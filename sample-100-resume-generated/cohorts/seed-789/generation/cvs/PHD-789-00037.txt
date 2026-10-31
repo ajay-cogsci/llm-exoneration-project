@@ -1,0 +1,38 @@
+Applicant PHD-789-00037
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.82/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Class Distribution Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare temperature scaling and isotonic regression under controlled changes in class prevalence.
+- Evaluated calibration curves and probabilistic losses across held-out datasets, separating calibration sample effects from changes in the test distribution.
+Research assistant, University Research Group | 2025-10 to 2026-08 | 10 hours/week
+Regularization and Feature Correlation in Sparse Regression
+Contribution: experimental design with supervisor guidance.
+- Planned simulation experiments with supervisor guidance to examine how feature correlation and noise affect lasso and elastic net estimation.
+- Implemented repeated sampling and nested cross-validation, summarizing coefficient stability, variable selection consistency, and prediction error across experimental conditions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Missing-Data Imputation Strategies | technical course project, 2026
+- Implemented mean, nearest-neighbor, and iterative imputation pipelines for tabular classification, fitting preprocessing steps exclusively within training folds.
+- Compared downstream logistic regression performance under random and feature-dependent missingness, documenting sensitivity to missingness patterns and imputation choices.
+Bootstrap and Analytical Confidence Intervals for Regression | technical course project, 2026
+- Implemented percentile bootstrap, residual bootstrap, and analytical confidence intervals for linear regression coefficients using simulated datasets with known parameters.
+- Compared empirical coverage and interval width across sample sizes and error distributions, examining departures from constant-variance assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

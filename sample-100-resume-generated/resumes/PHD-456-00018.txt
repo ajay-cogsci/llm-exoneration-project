@@ -1,0 +1,37 @@
+Applicant PHD-456-00018
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.45/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-12 to 2026-11 | 10 hours/week
+Evaluating Semantic Segmentation Robustness under Image Corruptions
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to evaluate semantic segmentation under blur, noise, and illumination shifts, controlling data splits and augmentation settings.
+- Implemented corruption pipelines and compared classwise intersection over union across conditions, inspecting prediction overlays to characterize boundary errors and small object failures.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Classification Transfer Learning | technical course project, 2026
+- Implemented frozen feature extraction and end to end fine tuning for pretrained convolutional classifiers using consistent preprocessing and training partitions.
+- Compared classification accuracy and confusion patterns across training strategies, examining how augmentation choices affected predictions for visually similar categories.
+Local Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented image alignment pipelines using Harris corners and patch descriptors, comparing raw intensity descriptors against normalized patches under controlled transformations.
+- Estimated homographies with robust sampling and evaluated reprojection errors, inspecting failed matches in repetitive textures and images with limited overlap.
+Classical and Neural Approaches to Image Denoising | technical course project, 2026
+- Implemented Gaussian filtering, median filtering, and a convolutional denoising autoencoder, using matched image partitions and synthetic noise generation for comparison.
+- Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and residual artifacts across noise conditions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

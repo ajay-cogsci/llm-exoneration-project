@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Classification of Pavement Defects in Image Patches",
+      "bullets": [
+        "Prepared labeled pavement image patches by checking annotation consistency, removing duplicate crops, and organizing training and evaluation splits by source image.",
+        "Implemented prescribed histogram of oriented gradients and support vector machine baselines, examining classification errors associated with shadows, surface texture, and ambiguous labels."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Services",
+      "bullets": [
+        "Maintained image ingestion routines that checked file readability, normalized metadata fields, and routed invalid uploads for review within an existing processing service.",
+        "Added regression tests for malformed files and inconsistent metadata, investigated processing failures, and documented corrective changes for routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Color Histogram Baseline for Image Retrieval",
+      "bullets": [
+        "Implemented a baseline image retrieval pipeline using normalized color histograms and nearest neighbor ranking over a labeled collection of object photographs.",
+        "Compared histogram distance measures and inspected retrieved examples to identify sensitivity to background color, illumination changes, and visually similar objects."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Background Subtraction for Foreground Detection",
+      "bullets": [
+        "Implemented a running average background subtraction baseline for fixed camera video, applying thresholding and connected component filtering to extract foreground regions.",
+        "Examined foreground masks against manually marked frames, documenting errors caused by cast shadows, gradual lighting changes, and objects remaining stationary."
+      ]
+    }
+  ]
+}

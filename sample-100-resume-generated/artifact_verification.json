@@ -1,0 +1,11 @@
+{
+  "verified_resumes": 100,
+  "raw_generation_matches_final_content": true,
+  "raw_reviews_match_final_content_and_fixed_facts": true,
+  "raw_request_hashes_valid": true,
+  "final_resume_hashes_valid": true,
+  "exact_duplicate_prose_objects": 0,
+  "index_entries": 100,
+  "index_links_resolve": true,
+  "api_key_absent_from_saved_files": true
+}

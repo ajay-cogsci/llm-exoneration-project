@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evaluating Image Classifier Robustness to Background Changes",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare image classifiers under background replacement, using controlled foreground masks and consistent training splits.",
+        "Implemented evaluation pipelines in PyTorch and analyzed prediction changes across background conditions, documenting potential confounds from mask boundaries and object scale."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion Validation and Processing",
+      "bullets": [
+        "Implemented Python validation routines for uploaded images, checking file readability, channel consistency, and dimension constraints before downstream processing.",
+        "Added regression tests for malformed inputs and maintained preprocessing components, investigating failures through application logs and reproducible test cases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparing Feature Representations for Image Classification",
+      "bullets": [
+        "Implemented histogram of oriented gradients with a linear classifier and a convolutional baseline for classification on a shared image dataset.",
+        "Compared classification errors and sensitivity to translation using matched data splits, documenting preprocessing choices and differences between learned and handcrafted features."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented median filtering and a convolutional denoising autoencoder, applying identical synthetic corruption settings to paired clean and noisy images.",
+        "Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, examining edge preservation and artifacts across corruption types."
+      ]
+    }
+  ]
+}

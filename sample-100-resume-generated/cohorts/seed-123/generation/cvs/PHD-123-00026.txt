@@ -1,0 +1,41 @@
+Applicant PHD-123-00026
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.64/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Intent Classification Under Meaning-Preserving Paraphrases
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare intent classifier predictions across original utterances and paraphrases preserving the requested action.
+- Evaluated lexical and transformer baselines, grouped errors by paraphrase type, and inspected prediction changes involving negation and indirect requests.
+Research assistant, University Research Group | 2025-10 to 2026-08 | 10 hours/week
+Domain-Specific Lexical Cues in Review Sentiment Classification
+Contribution: experimental design with supervisor guidance.
+- Planned cross-domain sentiment experiments with supervisor guidance, separating review categories to examine reliance on domain-specific vocabulary.
+- Implemented lexical masking comparisons and analyzed classification errors to distinguish sentiment-bearing expressions from category cues across training and evaluation domains.
+
+PUBLICATIONS
+Examining Domain-Specific Lexical Cues Through Masking in Cross-Domain Sentiment Classification. Regional applied computing conference, 2026-10; published; author position 3.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-04 to 2025-10 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming delivery paperwork against received items, recorded discrepancies, and routed unresolved issues to the appropriate staff.
+- Maintained stock records, organized order documents, and coordinated routine pickup arrangements using established procedures and daily task lists.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Named Entity Taggers | technical course project, 2026
+- Implemented token classification baselines using linear and recurrent models, applying consistent tokenization and label mappings across training and evaluation.
+- Compared entity-level precision and recall, then inspected boundary errors and confusion between organization and location labels.
+Lexical and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented term-weighted and sentence-embedding retrieval pipelines to rank candidate questions, using shared preprocessing and identical evaluation queries.
+- Compared ranking quality and inspected mismatches involving rare terminology, short queries, and semantically related questions with different answer requirements.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

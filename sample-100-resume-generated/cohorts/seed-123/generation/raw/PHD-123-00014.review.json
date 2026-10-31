@@ -1,0 +1,172 @@
+{
+  "created_at": "2026-10-31T16:18:32.934017+00:00",
+  "request_hash": "4b2c5e085d8f774b6e134354053724b86427020a4acbb6eba105d2537b88e1df",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented sentence ranking using term frequency weighting and graph centrality, applying consistent tokenization and summary length constraints across methods.\", \"Compared generated summaries against reference summaries using lexical overlap measures and manually inspected redundancy, missing context, and sentence ordering.\"], \"id\": \"T1\", \"title\": \"Comparative Evaluation of Extractive Summarization Methods\"}, {\"bullets\": [\"Implemented token classification and recurrent sequence labeling baselines with shared preprocessing, padding masks, and label mappings for named entity recognition.\", \"Compared entity-level precision and recall across models, inspecting boundary mistakes, unseen entity mentions, and errors associated with infrequent labels.\"], \"id\": \"T2\", \"title\": \"Sequence Labeling for Named Entity Recognition\"}, {\"bullets\": [\"Implemented lexical retrieval and pooled neural representation baselines to rank candidate questions, maintaining identical candidate collections and query preprocessing.\", \"Compared ranking quality using reciprocal rank and recall measures, examining failures involving paraphrases, rare terminology, and superficially similar questions.\"], \"id\": \"T3\", \"title\": \"Sparse and Dense Retrieval for Question Matching\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Negation Sensitivity in Cross-Domain Sentiment Classification: A Controlled Baseline Comparison\"}], \"research\": [{\"bullets\": [\"Designed supervised evaluation protocols with supervisor guidance to isolate effects of spelling variation, filler phrases, and paraphrasing on intent classification.\", \"Compared classifier behavior across clean and perturbed utterances, examining confusion patterns and documenting ambiguities introduced by meaning-altering perturbations.\"], \"id\": \"R1\", \"title\": \"Robustness of Intent Classification to Conversational Noise\"}, {\"bullets\": [\"Designed cross-domain sentiment experiments with supervisor guidance, separating domain vocabulary effects from negation handling through controlled training and evaluation splits.\", \"Evaluated lexical and neural baselines using macro-averaged metrics, then categorized errors involving negation scope, mixed sentiment, and domain-specific expressions.\"], \"id\": \"R2\", \"title\": \"Cross-Domain Generalization in Negation-Aware Sentiment Classification\"}], \"work\": []}, \"fixed_record\": {\"applicant_id\": \"PHD-123-00014\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A-\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"B+\"}, {\"course\": \"Algorithms\", \"grade\": \"B+\"}, {\"course\": \"Machine Learning\", \"grade\": \"A-\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2027-05\", \"institution\": \"University A\", \"start\": \"2023-09\", \"status\": \"in progress\"}], \"gpa\": 3.98, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 1, \"date\": \"2026-01\", \"id\": \"P1\", \"research_id\": \"R2\", \"status\": \"published\", \"venue\": \"Regional applied computing conference\"}], \"research_area\": \"natural language processing\", \"research_experience\": [{\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"experimental design with supervisor guidance\", \"end\": \"2026-08\", \"hours_per_week\": 10, \"id\": \"R2\", \"months\": 13, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-07\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": []}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_053cbaf1f1ceb555016ae614d9167887d0a7c8a96de524bdd6",
+    "object": "response",
+    "created_at": 1793463513,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463515,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_053cbaf1f1ceb555016ae614da271887d08cdf516044ffb294",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq5hTbCqeFwDRyUeOiFEkiUqEmNJ5q6PV4ghDBloMWsrfIFHTh7hjxuLlfm55TABkHmnog1Jw7rHNp1vuWARsTqKlwQXkGEpfk9DQW5wjT3m-89R69w2y6QMoVFNQhW_-_7rSHltZiy0wS7wXdQG7gN9HMxTrakLP5AjflgtGvvZk3zLYy24rRwi2ZnczmIy_VN5tGlSWc-2aMDXAPc-FS2dsNVjMgm-c5jSM4kHTQmjTCD_16Q3FDM_UYkIwvsGxKJ-RqSLfX6EHedE3IAceFLH2Ayk7uR4VFfyQNuEh_EJ1q6moj-ZK92T93oZ5GXvzUtv6WWgjMx5MEXyrr56n0VM5SwM1x49nkT46VNJLAUrJf4LTdmAAOZeEQ01WAJwImU-fd_1cEFvtildIn4gqTIdWbvLJHTpy7wbRRSxhuWudIp-2dizatDbqGHLA3kKNBCh4mTUHjwsnwn5QLeKVYDegoHV-9YJlZJ4qjY_xd9FD1xy-q6E9PvDrBxmL_aOr4IbkivNH8Rzmyab8EhIHCRD4oYoQyi7afq_BLlP5l1woC-a-Ik-DWdw93Br5QI_NMG1FUiUmRPvcG5FHlf6myQ_wZVjGIj8BS4iTPAnIKyPGeCOpcKSEN7MeWvzjUOgVNkWw3BdyHb0QZbcKskG1VbKOdqekS_WoLHheGBCw4XWJ6bqO3Yg-0KAdaDHpB3A3Jd48vr99-iXE8XzncE3w-GnC2taT4sEAu_wlodhFcB0R9DCd7AyRFujoDzE5PfN1gIwJjSUcThd-wlvGBTMjP-oc_cunVQXtqQ0eUxNvwkX4CXy0-RwA0tgu3LmXFXCHW427u4ntFAdkVQy0uCuPpPaYKV_yy5eH6cdbwEAA-SD8UeLI-TgHIewrD7HkOFncoVNe6PND4VUF51fXmmLOhksqu90YmhwQsWVtMxrC_Kv4sg70Rsuyaj1eUN3vJE0kM7owRZD3QN-wqjlpP9P7M-V-I0rMsyswoSqLknilK38Kj8le_ou4_9T-CeMWh-6nhwwwEn3GQ7n3zwJC2jiMgAojwd6OJPUipQsgFu0SMa2bhsjCR_O1LcLNiMIyRAsM9HpTJHvnJlLxoGa0suv0JJ8DuDXXWLUUuH-6qRxbRmJB6QPYh9D-ghLUkqc_qkNB5MfQfIwaOwitEqIDfcVvpnJYCxgZjxNSezknBWx4mkU08CqMQ5A4GYZ_dFjpI1b3SCTD3fDu_KBzaCYpLsf4d4XhxZQ9fU26J_Jdy8tl2g-uzxFLvh8Ke7bgXukiA9UQ_-VoGQejffOV66xXYjtD63yLMhFzrBLwPGlg5jOZcsoLAYmBoCfRGyQjWoOo9CHPd7RDM9X6UASPtQ3pzJT5ykwjecp-pprPV9Wwvagif4ktNKwhDrguOIwgOGCWuSISUiXsewS7xLcgkNQruMsnTRV2yDAtstwqkw30X1Pg5YXoSe45KakTUcV7z_NRqLUbxXCMVIIPzMnJQvMZxcQwhGRqNK9wBZ7R83Klt25FZMx-YUU5uzldPegsS4jzt9nBhVNGFcZ0lMcCoFY9c-nMTmiobR5my-r3M2q9D-6lEuqAGUMHpmEC0l9lxoR8zksv2xlRKcGUgHiQQnF9omNvqbRqNL7VjyqxbVABFdYdHJyEoH-3e8GEs_0g7iJSiswNVF1O7xG2c9JD33TMkerliZr5nMvnJCW4Rp7ZzdXpmY3Ati0EVr0H6jVT-9d2HadOKdoJr",
+        "summary": []
+      },
+      {
+        "id": "msg_053cbaf1f1ceb555016ae614dae92087d0881d40756ebfb802",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1132,
+      "input_tokens_details": {
+        "cache_write_tokens": 1129,
+        "cached_tokens": 0
+      },
+      "output_tokens": 40,
+      "output_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "total_tokens": 1172
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

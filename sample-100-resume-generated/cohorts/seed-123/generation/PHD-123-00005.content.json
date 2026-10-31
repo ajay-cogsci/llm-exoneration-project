@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Corruption Evaluation for Visual Classification",
+      "bullets": [
+        "Implemented assigned image preprocessing routines in NumPy to apply brightness shifts and additive noise under a predefined evaluation protocol.",
+        "Ran supplied classification baselines on corrupted images, checked label alignment, and summarized confusion patterns for review by the research team."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items to the appropriate staff.",
+        "Maintained order logs, organized stockroom materials, and prepared routine handover notes covering pending requests and delivery status."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Digit Classification with Linear Baselines",
+      "bullets": [
+        "Implemented a scikit-learn logistic regression baseline for handwritten digit recognition using normalized pixel intensities and a predefined training split.",
+        "Compared predictions against a nearest neighbor baseline, inspected misclassified images, and documented recurring confusion between visually similar digits."
+      ]
+    }
+  ]
+}

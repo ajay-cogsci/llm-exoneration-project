@@ -5,11 +5,15 @@ This is a PhD-only research prototype inspired by the **structured construction 
 Its inputs are the existing project plan and the admissions sources below. The
 opportunity text and accusation/exoneration conditions are not redesigned.
 
-**Current status: locally tested prototype with provisional research settings.**
-On 2026-10-31, all 25 automated tests passed using temporary synthetic fixtures
-and simulated API responses. No live API calls were made during verification.
-This verifies software behavior, not empirical PhD calibration or rubric fidelity.
-See [verification evidence and limitations](VALIDATION.md).
+**Current status: tested prototype with 100 live-generated validation CVs and
+provisional research settings.** On 2026-11-01, all 26 automated tests passed.
+An authorized GPT-6 Astra run produced 100 CVs: 91 passed on the first attempt,
+and nine passed after logged wording-only revisions. This run exposed and fixed
+an unintended dependence between preparation and selection random streams.
+The sample, original failures, API responses, and reports are included in
+`sample-100-resume-generated/`; open its `index.html` to browse the final CVs.
+This verifies execution and automated constraints, not empirical PhD calibration
+or rubric fidelity. See [verification evidence and limitations](VALIDATION.md).
 
 The earlier `runs/pilot/` remains an unapproved prototype, preserved locally for
 audit and excluded from version control. It is not validated study data and

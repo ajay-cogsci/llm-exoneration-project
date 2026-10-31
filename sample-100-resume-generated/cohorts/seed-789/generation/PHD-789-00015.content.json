@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Classification Robustness Under Acquisition Shifts",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare image classifiers under blur, compression, and illumination shifts using consistent training splits and preprocessing.",
+        "Evaluated augmentation strategies through controlled ablations, examining classwise errors and prediction confidence to distinguish corruption sensitivity from baseline classification difficulty."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Preprocessing and Validation Utilities",
+      "bullets": [
+        "Implemented assigned image validation routines that checked file readability, channel consistency, and dimensions before passing inputs to an existing processing pipeline.",
+        "Added regression tests for malformed inputs and updated error handling to provide actionable diagnostics during routine image ingestion."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Semantic Segmentation Architectures",
+      "bullets": [
+        "Implemented a U-Net and a convolutional encoder-decoder baseline for foreground segmentation, using shared preprocessing and matched training settings.",
+        "Compared overlap metrics and inspected boundary errors across object sizes, examining how skip connections affected segmentation of thin structures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Visual Similarity Retrieval with Color and Learned Features",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent feature normalization and nearest-neighbor ranking procedures.",
+        "Compared retrieval precision using category labels and inspected mismatched results to assess sensitivity to background clutter and viewpoint changes."
+      ]
+    }
+  ]
+}

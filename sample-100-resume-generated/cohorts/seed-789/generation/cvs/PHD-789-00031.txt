@@ -1,0 +1,46 @@
+Applicant PHD-789-00031
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.72/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and isotonic regression under controlled covariate shifts, separating calibration fitting from held-out evaluation.
+- Analyzed reliability diagrams, Brier scores, and subgroup calibration errors to examine how shifted feature distributions affected predicted probabilities.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Sensitivity of Tabular Classifiers to Missing Data
+Contribution: designed experiments and analyzed results.
+- Designed comparisons of median and iterative imputation across simulated missingness mechanisms, using shared data splits and matched classifier settings.
+- Analyzed discrimination and calibration across missingness patterns, examining whether observed differences depended on feature correlations or imputation choices.
+Research assistant, University Research Group | 2025-05 to 2026-05 | 10 hours/week
+Model Selection for Classification with Noisy Labels
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating regularized logistic regression and gradient boosting under symmetric and class-dependent label corruption, with separate clean test sets.
+- Analyzed how validation label quality affected hyperparameter selection, using repeated splits and bootstrap intervals to characterize variability in model comparisons.
+
+PUBLICATIONS
+Validation Label Quality and Model Selection Under Symmetric and Class-Dependent Label Noise. Regional applied computing conference, 2026-05; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression pipelines with standardized predictors, selecting regularization parameters through cross-validation without exposing held-out test data.
+- Compared prediction error and coefficient stability on synthetic datasets with correlated features, examining sensitivity to noise and regularization strength.
+Gaussian Mixture Clustering and Initialization Sensitivity | technical course project, 2026
+- Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance matrices, including convergence checks and safeguards for nearly singular estimates.
+- Compared clustering assignments and held-out likelihood against k-means and reference mixture implementations, examining sensitivity to initialization and overlapping component distributions.
+Bootstrap Aggregation for Decision Tree Regression | technical course project, 2026
+- Implemented bootstrap aggregation around decision tree regressors, tracking out-of-bag predictions and comparing aggregated estimates with individual tree predictions.
+- Evaluated bagged trees and random forests using matched validation splits, examining prediction variability and error across tree depths and feature subsampling settings.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

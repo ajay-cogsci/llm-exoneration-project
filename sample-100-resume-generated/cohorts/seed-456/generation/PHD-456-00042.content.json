@@ -1,0 +1,82 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Uncertainty Estimation Under Changing Feature Missingness",
+      "bullets": [
+        "Formulated how changes in feature missingness affect predictive uncertainty and led development of a missingness-conditioned probabilistic regression approach.",
+        "Evaluated interval calibration against imputation baselines using controlled missingness mechanisms, separating uncertainty from unobserved features and observation noise."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regularized Class Proportion Estimation Under Label Shift",
+      "bullets": [
+        "Investigated instability in label shift correction and led development of a constrained class proportion estimator with confusion matrix regularization.",
+        "Compared regularization choices under simulated class prevalence changes, examining estimation sensitivity to calibration errors and limited labeled validation data."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Robust Weighted Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated questions about estimated density ratios in conformal prediction and led development of a stabilized weighting procedure for shifted regression data.",
+        "Designed simulation studies and diagnostic analyses comparing coverage, interval width, and weight concentration across controlled covariate shifts and density ratio estimators."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Stabilized Density Ratio Weighting for Conformal Regression Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Diagnosing Coverage Sensitivity to Estimated Weights in Conformal Regression"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Error Handling",
+      "bullets": [
+        "Implemented assigned validation checks for tabular data imports, handling missing fields, inconsistent types, and duplicate records within existing application workflows.",
+        "Added regression tests for import failures and revised error messages to distinguish malformed input from processing failures during maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sparse Regression Estimators",
+      "bullets": [
+        "Implemented coordinate descent for lasso regression and compared its solutions with reference estimators using synthetic datasets with correlated predictors.",
+        "Evaluated ridge, lasso, and elastic net regression through nested cross-validation, examining prediction error and coefficient stability across resampled training sets."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Inference for Bayesian Logistic Regression",
+      "bullets": [
+        "Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression, using shared priors and preprocessing for comparative evaluation.",
+        "Compared posterior uncertainty and predictive calibration across approximation methods, inspecting sensitivity to prior scale and class separation in simulated datasets."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Calibration Methods for Probabilistic Classification",
+      "bullets": [
+        "Implemented temperature scaling and isotonic calibration for probabilistic classifiers, keeping calibration data separate from model fitting and final evaluation.",
+        "Compared reliability diagrams, proper scoring rules, and calibration sensitivity to validation sample size across linear classifiers and neural networks."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Kernel Two-Sample Testing for Distribution Shift",
+      "bullets": [
+        "Implemented maximum mean discrepancy tests with permutation calibration and compared kernel choices on synthetic location, scale, and mixture shifts.",
+        "Evaluated rejection behavior under matched and shifted distributions, examining bandwidth selection and computation costs against a classifier-based two-sample baseline."
+      ]
+    }
+  ]
+}

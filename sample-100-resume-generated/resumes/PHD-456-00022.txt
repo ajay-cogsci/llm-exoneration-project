@@ -1,0 +1,42 @@
+Applicant PHD-456-00022
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Prediction Interval Coverage Under Covariate Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine split conformal prediction under controlled changes in input distributions for regression tasks.
+- Implemented evaluation routines comparing interval coverage and width across shift conditions, using repeated data splits to characterize variability.
+Research assistant, University Research Group | 2025-08 to 2026-08 | 10 hours/week
+Probability Calibration in Imbalanced Classification
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance to compare probability calibration methods across class imbalance settings, separating model fitting, calibration, and evaluation data.
+- Evaluated logistic regression and neural classifiers using reliability diagrams, Brier scores, and log loss; examined sensitivity to calibration sample composition.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-11 to 2025-08 | 10 hours/week
+Data Validation and Batch Processing Maintenance
+- Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries before downstream processing.
+- Maintained batch processing routines and added regression tests for reported defects, documenting expected behavior and failure cases for code review.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression comparisons on synthetic and tabular datasets, using standardized predictors and cross validation for penalty selection.
+- Compared held out prediction error and coefficient stability under correlated features, documenting how regularization affected model sensitivity across repeated splits.
+Gaussian Mixture Estimation and Cluster Assignment | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture models in NumPy, including covariance regularization and convergence checks for stable parameter estimation.
+- Compared mixture models with k means on synthetic datasets, examining cluster assignments and sensitivity to initialization under overlapping and anisotropic distributions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

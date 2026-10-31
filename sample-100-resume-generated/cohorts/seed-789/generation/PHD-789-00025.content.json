@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Image Segmentation Under Illumination Changes",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare segmentation models under controlled brightness shifts, contrast changes, and spatially uneven illumination.",
+        "Implemented image perturbation pipelines in PyTorch and analyzed classwise overlap metrics to distinguish boundary errors from missed foreground regions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Evaluating Visual Representations for Limited-Label Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance comparing frozen pretrained representations and supervised fine-tuning across controlled subsets of labeled images.",
+        "Maintained consistent data splits and preprocessing, then examined confusion matrices and nearest neighbors to characterize errors among visually similar categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Upload Validation and Processing Services",
+      "bullets": [
+        "Implemented Python components for image upload validation, thumbnail generation, and metadata extraction within an existing application processing pipeline.",
+        "Added regression tests for corrupted files and unsupported formats, and investigated processing failures using application logs and reproducible test inputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting overlapping views of planar scenes.",
+        "Compared descriptor normalization and matching criteria using reprojection error and visual inspection under changes in viewpoint, illumination, and texture."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparing Classical and Learned Image Denoising",
+      "bullets": [
+        "Implemented median filtering, Gaussian smoothing, and a convolutional denoising model for images corrupted by synthetic impulse and Gaussian noise.",
+        "Compared reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation across noise settings."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Image Classification with Handcrafted and Convolutional Features",
+      "bullets": [
+        "Implemented histogram of oriented gradients features with a linear classifier and trained a compact convolutional network on the same image dataset.",
+        "Compared classification accuracy, training behavior, and categorywise errors using shared data splits, documenting differences on texture dominated and shape dominated examples."
+      ]
+    }
+  ]
+}

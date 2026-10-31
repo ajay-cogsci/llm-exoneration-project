@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-31T16:22:16.944427+00:00",
+  "request_hash": "9b47e56b68cecddacb949e5aff81aacef6bef34c0e31180770d00a05027b4218",
+  "request": {
+    "model": "gpt-6-astra",
+    "store": false,
+    "input": [
+      {
+        "role": "system",
+        "content": "Check the fictional CV entries against the fixed applicant record.\nAssess fidelity and internal plausibility, not applicant merit or admission likelihood.\nAllowed inventions are fictional research/project/publication titles, technical subject matter,\nmethods consistent with stated skills, and qualitative activities within the supplied contribution.\nFlag changed or extra credentials, numerical achievements, invented institutions or collaborators,\nunlisted publications/awards, inflated contribution, inconsistent technical/nontechnical work,\npublication titles unrelated to their linked research, contradictory chronology, and character or\nacademic-integrity claims. Do not demand that fictional projects/publications exist in real life.\nReturn passes=true and issues=[] only if no material problem is found. Otherwise passes=false and\nlist concise, specific issues. Never silently repair or rewrite the applicant record.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"cv_entries\": {\"projects\": [{\"bullets\": [\"Implemented median imputation and iterative imputation within classification pipelines, keeping preprocessing confined to training folds during cross-validation.\", \"Compared predictive performance under random and feature-dependent missingness, examining sensitivity to imputation choice and missingness indicators.\"], \"id\": \"T1\", \"title\": \"Missing-Data Strategies for Tabular Classification\"}, {\"bullets\": [\"Implemented coordinate descent for lasso and elastic net regression, checking convergence against reference implementations on standardized datasets.\", \"Compared prediction error and coefficient selection stability across regularization settings using synthetic designs with correlated predictors.\"], \"id\": \"T2\", \"title\": \"Sparse Regression with Correlated Predictors\"}, {\"bullets\": [\"Implemented random Fourier features and Nyström approximations for kernel ridge regression, using shared preprocessing and validation splits.\", \"Compared predictive error, runtime, and memory requirements while varying approximation size and kernel bandwidth on nonlinear regression tasks.\"], \"id\": \"T3\", \"title\": \"Kernel Approximation for Nonlinear Regression\"}], \"publications\": [{\"id\": \"P1\", \"title\": \"Coverage and Width Tradeoffs in Conformal Regression with Input-Dependent Noise\"}], \"research\": [{\"bullets\": [\"Designed experiments comparing temperature scaling and isotonic regression under controlled covariate shifts, separating calibration effects from changes in classification accuracy.\", \"Analyzed reliability diagrams and bootstrap uncertainty estimates to assess how calibration performance depended on validation sample composition.\"], \"id\": \"R1\", \"title\": \"Probability Calibration Under Covariate Shift\"}, {\"bullets\": [\"Designed simulation experiments comparing empirical and shrinkage covariance estimators within discriminant classifiers across correlated feature distributions.\", \"Analyzed classification error and covariance estimation stability as feature dependence, sample availability, and departures from Gaussian assumptions varied.\"], \"id\": \"R2\", \"title\": \"Covariance Shrinkage for High-Dimensional Classification\"}, {\"bullets\": [\"Designed experiments comparing residual-based and quantile-based conformal prediction intervals on synthetic regression tasks with input-dependent noise.\", \"Analyzed marginal coverage, subgroup coverage, and interval width to characterize uncertainty estimation tradeoffs across noise patterns and calibration splits.\"], \"id\": \"R3\", \"title\": \"Conformal Prediction Under Heteroskedastic Noise\"}], \"work\": [{\"bullets\": [\"Implemented input validation and error handling for batch imports, checking required fields, duplicate records, and inconsistent data types.\", \"Added regression tests for malformed inputs and revised diagnostic messages to support investigation of failed imports.\"], \"id\": \"W1\", \"title\": \"Validation and Error Handling for Batch Data Imports\"}]}, \"fixed_record\": {\"applicant_id\": \"PHD-456-00047\", \"coursework\": [{\"course\": \"Linear Algebra\", \"grade\": \"A\"}, {\"course\": \"Probability and Statistics\", \"grade\": \"A-\"}, {\"course\": \"Algorithms\", \"grade\": \"A-\"}, {\"course\": \"Machine Learning\", \"grade\": \"A\"}], \"education\": [{\"degree\": \"BS in Computer Science\", \"end\": \"2026-05\", \"institution\": \"University A\", \"start\": \"2022-09\", \"status\": \"completed\"}], \"gpa\": 3.71, \"gpa_as_of\": \"2025-12-31\", \"gpa_degree\": \"BS in Computer Science\", \"gpa_scale\": 4.0, \"projects\": [{\"id\": \"T1\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T2\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}, {\"id\": \"T3\", \"kind\": \"technical course project\", \"scope\": \"implementation and comparative evaluation\", \"year\": 2026}], \"publications\": [{\"author_position\": 2, \"date\": \"2025-11\", \"id\": \"P1\", \"research_id\": \"R3\", \"status\": \"published\", \"venue\": \"Peer-reviewed ML conference\"}], \"research_area\": \"statistical machine learning\", \"research_experience\": [{\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-11\", \"hours_per_week\": 15, \"id\": \"R1\", \"months\": 3, \"organization\": \"Research Lab 1\", \"role\": \"Research intern\", \"start\": \"2026-08\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-08\", \"hours_per_week\": 15, \"id\": \"R2\", \"months\": 3, \"organization\": \"Research Lab 2\", \"role\": \"Research intern\", \"start\": \"2026-05\"}, {\"contribution\": \"designed experiments and analyzed results\", \"end\": \"2026-05\", \"hours_per_week\": 10, \"id\": \"R3\", \"months\": 14, \"organization\": \"University Research Group\", \"role\": \"Research assistant\", \"start\": \"2025-03\"}], \"review_month\": \"2026-11\", \"skills\": [\"Python\", \"NumPy\", \"scikit-learn\", \"PyTorch\"], \"work_experience\": [{\"domain\": \"technical\", \"end\": \"2025-03\", \"hours_per_week\": 10, \"id\": \"W1\", \"months\": 3, \"organization\": \"Company A\", \"role\": \"Software engineer\", \"start\": \"2024-12\"}]}}"
+      }
+    ],
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "name": "cv_review",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "max_output_tokens": 3000,
+    "reasoning": {
+      "effort": "medium"
+    }
+  },
+  "response": {
+    "id": "resp_0280c49ed891e896016ae615b9180887d08f52081fed83161a",
+    "object": "response",
+    "created_at": 1793463737,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1793463738,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 3000,
+    "max_tool_calls": null,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0280c49ed891e896016ae615ba7d3887d09612a0ef2837ded0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"passes\":true,\"issues\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "cv_review",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "passes": {
+              "type": "boolean"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "passes",
+            "issues"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1351,
+      "input_tokens_details": {
+        "cache_write_tokens": 1348,
+        "cached_tokens": 0
+      },
+      "output_tokens": 16,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1367
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

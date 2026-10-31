@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Evaluation for Regularized Classifiers",
+      "bullets": [
+        "Implemented assigned logistic regression evaluation routines using predefined train and validation splits to examine probability calibration on imbalanced tabular datasets.",
+        "Generated reliability diagrams and computed Brier scores under specified regularization settings, documenting discrepancies between predicted probabilities and observed class frequencies."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Validation and Maintenance of Tabular Data Imports",
+      "bullets": [
+        "Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent data types, and duplicate identifiers within existing import workflows.",
+        "Added regression tests for malformed input cases and corrected parsing defects, preserving established interfaces and documenting error handling behavior."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Ridge Regression Baseline for Tabular Prediction",
+      "bullets": [
+        "Implemented a ridge regression baseline with scikit-learn, applying training-set standardization and cross-validation to select the regularization parameter for continuous outcome prediction.",
+        "Compared held-out prediction errors against an ordinary least squares baseline and inspected residual plots for systematic deviations across target ranges."
+      ]
+    }
+  ]
+}

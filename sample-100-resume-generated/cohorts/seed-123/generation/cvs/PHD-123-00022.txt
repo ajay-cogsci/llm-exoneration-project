@@ -1,0 +1,33 @@
+Applicant PHD-123-00022
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.60/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Calibration Evaluation for Regularized Binary Classifiers
+Contribution: assigned implementation tasks.
+- Implemented assigned routines for fitting regularized logistic regression models and generating reliability diagrams using predefined training and validation splits.
+- Computed Brier scores and calibration summaries across specified regularization settings, checking evaluation code against reference calculations supplied by the group.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-08 | 10 hours/week
+Inventory Records and Order Processing
+- Checked incoming deliveries against packing slips, recorded inventory discrepancies, and forwarded missing or damaged item reports to the appropriate staff.
+- Organized order paperwork, updated fulfillment logs, and coordinated routine pickup arrangements while maintaining records of pending requests and completed handoffs.
+
+TECHNICAL PROJECTS
+Baseline Regression for Residential Energy Demand | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines to predict residential energy demand from weather measurements and calendar features.
+- Applied training-set standardization, selected ridge penalties using cross-validation, and compared held-out prediction errors with a mean-demand baseline.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
