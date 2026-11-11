@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness Evaluation of Semantic Segmentation Under Image Degradation",
+      "bullets": [
+        "Designed controlled experiments comparing segmentation models under blur, compression, and illumination changes while holding training splits and preprocessing settings fixed.",
+        "Analyzed classwise overlap scores and boundary errors to characterize degradation patterns affecting small objects and visually similar categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Evaluation of Confidence Calibration for Visual Defect Classification",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and uncalibrated classifiers across surface defect datasets, with separate calibration partitions and acquisition condition shifts.",
+        "Analyzed reliability diagrams, calibration errors, and selective prediction curves to examine confidence behavior for rare defects and ambiguous surface textures."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration for Visual Defect Classification Under Acquisition Shifts"
+    },
+    {
+      "id": "P2",
+      "title": "Selective Prediction and Error Analysis in Surface Defect Inspection"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented image ingestion utilities that checked file formats, normalized metadata, and routed unreadable uploads to existing error handling workflows.",
+        "Added regression tests for malformed image inputs and revised validation messages to support troubleshooting during routine application maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Learning",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine tuning for pretrained image classifiers using consistent preprocessing and stratified dataset splits.",
+        "Compared classification accuracy, training behavior, and confusion patterns to assess how adaptation strategies affected categories with limited training examples."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical and Neural Approaches to Image Denoising",
+      "bullets": [
+        "Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted with synthetic Gaussian and impulse noise.",
+        "Compared reconstruction metrics and inspected edge preservation across noise conditions, documenting differences between pixelwise error and visible texture loss."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented patch descriptors and a learned descriptor baseline within a shared feature matching workflow for planar image pairs.",
+        "Compared matching precision and homography reprojection errors under viewpoint and lighting changes, inspecting failed alignments caused by repetitive textures."
+      ]
+    }
+  ]
+}

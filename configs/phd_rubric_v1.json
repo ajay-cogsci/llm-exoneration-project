@@ -1,0 +1,35 @@
+{
+  "version": "phd-cv-rubric-v1",
+  "status": "Provisional CV-only study rubric; not an admissions predictor or a validated CS/ML admissions standard.",
+  "academic": {
+    "required_courses": ["Linear Algebra", "Probability and Statistics", "Algorithms", "Machine Learning"],
+    "quantitative_courses": ["Linear Algebra", "Probability and Statistics"],
+    "high_gpa_min": 3.5,
+    "adequate_gpa_min": 3.0,
+    "high_course_floor": "B+",
+    "high_a_range_count_min": 3,
+    "low_below_b_count_min": 2,
+    "low_grade_ceiling": "C"
+  },
+  "research": {
+    "full_time_hours_per_week": 40,
+    "adequate_months_min": 6,
+    "adequate_fte_months_min": 1.5,
+    "high_months_min": 18,
+    "high_fte_months_min": 4.5,
+    "high_intellectual_months_min": 9,
+    "contribution_levels": {
+      "assigned implementation tasks": "routine",
+      "data preparation and baseline implementation": "routine",
+      "experimental design with supervisor guidance": "guided",
+      "designed experiments and analyzed results": "intellectual",
+      "formulated a research question and led method development": "intellectual"
+    }
+  },
+  "tier_table": {
+    "low": {"low": "weak", "adequate": "weak", "high": "borderline"},
+    "adequate": {"low": "weak", "adequate": "borderline", "high": "strong"},
+    "high": {"low": "borderline", "adequate": "borderline", "high": "strong"}
+  },
+  "mixed_lower_gpa_max_exclusive": 3.4
+}

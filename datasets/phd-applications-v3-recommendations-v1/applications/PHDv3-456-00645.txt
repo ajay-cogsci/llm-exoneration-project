@@ -1,0 +1,61 @@
+Applicant PHDv3-456-00645
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.92/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-10 to 2026-11 | 10 hours/week
+Robust Intent Classification Under Paraphrase Variation
+Contribution: experimental design with supervisor guidance.
+- Designed supervised experiments with supervisor guidance to compare intent classifiers under paraphrase variation, controlling training splits and label distributions.
+- Evaluated lexical and transformer baselines using macro F score and calibration metrics, examining errors associated with lexical overlap and ambiguous requests.
+
+PUBLICATIONS
+Evaluating Intent Classifier Robustness and Calibration Under Paraphrase Variation. Regional applied computing conference, 2026-04; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-10 to 2025-10 | 10 hours/week
+Text Processing Components for Support Ticket Routing
+- Implemented Python components for ticket text normalization and routing rule execution, following existing interface specifications and handling malformed input records.
+- Added unit tests for preprocessing edge cases and investigated routing defects through log inspection and reproducible test fixtures.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Document Retrieval Baselines | technical course project, 2026
+- Implemented TF-IDF and Okapi best matching retrieval baselines for a document collection, using shared tokenization and relevance judgments for comparison.
+- Compared ranking quality with mean reciprocal rank and inspected failed queries involving vocabulary mismatch, rare terms, and document length.
+Sequence Tagging for Named Entity Recognition | technical course project, 2026
+- Implemented recurrent and transformer token classifiers for named entity recognition, aligning subword labels and applying consistent training and evaluation splits.
+- Compared entity-level precision and recall across architectures, reviewing boundary errors and confusions between organization, location, and person mentions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-456-00645
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2025-10 to 2026-11 (13 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is A-. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Document Retrieval Baselines (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Compared ranking quality with mean reciprocal rank and inspected failed queries involving vocabulary mismatch, rare terms, and document length.

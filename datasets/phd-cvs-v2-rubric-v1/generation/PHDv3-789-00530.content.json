@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance and evidence ordering to assess answer grounding in retrieval-augmented question answering.",
+        "Analyzed unsupported answers and citation mismatches across retrieval conditions, separating evidence selection errors from failures to use relevant context."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Named Entity Recognition",
+      "bullets": [
+        "Designed transfer experiments comparing supervised fine-tuning and continued pretraining for entity recognition across news and technical documents.",
+        "Analyzed entity boundary and type errors by terminology overlap, annotation consistency, and sentence length to characterize domain transfer behavior."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Support Request Classification Under Label Imbalance",
+      "bullets": [
+        "Designed experiments comparing class weighting and resampling for support request classification using sparse text features and pretrained sentence representations.",
+        "Analyzed per-category precision, recall, and confusion patterns, examining how ambiguous requests and overlapping category definitions affected classification errors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Class Weighting and Resampling for Imbalanced Support Request Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Import Validation and Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for imported text records, handling missing fields, inconsistent encodings, and duplicate identifiers before downstream processing.",
+        "Added regression tests for malformed inputs and investigated processing failures using application logs, documenting reproduction steps and verified fixes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sentence Similarity Models",
+      "bullets": [
+        "Implemented lexical overlap, term frequency weighting, and pretrained embedding baselines for ranking sentence pairs by semantic similarity.",
+        "Compared rank correlations against reference judgments and examined disagreements involving negation, word order changes, and shared vocabulary without shared meaning."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Redundancy Control",
+      "bullets": [
+        "Implemented sentence scoring with centroid similarity and graph ranking, adding a standard redundancy penalty during summary selection.",
+        "Compared summaries under matched length constraints using reference overlap and manual checks for repetition, missing context, and sentence coherence."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Confidence Calibration for Sentiment Classification",
+      "bullets": [
+        "Implemented logistic regression and a pretrained text classifier for sentiment prediction, applying temperature scaling to held-out validation scores.",
+        "Compared calibration error and selective prediction behavior, inspecting confidence distributions for mixed sentiment, negation, and unfamiliar product terminology."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Lexical and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented lexical retrieval and sentence embedding search over document passages, using identical query sets and relevance judgments for comparison.",
+        "Evaluated ranking quality across passage lengths and query formulations, analyzing cases involving exact terminology, paraphrases, and underspecified information needs."
+      ]
+    }
+  ]
+}

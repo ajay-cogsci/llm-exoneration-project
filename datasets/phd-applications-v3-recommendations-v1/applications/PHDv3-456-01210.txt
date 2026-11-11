@@ -1,0 +1,66 @@
+Applicant PHDv3-456-01210
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.67/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Segmentation Robustness Under Image Corruptions
+Contribution: experimental design with supervisor guidance.
+- Designed supervisor-guided experiments comparing semantic segmentation models under blur, sensor noise, and contrast changes while holding preprocessing and evaluation procedures fixed.
+- Evaluated boundary errors and classwise overlap across corruption conditions, using qualitative inspection to distinguish annotation ambiguity from recurring model failures.
+Research assistant, University Research Group | 2026-01 to 2026-08 | 10 hours/week
+Foreground Reliance in Visual Recognition
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance to test whether image classifiers relied on foreground objects or background context under controlled image modifications.
+- Implemented foreground masking and background replacement conditions, compared classification behavior, and documented potential confounds introduced by visible compositing boundaries.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-01 to 2026-01 | 10 hours/week
+Image Upload Validation and Processing
+- Implemented image validation and resizing components for an upload workflow, handling unsupported formats, malformed files, and inconsistent image orientation.
+- Added regression tests for preprocessing edge cases and investigated processing failures using application logs and reproducible examples from reported issues.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented patch descriptors and nearest-neighbor matching for overlapping images, then estimated planar transformations using robust fitting to reject incorrect correspondences.
+- Compared descriptor normalization and matching filters under viewpoint and illumination changes, inspecting alignment errors and failure cases involving repetitive textures.
+Comparative Evaluation of Image Denoising Methods | technical course project, 2026
+- Implemented median filtering, Gaussian smoothing, and a convolutional denoising model, using shared noisy image inputs for comparative evaluation.
+- Compared reconstruction error and edge preservation across noise conditions, examining oversmoothing and residual artifacts through paired visual inspection.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-456-01210
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-01 to 2026-08 (7 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Probability and Statistics.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Local Feature Matching for Image Alignment (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Compared descriptor normalization and matching filters under viewpoint and illumination changes, inspecting alignment errors and failure cases involving repetitive textures.

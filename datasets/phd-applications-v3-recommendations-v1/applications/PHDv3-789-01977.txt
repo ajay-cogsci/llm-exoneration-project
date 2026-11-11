@@ -1,0 +1,58 @@
+Applicant PHDv3-789-01977
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.12/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-04 to 2026-11 | 10 hours/week
+Visual Inspection Baselines for Surface Defect Classification
+Contribution: data preparation and baseline implementation.
+- Prepared labeled surface image datasets by checking annotation consistency, removing duplicate images, and separating training and evaluation sets by source specimen.
+- Implemented histogram of oriented gradients features with linear support vector classification, examining baseline errors across defect categories and lighting conditions.
+
+PUBLICATIONS
+Surface Defect Classification with Gradient Features: Dataset Preparation and Baseline Error Analysis. Regional applied computing conference, 2026-10; published; author position 1.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-01 to 2026-04 | 10 hours/week
+Inventory and Order Documentation Support
+- Checked incoming deliveries against packing lists, recorded discrepancies, and routed missing item reports to the appropriate staff for follow-up.
+- Organized order paperwork, updated stock records from approved forms, and prepared routine handover notes documenting unresolved delivery and inventory issues.
+
+TECHNICAL PROJECTS
+Nearest Neighbor Baseline for Handwritten Digit Recognition | technical course project, 2026
+- Implemented a nearest neighbor classifier using normalized grayscale pixel vectors, following a standard baseline workflow for handwritten digit image classification.
+- Compared distance metrics and neighborhood settings on a validation split, then inspected confusion patterns and misclassified examples from held-out images.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-789-01977
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2026-04 to 2026-11 (7 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented histogram of oriented gradients features with linear support vector classification, examining baseline errors across defect categories and lighting conditions.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Nearest Neighbor Baseline for Handwritten Digit Recognition (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared distance metrics and neighborhood settings on a validation split, then inspected confusion patterns and misclassified examples from held-out images.

@@ -1,0 +1,36 @@
+Applicant PHDv3-123-00222
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.67/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-06 to 2026-11 | 10 hours/week
+Robustness of Text Classifiers to Lexical Distribution Shifts
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare text classifiers under vocabulary shifts, controlling training splits, preprocessing choices, and label distributions.
+- Evaluated lexical and contextual baselines, inspected prediction errors, and analyzed whether confidence calibration changed across original and perturbed evaluation sets.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-09 to 2025-06 | 10 hours/week
+Document Ingestion and Validation Utilities
+- Implemented assigned Python utilities for validating incoming document records, normalizing text fields, and reporting malformed inputs within an existing processing pipeline.
+- Added regression tests for parsing edge cases and investigated processing failures using application logs, documenting fixes for routine maintenance.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Extractive Summarization Methods | technical course project, 2026
+- Implemented frequency based and graph based sentence ranking methods for extractive summarization, using shared tokenization and sentence segmentation procedures.
+- Compared summaries against reference texts using overlap metrics and manually inspected redundancy, sentence ordering, and coverage of central document content.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented recurrent and token independent tagging baselines in PyTorch, holding input representations and training partitions constant for comparative evaluation.
+- Evaluated entity span precision and recall, then categorized boundary and label errors to examine differences between contextual and independent predictions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

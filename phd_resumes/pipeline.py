@@ -116,6 +116,21 @@ def generate_run(root, client, model, review_model, limit, batch="generation"):
         raise ValueError("Sampled run has changed; create a new run instead of mixing data versions")
     if digest(read_json(root / "source_map.json")) != manifest["source_map_hash"]:
         raise ValueError("Run source mapping has changed")
+    if manifest.get("dataset_version") == "phd-conditional-v3":
+        from .rubric import evaluate
+        from .rubric_pipeline import check_sampling
+        expected_policies = {"rubric.json", "sampling_policy.json"}
+        if set(manifest.get("policy_hashes", {})) != expected_policies:
+            raise ValueError("Rubric run is missing its policy hashes")
+        for filename, fingerprint in manifest["policy_hashes"].items():
+            if digest(read_json(root / filename)) != fingerprint:
+                raise ValueError("Run rubric or sampling policy has changed; create a new run")
+        rubric, sampling = read_json(root / "rubric.json"), read_json(root / "sampling_policy.json")
+        check_sampling(sampling, config)
+        for row in rows:
+            rating = evaluate(row["facts"], rubric)
+            if row["rubric"] != rating or row["strength"] != rating["tier"]:
+                raise ValueError("Saved rubric labels disagree with fixed facts")
     selected = balanced_subset(rows, limit)
     out = root / batch
     out.mkdir(exist_ok=True)

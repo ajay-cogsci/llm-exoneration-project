@@ -1,0 +1,55 @@
+Applicant PHDv3-456-00260
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.11/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+None reported.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-06 to 2025-09 | 40 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory records, checked incoming deliveries against purchase orders, and referred discrepancies to the appropriate staff for resolution.
+- Prepared routine order paperwork, organized shipment documents, and coordinated collection schedules with warehouse staff and delivery contacts.
+
+TECHNICAL PROJECTS
+Handwritten Digit Classification with Linear Baselines | technical course project, 2026
+- Implemented logistic regression and linear support vector machine baselines using scikit-learn, with normalized grayscale pixels as input features.
+- Compared classifiers on a held-out test split using confusion matrices, and inspected misclassified images for recurring ambiguities in digit shapes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-00260
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is B. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Handwritten Digit Classification with Linear Baselines (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level.
+
+Recommendation 3
+Writer type: work supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Operations assistant at Company A from 2023-06 to 2025-09 (27 months). The writer supports PhD study, with a positive endorsement of the applicant's performance in the recorded work role. Compared with other students the writer has supervised in similar work roles, the writer rates the applicant's performance in the recorded work role as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Maintained inventory records, checked incoming deliveries against purchase orders, and referred discrepancies to the appropriate staff for resolution.

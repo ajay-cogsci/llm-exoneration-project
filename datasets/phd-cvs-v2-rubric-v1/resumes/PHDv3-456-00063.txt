@@ -1,0 +1,50 @@
+Applicant PHDv3-456-00063
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Covariance Shrinkage Under Uneven Feature Missingness
+Contribution: formulated a research question and led method development.
+- Formulated how uneven feature observation rates affect covariance estimation, and led development of a shrinkage estimator using pairwise observation counts.
+- Evaluated estimation error and downstream discriminant classification on simulated missingness patterns, comparing the estimator with mean imputation and uniform shrinkage baselines.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Regularized Class-Prior Estimation Under Label Shift
+Contribution: formulated a research question and led method development.
+- Investigated instability in label-shift correction with overlapping class distributions, and led development of a regularized class-prior estimator using held-out confusion matrices.
+- Compared corrected probability estimates across simulated class-prior shifts, examining calibration, prior estimation error, and sensitivity to validation sample composition.
+Research assistant, University Research Group | 2024-02 to 2026-05 | 10 hours/week
+Stable Importance Weighting for Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated the tradeoff between importance-weight instability and predictive coverage under covariate shift, and led development of an effective-sample-size-guided weight clipping procedure.
+- Designed evaluations varying distribution overlap and density-ratio misspecification, comparing marginal coverage, subgroup coverage, and interval width against unclipped weighted conformal prediction.
+
+PUBLICATIONS
+Effective-Sample-Size-Guided Weight Clipping for Conformal Prediction Under Covariate Shift. Peer-reviewed ML conference, 2025-12; published; author position 1.
+Coverage Sensitivity to Density-Ratio Misspecification in Weighted Conformal Prediction. Peer-reviewed ML conference, 2026-02; published; author position 4.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sparse Linear Regression | technical course project, 2026
+- Implemented coordinate descent for lasso and elastic net regression, checking objective convergence against reference implementations on synthetic correlated-feature datasets.
+- Compared prediction error and feature-selection stability across regularization settings, using nested cross-validation to separate parameter tuning from final evaluation.
+Approximate Kernel Methods for Nonlinear Classification | technical course project, 2026
+- Implemented random Fourier features and Nyström approximations for kernel classification, using shared preprocessing and training splits for consistent comparisons.
+- Evaluated predictive performance, runtime, and memory requirements across approximation sizes, examining sensitivity to kernel bandwidth and landmark selection.
+Probability Calibration for Supervised Classifiers | technical course project, 2026
+- Implemented temperature scaling and isotonic calibration for classifier probabilities, reserving separate data partitions for model fitting, calibration, and evaluation.
+- Compared log loss, Brier score, and reliability diagrams across calibration methods, examining how calibration-set size affected probability estimates.
+Bootstrap Intervals for Regression Predictions | technical course project, 2026
+- Implemented residual and pairs bootstrap procedures for linear regression predictions, constructing simulation settings with constant and input-dependent noise variance.
+- Compared empirical interval coverage and width across resampling procedures, documenting failure patterns under heteroscedasticity and misspecified linear mean functions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

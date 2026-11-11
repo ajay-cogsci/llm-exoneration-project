@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Sentiment Classification",
+      "bullets": [
+        "Designed controlled comparisons of lexical and transformer classifiers using sentiment examples with matched negation edits and unchanged topic vocabulary.",
+        "Analyzed prediction changes across negation scope and sentence structure, separating polarity errors from failures on ambiguous expressions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Domain Transfer in Named Entity Recognition",
+      "bullets": [
+        "Designed experiments comparing direct transfer and supervised adaptation of entity taggers across news articles and technical support text.",
+        "Analyzed span boundary errors and entity type confusion, examining how vocabulary overlap and annotation conventions affected transfer behavior."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Confidence Calibration for Intent Classification Under Domain Shift",
+      "bullets": [
+        "Designed experiments evaluating temperature scaling and confidence thresholds for intent classifiers under shifts in vocabulary and user phrasing.",
+        "Analyzed reliability diagrams and selective prediction curves, comparing calibration behavior across intent frequency groups and manually reviewed error categories."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration and Selective Prediction for Intent Classification Under Vocabulary Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Text Processing and Search Maintenance",
+      "bullets": [
+        "Implemented assigned updates to text normalization and document indexing components used to retrieve internal support articles.",
+        "Added regression tests for malformed inputs and duplicate records, and investigated retrieval defects using application logs and reproducible examples."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented frequency-based and graph-based sentence ranking methods for extractive summarization, using shared preprocessing and document length constraints.",
+        "Compared summaries with reference texts using lexical overlap metrics and manual checks for redundancy, coverage, and sentence coherence."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented lexical retrieval and sentence embedding baselines for matching incoming questions to a collection of previously answered questions.",
+        "Compared ranking quality under identical candidate pools, inspecting failures involving paraphrases, rare terminology, and questions sharing misleading keywords."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Sequence Labeling for Keyphrase Extraction",
+      "bullets": [
+        "Implemented conditional random field and recurrent neural sequence taggers for keyphrase extraction with consistent tokenization and evaluation splits.",
+        "Compared exact span precision and recall, examining disagreements involving multiword terms, nested phrases, and keyphrases absent from training examples."
+      ]
+    }
+  ]
+}

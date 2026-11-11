@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Values",
+      "bullets": [
+        "Prepared tabular classification data by checking label consistency, documenting missingness patterns, and fitting preprocessing transformations on training partitions only.",
+        "Implemented prescribed logistic regression and random forest baselines, comparing imputation strategies through stratified cross validation and summarizing classification errors."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regression Baselines for Seasonal Demand Prediction",
+      "bullets": [
+        "Cleaned timestamped demand records, aligned calendar covariates, and constructed lagged predictors using past observations within the specified forecasting setup.",
+        "Implemented ridge regression and historical average baselines under a supplied evaluation protocol, inspecting residual patterns across chronological validation partitions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Backend Record Validation and Processing",
+      "bullets": [
+        "Maintained Python backend routines for validating incoming records, normalizing field formats, and returning structured errors for malformed requests.",
+        "Added regression tests for record processing edge cases and investigated failed jobs using application logs and reproducible input examples."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Gaussian Naive Bayes Classification Baseline",
+      "bullets": [
+        "Implemented Gaussian naive Bayes in NumPy using class conditional means, variances, and log probabilities for a tabular classification assignment.",
+        "Checked predictions against scikit-learn on identical data splits and examined confusion matrices to describe common classification errors."
+      ]
+    }
+  ]
+}

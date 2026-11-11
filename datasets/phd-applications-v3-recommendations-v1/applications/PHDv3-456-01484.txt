@@ -1,0 +1,64 @@
+Applicant PHDv3-456-01484
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.57/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Support Request Classification with Sparse Text Baselines
+Contribution: data preparation and baseline implementation.
+- Prepared support request text by removing duplicate messages, normalizing formatting, and checking category labels against supplied annotation guidelines.
+- Implemented TF-IDF and logistic regression baselines, evaluated macro-averaged classification metrics, and inspected confusion patterns among overlapping request categories.
+Research assistant, University Research Group | 2026-04 to 2026-08 | 10 hours/week
+Sentence-Level Uncertainty Detection in Scientific Abstracts
+Contribution: data preparation and baseline implementation.
+- Segmented scientific abstracts into sentences, standardized uncertainty annotations, and maintained document-level splits to prevent sentences from crossing evaluation partitions.
+- Implemented keyword and linear classifier baselines using lexical features, then reviewed false positives involving negation and speculative phrasing.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-04 to 2026-04 | 10 hours/week
+Routine Office Operations Support
+- Maintained supply inventories, checked incoming deliveries against purchase records, and routed discrepancies to the appropriate staff for resolution.
+- Organized routine paperwork, coordinated meeting room reservations, and tracked outstanding service requests through established office procedures.
+
+TECHNICAL PROJECTS
+Extractive Document Summarization with TF-IDF Sentence Ranking | technical course project, 2026
+- Implemented a baseline extractive summarizer that ranked sentences by similarity to a TF-IDF document centroid and retained original sentence order.
+- Compared selected sentences with reference summaries using unigram overlap, and examined failures involving repeated content and missing contextual information.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-01484
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-04 to 2026-08 (4 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Extractive Document Summarization with TF-IDF Sentence Ranking (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work.

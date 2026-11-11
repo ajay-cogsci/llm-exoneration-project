@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classifier Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine how controlled changes in feature distributions affect classifier calibration on tabular datasets.",
+        "Compared temperature scaling and isotonic regression using held-out calibration sets, documenting reliability diagrams and sensitivity to calibration sample selection."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Import Validation",
+      "bullets": [
+        "Implemented validation checks for batch imports, handling missing fields, inconsistent data types, and duplicate records within an existing processing pipeline.",
+        "Added regression tests for malformed inputs and documented error handling behavior to support maintenance of existing data import components."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression With Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors and cross-validation for selecting regularization settings on tabular prediction tasks.",
+        "Compared prediction error and coefficient stability across correlated feature configurations, keeping preprocessing and evaluation splits consistent between methods."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Missing-Data Strategies for Tabular Classification",
+      "bullets": [
+        "Implemented mean imputation and nearest-neighbor imputation before logistic regression, fitting preprocessing steps exclusively on training data to prevent leakage.",
+        "Compared classification performance under random and feature-dependent missingness, examining how missingness patterns affected predictions and the usefulness of missing-value indicators."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Prediction Intervals for Nonlinear Regression",
+      "bullets": [
+        "Implemented split conformal prediction around linear and random forest regressors, using separate training, calibration, and test partitions.",
+        "Compared interval coverage and width across nonlinear datasets with varying noise patterns, inspecting conditional coverage across regions of the feature space."
+      ]
+    }
+  ]
+}

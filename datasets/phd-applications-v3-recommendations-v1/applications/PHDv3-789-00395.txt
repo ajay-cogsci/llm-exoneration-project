@@ -1,0 +1,67 @@
+Applicant PHDv3-789-00395
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.96/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance and distractor placement to evaluate answer consistency in retrieval-augmented question answering.
+- Analyzed unsupported answers and citation mismatches across retrieval conditions, distinguishing failures associated with missing evidence from misleading context.
+Research assistant, University Research Group | 2024-09 to 2026-08 | 10 hours/week
+Calibration and Selective Prediction Under Text Domain Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and confidence-based abstention for text classifiers evaluated across source and target domains.
+- Analyzed reliability diagrams, risk-coverage curves, and classwise errors to characterize calibration behavior under vocabulary shifts and changing label distributions.
+
+PUBLICATIONS
+Confidence-Based Abstention for Text Classification Across Domains: Threshold Transfer and Error Analysis. Regional applied computing conference, 2026-09; published; author position 2.
+Assessing Temperature Scaling Under Vocabulary and Label Distribution Shifts in Text Classification. Peer-reviewed ML conference, 2025-08; published; author position 4.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-03 to 2024-09 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing slips, organized stock locations, and flagged discrepancies for review during routine inventory reconciliation.
+- Prepared order paperwork, maintained filing records, and coordinated collection schedules with staff to support daily dispatch operations.
+
+TECHNICAL PROJECTS
+Comparative Sentiment Classification with Sparse and Neural Representations | technical course project, 2026
+- Implemented sentiment classifiers using term-frequency inverse-document-frequency features with logistic regression and a convolutional model over learned word embeddings.
+- Compared models using stratified evaluation splits and macro-averaged scores, examining errors involving negation, mixed sentiment, and infrequent vocabulary.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented conditional random field and bidirectional recurrent baselines for named entity recognition using consistent tokenization and shared training partitions.
+- Compared entity-level precision and recall, inspecting boundary errors and unseen entity mentions to assess differences between feature-based and contextual representations.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-00395
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2024-09 to 2026-08 (23 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Probability and Statistics. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Probability and Statistics as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Sentiment Classification with Sparse and Neural Representations (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented sentiment classifiers using term-frequency inverse-document-frequency features with logistic regression and a convolutional model over learned word embeddings.

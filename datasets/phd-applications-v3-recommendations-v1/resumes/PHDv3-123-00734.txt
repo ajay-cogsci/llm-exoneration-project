@@ -1,0 +1,34 @@
+Applicant PHDv3-123-00734
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.33/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image resizing and contrast normalization routines for a surface defect dataset, following the research group's preprocessing specifications.
+- Checked processed images for clipping and inconsistent dimensions, and documented preprocessing failures for review before downstream classifier evaluation.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-10 to 2026-10 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded missing or damaged items, and routed discrepancies to the appropriate staff.
+- Maintained stock records, organized order paperwork, and coordinated routine pickup arrangements using established procedures and daily task schedules.
+
+TECHNICAL PROJECTS
+Gradient Feature Baseline for Traffic Sign Recognition | technical course project, 2026
+- Implemented a traffic sign classification baseline using histogram of oriented gradients features and a linear support vector machine.
+- Evaluated predictions on a held-out image split and inspected confusion patterns among signs with similar outlines and contrasting interior markings.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

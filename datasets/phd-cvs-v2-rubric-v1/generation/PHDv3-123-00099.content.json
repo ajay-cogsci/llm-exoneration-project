@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Evaluation for Negation-Sensitive Sentiment Classification",
+      "bullets": [
+        "Implemented assigned preprocessing routines for sentence tokenization and negation marking, following existing specifications for a sentiment classification pipeline.",
+        "Ran prescribed classifier comparisons and organized misclassified examples by negation pattern to support review of preprocessing effects."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Updated inventory logs from receiving documents, checked shipment quantities against purchase orders, and flagged discrepancies for supervisor review.",
+        "Prepared order paperwork, maintained filing records, and coordinated pickup arrangements with staff according to established operating procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Baselines for News Topic Classification",
+      "bullets": [
+        "Implemented TF-IDF features with logistic regression and multinomial naive Bayes for supervised classification of news articles by topic.",
+        "Compared baseline predictions using macro F score and confusion matrices, inspecting errors involving overlapping vocabulary across related news categories."
+      ]
+    }
+  ]
+}

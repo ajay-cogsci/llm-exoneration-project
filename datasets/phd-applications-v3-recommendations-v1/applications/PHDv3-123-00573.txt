@@ -1,0 +1,69 @@
+Applicant PHDv3-123-00573
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 2.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evaluating Segmentation Robustness Under Image Corruptions
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare semantic segmentation models under simulated blur, sensor noise, and illumination changes using matched evaluation images.
+- Implemented corruption pipelines and examined classwise overlap scores and boundary errors to characterize model sensitivity across degradation types.
+Research assistant, University Research Group | 2025-09 to 2026-08 | 10 hours/week
+Background Sensitivity in Leaf Disease Image Classification
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance to test how background masking and crop selection affect leaf disease classification across acquisition conditions.
+- Compared convolutional classifiers using controlled preprocessing ablations, stratified data splits, and confusion analysis to examine disease recognition errors associated with background variation.
+
+PUBLICATIONS
+Evaluating Background Masking and Crop Selection for Leaf Disease Image Classification. Regional applied computing conference, 2026-09; published; author position 1.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-06 to 2025-09 | 10 hours/week
+Inventory Records and Order Documentation
+- Checked incoming delivery paperwork against order records, filed receipts, and referred missing items or inconsistent quantities to the responsible staff.
+- Maintained stockroom labels and routine inventory logs, prepared packing materials, and organized order documents for daily handoffs between staff.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting planar scenes under viewpoint changes.
+- Compared descriptor normalization and matching thresholds using correspondence precision, reprojection error, and visual inspection of alignment failures.
+Classical and Convolutional Approaches to Texture Classification | technical course project, 2026
+- Implemented local binary pattern and filter bank baselines alongside a compact convolutional classifier for texture recognition using consistent training splits.
+- Compared classification errors under rotation and illumination transformations, examining which texture categories were sensitive to each representation.
+Comparative Evaluation of Image Denoising Methods | technical course project, 2026
+- Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted with impulse noise and additive Gaussian noise.
+- Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and smoothing artifacts across noise settings.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-123-00573
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2025-09 to 2026-08 (11 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Probability and Statistics.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Local Feature Matching for Planar Image Alignment (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work.

@@ -1,0 +1,37 @@
+Applicant PHDv3-456-01325
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.33/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-05 to 2026-11 | 10 hours/week
+Missing-Value Handling for Equipment Failure Classification
+Contribution: data preparation and baseline implementation.
+- Cleaned equipment maintenance records, standardized missing-value codes, and prepared equipment-level training and evaluation splits following the study protocol.
+- Implemented specified imputation and logistic regression baselines, comparing discrimination and calibration across missingness patterns using the prescribed evaluation procedure.
+
+PUBLICATIONS
+Comparing Imputation Baselines for Equipment Failure Classification with Incomplete Maintenance Records. Regional applied computing conference, 2026-11; published; author position 2.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-05 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed damaged or missing items for supervisor review.
+- Maintained order paperwork, organized stockroom supplies, and coordinated routine pickup schedules with staff handling outgoing orders.
+
+TECHNICAL PROJECTS
+Regularized Regression for Residential Energy Demand | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines for residential energy demand using weather variables and calendar indicators.
+- Applied training-set standardization and chronological validation splits, then examined residual patterns across seasons and compared held-out prediction errors.
+Gaussian Mixture Baselines for Customer Segmentation | technical course project, 2026
+- Implemented a customer segmentation baseline using scikit-learn Gaussian mixtures on standardized purchase frequency, spending, and recency features.
+- Compared covariance assumptions using information criteria and inspected cluster assignments to document sensitivity to initialization and feature scaling.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

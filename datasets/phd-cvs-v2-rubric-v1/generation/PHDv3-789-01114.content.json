@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Evaluation for Regularized Classifiers",
+      "bullets": [
+        "Implemented assigned routines for fitting regularized logistic regression models and generating reliability diagrams under a predefined evaluation protocol.",
+        "Checked probability binning against hand calculated examples and summarized calibration patterns across validation splits for group review."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items to the appropriate supervisor.",
+        "Prepared order paperwork, maintained organized inventory records, and coordinated routine pickup schedules with staff and delivery personnel."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Methods for Tabular Regression",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines with training set standardization for a tabular prediction task.",
+        "Selected regularization settings through cross validation and inspected held out residuals for systematic errors across target value ranges."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+Applicant PHDv3-456-01571
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.97/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Boundary-Aware Consistency for Segmentation Under Motion Blur
+Contribution: formulated a research question and led method development.
+- Formulated whether separating boundary and interior consistency losses could preserve object contours when semantic segmentation models encounter motion blur.
+- Led development of a boundary-weighted training objective and evaluated contour accuracy through controlled blur perturbations and loss ablations.
+Research assistant, University Research Group | 2023-09 to 2026-08 | 10 hours/week
+Region-Consistent Semantic Segmentation Under Illumination Shifts
+Contribution: formulated a research question and led method development.
+- Formulated how illumination changes affect regional prediction consistency and led development of a segmentation objective aligning predictions across photometric transformations.
+- Extended the objective with confidence-filtered regional supervision and designed evaluations separating illumination robustness, calibration, and sensitivity to region construction.
+
+PUBLICATIONS
+Confidence-Filtered Regional Supervision for Semantic Segmentation Across Illumination Conditions. Regional applied computing conference, 2026-06; published; author position 3.
+Evaluating Illumination Robustness and Calibration in Region-Consistent Semantic Segmentation. Regional applied computing conference, 2025-08; published; author position 4.
+Region-Level Prediction Consistency for Semantic Segmentation Under Photometric Transformations. Peer-reviewed ML conference, 2024-06; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Local Feature Matching | technical course project, 2026
+- Implemented image matching pipelines using gradient-based descriptors and binary descriptors, with geometric verification through robust homography estimation.
+- Compared matching reliability under viewpoint changes, compression, and illumination variation, examining correspondence errors and sensitivity to descriptor matching thresholds.
+Transfer Learning for Fine-Grained Image Classification | technical course project, 2026
+- Implemented frozen-feature and partial fine-tuning baselines for fine-grained image classification using pretrained convolutional networks and consistent preprocessing.
+- Compared classwise errors and training behavior across adaptation strategies, controlling data partitions and inspecting confusions between visually similar categories.
+Classical and Convolutional Approaches to Image Denoising | technical course project, 2026
+- Implemented bilateral filtering, nonlocal means, and a residual convolutional denoiser for images corrupted with synthetic additive noise.
+- Evaluated reconstruction quality across noise conditions using perceptual similarity and pixel error, inspecting texture loss and edge preservation.
+Optical Flow Comparison for Short Video Sequences | technical course project, 2026
+- Implemented pyramidal local flow estimation and a variational optical flow baseline with shared frame preprocessing and visualization routines.
+- Compared motion estimates against reference flow fields, analyzing endpoint errors near occlusions, low-texture regions, and large object displacements.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-456-01571
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2023-09 to 2026-08 (35 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as below the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is A-. The writer offers qualified support for PhD study, with a limited endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as below the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Local Feature Matching (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as above the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Compared matching reliability under viewpoint changes, compression, and illumination variation, examining correspondence errors and sensitivity to descriptor matching thresholds.

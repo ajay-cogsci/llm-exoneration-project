@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Text Classifiers to Negation and Paraphrase",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare classifier sensitivity to meaning-preserving paraphrases and sentiment-changing negation across review classification datasets.",
+        "Implemented controlled perturbations and evaluation routines, separating prediction changes caused by semantic shifts from errors associated with superficial wording differences."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Import Validation and Error Handling",
+      "bullets": [
+        "Implemented validation checks for document import requests, handling missing metadata, malformed text fields, and duplicate submissions within existing service interfaces.",
+        "Added regression tests for import failures and revised error messages to distinguish invalid input from temporary processing failures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented term-weighted and pretrained sentence-embedding retrieval baselines for matching user questions to relevant answers in a fixed document collection.",
+        "Compared ranking quality under shared relevance judgments and inspected failures involving rare terminology, ambiguous questions, and overlapping answer content."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification with recurrent and pretrained transformer encoders, aligning subword predictions with annotated entity spans for consistent evaluation.",
+        "Compared entity-level precision and recall across label categories, examining boundary errors and inconsistent predictions for entities appearing in unfamiliar contexts."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented frequency-based and graph-based sentence ranking methods for extractive summarization, applying identical preprocessing and summary length constraints across approaches.",
+        "Compared reference overlap and manually examined selected summaries for redundancy, missing context, and dependence on sentence position within source documents."
+      ]
+    }
+  ]
+}

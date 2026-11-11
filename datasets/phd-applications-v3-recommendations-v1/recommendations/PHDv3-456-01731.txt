@@ -1,0 +1,24 @@
+Applicant PHDv3-456-01731
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Probability and Statistics. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Probability and Statistics as above the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Handcrafted Feature Baselines for Image Classification (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as below the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented a histogram of oriented gradients baseline with a linear support vector classifier for categorizing images using fixed training and validation splits.
+
+Recommendation 3
+Writer type: work supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Operations assistant at Company A from 2023-08 to 2025-09 (25 months). The writer supports PhD study, with a positive endorsement of the applicant's performance in the recorded work role.

@@ -1,0 +1,51 @@
+Applicant PHDv3-123-01786
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.37/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Missing Covariates
+Contribution: formulated a research question and led method development.
+- Formulated a research question on calibration under changing missingness patterns and led development of a missingness-conditioned probability recalibration method.
+- Evaluated calibration error and predictive loss under simulated missingness shifts, comparing pooled recalibration with pattern-specific estimates using shared regularization.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Adaptive Robust Regression With Heteroscedastic Noise
+Contribution: formulated a research question and led method development.
+- Investigated how residual scale variation affects robust regression and led development of a scale-adaptive Huber loss fitting procedure.
+- Compared adaptive and fixed-threshold estimators under contaminated noise distributions, examining prediction error, residual behavior, and sensitivity to scale estimation.
+Research assistant, University Research Group | 2024-07 to 2026-05 | 10 hours/week
+Stable Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated questions about unstable importance weights in conformal prediction and led development of a regularized density-ratio weighting procedure.
+- Evaluated coverage and interval width across controlled covariate shifts, separating effects of weight regularization, density-ratio estimation, and calibration sample composition.
+
+PUBLICATIONS
+Diagnosing Importance-Weight Instability in Conformal Prediction Under Covariate Shift. Peer-reviewed ML conference, 2025-11; published; author position 4.
+Regularized Density-Ratio Weighting for Conformal Prediction Under Covariate Shift. Peer-reviewed ML conference, 2026-11; published; author position 1.
+Calibration Sample Composition and Coverage Sensitivity in Weighted Conformal Prediction. Peer-reviewed ML conference, 2026-01; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-01 to 2024-07 | 10 hours/week
+Batch Data Validation and Import Maintenance
+- Implemented assigned validation checks for batch data imports, handling missing fields, inconsistent types, and duplicate records within existing processing routines.
+- Added regression tests for reported import failures and documented error-handling behavior to support maintenance of the existing data processing service.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Regularized Linear Classifiers | technical course project, 2026
+- Implemented logistic regression with ridge and lasso penalties, using standardized features and nested cross-validation to compare regularization choices.
+- Compared predictive loss, coefficient stability, and feature selection behavior across datasets with correlated predictors and varying class imbalance.
+Kernel and Neighbor Methods for Nonlinear Regression | technical course project, 2026
+- Implemented kernel ridge regression and nearest-neighbor regression, tuning bandwidths, penalties, and neighborhood sizes through consistent cross-validation procedures.
+- Compared prediction error and computational demands on synthetic nonlinear functions, examining sensitivity to irrelevant features and uneven sampling density.
+Bootstrap Confidence Intervals for Skewed Data | technical course project, 2026
+- Implemented percentile, basic, and bias-corrected bootstrap confidence intervals for mean estimation, following established resampling procedures and checking reproducibility.
+- Compared empirical coverage and interval width in simulation experiments with skewed distributions, documenting sensitivity to sample size and extreme observations.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

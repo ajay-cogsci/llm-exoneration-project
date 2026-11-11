@@ -1,0 +1,33 @@
+Applicant PHDv3-123-01851
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.82/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Preprocessing Support for Customer Request Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned text normalization and label mapping routines for customer requests, following an established preprocessing specification.
+- Checked processed examples for empty text and inconsistent labels, documenting exceptions for review before baseline training.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-01 to 2026-10 | 10 hours/week
+Inventory and Order Coordination
+- Maintained inventory records by reconciling delivery paperwork with received items and reporting discrepancies to the responsible staff.
+- Prepared order documents, organized incoming requests, and coordinated routine status updates between dispatch staff and customer service.
+
+TECHNICAL PROJECTS
+TF-IDF Baseline for Review Sentiment Classification | technical course project, 2026
+- Implemented a review sentiment baseline using TF-IDF features and logistic regression, fitting the vocabulary exclusively on training data.
+- Evaluated predictions using macro F score and a confusion matrix, inspecting misclassified reviews for negation and mixed sentiment.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

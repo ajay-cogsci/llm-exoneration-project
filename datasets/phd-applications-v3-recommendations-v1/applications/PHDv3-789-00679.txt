@@ -1,0 +1,74 @@
+Applicant PHDv3-789-00679
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Conformal Prediction Under Heteroskedastic Noise
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing split conformal and residual normalized prediction intervals across simulated regression settings with input dependent noise.
+- Analyzed marginal coverage, subgroup coverage, and interval width to characterize sensitivity to calibration sample composition and variance estimation errors.
+Research assistant, University Research Group | 2024-08 to 2026-08 | 10 hours/week
+Probability Calibration with Missing Predictors
+Contribution: designed experiments and analyzed results.
+- Designed comparisons of logistic regression and tree ensembles under controlled missingness mechanisms, evaluating imputation choices and post hoc probability calibration.
+- Analyzed reliability diagrams, Brier score decompositions, and subgroup calibration across repeated splits to distinguish discrimination changes from probability estimation errors.
+
+PUBLICATIONS
+Post Hoc Calibration Under Changing Predictor Missingness: An Empirical Study. Peer-reviewed ML conference, 2026-07; published; author position 4.
+Imputation Choices and Probability Reliability in Tabular Classification. Regional applied computing conference, 2025-05; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-11 to 2024-08 | 10 hours/week
+Data Import Validation and Error Handling
+- Implemented validation checks for tabular data imports, handling missing fields, inconsistent types, and duplicate records within an existing processing service.
+- Added regression tests for malformed inputs and revised error messages to support issue diagnosis during routine maintenance and code review.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression workflows with standardized predictors and nested cross validation for selecting regularization strengths without evaluation leakage.
+- Compared prediction error and coefficient stability across correlated feature settings, examining how redundant predictors affected variable selection and shrinkage behavior.
+Gaussian Mixture Models for Overlapping Clusters | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture models with diagonal and full covariance structures, including convergence checks and multiple initialization strategies.
+- Compared clustering assignments and held out log likelihood against k means baselines across synthetic datasets with varying overlap and anisotropy.
+Predictive Uncertainty in Neural Network Regression | technical course project, 2026
+- Implemented dropout sampling and independently initialized neural network ensembles for regression using shared architectures, training splits, and preprocessing procedures.
+- Compared predictive error and uncertainty estimates on interpolation and extrapolation regions, examining sensitivity to model capacity and training sample composition.
+Bootstrap Confidence Intervals for Skewed Data | technical course project, 2026
+- Implemented percentile, basic, and bias corrected bootstrap intervals for estimating population means under skewed distributions and contaminated sampling conditions.
+- Compared empirical coverage and interval length in repeated simulations, documenting sensitivity to sample size, tail behavior, and bootstrap resampling variability.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-00679
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2024-08 to 2026-08 (24 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Probability and Statistics. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Probability and Statistics as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Regression with Correlated Predictors (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared prediction error and coefficient stability across correlated feature settings, examining how redundant predictors affected variable selection and shrinkage behavior.

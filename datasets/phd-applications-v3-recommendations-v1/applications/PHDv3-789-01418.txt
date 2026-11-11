@@ -1,0 +1,59 @@
+Applicant PHDv3-789-01418
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.83/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Calibration Evaluation for Regularized Binary Classifiers
+Contribution: assigned implementation tasks.
+- Implemented assigned routines for fitting regularized logistic regression models and generating calibration curves under a predefined evaluation protocol.
+- Checked preprocessing consistency across training and validation splits, and summarized probability calibration patterns using Brier scores and reliability diagrams.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-11 to 2025-09 | 40 hours/week
+Order Processing and Inventory Coordination
+- Processed incoming orders, verified shipment paperwork against order records, and referred discrepancies to the appropriate staff for resolution.
+- Maintained inventory logs, coordinated routine stock checks, and prepared daily handover notes covering outstanding deliveries and pending customer requests.
+
+TECHNICAL PROJECTS
+Regularized Regression Baselines for Tabular Prediction | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines in scikit-learn, using training-set standardization and held-out data for evaluation.
+- Selected ridge penalties through cross-validation and compared residual distributions to examine sensitivity to correlated predictors and departures from linear assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-789-01418
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-09 to 2026-11 (2 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Regression Baselines for Tabular Prediction (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented ordinary least squares and ridge regression baselines in scikit-learn, using training-set standardization and held-out data for evaluation.

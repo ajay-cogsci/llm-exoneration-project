@@ -1,0 +1,24 @@
+Applicant PHDv3-123-01604
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2024-03 to 2026-02 (23 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Linear Algebra, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Linear Algebra. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Linear Algebra as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Text Classification Models (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work.

@@ -1,0 +1,47 @@
+Applicant PHDv3-456-00192
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.96/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Confidence-Gated Temporal Adaptation for Video Segmentation
+Contribution: formulated a research question and led method development.
+- Formulated whether temporal agreement can identify reliable adaptation targets under visual domain shift, and led development of confidence-gated consistency updates.
+- Evaluated adaptation against frozen and entropy-minimization baselines, examining segmentation stability, accumulated prediction errors, and sensitivity to abrupt scene changes.
+Research assistant, University Research Group | 2023-05 to 2026-08 | 10 hours/week
+Occlusion-Aware Representation Learning for Semantic Segmentation
+Contribution: formulated a research question and led method development.
+- Investigated how partial visibility affects semantic segmentation and led development of visibility-conditioned feature aggregation with region-level consistency supervision.
+- Designed controlled occlusion evaluations and ablations examining feature alignment, confidence calibration, and boundary preservation across synthetic masks and naturally occluded scenes.
+
+PUBLICATIONS
+Visibility-Conditioned Feature Aggregation for Semantic Segmentation Under Occlusion. Peer-reviewed ML conference, 2026-11; published; author position 1.
+Region-Level Consistency Supervision for Occlusion-Robust Semantic Segmentation. Peer-reviewed ML conference, 2025-06; published; author position 1.
+Controlled Occlusion Protocols for Evaluating Semantic Segmentation Robustness. Peer-reviewed ML conference, 2024-08; published; author position 1.
+Confidence Calibration Near Occlusion Boundaries in Semantic Segmentation. Peer-reviewed ML conference, 2025-07; published; author position 4.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-09 to 2023-05 | 10 hours/week
+Image Ingestion Validation and Processing Maintenance
+- Implemented assigned validation checks for uploaded images, handling unsupported formats, malformed metadata, and inconsistent dimensions within an existing processing service.
+- Added regression tests for preprocessing failures and investigated reported defects using application logs, documenting reproduction steps and verifying fixes.
+
+TECHNICAL PROJECTS
+Local Feature Matching Under Viewpoint Changes | technical course project, 2026
+- Implemented local descriptor matching with ratio filtering and robust homography estimation, comparing handcrafted feature pipelines under viewpoint and illumination changes.
+- Evaluated correspondence precision and geometric alignment using shared image pairs, analyzing failures on repetitive textures and low-detail regions.
+Comparative Evaluation of Image Classification Transfer Strategies | technical course project, 2026
+- Implemented frozen-feature classification and end-to-end fine-tuning for pretrained convolutional networks, using matched data partitions and preprocessing across comparisons.
+- Compared predictive performance and calibration under reduced training data, examining class confusion and sensitivity to augmentation choices.
+Image Denoising Across Noise Conditions | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising baseline, comparing reconstruction quality across Gaussian noise conditions with consistent evaluation images.
+- Examined residual images and edge preservation alongside reconstruction metrics, documenting tradeoffs between noise suppression and retention of fine texture.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

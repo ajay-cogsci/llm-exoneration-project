@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Intent Classification to Conversational Paraphrases",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare intent classifiers under paraphrase variation, controlling training splits and separating lexical overlap from semantic consistency.",
+        "Evaluated classifier predictions on manually reviewed paraphrases, examining confidence calibration and categorizing errors involving ambiguous requests and overlapping intent definitions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Ingestion and Validation for Document Search",
+      "bullets": [
+        "Implemented document ingestion components that normalized text, validated required metadata, and routed malformed records for review before search indexing.",
+        "Added regression tests for parsing failures and duplicate records, and investigated indexing discrepancies using application logs and reproducible input examples."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented sentence ranking baselines using term frequency weighting and graph centrality, applying consistent preprocessing and summary length constraints across methods.",
+        "Compared summaries against reference texts using ROUGE and manual inspection, documenting differences in redundancy, topic coverage, and sensitivity to sentence segmentation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented conditional random field and bidirectional recurrent baselines for entity tagging, using shared data partitions and consistent tokenization for comparison.",
+        "Evaluated entity span precision and recall, then inspected boundary errors and rare entity predictions to characterize differences between the implemented models."
+      ]
+    }
+  ]
+}

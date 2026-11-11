@@ -1,0 +1,34 @@
+Applicant PHDv3-789-01418
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.83/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Calibration Evaluation for Regularized Binary Classifiers
+Contribution: assigned implementation tasks.
+- Implemented assigned routines for fitting regularized logistic regression models and generating calibration curves under a predefined evaluation protocol.
+- Checked preprocessing consistency across training and validation splits, and summarized probability calibration patterns using Brier scores and reliability diagrams.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-11 to 2025-09 | 40 hours/week
+Order Processing and Inventory Coordination
+- Processed incoming orders, verified shipment paperwork against order records, and referred discrepancies to the appropriate staff for resolution.
+- Maintained inventory logs, coordinated routine stock checks, and prepared daily handover notes covering outstanding deliveries and pending customer requests.
+
+TECHNICAL PROJECTS
+Regularized Regression Baselines for Tabular Prediction | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines in scikit-learn, using training-set standardization and held-out data for evaluation.
+- Selected ridge penalties through cross-validation and compared residual distributions to examine sensitivity to correlated predictors and departures from linear assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

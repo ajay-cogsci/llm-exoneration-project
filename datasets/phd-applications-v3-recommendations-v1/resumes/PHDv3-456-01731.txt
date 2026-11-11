@@ -1,0 +1,30 @@
+Applicant PHDv3-456-01731
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.68/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+None reported.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-08 to 2025-09 | 40 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against purchase records, and flagged discrepancies for review by purchasing staff.
+- Prepared order paperwork, coordinated dispatch schedules with warehouse staff, and tracked outstanding requests through routine follow-up with suppliers.
+
+TECHNICAL PROJECTS
+Handcrafted Feature Baselines for Image Classification | technical course project, 2026
+- Implemented a histogram of oriented gradients baseline with a linear support vector classifier for categorizing images using fixed training and validation splits.
+- Compared classification errors across feature normalization settings and inspected confusion matrices to identify categories affected by similar shapes and backgrounds.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

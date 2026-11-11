@@ -1,0 +1,42 @@
+Applicant PHDv3-789-01710
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.73/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Probability Calibration Under Class-Prior Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare temperature scaling and isotonic calibration under controlled changes in classification class priors.
+- Evaluated calibration error and predictive loss across resampled test distributions, examining sensitivity to calibration set composition and minority class representation.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Covariate Shift and Weighted Conformal Regression
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance comparing standard and importance-weighted conformal prediction for regression under synthetic covariate shifts.
+- Implemented density ratio estimation baselines and evaluated interval coverage and width, examining sensitivity to weight clipping and calibration sample composition.
+
+PUBLICATIONS
+Weight Estimation and Clipping in Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2026-11; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-08 to 2026-02 | 10 hours/week
+Batch Data Validation and Processing
+- Implemented validation checks for batch data imports, handling missing fields, duplicate records, and inconsistent date formats before downstream processing.
+- Added regression tests for parsing failures and updated error messages to support diagnosis of rejected imports and routine maintenance.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge, lasso, and elastic net regression pipelines with standardized predictors and cross-validation for selecting regularization parameters.
+- Compared predictive error and coefficient stability across simulated correlation structures, documenting how predictor dependence affected variable selection.
+Approximate Inference for Bayesian Logistic Regression | technical course project, 2026
+- Implemented Laplace and mean-field variational approximations for Bayesian logistic regression using a shared Gaussian prior and consistent preprocessing.
+- Compared held-out predictive loss, posterior uncertainty, and computational behavior across datasets with varying feature correlations and class overlap.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

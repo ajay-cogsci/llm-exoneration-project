@@ -1,0 +1,24 @@
+Applicant PHDv3-789-00593
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is A-. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Logistic Regression for Tabular Classification (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented a logistic regression baseline using scikit-learn, with missing-value imputation and feature standardization fitted exclusively on training data.
+
+Recommendation 3
+Writer type: work supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Operations assistant at Company A from 2024-09 to 2025-09 (12 months). The writer supports PhD study, with a positive endorsement of the applicant's performance in the recorded work role. Compared with other students the writer has supervised in similar work roles, the writer rates the applicant's performance in the recorded work role as at the typical level.

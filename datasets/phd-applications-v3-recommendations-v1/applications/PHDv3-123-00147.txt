@@ -1,0 +1,73 @@
+Applicant PHDv3-123-00147
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.40/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Predictive Robustness Under Feature Missingness
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing imputation strategies for tabular classifiers under random and feature dependent missingness, using matched training and evaluation splits.
+- Analyzed discrimination and calibration across missingness conditions, examining whether performance changes reflected imputation choices or differences in observed feature distributions.
+Research assistant, University Research Group | 2025-03 to 2026-08 | 10 hours/week
+Probability Calibration Under Class Imbalance and Prevalence Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled comparisons of sigmoid and isotonic calibration for imbalanced classification, separating model fitting, calibration, and evaluation data.
+- Analyzed reliability diagrams, Brier scores, and bootstrap uncertainty under changing class prevalence, examining sensitivity to calibration sample composition.
+
+PUBLICATIONS
+Comparing Sigmoid and Isotonic Calibration for Imbalanced Tabular Classification. Regional applied computing conference, 2025-11; published; author position 1.
+Calibration Sample Composition and Probability Reliability Under Class Prevalence Shift. Regional applied computing conference, 2026-09; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-06 to 2025-03 | 10 hours/week
+Batch Data Validation and Processing Maintenance
+- Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries within an existing processing workflow.
+- Investigated failed processing jobs using logs and representative inputs, added regression tests, and documented fixes for recurring data handling errors.
+
+TECHNICAL PROJECTS
+Kernel Ridge Regression for Nonlinear Prediction | technical course project, 2026
+- Implemented linear and radial basis kernel ridge regression with NumPy, checking predictions against scikit-learn implementations on synthetic regression datasets.
+- Compared predictive error across regularization settings and kernel bandwidths using nested validation, examining sensitivity to feature scaling and observation noise.
+Gaussian Mixture Models for Overlapping Clusters | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixtures with diagonal covariance matrices, including convergence checks and safeguards against near zero component weights.
+- Compared mixture clustering with k-means on synthetic overlapping groups, examining initialization sensitivity, held-out likelihood, and agreement with known assignments.
+Split Conformal Prediction for Heteroscedastic Regression | technical course project, 2026
+- Implemented split conformal prediction intervals around regression models, maintaining separate training, calibration, and test partitions throughout evaluation.
+- Compared constant width and residual scaled intervals on synthetic heteroscedastic data, assessing empirical coverage and interval width across input regions.
+Classifier Sensitivity to Label Noise | technical course project, 2026
+- Implemented controlled label corruption experiments comparing logistic regression and small PyTorch neural networks under uniform and class dependent noise.
+- Evaluated held-out classification error and probability calibration across corruption conditions, using repeated splits to distinguish noise sensitivity from partition variability.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-123-00147
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2025-03 to 2026-08 (17 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation. As a specific example of the applicant's work, the writer cites this recorded activity: Designed controlled comparisons of sigmoid and isotonic calibration for imbalanced classification, separating model fitting, calibration, and evaluation data.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Kernel Ridge Regression for Nonlinear Prediction (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared predictive error across regularization settings and kernel bandwidths using nested validation, examining sensitivity to feature scaling and observation noise.

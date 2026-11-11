@@ -1,0 +1,24 @@
+Applicant PHDv3-789-01977
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2026-04 to 2026-11 (7 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented histogram of oriented gradients features with linear support vector classification, examining baseline errors across defect categories and lighting conditions.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Nearest Neighbor Baseline for Handwritten Digit Recognition (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared distance metrics and neighborhood settings on a validation split, then inspected confusion patterns and misclassified examples from held-out images.

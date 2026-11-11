@@ -1,0 +1,33 @@
+Applicant PHDv3-123-01203
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.66/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Image Classification Under Blur and Illumination Changes
+Contribution: assigned implementation tasks.
+- Implemented assigned image preprocessing routines for controlled blur and brightness perturbations within an existing image classification evaluation pipeline.
+- Ran prescribed robustness evaluations, checked label alignment, and summarized classwise prediction changes across clean and perturbed image inputs.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-08 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed damaged or missing items for supervisor review.
+- Prepared order paperwork, maintained filing records, and coordinated collection schedules with staff to support routine daily operations.
+
+TECHNICAL PROJECTS
+Color Histogram Baseline for Scene Classification | technical course project, 2026
+- Implemented normalized color histogram features and a linear support vector classifier as a baseline for categorizing scene images.
+- Evaluated held out predictions using confusion matrices and inspected misclassified images to identify limitations of global color representations.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

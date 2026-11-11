@@ -1,0 +1,43 @@
+Applicant PHDv3-456-00992
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Boundary-Aware Segmentation under Partial Occlusion
+Contribution: formulated a research question and led method development.
+- Formulated whether boundary supervision improves visible object segmentation under partial occlusion; led development of an auxiliary contour prediction branch.
+- Designed controlled occlusion experiments and ablations comparing contour supervision with standard segmentation losses, examining boundary errors across object sizes.
+Research assistant, University Research Group | 2024-10 to 2026-08 | 10 hours/week
+Illumination-Adaptive Consistency Learning for Object Detection
+Contribution: formulated a research question and led method development.
+- Investigated how illumination shifts affect detector confidence; led development of teacher–student consistency training with illumination-conditioned weighting of pseudo-labels.
+- Developed matched lighting perturbations and ablation protocols to separate localization and classification errors, examining sensitivity to pseudo-label thresholds and augmentation severity.
+
+PUBLICATIONS
+Evaluating Object Detector Reliability under Controlled Illumination Shifts. Regional applied computing conference, 2025-07; published; author position 1.
+Illumination-Conditioned Pseudo-Label Weighting for Consistency-Based Object Detection. Peer-reviewed ML conference, 2025-06; published; author position 2.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Local Feature Matching | technical course project, 2026
+- Implemented patch descriptor matching with nearest-neighbor ratio filtering and robust homography estimation for image pairs containing planar surfaces.
+- Compared raw intensity and gradient histogram descriptors under rotation, blur, and brightness changes, inspecting correspondence errors and alignment failures.
+Image Classification with Limited Training Labels | technical course project, 2026
+- Implemented supervised image classification baselines using a compact convolutional network and frozen pretrained features with a linear classification head.
+- Compared training strategies across controlled label subsets, tracking validation accuracy, class confusion, and sensitivity to augmentation while maintaining consistent data partitions.
+Classical and Learned Methods for Image Denoising | technical course project, 2026
+- Implemented Gaussian filtering, nonlocal means, and a convolutional denoising autoencoder for images corrupted with synthetic additive noise.
+- Compared reconstruction fidelity and edge preservation across noise levels, using held-out images and visual inspection to characterize smoothing artifacts.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

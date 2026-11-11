@@ -1,0 +1,46 @@
+Applicant PHDv3-123-00367
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.96/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed experiments varying passage relevance, evidence ordering, and distractor content to evaluate answer grounding in retrieval-augmented question answering.
+- Analyzed answer correctness and supporting passage attribution, separating retrieval failures from generation errors through manual review of sampled responses.
+Research assistant, University Research Group | 2024-08 to 2026-08 | 10 hours/week
+Domain Robustness and Confidence Calibration in Intent Classification
+Contribution: designed experiments and analyzed results.
+- Designed comparisons of sparse lexical and pretrained encoder classifiers under domain shifts, controlling training partitions and label distributions.
+- Analyzed calibration, selective prediction, and confusion patterns across domains, using bootstrap intervals and manual error categorization to interpret performance differences.
+
+PUBLICATIONS
+Confidence Calibration and Selective Prediction for Intent Classification Under Domain Shift. Peer-reviewed ML conference, 2025-11; published; author position 1.
+Lexical and Encoder-Based Intent Classifiers Across Domains: A Comparative Error Analysis. Regional applied computing conference, 2025-09; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-10 to 2025-09 | 40 hours/week
+Document Ingestion and Search Service Maintenance
+- Implemented document validation, text normalization, and duplicate handling within an ingestion service supporting searchable internal records.
+- Maintained ingestion tests and investigated indexing failures, documenting reproduction steps and coordinating fixes with downstream service maintainers.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sequence Models for Entity Recognition | technical course project, 2026
+- Implemented conditional random field and pretrained encoder baselines for entity recognition, using consistent tokenization alignment and evaluation splits.
+- Compared entity-level precision and recall, examining boundary errors, rare entity categories, and sensitivity to reduced training data.
+Lexical and Dense Retrieval for Passage Search | technical course project, 2026
+- Implemented lexical ranking and dense embedding retrieval over a shared passage collection, standardizing query preprocessing and relevance judgments.
+- Compared ranking quality and query latency, reviewing cases involving exact terminology, paraphrases, and ambiguous queries to characterize retrieval differences.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented term frequency and graph-based sentence ranking for extractive summarization, applying shared sentence segmentation and summary length constraints.
+- Compared lexical overlap metrics and manually assessed redundancy, examining how sentence position and document length affected selected content.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

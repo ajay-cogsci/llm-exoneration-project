@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Class Imbalance",
+      "bullets": [
+        "Implemented assigned logistic regression and probability calibration routines using scikit-learn, following existing specifications for stratified training and validation splits.",
+        "Generated reliability diagrams and summarized Brier scores across prescribed class sampling settings, checking preprocessing consistency and documenting implementation discrepancies."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Checked incoming shipments against packing lists, recorded stock discrepancies, and routed damaged items for review under established receiving procedures.",
+        "Prepared daily order paperwork, maintained physical filing records, and coordinated pickup schedules with staff to support routine fulfillment activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression for Rental Price Prediction",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines for rental price prediction, using training data to fit imputation and scaling steps.",
+        "Compared validation errors across prescribed regularization settings and inspected residual plots to describe prediction patterns across rental price ranges."
+      ]
+    }
+  ]
+}

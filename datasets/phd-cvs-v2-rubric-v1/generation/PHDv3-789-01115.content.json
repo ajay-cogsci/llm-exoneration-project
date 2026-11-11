@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Uncertainty Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare conformal prediction intervals under controlled covariate shifts, specifying data splits and evaluation criteria.",
+        "Evaluated marginal coverage and interval width across reweighting strategies, documenting sensitivity to density ratio estimation and calibration sample composition."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Documentation and Inventory Coordination",
+      "bullets": [
+        "Checked incoming order forms for missing information, maintained filing records, and routed discrepancies to the appropriate staff for resolution.",
+        "Updated inventory logs from delivery receipts, prepared routine supply requests, and coordinated collection of outstanding paperwork before scheduled order processing."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression workflows with standardized predictors and nested cross validation for selecting regularization parameters.",
+        "Compared prediction error and coefficient stability on simulated correlated features, examining how predictor redundancy affected variable selection across repeated splits."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Probability Calibration for Imbalanced Classification",
+      "bullets": [
+        "Implemented logistic regression and random forest baselines with sigmoid and isotonic calibration, keeping calibration data separate from final evaluation.",
+        "Compared Brier scores, reliability diagrams, and precision recall curves under varying class proportions, documenting differences between discrimination and probability accuracy."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Mixture Models for Clustering Overlapping Distributions",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models and compared clustering assignments with k means on synthetic data with overlapping components.",
+        "Evaluated held out log likelihood and adjusted Rand scores, examining sensitivity to initialization, covariance assumptions, and the specified component count."
+      ]
+    }
+  ]
+}

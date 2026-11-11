@@ -1,0 +1,66 @@
+Applicant PHDv3-456-00487
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.14/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Negation Sensitivity in Natural Language Inference
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing inference models on sentence pairs with explicit negation, lexical substitutions, and matched affirmative controls.
+- Analyzed prediction changes across contradiction and entailment examples, separating errors associated with negation scope from lexical overlap effects.
+Research assistant, University Research Group | 2025-03 to 2026-08 | 10 hours/week
+Cross-Domain Robustness of Support Request Classification
+Contribution: designed experiments and analyzed results.
+- Designed transfer experiments comparing sparse lexical classifiers and pretrained text encoders across support request domains using consistent label mappings.
+- Analyzed classwise errors and confidence calibration under domain shift, examining effects of vocabulary mismatch and ambiguous request descriptions.
+
+PUBLICATIONS
+Vocabulary Mismatch and Calibration in Cross-Domain Support Request Classification. Regional applied computing conference, 2025-12; published; author position 2.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-12 to 2025-03 | 10 hours/week
+Text Processing Maintenance for Document Search
+- Implemented assigned fixes to document normalization and query preprocessing, preserving existing interfaces between text ingestion and search components.
+- Added regression tests for malformed input and inconsistent whitespace, and documented reproduction steps for reported search behavior defects.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Extractive Summarization Methods | technical course project, 2026
+- Implemented sentence ranking with term frequency weighting and graph centrality, alongside a lead sentence baseline for news summarization.
+- Compared summaries using reference overlap measures and manual checks of redundancy, examining how sentence selection changed across document lengths.
+Character and Word Representations for Sentiment Classification | technical course project, 2026
+- Implemented word and character n-gram classifiers with linear models, using shared data partitions and consistent preprocessing for comparison.
+- Evaluated performance on clean and synthetically perturbed reviews, categorizing errors involving misspellings, negation, and mixed sentiment expressions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-456-00487
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2025-03 to 2026-08 (17 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is B+. The writer offers qualified support for PhD study, with a limited endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as below the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Extractive Summarization Methods (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented sentence ranking with term frequency weighting and graph centrality, alongside a lead sentence baseline for news summarization.

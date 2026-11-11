@@ -1,0 +1,41 @@
+Applicant PHDv3-456-00160
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.38/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evaluating Object Detection Under Simulated Motion Blur
+Contribution: experimental design with supervisor guidance.
+- Designed controlled experiments with supervisor guidance to assess detector sensitivity to motion blur, varying corruption severity while holding training conditions fixed.
+- Compared augmentation settings using per-class precision and recall, and inspected missed detections to distinguish localization errors from classification failures.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Boundary Sensitivity in Semantic Segmentation
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance comparing segmentation losses under consistent data splits, preprocessing procedures, and model initialization settings.
+- Evaluated region overlap and boundary agreement, examining prediction overlays to characterize errors around thin structures and visually ambiguous object edges.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-08 to 2026-02 | 10 hours/week
+Order Documentation and Stock Reconciliation
+- Checked incoming order paperwork against delivery records, flagged missing information, and routed discrepancies to the appropriate staff for follow-up.
+- Maintained stock logs, organized routine filing, and prepared shift handover notes documenting outstanding requests and unresolved delivery issues.
+
+TECHNICAL PROJECTS
+Comparing Feature Representations for Image Classification | technical course project, 2026
+- Implemented image classification pipelines using histogram of oriented gradients with a linear classifier and a convolutional network trained on the same dataset.
+- Compared validation accuracy and confusion matrices under matched data splits, inspecting representative errors to identify sensitivity to background clutter.
+Comparative Evaluation of Classical Image Denoising | technical course project, 2026
+- Implemented Gaussian smoothing and bilateral filtering for image denoising, applying synthetic Gaussian noise to clean images under consistent evaluation conditions.
+- Compared reconstruction quality using peak signal-to-noise ratio and structural similarity, examining edge preservation across filter settings and noise levels.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

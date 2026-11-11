@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Lexical Shortcut Sensitivity in Natural Language Inference",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine whether lexical overlap influences inference predictions, using controlled sentence pairs and label balanced evaluation sets.",
+        "Compared transformer classifier behavior across original and perturbed inputs, analyzing prediction changes by negation, word order, and overlap patterns."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Maintained inventory logs, checked incoming deliveries against order paperwork, and flagged discrepancies for follow-up by responsible staff.",
+        "Prepared routine order documents, organized supply requests, and coordinated collection schedules while keeping outstanding requests and delivery records current."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Short Text Classifiers",
+      "bullets": [
+        "Implemented TF-IDF logistic regression and a convolutional text classifier for topic classification, using shared training partitions and consistent text preprocessing.",
+        "Compared macro F score and classwise confusion patterns, examining errors associated with rare vocabulary, short inputs, and overlapping topic terminology."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented frequency based and graph based sentence ranking methods for document summarization, applying shared sentence segmentation and summary length constraints.",
+        "Compared summaries using ROUGE and manual error categorization, examining redundancy, missing central information, and sensitivity to sentence position."
+      ]
+    }
+  ]
+}

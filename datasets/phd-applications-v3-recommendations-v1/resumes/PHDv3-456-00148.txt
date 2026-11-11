@@ -1,0 +1,50 @@
+Applicant PHDv3-456-00148
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.91/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Negation Sensitivity in Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed controlled comparisons of lexical and transformer classifiers using sentiment examples with matched negation edits and unchanged topic vocabulary.
+- Analyzed prediction changes across negation scope and sentence structure, separating polarity errors from failures on ambiguous expressions.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Domain Transfer in Named Entity Recognition
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing direct transfer and supervised adaptation of entity taggers across news articles and technical support text.
+- Analyzed span boundary errors and entity type confusion, examining how vocabulary overlap and annotation conventions affected transfer behavior.
+Research assistant, University Research Group | 2025-04 to 2026-05 | 10 hours/week
+Confidence Calibration for Intent Classification Under Domain Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating temperature scaling and confidence thresholds for intent classifiers under shifts in vocabulary and user phrasing.
+- Analyzed reliability diagrams and selective prediction curves, comparing calibration behavior across intent frequency groups and manually reviewed error categories.
+
+PUBLICATIONS
+Confidence Calibration and Selective Prediction for Intent Classification Under Vocabulary Shift. Regional applied computing conference, 2026-11; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-07 to 2025-04 | 10 hours/week
+Support Text Processing and Search Maintenance
+- Implemented assigned updates to text normalization and document indexing components used to retrieve internal support articles.
+- Added regression tests for malformed inputs and duplicate records, and investigated retrieval defects using application logs and reproducible examples.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Extractive Summarization Methods | technical course project, 2026
+- Implemented frequency-based and graph-based sentence ranking methods for extractive summarization, using shared preprocessing and document length constraints.
+- Compared summaries with reference texts using lexical overlap metrics and manual checks for redundancy, coverage, and sentence coherence.
+Sparse and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented lexical retrieval and sentence embedding baselines for matching incoming questions to a collection of previously answered questions.
+- Compared ranking quality under identical candidate pools, inspecting failures involving paraphrases, rare terminology, and questions sharing misleading keywords.
+Sequence Labeling for Keyphrase Extraction | technical course project, 2026
+- Implemented conditional random field and recurrent neural sequence taggers for keyphrase extraction with consistent tokenization and evaluation splits.
+- Compared exact span precision and recall, examining disagreements involving multiword terms, nested phrases, and keyphrases absent from training examples.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed supervisor-guided experiments comparing answer generation under relevant, distracting, and contradictory retrieved passages while holding questions and generation settings constant.",
+        "Evaluated answer correctness and evidence attribution, categorizing failures involving unsupported claims, conflicting passages, and excessive reliance on lexical overlap."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Lexical Shortcut Reliance in Natural Language Inference",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine lexical overlap shortcuts in sentence-pair classification using controlled substitutions and label-preserving paraphrases.",
+        "Compared classifier behavior across original and perturbed examples, inspecting prediction changes and annotation ambiguity to distinguish shortcut reliance from semantic sensitivity."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Examining Lexical Shortcut Reliance in Natural Language Inference Through Controlled Sentence Perturbations"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation Support",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against packing lists, and flagged discrepancies for review by the responsible operations staff.",
+        "Organized order paperwork, updated shipment status logs, and coordinated routine handoffs between receiving and dispatch staff during daily operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sparse and Dense Passage Retrieval",
+      "bullets": [
+        "Implemented probabilistic sparse and pretrained dense retrieval baselines for document question answering, using consistent passage segmentation and shared evaluation queries.",
+        "Compared retrieval rankings using relevance judgments and inspected errors associated with rare terminology, paraphrased questions, and passages containing competing entities."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Approaches for Named Entity Recognition",
+      "bullets": [
+        "Implemented token classification baselines using a linear classifier and a fine-tuned transformer, aligning entity labels consistently across tokenization schemes.",
+        "Compared entity-level precision and recall across label categories, examining boundary errors, ambiguous mentions, and differences between frequent and uncommon entities."
+      ]
+    }
+  ]
+}

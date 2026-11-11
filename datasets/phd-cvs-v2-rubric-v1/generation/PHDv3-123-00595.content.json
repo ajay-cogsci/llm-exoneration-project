@@ -1,0 +1,98 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Conflict Detection for Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Formulated whether disagreement among retrieved passages predicts unsupported answers, and developed an entailment-based scoring method for evidence conflict.",
+        "Led development of conflict-aware passage selection and evaluated answer support through retrieval ablations and manual analysis of contradictory evidence."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Negation-Sensitive Representations for Paraphrase Detection",
+      "bullets": [
+        "Investigated whether contrastive training with negation edits reduces false paraphrase matches, and developed a training objective separating semantic similarity from equivalence.",
+        "Constructed controlled sentence transformations and evaluated the method against standard contrastive baselines, inspecting errors involving scope, antonymy, and lexical overlap."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Uncertainty-Aware Clarification in Task-Oriented Dialogue",
+      "bullets": [
+        "Formulated when dialogue systems should request clarification rather than commit to an intent, and developed a policy combining intent uncertainty with slot ambiguity.",
+        "Led policy development using calibrated intent predictions, comparing clarification decisions with confidence thresholds and analyzing ambiguous utterances across dialogue contexts."
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Selective Text Classification Under Domain Shift",
+      "bullets": [
+        "Formulated how domain shift affects classifier abstention, and led development of confidence scoring that combines predictive uncertainty with representation-based domain similarity.",
+        "Designed cross-domain evaluations of calibration and selective risk, with ablations examining class imbalance, rejection thresholds, and interpretable summaries of abstained documents."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Domain-Similarity Confidence Scoring for Selective Text Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Calibration and Rejection Thresholds for Text Classifiers Under Domain Shift"
+    },
+    {
+      "id": "P3",
+      "title": "Class Imbalance in Cross-Domain Selective Text Classification"
+    },
+    {
+      "id": "P4",
+      "title": "Interpretable Summaries of Abstained Documents for Text Classification Review"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Import Validation and Error Handling",
+      "bullets": [
+        "Implemented assigned validation checks for document import requests, handling missing fields, malformed text encodings, and duplicate records within existing service interfaces.",
+        "Added regression tests for import failures and investigated reported defects using application logs, documenting reproduction steps and verifying fixes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented lexical retrieval and sentence embedding retrieval over a shared document collection, using consistent preprocessing and relevance judgments for comparison.",
+        "Compared ranking quality and query latency, examining retrieval failures involving rare terminology, paraphrased queries, and documents with overlapping vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Tagging for Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field baseline and a transformer token classifier, aligning tokenization and label conventions across both approaches.",
+        "Compared entity-level precision and recall, analyzing boundary errors, unseen entity mentions, and sensitivity to the amount of labeled training data."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive and Generative Dialogue Summarization",
+      "bullets": [
+        "Implemented sentence-ranking extraction and fine-tuned an encoder-decoder summarizer on dialogue transcripts, applying shared data splits and text normalization procedures.",
+        "Compared lexical overlap metrics with manual checks of factual consistency, speaker attribution, and coverage of decisions expressed across multiple turns."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Dependency Parsing with Transition-Based and Graph-Based Models",
+      "bullets": [
+        "Implemented transition-based and graph-based dependency parsers using shared token representations, following established parsing algorithms and matched training data preparation.",
+        "Compared attachment accuracy and decoding cost, categorizing errors by dependency length, sentence structure, and ambiguous attachment of prepositional phrases."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+Applicant PHDv3-123-00546
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-11 to 2026-11 | 10 hours/week
+Robustness of Text Classifiers to Negation and Paraphrase
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare classifier sensitivity to meaning-preserving paraphrases and sentiment-changing negation across review classification datasets.
+- Implemented controlled perturbations and evaluation routines, separating prediction changes caused by semantic shifts from errors associated with superficial wording differences.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-08 to 2025-11 | 10 hours/week
+Document Import Validation and Error Handling
+- Implemented validation checks for document import requests, handling missing metadata, malformed text fields, and duplicate submissions within existing service interfaces.
+- Added regression tests for import failures and revised error messages to distinguish invalid input from temporary processing failures.
+
+TECHNICAL PROJECTS
+Sparse and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented term-weighted and pretrained sentence-embedding retrieval baselines for matching user questions to relevant answers in a fixed document collection.
+- Compared ranking quality under shared relevance judgments and inspected failures involving rare terminology, ambiguous questions, and overlapping answer content.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented token classification with recurrent and pretrained transformer encoders, aligning subword predictions with annotated entity spans for consistent evaluation.
+- Compared entity-level precision and recall across label categories, examining boundary errors and inconsistent predictions for entities appearing in unfamiliar contexts.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented frequency-based and graph-based sentence ranking methods for extractive summarization, applying identical preprocessing and summary length constraints across approaches.
+- Compared reference overlap and manually examined selected summaries for redundancy, missing context, and dependence on sentence position within source documents.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

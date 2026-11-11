@@ -1,0 +1,44 @@
+Applicant PHDv3-123-01610
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.96/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Paraphrase Robustness in Natural Language Inference
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare inference models on meaning-preserving paraphrases, controlling for sentence length and lexical overlap.
+- Implemented evaluation routines and reviewed prediction changes across negation, modifier placement, and syntactic variation to distinguish annotation ambiguity from model errors.
+Research assistant, University Research Group | 2025-10 to 2026-08 | 10 hours/week
+Intent Classification Under Class Imbalance
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance comparing class weighting and resampling for intent classification, using stratified splits and per-class evaluation.
+- Evaluated temperature scaling on held-out validation data and examined confidence patterns for rare intents, ambiguous requests, and frequently confused intent pairs.
+
+PUBLICATIONS
+Class Imbalance and Confidence Calibration in Intent Classification. Regional applied computing conference, 2026-09; published; author position 4.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-01 to 2025-10 | 10 hours/week
+Inventory and Order Coordination
+- Checked incoming deliveries against packing slips, recorded discrepancies, and organized supplies in designated storage areas for routine operational use.
+- Prepared order paperwork, maintained filing records, and coordinated pickup schedules with staff while communicating missing items and delivery changes.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Named Entity Taggers | technical course project, 2026
+- Implemented conditional random field and bidirectional recurrent tagging baselines using consistent tokenization, label conventions, and training partitions for entity recognition.
+- Compared entity-level precision and recall, inspecting boundary errors and confusion between entity categories across short and long sentences.
+Lexical and Dense Retrieval for Question Matching | technical course project, 2026
+- Implemented lexical ranking and pretrained sentence embedding retrieval for matching questions to relevant answers within a fixed document collection.
+- Compared ranking quality using shared relevance labels and inspected retrieval failures involving paraphrases, uncommon terminology, and questions with overlapping keywords.
+Extractive Summarization with Redundancy Control | technical course project, 2026
+- Implemented frequency-based sentence scoring and graph-based ranking for extractive summarization, applying identical preprocessing and summary length constraints across methods.
+- Compared reference overlap and manually reviewed topic coverage, sentence redundancy, and missing context under alternative sentence selection and redundancy penalties.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

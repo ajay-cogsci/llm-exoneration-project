@@ -1,0 +1,36 @@
+Applicant PHDv3-456-01527
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Lexical Shortcut Sensitivity in Natural Language Inference
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine whether lexical overlap influences inference predictions, using controlled sentence pairs and label balanced evaluation sets.
+- Compared transformer classifier behavior across original and perturbed inputs, analyzing prediction changes by negation, word order, and overlap patterns.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-05 to 2026-02 | 10 hours/week
+Inventory and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against order paperwork, and flagged discrepancies for follow-up by responsible staff.
+- Prepared routine order documents, organized supply requests, and coordinated collection schedules while keeping outstanding requests and delivery records current.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Short Text Classifiers | technical course project, 2026
+- Implemented TF-IDF logistic regression and a convolutional text classifier for topic classification, using shared training partitions and consistent text preprocessing.
+- Compared macro F score and classwise confusion patterns, examining errors associated with rare vocabulary, short inputs, and overlapping topic terminology.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented frequency based and graph based sentence ranking methods for document summarization, applying shared sentence segmentation and summary length constraints.
+- Compared summaries using ROUGE and manual error categorization, examining redundancy, missing central information, and sensitivity to sentence position.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

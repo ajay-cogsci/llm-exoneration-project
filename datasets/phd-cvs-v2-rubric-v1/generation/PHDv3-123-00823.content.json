@@ -1,0 +1,82 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Adaptive Covariance Shrinkage for Unevenly Sampled Groups",
+      "bullets": [
+        "Formulated whether partial pooling of covariance estimates could stabilize probabilistic classification when labeled observations are unevenly distributed across groups.",
+        "Led development of a groupwise shrinkage estimator and evaluated sensitivity to covariance heterogeneity using simulated data and held-out predictive likelihood."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Prediction Under Shifting Missingness Patterns",
+      "bullets": [
+        "Formulated how changes in predictor missingness affect regression uncertainty, distinguishing shifts in missingness frequency from changes in observed feature distributions.",
+        "Led development of a pattern-weighted regression ensemble and compared uncertainty estimates against imputation baselines under controlled missingness shifts."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Stable Weighted Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated how unstable density ratio estimates affect weighted conformal prediction, focusing on marginal coverage and interval width under covariate shift.",
+        "Led development of regularized weighting and calibration procedures; designed comparisons examining weight clipping, calibration sample composition, and subgroup coverage diagnostics."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Regularized Density Ratio Weighting for Conformal Regression Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Diagnosing Coverage Variation in Shifted Tabular Regression"
+    },
+    {
+      "id": "P3",
+      "title": "Calibration Sample Composition in Weighted Conformal Prediction"
+    },
+    {
+      "id": "P4",
+      "title": "Weight Clipping and Interval Efficiency in Conformal Regression Under Covariate Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Reporting Maintenance",
+      "bullets": [
+        "Implemented validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before scheduled reporting jobs.",
+        "Maintained data transformation routines and added regression tests for documented edge cases, coordinating fixes through code review and issue tracking."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Linear Models for Correlated Predictors",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression with standardized preprocessing and cross-validation for datasets containing correlated and irrelevant predictors.",
+        "Compared predictive error and coefficient stability across resampled training sets, examining how regularization choices affected selection among correlated features."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Bayesian Inference for Logistic Regression",
+      "bullets": [
+        "Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression using a shared likelihood and Gaussian coefficient priors.",
+        "Compared predictive calibration, posterior dispersion, and optimization behavior on simulated classification data with varying class overlap and predictor dependence."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Kernel and Nearest-Neighbor Two-Sample Testing",
+      "bullets": [
+        "Implemented kernel maximum mean discrepancy and nearest-neighbor two-sample tests, using permutation procedures to estimate significance under a common evaluation protocol.",
+        "Compared rejection behavior under simulated location, scale, and mixture shifts, examining sensitivity to kernel bandwidth and neighborhood size."
+      ]
+    }
+  ]
+}

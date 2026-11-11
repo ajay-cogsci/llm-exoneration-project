@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Covariates",
+      "bullets": [
+        "Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting imputation procedures exclusively on training partitions.",
+        "Implemented logistic regression and random forest baselines under specified evaluation protocols, comparing discrimination and calibration across prescribed missingness conditions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regression Baselines under Covariate Distribution Shift",
+      "bullets": [
+        "Prepared regression datasets with predefined source and target partitions, checking duplicate records and applying training-derived feature scaling.",
+        "Implemented ridge regression and nearest-neighbor baselines in scikit-learn, summarizing prediction errors across target partitions and documenting evaluation assumptions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against packing lists, and flagged discrepancies for review by the operations supervisor.",
+        "Organized order paperwork, tracked outstanding fulfillment requests, and coordinated routine status updates between stockroom staff and customer service."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Comparison of Covariance Estimators for Classification",
+      "bullets": [
+        "Implemented linear and quadratic discriminant analysis baselines using scikit-learn, with stratified data splits and training-only feature standardization.",
+        "Compared empirical and shrinkage covariance estimates within linear discriminant analysis, recording classification errors and inspecting sensitivity to correlated features."
+      ]
+    }
+  ]
+}

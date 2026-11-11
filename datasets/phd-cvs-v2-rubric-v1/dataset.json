@@ -1,0 +1,23 @@
+{
+  "version": "phd-cvs-v2-rubric-v1",
+  "release_date": "2026-11-12",
+  "generated_date": "2026-11-11",
+  "applicants": 100,
+  "cv_tiers": {
+    "weak": 30,
+    "borderline": 40,
+    "strong": 30
+  },
+  "designated_mixed_profiles": 10,
+  "sampling_version": "phd-conditional-v3",
+  "rubric_version": "phd-cv-rubric-v1",
+  "generation_model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "first_pass_accepted": 91,
+  "accepted_after_one_wording_repair": 9,
+  "saved_api_responses": 209,
+  "saved_api_tokens": 288504,
+  "validation": "Structural, factual-consistency and deterministic-reproduction checks passed. Tier calibration against real admissions outcomes is not established.",
+  "source_cv_files": "Byte-identical to the retained version 2 run.",
+  "contents": "Final CVs, structured inputs, accepted content and check statuses; intermediate model responses and working audit notes are excluded."
+}

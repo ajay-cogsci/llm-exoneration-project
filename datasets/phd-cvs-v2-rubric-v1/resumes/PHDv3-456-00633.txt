@@ -1,0 +1,34 @@
+Applicant PHDv3-456-00633
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.54/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Image Classification Under Illumination Variation
+Contribution: assigned implementation tasks.
+- Implemented assigned preprocessing and evaluation routines for a histogram of oriented gradients classifier using a specified illumination perturbation protocol.
+- Checked feature extraction consistency and summarized classification errors across lighting conditions for review with the research team.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-03 to 2025-09 | 40 hours/week
+Image Ingestion and Validation Services
+- Maintained image ingestion components that checked file readability, normalized metadata, and routed malformed uploads for operational review.
+- Investigated processing failures, added regression tests for supported image formats, and documented error handling behavior for routine maintenance.
+
+TECHNICAL PROJECTS
+Color Histogram Baseline for Scene Classification | technical course project, 2026
+- Implemented a scene classification baseline using normalized color histograms and a nearest neighbor classifier with predefined training and test partitions.
+- Compared histogram binning choices on validation data and inspected confusion matrices to identify errors among visually similar scene categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

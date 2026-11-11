@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Classification Robustness Under Lighting Variation",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare brightness augmentation and contrast normalization for convolutional image classifiers under simulated lighting changes.",
+        "Evaluated clean and transformed image splits, examining classwise errors and confidence distributions to distinguish robustness changes from baseline classification differences."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Boundary Evaluation for Foreground Segmentation",
+      "bullets": [
+        "Planned supervised comparisons of segmentation losses with supervisor guidance, holding training splits and preprocessing constant while varying boundary weighting.",
+        "Implemented evaluation routines for mask overlap and boundary agreement, then inspected predictions around thin structures and low contrast object edges."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed incomplete shipment documentation to the appropriate staff for follow-up.",
+        "Organized order paperwork, updated routine inventory records, and prepared handover notes identifying unresolved stock discrepancies and pending delivery confirmations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparing Feature Representations for Image Classification",
+      "bullets": [
+        "Implemented histogram of oriented gradients features with a linear classifier and compared them against a convolutional classifier using shared image splits.",
+        "Evaluated classification accuracy and confusion patterns, examining how grayscale conversion and image resizing affected errors across visually similar categories."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical Edge Detection Under Image Noise",
+      "bullets": [
+        "Implemented Sobel and Canny edge detection pipelines, comparing their responses to Gaussian noise and blur on a shared image collection.",
+        "Compared detected edges against reference contours using precision and recall, and inspected how smoothing settings changed edge continuity and spurious responses."
+      ]
+    }
+  ]
+}

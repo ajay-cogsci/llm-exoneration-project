@@ -1,0 +1,82 @@
+Applicant PHDv3-123-01604
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.87/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence-Sensitive Abstention in Retrieval-Augmented Question Answering
+Contribution: formulated a research question and led method development.
+- Investigated whether disagreement among retrieved passages predicts unsupported answers, and led development of an evidence-sensitive abstention mechanism.
+- Compared passage agreement and answer confidence signals under retrieval perturbations, examining coverage and factual reliability across question categories.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Negation-Aware Representations for Natural Language Inference
+Contribution: formulated a research question and led method development.
+- Formulated a study of negation sensitivity and led development of a contrastive training objective using minimally edited sentence pairs.
+- Evaluated entailment predictions on lexical and syntactic negation variants, using ablations to distinguish semantic sensitivity from surface cue dependence.
+Research intern, Research Lab 3 | 2026-02 to 2026-05 | 15 hours/week
+Boundary Uncertainty in Cross-Domain Named Entity Recognition
+Contribution: formulated a research question and led method development.
+- Asked whether uncertain entity boundaries explain cross-domain errors and led development of a boundary-weighted consistency objective for sequence labeling.
+- Compared token confidence and span agreement under text perturbations, analyzing boundary errors separately from entity type confusion.
+Research assistant, University Research Group | 2024-03 to 2026-02 | 10 hours/week
+Sentence-Level Evidence Alignment for Factual Summarization
+Contribution: formulated a research question and led method development.
+- Formulated a research question linking evidence alignment to summary factuality and led development of an alignment-guided candidate reranking method.
+- Designed evaluations of sentence support, attribution errors, and evidence omissions, comparing alignment signals with lexical overlap and entailment baselines.
+
+PUBLICATIONS
+Comparing Sentence Alignment Signals for Detecting Unsupported Summary Claims. Regional applied computing conference, 2025-02; published; author position 3.
+Evidence-Aligned Candidate Reranking for Factual Document Summarization. Peer-reviewed ML conference, 2025-11; published; author position 1.
+Attribution Errors and Evidence Omissions in Sentence-Level Summary Evaluation. Peer-reviewed ML conference, 2025-04; published; author position 2.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-06 to 2024-03 | 10 hours/week
+Inventory and Order Documentation Support
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items through established reporting procedures.
+- Maintained order paperwork, organized supply storage, and coordinated routine replenishment requests with staff responsible for purchasing and receiving.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Text Classification Models | technical course project, 2026
+- Implemented sparse linear and pretrained encoder classifiers for topic classification, using consistent data splits and preprocessing for comparative evaluation.
+- Compared performance across document lengths and class frequencies, inspecting confusion patterns and sensitivity to vocabulary restrictions.
+Lexical and Dense Retrieval for Passage Search | technical course project, 2026
+- Implemented lexical retrieval and dense passage ranking pipelines, holding the document collection and query splits fixed across comparisons.
+- Evaluated ranking quality on paraphrased and exact-match queries, analyzing retrieval failures associated with terminology mismatch and ambiguous wording.
+Sequence Labeling Approaches to Keyphrase Extraction | technical course project, 2026
+- Implemented conditional random field and neural sequence labeling baselines for keyphrase extraction, applying shared tokenization and span evaluation procedures.
+- Compared extracted phrases by boundary accuracy and phrase length, examining how decoding constraints affected fragmented and overlapping predictions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-123-01604
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2024-03 to 2026-02 (23 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Linear Algebra, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Linear Algebra. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Linear Algebra as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Text Classification Models (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work.

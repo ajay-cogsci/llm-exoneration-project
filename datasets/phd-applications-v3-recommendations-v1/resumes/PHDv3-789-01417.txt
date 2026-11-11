@@ -1,0 +1,41 @@
+Applicant PHDv3-789-01417
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 2.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Image Classification Robustness Under Lighting Variation
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare brightness augmentation and contrast normalization for convolutional image classifiers under simulated lighting changes.
+- Evaluated clean and transformed image splits, examining classwise errors and confidence distributions to distinguish robustness changes from baseline classification differences.
+Research assistant, University Research Group | 2026-01 to 2026-08 | 10 hours/week
+Boundary Evaluation for Foreground Segmentation
+Contribution: experimental design with supervisor guidance.
+- Planned supervised comparisons of segmentation losses with supervisor guidance, holding training splits and preprocessing constant while varying boundary weighting.
+- Implemented evaluation routines for mask overlap and boundary agreement, then inspected predictions around thin structures and low contrast object edges.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-10 to 2026-01 | 10 hours/week
+Inventory and Order Documentation Support
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed incomplete shipment documentation to the appropriate staff for follow-up.
+- Organized order paperwork, updated routine inventory records, and prepared handover notes identifying unresolved stock discrepancies and pending delivery confirmations.
+
+TECHNICAL PROJECTS
+Comparing Feature Representations for Image Classification | technical course project, 2026
+- Implemented histogram of oriented gradients features with a linear classifier and compared them against a convolutional classifier using shared image splits.
+- Evaluated classification accuracy and confusion patterns, examining how grayscale conversion and image resizing affected errors across visually similar categories.
+Classical Edge Detection Under Image Noise | technical course project, 2026
+- Implemented Sobel and Canny edge detection pipelines, comparing their responses to Gaussian noise and blur on a shared image collection.
+- Compared detected edges against reference contours using precision and recall, and inspected how smoothing settings changed edge continuity and spurious responses.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

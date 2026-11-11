@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess split conformal prediction under controlled covariate shifts in synthetic regression datasets.",
+        "Compared weighted and unweighted calibration procedures, examining empirical coverage and interval width across shift mechanisms and calibration sample sizes."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration With Imbalanced Training Data",
+      "bullets": [
+        "Developed an experimental protocol with supervisor guidance for comparing probability calibration methods under varying class imbalance and training sample availability.",
+        "Evaluated sigmoid and isotonic calibration using repeated stratified splits, reliability diagrams, Brier scores, and sensitivity analyses for calibration set composition."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Validation and Maintenance of Batch Data Processing",
+      "bullets": [
+        "Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before downstream processing.",
+        "Maintained batch transformation routines and regression tests, reproducing reported failures and documenting expected behavior for malformed input records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression With Correlated Predictors",
+      "bullets": [
+        "Implemented a comparative evaluation of ridge, lasso, and elastic net regression on synthetic datasets with controlled predictor correlations.",
+        "Selected regularization parameters through nested cross-validation and compared prediction error, coefficient stability, and variable selection behavior across repeated data splits."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Density Estimation for Multimodal Data",
+      "bullets": [
+        "Implemented kernel density estimation and fitted Gaussian mixture models to synthetic distributions with varying modality, dimensionality, and component overlap.",
+        "Compared held-out log likelihood and sensitivity to bandwidth or component count, using validation splits to separate model selection from evaluation."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Missing-Data Strategies for Tabular Classification",
+      "bullets": [
+        "Implemented preprocessing pipelines comparing median and nearest-neighbor imputation before logistic regression and random forest classification on tabular datasets.",
+        "Evaluated discrimination and calibration under controlled missingness mechanisms, fitting imputers within training folds to prevent information leakage during cross-validation."
+      ]
+    }
+  ]
+}

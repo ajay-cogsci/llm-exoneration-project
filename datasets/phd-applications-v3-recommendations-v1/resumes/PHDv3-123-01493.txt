@@ -1,0 +1,42 @@
+Applicant PHDv3-123-01493
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.58/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evaluating Object Detection Under Partial Occlusion
+Contribution: designed experiments and analyzed results.
+- Designed controlled evaluations of pretrained object detectors using synthetic occlusions, separating effects of object visibility, occluder placement, and background complexity.
+- Analyzed detection errors across object sizes and occlusion conditions, examining confidence shifts and localization failures against unoccluded reference images.
+Research assistant, University Research Group | 2024-05 to 2026-08 | 10 hours/week
+Illumination Robustness in Road Scene Segmentation
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing photometric augmentation and consistency training for semantic segmentation under exposure changes, shadows, and low illumination.
+- Analyzed classwise segmentation errors and boundary quality across lighting conditions, using ablations to distinguish augmentation effects from training configuration differences.
+
+PUBLICATIONS
+Photometric Augmentation and Consistency Training for Road Scene Segmentation Under Illumination Shift. Peer-reviewed ML conference, 2026-11; published; author position 1.
+Classwise Error Analysis of Road Scene Segmentation Across Lighting Conditions. Regional applied computing conference, 2025-09; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-08 to 2024-05 | 10 hours/week
+Image Upload Validation and Processing Maintenance
+- Implemented assigned validation checks for image uploads, handling unsupported formats, inconsistent dimensions, and malformed metadata within an existing processing service.
+- Investigated processing failures through application logs, added regression tests for reproduced defects, and documented expected behavior for maintenance handoffs.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Retrieval Representations | technical course project, 2026
+- Implemented image retrieval baselines using color histograms and pretrained convolutional features, applying consistent preprocessing and similarity scoring across representations.
+- Compared retrieval rankings under cropping and color perturbations, inspecting failure cases involving background similarity and changes in object appearance.
+Classical and Learned Image Denoising | technical course project, 2026
+- Implemented median filtering, Gaussian smoothing, and a convolutional denoising baseline for images corrupted with additive noise and impulse noise.
+- Evaluated reconstruction quality and edge preservation using matched corruption settings, comparing visual artifacts and sensitivity to noise types across methods.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

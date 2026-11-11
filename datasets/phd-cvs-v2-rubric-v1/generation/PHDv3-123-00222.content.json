@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Text Classifiers to Lexical Distribution Shifts",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare text classifiers under vocabulary shifts, controlling training splits, preprocessing choices, and label distributions.",
+        "Evaluated lexical and contextual baselines, inspected prediction errors, and analyzed whether confidence calibration changed across original and perturbed evaluation sets."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned Python utilities for validating incoming document records, normalizing text fields, and reporting malformed inputs within an existing processing pipeline.",
+        "Added regression tests for parsing edge cases and investigated processing failures using application logs, documenting fixes for routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented frequency based and graph based sentence ranking methods for extractive summarization, using shared tokenization and sentence segmentation procedures.",
+        "Compared summaries against reference texts using overlap metrics and manually inspected redundancy, sentence ordering, and coverage of central document content."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented recurrent and token independent tagging baselines in PyTorch, holding input representations and training partitions constant for comparative evaluation.",
+        "Evaluated entity span precision and recall, then categorized boundary and label errors to examine differences between contextual and independent predictions."
+      ]
+    }
+  ]
+}

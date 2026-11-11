@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Textual Entailment Models to Lexical Shortcuts",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine whether lexical overlap influences entailment predictions across controlled sentence transformations.",
+        "Evaluated pretrained classifiers on negation and word order perturbations, separating prediction changes by transformation type and manually reviewing inconsistent cases."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory records, checked incoming shipments against packing lists, and flagged discrepancies for review by the operations team.",
+        "Prepared order paperwork, organized delivery schedules, and followed up on missing documentation to support routine fulfillment activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sentiment Classification Models",
+      "bullets": [
+        "Implemented term frequency–inverse document frequency features with logistic regression and a fine-tuned transformer baseline for review sentiment classification.",
+        "Compared classification errors across review lengths and negation patterns using consistent data splits, documenting preprocessing choices and evaluation limitations."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented probabilistic sparse retrieval and sentence embedding similarity to rank candidate answers for a collection of frequently asked questions.",
+        "Compared ranking quality using reciprocal rank and recall, then inspected failures involving paraphrases, ambiguous queries, and specialized vocabulary."
+      ]
+    }
+  ]
+}

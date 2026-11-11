@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Structured Covariate Missingness",
+      "bullets": [
+        "Formulated a research question on calibration under changing missingness patterns and led development of a missingness-conditioned shrinkage calibrator.",
+        "Evaluated calibration error and predictive loss under simulated missingness mechanisms, comparing pooled calibration against pattern-specific alternatives."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Stabilizing Weighted Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated the question of how density-ratio estimation instability affects conformal prediction and led development of an adaptive weight-truncation procedure.",
+        "Designed synthetic and tabular-data evaluations examining empirical coverage, interval width, and sensitivity to estimated importance weights across covariate shifts."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Adaptive Importance-Weight Truncation for Stable Conformal Prediction Under Covariate Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented assigned validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries within existing processing routines.",
+        "Added regression tests for parsing and transformation behavior, investigated reported failures, and documented expected handling of malformed input records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors and cross-validation for selecting regularization strength on synthetic and tabular datasets.",
+        "Compared prediction error and coefficient stability across correlated feature settings, checking sensitivity to sample splitting and regularization choices."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Inference for Bayesian Logistic Regression",
+      "bullets": [
+        "Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression, using matched priors and preprocessing across comparisons.",
+        "Compared predictive log loss, posterior uncertainty, and convergence behavior on classification datasets, examining sensitivity to initialization and prior scale."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Density Estimation with Mixture and Kernel Models",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixture models and kernel density estimation, selecting model complexity through held-out likelihood comparisons.",
+        "Evaluated density estimates on synthetic distributions with overlapping modes, tracking initialization sensitivity, covariance regularization effects, and bandwidth-dependent smoothing."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Bootstrap Confidence Intervals for Regression Estimates",
+      "bullets": [
+        "Implemented percentile, basic, and bias-corrected bootstrap intervals for regression coefficients, with reusable resampling routines and checks against analytic standard errors.",
+        "Compared empirical coverage and interval length under skewed noise and heteroscedasticity, distinguishing pairs resampling from residual resampling assumptions."
+      ]
+    }
+  ]
+}

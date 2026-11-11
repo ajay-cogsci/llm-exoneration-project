@@ -1,0 +1,70 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Context Selection for Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments comparing passage ordering and relevance filtering while holding the retriever, generator, and evaluation questions fixed.",
+        "Analyzed answer correctness and supporting evidence across context conditions, categorizing errors associated with distractor passages and missing information."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Negation Sensitivity in Sentiment Classification",
+      "bullets": [
+        "Designed paired sentence evaluations to test sentiment classifiers under negation insertion, scope changes, and contrastive clause constructions.",
+        "Analyzed prediction changes across lexical and transformer baselines, separating failures in negation handling from sensitivity to unrelated wording."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Intent Classification Under Class Imbalance and Domain Shift",
+      "bullets": [
+        "Designed experiments comparing class weighting and resampling for support request classification, using held-out domains to examine generalization.",
+        "Analyzed per-class recall, calibration, and confusion patterns to distinguish minority intent errors from domain-specific vocabulary effects."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Class Weighting and Resampling for Support Request Intent Classification Across Domains"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Processing Service Maintenance",
+      "bullets": [
+        "Implemented document validation and text normalization components for an ingestion service, including explicit handling of malformed inputs and duplicate submissions.",
+        "Maintained regression tests, investigated processing failures from service logs, and updated error handling to support recoverable ingestion failures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Named Entity Taggers",
+      "bullets": [
+        "Implemented a conditional random field tagger and fine-tuned a transformer baseline using consistent tokenization alignment and dataset splits.",
+        "Compared entity-level precision and recall, inspecting boundary errors, rare entity categories, and predictions involving previously unseen surface forms."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented term-weighted and dense embedding retrieval pipelines over a shared document collection, keeping query sets and relevance judgments consistent.",
+        "Compared ranking quality and query latency, examining retrieval failures involving vocabulary mismatch, ambiguous queries, and semantically related distractors."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented graph-based and centroid-based sentence ranking methods for extractive summarization, applying a shared preprocessing pipeline and summary length constraint.",
+        "Compared summaries using overlap metrics and manual content checks, documenting redundancy, missing central claims, and disrupted referential coherence."
+      ]
+    }
+  ]
+}

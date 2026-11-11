@@ -1,0 +1,85 @@
+{
+  "version": "phd-recommendations-v1",
+  "parameter_status": "Provisional study choices implementing the reviewer's requested fields; not empirical letter frequencies or admissions cutoffs.",
+  "seed": 20261112,
+  "letters_per_applicant": 3,
+  "strength_levels": [
+    "limited",
+    "moderate",
+    "strong"
+  ],
+  "comparison_probability": 0.5,
+  "example_probability_when_available": 0.5,
+  "short_research_months": 3,
+  "strength_probabilities": {
+    "research_short": [
+      0.65,
+      0.35,
+      0.0
+    ],
+    "research_routine": [
+      0.35,
+      0.6,
+      0.05
+    ],
+    "research_guided": [
+      0.15,
+      0.65,
+      0.2
+    ],
+    "research_intellectual": [
+      0.05,
+      0.35,
+      0.6
+    ],
+    "course_a_range": [
+      0.05,
+      0.35,
+      0.6
+    ],
+    "course_b_range": [
+      0.25,
+      0.6,
+      0.15
+    ],
+    "course_below_b": [
+      0.65,
+      0.35,
+      0.0
+    ],
+    "project_baseline": [
+      0.35,
+      0.6,
+      0.05
+    ],
+    "project_comparative": [
+      0.15,
+      0.6,
+      0.25
+    ],
+    "work": [
+      0.2,
+      0.65,
+      0.15
+    ]
+  },
+  "endorsement_templates": {
+    "limited": "The writer offers qualified support for PhD study, with a limited endorsement of the applicant's {scope}.",
+    "moderate": "The writer supports PhD study, with a positive endorsement of the applicant's {scope}.",
+    "strong": "The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's {scope}."
+  },
+  "comparison_templates": {
+    "limited": "Compared with {group}, the writer rates the applicant's {scope} as below the typical level.",
+    "moderate": "Compared with {group}, the writer rates the applicant's {scope} as at the typical level.",
+    "strong": "Compared with {group}, the writer rates the applicant's {scope} as above the typical level."
+  },
+  "example_template": "As a specific example of the applicant's work, the writer cites this recorded activity: {activity}",
+  "synthetic_additions": [
+    "Three distinct fictional writers are assigned to existing activities; writer identities were not recorded in the CV source.",
+    "Endorsement levels and comparisons are newly assigned fictional judgments, not verified facts or rankings inferred from GPA.",
+    "A course-project instructor observes the recorded technical course project; no link to a named graded course is invented.",
+    "A grade-only instructor has no specific work example available. A grade alone does not count as an example.",
+    "Research lasting fewer than three months has no strong research letter in this initial policy. This is a conservative provisional choice, not a universal admissions rule.",
+    "No best-ever, top-percentile, or career-wide exceptional comparisons are used. No exceptional-case overrides are enabled in v1."
+  ]
+}

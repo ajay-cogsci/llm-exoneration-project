@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess split conformal prediction under controlled changes in covariate distributions for regression tasks.",
+        "Compared unweighted and importance-weighted calibration procedures, examining empirical coverage, interval width, and sensitivity to estimated density ratios."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration for Imbalanced Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to isolate effects of class imbalance and calibration sample size on predicted probability reliability.",
+        "Evaluated logistic regression and tree ensembles using held-out calibration sets, reliability diagrams, Brier scores, and repeated stratified data splits."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented assigned validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before downstream processing.",
+        "Added regression tests for parsing and transformation routines, reproduced reported failures, and documented expected behavior for malformed input records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors and cross-validation for selecting regularization strength on synthetic and tabular datasets.",
+        "Compared prediction error and coefficient stability across correlated feature settings, using repeated splits to examine sensitivity to training sample composition."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Models for Cluster Recovery",
+      "bullets": [
+        "Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including convergence checks and repeated initialization.",
+        "Compared mixture models with k-means on synthetic clusters, evaluating cluster recovery and held-out likelihood under varying overlap and covariance geometry."
+      ]
+    }
+  ]
+}

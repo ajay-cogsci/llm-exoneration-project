@@ -1,0 +1,48 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Designed experiments comparing standard and importance-weighted split conformal prediction under controlled covariate shifts in synthetic regression data.",
+        "Analyzed empirical coverage and interval width across calibration sample sizes, examining sensitivity to density ratio estimation errors."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration with Noisy Training Labels",
+      "bullets": [
+        "Designed classification experiments varying label corruption mechanisms to compare temperature scaling and isotonic regression on held-out calibration data.",
+        "Analyzed reliability diagrams, Brier scores, and log loss to distinguish calibration changes from discrimination changes across noise conditions."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Regularization and Feature Selection with Correlated Predictors",
+      "bullets": [
+        "Designed simulation experiments comparing ridge, lasso, and elastic net regression across predictor correlation structures and signal sparsity settings.",
+        "Analyzed prediction error and feature selection stability across repeated data splits, documenting sensitivity to regularization choices and validation procedures."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Gaussian Mixture Estimation",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models in NumPy, including covariance regularization and alternative initialization strategies.",
+        "Compared clustering agreement and held-out likelihood with scikit-learn baselines, examining sensitivity to overlapping components and initialization."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel Methods for Nonlinear Regression",
+      "bullets": [
+        "Implemented kernel ridge regression with linear and radial basis kernels, using nested cross-validation for hyperparameter selection.",
+        "Compared predictive error and residual patterns against polynomial regression and random forest baselines on synthetic nonlinear datasets."
+      ]
+    }
+  ]
+}

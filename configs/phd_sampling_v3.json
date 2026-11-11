@@ -1,0 +1,20 @@
+{
+  "version": "phd-conditional-v3",
+  "status": "Uncalibrated design distribution. Allocation deliberately unset pending user choice; this file does not authorize generation.",
+  "pool_per_cohort": 2000,
+  "academic_given_research_probabilities": [
+    [0.40, 0.25, 0.15, 0.10, 0.10],
+    [0.20, 0.35, 0.25, 0.10, 0.10],
+    [0.10, 0.20, 0.40, 0.20, 0.10],
+    [0.10, 0.10, 0.25, 0.35, 0.20],
+    [0.10, 0.10, 0.15, 0.25, 0.40]
+  ],
+  "gpa_bin_probabilities_by_academic_level": [
+    [0.45, 0.30, 0.15, 0.07, 0.03],
+    [0.20, 0.35, 0.25, 0.15, 0.05],
+    [0.10, 0.20, 0.35, 0.25, 0.10],
+    [0.05, 0.10, 0.20, 0.35, 0.30],
+    [0.03, 0.07, 0.15, 0.30, 0.45]
+  ],
+  "allocation": null
+}

@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Intent Classification Under Paraphrase Variation",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare intent classifiers on meaning-preserving paraphrases, controlling training splits and grouping examples by linguistic variation.",
+        "Evaluated lexical and contextual baselines, examined prediction changes across paraphrase pairs, and categorized errors involving negation, reordered clauses, and ambiguous intent boundaries."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Ticket Routing and Text Processing",
+      "bullets": [
+        "Implemented text normalization and routing rules for incoming support tickets, integrating validation checks for missing fields and inconsistent category labels.",
+        "Maintained regression tests for routing behavior, investigated misclassified tickets using application logs, and updated processing logic to address documented edge cases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Document Retrieval Baselines",
+      "bullets": [
+        "Implemented term frequency and probabilistic retrieval baselines for a document collection, using shared tokenization and relevance judgments for consistent comparison.",
+        "Compared ranking quality across query types and inspected retrieval failures involving rare terminology, vocabulary mismatch, and documents containing repeated query terms."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented a bidirectional recurrent tagger and a conditional random field baseline, aligning preprocessing and dataset partitions for comparative entity recognition experiments.",
+        "Evaluated entity-level precision and recall, inspected boundary errors, and compared model behavior on unseen names and entities spanning multiple tokens."
+      ]
+    }
+  ]
+}

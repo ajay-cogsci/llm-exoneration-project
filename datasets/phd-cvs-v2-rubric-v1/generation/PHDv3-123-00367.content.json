@@ -1,0 +1,66 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed experiments varying passage relevance, evidence ordering, and distractor content to evaluate answer grounding in retrieval-augmented question answering.",
+        "Analyzed answer correctness and supporting passage attribution, separating retrieval failures from generation errors through manual review of sampled responses."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Domain Robustness and Confidence Calibration in Intent Classification",
+      "bullets": [
+        "Designed comparisons of sparse lexical and pretrained encoder classifiers under domain shifts, controlling training partitions and label distributions.",
+        "Analyzed calibration, selective prediction, and confusion patterns across domains, using bootstrap intervals and manual error categorization to interpret performance differences."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Calibration and Selective Prediction for Intent Classification Under Domain Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Lexical and Encoder-Based Intent Classifiers Across Domains: A Comparative Error Analysis"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Document Ingestion and Search Service Maintenance",
+      "bullets": [
+        "Implemented document validation, text normalization, and duplicate handling within an ingestion service supporting searchable internal records.",
+        "Maintained ingestion tests and investigated indexing failures, documenting reproduction steps and coordinating fixes with downstream service maintainers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sequence Models for Entity Recognition",
+      "bullets": [
+        "Implemented conditional random field and pretrained encoder baselines for entity recognition, using consistent tokenization alignment and evaluation splits.",
+        "Compared entity-level precision and recall, examining boundary errors, rare entity categories, and sensitivity to reduced training data."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented lexical ranking and dense embedding retrieval over a shared passage collection, standardizing query preprocessing and relevance judgments.",
+        "Compared ranking quality and query latency, reviewing cases involving exact terminology, paraphrases, and ambiguous queries to characterize retrieval differences."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Frequency and Graph-Based Ranking",
+      "bullets": [
+        "Implemented term frequency and graph-based sentence ranking for extractive summarization, applying shared sentence segmentation and summary length constraints.",
+        "Compared lexical overlap metrics and manually assessed redundancy, examining how sentence position and document length affected selected content."
+      ]
+    }
+  ]
+}

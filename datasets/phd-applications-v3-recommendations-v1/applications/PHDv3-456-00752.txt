@@ -1,0 +1,64 @@
+Applicant PHDv3-456-00752
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.93/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classification Baselines for Tabular Data with Missing Covariates
+Contribution: data preparation and baseline implementation.
+- Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting imputation procedures exclusively on training partitions.
+- Implemented logistic regression and random forest baselines under specified evaluation protocols, comparing discrimination and calibration across prescribed missingness conditions.
+Research assistant, University Research Group | 2026-04 to 2026-08 | 10 hours/week
+Regression Baselines under Covariate Distribution Shift
+Contribution: data preparation and baseline implementation.
+- Prepared regression datasets with predefined source and target partitions, checking duplicate records and applying training-derived feature scaling.
+- Implemented ridge regression and nearest-neighbor baselines in scikit-learn, summarizing prediction errors across target partitions and documenting evaluation assumptions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-01 to 2026-04 | 10 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory records, checked incoming deliveries against packing lists, and flagged discrepancies for review by the operations supervisor.
+- Organized order paperwork, tracked outstanding fulfillment requests, and coordinated routine status updates between stockroom staff and customer service.
+
+TECHNICAL PROJECTS
+Baseline Comparison of Covariance Estimators for Classification | technical course project, 2026
+- Implemented linear and quadratic discriminant analysis baselines using scikit-learn, with stratified data splits and training-only feature standardization.
+- Compared empirical and shrinkage covariance estimates within linear discriminant analysis, recording classification errors and inspecting sensitivity to correlated features.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-00752
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-04 to 2026-08 (4 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is A-. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Algorithms.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Baseline Comparison of Covariance Estimators for Classification (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared empirical and shrinkage covariance estimates within linear discriminant analysis, recording classification errors and inspecting sensitivity to correlated features.

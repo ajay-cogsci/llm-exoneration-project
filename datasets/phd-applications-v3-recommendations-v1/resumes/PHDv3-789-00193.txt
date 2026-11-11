@@ -1,0 +1,37 @@
+Applicant PHDv3-789-00193
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.32/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-01 to 2026-11 | 10 hours/week
+Probability Calibration Under Class Imbalance
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine how class imbalance and calibration sample size affect predicted probabilities in binary classification.
+- Compared sigmoid and isotonic calibration using stratified splits, reliability diagrams, and bootstrap uncertainty estimates for Brier scores and log loss.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-02 to 2025-09 | 40 hours/week
+Order Processing and Inventory Coordination
+- Reviewed incoming orders for completeness, coordinated fulfillment schedules with warehouse staff, and maintained records of delivery changes and outstanding requests.
+- Reconciled shipment paperwork against inventory records, followed up on discrepancies, and prepared routine status summaries for daily operations meetings.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression experiments on synthetic datasets with correlated predictors, using cross validation to select regularization strengths.
+- Compared held out prediction error and coefficient stability across repeated data splits, documenting sensitivity to predictor correlation and observation noise.
+Gaussian Mixture Models for Overlapping Clusters | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture models in NumPy, including covariance regularization and convergence checks based on changes in log likelihood.
+- Compared mixture models with k means on synthetic overlapping clusters, evaluating clustering agreement and sensitivity to initialization and covariance assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

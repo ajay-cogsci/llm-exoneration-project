@@ -7,3 +7,8 @@ __pycache__/
 tmp/
 runs/
 .DS_Store
+
+# Intermediate working runs; final portable exports are in datasets/.
+/audits/
+/sample-100-resume-generated-v2-rubric-v1/
+/sample-100-resume-generated-v3-recommendations-v1/

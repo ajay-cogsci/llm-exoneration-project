@@ -1,0 +1,38 @@
+Applicant PHDv3-123-01383
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness of Intent Classification to Conversational Paraphrases
+Contribution: experimental design with supervisor guidance.
+- Designed supervisor-guided experiments comparing intent classifiers on original utterances and meaning-preserving paraphrases, controlling training partitions and label distributions.
+- Evaluated lexical and contextual representations under paraphrase variation, categorizing prediction changes by negation, word order, and conversational phrasing.
+Research assistant, University Research Group | 2025-08 to 2026-08 | 10 hours/week
+Annotation Budget Allocation for Named Entity Recognition
+Contribution: experimental design with supervisor guidance.
+- Planned supervised comparisons of random and uncertainty-based sentence selection with supervisor guidance, holding annotation budgets and evaluation splits constant.
+- Implemented selection loops and examined entity-level precision and recall, separating errors involving rare entity types from boundary mismatches.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sentiment Classification Representations | technical course project, 2026
+- Implemented sentiment classifiers using term-frequency features, averaged word embeddings, and a recurrent encoder under a shared preprocessing pipeline.
+- Compared classification performance across review lengths and inspected misclassifications involving negation, mixed sentiment, and vocabulary absent from training data.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented sentence extraction using term-frequency scoring and graph-based ranking, applying identical tokenization and summary length constraints across methods.
+- Compared summaries using reference overlap and manual inspection, documenting differences in redundancy, topic coverage, and dependence on sentence position.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

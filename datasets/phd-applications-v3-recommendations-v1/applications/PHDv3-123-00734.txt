@@ -1,0 +1,59 @@
+Applicant PHDv3-123-00734
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.33/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image resizing and contrast normalization routines for a surface defect dataset, following the research group's preprocessing specifications.
+- Checked processed images for clipping and inconsistent dimensions, and documented preprocessing failures for review before downstream classifier evaluation.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-10 to 2026-10 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing lists, recorded missing or damaged items, and routed discrepancies to the appropriate staff.
+- Maintained stock records, organized order paperwork, and coordinated routine pickup arrangements using established procedures and daily task schedules.
+
+TECHNICAL PROJECTS
+Gradient Feature Baseline for Traffic Sign Recognition | technical course project, 2026
+- Implemented a traffic sign classification baseline using histogram of oriented gradients features and a linear support vector machine.
+- Evaluated predictions on a held-out image split and inspected confusion patterns among signs with similar outlines and contrasting interior markings.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-123-00734
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-10 to 2026-11 (1 month). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Linear Algebra, for which the recorded grade is B. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Linear Algebra.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Gradient Feature Baseline for Traffic Sign Recognition (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work.

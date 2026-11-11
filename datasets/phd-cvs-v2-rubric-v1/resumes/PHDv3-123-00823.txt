@@ -1,0 +1,52 @@
+Applicant PHDv3-123-00823
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.53/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Adaptive Covariance Shrinkage for Unevenly Sampled Groups
+Contribution: formulated a research question and led method development.
+- Formulated whether partial pooling of covariance estimates could stabilize probabilistic classification when labeled observations are unevenly distributed across groups.
+- Led development of a groupwise shrinkage estimator and evaluated sensitivity to covariance heterogeneity using simulated data and held-out predictive likelihood.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Prediction Under Shifting Missingness Patterns
+Contribution: formulated a research question and led method development.
+- Formulated how changes in predictor missingness affect regression uncertainty, distinguishing shifts in missingness frequency from changes in observed feature distributions.
+- Led development of a pattern-weighted regression ensemble and compared uncertainty estimates against imputation baselines under controlled missingness shifts.
+Research assistant, University Research Group | 2024-08 to 2026-05 | 10 hours/week
+Stable Weighted Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated how unstable density ratio estimates affect weighted conformal prediction, focusing on marginal coverage and interval width under covariate shift.
+- Led development of regularized weighting and calibration procedures; designed comparisons examining weight clipping, calibration sample composition, and subgroup coverage diagnostics.
+
+PUBLICATIONS
+Regularized Density Ratio Weighting for Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2026-04; published; author position 1.
+Diagnosing Coverage Variation in Shifted Tabular Regression. Regional applied computing conference, 2026-02; published; author position 2.
+Calibration Sample Composition in Weighted Conformal Prediction. Peer-reviewed ML conference, 2026-09; published; author position 1.
+Weight Clipping and Interval Efficiency in Conformal Regression Under Covariate Shift. Peer-reviewed ML conference, 2026-06; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-08 to 2024-08 | 10 hours/week
+Batch Data Validation and Reporting Maintenance
+- Implemented validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before scheduled reporting jobs.
+- Maintained data transformation routines and added regression tests for documented edge cases, coordinating fixes through code review and issue tracking.
+
+TECHNICAL PROJECTS
+Regularized Linear Models for Correlated Predictors | technical course project, 2026
+- Implemented ridge, lasso, and elastic net regression with standardized preprocessing and cross-validation for datasets containing correlated and irrelevant predictors.
+- Compared predictive error and coefficient stability across resampled training sets, examining how regularization choices affected selection among correlated features.
+Approximate Bayesian Inference for Logistic Regression | technical course project, 2026
+- Implemented Laplace approximation and mean-field variational inference for Bayesian logistic regression using a shared likelihood and Gaussian coefficient priors.
+- Compared predictive calibration, posterior dispersion, and optimization behavior on simulated classification data with varying class overlap and predictor dependence.
+Kernel and Nearest-Neighbor Two-Sample Testing | technical course project, 2026
+- Implemented kernel maximum mean discrepancy and nearest-neighbor two-sample tests, using permutation procedures to estimate significance under a common evaluation protocol.
+- Compared rejection behavior under simulated location, scale, and mixture shifts, examining sensitivity to kernel bandwidth and neighborhood size.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

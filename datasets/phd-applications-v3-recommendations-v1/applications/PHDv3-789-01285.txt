@@ -1,0 +1,67 @@
+Applicant PHDv3-789-01285
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.98/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: experimental design with supervisor guidance.
+- Designed supervisor-guided experiments comparing answer generation under relevant, distracting, and contradictory retrieved passages while holding questions and generation settings constant.
+- Evaluated answer correctness and evidence attribution, categorizing failures involving unsupported claims, conflicting passages, and excessive reliance on lexical overlap.
+Research assistant, University Research Group | 2025-06 to 2026-08 | 10 hours/week
+Lexical Shortcut Reliance in Natural Language Inference
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine lexical overlap shortcuts in sentence-pair classification using controlled substitutions and label-preserving paraphrases.
+- Compared classifier behavior across original and perturbed examples, inspecting prediction changes and annotation ambiguity to distinguish shortcut reliance from semantic sensitivity.
+
+PUBLICATIONS
+Examining Lexical Shortcut Reliance in Natural Language Inference Through Controlled Sentence Perturbations. Peer-reviewed ML conference, 2025-12; published; author position 3.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-12 to 2025-06 | 10 hours/week
+Inventory and Order Documentation Support
+- Maintained inventory records, checked incoming deliveries against packing lists, and flagged discrepancies for review by the responsible operations staff.
+- Organized order paperwork, updated shipment status logs, and coordinated routine handoffs between receiving and dispatch staff during daily operations.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sparse and Dense Passage Retrieval | technical course project, 2026
+- Implemented probabilistic sparse and pretrained dense retrieval baselines for document question answering, using consistent passage segmentation and shared evaluation queries.
+- Compared retrieval rankings using relevance judgments and inspected errors associated with rare terminology, paraphrased questions, and passages containing competing entities.
+Sequence Labeling Approaches for Named Entity Recognition | technical course project, 2026
+- Implemented token classification baselines using a linear classifier and a fine-tuned transformer, aligning entity labels consistently across tokenization schemes.
+- Compared entity-level precision and recall across label categories, examining boundary errors, ambiguous mentions, and differences between frequent and uncommon entities.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-01285
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2025-06 to 2026-08 (14 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is A-. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Sparse and Dense Passage Retrieval (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented probabilistic sparse and pretrained dense retrieval baselines for document question answering, using consistent passage segmentation and shared evaluation queries.

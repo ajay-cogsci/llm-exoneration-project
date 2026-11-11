@@ -1,0 +1,32 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Values",
+      "bullets": [
+        "Prepared tabular classification data by checking label consistency, separating training and validation partitions, and fitting imputation procedures exclusively on training observations.",
+        "Implemented logistic regression and random forest baselines using specified preprocessing pipelines, comparing discrimination and calibration across alternative missing-value treatments."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Ridge Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines on synthetic datasets with correlated predictors, using consistent training and test partitions.",
+        "Selected regularization settings through cross-validation and examined coefficient stability alongside held-out prediction error under varying predictor correlations."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Baselines for Cluster Recovery",
+      "bullets": [
+        "Implemented a standard Gaussian mixture clustering workflow on synthetic data, comparing covariance specifications under fixed preprocessing and initialization procedures.",
+        "Examined cluster assignments against generating labels and inspected convergence diagnostics to document sensitivity to initialization and overlapping component distributions."
+      ]
+    }
+  ]
+}

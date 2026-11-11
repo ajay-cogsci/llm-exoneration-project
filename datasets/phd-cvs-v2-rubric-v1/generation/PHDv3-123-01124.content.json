@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preprocessing for Surface Defect Classification",
+      "bullets": [
+        "Implemented assigned NumPy preprocessing routines to crop inspection images, normalize grayscale intensities, and preserve corresponding surface defect labels.",
+        "Checked processed samples against reference images and documented label mismatches and inconsistent dimensions for review before baseline classifier evaluation."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Reviewed incoming order paperwork for completeness, maintained shipment records, and routed discrepancies to the appropriate staff for resolution.",
+        "Reconciled stock count sheets with inventory logs, coordinated routine supply requests, and prepared handover notes for outstanding deliveries."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Traffic Sign Classification with Gradient Features",
+      "bullets": [
+        "Implemented a baseline traffic sign classifier using histogram of oriented gradients features and a linear support vector machine in scikit-learn.",
+        "Evaluated predictions on a held-out image split and inspected confusion patterns among signs with similar shapes under varying illumination."
+      ]
+    }
+  ]
+}

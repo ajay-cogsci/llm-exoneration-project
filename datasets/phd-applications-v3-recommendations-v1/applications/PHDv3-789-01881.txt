@@ -1,0 +1,71 @@
+Applicant PHDv3-789-01881
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.50/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classifier Calibration Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled covariate shift experiments comparing temperature scaling and isotonic calibration across synthetic classification datasets.
+- Analyzed reliability diagrams, calibration error, and predictive loss to characterize sensitivity to calibration sample size and distribution mismatch.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Missing Data Mechanisms and Predictive Stability
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing imputation strategies under random and feature dependent missingness in tabular classification tasks.
+- Analyzed variation in discrimination and calibration across missingness patterns, using repeated data splits to assess uncertainty.
+Research assistant, University Research Group | 2024-09 to 2026-05 | 10 hours/week
+Conditional Coverage of Conformal Regression Intervals
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating split conformal and conformalized quantile regression on synthetic heteroskedastic data and tabular regression benchmarks.
+- Analyzed interval width and empirical coverage across response noise regimes and feature subgroups to characterize conditional coverage limitations.
+
+PUBLICATIONS
+Evaluating Subgroup Coverage of Conformal Regression Intervals Under Heteroskedastic Noise. Regional applied computing conference, 2026-11; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression pipelines with standardized predictors and cross validation for penalty selection.
+- Compared prediction error and coefficient stability across simulated correlation structures, examining sensitivity to redundant and irrelevant predictors.
+Clustering with Gaussian Mixtures and K-Means | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture clustering and compared assignments against a standard k-means baseline.
+- Evaluated clustering agreement and initialization sensitivity on synthetic datasets with overlapping groups and unequal covariance structures.
+Bootstrap Confidence Intervals for Regression Coefficients | technical course project, 2026
+- Implemented percentile and residual bootstrap procedures for estimating uncertainty in ordinary least squares regression coefficients.
+- Compared empirical interval coverage and width against analytical intervals under simulated skewed errors and varying predictor distributions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-01881
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2024-09 to 2026-05 (20 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as above the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Analyzed interval width and empirical coverage across response noise regimes and feature subgroups to characterize conditional coverage limitations.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Probability and Statistics. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Probability and Statistics as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Regression with Correlated Predictors (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented ridge and lasso regression pipelines with standardized predictors and cross validation for penalty selection.

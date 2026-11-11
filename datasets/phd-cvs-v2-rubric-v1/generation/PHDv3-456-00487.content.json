@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Natural Language Inference",
+      "bullets": [
+        "Designed controlled experiments comparing inference models on sentence pairs with explicit negation, lexical substitutions, and matched affirmative controls.",
+        "Analyzed prediction changes across contradiction and entailment examples, separating errors associated with negation scope from lexical overlap effects."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Support Request Classification",
+      "bullets": [
+        "Designed transfer experiments comparing sparse lexical classifiers and pretrained text encoders across support request domains using consistent label mappings.",
+        "Analyzed classwise errors and confidence calibration under domain shift, examining effects of vocabulary mismatch and ambiguous request descriptions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Vocabulary Mismatch and Calibration in Cross-Domain Support Request Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Processing Maintenance for Document Search",
+      "bullets": [
+        "Implemented assigned fixes to document normalization and query preprocessing, preserving existing interfaces between text ingestion and search components.",
+        "Added regression tests for malformed input and inconsistent whitespace, and documented reproduction steps for reported search behavior defects."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented sentence ranking with term frequency weighting and graph centrality, alongside a lead sentence baseline for news summarization.",
+        "Compared summaries using reference overlap measures and manual checks of redundancy, examining how sentence selection changed across document lengths."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Character and Word Representations for Sentiment Classification",
+      "bullets": [
+        "Implemented word and character n-gram classifiers with linear models, using shared data partitions and consistent preprocessing for comparison.",
+        "Evaluated performance on clean and synthetically perturbed reviews, categorizing errors involving misspellings, negation, and mixed sentiment expressions."
+      ]
+    }
+  ]
+}

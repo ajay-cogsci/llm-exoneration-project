@@ -1,0 +1,36 @@
+Applicant PHDv3-789-01110
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 2.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-04 to 2026-11 | 10 hours/week
+Data Preparation and Baselines for Support Request Classification
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by standardizing text fields, removing duplicate records, and checking category consistency against provided annotation guidelines.
+- Implemented assigned term frequency–inverse document frequency and logistic regression baselines, summarizing classification errors across request categories using held-out evaluation data.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-10 to 2026-04 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items to the appropriate staff for follow-up.
+- Organized order paperwork, updated fulfillment checklists, and coordinated routine handoffs between receiving and dispatch staff during scheduled shifts.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baselines for Review Sentiment Classification | technical course project, 2026
+- Implemented bag-of-words sentiment classification with multinomial naive Bayes, applying consistent tokenization and fitting vocabulary features only on training reviews.
+- Compared count and binary word features on a held-out split, inspecting misclassified reviews for negation, mixed sentiment, and unfamiliar vocabulary.
+Lexical Similarity Baseline for FAQ Retrieval | technical course project, 2026
+- Implemented a lexical retrieval baseline that ranked FAQ entries by cosine similarity between term frequency–inverse document frequency representations of questions.
+- Evaluated retrieved entries against supplied query matches and inspected failures involving paraphrases, short queries, and overlapping terminology across unrelated answers.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

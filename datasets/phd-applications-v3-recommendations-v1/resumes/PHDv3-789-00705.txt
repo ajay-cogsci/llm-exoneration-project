@@ -1,0 +1,44 @@
+Applicant PHDv3-789-00705
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.92/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Conformal Prediction Under Covariate Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to assess split conformal prediction under controlled covariate shifts in synthetic regression datasets.
+- Compared weighted and unweighted calibration procedures, examining empirical coverage and interval width across shift mechanisms and calibration sample sizes.
+Research assistant, University Research Group | 2025-09 to 2026-08 | 10 hours/week
+Probability Calibration With Imbalanced Training Data
+Contribution: experimental design with supervisor guidance.
+- Developed an experimental protocol with supervisor guidance for comparing probability calibration methods under varying class imbalance and training sample availability.
+- Evaluated sigmoid and isotonic calibration using repeated stratified splits, reliability diagrams, Brier scores, and sensitivity analyses for calibration set composition.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-09 to 2025-09 | 10 hours/week
+Validation and Maintenance of Batch Data Processing
+- Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before downstream processing.
+- Maintained batch transformation routines and regression tests, reproducing reported failures and documenting expected behavior for malformed input records.
+
+TECHNICAL PROJECTS
+Regularized Regression With Correlated Predictors | technical course project, 2026
+- Implemented a comparative evaluation of ridge, lasso, and elastic net regression on synthetic datasets with controlled predictor correlations.
+- Selected regularization parameters through nested cross-validation and compared prediction error, coefficient stability, and variable selection behavior across repeated data splits.
+Density Estimation for Multimodal Data | technical course project, 2026
+- Implemented kernel density estimation and fitted Gaussian mixture models to synthetic distributions with varying modality, dimensionality, and component overlap.
+- Compared held-out log likelihood and sensitivity to bandwidth or component count, using validation splits to separate model selection from evaluation.
+Missing-Data Strategies for Tabular Classification | technical course project, 2026
+- Implemented preprocessing pipelines comparing median and nearest-neighbor imputation before logistic regression and random forest classification on tabular datasets.
+- Evaluated discrimination and calibration under controlled missingness mechanisms, fitting imputers within training folds to prevent information leakage during cross-validation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

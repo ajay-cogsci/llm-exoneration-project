@@ -1,0 +1,61 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Stabilized Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated a research question on unstable importance weights and led development of a weight clipping procedure for conformal regression.",
+        "Evaluated empirical coverage and interval width under simulated covariate shifts, comparing clipped weights with unweighted and standard importance weighted baselines."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Robust Regression with Contaminated Training Data",
+      "bullets": [
+        "Investigated how residual contamination affects regularized regression and led development of an alternating residual weighting and coefficient estimation procedure.",
+        "Compared the procedure with Huber and squared loss regression across contamination patterns, examining prediction error and sensitivity to tuning choices."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Hierarchical Shrinkage for Groupwise Probability Calibration",
+      "bullets": [
+        "Formulated a research question on calibration with sparse subgroup labels and led development of logistic calibrators with shared shrinkage penalties.",
+        "Designed held out evaluations comparing pooled, independent subgroup, and shrinkage calibrators using reliability diagrams, probabilistic losses, and subgroup sample size sensitivity."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Shared Shrinkage for Logistic Probability Calibration in Small Subgroups"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Dimension Reduction for Correlated Regression Features",
+      "bullets": [
+        "Implemented principal component regression and ridge regression in NumPy, using training fold transformations to prevent information leakage during cross validation.",
+        "Compared prediction error and coefficient stability across correlated feature settings, examining sensitivity to retained components and regularization strength."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Kernel Classification",
+      "bullets": [
+        "Implemented random Fourier feature mappings for Gaussian kernel approximation and integrated transformed features with regularized linear classifiers.",
+        "Compared approximate and exact kernel classifiers on predictive performance, runtime, and memory requirements while varying feature dimension and kernel bandwidth."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Covariance Constraints in Gaussian Mixture Clustering",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixtures with diagonal and full covariance matrices, including covariance regularization and multiple initialization strategies.",
+        "Compared clustering agreement and held out likelihood across overlapping synthetic distributions, examining sensitivity to initialization, covariance constraints, and component selection."
+      ]
+    }
+  ]
+}

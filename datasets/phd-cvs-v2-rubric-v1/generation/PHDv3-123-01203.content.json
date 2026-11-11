@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Classification Under Blur and Illumination Changes",
+      "bullets": [
+        "Implemented assigned image preprocessing routines for controlled blur and brightness perturbations within an existing image classification evaluation pipeline.",
+        "Ran prescribed robustness evaluations, checked label alignment, and summarized classwise prediction changes across clean and perturbed image inputs."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed damaged or missing items for supervisor review.",
+        "Prepared order paperwork, maintained filing records, and coordinated collection schedules with staff to support routine daily operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Color Histogram Baseline for Scene Classification",
+      "bullets": [
+        "Implemented normalized color histogram features and a linear support vector classifier as a baseline for categorizing scene images.",
+        "Evaluated held out predictions using confusion matrices and inspected misclassified images to identify limitations of global color representations."
+      ]
+    }
+  ]
+}

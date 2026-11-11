@@ -1,0 +1,54 @@
+Applicant PHDv3-789-01730
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.75/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion Sensitivity in Object Detection
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying occlusion placement and object visibility to compare existing object detectors under matched evaluation conditions.
+- Analyzed localization errors and missed detections by object size, separating effects of foreground obstruction from background clutter.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Confidence Calibration Under Image Corruptions
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and uncalibrated predictions across image classifiers exposed to blur, noise, and contrast changes.
+- Analyzed reliability diagrams and classwise errors to distinguish confidence miscalibration from changes in classification accuracy across corruption types.
+Research assistant, University Research Group | 2025-02 to 2026-05 | 10 hours/week
+Appearance Shift and Boundary Errors in Semantic Segmentation
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating existing semantic segmentation models across lighting and texture shifts, with controlled augmentation and training data comparisons.
+- Analyzed classwise overlap and boundary errors, examining whether aggregate segmentation metrics concealed failures on thin structures and visually ambiguous regions.
+
+PUBLICATIONS
+Evaluating Appearance Augmentation for Semantic Segmentation Under Lighting and Texture Shifts. Peer-reviewed ML conference, 2025-11; published; author position 3.
+Beyond Region Overlap: Boundary Errors in Semantic Segmentation Under Appearance Shift. Peer-reviewed ML conference, 2026-07; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-04 to 2025-09 | 40 hours/week
+Image Processing Service Maintenance
+- Implemented image validation and preprocessing components for an existing upload service, handling unsupported formats, malformed inputs, and inconsistent image dimensions.
+- Maintained regression tests and investigated processing failures using service logs, documenting reproducible cases and verifying fixes against previously failing inputs.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented image alignment using local feature descriptors and robust homography estimation, following established pipelines for matching overlapping photographs.
+- Compared descriptor choices and matching thresholds using reprojection error and visual inspection across changes in viewpoint, illumination, and scene texture.
+Transfer Learning for Fine-Grained Image Classification | technical course project, 2026
+- Implemented frozen feature extraction and partial fine-tuning of pretrained convolutional networks for fine-grained classification using a shared training pipeline.
+- Compared validation performance and confusion patterns under matched data splits, examining sensitivity to augmentation choices and class imbalance.
+Classical and Convolutional Image Denoising | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising baseline, generating paired noisy and clean images through controlled synthetic noise injection.
+- Compared reconstruction metrics and inspected edge preservation across noise conditions, documenting differences between smoothing artifacts and residual noise.
+Dense Motion Estimation in Image Sequences | technical course project, 2026
+- Implemented coarse-to-fine Lucas–Kanade and Horn–Schunck optical flow baselines, using shared image preprocessing and consistent motion visualization procedures.
+- Compared endpoint errors and qualitative flow fields, examining failures around motion boundaries, textureless regions, and displacements exceeding local estimation assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

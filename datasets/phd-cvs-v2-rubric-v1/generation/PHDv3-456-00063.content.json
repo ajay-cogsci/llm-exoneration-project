@@ -1,0 +1,73 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Covariance Shrinkage Under Uneven Feature Missingness",
+      "bullets": [
+        "Formulated how uneven feature observation rates affect covariance estimation, and led development of a shrinkage estimator using pairwise observation counts.",
+        "Evaluated estimation error and downstream discriminant classification on simulated missingness patterns, comparing the estimator with mean imputation and uniform shrinkage baselines."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regularized Class-Prior Estimation Under Label Shift",
+      "bullets": [
+        "Investigated instability in label-shift correction with overlapping class distributions, and led development of a regularized class-prior estimator using held-out confusion matrices.",
+        "Compared corrected probability estimates across simulated class-prior shifts, examining calibration, prior estimation error, and sensitivity to validation sample composition."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Stable Importance Weighting for Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated the tradeoff between importance-weight instability and predictive coverage under covariate shift, and led development of an effective-sample-size-guided weight clipping procedure.",
+        "Designed evaluations varying distribution overlap and density-ratio misspecification, comparing marginal coverage, subgroup coverage, and interval width against unclipped weighted conformal prediction."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Effective-Sample-Size-Guided Weight Clipping for Conformal Prediction Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Coverage Sensitivity to Density-Ratio Misspecification in Weighted Conformal Prediction"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sparse Linear Regression",
+      "bullets": [
+        "Implemented coordinate descent for lasso and elastic net regression, checking objective convergence against reference implementations on synthetic correlated-feature datasets.",
+        "Compared prediction error and feature-selection stability across regularization settings, using nested cross-validation to separate parameter tuning from final evaluation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Kernel Methods for Nonlinear Classification",
+      "bullets": [
+        "Implemented random Fourier features and Nyström approximations for kernel classification, using shared preprocessing and training splits for consistent comparisons.",
+        "Evaluated predictive performance, runtime, and memory requirements across approximation sizes, examining sensitivity to kernel bandwidth and landmark selection."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Probability Calibration for Supervised Classifiers",
+      "bullets": [
+        "Implemented temperature scaling and isotonic calibration for classifier probabilities, reserving separate data partitions for model fitting, calibration, and evaluation.",
+        "Compared log loss, Brier score, and reliability diagrams across calibration methods, examining how calibration-set size affected probability estimates."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Bootstrap Intervals for Regression Predictions",
+      "bullets": [
+        "Implemented residual and pairs bootstrap procedures for linear regression predictions, constructing simulation settings with constant and input-dependent noise variance.",
+        "Compared empirical interval coverage and width across resampling procedures, documenting failure patterns under heteroscedasticity and misspecified linear mean functions."
+      ]
+    }
+  ]
+}

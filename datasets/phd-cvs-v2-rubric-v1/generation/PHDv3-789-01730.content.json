@@ -1,0 +1,82 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion Sensitivity in Object Detection",
+      "bullets": [
+        "Designed controlled experiments varying occlusion placement and object visibility to compare existing object detectors under matched evaluation conditions.",
+        "Analyzed localization errors and missed detections by object size, separating effects of foreground obstruction from background clutter."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Confidence Calibration Under Image Corruptions",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and uncalibrated predictions across image classifiers exposed to blur, noise, and contrast changes.",
+        "Analyzed reliability diagrams and classwise errors to distinguish confidence miscalibration from changes in classification accuracy across corruption types."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Appearance Shift and Boundary Errors in Semantic Segmentation",
+      "bullets": [
+        "Designed experiments evaluating existing semantic segmentation models across lighting and texture shifts, with controlled augmentation and training data comparisons.",
+        "Analyzed classwise overlap and boundary errors, examining whether aggregate segmentation metrics concealed failures on thin structures and visually ambiguous regions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Appearance Augmentation for Semantic Segmentation Under Lighting and Texture Shifts"
+    },
+    {
+      "id": "P2",
+      "title": "Beyond Region Overlap: Boundary Errors in Semantic Segmentation Under Appearance Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing Service Maintenance",
+      "bullets": [
+        "Implemented image validation and preprocessing components for an existing upload service, handling unsupported formats, malformed inputs, and inconsistent image dimensions.",
+        "Maintained regression tests and investigated processing failures using service logs, documenting reproducible cases and verifying fixes against previously failing inputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented image alignment using local feature descriptors and robust homography estimation, following established pipelines for matching overlapping photographs.",
+        "Compared descriptor choices and matching thresholds using reprojection error and visual inspection across changes in viewpoint, illumination, and scene texture."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine-tuning of pretrained convolutional networks for fine-grained classification using a shared training pipeline.",
+        "Compared validation performance and confusion patterns under matched data splits, examining sensitivity to augmentation choices and class imbalance."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Convolutional Image Denoising",
+      "bullets": [
+        "Implemented bilateral filtering and a convolutional denoising baseline, generating paired noisy and clean images through controlled synthetic noise injection.",
+        "Compared reconstruction metrics and inspected edge preservation across noise conditions, documenting differences between smoothing artifacts and residual noise."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Dense Motion Estimation in Image Sequences",
+      "bullets": [
+        "Implemented coarse-to-fine Lucas–Kanade and Horn–Schunck optical flow baselines, using shared image preprocessing and consistent motion visualization procedures.",
+        "Compared endpoint errors and qualitative flow fields, examining failures around motion boundaries, textureless regions, and displacements exceeding local estimation assumptions."
+      ]
+    }
+  ]
+}
