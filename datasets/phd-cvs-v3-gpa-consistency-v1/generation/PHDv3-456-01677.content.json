@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Baseline Classification of Customer Support Intents",
+      "bullets": [
+        "Prepared labeled support messages by removing duplicate records, normalizing text, and checking intent labels against the supplied annotation guidelines.",
+        "Implemented term frequency–inverse document frequency features with logistic regression, then inspected confusion matrices to document errors between overlapping intent categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Lexical Baselines for Scientific Sentence Classification",
+      "bullets": [
+        "Organized annotated abstract sentences into document-level training and evaluation splits, checking missing labels and preserving sentence order within each abstract.",
+        "Implemented a linear support vector classifier using word and character features, comparing predictions across background, method, and conclusion labels."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Maintenance of Text Import and Validation Utilities",
+      "bullets": [
+        "Updated Python utilities that imported text records, adding checks for missing fields and malformed input under existing application requirements.",
+        "Added regression tests for parsing failures and documented validation messages to support routine troubleshooting of the record import workflow."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baseline for Review Sentiment Classification",
+      "bullets": [
+        "Implemented a multinomial naive Bayes sentiment classifier with count-based text features, following the provided training and evaluation procedure.",
+        "Compared unigram and bigram representations on held-out reviews, inspecting misclassified examples involving negation, mixed sentiment, and infrequent vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Sentence Similarity Ranking",
+      "bullets": [
+        "Implemented an extractive summarization baseline that ranked sentences by cosine similarity to a document centroid built from weighted term features.",
+        "Compared selected sentences with a lead-sentence baseline, reviewing summaries for redundant content, missing context, and coverage of central topics."
+      ]
+    }
+  ]
+}

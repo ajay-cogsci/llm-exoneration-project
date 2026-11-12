@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Features",
+      "bullets": [
+        "Prepared tabular datasets by auditing missing values, standardizing feature encodings, and separating training and evaluation records under a predefined protocol.",
+        "Implemented logistic regression and random forest baselines with imputation pipelines, documenting discrimination and calibration across prescribed missingness conditions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Maintained Python routines for validating incoming tabular records, handling malformed fields, and generating structured error reports for downstream processing.",
+        "Added regression tests for parsing and transformation logic, investigated failed processing jobs, and documented expected behavior for recurring input exceptions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Linear Regression Baselines",
+      "bullets": [
+        "Implemented ridge and lasso regression baselines with standardized features and cross validation to select regularization settings on tabular prediction tasks.",
+        "Compared validation errors and coefficient patterns against ordinary least squares, documenting sensitivity to correlated predictors and alternative feature scaling choices."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Clustering Baselines",
+      "bullets": [
+        "Implemented a baseline clustering workflow using Gaussian mixture models, comparing covariance parameterizations on synthetic datasets with overlapping component distributions.",
+        "Examined initialization sensitivity and information criteria across candidate models, documenting how distributional assumptions affected fitted clusters and assignment uncertainty."
+      ]
+    }
+  ]
+}

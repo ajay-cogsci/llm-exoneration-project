@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness Evaluation of Road Scene Segmentation",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare segmentation models under synthetic fog, brightness shifts, and image blur using matched evaluation conditions.",
+        "Implemented corruption pipelines and examined classwise intersection over union, documenting boundary errors and sensitivity to preprocessing choices."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Augmentation Strategies for Imbalanced Surface Defect Recognition",
+      "bullets": [
+        "Planned experiments with supervisor guidance to compare class weighting and image augmentation for surface defect classification under imbalanced training distributions.",
+        "Trained convolutional baselines using specimen separated data splits, analyzing per class recall and confusion patterns across augmentation settings."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Comparing Class Weighting and Image Augmentation for Imbalanced Surface Defect Recognition"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Upload Validation and Processing Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for uploaded images, handling unsupported formats, inconsistent dimensions, and corrupted files within an existing processing service.",
+        "Added regression tests for image conversion routines and investigated processing failures using application logs and reproducible input cases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented corner detection and patch descriptors, then compared matching behavior against an established feature baseline on transformed image pairs.",
+        "Evaluated alignment using reprojection error and inlier consistency, inspecting failures caused by repeated textures, viewpoint changes, and weak image contrast."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Small Image Classification Datasets",
+      "bullets": [
+        "Implemented frozen feature extraction and partial fine tuning of a pretrained convolutional model using identical training and validation splits.",
+        "Compared classification accuracy, training behavior, and confusion matrices against a compact model trained from scratch, documenting sensitivity to augmentation choices."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented Gaussian, median, and bilateral filtering for images corrupted by Gaussian and impulse noise under a shared evaluation pipeline.",
+        "Compared peak signal to noise ratio and structural similarity, examining how filter parameters affected edge preservation and residual noise."
+      ]
+    }
+  ]
+}

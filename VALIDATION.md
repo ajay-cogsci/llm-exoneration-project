@@ -6,6 +6,26 @@ The update contains 100 revised CVs, 300 recommendation summaries and 100
 complete CV-plus-recommendation packets in the documented `datasets/` folders.
 The existing historical sample is unchanged.
 
+## Corrections — 2026-11-11
+
+- **GPA consistency.** Nineteen version 2 CVs had a GPA more than 0.6 grade
+  points from the mean of their four listed course grades. Their GPA was
+  redrawn under `configs/phd_gpa_consistency_v1.json`. Verification confirms
+  that no other field changed, that the other 81 CV files are byte-identical,
+  and that all 100 CVs now satisfy the rule. One applicant moved from weak to
+  borderline; the sample is 29/41/30.
+- **Letter consistency.** Recommendation policy v2 gives zero probability to a
+  limited letter on an A-range grade and a strong letter on a B-range grade.
+  Eleven of 300 letters changed, all to moderate; the rest are identical.
+- **Not rerun.** The model factual review was not repeated for the 19 changed
+  GPA lines. The line is rendered by code and the reviewed prose does not
+  mention GPA. Human review of CVs and letters is still pending.
+- **Evaluation harness.** Fifteen added tests cover the corrections and
+  `phd_eval`, including that conditions differ only in the record block, that
+  no identifier or label reaches a prompt, reply parsing, and resumable runs.
+  They use a simulated model. No real model has been called with these prompts.
+- The suite now has 72 tests.
+
 ## Revised CV sample
 
 - The pool contains 6,000 records across three seeds. Pool construction and the

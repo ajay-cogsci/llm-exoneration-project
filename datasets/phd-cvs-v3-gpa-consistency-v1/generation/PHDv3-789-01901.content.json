@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Text Classifiers to Meaning-Preserving Perturbations",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare classifier sensitivity to lexical substitutions, punctuation changes, and sentence reordering under controlled evaluation conditions.",
+        "Implemented perturbation pipelines and analyzed prediction changes across text categories, manually reviewing examples to distinguish model failures from altered document meaning."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Processed incoming orders, checked shipment paperwork against requested items, and coordinated delivery updates with warehouse staff and customer service colleagues.",
+        "Maintained inventory records, reconciled discrepancies with physical stock checks, and prepared routine replenishment requests for review by the operations manager."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sparse and Neural Sentiment Classifiers",
+      "bullets": [
+        "Implemented sentiment classifiers using term frequency–inverse document frequency features with logistic regression and pretrained transformer fine-tuning on a shared review dataset.",
+        "Compared classification performance under matched data splits, examining errors involving negation, mixed sentiment, and uncommon vocabulary through manual example review."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Frequency and Graph-Based Ranking",
+      "bullets": [
+        "Implemented sentence selection using word frequency scoring and graph-based ranking, applying shared sentence segmentation and summary length constraints for comparative evaluation.",
+        "Evaluated summaries against reference texts using overlap metrics and manually assessed redundancy, entity coverage, and coherence across documents with differing lengths."
+      ]
+    }
+  ]
+}

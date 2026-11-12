@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Contradiction-Aware Evidence Selection for Question Answering",
+      "bullets": [
+        "Investigated whether conflicting retrieved passages undermine answer reliability, developing an evidence selector that combines relevance scores with pairwise textual entailment predictions.",
+        "Designed controlled passage perturbations and ablation experiments to assess evidence selection, answer consistency, and abstention behavior under contradictory retrieval contexts."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Ambiguity-Sensitive Query Rewriting for Conversational Retrieval",
+      "bullets": [
+        "Formulated a study of unresolved references in conversational search and developed a query rewriting objective balancing contextual specificity against unsupported expansion.",
+        "Compared rewritten queries with concatenated conversation histories, analyzing retrieval errors by reference ambiguity, topic transitions, and dependence on earlier turns."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Selective Intent Classification Under Domain Shift",
+      "bullets": [
+        "Investigated when intent classifiers should abstain under domain shift, leading development of confidence scoring that combines predictive uncertainty with representation distance.",
+        "Designed domain-held-out evaluations and calibration ablations, examining how paraphrase variation and unfamiliar intents affect rejection decisions and retained prediction accuracy."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Paraphrase Sensitivity of Abstention Decisions in Intent Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Representation Distance and Predictive Uncertainty for Selective Intent Classification"
+    },
+    {
+      "id": "P3",
+      "title": "Calibrating Intent Rejection Thresholds Under Domain Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Search and Document Ingestion Services",
+      "bullets": [
+        "Implemented document ingestion handlers, text normalization routines, and search request validation within an existing service architecture for internal document discovery.",
+        "Maintained regression tests for indexing updates and malformed inputs, investigated failed ingestion jobs, and documented recovery procedures for routine service operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sentiment Classification Models",
+      "bullets": [
+        "Implemented linear classifiers with term frequency features and a pretrained text encoder baseline for sentiment prediction using consistent training and evaluation splits.",
+        "Compared classification errors across negation, mixed sentiment, and infrequent vocabulary, examining how feature representation affected predictions on manually reviewed examples."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Approaches for Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field baseline and fine-tuned a transformer token classifier using shared tokenization alignment checks and entity annotation conventions.",
+        "Compared entity-level precision and recall, categorizing boundary errors, unseen entity failures, and inconsistencies introduced by subword labeling choices."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Lexical and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented lexical ranking and dense embedding retrieval over a shared passage collection, applying identical query preprocessing and relevance evaluation procedures.",
+        "Compared ranking behavior for exact terminology, paraphrased queries, and underspecified requests, inspecting retrieved passages to distinguish vocabulary mismatch from semantic confusion."
+      ]
+    }
+  ]
+}

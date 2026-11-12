@@ -1,0 +1,36 @@
+Applicant PHDv3-789-01537
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.95/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-10 to 2026-11 | 10 hours/week
+Robustness of Intent Classification to Conversational Paraphrases
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare intent classifiers under paraphrase variation, controlling training splits and separating lexical overlap from semantic consistency.
+- Evaluated classifier predictions on manually reviewed paraphrases, examining confidence calibration and categorizing errors involving ambiguous requests and overlapping intent definitions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-10 to 2025-10 | 10 hours/week
+Text Ingestion and Validation for Document Search
+- Implemented document ingestion components that normalized text, validated required metadata, and routed malformed records for review before search indexing.
+- Added regression tests for parsing failures and duplicate records, and investigated indexing discrepancies using application logs and reproducible input examples.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Extractive Summarization Methods | technical course project, 2026
+- Implemented sentence ranking baselines using term frequency weighting and graph centrality, applying consistent preprocessing and summary length constraints across methods.
+- Compared summaries against reference texts using ROUGE and manual inspection, documenting differences in redundancy, topic coverage, and sensitivity to sentence segmentation.
+Sequence Labeling for Named Entity Recognition | technical course project, 2026
+- Implemented conditional random field and bidirectional recurrent baselines for entity tagging, using shared data partitions and consistent tokenization for comparison.
+- Evaluated entity span precision and recall, then inspected boundary errors and rare entity predictions to characterize differences between the implemented models.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

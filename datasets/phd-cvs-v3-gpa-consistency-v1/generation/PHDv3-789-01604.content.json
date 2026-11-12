@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Covariance Shrinkage for Prediction with Incomplete Features",
+      "bullets": [
+        "Formulated how feature missingness affects covariance estimation and developed a missingness-aware shrinkage estimator for regularized linear prediction.",
+        "Designed simulations separating missingness mechanisms from feature correlation and compared predictive error against mean imputation and conventional covariance shrinkage."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regularized Label Shift Estimation for Probability Calibration",
+      "bullets": [
+        "Investigated instability in label shift correction and developed a constrained class prior estimator with regularization toward training proportions.",
+        "Evaluated corrected probabilities under controlled prevalence shifts, examining calibration error and sensitivity to misspecified class conditional distributions."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Density Ratio Stabilization for Conformal Regression under Covariate Shift",
+      "bullets": [
+        "Formulated how unstable density ratio estimates affect weighted conformal intervals and led development of a clipping procedure guided by held-out diagnostics.",
+        "Compared coverage and interval width across synthetic shifts and tabular regression tasks, examining weight concentration, overlap violations, and conditional coverage."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Stabilizing Density Ratios in Weighted Conformal Regression"
+    },
+    {
+      "id": "P2",
+      "title": "Weight Concentration and Conditional Coverage under Covariate Shift"
+    },
+    {
+      "id": "P3",
+      "title": "Evaluating Weighted Prediction Intervals for Shifted Tabular Regression"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Maintenance",
+      "bullets": [
+        "Implemented assigned Python validation routines for incoming tabular records, checking required fields, type consistency, and duplicate identifiers before batch processing.",
+        "Added regression tests for malformed inputs and revised error handling to preserve diagnostic context during failed processing runs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Probabilistic Classifier Calibration",
+      "bullets": [
+        "Implemented temperature scaling and isotonic regression for classifier outputs, using separate fitting and evaluation partitions to avoid calibration leakage.",
+        "Compared reliability diagrams, log loss, and calibration error across class imbalance settings, documenting sensitivity to calibration sample composition."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sparse Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented coordinate descent for lasso and elastic net regression, checking optimization convergence against reference implementations on standardized feature matrices.",
+        "Compared predictive error and coefficient stability under correlated predictors, using repeated data splits and consistent cross-validation procedures for penalty selection."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Variational and Sampling Approaches to Bayesian Regression",
+      "bullets": [
+        "Implemented mean-field variational inference and Gibbs sampling for conjugate Bayesian linear regression, validating posterior summaries against analytical calculations.",
+        "Compared approximation error, convergence diagnostics, and predictive uncertainty across feature correlation settings, examining where factorized approximations distorted posterior dependence."
+      ]
+    }
+  ]
+}

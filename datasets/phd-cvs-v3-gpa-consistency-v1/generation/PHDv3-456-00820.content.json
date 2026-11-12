@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classification Baselines for Tabular Data with Missing Values",
+      "bullets": [
+        "Prepared tabular classification datasets by checking feature types, documenting missingness patterns, and fitting imputation procedures exclusively on training partitions.",
+        "Implemented logistic regression and random forest baselines under a prescribed evaluation protocol, summarizing discrimination and calibration across missingness conditions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Regression Baselines under Covariate Shift",
+      "bullets": [
+        "Cleaned regression datasets, standardized continuous predictors using training statistics, and assembled predefined evaluation splits representing changes in predictor distributions.",
+        "Implemented ridge regression and nearest neighbor baselines, recording prediction errors and preparing residual summaries for comparison across evaluation splits."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing Maintenance",
+      "bullets": [
+        "Maintained Python routines that validated incoming tabular records, handled malformed fields, and produced consistent error messages for downstream processing.",
+        "Added regression tests for assigned parsing defects and documented expected input formats, exception behavior, and routine batch processing checks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Logistic Regression for Imbalanced Classification",
+      "bullets": [
+        "Implemented a scikit-learn pipeline combining feature standardization and regularized logistic regression, using stratified splits to preserve class proportions.",
+        "Compared unweighted and class-weighted baselines through precision-recall curves and confusion matrices, selecting regularization settings using only training-fold cross-validation."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Baselines for Clustering",
+      "bullets": [
+        "Implemented Gaussian mixture clustering with scikit-learn on synthetic continuous datasets, varying covariance assumptions within an established baseline workflow.",
+        "Compared mixture models with a k-means baseline, inspecting cluster assignments and likelihood behavior across repeated initializations and feature scaling choices."
+      ]
+    }
+  ]
+}

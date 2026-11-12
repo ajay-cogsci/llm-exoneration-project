@@ -1,0 +1,21 @@
+{
+  "version": "phd-gpa-consistency-v1",
+  "parameter_status": "Provisional study choice. The tolerance is a plausibility bound for stimuli, not an empirical relationship between course grades and cumulative GPA.",
+  "seed": 20261112,
+  "grade_points": {
+    "A+": 4.0,
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D": 1.0,
+    "F": 0.0
+  },
+  "max_abs_gap": 0.6,
+  "rule": "The cumulative GPA printed on a CV must lie within max_abs_gap grade points of the unweighted grade-point mean of the listed relevant courses.",
+  "correction": "A CV that violates the rule keeps its applicant, coursework, chronology and accepted prose. Only the GPA is redrawn from the sampler's GPA distribution for the applicant's academic level, restricted to values that satisfy the rule. Where possible the draw is further restricted to values that leave the rubric's academic rating unchanged, so the tier allocation is disturbed only when no consistent GPA can preserve it."
+}

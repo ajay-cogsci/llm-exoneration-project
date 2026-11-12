@@ -1,0 +1,86 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence-Sensitive Abstention in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Investigated whether disagreement among retrieved passages predicts unsupported answers, and led development of an evidence-sensitive abstention mechanism.",
+        "Compared passage agreement and answer confidence signals under retrieval perturbations, examining coverage and factual reliability across question categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Negation-Aware Representations for Natural Language Inference",
+      "bullets": [
+        "Formulated a study of negation sensitivity and led development of a contrastive training objective using minimally edited sentence pairs.",
+        "Evaluated entailment predictions on lexical and syntactic negation variants, using ablations to distinguish semantic sensitivity from surface cue dependence."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Boundary Uncertainty in Cross-Domain Named Entity Recognition",
+      "bullets": [
+        "Asked whether uncertain entity boundaries explain cross-domain errors and led development of a boundary-weighted consistency objective for sequence labeling.",
+        "Compared token confidence and span agreement under text perturbations, analyzing boundary errors separately from entity type confusion."
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Sentence-Level Evidence Alignment for Factual Summarization",
+      "bullets": [
+        "Formulated a research question linking evidence alignment to summary factuality and led development of an alignment-guided candidate reranking method.",
+        "Designed evaluations of sentence support, attribution errors, and evidence omissions, comparing alignment signals with lexical overlap and entailment baselines."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Comparing Sentence Alignment Signals for Detecting Unsupported Summary Claims"
+    },
+    {
+      "id": "P2",
+      "title": "Evidence-Aligned Candidate Reranking for Factual Document Summarization"
+    },
+    {
+      "id": "P3",
+      "title": "Attribution Errors and Evidence Omissions in Sentence-Level Summary Evaluation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items through established reporting procedures.",
+        "Maintained order paperwork, organized supply storage, and coordinated routine replenishment requests with staff responsible for purchasing and receiving."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Text Classification Models",
+      "bullets": [
+        "Implemented sparse linear and pretrained encoder classifiers for topic classification, using consistent data splits and preprocessing for comparative evaluation.",
+        "Compared performance across document lengths and class frequencies, inspecting confusion patterns and sensitivity to vocabulary restrictions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Passage Search",
+      "bullets": [
+        "Implemented lexical retrieval and dense passage ranking pipelines, holding the document collection and query splits fixed across comparisons.",
+        "Evaluated ranking quality on paraphrased and exact-match queries, analyzing retrieval failures associated with terminology mismatch and ambiguous wording."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Sequence Labeling Approaches to Keyphrase Extraction",
+      "bullets": [
+        "Implemented conditional random field and neural sequence labeling baselines for keyphrase extraction, applying shared tokenization and span evaluation procedures.",
+        "Compared extracted phrases by boundary accuracy and phrase length, examining how decoding constraints affected fragmented and overlapping predictions."
+      ]
+    }
+  ]
+}

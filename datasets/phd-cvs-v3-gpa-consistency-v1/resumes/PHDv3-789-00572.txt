@@ -1,0 +1,39 @@
+Applicant PHDv3-789-00572
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.83/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classification Baselines for Tabular Data with Missing Values
+Contribution: data preparation and baseline implementation.
+- Prepared tabular classification data by checking label consistency, documenting missingness patterns, and fitting preprocessing transformations on training partitions only.
+- Implemented prescribed logistic regression and random forest baselines, comparing imputation strategies through stratified cross validation and summarizing classification errors.
+Research assistant, University Research Group | 2026-03 to 2026-08 | 10 hours/week
+Regression Baselines for Seasonal Demand Prediction
+Contribution: data preparation and baseline implementation.
+- Cleaned timestamped demand records, aligned calendar covariates, and constructed lagged predictors using past observations within the specified forecasting setup.
+- Implemented ridge regression and historical average baselines under a supplied evaluation protocol, inspecting residual patterns across chronological validation partitions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-08 to 2025-09 | 40 hours/week
+Backend Record Validation and Processing
+- Maintained Python backend routines for validating incoming records, normalizing field formats, and returning structured errors for malformed requests.
+- Added regression tests for record processing edge cases and investigated failed jobs using application logs and reproducible input examples.
+
+TECHNICAL PROJECTS
+Gaussian Naive Bayes Classification Baseline | technical course project, 2026
+- Implemented Gaussian naive Bayes in NumPy using class conditional means, variances, and log probabilities for a tabular classification assignment.
+- Checked predictions against scikit-learn on identical data splits and examined confusion matrices to describe common classification errors.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

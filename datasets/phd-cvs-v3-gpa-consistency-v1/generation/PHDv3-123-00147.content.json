@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Robustness Under Feature Missingness",
+      "bullets": [
+        "Designed experiments comparing imputation strategies for tabular classifiers under random and feature dependent missingness, using matched training and evaluation splits.",
+        "Analyzed discrimination and calibration across missingness conditions, examining whether performance changes reflected imputation choices or differences in observed feature distributions."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration Under Class Imbalance and Prevalence Shift",
+      "bullets": [
+        "Designed controlled comparisons of sigmoid and isotonic calibration for imbalanced classification, separating model fitting, calibration, and evaluation data.",
+        "Analyzed reliability diagrams, Brier scores, and bootstrap uncertainty under changing class prevalence, examining sensitivity to calibration sample composition."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Comparing Sigmoid and Isotonic Calibration for Imbalanced Tabular Classification"
+    },
+    {
+      "id": "P2",
+      "title": "Calibration Sample Composition and Probability Reliability Under Class Prevalence Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing Maintenance",
+      "bullets": [
+        "Implemented Python validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate entries within an existing processing workflow.",
+        "Investigated failed processing jobs using logs and representative inputs, added regression tests, and documented fixes for recurring data handling errors."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Kernel Ridge Regression for Nonlinear Prediction",
+      "bullets": [
+        "Implemented linear and radial basis kernel ridge regression with NumPy, checking predictions against scikit-learn implementations on synthetic regression datasets.",
+        "Compared predictive error across regularization settings and kernel bandwidths using nested validation, examining sensitivity to feature scaling and observation noise."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Models for Overlapping Clusters",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixtures with diagonal covariance matrices, including convergence checks and safeguards against near zero component weights.",
+        "Compared mixture clustering with k-means on synthetic overlapping groups, examining initialization sensitivity, held-out likelihood, and agreement with known assignments."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Split Conformal Prediction for Heteroscedastic Regression",
+      "bullets": [
+        "Implemented split conformal prediction intervals around regression models, maintaining separate training, calibration, and test partitions throughout evaluation.",
+        "Compared constant width and residual scaled intervals on synthetic heteroscedastic data, assessing empirical coverage and interval width across input regions."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Classifier Sensitivity to Label Noise",
+      "bullets": [
+        "Implemented controlled label corruption experiments comparing logistic regression and small PyTorch neural networks under uniform and class dependent noise.",
+        "Evaluated held-out classification error and probability calibration across corruption conditions, using repeated splits to distinguish noise sensitivity from partition variability."
+      ]
+    }
+  ]
+}

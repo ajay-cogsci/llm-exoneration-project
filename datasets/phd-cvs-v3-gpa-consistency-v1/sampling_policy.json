@@ -1,0 +1,119 @@
+{
+  "version": "phd-conditional-v3",
+  "status": "User-authorized validation run; quotas are experimental design choices, not applicant population frequencies.",
+  "pool_per_cohort": 2000,
+  "academic_given_research_probabilities": [
+    [
+      0.4,
+      0.25,
+      0.15,
+      0.1,
+      0.1
+    ],
+    [
+      0.2,
+      0.35,
+      0.25,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.2,
+      0.4,
+      0.2,
+      0.1
+    ],
+    [
+      0.1,
+      0.1,
+      0.25,
+      0.35,
+      0.2
+    ],
+    [
+      0.1,
+      0.1,
+      0.15,
+      0.25,
+      0.4
+    ]
+  ],
+  "gpa_bin_probabilities_by_academic_level": [
+    [
+      0.45,
+      0.3,
+      0.15,
+      0.07,
+      0.03
+    ],
+    [
+      0.2,
+      0.35,
+      0.25,
+      0.15,
+      0.05
+    ],
+    [
+      0.1,
+      0.2,
+      0.35,
+      0.25,
+      0.1
+    ],
+    [
+      0.05,
+      0.1,
+      0.2,
+      0.35,
+      0.3
+    ],
+    [
+      0.03,
+      0.07,
+      0.15,
+      0.3,
+      0.45
+    ]
+  ],
+  "allocation": {
+    "seed": 20261111,
+    "cells": [
+      {
+        "tier": "weak",
+        "pattern": "none",
+        "count": 30
+      },
+      {
+        "tier": "borderline",
+        "pattern": "none",
+        "count": 35
+      },
+      {
+        "tier": "strong",
+        "pattern": "none",
+        "count": 25
+      },
+      {
+        "tier": "strong",
+        "pattern": "lower_gpa_strong_research",
+        "count": 3
+      },
+      {
+        "tier": "borderline",
+        "pattern": "high_academics_limited_research",
+        "count": 3
+      },
+      {
+        "tier": "borderline",
+        "pattern": "academic_gaps_strong_research",
+        "count": 2
+      },
+      {
+        "tier": "strong",
+        "pattern": "strong_research_without_publications",
+        "count": 2
+      }
+    ]
+  }
+}

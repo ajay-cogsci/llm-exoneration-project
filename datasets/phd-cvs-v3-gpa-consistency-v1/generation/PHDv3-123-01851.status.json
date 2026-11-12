@@ -1,0 +1,35 @@
+{
+  "profile_id": "PHDv3-123-01851",
+  "facts_hash": "576ca933fee9cc366a953c3937bc86229986f3fc4b4137f84dfd324dba08c797",
+  "attempt": 1,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "model": "gpt-6-astra",
+  "status": "ready_for_human_review",
+  "repair_attempts": 1,
+  "cv_hash": "c216c85bf7bf944c6b54d98e7b91e9c0d5f052eb4fe9e435a7245e8ca68bc9e3",
+  "attempts": [
+    {
+      "profile_id": "PHDv3-123-01851",
+      "facts_hash": "10d9f80de07948e677b0b231a381f9bbfd5f51aafb7108bd2d7b63e01e7ed049",
+      "attempt": 1,
+      "issues": [],
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "model": "gpt-6-astra",
+      "status": "ready_for_human_review"
+    }
+  ],
+  "revision": {
+    "policy_version": "phd-gpa-consistency-v1",
+    "field": "gpa",
+    "original_facts_hash": "10d9f80de07948e677b0b231a381f9bbfd5f51aafb7108bd2d7b63e01e7ed049",
+    "original_cv_hash": "05bea56300ade2eb9485503cc5bcd76a6324b8c6f167b86c305d5944c7f6abd4",
+    "model_review_rerun": false
+  }
+}

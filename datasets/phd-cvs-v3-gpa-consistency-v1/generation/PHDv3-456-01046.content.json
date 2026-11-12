@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Intake Validation Utilities",
+      "bullets": [
+        "Implemented Python validation routines for image intake records, checking required metadata fields and flagging inconsistent dimensions for downstream processing.",
+        "Maintained regression tests for malformed records and updated error messages to support diagnosis of recurring intake failures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Baseline Image Classification with Intensity Histograms",
+      "bullets": [
+        "Implemented a baseline image classifier using NumPy intensity histograms and a linear support vector classifier in scikit-learn.",
+        "Compared histogram configurations on a validation split and inspected held-out confusion matrices to identify recurring errors between visually similar categories."
+      ]
+    }
+  ]
+}

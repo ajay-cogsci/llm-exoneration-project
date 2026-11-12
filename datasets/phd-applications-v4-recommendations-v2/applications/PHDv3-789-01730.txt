@@ -1,0 +1,79 @@
+Applicant PHDv3-789-01730
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.82/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Occlusion Sensitivity in Object Detection
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying occlusion placement and object visibility to compare existing object detectors under matched evaluation conditions.
+- Analyzed localization errors and missed detections by object size, separating effects of foreground obstruction from background clutter.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Confidence Calibration Under Image Corruptions
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and uncalibrated predictions across image classifiers exposed to blur, noise, and contrast changes.
+- Analyzed reliability diagrams and classwise errors to distinguish confidence miscalibration from changes in classification accuracy across corruption types.
+Research assistant, University Research Group | 2025-02 to 2026-05 | 10 hours/week
+Appearance Shift and Boundary Errors in Semantic Segmentation
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating existing semantic segmentation models across lighting and texture shifts, with controlled augmentation and training data comparisons.
+- Analyzed classwise overlap and boundary errors, examining whether aggregate segmentation metrics concealed failures on thin structures and visually ambiguous regions.
+
+PUBLICATIONS
+Evaluating Appearance Augmentation for Semantic Segmentation Under Lighting and Texture Shifts. Peer-reviewed ML conference, 2025-11; published; author position 3.
+Beyond Region Overlap: Boundary Errors in Semantic Segmentation Under Appearance Shift. Peer-reviewed ML conference, 2026-07; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-04 to 2025-09 | 40 hours/week
+Image Processing Service Maintenance
+- Implemented image validation and preprocessing components for an existing upload service, handling unsupported formats, malformed inputs, and inconsistent image dimensions.
+- Maintained regression tests and investigated processing failures using service logs, documenting reproducible cases and verifying fixes against previously failing inputs.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented image alignment using local feature descriptors and robust homography estimation, following established pipelines for matching overlapping photographs.
+- Compared descriptor choices and matching thresholds using reprojection error and visual inspection across changes in viewpoint, illumination, and scene texture.
+Transfer Learning for Fine-Grained Image Classification | technical course project, 2026
+- Implemented frozen feature extraction and partial fine-tuning of pretrained convolutional networks for fine-grained classification using a shared training pipeline.
+- Compared validation performance and confusion patterns under matched data splits, examining sensitivity to augmentation choices and class imbalance.
+Classical and Convolutional Image Denoising | technical course project, 2026
+- Implemented bilateral filtering and a convolutional denoising baseline, generating paired noisy and clean images through controlled synthetic noise injection.
+- Compared reconstruction metrics and inspected edge preservation across noise conditions, documenting differences between smoothing artifacts and residual noise.
+Dense Motion Estimation in Image Sequences | technical course project, 2026
+- Implemented coarse-to-fine Lucas–Kanade and Horn–Schunck optical flow baselines, using shared image preprocessing and consistent motion visualization procedures.
+- Compared endpoint errors and qualitative flow fields, examining failures around motion boundaries, textureless regions, and displacements exceeding local estimation assumptions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-01730
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2025-02 to 2026-05 (15 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as below the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Designed experiments evaluating existing semantic segmentation models across lighting and texture shifts, with controlled augmentation and training data comparisons.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is B. The writer offers qualified support for PhD study, with a limited endorsement of the applicant's academic preparation in Algorithms.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Local Feature Matching for Image Alignment (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work.

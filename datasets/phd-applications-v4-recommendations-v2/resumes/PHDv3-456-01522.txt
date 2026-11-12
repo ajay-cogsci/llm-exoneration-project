@@ -1,0 +1,41 @@
+Applicant PHDv3-456-01522
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.87/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Conformal Prediction Under Covariate Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to assess split conformal prediction under controlled changes in covariate distributions for regression tasks.
+- Compared unweighted and importance-weighted calibration procedures, examining empirical coverage, interval width, and sensitivity to estimated density ratios.
+Research assistant, University Research Group | 2025-11 to 2026-08 | 10 hours/week
+Probability Calibration for Imbalanced Classification
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance to isolate effects of class imbalance and calibration sample size on predicted probability reliability.
+- Evaluated logistic regression and tree ensembles using held-out calibration sets, reliability diagrams, Brier scores, and repeated stratified data splits.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-05 to 2025-11 | 10 hours/week
+Batch Data Validation and Processing
+- Implemented assigned validation checks for incoming tabular records, handling missing fields, inconsistent types, and duplicate identifiers before downstream processing.
+- Added regression tests for parsing and transformation routines, reproduced reported failures, and documented expected behavior for malformed input records.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression workflows with standardized predictors and cross-validation for selecting regularization strength on synthetic and tabular datasets.
+- Compared prediction error and coefficient stability across correlated feature settings, using repeated splits to examine sensitivity to training sample composition.
+Gaussian Mixture Models for Cluster Recovery | technical course project, 2026
+- Implemented expectation-maximization for Gaussian mixtures with diagonal and full covariance structures, including convergence checks and repeated initialization.
+- Compared mixture models with k-means on synthetic clusters, evaluating cluster recovery and held-out likelihood under varying overlap and covariance geometry.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

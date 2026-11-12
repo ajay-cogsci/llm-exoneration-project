@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing and Baseline Evaluation for Support Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and TF-IDF feature extraction steps for classifying support requests under an existing experimental protocol.",
+        "Ran specified logistic regression experiments and organized misclassified examples by request category for review during research group discussions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against purchase orders, and reported discrepancies to the responsible staff.",
+        "Prepared routine order paperwork, coordinated collection schedules, and followed up on outstanding documentation with suppliers and internal teams."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Product Review Sentiment",
+      "bullets": [
+        "Implemented count-based text features and a multinomial naive Bayes classifier in scikit-learn to predict sentiment labels for product reviews.",
+        "Compared unigram and bigram feature configurations on a held-out split, inspecting classification errors involving negation and mixed sentiment."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Surface Defect Classification with Texture Descriptors",
+      "bullets": [
+        "Prepared inspection images by standardizing intensity ranges, checking defect annotations, and separating training and evaluation sets by source specimen.",
+        "Implemented a supplied texture classification baseline using local binary patterns and support vector machines, documenting errors associated with uneven illumination."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Leaf Condition Recognition from Color and Texture Features",
+      "bullets": [
+        "Organized leaf photographs, reviewed condition labels, and grouped images by plant specimen to prevent overlap between training and evaluation sets.",
+        "Implemented prescribed color histogram and texture baselines with scikit-learn classifiers, summarizing confusion patterns across leaf conditions and background variations."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Color and Texture Baselines for Leaf Condition Recognition under Background Variation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Upload Validation and Processing Maintenance",
+      "bullets": [
+        "Maintained Python validation routines for uploaded images, checking file metadata and handling malformed inputs within an existing processing workflow.",
+        "Added regression tests for image processing failures, reproduced reported defects, and documented expected behavior for maintenance handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Color Histogram Baseline for Image Retrieval",
+      "bullets": [
+        "Implemented a course specified image retrieval baseline using normalized color histograms and nearest neighbor ranking over a labeled image collection.",
+        "Compared retrieved examples against category labels and inspected failures caused by similar color distributions across visually distinct objects."
+      ]
+    }
+  ]
+}

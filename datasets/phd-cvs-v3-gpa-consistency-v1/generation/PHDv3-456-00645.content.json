@@ -1,0 +1,46 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robust Intent Classification Under Paraphrase Variation",
+      "bullets": [
+        "Designed supervised experiments with supervisor guidance to compare intent classifiers under paraphrase variation, controlling training splits and label distributions.",
+        "Evaluated lexical and transformer baselines using macro F score and calibration metrics, examining errors associated with lexical overlap and ambiguous requests."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Intent Classifier Robustness and Calibration Under Paraphrase Variation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Text Processing Components for Support Ticket Routing",
+      "bullets": [
+        "Implemented Python components for ticket text normalization and routing rule execution, following existing interface specifications and handling malformed input records.",
+        "Added unit tests for preprocessing edge cases and investigated routing defects through log inspection and reproducible test fixtures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Document Retrieval Baselines",
+      "bullets": [
+        "Implemented TF-IDF and Okapi best matching retrieval baselines for a document collection, using shared tokenization and relevance judgments for comparison.",
+        "Compared ranking quality with mean reciprocal rank and inspected failed queries involving vocabulary mismatch, rare terms, and document length."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Tagging for Named Entity Recognition",
+      "bullets": [
+        "Implemented recurrent and transformer token classifiers for named entity recognition, aligning subword labels and applying consistent training and evaluation splits.",
+        "Compared entity-level precision and recall across architectures, reviewing boundary errors and confusions between organization, location, and person mentions."
+      ]
+    }
+  ]
+}

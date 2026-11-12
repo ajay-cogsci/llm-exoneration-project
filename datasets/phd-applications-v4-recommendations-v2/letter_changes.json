@@ -1,0 +1,90 @@
+[
+  {
+    "applicant_id": "PHDv3-123-00099",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-123-01253",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Machine Learning, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-123-01851",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Machine Learning, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-00005",
+    "letter_id": "L2",
+    "assignment_category": "course_a_range",
+    "relationship": "The writer taught the applicant in Algorithms, for which the recorded grade is A.",
+    "original_strength_level": "limited",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-00797",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Probability and Statistics, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-01157",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Machine Learning, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-01571",
+    "letter_id": "L2",
+    "assignment_category": "course_a_range",
+    "relationship": "The writer taught the applicant in Machine Learning, for which the recorded grade is A-.",
+    "original_strength_level": "limited",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-01677",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Linear Algebra, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-456-01731",
+    "letter_id": "L1",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-789-01110",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Algorithms, for which the recorded grade is B+.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  },
+  {
+    "applicant_id": "PHDv3-789-01977",
+    "letter_id": "L2",
+    "assignment_category": "course_b_range",
+    "relationship": "The writer taught the applicant in Machine Learning, for which the recorded grade is B.",
+    "original_strength_level": "strong",
+    "revised_strength_level": "moderate"
+  }
+]

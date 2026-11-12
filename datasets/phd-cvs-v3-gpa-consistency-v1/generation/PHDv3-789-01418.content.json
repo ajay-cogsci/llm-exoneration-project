@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Evaluation for Regularized Binary Classifiers",
+      "bullets": [
+        "Implemented assigned routines for fitting regularized logistic regression models and generating calibration curves under a predefined evaluation protocol.",
+        "Checked preprocessing consistency across training and validation splits, and summarized probability calibration patterns using Brier scores and reliability diagrams."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Processed incoming orders, verified shipment paperwork against order records, and referred discrepancies to the appropriate staff for resolution.",
+        "Maintained inventory logs, coordinated routine stock checks, and prepared daily handover notes covering outstanding deliveries and pending customer requests."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression Baselines for Tabular Prediction",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines in scikit-learn, using training-set standardization and held-out data for evaluation.",
+        "Selected ridge penalties through cross-validation and compared residual distributions to examine sensitivity to correlated predictors and departures from linear assumptions."
+      ]
+    }
+  ]
+}

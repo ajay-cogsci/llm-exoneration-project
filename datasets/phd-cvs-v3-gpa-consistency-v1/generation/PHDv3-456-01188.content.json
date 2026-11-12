@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Order Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying retrieved passage order and distractor relevance to examine evidence use in retrieval-augmented question answering.",
+        "Analyzed answer correctness and citation consistency across experimental conditions, categorizing failures involving conflicting passages, missing evidence, and unsupported synthesis."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Calibration of Neural Text Classifiers",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and confidence-based abstention for neural text classifiers under shifts between product review domains.",
+        "Analyzed calibration curves and selective prediction errors, separating effects of class imbalance, vocabulary shift, and validation set composition."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Calibration and Selective Prediction Under Domain Shift in Product Review Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Support Ticket Processing and Search Maintenance",
+      "bullets": [
+        "Implemented assigned fixes to support ticket ingestion routines, handling malformed records, duplicate submissions, and inconsistent text encoding.",
+        "Maintained keyword search filters and added regression tests for ticket routing behavior, documenting reproducible failures for code review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Sparse and Dense Retrieval for Document Search",
+      "bullets": [
+        "Implemented probabilistic lexical and pretrained sentence embedding retrieval baselines using shared document preprocessing and query evaluation procedures.",
+        "Compared ranking quality and retrieval latency, inspecting queries with rare terminology, paraphrased wording, and ambiguous document matches."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling Approaches to Named Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field baseline and fine-tuned a transformer token classifier using consistent entity labels and data splits.",
+        "Compared span-level precision and recall, categorizing boundary errors, entity type confusions, and failures on previously unseen names."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Graph and Centroid Ranking",
+      "bullets": [
+        "Implemented graph-based sentence ranking and centroid-based extraction for news summarization, applying identical sentence segmentation and summary length constraints.",
+        "Compared summaries using lexical overlap metrics and manual checks for redundancy, topical coverage, and references lacking antecedents."
+      ]
+    }
+  ]
+}

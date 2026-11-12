@@ -1,0 +1,24 @@
+Applicant PHDv3-789-01418
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-09 to 2026-11 (2 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Regression Baselines for Tabular Prediction (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented ordinary least squares and ridge regression baselines in scikit-learn, using training-set standardization and held-out data for evaluation.

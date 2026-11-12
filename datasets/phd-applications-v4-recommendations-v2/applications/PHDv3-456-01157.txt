@@ -1,0 +1,66 @@
+Applicant PHDv3-456-01157
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.37/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Support Request Classification with Sparse Text Features
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by removing duplicate messages, normalizing formatting, and checking category consistency against supplied annotation guidelines.
+- Implemented TF-IDF and logistic regression baselines using predefined data splits, reporting macro-averaged F score and reviewing confusion patterns between related categories.
+Research assistant, University Research Group | 2026-04 to 2026-08 | 10 hours/week
+Sentence-Level Detection of Speculative Language
+Contribution: data preparation and baseline implementation.
+- Prepared annotated sentences from scientific abstracts, checking label alignment and preserving document boundaries when constructing training and evaluation partitions.
+- Implemented word and character n-gram classification baselines, comparing precision and recall and inspecting errors involving negation and ambiguous uncertainty markers.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-07 to 2026-04 | 10 hours/week
+Order Processing and Inventory Support
+- Checked incoming order forms for missing information, maintained filing records, and routed incomplete requests to the appropriate staff for clarification.
+- Reconciled delivery paperwork with received supplies, updated inventory logs, and prepared routine handover notes documenting outstanding orders and stock discrepancies.
+
+TECHNICAL PROJECTS
+TF-IDF Retrieval for Frequently Asked Questions | technical course project, 2026
+- Implemented a baseline question retrieval pipeline using TF-IDF vectors and cosine similarity to rank candidate answers from a supplied collection.
+- Evaluated ranked results against reference matches and examined retrieval failures caused by vocabulary mismatch, short queries, and overlapping question topics.
+Naive Bayes Sentiment Classification | technical course project, 2026
+- Implemented a multinomial naive Bayes baseline for review sentiment classification, using token counts and a fixed training and test partition.
+- Compared unigram and bigram feature configurations and inspected misclassified reviews containing mixed sentiment, negated adjectives, and references to multiple product attributes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-01157
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2026-04 to 2026-08 (4 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented word and character n-gram classification baselines, comparing precision and recall and inspecting errors involving negation and ambiguous uncertainty markers.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, TF-IDF Retrieval for Frequently Asked Questions (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as below the typical level.

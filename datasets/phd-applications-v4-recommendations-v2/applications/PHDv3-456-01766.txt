@@ -1,0 +1,62 @@
+Applicant PHDv3-456-01766
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.67/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-05 to 2026-11 | 10 hours/week
+Classification Baselines for Tabular Data with Missing Features
+Contribution: data preparation and baseline implementation.
+- Prepared tabular datasets by auditing missing values, standardizing feature encodings, and separating training and evaluation records under a predefined protocol.
+- Implemented logistic regression and random forest baselines with imputation pipelines, documenting discrimination and calibration across prescribed missingness conditions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-07 to 2025-09 | 40 hours/week
+Batch Data Validation and Processing
+- Maintained Python routines for validating incoming tabular records, handling malformed fields, and generating structured error reports for downstream processing.
+- Added regression tests for parsing and transformation logic, investigated failed processing jobs, and documented expected behavior for recurring input exceptions.
+
+TECHNICAL PROJECTS
+Regularized Linear Regression Baselines | technical course project, 2026
+- Implemented ridge and lasso regression baselines with standardized features and cross validation to select regularization settings on tabular prediction tasks.
+- Compared validation errors and coefficient patterns against ordinary least squares, documenting sensitivity to correlated predictors and alternative feature scaling choices.
+Gaussian Mixture Clustering Baselines | technical course project, 2026
+- Implemented a baseline clustering workflow using Gaussian mixture models, comparing covariance parameterizations on synthetic datasets with overlapping component distributions.
+- Examined initialization sensitivity and information criteria across candidate models, documenting how distributional assumptions affected fitted clusters and assignment uncertainty.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-01766
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-05 to 2026-11 (6 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Probability and Statistics.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Linear Regression Baselines (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work.

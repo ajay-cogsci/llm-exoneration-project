@@ -1,0 +1,52 @@
+Applicant PHDv3-789-01604
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.82/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Covariance Shrinkage for Prediction with Incomplete Features
+Contribution: formulated a research question and led method development.
+- Formulated how feature missingness affects covariance estimation and developed a missingness-aware shrinkage estimator for regularized linear prediction.
+- Designed simulations separating missingness mechanisms from feature correlation and compared predictive error against mean imputation and conventional covariance shrinkage.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Regularized Label Shift Estimation for Probability Calibration
+Contribution: formulated a research question and led method development.
+- Investigated instability in label shift correction and developed a constrained class prior estimator with regularization toward training proportions.
+- Evaluated corrected probabilities under controlled prevalence shifts, examining calibration error and sensitivity to misspecified class conditional distributions.
+Research assistant, University Research Group | 2024-10 to 2026-05 | 10 hours/week
+Density Ratio Stabilization for Conformal Regression under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated how unstable density ratio estimates affect weighted conformal intervals and led development of a clipping procedure guided by held-out diagnostics.
+- Compared coverage and interval width across synthetic shifts and tabular regression tasks, examining weight concentration, overlap violations, and conditional coverage.
+
+PUBLICATIONS
+Stabilizing Density Ratios in Weighted Conformal Regression. Peer-reviewed ML conference, 2026-07; published; author position 1.
+Weight Concentration and Conditional Coverage under Covariate Shift. Peer-reviewed ML conference, 2026-11; published; author position 1.
+Evaluating Weighted Prediction Intervals for Shifted Tabular Regression. Regional applied computing conference, 2026-04; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-01 to 2024-10 | 10 hours/week
+Data Validation and Batch Processing Maintenance
+- Implemented assigned Python validation routines for incoming tabular records, checking required fields, type consistency, and duplicate identifiers before batch processing.
+- Added regression tests for malformed inputs and revised error handling to preserve diagnostic context during failed processing runs.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Probabilistic Classifier Calibration | technical course project, 2026
+- Implemented temperature scaling and isotonic regression for classifier outputs, using separate fitting and evaluation partitions to avoid calibration leakage.
+- Compared reliability diagrams, log loss, and calibration error across class imbalance settings, documenting sensitivity to calibration sample composition.
+Sparse Regression with Correlated Predictors | technical course project, 2026
+- Implemented coordinate descent for lasso and elastic net regression, checking optimization convergence against reference implementations on standardized feature matrices.
+- Compared predictive error and coefficient stability under correlated predictors, using repeated data splits and consistent cross-validation procedures for penalty selection.
+Variational and Sampling Approaches to Bayesian Regression | technical course project, 2026
+- Implemented mean-field variational inference and Gibbs sampling for conjugate Bayesian linear regression, validating posterior summaries against analytical calculations.
+- Compared approximation error, convergence diagnostics, and predictive uncertainty across feature correlation settings, examining where factorized approximations distorted posterior dependence.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

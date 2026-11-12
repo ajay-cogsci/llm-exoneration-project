@@ -1,0 +1,58 @@
+Applicant PHDv3-456-00005
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Image Preprocessing for Object Recognition Under Blur
+Contribution: assigned implementation tasks.
+- Implemented assigned image preprocessing routines for a blur robustness study, following provided specifications for resizing, normalization, and dataset partitioning.
+- Checked transformed images for labeling consistency and assembled evaluation summaries comparing supplied classifier predictions across clean and blurred inputs.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-04 to 2026-10 | 10 hours/week
+Inventory and Order Coordination
+- Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed damaged or missing items for follow-up.
+- Prepared order paperwork, maintained organized inventory records, and coordinated routine pickup arrangements with customers and dispatch staff.
+
+TECHNICAL PROJECTS
+Handcrafted Feature Baseline for Scene Classification | technical course project, 2026
+- Implemented a scene classification baseline using spatial color histograms and a linear support vector machine with standardized input features.
+- Evaluated predictions on a held-out image split, inspected confusion patterns, and compared histogram representations with raw pixel features.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-00005
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2026-10 to 2026-11 (1 month). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as below the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented assigned image preprocessing routines for a blur robustness study, following provided specifications for resizing, normalization, and dataset partitioning.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is A. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Handcrafted Feature Baseline for Scene Classification (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work.

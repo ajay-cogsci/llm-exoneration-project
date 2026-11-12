@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visual Baselines for Surface Defect Classification",
+      "bullets": [
+        "Prepared surface inspection images by checking labels, standardizing image dimensions, and organizing training and evaluation splits by acquisition batch.",
+        "Implemented a prescribed support vector machine baseline using gradient histograms, then reviewed misclassified images for lighting variation and ambiguous defect boundaries."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Image Preparation and Baselines for Indoor Scene Recognition",
+      "bullets": [
+        "Checked indoor scene annotations, removed duplicate images, and prepared category inventories to support consistent training and validation partitions.",
+        "Implemented a reference classifier using spatial color histograms and logistic regression, documenting confusion between visually similar room categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Support",
+      "bullets": [
+        "Processed incoming orders, checked required paperwork, and coordinated fulfillment updates with warehouse staff when items were unavailable.",
+        "Maintained inventory records, reconciled delivery receipts against purchase documents, and routed discrepancies to the responsible staff for resolution."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Nearest-Neighbor Baseline for Handwritten Digit Recognition",
+      "bullets": [
+        "Implemented a nearest-neighbor classifier for handwritten digit images, applying pixel normalization and selecting neighborhood size using a validation split.",
+        "Compared raw pixel and pooled intensity representations, inspected classification errors, and summarized sensitivity to digit alignment and stroke variation."
+      ]
+    }
+  ]
+}

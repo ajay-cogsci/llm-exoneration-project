@@ -1,0 +1,44 @@
+Applicant PHDv3-456-01188
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.95/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Order Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying retrieved passage order and distractor relevance to examine evidence use in retrieval-augmented question answering.
+- Analyzed answer correctness and citation consistency across experimental conditions, categorizing failures involving conflicting passages, missing evidence, and unsupported synthesis.
+Research assistant, University Research Group | 2024-08 to 2026-08 | 10 hours/week
+Cross-Domain Calibration of Neural Text Classifiers
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and confidence-based abstention for neural text classifiers under shifts between product review domains.
+- Analyzed calibration curves and selective prediction errors, separating effects of class imbalance, vocabulary shift, and validation set composition.
+
+PUBLICATIONS
+Calibration and Selective Prediction Under Domain Shift in Product Review Classification. Peer-reviewed ML conference, 2026-02; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-11 to 2024-08 | 10 hours/week
+Support Ticket Processing and Search Maintenance
+- Implemented assigned fixes to support ticket ingestion routines, handling malformed records, duplicate submissions, and inconsistent text encoding.
+- Maintained keyword search filters and added regression tests for ticket routing behavior, documenting reproducible failures for code review.
+
+TECHNICAL PROJECTS
+Sparse and Dense Retrieval for Document Search | technical course project, 2026
+- Implemented probabilistic lexical and pretrained sentence embedding retrieval baselines using shared document preprocessing and query evaluation procedures.
+- Compared ranking quality and retrieval latency, inspecting queries with rare terminology, paraphrased wording, and ambiguous document matches.
+Sequence Labeling Approaches to Named Entity Recognition | technical course project, 2026
+- Implemented a conditional random field baseline and fine-tuned a transformer token classifier using consistent entity labels and data splits.
+- Compared span-level precision and recall, categorizing boundary errors, entity type confusions, and failures on previously unseen names.
+Extractive Summarization with Graph and Centroid Ranking | technical course project, 2026
+- Implemented graph-based sentence ranking and centroid-based extraction for news summarization, applying identical sentence segmentation and summary length constraints.
+- Compared summaries using lexical overlap metrics and manual checks for redundancy, topical coverage, and references lacking antecedents.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

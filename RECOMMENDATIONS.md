@@ -10,6 +10,14 @@ The 2026-11-12 output is
 CV-plus-recommendation packets. Each summary is 30–100 words, excluding its
 four field labels. No model calls were made for this stage.
 
+**Policy v2 (2026-11-11).** `configs/phd_recommendations_v2.json` changes two
+rows of the strength table below: a course grade of A− or better is 0 / 0.40 /
+0.60 and a grade of B or B+ is 0.25 / 0.75 / 0. This removes letters that
+contradict the grade they cite. The seed is unchanged, so 11 letters differ
+from v1. The v2 output is
+[`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/).
+The rest of this document describes v1, which is otherwise identical.
+
 ## Usage
 
 Python 3.10+ and the standard library are sufficient. The separate package leaves

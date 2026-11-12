@@ -1,0 +1,63 @@
+Applicant PHDv3-123-01383
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.31/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness of Intent Classification to Conversational Paraphrases
+Contribution: experimental design with supervisor guidance.
+- Designed supervisor-guided experiments comparing intent classifiers on original utterances and meaning-preserving paraphrases, controlling training partitions and label distributions.
+- Evaluated lexical and contextual representations under paraphrase variation, categorizing prediction changes by negation, word order, and conversational phrasing.
+Research assistant, University Research Group | 2025-08 to 2026-08 | 10 hours/week
+Annotation Budget Allocation for Named Entity Recognition
+Contribution: experimental design with supervisor guidance.
+- Planned supervised comparisons of random and uncertainty-based sentence selection with supervisor guidance, holding annotation budgets and evaluation splits constant.
+- Implemented selection loops and examined entity-level precision and recall, separating errors involving rare entity types from boundary mismatches.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sentiment Classification Representations | technical course project, 2026
+- Implemented sentiment classifiers using term-frequency features, averaged word embeddings, and a recurrent encoder under a shared preprocessing pipeline.
+- Compared classification performance across review lengths and inspected misclassifications involving negation, mixed sentiment, and vocabulary absent from training data.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented sentence extraction using term-frequency scoring and graph-based ranking, applying identical tokenization and summary length constraints across methods.
+- Compared summaries using reference overlap and manual inspection, documenting differences in redundancy, topic coverage, and dependence on sentence position.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-123-01383
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer supervised the applicant as Research assistant at University Research Group from 2025-08 to 2026-08 (12 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation. As a specific example of the applicant's work, the writer cites this recorded activity: Planned supervised comparisons of random and uncertainty-based sentence selection with supervisor guidance, holding annotation budgets and evaluation splits constant.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is B+. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Sentiment Classification Representations (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented sentiment classifiers using term-frequency features, averaged word embeddings, and a recurrent encoder under a shared preprocessing pipeline.

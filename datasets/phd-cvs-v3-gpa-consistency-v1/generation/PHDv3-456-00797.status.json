@@ -1,0 +1,35 @@
+{
+  "profile_id": "PHDv3-456-00797",
+  "facts_hash": "255154d4f83e9113812294cc6d4fbf3ec67abbf96024b8168321830b0f115ac7",
+  "attempt": 1,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "model": "gpt-6-astra",
+  "status": "ready_for_human_review",
+  "repair_attempts": 1,
+  "cv_hash": "266f063713139fae58dfa3db541be60e3cc154315e789b7fc1c2d821f66d6560",
+  "attempts": [
+    {
+      "profile_id": "PHDv3-456-00797",
+      "facts_hash": "c7d4964b74432e8579e7ef2d2946794d6d6925d9a0e11df1dae9a1788850b1be",
+      "attempt": 1,
+      "issues": [],
+      "review": {
+        "passes": true,
+        "issues": []
+      },
+      "model": "gpt-6-astra",
+      "status": "ready_for_human_review"
+    }
+  ],
+  "revision": {
+    "policy_version": "phd-gpa-consistency-v1",
+    "field": "gpa",
+    "original_facts_hash": "c7d4964b74432e8579e7ef2d2946794d6d6925d9a0e11df1dae9a1788850b1be",
+    "original_cv_hash": "016c5b5c2a82c24320b4758f6191deea9f60c1dbb0db9be8a3329bc543945e25",
+    "model_review_rerun": false
+  }
+}

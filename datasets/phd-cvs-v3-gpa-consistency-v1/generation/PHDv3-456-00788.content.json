@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Calibration Evaluation for Tabular Classification",
+      "bullets": [
+        "Implemented assigned evaluation routines for logistic regression probability estimates, using predefined data splits and calibration settings.",
+        "Generated reliability diagrams and checked Brier score calculations against library outputs, documenting discrepancies for group review."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Maintained Python routines that validated incoming tabular records, standardized missing values, and routed malformed entries for review.",
+        "Added regression tests for parsing edge cases and investigated processing failures using application logs and reproducible input examples."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression for Household Energy Demand",
+      "bullets": [
+        "Implemented ordinary least squares and ridge regression baselines with scikit-learn, applying training-set standardization to household energy predictors.",
+        "Compared validation errors across regularization settings and examined residual plots for systematic differences between low and high consumption observations."
+      ]
+    }
+  ]
+}

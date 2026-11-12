@@ -1,0 +1,78 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Missing Covariates",
+      "bullets": [
+        "Formulated a research question on calibration under changing missingness patterns and led development of a missingness-conditioned probability recalibration method.",
+        "Evaluated calibration error and predictive loss under simulated missingness shifts, comparing pooled recalibration with pattern-specific estimates using shared regularization."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Adaptive Robust Regression With Heteroscedastic Noise",
+      "bullets": [
+        "Investigated how residual scale variation affects robust regression and led development of a scale-adaptive Huber loss fitting procedure.",
+        "Compared adaptive and fixed-threshold estimators under contaminated noise distributions, examining prediction error, residual behavior, and sensitivity to scale estimation."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Stable Conformal Prediction Under Covariate Shift",
+      "bullets": [
+        "Formulated questions about unstable importance weights in conformal prediction and led development of a regularized density-ratio weighting procedure.",
+        "Evaluated coverage and interval width across controlled covariate shifts, separating effects of weight regularization, density-ratio estimation, and calibration sample composition."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Diagnosing Importance-Weight Instability in Conformal Prediction Under Covariate Shift"
+    },
+    {
+      "id": "P2",
+      "title": "Regularized Density-Ratio Weighting for Conformal Prediction Under Covariate Shift"
+    },
+    {
+      "id": "P3",
+      "title": "Calibration Sample Composition and Coverage Sensitivity in Weighted Conformal Prediction"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Import Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for batch data imports, handling missing fields, inconsistent types, and duplicate records within existing processing routines.",
+        "Added regression tests for reported import failures and documented error-handling behavior to support maintenance of the existing data processing service."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Regularized Linear Classifiers",
+      "bullets": [
+        "Implemented logistic regression with ridge and lasso penalties, using standardized features and nested cross-validation to compare regularization choices.",
+        "Compared predictive loss, coefficient stability, and feature selection behavior across datasets with correlated predictors and varying class imbalance."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel and Neighbor Methods for Nonlinear Regression",
+      "bullets": [
+        "Implemented kernel ridge regression and nearest-neighbor regression, tuning bandwidths, penalties, and neighborhood sizes through consistent cross-validation procedures.",
+        "Compared prediction error and computational demands on synthetic nonlinear functions, examining sensitivity to irrelevant features and uneven sampling density."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Bootstrap Confidence Intervals for Skewed Data",
+      "bullets": [
+        "Implemented percentile, basic, and bias-corrected bootstrap confidence intervals for mean estimation, following established resampling procedures and checking reproducibility.",
+        "Compared empirical coverage and interval width in simulation experiments with skewed distributions, documenting sensitivity to sample size and extreme observations."
+      ]
+    }
+  ]
+}

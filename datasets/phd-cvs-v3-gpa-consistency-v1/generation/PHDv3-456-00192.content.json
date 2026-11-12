@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Confidence-Gated Temporal Adaptation for Video Segmentation",
+      "bullets": [
+        "Formulated whether temporal agreement can identify reliable adaptation targets under visual domain shift, and led development of confidence-gated consistency updates.",
+        "Evaluated adaptation against frozen and entropy-minimization baselines, examining segmentation stability, accumulated prediction errors, and sensitivity to abrupt scene changes."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Occlusion-Aware Representation Learning for Semantic Segmentation",
+      "bullets": [
+        "Investigated how partial visibility affects semantic segmentation and led development of visibility-conditioned feature aggregation with region-level consistency supervision.",
+        "Designed controlled occlusion evaluations and ablations examining feature alignment, confidence calibration, and boundary preservation across synthetic masks and naturally occluded scenes."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Visibility-Conditioned Feature Aggregation for Semantic Segmentation Under Occlusion"
+    },
+    {
+      "id": "P2",
+      "title": "Region-Level Consistency Supervision for Occlusion-Robust Semantic Segmentation"
+    },
+    {
+      "id": "P3",
+      "title": "Controlled Occlusion Protocols for Evaluating Semantic Segmentation Robustness"
+    },
+    {
+      "id": "P4",
+      "title": "Confidence Calibration Near Occlusion Boundaries in Semantic Segmentation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion Validation and Processing Maintenance",
+      "bullets": [
+        "Implemented assigned validation checks for uploaded images, handling unsupported formats, malformed metadata, and inconsistent dimensions within an existing processing service.",
+        "Added regression tests for preprocessing failures and investigated reported defects using application logs, documenting reproduction steps and verifying fixes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching Under Viewpoint Changes",
+      "bullets": [
+        "Implemented local descriptor matching with ratio filtering and robust homography estimation, comparing handcrafted feature pipelines under viewpoint and illumination changes.",
+        "Evaluated correspondence precision and geometric alignment using shared image pairs, analyzing failures on repetitive textures and low-detail regions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Evaluation of Image Classification Transfer Strategies",
+      "bullets": [
+        "Implemented frozen-feature classification and end-to-end fine-tuning for pretrained convolutional networks, using matched data partitions and preprocessing across comparisons.",
+        "Compared predictive performance and calibration under reduced training data, examining class confusion and sensitivity to augmentation choices."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Image Denoising Across Noise Conditions",
+      "bullets": [
+        "Implemented bilateral filtering and a convolutional denoising baseline, comparing reconstruction quality across Gaussian noise conditions with consistent evaluation images.",
+        "Examined residual images and edge preservation alongside reconstruction metrics, documenting tradeoffs between noise suppression and retention of fine texture."
+      ]
+    }
+  ]
+}

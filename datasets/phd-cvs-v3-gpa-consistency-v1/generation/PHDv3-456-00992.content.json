@@ -1,0 +1,57 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Boundary-Aware Segmentation under Partial Occlusion",
+      "bullets": [
+        "Formulated whether boundary supervision improves visible object segmentation under partial occlusion; led development of an auxiliary contour prediction branch.",
+        "Designed controlled occlusion experiments and ablations comparing contour supervision with standard segmentation losses, examining boundary errors across object sizes."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Illumination-Adaptive Consistency Learning for Object Detection",
+      "bullets": [
+        "Investigated how illumination shifts affect detector confidence; led development of teacher–student consistency training with illumination-conditioned weighting of pseudo-labels.",
+        "Developed matched lighting perturbations and ablation protocols to separate localization and classification errors, examining sensitivity to pseudo-label thresholds and augmentation severity."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Object Detector Reliability under Controlled Illumination Shifts"
+    },
+    {
+      "id": "P2",
+      "title": "Illumination-Conditioned Pseudo-Label Weighting for Consistency-Based Object Detection"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Feature Matching",
+      "bullets": [
+        "Implemented patch descriptor matching with nearest-neighbor ratio filtering and robust homography estimation for image pairs containing planar surfaces.",
+        "Compared raw intensity and gradient histogram descriptors under rotation, blur, and brightness changes, inspecting correspondence errors and alignment failures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Image Classification with Limited Training Labels",
+      "bullets": [
+        "Implemented supervised image classification baselines using a compact convolutional network and frozen pretrained features with a linear classification head.",
+        "Compared training strategies across controlled label subsets, tracking validation accuracy, class confusion, and sensitivity to augmentation while maintaining consistent data partitions."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Learned Methods for Image Denoising",
+      "bullets": [
+        "Implemented Gaussian filtering, nonlocal means, and a convolutional denoising autoencoder for images corrupted with synthetic additive noise.",
+        "Compared reconstruction fidelity and edge preservation across noise levels, using held-out images and visual inspection to characterize smoothing artifacts."
+      ]
+    }
+  ]
+}

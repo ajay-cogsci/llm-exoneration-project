@@ -1,0 +1,42 @@
+Applicant PHDv3-456-01677
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.11/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Baseline Classification of Customer Support Intents
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support messages by removing duplicate records, normalizing text, and checking intent labels against the supplied annotation guidelines.
+- Implemented term frequency–inverse document frequency features with logistic regression, then inspected confusion matrices to document errors between overlapping intent categories.
+Research assistant, University Research Group | 2026-06 to 2026-08 | 10 hours/week
+Lexical Baselines for Scientific Sentence Classification
+Contribution: data preparation and baseline implementation.
+- Organized annotated abstract sentences into document-level training and evaluation splits, checking missing labels and preserving sentence order within each abstract.
+- Implemented a linear support vector classifier using word and character features, comparing predictions across background, method, and conclusion labels.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-03 to 2026-06 | 10 hours/week
+Maintenance of Text Import and Validation Utilities
+- Updated Python utilities that imported text records, adding checks for missing fields and malformed input under existing application requirements.
+- Added regression tests for parsing failures and documented validation messages to support routine troubleshooting of the record import workflow.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baseline for Review Sentiment Classification | technical course project, 2026
+- Implemented a multinomial naive Bayes sentiment classifier with count-based text features, following the provided training and evaluation procedure.
+- Compared unigram and bigram representations on held-out reviews, inspecting misclassified examples involving negation, mixed sentiment, and infrequent vocabulary.
+Extractive Summarization with Sentence Similarity Ranking | technical course project, 2026
+- Implemented an extractive summarization baseline that ranked sentences by cosine similarity to a document centroid built from weighted term features.
+- Compared selected sentences with a lead-sentence baseline, reviewing summaries for redundant content, missing context, and coverage of central topics.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

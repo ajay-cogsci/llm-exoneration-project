@@ -1,0 +1,69 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Boundary-Aware Consistency for Segmentation Under Motion Blur",
+      "bullets": [
+        "Formulated whether separating boundary and interior consistency losses could preserve object contours when semantic segmentation models encounter motion blur.",
+        "Led development of a boundary-weighted training objective and evaluated contour accuracy through controlled blur perturbations and loss ablations."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Region-Consistent Semantic Segmentation Under Illumination Shifts",
+      "bullets": [
+        "Formulated how illumination changes affect regional prediction consistency and led development of a segmentation objective aligning predictions across photometric transformations.",
+        "Extended the objective with confidence-filtered regional supervision and designed evaluations separating illumination robustness, calibration, and sensitivity to region construction."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence-Filtered Regional Supervision for Semantic Segmentation Across Illumination Conditions"
+    },
+    {
+      "id": "P2",
+      "title": "Evaluating Illumination Robustness and Calibration in Region-Consistent Semantic Segmentation"
+    },
+    {
+      "id": "P3",
+      "title": "Region-Level Prediction Consistency for Semantic Segmentation Under Photometric Transformations"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Feature Matching",
+      "bullets": [
+        "Implemented image matching pipelines using gradient-based descriptors and binary descriptors, with geometric verification through robust homography estimation.",
+        "Compared matching reliability under viewpoint changes, compression, and illumination variation, examining correspondence errors and sensitivity to descriptor matching thresholds."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen-feature and partial fine-tuning baselines for fine-grained image classification using pretrained convolutional networks and consistent preprocessing.",
+        "Compared classwise errors and training behavior across adaptation strategies, controlling data partitions and inspecting confusions between visually similar categories."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Classical and Convolutional Approaches to Image Denoising",
+      "bullets": [
+        "Implemented bilateral filtering, nonlocal means, and a residual convolutional denoiser for images corrupted with synthetic additive noise.",
+        "Evaluated reconstruction quality across noise conditions using perceptual similarity and pixel error, inspecting texture loss and edge preservation."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Optical Flow Comparison for Short Video Sequences",
+      "bullets": [
+        "Implemented pyramidal local flow estimation and a variational optical flow baseline with shared frame preprocessing and visualization routines.",
+        "Compared motion estimates against reference flow fields, analyzing endpoint errors near occlusions, low-texture regions, and large object displacements."
+      ]
+    }
+  ]
+}

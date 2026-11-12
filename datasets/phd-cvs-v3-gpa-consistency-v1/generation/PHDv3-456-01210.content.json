@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Segmentation Robustness Under Image Corruptions",
+      "bullets": [
+        "Designed supervisor-guided experiments comparing semantic segmentation models under blur, sensor noise, and contrast changes while holding preprocessing and evaluation procedures fixed.",
+        "Evaluated boundary errors and classwise overlap across corruption conditions, using qualitative inspection to distinguish annotation ambiguity from recurring model failures."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Foreground Reliance in Visual Recognition",
+      "bullets": [
+        "Planned experiments with supervisor guidance to test whether image classifiers relied on foreground objects or background context under controlled image modifications.",
+        "Implemented foreground masking and background replacement conditions, compared classification behavior, and documented potential confounds introduced by visible compositing boundaries."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Upload Validation and Processing",
+      "bullets": [
+        "Implemented image validation and resizing components for an upload workflow, handling unsupported formats, malformed files, and inconsistent image orientation.",
+        "Added regression tests for preprocessing edge cases and investigated processing failures using application logs and reproducible examples from reported issues."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Image Alignment",
+      "bullets": [
+        "Implemented patch descriptors and nearest-neighbor matching for overlapping images, then estimated planar transformations using robust fitting to reject incorrect correspondences.",
+        "Compared descriptor normalization and matching filters under viewpoint and illumination changes, inspecting alignment errors and failure cases involving repetitive textures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented median filtering, Gaussian smoothing, and a convolutional denoising model, using shared noisy image inputs for comparative evaluation.",
+        "Compared reconstruction error and edge preservation across noise conditions, examining oversmoothing and residual artifacts through paired visual inspection."
+      ]
+    }
+  ]
+}

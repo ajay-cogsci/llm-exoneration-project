@@ -1,0 +1,30 @@
+Applicant PHDv3-456-01046
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.47/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+None reported.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2022-09 to 2025-09 | 40 hours/week
+Image Intake Validation Utilities
+- Implemented Python validation routines for image intake records, checking required metadata fields and flagging inconsistent dimensions for downstream processing.
+- Maintained regression tests for malformed records and updated error messages to support diagnosis of recurring intake failures.
+
+TECHNICAL PROJECTS
+Baseline Image Classification with Intensity Histograms | technical course project, 2026
+- Implemented a baseline image classifier using NumPy intensity histograms and a linear support vector classifier in scikit-learn.
+- Compared histogram configurations on a validation split and inspected held-out confusion matrices to identify recurring errors between visually similar categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

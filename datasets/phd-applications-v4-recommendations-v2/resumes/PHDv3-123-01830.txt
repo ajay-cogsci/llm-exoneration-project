@@ -1,0 +1,44 @@
+Applicant PHDv3-123-01830
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.39/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness Evaluation of Road Scene Segmentation
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare segmentation models under synthetic fog, brightness shifts, and image blur using matched evaluation conditions.
+- Implemented corruption pipelines and examined classwise intersection over union, documenting boundary errors and sensitivity to preprocessing choices.
+Research assistant, University Research Group | 2025-11 to 2026-08 | 10 hours/week
+Augmentation Strategies for Imbalanced Surface Defect Recognition
+Contribution: experimental design with supervisor guidance.
+- Planned experiments with supervisor guidance to compare class weighting and image augmentation for surface defect classification under imbalanced training distributions.
+- Trained convolutional baselines using specimen separated data splits, analyzing per class recall and confusion patterns across augmentation settings.
+
+PUBLICATIONS
+Comparing Class Weighting and Image Augmentation for Imbalanced Surface Defect Recognition. Regional applied computing conference, 2026-10; published; author position 1.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-05 to 2025-11 | 10 hours/week
+Image Upload Validation and Processing Maintenance
+- Implemented assigned validation checks for uploaded images, handling unsupported formats, inconsistent dimensions, and corrupted files within an existing processing service.
+- Added regression tests for image conversion routines and investigated processing failures using application logs and reproducible input cases.
+
+TECHNICAL PROJECTS
+Local Feature Matching for Image Alignment | technical course project, 2026
+- Implemented corner detection and patch descriptors, then compared matching behavior against an established feature baseline on transformed image pairs.
+- Evaluated alignment using reprojection error and inlier consistency, inspecting failures caused by repeated textures, viewpoint changes, and weak image contrast.
+Transfer Learning for Small Image Classification Datasets | technical course project, 2026
+- Implemented frozen feature extraction and partial fine tuning of a pretrained convolutional model using identical training and validation splits.
+- Compared classification accuracy, training behavior, and confusion matrices against a compact model trained from scratch, documenting sensitivity to augmentation choices.
+Comparative Evaluation of Image Denoising Methods | technical course project, 2026
+- Implemented Gaussian, median, and bilateral filtering for images corrupted by Gaussian and impulse noise under a shared evaluation pipeline.
+- Compared peak signal to noise ratio and structural similarity, examining how filter parameters affected edge preservation and residual noise.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

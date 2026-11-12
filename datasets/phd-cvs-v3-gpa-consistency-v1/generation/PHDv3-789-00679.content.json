@@ -1,0 +1,74 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Conformal Prediction Under Heteroskedastic Noise",
+      "bullets": [
+        "Designed experiments comparing split conformal and residual normalized prediction intervals across simulated regression settings with input dependent noise.",
+        "Analyzed marginal coverage, subgroup coverage, and interval width to characterize sensitivity to calibration sample composition and variance estimation errors."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration with Missing Predictors",
+      "bullets": [
+        "Designed comparisons of logistic regression and tree ensembles under controlled missingness mechanisms, evaluating imputation choices and post hoc probability calibration.",
+        "Analyzed reliability diagrams, Brier score decompositions, and subgroup calibration across repeated splits to distinguish discrimination changes from probability estimation errors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Post Hoc Calibration Under Changing Predictor Missingness: An Empirical Study"
+    },
+    {
+      "id": "P2",
+      "title": "Imputation Choices and Probability Reliability in Tabular Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Error Handling",
+      "bullets": [
+        "Implemented validation checks for tabular data imports, handling missing fields, inconsistent types, and duplicate records within an existing processing service.",
+        "Added regression tests for malformed inputs and revised error messages to support issue diagnosis during routine maintenance and code review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors and nested cross validation for selecting regularization strengths without evaluation leakage.",
+        "Compared prediction error and coefficient stability across correlated feature settings, examining how redundant predictors affected variable selection and shrinkage behavior."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Models for Overlapping Clusters",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models with diagonal and full covariance structures, including convergence checks and multiple initialization strategies.",
+        "Compared clustering assignments and held out log likelihood against k means baselines across synthetic datasets with varying overlap and anisotropy."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Predictive Uncertainty in Neural Network Regression",
+      "bullets": [
+        "Implemented dropout sampling and independently initialized neural network ensembles for regression using shared architectures, training splits, and preprocessing procedures.",
+        "Compared predictive error and uncertainty estimates on interpolation and extrapolation regions, examining sensitivity to model capacity and training sample composition."
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Bootstrap Confidence Intervals for Skewed Data",
+      "bullets": [
+        "Implemented percentile, basic, and bias corrected bootstrap intervals for estimating population means under skewed distributions and contaminated sampling conditions.",
+        "Compared empirical coverage and interval length in repeated simulations, documenting sensitivity to sample size, tail behavior, and bootstrap resampling variability."
+      ]
+    }
+  ]
+}

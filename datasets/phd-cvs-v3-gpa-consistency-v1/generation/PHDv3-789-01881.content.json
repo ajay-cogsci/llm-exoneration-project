@@ -1,0 +1,61 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Classifier Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed controlled covariate shift experiments comparing temperature scaling and isotonic calibration across synthetic classification datasets.",
+        "Analyzed reliability diagrams, calibration error, and predictive loss to characterize sensitivity to calibration sample size and distribution mismatch."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Missing Data Mechanisms and Predictive Stability",
+      "bullets": [
+        "Designed experiments comparing imputation strategies under random and feature dependent missingness in tabular classification tasks.",
+        "Analyzed variation in discrimination and calibration across missingness patterns, using repeated data splits to assess uncertainty."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Conditional Coverage of Conformal Regression Intervals",
+      "bullets": [
+        "Designed experiments evaluating split conformal and conformalized quantile regression on synthetic heteroskedastic data and tabular regression benchmarks.",
+        "Analyzed interval width and empirical coverage across response noise regimes and feature subgroups to characterize conditional coverage limitations."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Subgroup Coverage of Conformal Regression Intervals Under Heteroskedastic Noise"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression pipelines with standardized predictors and cross validation for penalty selection.",
+        "Compared prediction error and coefficient stability across simulated correlation structures, examining sensitivity to redundant and irrelevant predictors."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Clustering with Gaussian Mixtures and K-Means",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture clustering and compared assignments against a standard k-means baseline.",
+        "Evaluated clustering agreement and initialization sensitivity on synthetic datasets with overlapping groups and unequal covariance structures."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Bootstrap Confidence Intervals for Regression Coefficients",
+      "bullets": [
+        "Implemented percentile and residual bootstrap procedures for estimating uncertainty in ordinary least squares regression coefficients.",
+        "Compared empirical interval coverage and width against analytical intervals under simulated skewed errors and varying predictor distributions."
+      ]
+    }
+  ]
+}

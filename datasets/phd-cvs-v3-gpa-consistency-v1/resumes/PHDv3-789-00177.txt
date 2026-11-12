@@ -1,0 +1,33 @@
+Applicant PHDv3-789-00177
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.03/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image resizing and intensity normalization routines for surface defect classification using a predefined preprocessing specification.
+- Checked processed images for inconsistent dimensions and documented classification errors across lighting conditions using supplied labels and evaluation procedures.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-09 to 2026-09 | 10 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against packing slips, and flagged discrepancies for review by the operations supervisor.
+- Prepared order paperwork, organized stockroom supplies, and coordinated routine pickup schedules with staff to support daily fulfillment activities.
+
+TECHNICAL PROJECTS
+Handwritten Character Classification with Pixel Features | technical course project, 2026
+- Implemented a baseline handwritten character classifier using normalized pixel features and logistic regression within a prescribed training and evaluation workflow.
+- Examined confusion matrices and misclassified examples to describe common character ambiguities, keeping preprocessing consistent across training and held-out data.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

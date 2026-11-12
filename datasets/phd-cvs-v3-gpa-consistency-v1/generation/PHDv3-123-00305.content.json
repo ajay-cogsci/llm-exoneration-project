@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Prediction Interval Coverage Under Covariate Shift",
+      "bullets": [
+        "Designed experiments comparing split conformal and importance weighted prediction intervals under controlled changes in feature distributions for regression tasks.",
+        "Analyzed coverage and interval width across shift conditions, examining sensitivity to density ratio estimation and calibration sample composition."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Probability Calibration Under Class Dependent Label Noise",
+      "bullets": [
+        "Designed controlled label corruption experiments comparing logistic regression and neural classifiers, separating effects of noise structure from class imbalance.",
+        "Analyzed reliability diagrams, Brier scores, and log loss to assess how temperature scaling behaved across clean and corrupted calibration sets."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Temperature Scaling with Corrupted Calibration Labels: An Empirical Study of Class Dependent Noise"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Import Validation and Error Handling",
+      "bullets": [
+        "Implemented validation checks for structured data imports, handling missing fields, incompatible types, and duplicate records within an existing processing service.",
+        "Added regression tests for import failures and corrected error handling paths to preserve actionable messages during routine service maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularization Methods for Correlated Regression Features",
+      "bullets": [
+        "Implemented ridge and lasso regression workflows with standardized predictors, using cross validation to select penalties on synthetic and tabular datasets.",
+        "Compared held out prediction error and coefficient stability as feature correlations changed, examining differences between shrinkage and sparse variable selection."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Kernel Density Estimation and Gaussian Mixture Comparison",
+      "bullets": [
+        "Implemented kernel density estimation and Gaussian mixture fitting, selecting bandwidths and component counts using validation likelihood on simulated continuous distributions.",
+        "Compared held out log likelihood and density plots across skewed and multimodal settings, documenting sensitivity to smoothing choices and initialization."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Bootstrap Confidence Intervals for Skewed Samples",
+      "bullets": [
+        "Implemented percentile and studentized bootstrap intervals for sample means, comparing them with normal approximation intervals under controlled sampling distributions.",
+        "Evaluated empirical coverage and interval length across skewness and sample size conditions, examining when asymptotic approximations differed from resampling estimates."
+      ]
+    }
+  ]
+}

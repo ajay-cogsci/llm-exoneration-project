@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Quality Baselines for Surface Defect Classification",
+      "bullets": [
+        "Prepared labeled surface images by checking annotation consistency, removing duplicate captures, and maintaining separate training and evaluation sets grouped by specimen.",
+        "Implemented a prescribed baseline using local texture descriptors and a support vector classifier, reviewing classification errors across lighting conditions and defect categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Color and Texture Features for Plant Image Classification",
+      "bullets": [
+        "Organized plant image annotations, standardized image dimensions, and checked dataset partitions for repeated photographs before preparing inputs for classification experiments.",
+        "Implemented assigned color histogram and texture feature baselines with logistic regression, documenting confusion patterns associated with background clutter and leaf orientation."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded inventory discrepancies, and routed damaged or missing items to the appropriate staff for follow-up.",
+        "Prepared order paperwork, maintained filing records, and coordinated routine pickup schedules while communicating order status updates to customers and internal staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Character Recognition with Classical Image Features",
+      "bullets": [
+        "Implemented a character recognition baseline using normalized grayscale images, histogram of oriented gradients features, and a support vector classifier.",
+        "Compared feature-based predictions with a raw-pixel nearest-neighbor baseline, inspecting confusion matrices and misclassified examples to characterize visually similar character errors."
+      ]
+    }
+  ]
+}

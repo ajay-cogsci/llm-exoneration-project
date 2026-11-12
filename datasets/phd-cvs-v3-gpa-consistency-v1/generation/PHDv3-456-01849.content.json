@@ -1,0 +1,53 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Review Sentiment Classification",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare sentiment classifiers on original reviews and minimally edited variants containing negation.",
+        "Analyzed prediction changes across negation scope and sentence length, checking whether edited examples preserved plausible wording and interpretable sentiment labels."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Confidence Calibration for Support Request Classification Across Domains",
+      "bullets": [
+        "Designed evaluation protocols with supervisor guidance for support request classification, separating service domains to examine performance under vocabulary shifts.",
+        "Compared temperature scaling and uncalibrated predictions using reliability diagrams, calibration error, and manual review of confidently misclassified requests."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Confidence Calibration in Support Request Classification Under Domain Shift"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Lexical and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented lexical retrieval and pretrained sentence embedding baselines for matching user questions to relevant answers in a shared document collection.",
+        "Compared ranking quality using reciprocal rank and recall, examining failures involving paraphrases, rare terminology, and overlapping answer content."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Feature-Based and Neural Sequence Tagging",
+      "bullets": [
+        "Implemented a conditional random field and a bidirectional recurrent tagger for named entity recognition using consistent tokenization and dataset partitions.",
+        "Compared entity-level precision and recall, then inspected boundary errors and confusion between entity categories in sentences containing unfamiliar names."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Extractive Summarization Methods",
+      "bullets": [
+        "Implemented centroid-based and graph-based sentence selection for extractive summarization, applying the same length constraints and preprocessing to both methods.",
+        "Compared summaries using reference overlap and manual checks of redundancy, sentence ordering, and coverage of central document claims."
+      ]
+    }
+  ]
+}

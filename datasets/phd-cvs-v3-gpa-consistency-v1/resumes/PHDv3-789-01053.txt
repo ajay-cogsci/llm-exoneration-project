@@ -1,0 +1,36 @@
+Applicant PHDv3-789-01053
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.91/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-04 to 2026-11 | 10 hours/week
+Missing-Data Baselines for Tabular Risk Prediction
+Contribution: data preparation and baseline implementation.
+- Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting preprocessing transformations exclusively on training partitions.
+- Implemented assigned logistic regression and random forest baselines, comparing imputation strategies using held-out discrimination metrics and calibration plots.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-01 to 2026-04 | 10 hours/week
+Validation Utilities for Tabular Data Imports
+- Implemented Python validation routines for incoming tabular files, checking required columns, field types, and duplicate records before downstream processing.
+- Added regression tests for malformed inputs and revised error messages to help maintainers identify and correct import failures.
+
+TECHNICAL PROJECTS
+Regularized Regression for Residential Price Prediction | technical course project, 2026
+- Implemented ridge and lasso regression baselines with scikit-learn, combining numeric standardization and categorical encoding within training pipelines.
+- Selected regularization settings through cross-validation and examined held-out residuals to describe prediction errors across property characteristics.
+Naive Bayes Baselines for Document Classification | technical course project, 2026
+- Constructed bag-of-words representations and implemented a multinomial naive Bayes baseline for classifying documents into predefined topic categories.
+- Compared count and term-frequency weighting using fixed data splits, then inspected confusion matrices and misclassified documents for recurring vocabulary ambiguities.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

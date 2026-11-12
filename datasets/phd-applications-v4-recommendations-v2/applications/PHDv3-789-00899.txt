@@ -1,0 +1,69 @@
+Applicant PHDv3-789-00899
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.74/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Evidence Sensitivity in Retrieval-Augmented Question Answering
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments varying passage relevance, evidence ordering, and distractor content to examine answer grounding in retrieval-augmented question answering.
+- Analyzed answer correctness and citation support across retrieval conditions, separating failures caused by missing evidence from failures to use available evidence.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Confidence Calibration for Cross-Domain Sentiment Classification
+Contribution: designed experiments and analyzed results.
+- Designed cross-domain evaluation protocols comparing temperature scaling and uncalibrated predictions for sentiment classifiers under shifts in vocabulary and review style.
+- Analyzed reliability diagrams, calibration error, and selective prediction behavior, examining how confidence estimates changed across domains and ambiguous sentiment examples.
+Research assistant, University Research Group | 2025-01 to 2026-05 | 10 hours/week
+Negation and Lexical Overlap in Natural Language Inference
+Contribution: designed experiments and analyzed results.
+- Designed matched evaluation sets that varied negation placement and lexical overlap while preserving controlled relationships between premises and hypotheses.
+- Analyzed prediction changes across sentence encoders and transformer classifiers, categorizing errors by negation scope, lexical cues, and inference label.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Named Entity Tagging Models | technical course project, 2026
+- Implemented conditional random field and bidirectional recurrent tagging baselines with consistent tokenization, label encoding, and data splits for named entity recognition.
+- Compared entity-level precision, recall, and boundary errors, examining performance differences for rare entities, ambiguous names, and multiword mentions.
+Sparse and Contextual Representations for Topic Classification | technical course project, 2026
+- Implemented topic classifiers using term frequency–inverse document frequency features and pooled transformer embeddings, applying identical training partitions and label preprocessing.
+- Compared macro-averaged classification metrics and confusion patterns, inspecting errors associated with short documents, overlapping topics, and domain-specific terminology.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-00899
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2025-01 to 2026-05 (16 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Probability and Statistics. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Probability and Statistics as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Named Entity Tagging Models (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as above the typical level.

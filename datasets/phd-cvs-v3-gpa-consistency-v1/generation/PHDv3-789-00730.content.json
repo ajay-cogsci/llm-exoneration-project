@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and routed missing item inquiries to the appropriate staff.",
+        "Organized stockroom supplies, maintained order paperwork, and coordinated pickup schedules with staff to support routine fulfillment activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Logistic Regression Baseline for Customer Churn Prediction",
+      "bullets": [
+        "Implemented a logistic regression baseline in scikit-learn, using training data to fit missing value imputation and feature standardization.",
+        "Compared regularization settings through stratified cross-validation and examined held-out precision, recall, and calibration plots to characterize prediction errors."
+      ]
+    }
+  ]
+}

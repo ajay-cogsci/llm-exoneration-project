@@ -1,0 +1,46 @@
+Applicant PHDv3-123-01483
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.02/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Robustness Evaluation of Semantic Segmentation Under Image Degradation
+Contribution: designed experiments and analyzed results.
+- Designed controlled experiments comparing segmentation models under blur, compression, and illumination changes while holding training splits and preprocessing settings fixed.
+- Analyzed classwise overlap scores and boundary errors to characterize degradation patterns affecting small objects and visually similar categories.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Evaluation of Confidence Calibration for Visual Defect Classification
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing temperature scaling and uncalibrated classifiers across surface defect datasets, with separate calibration partitions and acquisition condition shifts.
+- Analyzed reliability diagrams, calibration errors, and selective prediction curves to examine confidence behavior for rare defects and ambiguous surface textures.
+
+PUBLICATIONS
+Confidence Calibration for Visual Defect Classification Under Acquisition Shifts. Peer-reviewed ML conference, 2026-06; published; author position 1.
+Selective Prediction and Error Analysis in Surface Defect Inspection. Regional applied computing conference, 2026-09; published; author position 3.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-09 to 2024-06 | 10 hours/week
+Image Ingestion and Validation Utilities
+- Implemented image ingestion utilities that checked file formats, normalized metadata, and routed unreadable uploads to existing error handling workflows.
+- Added regression tests for malformed image inputs and revised validation messages to support troubleshooting during routine application maintenance.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Classification Transfer Learning | technical course project, 2026
+- Implemented frozen feature extraction and partial fine tuning for pretrained image classifiers using consistent preprocessing and stratified dataset splits.
+- Compared classification accuracy, training behavior, and confusion patterns to assess how adaptation strategies affected categories with limited training examples.
+Classical and Neural Approaches to Image Denoising | technical course project, 2026
+- Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted with synthetic Gaussian and impulse noise.
+- Compared reconstruction metrics and inspected edge preservation across noise conditions, documenting differences between pixelwise error and visible texture loss.
+Local Feature Matching for Planar Image Alignment | technical course project, 2026
+- Implemented patch descriptors and a learned descriptor baseline within a shared feature matching workflow for planar image pairs.
+- Compared matching precision and homography reprojection errors under viewpoint and lighting changes, inspecting failed alignments caused by repetitive textures.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

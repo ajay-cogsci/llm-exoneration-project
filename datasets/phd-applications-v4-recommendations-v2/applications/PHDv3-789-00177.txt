@@ -1,0 +1,58 @@
+Applicant PHDv3-789-00177
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.03/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-09 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned image resizing and intensity normalization routines for surface defect classification using a predefined preprocessing specification.
+- Checked processed images for inconsistent dimensions and documented classification errors across lighting conditions using supplied labels and evaluation procedures.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-09 to 2026-09 | 10 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against packing slips, and flagged discrepancies for review by the operations supervisor.
+- Prepared order paperwork, organized stockroom supplies, and coordinated routine pickup schedules with staff to support daily fulfillment activities.
+
+TECHNICAL PROJECTS
+Handwritten Character Classification with Pixel Features | technical course project, 2026
+- Implemented a baseline handwritten character classifier using normalized pixel features and logistic regression within a prescribed training and evaluation workflow.
+- Examined confusion matrices and misclassified examples to describe common character ambiguities, keeping preprocessing consistent across training and held-out data.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-789-00177
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-09 to 2026-11 (2 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Linear Algebra, for which the recorded grade is B. The writer offers qualified support for PhD study, with a limited endorsement of the applicant's academic preparation in Linear Algebra. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Linear Algebra as below the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Handwritten Character Classification with Pixel Features (2026). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as below the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Examined confusion matrices and misclassified examples to describe common character ambiguities, keeping preprocessing consistent across training and held-out data.

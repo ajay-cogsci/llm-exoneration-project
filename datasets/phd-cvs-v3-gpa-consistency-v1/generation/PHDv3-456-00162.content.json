@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Predictive Calibration Under Covariate Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare probability calibration methods under controlled covariate shifts in synthetic and tabular classification datasets.",
+        "Evaluated temperature scaling and isotonic regression using held-out calibration sets, reliability diagrams, and bootstrap intervals across varying training sample sizes."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Data Validation and Batch Processing",
+      "bullets": [
+        "Implemented Python validation routines for incoming transaction records, checking schema consistency, missing fields, and duplicate identifiers before downstream batch processing.",
+        "Maintained automated tests for parsing and transformation logic, investigated failed batch runs, and documented error handling behavior for recurring input issues."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularization for Correlated Regression Predictors",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression comparisons on synthetic datasets with correlated predictors and varying levels of observation noise.",
+        "Used nested cross-validation to select regularization parameters and compared prediction error, coefficient stability, and variable selection behavior across repeated data splits."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Density Estimation for Multimodal Data",
+      "bullets": [
+        "Implemented kernel density estimation and Gaussian mixture model baselines for synthetic distributions exhibiting skewness, overlapping modes, and unequal component variances.",
+        "Compared bandwidth and component selection strategies using validation likelihood, inspecting fitted densities to characterize oversmoothing and sensitivity to mixture initialization."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Prediction Intervals with Split Conformal Regression",
+      "bullets": [
+        "Implemented split conformal prediction around linear regression and random forest baselines, separating model fitting, calibration, and evaluation data to prevent leakage.",
+        "Compared empirical coverage and interval width under homoscedastic and heteroscedastic noise, examining how aggregate coverage concealed variation across input regions."
+      ]
+    }
+  ]
+}

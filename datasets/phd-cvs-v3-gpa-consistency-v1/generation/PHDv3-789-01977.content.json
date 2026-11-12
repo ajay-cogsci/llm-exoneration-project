@@ -1,0 +1,38 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visual Inspection Baselines for Surface Defect Classification",
+      "bullets": [
+        "Prepared labeled surface image datasets by checking annotation consistency, removing duplicate images, and separating training and evaluation sets by source specimen.",
+        "Implemented histogram of oriented gradients features with linear support vector classification, examining baseline errors across defect categories and lighting conditions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Surface Defect Classification with Gradient Features: Dataset Preparation and Baseline Error Analysis"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation Support",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded discrepancies, and routed missing item reports to the appropriate staff for follow-up.",
+        "Organized order paperwork, updated stock records from approved forms, and prepared routine handover notes documenting unresolved delivery and inventory issues."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Nearest Neighbor Baseline for Handwritten Digit Recognition",
+      "bullets": [
+        "Implemented a nearest neighbor classifier using normalized grayscale pixel vectors, following a standard baseline workflow for handwritten digit image classification.",
+        "Compared distance metrics and neighborhood settings on a validation split, then inspected confusion patterns and misclassified examples from held-out images."
+      ]
+    }
+  ]
+}

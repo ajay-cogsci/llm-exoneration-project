@@ -1,0 +1,61 @@
+Applicant PHDv3-456-01527
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.70/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Lexical Shortcut Sensitivity in Natural Language Inference
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to examine whether lexical overlap influences inference predictions, using controlled sentence pairs and label balanced evaluation sets.
+- Compared transformer classifier behavior across original and perturbed inputs, analyzing prediction changes by negation, word order, and overlap patterns.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-05 to 2026-02 | 10 hours/week
+Inventory and Order Coordination
+- Maintained inventory logs, checked incoming deliveries against order paperwork, and flagged discrepancies for follow-up by responsible staff.
+- Prepared routine order documents, organized supply requests, and coordinated collection schedules while keeping outstanding requests and delivery records current.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Short Text Classifiers | technical course project, 2026
+- Implemented TF-IDF logistic regression and a convolutional text classifier for topic classification, using shared training partitions and consistent text preprocessing.
+- Compared macro F score and classwise confusion patterns, examining errors associated with rare vocabulary, short inputs, and overlapping topic terminology.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented frequency based and graph based sentence ranking methods for document summarization, applying shared sentence segmentation and summary length constraints.
+- Compared summaries using ROUGE and manual error categorization, examining redundancy, missing central information, and sensitivity to sentence position.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-456-01527
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-02 to 2026-11 (9 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation. Compared with other students the writer has supervised in research, the writer rates the applicant's research preparation as at the typical level.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is A. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Algorithms. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Algorithms as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Short Text Classifiers (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as above the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Compared macro F score and classwise confusion patterns, examining errors associated with rare vocabulary, short inputs, and overlapping topic terminology.

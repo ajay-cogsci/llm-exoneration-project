@@ -1,0 +1,33 @@
+Applicant PHDv3-789-00271
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.50/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Data Preparation and Baselines for Support Request Classification
+Contribution: data preparation and baseline implementation.
+- Cleaned support request text, standardized category labels using supplied guidelines, and removed duplicate messages before preparing training and evaluation splits.
+- Implemented TF-IDF and logistic regression baselines in scikit-learn, reporting macro-averaged metrics and inspecting confusion patterns between overlapping request categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-02 to 2026-02 | 10 hours/week
+Maintenance of Text Record Processing Utilities
+- Maintained Python utilities that validated incoming text records, normalized missing fields, and routed malformed entries to existing error handling routines.
+- Added regression tests for parsing edge cases and investigated processing failures using application logs and reproducible sample inputs.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baselines for Review Sentiment Classification | technical course project, 2026
+- Implemented bag-of-words features and multinomial naive Bayes for review sentiment classification, following the prescribed training and evaluation procedure.
+- Compared unigram and bigram configurations on held-out reviews, examining misclassified examples containing negation, mixed sentiment, and uncommon vocabulary.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Data Preparation and Baselines for Support Request Classification",
+      "bullets": [
+        "Cleaned support request text, checked category annotations against supplied guidelines, and removed duplicate records before constructing training and evaluation splits.",
+        "Implemented term frequency–inverse document frequency features and logistic regression baselines, summarizing classification errors across overlapping request categories for group review."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed missing or damaged item reports to the appropriate staff.",
+        "Maintained order paperwork, organized stockroom supplies, and coordinated routine pickup arrangements while updating daily handover notes for the next shift."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Review Sentiment Classification",
+      "bullets": [
+        "Implemented multinomial naive Bayes and logistic regression classifiers using bag-of-words features to predict sentiment labels from short product reviews.",
+        "Compared unigram and bigram representations on a held-out split, inspecting misclassified examples involving negation, mixed sentiment, and ambiguous wording."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Sentence Ranking",
+      "bullets": [
+        "Implemented a centroid-based extractive summarization baseline that ranked document sentences by cosine similarity between sentence vectors and the document representation.",
+        "Compared selected sentences with a leading-sentence baseline, examining redundancy and coverage of central topics through manual review of generated summaries."
+      ]
+    }
+  ]
+}

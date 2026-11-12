@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Classification Under Illumination Variation",
+      "bullets": [
+        "Implemented assigned preprocessing and evaluation routines for a histogram of oriented gradients classifier using a specified illumination perturbation protocol.",
+        "Checked feature extraction consistency and summarized classification errors across lighting conditions for review with the research team."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Services",
+      "bullets": [
+        "Maintained image ingestion components that checked file readability, normalized metadata, and routed malformed uploads for operational review.",
+        "Investigated processing failures, added regression tests for supported image formats, and documented error handling behavior for routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Color Histogram Baseline for Scene Classification",
+      "bullets": [
+        "Implemented a scene classification baseline using normalized color histograms and a nearest neighbor classifier with predefined training and test partitions.",
+        "Compared histogram binning choices on validation data and inspected confusion matrices to identify errors among visually similar scene categories."
+      ]
+    }
+  ]
+}

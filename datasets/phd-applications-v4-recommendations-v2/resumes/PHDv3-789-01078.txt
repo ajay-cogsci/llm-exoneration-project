@@ -1,0 +1,34 @@
+Applicant PHDv3-789-01078
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.89/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Image Preparation and Baselines for Surface Defect Classification
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking defect labels, removing duplicate captures, and organizing training and evaluation splits by source component.
+- Implemented a prescribed baseline using image intensity histograms and support vector classification, reviewing confusion matrices for visually similar defect categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-02 | 10 hours/week
+Inventory and Order Processing Support
+- Checked incoming deliveries against packing slips, recorded discrepancies, and routed damaged or missing items to the appropriate staff for follow-up.
+- Organized order paperwork, updated stock logs after routine counts, and prepared pending requests for handoff between shifts.
+
+TECHNICAL PROJECTS
+Color Histogram Baseline for Scene Classification | technical course project, 2026
+- Implemented a scene classification baseline using normalized color histograms and a nearest neighbor classifier under a fixed training and test split.
+- Compared histogram binning choices on validation images and inspected classification errors involving similar color distributions across distinct scene categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

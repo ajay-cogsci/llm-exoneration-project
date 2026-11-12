@@ -1,0 +1,34 @@
+{
+  "version": "phd-cvs-v3-gpa-consistency-v1",
+  "release_date": "2026-11-11",
+  "source_cv_dataset": "../phd-cvs-v2-rubric-v1",
+  "applicants": 100,
+  "cv_tiers": {
+    "weak": 29,
+    "borderline": 41,
+    "strong": 30
+  },
+  "gpa_consistency_policy": "phd-gpa-consistency-v1",
+  "gpa_values_changed": 19,
+  "tier_changes": [
+    {
+      "profile_id": "PHDv3-456-00958",
+      "original_tier": "weak",
+      "revised_tier": "borderline"
+    }
+  ],
+  "selection_pattern_changes": [
+    {
+      "profile_id": "PHDv3-123-01483",
+      "original_selection_pattern": "academic_gaps_strong_research",
+      "revised_selection_pattern": "lower_gpa_strong_research"
+    },
+    {
+      "profile_id": "PHDv3-789-01730",
+      "original_selection_pattern": "academic_gaps_strong_research",
+      "revised_selection_pattern": "lower_gpa_strong_research"
+    }
+  ],
+  "prose": "Accepted version 2 prose reused unchanged (gpt-6-astra, medium reasoning effort). No model calls were made for this version.",
+  "validation": "Deterministic reproduction from the version 2 dataset and the saved policy; structural and rubric checks passed. Model factual review was not rerun for the changed GPA lines. Tier calibration against real admissions outcomes is not established."
+}

@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Negation Sensitivity in Sentence Similarity Models",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare sentence similarity models on meaning changes introduced by negation and lexical substitution.",
+        "Constructed controlled sentence pairs, evaluated similarity score shifts, and inspected errors to distinguish lexical overlap effects from sensitivity to negation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Cross-Domain Robustness of Intent Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to examine intent classification under domain shifts, using matched label sets and source-only training baselines.",
+        "Implemented evaluation splits and compared lexical and contextual representations, analyzing confusion patterns across domains and checking sensitivity to training sample selection."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sequence Taggers for Entity Recognition",
+      "bullets": [
+        "Implemented a conditional random field baseline and a bidirectional recurrent sequence tagger for entity recognition using consistent preprocessing and label conventions.",
+        "Compared entity-level precision and recall, inspected boundary errors, and evaluated how capitalization features affected predictions on unfamiliar entity mentions."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented term-weighted retrieval and pretrained sentence embedding baselines to rank candidate questions for semantically related user queries.",
+        "Compared ranking metrics under shared candidate pools, examined paraphrase failures, and tested the effect of query normalization on retrieval behavior."
+      ]
+    }
+  ]
+}

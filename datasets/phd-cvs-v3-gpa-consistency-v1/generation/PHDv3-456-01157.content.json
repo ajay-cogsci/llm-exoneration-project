@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification with Sparse Text Features",
+      "bullets": [
+        "Prepared labeled support requests by removing duplicate messages, normalizing formatting, and checking category consistency against supplied annotation guidelines.",
+        "Implemented TF-IDF and logistic regression baselines using predefined data splits, reporting macro-averaged F score and reviewing confusion patterns between related categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence-Level Detection of Speculative Language",
+      "bullets": [
+        "Prepared annotated sentences from scientific abstracts, checking label alignment and preserving document boundaries when constructing training and evaluation partitions.",
+        "Implemented word and character n-gram classification baselines, comparing precision and recall and inspecting errors involving negation and ambiguous uncertainty markers."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Support",
+      "bullets": [
+        "Checked incoming order forms for missing information, maintained filing records, and routed incomplete requests to the appropriate staff for clarification.",
+        "Reconciled delivery paperwork with received supplies, updated inventory logs, and prepared routine handover notes documenting outstanding orders and stock discrepancies."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Retrieval for Frequently Asked Questions",
+      "bullets": [
+        "Implemented a baseline question retrieval pipeline using TF-IDF vectors and cosine similarity to rank candidate answers from a supplied collection.",
+        "Evaluated ranked results against reference matches and examined retrieval failures caused by vocabulary mismatch, short queries, and overlapping question topics."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Naive Bayes Sentiment Classification",
+      "bullets": [
+        "Implemented a multinomial naive Bayes baseline for review sentiment classification, using token counts and a fixed training and test partition.",
+        "Compared unigram and bigram feature configurations and inspected misclassified reviews containing mixed sentiment, negated adjectives, and references to multiple product attributes."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+Applicant PHDv3-789-00948
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.98/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Object Detection Robustness Under Image Degradation
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare detector sensitivity to synthetic blur, compression artifacts, and reduced illumination using controlled image transformations.
+- Evaluated pretrained detectors across degradation settings, examined missed detections by object size, and documented preprocessing choices for reproducible comparisons.
+Research assistant, University Research Group | 2025-11 to 2026-08 | 10 hours/week
+Data Augmentation for Limited-Label Image Segmentation
+Contribution: experimental design with supervisor guidance.
+- Planned supervised comparisons of geometric and photometric augmentation with supervisor guidance, holding training splits and segmentation architectures fixed.
+- Trained segmentation baselines in PyTorch, inspected boundary errors, and compared overlap metrics across augmentation settings and labeled training subsets.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-11 to 2025-11 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming deliveries against packing lists, recorded stock discrepancies, and routed damaged or missing items to the appropriate staff.
+- Maintained order paperwork, organized storage areas, and coordinated routine collection schedules while updating colleagues on outstanding requests and delivery changes.
+
+TECHNICAL PROJECTS
+Handcrafted Features and Convolutional Models for Image Classification | technical course project, 2026
+- Implemented histogram of oriented gradients features with a linear classifier and a small convolutional network for the same image classification task.
+- Compared classification accuracy and confusion patterns using shared data splits, and examined errors associated with background clutter and viewpoint changes.
+Comparative Evaluation of Stereo Matching Costs | technical course project, 2026
+- Implemented block matching with absolute intensity differences and normalized cross correlation to estimate disparity from rectified stereo image pairs.
+- Compared disparity errors across window sizes and inspected failure cases near occlusions, repetitive textures, and depth boundaries using reference disparity maps.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

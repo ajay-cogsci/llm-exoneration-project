@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evaluating Segmentation Robustness Under Image Corruptions",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare semantic segmentation models under simulated blur, sensor noise, and illumination changes using matched evaluation images.",
+        "Implemented corruption pipelines and examined classwise overlap scores and boundary errors to characterize model sensitivity across degradation types."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Background Sensitivity in Leaf Disease Image Classification",
+      "bullets": [
+        "Planned experiments with supervisor guidance to test how background masking and crop selection affect leaf disease classification across acquisition conditions.",
+        "Compared convolutional classifiers using controlled preprocessing ablations, stratified data splits, and confusion analysis to examine disease recognition errors associated with background variation."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Evaluating Background Masking and Crop Selection for Leaf Disease Image Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Documentation",
+      "bullets": [
+        "Checked incoming delivery paperwork against order records, filed receipts, and referred missing items or inconsistent quantities to the responsible staff.",
+        "Maintained stockroom labels and routine inventory logs, prepared packing materials, and organized order documents for daily handoffs between staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented corner detection, patch descriptors, and robust homography estimation to align image pairs depicting planar scenes under viewpoint changes.",
+        "Compared descriptor normalization and matching thresholds using correspondence precision, reprojection error, and visual inspection of alignment failures."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical and Convolutional Approaches to Texture Classification",
+      "bullets": [
+        "Implemented local binary pattern and filter bank baselines alongside a compact convolutional classifier for texture recognition using consistent training splits.",
+        "Compared classification errors under rotation and illumination transformations, examining which texture categories were sensitive to each representation."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Comparative Evaluation of Image Denoising Methods",
+      "bullets": [
+        "Implemented median filtering, bilateral filtering, and a convolutional denoising baseline for images corrupted with impulse noise and additive Gaussian noise.",
+        "Evaluated reconstruction quality using peak signal to noise ratio and structural similarity, inspecting edge preservation and smoothing artifacts across noise settings."
+      ]
+    }
+  ]
+}

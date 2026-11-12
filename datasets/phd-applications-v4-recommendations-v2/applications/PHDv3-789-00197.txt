@@ -1,0 +1,64 @@
+Applicant PHDv3-789-00197
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.81/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Visual Baselines for Surface Defect Classification
+Contribution: data preparation and baseline implementation.
+- Prepared surface inspection images by checking labels, standardizing image dimensions, and organizing training and evaluation splits by acquisition batch.
+- Implemented a prescribed support vector machine baseline using gradient histograms, then reviewed misclassified images for lighting variation and ambiguous defect boundaries.
+Research assistant, University Research Group | 2026-06 to 2026-08 | 10 hours/week
+Image Preparation and Baselines for Indoor Scene Recognition
+Contribution: data preparation and baseline implementation.
+- Checked indoor scene annotations, removed duplicate images, and prepared category inventories to support consistent training and validation partitions.
+- Implemented a reference classifier using spatial color histograms and logistic regression, documenting confusion between visually similar room categories.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-08 to 2025-09 | 40 hours/week
+Order Processing and Inventory Support
+- Processed incoming orders, checked required paperwork, and coordinated fulfillment updates with warehouse staff when items were unavailable.
+- Maintained inventory records, reconciled delivery receipts against purchase documents, and routed discrepancies to the responsible staff for resolution.
+
+TECHNICAL PROJECTS
+Nearest-Neighbor Baseline for Handwritten Digit Recognition | technical course project, 2026
+- Implemented a nearest-neighbor classifier for handwritten digit images, applying pixel normalization and selecting neighborhood size using a validation split.
+- Compared raw pixel and pooled intensity representations, inspected classification errors, and summarized sensitivity to digit alignment and stroke variation.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-789-00197
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research intern at Research Lab 1 from 2026-08 to 2026-11 (3 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Probability and Statistics, for which the recorded grade is B+. The writer offers qualified support for PhD study, with a limited endorsement of the applicant's academic preparation in Probability and Statistics.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Nearest-Neighbor Baseline for Handwritten Digit Recognition (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. Compared with other students the writer has taught on comparable technical course projects, the writer rates the applicant's technical project work as at the typical level. As a specific example of the applicant's work, the writer cites this recorded activity: Implemented a nearest-neighbor classifier for handwritten digit images, applying pixel normalization and selecting neighborhood size using a validation split.

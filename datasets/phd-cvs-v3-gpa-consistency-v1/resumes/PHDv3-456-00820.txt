@@ -1,0 +1,41 @@
+Applicant PHDv3-456-00820
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.81/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classification Baselines for Tabular Data with Missing Values
+Contribution: data preparation and baseline implementation.
+- Prepared tabular classification datasets by checking feature types, documenting missingness patterns, and fitting imputation procedures exclusively on training partitions.
+- Implemented logistic regression and random forest baselines under a prescribed evaluation protocol, summarizing discrimination and calibration across missingness conditions.
+Research assistant, University Research Group | 2026-02 to 2026-08 | 10 hours/week
+Regression Baselines under Covariate Shift
+Contribution: data preparation and baseline implementation.
+- Cleaned regression datasets, standardized continuous predictors using training statistics, and assembled predefined evaluation splits representing changes in predictor distributions.
+- Implemented ridge regression and nearest neighbor baselines, recording prediction errors and preparing residual summaries for comparison across evaluation splits.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2025-02 to 2026-02 | 10 hours/week
+Data Validation and Batch Processing Maintenance
+- Maintained Python routines that validated incoming tabular records, handled malformed fields, and produced consistent error messages for downstream processing.
+- Added regression tests for assigned parsing defects and documented expected input formats, exception behavior, and routine batch processing checks.
+
+TECHNICAL PROJECTS
+Regularized Logistic Regression for Imbalanced Classification | technical course project, 2026
+- Implemented a scikit-learn pipeline combining feature standardization and regularized logistic regression, using stratified splits to preserve class proportions.
+- Compared unweighted and class-weighted baselines through precision-recall curves and confusion matrices, selecting regularization settings using only training-fold cross-validation.
+Gaussian Mixture Baselines for Clustering | technical course project, 2026
+- Implemented Gaussian mixture clustering with scikit-learn on synthetic continuous datasets, varying covariance assumptions within an established baseline workflow.
+- Compared mixture models with a k-means baseline, inspecting cluster assignments and likelihood behavior across repeated initializations and feature scaling choices.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

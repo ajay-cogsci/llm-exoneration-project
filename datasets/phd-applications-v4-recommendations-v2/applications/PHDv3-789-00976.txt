@@ -1,0 +1,61 @@
+Applicant PHDv3-789-00976
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.78/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-03 to 2026-11 | 10 hours/week
+Data Preparation and Baselines for Support Request Classification
+Contribution: data preparation and baseline implementation.
+- Cleaned support request text, checked category annotations against supplied guidelines, and removed duplicate records before constructing training and evaluation splits.
+- Implemented term frequency–inverse document frequency features and logistic regression baselines, summarizing classification errors across overlapping request categories for group review.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-06 to 2026-03 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed missing or damaged item reports to the appropriate staff.
+- Maintained order paperwork, organized stockroom supplies, and coordinated routine pickup arrangements while updating daily handover notes for the next shift.
+
+TECHNICAL PROJECTS
+Bag-of-Words Baselines for Review Sentiment Classification | technical course project, 2026
+- Implemented multinomial naive Bayes and logistic regression classifiers using bag-of-words features to predict sentiment labels from short product reviews.
+- Compared unigram and bigram representations on a held-out split, inspecting misclassified examples involving negation, mixed sentiment, and ambiguous wording.
+Extractive Summarization with Sentence Ranking | technical course project, 2026
+- Implemented a centroid-based extractive summarization baseline that ranked document sentences by cosine similarity between sentence vectors and the document representation.
+- Compared selected sentences with a leading-sentence baseline, examining redundancy and coverage of central topics through manual review of generated summaries.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-789-00976
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-03 to 2026-11 (8 months). The writer supports PhD study, with a positive endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Linear Algebra, for which the recorded grade is A-. The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's academic preparation in Linear Algebra. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Linear Algebra as above the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Bag-of-Words Baselines for Review Sentiment Classification (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Compared unigram and bigram representations on a held-out split, inspecting misclassified examples involving negation, mixed sentiment, and ambiguous wording.

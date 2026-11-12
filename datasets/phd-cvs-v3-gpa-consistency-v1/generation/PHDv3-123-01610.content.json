@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Paraphrase Robustness in Natural Language Inference",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare inference models on meaning-preserving paraphrases, controlling for sentence length and lexical overlap.",
+        "Implemented evaluation routines and reviewed prediction changes across negation, modifier placement, and syntactic variation to distinguish annotation ambiguity from model errors."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Intent Classification Under Class Imbalance",
+      "bullets": [
+        "Planned experiments with supervisor guidance comparing class weighting and resampling for intent classification, using stratified splits and per-class evaluation.",
+        "Evaluated temperature scaling on held-out validation data and examined confidence patterns for rare intents, ambiguous requests, and frequently confused intent pairs."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Class Imbalance and Confidence Calibration in Intent Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, recorded discrepancies, and organized supplies in designated storage areas for routine operational use.",
+        "Prepared order paperwork, maintained filing records, and coordinated pickup schedules with staff while communicating missing items and delivery changes."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Named Entity Taggers",
+      "bullets": [
+        "Implemented conditional random field and bidirectional recurrent tagging baselines using consistent tokenization, label conventions, and training partitions for entity recognition.",
+        "Compared entity-level precision and recall, inspecting boundary errors and confusion between entity categories across short and long sentences."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Lexical and Dense Retrieval for Question Matching",
+      "bullets": [
+        "Implemented lexical ranking and pretrained sentence embedding retrieval for matching questions to relevant answers within a fixed document collection.",
+        "Compared ranking quality using shared relevance labels and inspected retrieval failures involving paraphrases, uncommon terminology, and questions with overlapping keywords."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Extractive Summarization with Redundancy Control",
+      "bullets": [
+        "Implemented frequency-based sentence scoring and graph-based ranking for extractive summarization, applying identical preprocessing and summary length constraints across methods.",
+        "Compared reference overlap and manually reviewed topic coverage, sentence redundancy, and missing context under alternative sentence selection and redundancy penalties."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against purchase orders, and referred discrepancies to the appropriate staff for resolution.",
+        "Prepared order paperwork, coordinated dispatch schedules with warehouse staff, and tracked outstanding requests through routine follow-up with suppliers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Logistic Regression for Tabular Classification",
+      "bullets": [
+        "Implemented a logistic regression baseline using scikit-learn, with missing-value imputation and feature standardization fitted exclusively on training data.",
+        "Selected regularization strength through stratified cross-validation and compared held-out discrimination and calibration against an unregularized baseline using ROC curves and reliability diagrams."
+      ]
+    }
+  ]
+}

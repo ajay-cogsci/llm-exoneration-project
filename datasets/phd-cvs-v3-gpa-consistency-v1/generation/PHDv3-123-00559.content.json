@@ -1,0 +1,62 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Small-Object Detection Under Image Degradation",
+      "bullets": [
+        "Designed controlled experiments comparing existing object detectors under motion blur and downsampling, with evaluation stratified by object size.",
+        "Analyzed precision and recall across degradation conditions, inspecting missed detections to distinguish localization errors from confidence threshold effects."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Illumination Sensitivity in Semantic Segmentation",
+      "bullets": [
+        "Designed experiments evaluating segmentation models under brightness and contrast shifts while holding training partitions and preprocessing settings fixed.",
+        "Compared classwise overlap and boundary errors, examining whether photometric augmentation changed sensitivity to illumination shifts across scene categories."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Confidence Calibration Under Visual Corruption",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and uncalibrated image classifiers across corruption types, using separate validation data for calibration fitting.",
+        "Analyzed reliability diagrams, calibration error, and selective prediction curves to characterize relationships between corruption severity, confidence, and classification errors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence Under Corruption: Evaluating Temperature Scaling and Selective Prediction in Image Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Ingestion and Validation Utilities",
+      "bullets": [
+        "Implemented assigned image ingestion utilities that checked file readability, normalized metadata fields, and routed invalid uploads for review.",
+        "Added regression tests for malformed image inputs and corrected preprocessing defects identified through issue reports and code review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Optical Flow Methods",
+      "bullets": [
+        "Implemented Lucas–Kanade and Horn–Schunck optical flow methods, applying consistent grayscale preprocessing and parameter selection procedures across image pairs.",
+        "Compared endpoint errors and inspected flow fields around motion boundaries, textureless regions, and occlusions to characterize method limitations."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Visual Retrieval with Color and Learned Features",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, with consistent feature normalization and similarity scoring.",
+        "Compared retrieval precision across query categories and inspected ranking errors associated with background clutter, viewpoint changes, and color similarity."
+      ]
+    }
+  ]
+}

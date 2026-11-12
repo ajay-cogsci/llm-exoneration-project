@@ -1,0 +1,34 @@
+Applicant PHDv3-456-00788
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 2.85/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-10 to 2026-11 | 10 hours/week
+Calibration Evaluation for Tabular Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned evaluation routines for logistic regression probability estimates, using predefined data splits and calibration settings.
+- Generated reliability diagrams and checked Brier score calculations against library outputs, documenting discrepancies for group review.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2026-04 to 2026-10 | 10 hours/week
+Batch Data Validation and Processing
+- Maintained Python routines that validated incoming tabular records, standardized missing values, and routed malformed entries for review.
+- Added regression tests for parsing edge cases and investigated processing failures using application logs and reproducible input examples.
+
+TECHNICAL PROJECTS
+Regularized Regression for Household Energy Demand | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines with scikit-learn, applying training-set standardization to household energy predictors.
+- Compared validation errors across regularization settings and examined residual plots for systematic differences between low and high consumption observations.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

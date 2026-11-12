@@ -1,0 +1,44 @@
+Applicant PHDv3-123-00305
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.66/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Prediction Interval Coverage Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing split conformal and importance weighted prediction intervals under controlled changes in feature distributions for regression tasks.
+- Analyzed coverage and interval width across shift conditions, examining sensitivity to density ratio estimation and calibration sample composition.
+Research assistant, University Research Group | 2024-06 to 2026-08 | 10 hours/week
+Probability Calibration Under Class Dependent Label Noise
+Contribution: designed experiments and analyzed results.
+- Designed controlled label corruption experiments comparing logistic regression and neural classifiers, separating effects of noise structure from class imbalance.
+- Analyzed reliability diagrams, Brier scores, and log loss to assess how temperature scaling behaved across clean and corrupted calibration sets.
+
+PUBLICATIONS
+Temperature Scaling with Corrupted Calibration Labels: An Empirical Study of Class Dependent Noise. Peer-reviewed ML conference, 2024-12; published; author position 2.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2023-12 to 2024-06 | 10 hours/week
+Data Import Validation and Error Handling
+- Implemented validation checks for structured data imports, handling missing fields, incompatible types, and duplicate records within an existing processing service.
+- Added regression tests for import failures and corrected error handling paths to preserve actionable messages during routine service maintenance.
+
+TECHNICAL PROJECTS
+Regularization Methods for Correlated Regression Features | technical course project, 2026
+- Implemented ridge and lasso regression workflows with standardized predictors, using cross validation to select penalties on synthetic and tabular datasets.
+- Compared held out prediction error and coefficient stability as feature correlations changed, examining differences between shrinkage and sparse variable selection.
+Kernel Density Estimation and Gaussian Mixture Comparison | technical course project, 2026
+- Implemented kernel density estimation and Gaussian mixture fitting, selecting bandwidths and component counts using validation likelihood on simulated continuous distributions.
+- Compared held out log likelihood and density plots across skewed and multimodal settings, documenting sensitivity to smoothing choices and initialization.
+Bootstrap Confidence Intervals for Skewed Samples | technical course project, 2026
+- Implemented percentile and studentized bootstrap intervals for sample means, comparing them with normal approximation intervals under controlled sampling distributions.
+- Evaluated empirical coverage and interval length across skewness and sample size conditions, examining when asymptotic approximations differed from resampling estimates.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

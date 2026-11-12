@@ -1,0 +1,47 @@
+Applicant PHDv3-456-00516
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.71/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Stabilized Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated a research question on unstable importance weights and led development of a weight clipping procedure for conformal regression.
+- Evaluated empirical coverage and interval width under simulated covariate shifts, comparing clipped weights with unweighted and standard importance weighted baselines.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Robust Regression with Contaminated Training Data
+Contribution: formulated a research question and led method development.
+- Investigated how residual contamination affects regularized regression and led development of an alternating residual weighting and coefficient estimation procedure.
+- Compared the procedure with Huber and squared loss regression across contamination patterns, examining prediction error and sensitivity to tuning choices.
+Research assistant, University Research Group | 2024-02 to 2026-05 | 10 hours/week
+Hierarchical Shrinkage for Groupwise Probability Calibration
+Contribution: formulated a research question and led method development.
+- Formulated a research question on calibration with sparse subgroup labels and led development of logistic calibrators with shared shrinkage penalties.
+- Designed held out evaluations comparing pooled, independent subgroup, and shrinkage calibrators using reliability diagrams, probabilistic losses, and subgroup sample size sensitivity.
+
+PUBLICATIONS
+Shared Shrinkage for Logistic Probability Calibration in Small Subgroups. Peer-reviewed ML conference, 2025-05; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Dimension Reduction for Correlated Regression Features | technical course project, 2026
+- Implemented principal component regression and ridge regression in NumPy, using training fold transformations to prevent information leakage during cross validation.
+- Compared prediction error and coefficient stability across correlated feature settings, examining sensitivity to retained components and regularization strength.
+Approximate Kernel Classification | technical course project, 2026
+- Implemented random Fourier feature mappings for Gaussian kernel approximation and integrated transformed features with regularized linear classifiers.
+- Compared approximate and exact kernel classifiers on predictive performance, runtime, and memory requirements while varying feature dimension and kernel bandwidth.
+Covariance Constraints in Gaussian Mixture Clustering | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixtures with diagonal and full covariance matrices, including covariance regularization and multiple initialization strategies.
+- Compared clustering agreement and held out likelihood across overlapping synthetic distributions, examining sensitivity to initialization, covariance constraints, and component selection.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

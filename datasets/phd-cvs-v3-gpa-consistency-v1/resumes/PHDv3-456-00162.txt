@@ -1,0 +1,39 @@
+Applicant PHDv3-456-00162
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.59/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-10 to 2026-11 | 10 hours/week
+Predictive Calibration Under Covariate Shift
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare probability calibration methods under controlled covariate shifts in synthetic and tabular classification datasets.
+- Evaluated temperature scaling and isotonic regression using held-out calibration sets, reliability diagrams, and bootstrap intervals across varying training sample sizes.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-10 to 2025-10 | 10 hours/week
+Data Validation and Batch Processing
+- Implemented Python validation routines for incoming transaction records, checking schema consistency, missing fields, and duplicate identifiers before downstream batch processing.
+- Maintained automated tests for parsing and transformation logic, investigated failed batch runs, and documented error handling behavior for recurring input issues.
+
+TECHNICAL PROJECTS
+Regularization for Correlated Regression Predictors | technical course project, 2026
+- Implemented ridge, lasso, and elastic net regression comparisons on synthetic datasets with correlated predictors and varying levels of observation noise.
+- Used nested cross-validation to select regularization parameters and compared prediction error, coefficient stability, and variable selection behavior across repeated data splits.
+Density Estimation for Multimodal Data | technical course project, 2026
+- Implemented kernel density estimation and Gaussian mixture model baselines for synthetic distributions exhibiting skewness, overlapping modes, and unequal component variances.
+- Compared bandwidth and component selection strategies using validation likelihood, inspecting fitted densities to characterize oversmoothing and sensitivity to mixture initialization.
+Prediction Intervals with Split Conformal Regression | technical course project, 2026
+- Implemented split conformal prediction around linear regression and random forest baselines, separating model fitting, calibration, and evaluation data to prevent leakage.
+- Compared empirical coverage and interval width under homoscedastic and heteroscedastic noise, examining how aggregate coverage concealed variation across input regions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

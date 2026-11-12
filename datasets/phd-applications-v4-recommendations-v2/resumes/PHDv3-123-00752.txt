@@ -1,0 +1,34 @@
+Applicant PHDv3-123-00752
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.24/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Image Preprocessing for Surface Defect Recognition
+Contribution: assigned implementation tasks.
+- Implemented assigned image normalization and patch extraction routines in Python for a surface defect recognition pipeline, following provided preprocessing specifications.
+- Checked extracted patches against image annotations and summarized classification errors by defect category using the group's existing evaluation procedure.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2023-01 to 2025-09 | 40 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory records, reconciled delivery paperwork with received goods, and flagged discrepancies for review by the responsible operations staff.
+- Coordinated routine order processing, updated shipment status logs, and organized supporting documents for customer inquiries and internal handoffs.
+
+TECHNICAL PROJECTS
+Handcrafted Feature Baseline for Image Classification | technical course project, 2026
+- Implemented a baseline image classifier using NumPy color histograms and a scikit-learn support vector machine with standardized input features.
+- Evaluated predictions on a held-out split, inspected confusion matrices, and compared classification errors across images with different lighting conditions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

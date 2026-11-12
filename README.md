@@ -8,14 +8,36 @@ studies evaluations of otherwise identical applications across integrity conditi
 
 | Dataset | Contents |
 | --- | --- |
+| [Applications, version 4](datasets/phd-applications-v4-recommendations-v2/) | **Use this for evaluation.** The 100 packets with contradictory GPAs and letters corrected |
+| [CVs, version 3](datasets/phd-cvs-v3-gpa-consistency-v1/) | The 100 CVs with 19 GPA values corrected; all prose unchanged |
 | [CVs, version 2](datasets/phd-cvs-v2-rubric-v1/) | 100 revised CVs: 30 weak, 40 borderline and 30 strong, including ten mixed profiles |
 | [Applications, version 3](datasets/phd-applications-v3-recommendations-v1/) | The same 100 CVs with 300 recommendation summaries and 100 complete packets |
 | [Original sample](sample-100-resume-generated/) | Historical sample retained unchanged |
 
 Each dataset has its own README, data dictionary, local HTML viewer and file
 checksums. GitHub displays HTML source; clone or download the repository to
-open a viewer. The version 3 `applications/` directory contains the complete
+open a viewer. The version 4 `applications/` directory contains the complete
 evaluation inputs. Preserve each packet across integrity conditions.
+
+## Corrections and evaluation
+
+Version 2 CVs and version 3 packets are kept unchanged for the record. Two
+problems were corrected in new versions, without any model calls:
+
+- **GPA against coursework.** Nineteen CVs printed a GPA that contradicted the
+  grades beside it. Only those GPA values were redrawn; see the
+  [CV version 3 README](datasets/phd-cvs-v3-gpa-consistency-v1/README.md). One
+  applicant changed tier, so the sample is now 29 weak, 41 borderline, 30 strong.
+- **Letters against grades.** Eleven course letters gave an endorsement that
+  contradicted the grade they cited. Recommendation policy v2 removes those
+  cells; see the [packet version 4 README](datasets/phd-applications-v4-recommendations-v2/README.md).
+
+Rebuild both from the published datasets with `python3 -m phd_revisions`
+(it refuses to overwrite existing folders).
+
+[EVALUATION.md](EVALUATION.md) explains how to run the PhD experiment with
+`phd_eval`: prompt assembly, the integrity-record slot, the design, the runner
+and the export.
 
 ## Construction
 
@@ -41,6 +63,7 @@ from the applicant's CV tier.
 - [RUBRIC.md](RUBRIC.md): tier definitions, mixed profiles and sampler design.
 - [RECOMMENDATIONS.md](RECOMMENDATIONS.md): template fields and assignment settings.
 - [VALIDATION.md](VALIDATION.md): validation results and limitations.
+- [EVALUATION.md](EVALUATION.md): running the PhD evaluation and its open choices.
 - [configs/](configs/): reusable parameter files; numerical PhD settings are provisional.
 
 The structured construction follows [Nghiem et al., Section 3 and Appendix D](https://arxiv.org/html/2509.16400v1).
@@ -63,6 +86,8 @@ python3 scripts/verify_datasets.py
 Dataset verification checks every exported file, reproduces the structured pool
 and selected sample, recomputes CV tiers, verifies CV rendering and reproduces
 all three recommendations for each applicant. No keys are needed.
+It also rebuilds the corrected datasets from the published ones and requires
+every file to match.
 
 ## Generating another sample
 

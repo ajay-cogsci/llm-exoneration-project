@@ -1,0 +1,19 @@
+{
+  "profile_id": "PHDv3-123-01830",
+  "facts_hash": "40d40cdb2a831dd520d883dbdb350b7414cb0c20a148eb2f565d7ff066bcec99",
+  "status": "ready_for_human_review",
+  "issues": [],
+  "model": "gpt-6-astra",
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "cv_hash": "f4cec804911b2450fb4c6d6e56a0c29695372aed543681e9d882653a42a41fc0",
+  "revision": {
+    "policy_version": "phd-gpa-consistency-v1",
+    "field": "gpa",
+    "original_facts_hash": "89674fa6642c36b226115c0a0acb6971f3eedc95e6bcdf2a0e7d7c3cf59e79de",
+    "original_cv_hash": "ff553417945f60256f8456e2a51321d2d446d123620831d93bf735d41ee01c75",
+    "model_review_rerun": false
+  }
+}

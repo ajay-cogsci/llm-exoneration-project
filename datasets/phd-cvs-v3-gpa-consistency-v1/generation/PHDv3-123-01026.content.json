@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Occlusion Sensitivity in Object Detection",
+      "bullets": [
+        "Designed controlled experiments varying occlusion placement and severity to assess detection performance across object sizes and scene complexity.",
+        "Analyzed localization errors and missed detections, separating sensitivity to foreground obstruction from effects of background clutter."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Illumination Shift in Road Scene Segmentation",
+      "bullets": [
+        "Designed comparisons of photometric augmentation and input normalization for semantic segmentation across daylight, twilight, and nighttime road imagery.",
+        "Analyzed classwise segmentation errors and prediction confidence to characterize failures involving shadows, reflective surfaces, and poorly illuminated boundaries."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Photometric Augmentation and Normalization Under Illumination Shift in Road Scene Segmentation"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Image Processing Service Maintenance",
+      "bullets": [
+        "Implemented image validation and preprocessing components for an internal processing service, handling unsupported formats, malformed inputs, and inconsistent metadata.",
+        "Maintained regression tests and investigated processing failures using service logs, coordinating fixes with downstream application owners."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Retrieval Representations",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, with consistent preprocessing and nearest neighbor ranking.",
+        "Compared retrieval precision under cropping, illumination changes, and background variation, inspecting failure cases involving visually similar but semantically distinct images."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Classical Optical Flow Under Motion and Lighting Changes",
+      "bullets": [
+        "Implemented Lucas–Kanade and Horn–Schunck optical flow methods, using image pyramids to examine sensitivity to displacement and texture.",
+        "Compared endpoint errors on image sequences with reference flow, analyzing failures near motion boundaries and under brightness changes."
+      ]
+    }
+  ]
+}

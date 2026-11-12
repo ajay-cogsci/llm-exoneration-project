@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Class Imbalance",
+      "bullets": [
+        "Designed experiments with supervisor guidance to examine how class imbalance and calibration sample size affect predicted probabilities in binary classification.",
+        "Compared sigmoid and isotonic calibration using stratified splits, reliability diagrams, and bootstrap uncertainty estimates for Brier scores and log loss."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Order Processing and Inventory Coordination",
+      "bullets": [
+        "Reviewed incoming orders for completeness, coordinated fulfillment schedules with warehouse staff, and maintained records of delivery changes and outstanding requests.",
+        "Reconciled shipment paperwork against inventory records, followed up on discrepancies, and prepared routine status summaries for daily operations meetings."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge and lasso regression experiments on synthetic datasets with correlated predictors, using cross validation to select regularization strengths.",
+        "Compared held out prediction error and coefficient stability across repeated data splits, documenting sensitivity to predictor correlation and observation noise."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Gaussian Mixture Models for Overlapping Clusters",
+      "bullets": [
+        "Implemented expectation maximization for Gaussian mixture models in NumPy, including covariance regularization and convergence checks based on changes in log likelihood.",
+        "Compared mixture models with k means on synthetic overlapping clusters, evaluating clustering agreement and sensitivity to initialization and covariance assumptions."
+      ]
+    }
+  ]
+}

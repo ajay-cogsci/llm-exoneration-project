@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Preprocessing Support for Customer Request Classification",
+      "bullets": [
+        "Implemented assigned text normalization and label mapping routines for customer requests, following an established preprocessing specification.",
+        "Checked processed examples for empty text and inconsistent labels, documenting exceptions for review before baseline training."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Coordination",
+      "bullets": [
+        "Maintained inventory records by reconciling delivery paperwork with received items and reporting discrepancies to the responsible staff.",
+        "Prepared order documents, organized incoming requests, and coordinated routine status updates between dispatch staff and customer service."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "TF-IDF Baseline for Review Sentiment Classification",
+      "bullets": [
+        "Implemented a review sentiment baseline using TF-IDF features and logistic regression, fitting the vocabulary exclusively on training data.",
+        "Evaluated predictions using macro F score and a confusion matrix, inspecting misclassified reviews for negation and mixed sentiment."
+      ]
+    }
+  ]
+}

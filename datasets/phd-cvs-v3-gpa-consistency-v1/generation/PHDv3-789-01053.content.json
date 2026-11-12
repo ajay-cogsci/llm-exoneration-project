@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Missing-Data Baselines for Tabular Risk Prediction",
+      "bullets": [
+        "Prepared tabular datasets by checking feature types, documenting missingness patterns, and fitting preprocessing transformations exclusively on training partitions.",
+        "Implemented assigned logistic regression and random forest baselines, comparing imputation strategies using held-out discrimination metrics and calibration plots."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Validation Utilities for Tabular Data Imports",
+      "bullets": [
+        "Implemented Python validation routines for incoming tabular files, checking required columns, field types, and duplicate records before downstream processing.",
+        "Added regression tests for malformed inputs and revised error messages to help maintainers identify and correct import failures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression for Residential Price Prediction",
+      "bullets": [
+        "Implemented ridge and lasso regression baselines with scikit-learn, combining numeric standardization and categorical encoding within training pipelines.",
+        "Selected regularization settings through cross-validation and examined held-out residuals to describe prediction errors across property characteristics."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Naive Bayes Baselines for Document Classification",
+      "bullets": [
+        "Constructed bag-of-words representations and implemented a multinomial naive Bayes baseline for classifying documents into predefined topic categories.",
+        "Compared count and term-frequency weighting using fixed data splits, then inspected confusion matrices and misclassified documents for recurring vocabulary ambiguities."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against purchase orders, and referred discrepancies to the appropriate staff for resolution.",
+        "Prepared routine order paperwork, organized shipment documents, and coordinated collection schedules with warehouse staff and delivery contacts."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Digit Classification with Linear Baselines",
+      "bullets": [
+        "Implemented logistic regression and linear support vector machine baselines using scikit-learn, with normalized grayscale pixels as input features.",
+        "Compared classifiers on a held-out test split using confusion matrices, and inspected misclassified images for recurring ambiguities in digit shapes."
+      ]
+    }
+  ]
+}

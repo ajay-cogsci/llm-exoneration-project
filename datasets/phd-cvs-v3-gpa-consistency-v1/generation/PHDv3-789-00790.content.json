@@ -1,0 +1,61 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Visibility-Aware Consistency for Occluded Keypoint Localization",
+      "bullets": [
+        "Formulated whether visibility estimates could prevent unreliable keypoints from dominating consistency training under partial occlusion.",
+        "Led development of visibility-weighted heatmap consistency, evaluating localization errors against unweighted training through synthetic occlusions and component ablations."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Illumination-Conditioned Feature Alignment for Low-Light Detection",
+      "bullets": [
+        "Formulated how illumination-dependent feature shifts affect object detection when models trained on daylight images encounter low-light scenes.",
+        "Led development of brightness-conditioned feature alignment, comparing detection behavior against augmentation baselines and examining errors across illumination conditions."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Boundary-Constrained Pseudo-Labels for Weakly Supervised Segmentation",
+      "bullets": [
+        "Formulated whether image boundaries could constrain pseudo-label expansion and reduce foreground leakage in segmentation learned from image-level labels.",
+        "Led development of edge-guided label propagation with confidence filtering, conducting ablations and examining segmentation errors around object boundaries."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Edge-Guided Pseudo-Label Propagation for Image-Level Supervised Semantic Segmentation"
+    }
+  ],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Local Feature Matching",
+      "bullets": [
+        "Implemented patch descriptors and gradient-histogram descriptors within a shared pipeline for matching corresponding points between transformed image pairs.",
+        "Compared matching precision under rotation, blur, and viewpoint changes, inspecting incorrect correspondences and the effects of descriptor normalization."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning Strategies for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen-feature classification and partial fine-tuning using a pretrained convolutional backbone with consistent preprocessing and training splits.",
+        "Compared classification errors across visually similar categories, examining confusion patterns and sensitivity to augmentation choices and training schedule."
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Stereo Matching Under Texture and Occlusion Challenges",
+      "bullets": [
+        "Implemented block matching and semi-global matching for rectified stereo pairs, including disparity selection and left-right consistency checks.",
+        "Compared disparity errors in textureless, boundary, and occluded regions, examining how matching costs and smoothness penalties affected reconstruction artifacts."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Support Request Classification with Sparse Text Baselines",
+      "bullets": [
+        "Prepared support request text by removing duplicate messages, normalizing formatting, and checking category labels against supplied annotation guidelines.",
+        "Implemented TF-IDF and logistic regression baselines, evaluated macro-averaged classification metrics, and inspected confusion patterns among overlapping request categories."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Sentence-Level Uncertainty Detection in Scientific Abstracts",
+      "bullets": [
+        "Segmented scientific abstracts into sentences, standardized uncertainty annotations, and maintained document-level splits to prevent sentences from crossing evaluation partitions.",
+        "Implemented keyword and linear classifier baselines using lexical features, then reviewed false positives involving negation and speculative phrasing."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Routine Office Operations Support",
+      "bullets": [
+        "Maintained supply inventories, checked incoming deliveries against purchase records, and routed discrepancies to the appropriate staff for resolution.",
+        "Organized routine paperwork, coordinated meeting room reservations, and tracked outstanding service requests through established office procedures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Extractive Document Summarization with TF-IDF Sentence Ranking",
+      "bullets": [
+        "Implemented a baseline extractive summarizer that ranked sentences by similarity to a TF-IDF document centroid and retained original sentence order.",
+        "Compared selected sentences with reference summaries using unigram overlap, and examined failures involving repeated content and missing contextual information."
+      ]
+    }
+  ]
+}

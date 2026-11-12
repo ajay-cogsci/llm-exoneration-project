@@ -3,7 +3,9 @@
 import argparse
 import hashlib
 import json
+import shutil
 import sys
+import tempfile
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -13,6 +15,8 @@ from phd_resumes.io import digest, read_json, read_jsonl
 from phd_resumes.rubric import evaluate
 from phd_resumes.rubric_pipeline import make_pool, select_allocated
 from phd_recommendations.pipeline import load_applicants, render_letters, validate_record
+from phd_revisions.export import CVS, PACKETS, SOURCE_CVS, SOURCE_PACKETS, build
+from phd_revisions.gpa_consistency import is_consistent
 
 
 def require(condition, message):
@@ -64,7 +68,46 @@ def verify(root):
         for folder, text in (("resumes", applicant["cv"]), ("recommendations", letters), ("applications", packet)):
             require((packets / folder / f"{pid}.txt").read_text() == text, f"Content mismatch: {folder}/{pid}")
         require(item == {"applicant_id": pid, "facts_hash": digest(applicant["facts"]), "cv_hash": digest(applicant["cv"]), "recommendations_hash": digest(letters), "application_hash": digest(packet)}, "Packet hashes differ")
-    return {"cv_count": 100, "recommendation_count": 300, "application_count": 100, "checksums_verified": True, "pool_size_reproduced": len(pool), "sample_reproduced": True, "rubric_reproduced": True, "recommendations_reproduced": True, "api_calls": 0}
+    result = {"cv_count": 100, "recommendation_count": 300, "application_count": 100, "checksums_verified": True, "pool_size_reproduced": len(pool), "sample_reproduced": True, "rubric_reproduced": True, "recommendations_reproduced": True, "api_calls": 0}
+    result["corrected_datasets"] = verify_corrected(root)
+    return result
+
+
+def verify_corrected(root):
+    """Rebuild the corrected datasets from the published ones and their saved
+    policies, then require every file to match the committed copy."""
+    cvs, packets = root / CVS, root / PACKETS
+    check_files(cvs)
+    check_files(packets)
+    gpa_policy, policy = read_json(cvs / "gpa_consistency_policy.json"), read_json(packets / "policy.json")
+    with tempfile.TemporaryDirectory() as scratch:
+        scratch = Path(scratch)
+        for name in (SOURCE_CVS, SOURCE_PACKETS):
+            shutil.copytree(root / name, scratch / name)
+        build(scratch, gpa_policy, policy)
+        for name in (CVS, PACKETS):
+            rebuilt = {str(p.relative_to(scratch / name)): p.read_bytes() for p in (scratch / name).rglob("*") if p.is_file()}
+            saved = {str(p.relative_to(root / name)): p.read_bytes() for p in (root / name).rglob("*") if p.is_file() and "__pycache__" not in p.parts}
+            require(rebuilt == saved, f"{name} does not rebuild from its sources and policy")
+    profiles = read_jsonl(cvs / "profiles.jsonl")
+    rubric = read_json(cvs / "rubric.json")
+    originals = {row["profile_id"]: row for row in read_jsonl(root / SOURCE_CVS / "profiles.jsonl")}
+    changed = 0
+    for row in profiles:
+        require(is_consistent(row["facts"], gpa_policy), f"GPA still contradicts coursework: {row['profile_id']}")
+        rating = evaluate(row["facts"], rubric)
+        require(rating == row["rubric"] and rating["tier"] == row["strength"], "Corrected CV rubric mismatch")
+        before = originals[row["profile_id"]]
+        if row != before:
+            changed += 1
+            masked = {**row["facts"], "gpa": before["facts"]["gpa"]}
+            require(masked == before["facts"], f"A field other than GPA changed: {row['profile_id']}")
+    applicants = {a["facts"]["applicant_id"]: a for a in load_applicants(cvs)}
+    records = read_jsonl(packets / "recommendations.jsonl")
+    require(len(records) == len(applicants) == 100, "Expected 100 corrected applicants")
+    for record in records:
+        validate_record(applicants[record["applicant_id"]], record, policy)
+    return {"cv_dataset": CVS, "packet_dataset": PACKETS, "rebuilt_identically": True, "gpa_values_changed": changed, "only_gpa_changed": True, "all_gpas_consistent": True, "recommendations_reproduced": True}
 
 
 if __name__ == "__main__":

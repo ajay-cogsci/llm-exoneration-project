@@ -1,0 +1,54 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Probability Calibration Under Class-Prior Shift",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare temperature scaling and isotonic calibration under controlled changes in classification class priors.",
+        "Evaluated calibration error and predictive loss across resampled test distributions, examining sensitivity to calibration set composition and minority class representation."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Covariate Shift and Weighted Conformal Regression",
+      "bullets": [
+        "Designed experiments with supervisor guidance comparing standard and importance-weighted conformal prediction for regression under synthetic covariate shifts.",
+        "Implemented density ratio estimation baselines and evaluated interval coverage and width, examining sensitivity to weight clipping and calibration sample composition."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Weight Estimation and Clipping in Conformal Regression Under Covariate Shift"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Batch Data Validation and Processing",
+      "bullets": [
+        "Implemented validation checks for batch data imports, handling missing fields, duplicate records, and inconsistent date formats before downstream processing.",
+        "Added regression tests for parsing failures and updated error messages to support diagnosis of rejected imports and routine maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Regularized Regression with Correlated Predictors",
+      "bullets": [
+        "Implemented ridge, lasso, and elastic net regression pipelines with standardized predictors and cross-validation for selecting regularization parameters.",
+        "Compared predictive error and coefficient stability across simulated correlation structures, documenting how predictor dependence affected variable selection."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Approximate Inference for Bayesian Logistic Regression",
+      "bullets": [
+        "Implemented Laplace and mean-field variational approximations for Bayesian logistic regression using a shared Gaussian prior and consistent preprocessing.",
+        "Compared held-out predictive loss, posterior uncertainty, and computational behavior across datasets with varying feature correlations and class overlap."
+      ]
+    }
+  ]
+}

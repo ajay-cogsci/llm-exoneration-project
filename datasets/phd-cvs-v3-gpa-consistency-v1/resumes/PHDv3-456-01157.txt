@@ -1,0 +1,41 @@
+Applicant PHDv3-456-01157
+
+EDUCATION
+BS in Computer Science, University A | 2022-09 to 2026-05 (completed)
+Undergraduate GPA: 3.37/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B); Probability and Statistics (B); Algorithms (B+); Machine Learning (B)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Support Request Classification with Sparse Text Features
+Contribution: data preparation and baseline implementation.
+- Prepared labeled support requests by removing duplicate messages, normalizing formatting, and checking category consistency against supplied annotation guidelines.
+- Implemented TF-IDF and logistic regression baselines using predefined data splits, reporting macro-averaged F score and reviewing confusion patterns between related categories.
+Research assistant, University Research Group | 2026-04 to 2026-08 | 10 hours/week
+Sentence-Level Detection of Speculative Language
+Contribution: data preparation and baseline implementation.
+- Prepared annotated sentences from scientific abstracts, checking label alignment and preserving document boundaries when constructing training and evaluation partitions.
+- Implemented word and character n-gram classification baselines, comparing precision and recall and inspecting errors involving negation and ambiguous uncertainty markers.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-07 to 2026-04 | 10 hours/week
+Order Processing and Inventory Support
+- Checked incoming order forms for missing information, maintained filing records, and routed incomplete requests to the appropriate staff for clarification.
+- Reconciled delivery paperwork with received supplies, updated inventory logs, and prepared routine handover notes documenting outstanding orders and stock discrepancies.
+
+TECHNICAL PROJECTS
+TF-IDF Retrieval for Frequently Asked Questions | technical course project, 2026
+- Implemented a baseline question retrieval pipeline using TF-IDF vectors and cosine similarity to rank candidate answers from a supplied collection.
+- Evaluated ranked results against reference matches and examined retrieval failures caused by vocabulary mismatch, short queries, and overlapping question topics.
+Naive Bayes Sentiment Classification | technical course project, 2026
+- Implemented a multinomial naive Bayes baseline for review sentiment classification, using token counts and a fixed training and test partition.
+- Compared unigram and bigram feature configurations and inspected misclassified reviews containing mixed sentiment, negated adjectives, and references to multiple product attributes.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

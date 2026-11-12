@@ -1,0 +1,34 @@
+Applicant PHDv3-123-00099
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.52/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-08 to 2026-11 | 10 hours/week
+Preprocessing and Evaluation for Negation-Sensitive Sentiment Classification
+Contribution: assigned implementation tasks.
+- Implemented assigned preprocessing routines for sentence tokenization and negation marking, following existing specifications for a sentiment classification pipeline.
+- Ran prescribed classifier comparisons and organized misclassified examples by negation pattern to support review of preprocessing effects.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2026-02 to 2026-08 | 10 hours/week
+Inventory Records and Order Coordination
+- Updated inventory logs from receiving documents, checked shipment quantities against purchase orders, and flagged discrepancies for supervisor review.
+- Prepared order paperwork, maintained filing records, and coordinated pickup arrangements with staff according to established operating procedures.
+
+TECHNICAL PROJECTS
+TF-IDF Baselines for News Topic Classification | technical course project, 2026
+- Implemented TF-IDF features with logistic regression and multinomial naive Bayes for supervised classification of news articles by topic.
+- Compared baseline predictions using macro F score and confusion matrices, inspecting errors involving overlapping vocabulary across related news categories.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

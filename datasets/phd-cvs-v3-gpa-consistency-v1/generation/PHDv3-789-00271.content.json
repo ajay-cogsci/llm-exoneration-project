@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Data Preparation and Baselines for Support Request Classification",
+      "bullets": [
+        "Cleaned support request text, standardized category labels using supplied guidelines, and removed duplicate messages before preparing training and evaluation splits.",
+        "Implemented TF-IDF and logistic regression baselines in scikit-learn, reporting macro-averaged metrics and inspecting confusion patterns between overlapping request categories."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Maintenance of Text Record Processing Utilities",
+      "bullets": [
+        "Maintained Python utilities that validated incoming text records, normalized missing fields, and routed malformed entries to existing error handling routines.",
+        "Added regression tests for parsing edge cases and investigated processing failures using application logs and reproducible sample inputs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Bag-of-Words Baselines for Review Sentiment Classification",
+      "bullets": [
+        "Implemented bag-of-words features and multinomial naive Bayes for review sentiment classification, following the prescribed training and evaluation procedure.",
+        "Compared unigram and bigram configurations on held-out reviews, examining misclassified examples containing negation, mixed sentiment, and uncommon vocabulary."
+      ]
+    }
+  ]
+}

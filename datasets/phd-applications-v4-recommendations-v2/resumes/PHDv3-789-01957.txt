@@ -1,0 +1,37 @@
+Applicant PHDv3-789-01957
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.54/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+computer vision
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2025-06 to 2026-11 | 10 hours/week
+Robustness of Semantic Segmentation Under Illumination Shifts
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to evaluate semantic segmentation under controlled brightness and contrast shifts, separating augmentation effects from architectural differences.
+- Implemented evaluation pipelines in PyTorch and examined classwise overlap scores and boundary errors to characterize performance changes across lighting conditions.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-03 to 2025-06 | 10 hours/week
+Inventory Records and Order Coordination
+- Maintained inventory records by checking incoming deliveries against packing lists and flagging discrepancies for review.
+- Prepared order paperwork, organized stockroom materials, and coordinated routine handoffs between receiving and dispatch staff.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Image Retrieval Representations | technical course project, 2026
+- Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent preprocessing and distance calculations across representations.
+- Compared retrieval rankings using labeled image groups and inspected failures involving similar backgrounds, viewpoint changes, and partially occluded objects.
+Transfer Learning Strategies for Fine-Grained Image Classification | technical course project, 2026
+- Implemented frozen feature extraction and selective layer fine-tuning for a pretrained image classifier using shared training and validation splits.
+- Compared classification performance across adaptation strategies and examined confusion patterns among visually similar categories under consistent augmentation settings.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Semantic Segmentation Under Illumination Shifts",
+      "bullets": [
+        "Designed experiments with supervisor guidance to evaluate semantic segmentation under controlled brightness and contrast shifts, separating augmentation effects from architectural differences.",
+        "Implemented evaluation pipelines in PyTorch and examined classwise overlap scores and boundary errors to characterize performance changes across lighting conditions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory records by checking incoming deliveries against packing lists and flagging discrepancies for review.",
+        "Prepared order paperwork, organized stockroom materials, and coordinated routine handoffs between receiving and dispatch staff."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Retrieval Representations",
+      "bullets": [
+        "Implemented image retrieval pipelines using color histograms and pretrained convolutional features, applying consistent preprocessing and distance calculations across representations.",
+        "Compared retrieval rankings using labeled image groups and inspected failures involving similar backgrounds, viewpoint changes, and partially occluded objects."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Transfer Learning Strategies for Fine-Grained Image Classification",
+      "bullets": [
+        "Implemented frozen feature extraction and selective layer fine-tuning for a pretrained image classifier using shared training and validation splits.",
+        "Compared classification performance across adaptation strategies and examined confusion patterns among visually similar categories under consistent augmentation settings."
+      ]
+    }
+  ]
+}

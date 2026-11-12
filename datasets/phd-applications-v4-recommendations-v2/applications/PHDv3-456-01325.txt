@@ -1,0 +1,62 @@
+Applicant PHDv3-456-01325
+
+EDUCATION
+BS in Computer Science, University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.00/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (B-); Probability and Statistics (C+); Algorithms (B); Machine Learning (B-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-05 to 2026-11 | 10 hours/week
+Missing-Value Handling for Equipment Failure Classification
+Contribution: data preparation and baseline implementation.
+- Cleaned equipment maintenance records, standardized missing-value codes, and prepared equipment-level training and evaluation splits following the study protocol.
+- Implemented specified imputation and logistic regression baselines, comparing discrimination and calibration across missingness patterns using the prescribed evaluation procedure.
+
+PUBLICATIONS
+Comparing Imputation Baselines for Equipment Failure Classification with Incomplete Maintenance Records. Regional applied computing conference, 2026-11; published; author position 2.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2025-11 to 2026-05 | 10 hours/week
+Inventory Records and Order Coordination
+- Checked incoming deliveries against packing lists, recorded inventory discrepancies, and routed damaged or missing items for supervisor review.
+- Maintained order paperwork, organized stockroom supplies, and coordinated routine pickup schedules with staff handling outgoing orders.
+
+TECHNICAL PROJECTS
+Regularized Regression for Residential Energy Demand | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines for residential energy demand using weather variables and calendar indicators.
+- Applied training-set standardization and chronological validation splits, then examined residual patterns across seasons and compared held-out prediction errors.
+Gaussian Mixture Baselines for Customer Segmentation | technical course project, 2026
+- Implemented a customer segmentation baseline using scikit-learn Gaussian mixtures on standardized purchase frequency, spending, and recency features.
+- Compared covariance assumptions using information criteria and inspected cluster assignments to document sensitivity to initialization and feature scaling.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn
+
+Applicant PHDv3-456-01325
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: limited
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-05 to 2026-11 (6 months). The writer offers qualified support for PhD study, with a limited endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: Yes
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Machine Learning, for which the recorded grade is B-. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Machine Learning. Compared with other students the writer has taught in the same subject, the writer rates the applicant's academic preparation in Machine Learning as at the typical level.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: Yes
+The writer was the course instructor for the applicant's recorded technical course project, Regularized Regression for Residential Energy Demand (2026). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's technical project work. As a specific example of the applicant's work, the writer cites this recorded activity: Applied training-set standardization and chronological validation splits, then examined residual patterns across seasons and compared held-out prediction errors.

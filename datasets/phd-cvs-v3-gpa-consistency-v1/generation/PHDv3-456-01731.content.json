@@ -1,0 +1,24 @@
+{
+  "research": [],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory logs, checked incoming deliveries against purchase records, and flagged discrepancies for review by purchasing staff.",
+        "Prepared order paperwork, coordinated dispatch schedules with warehouse staff, and tracked outstanding requests through routine follow-up with suppliers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handcrafted Feature Baselines for Image Classification",
+      "bullets": [
+        "Implemented a histogram of oriented gradients baseline with a linear support vector classifier for categorizing images using fixed training and validation splits.",
+        "Compared classification errors across feature normalization settings and inspected confusion matrices to identify categories affected by similar shapes and backgrounds."
+      ]
+    }
+  ]
+}

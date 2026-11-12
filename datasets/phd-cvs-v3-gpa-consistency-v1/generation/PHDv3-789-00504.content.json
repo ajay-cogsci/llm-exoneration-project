@@ -1,0 +1,49 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Object Detection Robustness Under Image Degradation",
+      "bullets": [
+        "Designed experiments with supervisor guidance to compare object detector sensitivity to motion blur, compression artifacts, and reduced illumination using controlled image transformations.",
+        "Evaluated detection precision and recall across degradation conditions, inspecting missed detections by object size and documenting limitations of synthetic corruption tests."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Foreground Segmentation with Limited Training Annotations",
+      "bullets": [
+        "Planned comparisons with supervisor guidance to examine how annotation availability and augmentation choices affect foreground segmentation under consistent training and validation splits.",
+        "Trained encoder-decoder segmentation baselines and analyzed overlap metrics alongside boundary errors, separating failures involving thin structures from those involving background texture."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Documentation Support",
+      "bullets": [
+        "Checked incoming deliveries against packing documents, recorded stock discrepancies, and routed unresolved quantity or item mismatches to the responsible staff.",
+        "Maintained order paperwork, organized routine filing, and coordinated collection schedules with colleagues to support daily stock handling and dispatch activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Image Classification with Handcrafted and Learned Features",
+      "bullets": [
+        "Implemented image classification pipelines using histogram of oriented gradients with a linear classifier and a convolutional neural network on a shared dataset.",
+        "Compared validation accuracy and confusion patterns under consistent data splits, examining sensitivity to image normalization and augmentation while documenting training configuration differences."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Comparative Evaluation of Stereo Matching Methods",
+      "bullets": [
+        "Implemented local block matching and semi-global matching for rectified stereo images, examining disparity estimates across textured, low-texture, and occluded regions.",
+        "Compared disparity errors against available reference maps and inspected artifacts near depth discontinuities, varying matching window sizes and smoothness penalties."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+Applicant PHDv3-456-01924
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.84/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Stabilized Conformal Prediction Under Covariate Shift
+Contribution: formulated a research question and led method development.
+- Formulated a research question on how density ratio estimation uncertainty affects weighted conformal prediction when calibration and deployment distributions differ.
+- Led development of a weight stabilization procedure, evaluating interval coverage and width across simulated shifts and alternative density ratio estimators.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Partial Pooling for Subgroup Probability Calibration
+Contribution: formulated a research question and led method development.
+- Investigated whether partial pooling can stabilize subgroup probability calibration when labeled calibration data are scarce and subgroup prevalences differ.
+- Led development of an empirical Bayes calibration model with subgroup intercepts, comparing reliability diagrams and predictive losses against pooled and independent calibrators.
+Research assistant, University Research Group | 2023-11 to 2026-05 | 10 hours/week
+Robust Regression with Selectively Observed Outcomes
+Contribution: formulated a research question and led method development.
+- Formulated a research question about regression stability when selective outcome observation produces extreme inverse probability weights alongside contaminated response measurements.
+- Led development of propensity weighted Huber regression with overlap adaptive weight truncation, examining estimation error and sensitivity to observation model misspecification.
+
+PUBLICATIONS
+Overlap-Adaptive Weight Truncation for Robust Regression with Selectively Observed Outcomes. Peer-reviewed ML conference, 2024-12; published; author position 4.
+Sensitivity of Propensity-Weighted Robust Regression to Observation Model Misspecification. Peer-reviewed ML conference, 2025-11; published; author position 4.
+
+WORK EXPERIENCE
+Software engineer, Company A | 2024-04 to 2025-09 | 40 hours/week
+Prediction Service Integration and Input Validation
+- Implemented input validation and batch prediction components for an internal forecasting service, handling missing fields and maintaining consistent preprocessing between training and inference.
+- Added regression tests for prediction interfaces, investigated failed processing jobs, and documented recovery procedures for malformed inputs and incompatible model artifacts.
+
+TECHNICAL PROJECTS
+Regularization Paths for Correlated Regression Predictors | technical course project, 2026
+- Implemented ridge, lasso, and elastic net regression comparisons using synthetic correlated predictors and standardized preprocessing within cross validation folds.
+- Compared prediction error, coefficient stability, and variable selection behavior across regularization strengths, documenting differences between sparse and distributed signal settings.
+Variational and Sampling-Based Inference for Bayesian Regression | technical course project, 2026
+- Implemented mean field variational inference and Gibbs sampling for Bayesian linear regression under conjugate priors using a shared model specification.
+- Compared posterior means, uncertainty intervals, and computational behavior against analytic reference calculations, examining sensitivity to predictor correlation and initialization.
+Probability Calibration for Imbalanced Classification | technical course project, 2026
+- Implemented logistic and isotonic calibration for probabilistic classifiers, separating model fitting, calibration, and evaluation data to prevent information leakage.
+- Compared log loss, Brier scores, and reliability diagrams under varying class imbalance, examining how calibration sample size affected method behavior.
+Kernel Two-Sample Testing for Distribution Shift | technical course project, 2026
+- Implemented permutation tests based on maximum mean discrepancy and energy distance for detecting differences between reference and incoming feature distributions.
+- Compared rejection behavior under null simulations and controlled location, scale, and mixture shifts, assessing sensitivity to kernel bandwidth and dimensionality.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

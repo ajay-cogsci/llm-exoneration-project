@@ -1,0 +1,58 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evidence Sensitivity in Retrieval-Augmented Question Answering",
+      "bullets": [
+        "Designed controlled experiments varying passage relevance and distractor placement to evaluate answer consistency in retrieval-augmented question answering.",
+        "Analyzed unsupported answers and citation mismatches across retrieval conditions, distinguishing failures associated with missing evidence from misleading context."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Calibration and Selective Prediction Under Text Domain Shift",
+      "bullets": [
+        "Designed experiments comparing temperature scaling and confidence-based abstention for text classifiers evaluated across source and target domains.",
+        "Analyzed reliability diagrams, risk-coverage curves, and classwise errors to characterize calibration behavior under vocabulary shifts and changing label distributions."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "P1",
+      "title": "Confidence-Based Abstention for Text Classification Across Domains: Threshold Transfer and Error Analysis"
+    },
+    {
+      "id": "P2",
+      "title": "Assessing Temperature Scaling Under Vocabulary and Label Distribution Shifts in Text Classification"
+    }
+  ],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Checked incoming deliveries against packing slips, organized stock locations, and flagged discrepancies for review during routine inventory reconciliation.",
+        "Prepared order paperwork, maintained filing records, and coordinated collection schedules with staff to support daily dispatch operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Sentiment Classification with Sparse and Neural Representations",
+      "bullets": [
+        "Implemented sentiment classifiers using term-frequency inverse-document-frequency features with logistic regression and a convolutional model over learned word embeddings.",
+        "Compared models using stratified evaluation splits and macro-averaged scores, examining errors involving negation, mixed sentiment, and infrequent vocabulary."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Sequence Labeling for Named Entity Recognition",
+      "bullets": [
+        "Implemented conditional random field and bidirectional recurrent baselines for named entity recognition using consistent tokenization and shared training partitions.",
+        "Compared entity-level precision and recall, inspecting boundary errors and unseen entity mentions to assess differences between feature-based and contextual representations."
+      ]
+    }
+  ]
+}

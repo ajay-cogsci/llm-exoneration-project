@@ -1,0 +1,33 @@
+Applicant PHDv3-789-01305
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.78/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A); Algorithms (A); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classification Baselines for Tabular Data with Missing Values
+Contribution: data preparation and baseline implementation.
+- Prepared tabular classification data by checking label consistency, separating training and validation partitions, and fitting imputation procedures exclusively on training observations.
+- Implemented logistic regression and random forest baselines using specified preprocessing pipelines, comparing discrimination and calibration across alternative missing-value treatments.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Ridge Regression with Correlated Predictors | technical course project, 2026
+- Implemented ordinary least squares and ridge regression baselines on synthetic datasets with correlated predictors, using consistent training and test partitions.
+- Selected regularization settings through cross-validation and examined coefficient stability alongside held-out prediction error under varying predictor correlations.
+Gaussian Mixture Baselines for Cluster Recovery | technical course project, 2026
+- Implemented a standard Gaussian mixture clustering workflow on synthetic data, comparing covariance specifications under fixed preprocessing and initialization procedures.
+- Examined cluster assignments against generating labels and inspected convergence diagnostics to document sensitivity to initialization and overlapping component distributions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn

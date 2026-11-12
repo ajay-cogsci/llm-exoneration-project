@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Robustness of Intent Classification to Conversational Paraphrases",
+      "bullets": [
+        "Designed supervisor-guided experiments comparing intent classifiers on original utterances and meaning-preserving paraphrases, controlling training partitions and label distributions.",
+        "Evaluated lexical and contextual representations under paraphrase variation, categorizing prediction changes by negation, word order, and conversational phrasing."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "Annotation Budget Allocation for Named Entity Recognition",
+      "bullets": [
+        "Planned supervised comparisons of random and uncertainty-based sentence selection with supervisor guidance, holding annotation budgets and evaluation splits constant.",
+        "Implemented selection loops and examined entity-level precision and recall, separating errors involving rare entity types from boundary mismatches."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Sentiment Classification Representations",
+      "bullets": [
+        "Implemented sentiment classifiers using term-frequency features, averaged word embeddings, and a recurrent encoder under a shared preprocessing pipeline.",
+        "Compared classification performance across review lengths and inspected misclassifications involving negation, mixed sentiment, and vocabulary absent from training data."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Extractive Summarization with Frequency and Graph-Based Ranking",
+      "bullets": [
+        "Implemented sentence extraction using term-frequency scoring and graph-based ranking, applying identical tokenization and summary length constraints across methods.",
+        "Compared summaries using reference overlap and manual inspection, documenting differences in redundancy, topic coverage, and dependence on sentence position."
+      ]
+    }
+  ]
+}

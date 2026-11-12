@@ -1,0 +1,41 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Evaluating Semantic Segmentation Under Illumination Shifts",
+      "bullets": [
+        "Designed experiments with supervisor guidance to assess segmentation robustness under brightness and contrast shifts, controlling training splits and augmentation settings.",
+        "Compared encoder backbones using intersection over union and classwise error analysis, examining whether illumination augmentation affected boundaries and small object predictions."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory and Order Processing Support",
+      "bullets": [
+        "Maintained inventory records, checked incoming deliveries against purchase orders, and coordinated discrepancy resolution with purchasing staff.",
+        "Prepared order paperwork, tracked fulfillment status, and communicated scheduling changes to internal teams during routine daily operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Comparative Evaluation of Image Classification Transfer Learning",
+      "bullets": [
+        "Implemented frozen feature extraction and end to end fine tuning for image classification using pretrained convolutional networks.",
+        "Compared classification accuracy and confusion patterns under matched data splits, documenting sensitivity to training set size and learning rate."
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Local Feature Matching for Planar Image Alignment",
+      "bullets": [
+        "Implemented patch descriptors and nearest neighbor matching to estimate planar transformations between images with overlapping scene content.",
+        "Compared raw intensity and gradient histogram descriptors using reprojection error, inspecting alignment failures under viewpoint changes and repetitive textures."
+      ]
+    }
+  ]
+}

@@ -32,7 +32,7 @@ def require(condition, message):
 
 
 def check_policy(policy):
-    require(policy["version"] == "phd-recommendations-v1", "Unsupported recommendation policy")
+    require(policy["version"] in {"phd-recommendations-v1", "phd-recommendations-v2"}, "Unsupported recommendation policy")
     require(type(policy["seed"]) is int, "Seed must be an integer")
     require(type(policy["letters_per_applicant"]) is int and policy["letters_per_applicant"] == 3, "Exactly three letters are required")
     require(policy["strength_levels"] == list(LEVELS), "Unsupported letter strength scale")
@@ -43,6 +43,10 @@ def check_policy(policy):
     for probabilities in policy["strength_probabilities"].values():
         require(isinstance(probabilities, list) and len(probabilities) == 3 and all(type(p) in (int, float) and math.isfinite(p) and 0 <= p <= 1 for p in probabilities) and abs(sum(probabilities) - 1) < 1e-9, "Invalid strength probabilities")
     require(policy["strength_probabilities"]["research_short"][2] == 0, "Short research cannot receive a strong research letter in v1")
+    if policy["version"] == "phd-recommendations-v2":
+        # v2 removes endorsements that contradict the grade the letter cites.
+        require(policy["strength_probabilities"]["course_a_range"][0] == 0, "An A-range course letter cannot be a limited endorsement in v2")
+        require(policy["strength_probabilities"]["course_b_range"][2] == 0, "A B-range course letter cannot be a strong endorsement in v2")
     formatter = string.Formatter()
     for name, fields in (("endorsement_templates", {"scope"}), ("comparison_templates", {"scope", "group"})):
         require(set(policy[name]) == set(LEVELS), "Incomplete templates")

@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preprocessing for Surface Defect Recognition",
+      "bullets": [
+        "Implemented assigned image normalization and patch extraction routines in Python for a surface defect recognition pipeline, following provided preprocessing specifications.",
+        "Checked extracted patches against image annotations and summarized classification errors by defect category using the group's existing evaluation procedure."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory records, reconciled delivery paperwork with received goods, and flagged discrepancies for review by the responsible operations staff.",
+        "Coordinated routine order processing, updated shipment status logs, and organized supporting documents for customer inquiries and internal handoffs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handcrafted Feature Baseline for Image Classification",
+      "bullets": [
+        "Implemented a baseline image classifier using NumPy color histograms and a scikit-learn support vector machine with standardized input features.",
+        "Evaluated predictions on a held-out split, inspected confusion matrices, and compared classification errors across images with different lighting conditions."
+      ]
+    }
+  ]
+}

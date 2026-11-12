@@ -1,0 +1,46 @@
+Applicant PHDv3-789-01881
+
+EDUCATION
+BS in Computer Science, University A | 2023-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.50/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A-); Probability and Statistics (B+); Algorithms (B+); Machine Learning (A-)
+
+RESEARCH INTERESTS
+statistical machine learning
+
+RESEARCH EXPERIENCE
+Research intern, Research Lab 1 | 2026-08 to 2026-11 | 15 hours/week
+Classifier Calibration Under Covariate Shift
+Contribution: designed experiments and analyzed results.
+- Designed controlled covariate shift experiments comparing temperature scaling and isotonic calibration across synthetic classification datasets.
+- Analyzed reliability diagrams, calibration error, and predictive loss to characterize sensitivity to calibration sample size and distribution mismatch.
+Research intern, Research Lab 2 | 2026-05 to 2026-08 | 15 hours/week
+Missing Data Mechanisms and Predictive Stability
+Contribution: designed experiments and analyzed results.
+- Designed experiments comparing imputation strategies under random and feature dependent missingness in tabular classification tasks.
+- Analyzed variation in discrimination and calibration across missingness patterns, using repeated data splits to assess uncertainty.
+Research assistant, University Research Group | 2024-09 to 2026-05 | 10 hours/week
+Conditional Coverage of Conformal Regression Intervals
+Contribution: designed experiments and analyzed results.
+- Designed experiments evaluating split conformal and conformalized quantile regression on synthetic heteroskedastic data and tabular regression benchmarks.
+- Analyzed interval width and empirical coverage across response noise regimes and feature subgroups to characterize conditional coverage limitations.
+
+PUBLICATIONS
+Evaluating Subgroup Coverage of Conformal Regression Intervals Under Heteroskedastic Noise. Regional applied computing conference, 2026-11; published; author position 1.
+
+WORK EXPERIENCE
+None reported.
+
+TECHNICAL PROJECTS
+Regularized Regression with Correlated Predictors | technical course project, 2026
+- Implemented ridge and lasso regression pipelines with standardized predictors and cross validation for penalty selection.
+- Compared prediction error and coefficient stability across simulated correlation structures, examining sensitivity to redundant and irrelevant predictors.
+Clustering with Gaussian Mixtures and K-Means | technical course project, 2026
+- Implemented expectation maximization for Gaussian mixture clustering and compared assignments against a standard k-means baseline.
+- Evaluated clustering agreement and initialization sensitivity on synthetic datasets with overlapping groups and unequal covariance structures.
+Bootstrap Confidence Intervals for Regression Coefficients | technical course project, 2026
+- Implemented percentile and residual bootstrap procedures for estimating uncertainty in ordinary least squares regression coefficients.
+- Compared empirical interval coverage and width against analytical intervals under simulated skewed errors and varying predictor distributions.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch

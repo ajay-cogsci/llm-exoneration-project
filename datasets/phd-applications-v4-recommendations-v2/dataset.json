@@ -1,0 +1,83 @@
+{
+  "version": "phd-applications-v4-recommendations-v2",
+  "release_date": "2026-11-11",
+  "source_cv_dataset": "../phd-cvs-v3-gpa-consistency-v1",
+  "previous_packet_dataset": "../phd-applications-v3-recommendations-v1",
+  "applicants": 100,
+  "recommendation_summaries": 300,
+  "complete_packets": 100,
+  "letter_fields": [
+    "writer_type",
+    "strength_level",
+    "compares_with_other_students",
+    "gives_specific_example"
+  ],
+  "generation": "Fixed templates; zero model calls.",
+  "recommendation_policy": "phd-recommendations-v2",
+  "letters_changed_from_previous_version": 11,
+  "distribution": {
+    "writer_types": {
+      "research supervisor": 95,
+      "course instructor": 200,
+      "work supervisor": 5
+    },
+    "strength_levels": {
+      "moderate": 158,
+      "limited": 66,
+      "strong": 76
+    },
+    "flag_combinations": {
+      "comparison=True,example=True": 53,
+      "comparison=False,example=False": 108,
+      "comparison=True,example=False": 95,
+      "comparison=False,example=True": 44
+    },
+    "by_source": {
+      "research_experience": {
+        "n": 95,
+        "strength_levels": {
+          "moderate": 50,
+          "limited": 24,
+          "strong": 21
+        },
+        "comparisons": 46,
+        "examples": 44
+      },
+      "coursework": {
+        "n": 100,
+        "strength_levels": {
+          "moderate": 53,
+          "strong": 34,
+          "limited": 13
+        },
+        "comparisons": 56,
+        "examples": 0
+      },
+      "projects": {
+        "n": 100,
+        "strength_levels": {
+          "moderate": 51,
+          "limited": 28,
+          "strong": 21
+        },
+        "comparisons": 43,
+        "examples": 52
+      },
+      "work_experience": {
+        "n": 5,
+        "strength_levels": {
+          "moderate": 4,
+          "limited": 1
+        },
+        "comparisons": 3,
+        "examples": 1
+      }
+    },
+    "summary_words": {
+      "min": 30,
+      "max": 100
+    }
+  },
+  "validation": "Consistency and deterministic-reproduction checks passed; letter-strength probabilities are provisional.",
+  "cv_labels": "CV-only tiers from the version 3 CV dataset; recommendations do not relabel applicants."
+}

@@ -1,0 +1,33 @@
+{
+  "research": [
+    {
+      "id": "R1",
+      "title": "Image Preprocessing for Surface Defect Classification",
+      "bullets": [
+        "Implemented assigned image resizing and intensity normalization routines for surface defect classification using a predefined preprocessing specification.",
+        "Checked processed images for inconsistent dimensions and documented classification errors across lighting conditions using supplied labels and evaluation procedures."
+      ]
+    }
+  ],
+  "publications": [],
+  "work": [
+    {
+      "id": "W1",
+      "title": "Inventory Records and Order Coordination",
+      "bullets": [
+        "Maintained inventory logs, checked incoming deliveries against packing slips, and flagged discrepancies for review by the operations supervisor.",
+        "Prepared order paperwork, organized stockroom supplies, and coordinated routine pickup schedules with staff to support daily fulfillment activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "T1",
+      "title": "Handwritten Character Classification with Pixel Features",
+      "bullets": [
+        "Implemented a baseline handwritten character classifier using normalized pixel features and logistic regression within a prescribed training and evaluation workflow.",
+        "Examined confusion matrices and misclassified examples to describe common character ambiguities, keeping preprocessing consistent across training and held-out data."
+      ]
+    }
+  ]
+}

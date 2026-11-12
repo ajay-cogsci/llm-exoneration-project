@@ -1,0 +1,62 @@
+Applicant PHDv3-789-01901
+
+EDUCATION
+BS in Computer Science, University A | 2016-09 to 2020-05 (completed)
+MS in Computer Science, University B | 2025-09 to 2027-05 (in progress)
+Undergraduate GPA: 3.98/4.0 (record as of 2025-12-31)
+Relevant coursework: Linear Algebra (A); Probability and Statistics (A-); Algorithms (A-); Machine Learning (A)
+
+RESEARCH INTERESTS
+natural language processing
+
+RESEARCH EXPERIENCE
+Research assistant, University Research Group | 2026-02 to 2026-11 | 10 hours/week
+Robustness of Text Classifiers to Meaning-Preserving Perturbations
+Contribution: experimental design with supervisor guidance.
+- Designed experiments with supervisor guidance to compare classifier sensitivity to lexical substitutions, punctuation changes, and sentence reordering under controlled evaluation conditions.
+- Implemented perturbation pipelines and analyzed prediction changes across text categories, manually reviewing examples to distinguish model failures from altered document meaning.
+
+PUBLICATIONS
+None reported.
+
+WORK EXPERIENCE
+Operations assistant, Company A | 2024-08 to 2025-09 | 40 hours/week
+Order Processing and Inventory Coordination
+- Processed incoming orders, checked shipment paperwork against requested items, and coordinated delivery updates with warehouse staff and customer service colleagues.
+- Maintained inventory records, reconciled discrepancies with physical stock checks, and prepared routine replenishment requests for review by the operations manager.
+
+TECHNICAL PROJECTS
+Comparative Evaluation of Sparse and Neural Sentiment Classifiers | technical course project, 2026
+- Implemented sentiment classifiers using term frequency–inverse document frequency features with logistic regression and pretrained transformer fine-tuning on a shared review dataset.
+- Compared classification performance under matched data splits, examining errors involving negation, mixed sentiment, and uncommon vocabulary through manual example review.
+Extractive Summarization with Frequency and Graph-Based Ranking | technical course project, 2026
+- Implemented sentence selection using word frequency scoring and graph-based ranking, applying shared sentence segmentation and summary length constraints for comparative evaluation.
+- Evaluated summaries against reference texts using overlap metrics and manually assessed redundancy, entity coverage, and coherence across documents with differing lengths.
+
+TECHNICAL SKILLS
+Python, NumPy, scikit-learn, PyTorch
+
+Applicant PHDv3-789-01901
+
+RECOMMENDATION SUMMARIES
+
+Recommendation 1
+Writer type: research supervisor
+Strength level: strong
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer supervised the applicant as Research assistant at University Research Group from 2026-02 to 2026-11 (9 months). The writer strongly supports PhD study, with an enthusiastic endorsement of the applicant's research preparation.
+
+Recommendation 2
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer taught the applicant in Algorithms, for which the recorded grade is A-. The writer supports PhD study, with a positive endorsement of the applicant's academic preparation in Algorithms.
+
+Recommendation 3
+Writer type: course instructor
+Strength level: moderate
+Compares applicant with other students: No
+Gives a specific example of the applicant's work: No
+The writer was the course instructor for the applicant's recorded technical course project, Comparative Evaluation of Sparse and Neural Sentiment Classifiers (2026). The writer supports PhD study, with a positive endorsement of the applicant's technical project work.
