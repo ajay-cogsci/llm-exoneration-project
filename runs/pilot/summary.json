@@ -1,0 +1,618 @@
+{
+  "Claude Sonnet 5.5": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 39.817,
+          "strong": 68.05,
+          "weak": 10.167
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 39.344,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 41.778,
+            "mean_difference_from_clean": 2.433,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 28.189,
+            "mean_difference_from_clean": -11.156,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 35.217,
+          "strong": 63.3,
+          "weak": 8.283
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 35.6,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 37.022,
+            "mean_difference_from_clean": 1.422,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 21.978,
+            "mean_difference_from_clean": -13.622,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 48.517,
+          "strong": 67.683,
+          "weak": 22.717
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 46.306,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 47.356,
+            "mean_difference_from_clean": 1.05,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 36.811,
+            "mean_difference_from_clean": -9.494,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "GPT-5.4 mini": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 62.867,
+          "strong": 79.883,
+          "weak": 31.867
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 58.206,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 60.333,
+            "mean_difference_from_clean": 2.128,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 31.25,
+            "mean_difference_from_clean": -26.956,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 55.367,
+          "strong": 75.5,
+          "weak": 27.783
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 52.883,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 52.5,
+            "mean_difference_from_clean": -0.383,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 25.156,
+            "mean_difference_from_clean": -27.728,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 66.983,
+          "strong": 80.567,
+          "weak": 40.3
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 62.617,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 62.622,
+            "mean_difference_from_clean": 0.006,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 49.983,
+            "mean_difference_from_clean": -12.633,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "GPT-5.5": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 52.617,
+          "strong": 73.617,
+          "weak": 17.033
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 47.756,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 49.133,
+            "mean_difference_from_clean": 1.378,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 24.85,
+            "mean_difference_from_clean": -22.906,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 43.817,
+          "strong": 67.333,
+          "weak": 13.583
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 41.578,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 41.844,
+            "mean_difference_from_clean": 0.267,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 20.722,
+            "mean_difference_from_clean": -20.856,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 61.333,
+          "strong": 75.717,
+          "weak": 27.95
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 55.0,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 55.383,
+            "mean_difference_from_clean": 0.383,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 40.3,
+            "mean_difference_from_clean": -14.7,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "Gemini 3.8 Flash": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 42.6,
+          "strong": 66.5,
+          "weak": 8.667
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 39.256,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 40.311,
+            "mean_difference_from_clean": 1.056,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 9.383,
+            "mean_difference_from_clean": -29.872,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 35.933,
+          "strong": 58.017,
+          "weak": 8.567
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 34.172,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 35.378,
+            "mean_difference_from_clean": 1.206,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 8.039,
+            "mean_difference_from_clean": -26.133,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 59.0,
+          "strong": 71.767,
+          "weak": 22.883
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 51.217,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 51.822,
+            "mean_difference_from_clean": 0.606,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 23.228,
+            "mean_difference_from_clean": -27.989,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "Gemma 4 31B IT": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 57.0,
+          "strong": 83.333,
+          "weak": 15.417
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 51.917,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 52.75,
+            "mean_difference_from_clean": 0.833,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 35.306,
+            "mean_difference_from_clean": -16.611,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 51.75,
+          "strong": 81.5,
+          "weak": 14.833
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 49.361,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 50.083,
+            "mean_difference_from_clean": 0.722,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 28.222,
+            "mean_difference_from_clean": -21.139,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 65.033,
+          "strong": 82.317,
+          "weak": 29.0
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 58.783,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 58.978,
+            "mean_difference_from_clean": 0.194,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 48.944,
+            "mean_difference_from_clean": -9.839,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "Llama 4 Maverick": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 74.0,
+          "strong": 86.833,
+          "weak": 39.333
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 66.722,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 66.444,
+            "mean_difference_from_clean": -0.278,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 50.806,
+            "mean_difference_from_clean": -15.917,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 68.217,
+          "strong": 82.0,
+          "weak": 28.0
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 59.406,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 59.433,
+            "mean_difference_from_clean": 0.028,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 39.722,
+            "mean_difference_from_clean": -19.683,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 70.5,
+          "strong": 83.083,
+          "weak": 41.75
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 65.111,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 64.65,
+            "mean_difference_from_clean": -0.461,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 54.4,
+            "mean_difference_from_clean": -10.711,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  },
+  "Qwen3-32B": {
+    "replies": 1620,
+    "valid": 1620,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 68.533,
+          "strong": 82.817,
+          "weak": 33.333
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 61.561,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 61.511,
+            "mean_difference_from_clean": -0.05,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 44.856,
+            "mean_difference_from_clean": -16.706,
+            "paired_cells": 60
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 65.733,
+          "strong": 81.05,
+          "weak": 35.417
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 60.733,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 60.661,
+            "mean_difference_from_clean": -0.072,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 45.317,
+            "mean_difference_from_clean": -15.417,
+            "paired_cells": 60
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 71.883,
+          "strong": 82.05,
+          "weak": 45.283
+        },
+        "conditions": {
+          "clean": {
+            "cells": 60,
+            "mean_score": 66.406,
+            "mean_difference_from_clean": 0.0,
+            "paired_cells": 60
+          },
+          "cleared": {
+            "cells": 60,
+            "mean_score": 65.961,
+            "mean_difference_from_clean": -0.444,
+            "paired_cells": 60
+          },
+          "responsible": {
+            "cells": 60,
+            "mean_score": 56.967,
+            "mean_difference_from_clean": -9.439,
+            "paired_cells": 60
+          }
+        }
+      }
+    }
+  }
+}
