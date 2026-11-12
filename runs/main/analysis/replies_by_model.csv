@@ -1,0 +1,6 @@
+model,api_model,sent,valid,valid_unique,unparseable,errors,cost_usd
+GPT-5.4 mini,openai/gpt-5.4-mini,13202,13200,13200,0,2,13.87
+Gemini 3.8 Flash,google/gemini-3.8-flash,13200,13200,13200,0,0,35.73
+Gemma 4 31B IT,google/gemma-4-31b-it,13203,13200,13200,2,1,1.89
+Llama 4 Maverick,meta-llama/llama-4-maverick,13231,13200,13200,31,0,7.23
+Qwen3-32B,qwen/qwen3-32b,13276,13200,13200,76,0,3.86

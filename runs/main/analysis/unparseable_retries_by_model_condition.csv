@@ -1,0 +1,4 @@
+model,clean,cleared,dismissed,exonerated_acknowledged,exonerated_on_appeal,neutral_control,pending,procedural_reversal,responsible,responsible_rehabilitated,withdrawn
+Gemma 4 31B IT,0,0,0,0,1,1,0,0,0,0,0
+Llama 4 Maverick,2,2,1,2,2,2,5,1,8,4,2
+Qwen3-32B,3,4,10,9,6,10,11,4,5,5,9

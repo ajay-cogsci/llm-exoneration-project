@@ -1,0 +1,1162 @@
+{
+  "GPT-5.4 mini": {
+    "replies": 13200,
+    "valid": 13200,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 61.152,
+          "strong": 80.583,
+          "weak": 35.517
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 59.547,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 61.795,
+            "mean_difference_from_clean": 2.248,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 60.43,
+            "mean_difference_from_clean": 0.882,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 63.337,
+            "mean_difference_from_clean": 3.79,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 62.227,
+            "mean_difference_from_clean": 2.68,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 61.008,
+            "mean_difference_from_clean": 1.46,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 48.81,
+            "mean_difference_from_clean": -10.738,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 50.56,
+            "mean_difference_from_clean": -8.988,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 32.487,
+            "mean_difference_from_clean": -27.06,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 43.663,
+            "mean_difference_from_clean": -15.885,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 59.79,
+            "mean_difference_from_clean": 0.242,
+            "paired_cells": 400
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 54.512,
+          "strong": 76.983,
+          "weak": 29.328
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 53.95,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 53.938,
+            "mean_difference_from_clean": -0.013,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 52.425,
+            "mean_difference_from_clean": -1.525,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 56.288,
+            "mean_difference_from_clean": 2.337,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 55.965,
+            "mean_difference_from_clean": 2.015,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 54.18,
+            "mean_difference_from_clean": 0.23,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 41.035,
+            "mean_difference_from_clean": -12.915,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 42.195,
+            "mean_difference_from_clean": -11.755,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 26.23,
+            "mean_difference_from_clean": -27.72,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 38.352,
+            "mean_difference_from_clean": -15.598,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 52.115,
+            "mean_difference_from_clean": -1.835,
+            "paired_cells": 400
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 67.03,
+          "strong": 82.275,
+          "weak": 43.474
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 64.772,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 64.498,
+            "mean_difference_from_clean": -0.275,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 63.273,
+            "mean_difference_from_clean": -1.5,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 64.993,
+            "mean_difference_from_clean": 0.22,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 65.2,
+            "mean_difference_from_clean": 0.427,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 64.703,
+            "mean_difference_from_clean": -0.07,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 58.538,
+            "mean_difference_from_clean": -6.235,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 59.568,
+            "mean_difference_from_clean": -5.205,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 51.858,
+            "mean_difference_from_clean": -12.915,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 57.015,
+            "mean_difference_from_clean": -7.758,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 63.002,
+            "mean_difference_from_clean": -1.77,
+            "paired_cells": 400
+          }
+        }
+      }
+    }
+  },
+  "Gemini 3.8 Flash": {
+    "replies": 13200,
+    "valid": 13200,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 38.195,
+          "strong": 70.642,
+          "weak": 11.009
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 40.045,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 41.715,
+            "mean_difference_from_clean": 1.67,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 41.21,
+            "mean_difference_from_clean": 1.165,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 43.023,
+            "mean_difference_from_clean": 2.978,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 42.303,
+            "mean_difference_from_clean": 2.257,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 41.347,
+            "mean_difference_from_clean": 1.302,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 31.77,
+            "mean_difference_from_clean": -8.275,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 35.15,
+            "mean_difference_from_clean": -4.895,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 10.102,
+            "mean_difference_from_clean": -29.942,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 14.605,
+            "mean_difference_from_clean": -25.44,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 40.96,
+            "mean_difference_from_clean": 0.915,
+            "paired_cells": 400
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 32.274,
+          "strong": 65.15,
+          "weak": 9.957
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 35.665,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 36.52,
+            "mean_difference_from_clean": 0.855,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 35.972,
+            "mean_difference_from_clean": 0.307,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 37.74,
+            "mean_difference_from_clean": 2.075,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 37.46,
+            "mean_difference_from_clean": 1.795,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 36.575,
+            "mean_difference_from_clean": 0.91,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 25.788,
+            "mean_difference_from_clean": -9.877,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 30.012,
+            "mean_difference_from_clean": -5.652,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 8.303,
+            "mean_difference_from_clean": -27.363,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 11.975,
+            "mean_difference_from_clean": -23.69,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 36.032,
+            "mean_difference_from_clean": 0.367,
+            "paired_cells": 400
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 56.348,
+          "strong": 75.942,
+          "weak": 25.224
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 53.2,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 53.697,
+            "mean_difference_from_clean": 0.497,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 53.25,
+            "mean_difference_from_clean": 0.05,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 54.347,
+            "mean_difference_from_clean": 1.147,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 54.07,
+            "mean_difference_from_clean": 0.87,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 53.703,
+            "mean_difference_from_clean": 0.502,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 46.51,
+            "mean_difference_from_clean": -6.69,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 49.017,
+            "mean_difference_from_clean": -4.183,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 24.67,
+            "mean_difference_from_clean": -28.53,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 30.003,
+            "mean_difference_from_clean": -23.198,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 53.11,
+            "mean_difference_from_clean": -0.09,
+            "paired_cells": 400
+          }
+        }
+      }
+    }
+  },
+  "Gemma 4 31B IT": {
+    "replies": 13200,
+    "valid": 13200,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 54.146,
+          "strong": 83.333,
+          "weak": 16.422
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 51.962,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 54.138,
+            "mean_difference_from_clean": 2.175,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 52.85,
+            "mean_difference_from_clean": 0.887,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 56.312,
+            "mean_difference_from_clean": 4.35,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 55.992,
+            "mean_difference_from_clean": 4.03,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 53.12,
+            "mean_difference_from_clean": 1.157,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 48.025,
+            "mean_difference_from_clean": -3.938,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 51.6,
+            "mean_difference_from_clean": -0.362,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 35.7,
+            "mean_difference_from_clean": -16.262,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 42.138,
+            "mean_difference_from_clean": -9.825,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 52.233,
+            "mean_difference_from_clean": 0.27,
+            "paired_cells": 400
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 49.787,
+          "strong": 80.292,
+          "weak": 16.293
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 49.225,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 49.773,
+            "mean_difference_from_clean": 0.547,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 48.642,
+            "mean_difference_from_clean": -0.583,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 51.362,
+            "mean_difference_from_clean": 2.138,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 51.325,
+            "mean_difference_from_clean": 2.1,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 49.81,
+            "mean_difference_from_clean": 0.585,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 43.812,
+            "mean_difference_from_clean": -5.412,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 46.062,
+            "mean_difference_from_clean": -3.163,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 28.988,
+            "mean_difference_from_clean": -20.238,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 36.828,
+            "mean_difference_from_clean": -12.398,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 48.03,
+            "mean_difference_from_clean": -1.195,
+            "paired_cells": 400
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 63.226,
+          "strong": 84.025,
+          "weak": 30.388
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 59.943,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 60.66,
+            "mean_difference_from_clean": 0.718,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 59.447,
+            "mean_difference_from_clean": -0.495,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 61.585,
+            "mean_difference_from_clean": 1.643,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 61.688,
+            "mean_difference_from_clean": 1.745,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 60.663,
+            "mean_difference_from_clean": 0.72,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 56.758,
+            "mean_difference_from_clean": -3.185,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 57.883,
+            "mean_difference_from_clean": -2.06,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 50.375,
+            "mean_difference_from_clean": -9.568,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 53.347,
+            "mean_difference_from_clean": -6.595,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 59.15,
+            "mean_difference_from_clean": -0.792,
+            "paired_cells": 400
+          }
+        }
+      }
+    }
+  },
+  "Llama 4 Maverick": {
+    "replies": 13200,
+    "valid": 13200,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 71.774,
+          "strong": 87.525,
+          "weak": 41.405
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 67.692,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 68.165,
+            "mean_difference_from_clean": 0.472,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 65.6,
+            "mean_difference_from_clean": -2.092,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 71.862,
+            "mean_difference_from_clean": 4.17,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 70.495,
+            "mean_difference_from_clean": 2.803,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 68.653,
+            "mean_difference_from_clean": 0.96,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 57.175,
+            "mean_difference_from_clean": -10.518,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 63.86,
+            "mean_difference_from_clean": -3.833,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 52.125,
+            "mean_difference_from_clean": -15.568,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 59.587,
+            "mean_difference_from_clean": -8.105,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 62.575,
+            "mean_difference_from_clean": -5.117,
+            "paired_cells": 400
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 66.128,
+          "strong": 84.508,
+          "weak": 33.31
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 62.125,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 61.885,
+            "mean_difference_from_clean": -0.24,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 60.075,
+            "mean_difference_from_clean": -2.05,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 67.175,
+            "mean_difference_from_clean": 5.05,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 65.995,
+            "mean_difference_from_clean": 3.87,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 61.767,
+            "mean_difference_from_clean": -0.357,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 48.413,
+            "mean_difference_from_clean": -13.713,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 57.468,
+            "mean_difference_from_clean": -4.657,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 41.075,
+            "mean_difference_from_clean": -21.05,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 51.008,
+            "mean_difference_from_clean": -11.117,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 56.075,
+            "mean_difference_from_clean": -6.05,
+            "paired_cells": 400
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 68.89,
+          "strong": 85.492,
+          "weak": 43.991
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 66.65,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 66.002,
+            "mean_difference_from_clean": -0.647,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 64.04,
+            "mean_difference_from_clean": -2.61,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 67.085,
+            "mean_difference_from_clean": 0.435,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 66.972,
+            "mean_difference_from_clean": 0.323,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 65.963,
+            "mean_difference_from_clean": -0.688,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 60.593,
+            "mean_difference_from_clean": -6.058,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 63.67,
+            "mean_difference_from_clean": -2.98,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 55.767,
+            "mean_difference_from_clean": -10.883,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 59.75,
+            "mean_difference_from_clean": -6.9,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 62.748,
+            "mean_difference_from_clean": -3.902,
+            "paired_cells": 400
+          }
+        }
+      }
+    }
+  },
+  "Qwen3-32B": {
+    "replies": 13200,
+    "valid": 13200,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 64.994,
+          "strong": 83.9,
+          "weak": 35.905
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 62.23,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 63.135,
+            "mean_difference_from_clean": 0.905,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 61.27,
+            "mean_difference_from_clean": -0.96,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 62.623,
+            "mean_difference_from_clean": 0.393,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 61.977,
+            "mean_difference_from_clean": -0.253,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 61.845,
+            "mean_difference_from_clean": -0.385,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 53.788,
+            "mean_difference_from_clean": -8.443,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 59.688,
+            "mean_difference_from_clean": -2.542,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 44.925,
+            "mean_difference_from_clean": -17.305,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 54.715,
+            "mean_difference_from_clean": -7.515,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 59.89,
+            "mean_difference_from_clean": -2.34,
+            "paired_cells": 400
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 63.866,
+          "strong": 82.783,
+          "weak": 36.767
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 61.682,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 62.58,
+            "mean_difference_from_clean": 0.897,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 59.775,
+            "mean_difference_from_clean": -1.907,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 61.928,
+            "mean_difference_from_clean": 0.245,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 61.407,
+            "mean_difference_from_clean": -0.275,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 61.307,
+            "mean_difference_from_clean": -0.375,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 53.557,
+            "mean_difference_from_clean": -8.125,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 58.627,
+            "mean_difference_from_clean": -3.055,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 47.14,
+            "mean_difference_from_clean": -14.543,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 55.678,
+            "mean_difference_from_clean": -6.005,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 59.458,
+            "mean_difference_from_clean": -2.225,
+            "paired_cells": 400
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 69.939,
+          "strong": 84.092,
+          "weak": 48.586
+        },
+        "conditions": {
+          "clean": {
+            "cells": 400,
+            "mean_score": 67.993,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 400
+          },
+          "cleared": {
+            "cells": 400,
+            "mean_score": 67.968,
+            "mean_difference_from_clean": -0.025,
+            "paired_cells": 400
+          },
+          "dismissed": {
+            "cells": 400,
+            "mean_score": 66.795,
+            "mean_difference_from_clean": -1.198,
+            "paired_cells": 400
+          },
+          "exonerated_acknowledged": {
+            "cells": 400,
+            "mean_score": 67.42,
+            "mean_difference_from_clean": -0.573,
+            "paired_cells": 400
+          },
+          "exonerated_on_appeal": {
+            "cells": 400,
+            "mean_score": 67.165,
+            "mean_difference_from_clean": -0.828,
+            "paired_cells": 400
+          },
+          "neutral_control": {
+            "cells": 400,
+            "mean_score": 67.635,
+            "mean_difference_from_clean": -0.357,
+            "paired_cells": 400
+          },
+          "pending": {
+            "cells": 400,
+            "mean_score": 62.415,
+            "mean_difference_from_clean": -5.577,
+            "paired_cells": 400
+          },
+          "procedural_reversal": {
+            "cells": 400,
+            "mean_score": 65.56,
+            "mean_difference_from_clean": -2.433,
+            "paired_cells": 400
+          },
+          "responsible": {
+            "cells": 400,
+            "mean_score": 58.09,
+            "mean_difference_from_clean": -9.902,
+            "paired_cells": 400
+          },
+          "responsible_rehabilitated": {
+            "cells": 400,
+            "mean_score": 63.065,
+            "mean_difference_from_clean": -4.928,
+            "paired_cells": 400
+          },
+          "withdrawn": {
+            "cells": 400,
+            "mean_score": 65.707,
+            "mean_difference_from_clean": -2.285,
+            "paired_cells": 400
+          }
+        }
+      }
+    }
+  }
+}
