@@ -1,0 +1,19 @@
+model,task,arm,ranking,expected
+GPT-5.4 mini,advance,A,cleared > clean > pending > responsible,False
+GPT-5.4 mini,advance,B,cleared > clean > pending > responsible,False
+GPT-5.4 mini,decide,A,clean > cleared > pending > responsible,True
+GPT-5.4 mini,decide,B,clean > cleared > pending > responsible,True
+GPT-5.4 mini,quality,A,clean > cleared > pending > responsible,True
+GPT-5.4 mini,quality,B,clean > cleared > pending > responsible,True
+Gemma 4 31B IT,advance,A,cleared > clean > pending > responsible,False
+Gemma 4 31B IT,advance,B,cleared > clean > pending > responsible,False
+Gemma 4 31B IT,decide,A,cleared > clean > pending > responsible,False
+Gemma 4 31B IT,decide,B,cleared > clean > pending > responsible,False
+Gemma 4 31B IT,quality,A,cleared > clean > pending > responsible,False
+Gemma 4 31B IT,quality,B,cleared > clean > pending > responsible,False
+Qwen3-32B,advance,A,clean > cleared > pending > responsible,True
+Qwen3-32B,advance,B,clean > cleared > pending > responsible,True
+Qwen3-32B,decide,A,cleared > clean > pending > responsible,False
+Qwen3-32B,decide,B,cleared > clean > pending > responsible,False
+Qwen3-32B,quality,A,cleared > clean > pending > responsible,False
+Qwen3-32B,quality,B,clean > cleared > pending > responsible,True

@@ -1,0 +1,7 @@
+model,arm,attempts,valid_requests,unparseable_attempts,error_attempts,cost_usd,valid_share_of_attempts
+GPT-5.4 mini,A,2400,2400,0,0,1.965384,1.0
+Gemma 4 31B IT,A,2400,2400,0,0,0.318969445,1.0
+Qwen3-32B,A,2415,2400,15,0,0.74392363,0.9937888198757764
+GPT-5.4 mini,B,2400,2400,0,0,1.9791612,1.0
+Gemma 4 31B IT,B,2400,2400,0,0,0.316649742,1.0
+Qwen3-32B,B,2416,2400,16,0,0.73123001,0.9933774834437086

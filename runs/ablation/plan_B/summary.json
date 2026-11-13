@@ -1,0 +1,320 @@
+{
+  "GPT-5.4 mini": {
+    "replies": 2400,
+    "valid": 2400,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 65.549,
+          "strong": 82.267,
+          "weak": 38.276
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 62.655,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 63.94,
+            "mean_difference_from_clean": 1.285,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 51.685,
+            "mean_difference_from_clean": -10.97,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 33.48,
+            "mean_difference_from_clean": -29.175,
+            "paired_cells": 200
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 59.793,
+          "strong": 79.117,
+          "weak": 32.638
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 57.715,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 57.07,
+            "mean_difference_from_clean": -0.645,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 44.18,
+            "mean_difference_from_clean": -13.535,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 28.44,
+            "mean_difference_from_clean": -29.275,
+            "paired_cells": 200
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 67.598,
+          "strong": 81.85,
+          "weak": 42.931
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 64.72,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 63.84,
+            "mean_difference_from_clean": -0.88,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 57.3,
+            "mean_difference_from_clean": -7.42,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 49.52,
+            "mean_difference_from_clean": -15.2,
+            "paired_cells": 200
+          }
+        }
+      }
+    }
+  },
+  "Gemma 4 31B IT": {
+    "replies": 2400,
+    "valid": 2400,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 52.988,
+          "strong": 82.617,
+          "weak": 18.017
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 51.735,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 53.11,
+            "mean_difference_from_clean": 1.375,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 48.335,
+            "mean_difference_from_clean": -3.4,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 37.675,
+            "mean_difference_from_clean": -14.06,
+            "paired_cells": 200
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 49.098,
+          "strong": 79.367,
+          "weak": 16.983
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 48.865,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 49.05,
+            "mean_difference_from_clean": 0.185,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 44,
+            "mean_difference_from_clean": -4.865,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 33.3,
+            "mean_difference_from_clean": -15.565,
+            "paired_cells": 200
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 60.5,
+          "strong": 83.383,
+          "weak": 28.828
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 58.18,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 58.815,
+            "mean_difference_from_clean": 0.635,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 55.475,
+            "mean_difference_from_clean": -2.705,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 49.59,
+            "mean_difference_from_clean": -8.59,
+            "paired_cells": 200
+          }
+        }
+      }
+    }
+  },
+  "Qwen3-32B": {
+    "replies": 2400,
+    "valid": 2400,
+    "invalid_or_error": 0,
+    "tasks": {
+      "advance": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 68.695,
+          "strong": 85.95,
+          "weak": 38.276
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 65.05,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 64.46,
+            "mean_difference_from_clean": -0.59,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 56.475,
+            "mean_difference_from_clean": -8.575,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 47.625,
+            "mean_difference_from_clean": -17.425,
+            "paired_cells": 200
+          }
+        }
+      },
+      "decide": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 65.476,
+          "strong": 84,
+          "weak": 39.31
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 63.445,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 64.21,
+            "mean_difference_from_clean": 0.765,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 56.375,
+            "mean_difference_from_clean": -7.07,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 48.67,
+            "mean_difference_from_clean": -14.775,
+            "paired_cells": 200
+          }
+        }
+      },
+      "quality": {
+        "clean_mean_score_by_cv_tier": {
+          "borderline": 71.293,
+          "strong": 85.267,
+          "weak": 48.103
+        },
+        "conditions": {
+          "clean": {
+            "cells": 200,
+            "mean_score": 68.76,
+            "mean_difference_from_clean": 0,
+            "paired_cells": 200
+          },
+          "cleared": {
+            "cells": 200,
+            "mean_score": 68.755,
+            "mean_difference_from_clean": -0.005,
+            "paired_cells": 200
+          },
+          "pending": {
+            "cells": 200,
+            "mean_score": 63.51,
+            "mean_difference_from_clean": -5.25,
+            "paired_cells": 200
+          },
+          "responsible": {
+            "cells": 200,
+            "mean_score": 58.515,
+            "mean_difference_from_clean": -10.245,
+            "paired_cells": 200
+          }
+        }
+      }
+    }
+  }
+}

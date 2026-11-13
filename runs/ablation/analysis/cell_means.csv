@@ -1,0 +1,109 @@
+model,task,arm,condition,mean,n_applicants
+Gemma 4 31B IT,quality,A,clean,59.06,100
+Gemma 4 31B IT,quality,A,cleared,60.065,100
+Gemma 4 31B IT,quality,A,pending,56.415,100
+Gemma 4 31B IT,quality,A,responsible,50.715,100
+Gemma 4 31B IT,quality,B,clean,58.18,100
+Gemma 4 31B IT,quality,B,cleared,58.815,100
+Gemma 4 31B IT,quality,B,pending,55.475,100
+Gemma 4 31B IT,quality,B,responsible,49.59,100
+Gemma 4 31B IT,quality,main,clean,58.95,100
+Gemma 4 31B IT,quality,main,cleared,60.075,100
+Gemma 4 31B IT,quality,main,pending,56.305,100
+Gemma 4 31B IT,quality,main,responsible,50.605,100
+Gemma 4 31B IT,advance,A,clean,52.585,100
+Gemma 4 31B IT,advance,A,cleared,54.225,100
+Gemma 4 31B IT,advance,A,pending,49.625,100
+Gemma 4 31B IT,advance,A,responsible,38.675,100
+Gemma 4 31B IT,advance,B,clean,51.735,100
+Gemma 4 31B IT,advance,B,cleared,53.11,100
+Gemma 4 31B IT,advance,B,pending,48.335,100
+Gemma 4 31B IT,advance,B,responsible,37.675,100
+Gemma 4 31B IT,advance,main,clean,52.225,100
+Gemma 4 31B IT,advance,main,cleared,54.3,100
+Gemma 4 31B IT,advance,main,pending,49.425,100
+Gemma 4 31B IT,advance,main,responsible,39.0,100
+Gemma 4 31B IT,decide,A,clean,49.65,100
+Gemma 4 31B IT,decide,A,cleared,50.47,100
+Gemma 4 31B IT,decide,A,pending,44.415,100
+Gemma 4 31B IT,decide,A,responsible,33.235,100
+Gemma 4 31B IT,decide,B,clean,48.865,100
+Gemma 4 31B IT,decide,B,cleared,49.05,100
+Gemma 4 31B IT,decide,B,pending,44.0,100
+Gemma 4 31B IT,decide,B,responsible,33.3,100
+Gemma 4 31B IT,decide,main,clean,48.9,100
+Gemma 4 31B IT,decide,main,cleared,49.535,100
+Gemma 4 31B IT,decide,main,pending,44.815,100
+Gemma 4 31B IT,decide,main,responsible,32.775,100
+Qwen3-32B,quality,A,clean,68.44,100
+Qwen3-32B,quality,A,cleared,69.035,100
+Qwen3-32B,quality,A,pending,63.57,100
+Qwen3-32B,quality,A,responsible,58.9,100
+Qwen3-32B,quality,B,clean,68.76,100
+Qwen3-32B,quality,B,cleared,68.755,100
+Qwen3-32B,quality,B,pending,63.51,100
+Qwen3-32B,quality,B,responsible,58.515,100
+Qwen3-32B,quality,main,clean,68.895,100
+Qwen3-32B,quality,main,cleared,68.555,100
+Qwen3-32B,quality,main,pending,62.435,100
+Qwen3-32B,quality,main,responsible,57.98,100
+Qwen3-32B,advance,A,clean,64.895,100
+Qwen3-32B,advance,A,cleared,64.235,100
+Qwen3-32B,advance,A,pending,55.89,100
+Qwen3-32B,advance,A,responsible,48.575,100
+Qwen3-32B,advance,B,clean,65.05,100
+Qwen3-32B,advance,B,cleared,64.46,100
+Qwen3-32B,advance,B,pending,56.475,100
+Qwen3-32B,advance,B,responsible,47.625,100
+Qwen3-32B,advance,main,clean,63.685,100
+Qwen3-32B,advance,main,cleared,64.53,100
+Qwen3-32B,advance,main,pending,55.55,100
+Qwen3-32B,advance,main,responsible,47.315,100
+Qwen3-32B,decide,A,clean,63.615,100
+Qwen3-32B,decide,A,cleared,64.375,100
+Qwen3-32B,decide,A,pending,56.57,100
+Qwen3-32B,decide,A,responsible,49.65,100
+Qwen3-32B,decide,B,clean,63.445,100
+Qwen3-32B,decide,B,cleared,64.21,100
+Qwen3-32B,decide,B,pending,56.375,100
+Qwen3-32B,decide,B,responsible,48.67,100
+Qwen3-32B,decide,main,clean,62.74,100
+Qwen3-32B,decide,main,cleared,63.545,100
+Qwen3-32B,decide,main,pending,54.585,100
+Qwen3-32B,decide,main,responsible,48.245,100
+GPT-5.4 mini,quality,A,clean,64.35,100
+GPT-5.4 mini,quality,A,cleared,63.345,100
+GPT-5.4 mini,quality,A,pending,56.72,100
+GPT-5.4 mini,quality,A,responsible,49.255,100
+GPT-5.4 mini,quality,B,clean,64.72,100
+GPT-5.4 mini,quality,B,cleared,63.84,100
+GPT-5.4 mini,quality,B,pending,57.3,100
+GPT-5.4 mini,quality,B,responsible,49.52,100
+GPT-5.4 mini,quality,main,clean,64.435,100
+GPT-5.4 mini,quality,main,cleared,63.57,100
+GPT-5.4 mini,quality,main,pending,56.315,100
+GPT-5.4 mini,quality,main,responsible,49.69,100
+GPT-5.4 mini,advance,A,clean,62.38,100
+GPT-5.4 mini,advance,A,cleared,63.8,100
+GPT-5.4 mini,advance,A,pending,50.8,100
+GPT-5.4 mini,advance,A,responsible,32.445,100
+GPT-5.4 mini,advance,B,clean,62.655,100
+GPT-5.4 mini,advance,B,cleared,63.94,100
+GPT-5.4 mini,advance,B,pending,51.685,100
+GPT-5.4 mini,advance,B,responsible,33.48,100
+GPT-5.4 mini,advance,main,clean,61.595,100
+GPT-5.4 mini,advance,main,cleared,63.28,100
+GPT-5.4 mini,advance,main,pending,50.62,100
+GPT-5.4 mini,advance,main,responsible,33.105,100
+GPT-5.4 mini,decide,A,clean,56.45,100
+GPT-5.4 mini,decide,A,cleared,56.38,100
+GPT-5.4 mini,decide,A,pending,42.225,100
+GPT-5.4 mini,decide,A,responsible,27.2,100
+GPT-5.4 mini,decide,B,clean,57.715,100
+GPT-5.4 mini,decide,B,cleared,57.07,100
+GPT-5.4 mini,decide,B,pending,44.18,100
+GPT-5.4 mini,decide,B,responsible,28.44,100
+GPT-5.4 mini,decide,main,clean,56.61,100
+GPT-5.4 mini,decide,main,cleared,55.715,100
+GPT-5.4 mini,decide,main,pending,42.8,100
+GPT-5.4 mini,decide,main,responsible,27.59,100
