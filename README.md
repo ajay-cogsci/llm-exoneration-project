@@ -15,6 +15,12 @@ Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysi
 and [TA preparation](docs/TA_PREPARATION.md) for what must be ready before a run.
 Earlier results and published datasets are retained.
 
+**Start from `main` for completed work.** The only preparation branch is
+`codex/ta-prep`; its TA materials await review and do not authorize a run.
+The [branch history](docs/EXPERIMENTS.md#repository-branches-consolidated-16-november-2026)
+explains the retired names. The five-model full run is complete for those five
+models; the originally proposed seven-model panel remains incomplete.
+
 ## Published datasets
 
 | Dataset | Contents |
