@@ -4,6 +4,12 @@
 plans the design, sends requests to a model and exports the replies. It uses
 only the Python standard library. Planning and previewing make no API calls.
 
+The commands below describe the original 11-condition design. The separately
+named [focused follow-up](docs/phd_followup/README.md) is an offline draft:
+three topics, six states per topic, two shared controls, and two selected prompts
+in answer-only format. Its [exact wording](docs/phd_followup/WORDINGS.md) requires
+review and explicit launch approval. No earlier results are replaced.
+
 Inputs are the corrected packets in
 [`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/)
 and the settings in [`configs/phd_eval_v1.json`](configs/phd_eval_v1.json).

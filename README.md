@@ -4,6 +4,18 @@ Structured PhD applicant generation, provisional admissions-rubric labels,
 constrained CV wording, and fixed-template recommendation summaries. The project
 studies evaluations of otherwise identical applications across integrity conditions.
 
+## Experiment status
+
+The PhD pilot, five-model full-design run, and three-model no-infer ablation
+are complete. A focused PhD follow-up is in **offline preparation**, awaiting
+review of the exact wordings and explicit approval to run. TA and the other
+opportunities have not been run.
+
+Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis.
+The [follow-up protocol](docs/phd_followup/README.md) explains the 20 proposed
+conditions, and [WORDINGS.md](docs/phd_followup/WORDINGS.md) contains all 40 exact
+record texts for review. Earlier results and published datasets are retained.
+
 ## Published datasets
 
 | Dataset | Contents |

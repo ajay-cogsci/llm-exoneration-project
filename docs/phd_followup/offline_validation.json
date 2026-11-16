@@ -1,0 +1,107 @@
+{
+  "status": "OFFLINE DRAFT CHECKS PASSED; WORDING APPROVAL STILL REQUIRED",
+  "api_requests_sent": 0,
+  "plan_directory_created": false,
+  "config_hash": "845f5abf73774dd780a2d107ae210bb3663fe71c0f59e9fd426917be78186a17",
+  "design_hash": "92ae4fb25420f6989208f4d60f7c6adf69dc27a758f37cff78274d01b6bf8126",
+  "applicants": 100,
+  "applicants_by_tier": {
+    "weak": 29,
+    "strong": 30,
+    "borderline": 41
+  },
+  "conditions": 20,
+  "wordings": 40,
+  "requests_per_model": 8000,
+  "models": 4,
+  "requests_total": 32000,
+  "prompts_checked_for_record_only_changes": 8000,
+  "exact_reused_prompt_checks": 2800,
+  "acknowledgment_pairs_checked": 6,
+  "limitations": [
+    "Mechanical validation does not establish equal severity or semantic equivalence.",
+    "No live model availability, prices, credentials, or budget checks were performed."
+  ],
+  "record_word_counts": {
+    "clean": [
+      11,
+      7
+    ],
+    "neutral_control": [
+      44,
+      36
+    ],
+    "ai_use_verified": [
+      51,
+      37
+    ],
+    "ai_use_pending": [
+      35,
+      29
+    ],
+    "ai_use_confirmed": [
+      37,
+      38
+    ],
+    "ai_use_cleared": [
+      44,
+      40
+    ],
+    "ai_use_appeal": [
+      63,
+      62
+    ],
+    "ai_use_acknowledged": [
+      76,
+      75
+    ],
+    "fabrication_verified": [
+      50,
+      52
+    ],
+    "fabrication_pending": [
+      36,
+      32
+    ],
+    "fabrication_confirmed": [
+      47,
+      49
+    ],
+    "fabrication_cleared": [
+      61,
+      52
+    ],
+    "fabrication_appeal": [
+      70,
+      71
+    ],
+    "fabrication_acknowledged": [
+      83,
+      84
+    ],
+    "technical_error_verified": [
+      62,
+      62
+    ],
+    "technical_error_pending": [
+      51,
+      45
+    ],
+    "technical_error_confirmed": [
+      56,
+      57
+    ],
+    "technical_error_cleared": [
+      71,
+      65
+    ],
+    "technical_error_appeal": [
+      73,
+      75
+    ],
+    "technical_error_acknowledged": [
+      86,
+      88
+    ]
+  }
+}
