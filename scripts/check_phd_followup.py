@@ -46,7 +46,7 @@ def validate_materials(config, original, manifest, root=ROOT):
     for scenario in SCENARIOS:
         for i in range(2):
             require(conditions[f"{scenario}_acknowledged"]["wordings"][i] ==
-                    conditions[f"{scenario}_appeal"]["wordings"][i] + ACKNOWLEDGMENT[i],
+                    conditions[f"{scenario}_appeal"]["wordings"][i] + ACKNOWLEDGMENT[scenario][i],
                     f"Acknowledgment is not a one-sentence addition: {scenario}, wording {i + 1}")
     applicants = load_applicants(config, root)
     require(len(applicants) == 100, "Expected the same 100 applicants")
@@ -96,23 +96,25 @@ def render_wordings(config, manifest):
              "## Design", "",
              "Three scenarios × six states + two shared controls = 20 conditions. Each has two wordings. The same 100 applicants receive quality and advance prompts in answer-only format, with one repeat: 8,000 requests per model. Four models are planned. No requests have been sent.", "",
              "## Points requiring human review", "",
-             "- Routine verification supplies favorable evidence without accusation history. It is not the same as the short clean baseline.",
-             "- The original AI-use texts are copied exactly. They use the academic integrity office; the two new scenarios use a university review panel.",
-             "- Fabrication and technical-error records share coursework, evidence sources, a review panel, and a zero assignment grade after an adverse finding. This does not establish equal perceived severity.",
-             "- Every technical-error record explicitly says no dishonesty or academic misconduct was alleged. This prevents an integrity interpretation, but also adds text and may itself reassure the evaluator.",
+             "- Verification now means the course instructor checks work during normal grading for the class. It supplies favorable evidence without a prior accusation. It is not the same as the short clean baseline, and its plausibility still needs review.",
+             "- The five reused AI allegation states and the two shared controls are copied exactly. The new AI verification control uses an instructor, whereas the original clearing decision uses the academic integrity office; authority is not perfectly matched.",
+             "- The two new cases use a course report based on supplied data: deliberately making up results versus calculating an average incorrectly. No programming knowledge is needed to understand the records.",
+             "- A confirmed calculation mistake costs 10 marks on a 100-mark report under normal grading rules. A grade review restores those marks if the original calculation was correct. Fabrication retains a zero and an integrity-office decision. These differences improve plausibility but prevent a pure integrity-versus-competence interpretation.",
+             "- Every calculation-mistake record explicitly says no dishonesty or academic misconduct was alleged. This is intended to clarify the concern, but it may reassure the evaluator and does not establish that readers perceive only a competence issue.",
              "- The original clean record rules out integrity allegations; it does not explicitly rule out competence concerns. Therefore technical-error versus clean is descriptive. Technical-error versus its routine-verification control is the primary comparison.",
-             "- The verified and cleared records match the favorable factual conclusion within scenario. They are not exactly equal in length. Original AI appeal text also says additional/conclusive evidence; that wording is preserved for replication.",
+             "- The verified and cleared records match the favorable factual conclusion within scenario. They are not equal in length or identical in reviewing authority. Original AI appeal text also says additional/conclusive evidence; that wording is preserved for replication.",
+             "- The calculation case is a proposed comparison motivated by trust research, not a validated measure of competence. Before freezing the wording, check comprehension, plausibility, perceived seriousness, dishonesty, ability, and whether the concern is clearly disproved. See RATIONALE.md for the evidence and its limits.",
              "- No record names a CV project or letter writer. The model can still infer a connection; this follow-up does not experimentally remove that possibility.",
              "- These are new descriptions on the existing applicant bank, not new applicants or a staged belief-updating experiment.", "",
              "## Record meanings", "",
              "| State | What is established | Finding / grade consequence |",
              "|---|---|---|",
-             "| verified | Favorable evidence from routine review; no prior allegation/concern | No adverse finding or penalty |",
+             "| verified | Instructor checks work during normal grading; no prior concern | No adverse finding or deduction |",
              "| pending | Concern unresolved | No finding or penalty yet |",
-             "| confirmed | Misconduct or honest error established | Zero on the assignment |",
+             "| confirmed | Misconduct or calculation mistake established | AI/fabrication: zero; calculation mistake: 10 marks deducted from a 100-mark report |",
              "| cleared | Alleged conduct/error did not occur | No adverse finding or penalty |",
-             "| appeal | Initial adverse finding was factually wrong | Finding reversed; zero and record consequences corrected |",
-             "| acknowledged | Same as appeal plus written institutional acknowledgment | Same correction as appeal |", ""]
+             "| appeal | Original submitted work shows the initial decision was wrong | Misconduct decision reversed or grading error corrected; grade and course record corrected |",
+             "| acknowledged | Same as appeal plus written acknowledgment by the decision maker | Same correction as appeal |", ""]
     for condition in config["conditions"]:
         cid = condition["id"]
         source = manifest[cid]["source_condition"]

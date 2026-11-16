@@ -22,10 +22,21 @@ SOURCE_CONDITIONS = {
     "ai_use_cleared": "cleared", "ai_use_appeal": "exonerated_on_appeal",
     "ai_use_acknowledged": "exonerated_acknowledged",
 }
-ACKNOWLEDGMENT = (
+ORIGINAL_ACKNOWLEDGMENT = (
     " The university also issued a written acknowledgment that its original finding was erroneous.",
     " The university subsequently issued a written acknowledgment that its original finding was erroneous.",
 )
+ACKNOWLEDGMENT = {
+    "ai_use": ORIGINAL_ACKNOWLEDGMENT,
+    "fabrication": (
+        " The university also confirmed in writing that its original decision was wrong.",
+        " The university then provided written confirmation that its original decision was wrong.",
+    ),
+    "technical_error": (
+        " The department also confirmed in writing that its original grading decision was wrong.",
+        " The department then provided written confirmation that its original grading decision was wrong.",
+    ),
+}
 PRIMARY_PAIRS = (("cleared", "verified"), ("appeal", "verified"), ("acknowledged", "appeal"))
 
 

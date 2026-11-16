@@ -10,7 +10,7 @@ to prepare, commit, and push these files is not approval to collect responses.
 |---|---|---|
 | Opportunity | CS PhD | Same CS PhD |
 | Applicants | 100 | Same 100 (29 weak, 41 borderline, 30 strong) |
-| Allegation / concern topics | Unauthorized AI use | AI use, fabricated results, honest technical error |
+| Allegation / concern topics | Unauthorized AI use | AI use, made-up results, calculation mistake |
 | Record conditions | 11 | 20 |
 | Wordings per condition | 2 | 2 |
 | Tasks | Quality, advance, decide | Quality and advance |
@@ -24,12 +24,12 @@ applicant or an opportunity. Each condition has two wording variants.
 
 The follow-up has six states for each of three topics, plus two shared controls:
 
-1. Routine verification, without an allegation or concern.
+1. Work checked during normal grading, without a prior allegation or concern.
 2. Pending review.
-3. Confirmed misconduct or honest error.
+3. Confirmed misconduct or calculation mistake.
 4. Cleared before an adverse finding.
 5. Cleared on appeal, with the finding and record consequences corrected.
-6. The same appeal outcome plus written acknowledgment of institutional error.
+6. The same appeal or grade-review outcome plus written acknowledgment of the wrong decision.
 
 The shared controls are the original clean record and neutral administrative
 error. This is `3 × 6 + 2 = 20` conditions, not 20 allegation topics.
@@ -48,24 +48,35 @@ conditions so provider changes are not confounded with the new treatments.
 ## Review materials
 
 - [All 40 exact wordings and review cautions](WORDINGS.md).
+- [Literature rationale and the November 16 wording revision](RATIONALE.md).
 - [Draft executable config](../../configs/phd_eval_followup_v1.json).
 - [Condition-to-scenario mapping](../../analysis/phd_followup_conditions.csv).
 - [Offline validation report](offline_validation.json).
 - [Shared Google Doc wording-review tab](https://docs.google.com/document/d/1dgZkwce8f8iXa1Nt0kmj7WIPqrdzxcMJCaYEYm7VQ2s/edit?tab=t.9bo1infb7b0j).
 
-The routine-verification conditions are the key addition. They provide the
-same favorable factual conclusion as clearing, without accusation history.
-Comparing clearing to verification helps distinguish a response to favorable
-evidence from a remaining penalty or a positive response to exoneration.
+The verification controls now describe an instructor checking submitted work
+during normal grading for the class. They supply the same favorable factual
+conclusion as clearing, without accusation history. This improves the comparison
+with the short clean record but does not hold every word or reviewing authority
+constant. The original AI clearing decision still comes from the integrity office.
 
-The fabrication and technical-error descriptions match the coursework setting,
-evidence source, university review panel, timing, and zero assignment grade.
-They do not establish equal perceived seriousness. Technical-error conditions
-explicitly rule out dishonesty; that clarification is itself an information and
-length difference. The original clean baseline refers only to integrity, so
-technical-error versus its verified control is more informative than a clean
-comparison. The wordings are not exactly length-matched. These limits remain
-visible in the review document.
+The two new cases concern a course report based on supplied data. Fabrication
+means deliberately making up results; the competence comparison concerns an
+incorrectly calculated average. The latter uses an ordinary 10-mark deduction
+from a 100-mark report and a departmental grade review. There is no disciplinary
+hearing or zero for the calculation mistake. A successful grade review restores
+the marks because the original work was correct, not because it was improved.
+Fabrication retains a zero and an integrity-office decision. Consequences,
+reviewing authorities, perceived seriousness, and text length therefore differ.
+Cross-case differences cannot isolate a pure integrity-versus-competence mechanism.
+
+Calculation-mistake records explicitly rule out alleged dishonesty; that sentence
+may itself reassure the evaluator. The original clean baseline refers only to
+integrity, so the case-specific verification control is the more relevant
+reference. The competence example remains a draft comparison, not a validated
+measure. Before freezing it, obtain a short human comprehension and plausibility
+review and check perceived dishonesty, ability, seriousness, and certainty of
+clearing. This review is proposed; no participants have been contacted.
 
 The original system message, selected task prompts, CVs, letters, opportunity,
 record heading, placement, and request parameters remain unchanged. The new
@@ -110,6 +121,9 @@ Primary outcome: advancement score. For each topic, pre-specify these pairs:
 - Acknowledgment minus otherwise-identical appeal exoneration.
 
 There are nine primary contrasts per model and **36 across the four models**.
+This statistical family is unchanged by the wording revision. Including the
+calculation case in this family does not validate it as a competence measure;
+the cross-case mechanism comparison remains secondary and qualified.
 Average the two wordings within applicant, then calculate the paired mean and
 Student t standard error over applicants. Missing wording cells exclude that
 applicant from the relevant contrast; do not silently average only the available

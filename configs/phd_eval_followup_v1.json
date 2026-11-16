@@ -62,15 +62,15 @@
     {
       "role": "control",
       "id": "ai_use_verified",
-      "label": "ai_use: verified",
+      "label": "Unauthorized AI use: Checked during normal grading; no prior concern",
       "wordings": [
-        "The applicant has no academic integrity allegations or findings on record. In early 2026, the academic integrity office reviewed drafts and document history as part of a routine coursework review and determined that the work on a course assignment had been completed independently. The review was not prompted by an allegation.",
-        "Academic integrity record: No allegations or findings. In early 2026, a routine coursework review by the academic integrity office used drafts and document history to establish independent authorship of a course assignment. No allegation prompted the review."
+        "The applicant has no academic integrity allegations or findings on record. In early 2026, the course instructor checked drafts and document history while grading a course assignment. This was a normal part of grading the class's work. The instructor confirmed that the applicant had completed the work independently. No allegation prompted the check.",
+        "Academic integrity record: No allegations or findings. In early 2026, the course instructor reviewed drafts and document history as part of normal grading for the class. These materials showed that the applicant completed the course assignment independently. The check was not prompted by an allegation."
       ]
     },
     {
       "id": "ai_use_pending",
-      "label": "ai_use: pending",
+      "label": "Unauthorized AI use: Review pending",
       "role": "secondary",
       "wordings": [
         "In 2026, the applicant was accused of using generative AI without authorization on a course assignment. The academic integrity office is reviewing the allegation. No finding has been made, and no sanction has been imposed.",
@@ -79,7 +79,7 @@
     },
     {
       "id": "ai_use_confirmed",
-      "label": "ai_use: confirmed",
+      "label": "Unauthorized AI use: Concern confirmed",
       "role": "secondary",
       "wordings": [
         "In early 2026, the applicant was accused of using generative AI without authorization on a course assignment. Following a hearing, the academic integrity office found the applicant responsible and imposed a grade of zero on the assignment.",
@@ -88,7 +88,7 @@
     },
     {
       "id": "ai_use_cleared",
-      "label": "ai_use: cleared",
+      "label": "Unauthorized AI use: Concern disproved before a penalty",
       "role": "primary",
       "wordings": [
         "In early 2026, the applicant was accused of using generative AI without authorization on a course assignment. The academic integrity office reviewed drafts and document history, determined that the work had been completed independently, and found the applicant not responsible. No sanction was imposed.",
@@ -97,7 +97,7 @@
     },
     {
       "id": "ai_use_appeal",
-      "label": "ai_use: appeal",
+      "label": "Unauthorized AI use: Initial decision reversed",
       "role": "primary",
       "wordings": [
         "In early 2026, the applicant was found responsible for unauthorized generative AI use on a course assignment and received a grade of zero. On appeal, additional document history conclusively established that the applicant had completed the work independently. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected, and the academic integrity office formally determined that no misconduct occurred.",
@@ -106,7 +106,7 @@
     },
     {
       "id": "ai_use_acknowledged",
-      "label": "ai_use: acknowledged",
+      "label": "Unauthorized AI use: Decision reversed with written acknowledgment",
       "role": "primary",
       "wordings": [
         "In early 2026, the applicant was found responsible for unauthorized generative AI use on a course assignment and received a grade of zero. On appeal, additional document history conclusively established that the applicant had completed the work independently. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected, and the academic integrity office formally determined that no misconduct occurred. The university also issued a written acknowledgment that its original finding was erroneous.",
@@ -116,109 +116,109 @@
     {
       "role": "control",
       "id": "fabrication_verified",
-      "label": "fabrication: verified",
+      "label": "Made-up results in a course report: Checked during normal grading; no prior concern",
       "wordings": [
-        "In early 2026, a university review panel checked original program-test logs and the applicant's report during a routine coursework review. The records established that the reported results were genuine and matched the program's actual outputs. No fabrication allegation had been made, and no adverse finding or grade penalty was imposed.",
-        "In early 2026, a routine coursework review by a university review panel examined the applicant's submitted report and original program-test logs. The records established that the reported results matched actual program outputs and had not been fabricated. There had been no allegation of fabrication, and no adverse finding or grade penalty followed."
+        "In early 2026, the course instructor checked a report's calculations against the data provided for the assignment. This was a normal part of grading the class's work. The instructor confirmed that the applicant's reported results came from those data and were calculated correctly. No concern about the report had been raised before this check.",
+        "In early 2026, the course instructor compared the applicant's report and calculations with the data supplied for the assignment. This check was part of normal grading for the class. The instructor confirmed that the reported results were calculated correctly from the supplied data. There had been no prior concern about the report."
       ]
     },
     {
       "role": "secondary",
       "id": "fabrication_pending",
-      "label": "fabrication: pending",
+      "label": "Made-up results in a course report: Review pending",
       "wordings": [
-        "In early 2026, the applicant was accused of inventing program-test results reported in a course assignment. A university review panel is reviewing the allegation. No finding has been made, and no grade penalty has been imposed.",
-        "In early 2026, an allegation that the applicant fabricated program-test results in a course assignment was referred to a university review panel. The review remains pending, with no finding or grade penalty."
+        "In early 2026, the applicant was accused of making up numerical results in a course report instead of calculating them from the data provided for the assignment. The academic integrity office is reviewing the allegation. No decision has been made, and no grade penalty has been imposed.",
+        "In early 2026, an allegation that the applicant invented results in a course report, rather than calculating them from the supplied data, was referred to the academic integrity office. The review is still underway. There has been no decision or grade penalty."
       ]
     },
     {
       "role": "secondary",
       "id": "fabrication_confirmed",
-      "label": "fabrication: confirmed",
+      "label": "Made-up results in a course report: Concern confirmed",
       "wordings": [
-        "In early 2026, the applicant was accused of inventing program-test results reported in a course assignment. Following a hearing, a university review panel determined that the reported results had been fabricated rather than produced by the program. The applicant received a grade of zero on the assignment.",
-        "In early 2026, a university review panel held a hearing about alleged fabrication of program-test results in the applicant's course assignment. The panel established that the reported results had been invented and did not come from actual program outputs. The applicant received a grade of zero on the assignment."
+        "In early 2026, the applicant was accused of making up numerical results in a course report instead of calculating them from the data provided for the assignment. After reviewing the report and the supplied data, the academic integrity office found that the applicant had deliberately invented the results. The applicant received a grade of zero on the report.",
+        "In early 2026, the academic integrity office investigated an allegation that the applicant invented results in a course report rather than calculating them from the supplied data. The review confirmed that the applicant had made up the results deliberately. The applicant received a grade of zero on the report."
       ]
     },
     {
       "role": "primary",
       "id": "fabrication_cleared",
-      "label": "fabrication: cleared",
+      "label": "Made-up results in a course report: Concern disproved before a penalty",
       "wordings": [
-        "In early 2026, the applicant was accused of inventing program-test results reported in a course assignment. A university review panel checked original program-test logs and the applicant's report. The records established that the reported results were genuine and matched the program's actual outputs. The panel determined that no fabrication occurred. No adverse finding was made, and no grade penalty was imposed.",
-        "In early 2026, a university review panel investigated an allegation that the applicant fabricated program-test results in a course assignment. The submitted report and original program-test logs established that the reported results matched actual program outputs and had not been fabricated. The panel made no adverse finding and imposed no grade penalty."
+        "In early 2026, the applicant was accused of making up numerical results in a course report instead of calculating them from the data provided for the assignment. The course instructor checked the report's calculations against the supplied data. The check confirmed that the applicant's reported results came from those data and were calculated correctly. The academic integrity office concluded that the applicant had not made up the results. No grade penalty was imposed.",
+        "In early 2026, the academic integrity office investigated an allegation that the applicant invented results in a course report rather than calculating them from the supplied data. The course instructor compared the report and calculations with those data. The check confirmed that the results were calculated correctly from the supplied data. The academic integrity office concluded that no results had been invented and imposed no grade penalty."
       ]
     },
     {
       "role": "primary",
       "id": "fabrication_appeal",
-      "label": "fabrication: appeal",
+      "label": "Made-up results in a course report: Initial decision reversed",
       "wordings": [
-        "In early 2026, a university review panel found that the applicant had invented program-test results reported in a course assignment and imposed a grade of zero. On appeal, original program-test logs and the applicant's report established that the reported results were genuine and matched the program's actual outputs. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected, and the panel determined that no fabrication occurred.",
-        "In early 2026, a university review panel concluded that the applicant fabricated program-test results in a course assignment and assigned a grade of zero. On appeal, the submitted report and original program-test logs established that the reported results matched actual program outputs and had not been fabricated. The finding was reversed, the zero grade and any resulting academic-record consequences were corrected, and the panel determined that the fabrication allegation was false."
+        "In early 2026, the academic integrity office found that the applicant had made up numerical results in a course report and imposed a grade of zero. On appeal, the report and calculations that the applicant had originally submitted were checked against the data provided for the assignment. They showed that the results came from those data and were calculated correctly. The academic integrity office reversed its decision and confirmed that the applicant had not made up the results. The university removed the zero grade and corrected the course record.",
+        "In early 2026, the applicant received a grade of zero after the academic integrity office decided that results in a course report had been invented. During an appeal, the applicant's original report and calculations were compared with the supplied data. They showed that the results were calculated correctly from those data. The academic integrity office overturned its decision and confirmed that no results had been invented. The zero grade was removed and the course record corrected."
       ]
     },
     {
       "role": "primary",
       "id": "fabrication_acknowledged",
-      "label": "fabrication: acknowledged",
+      "label": "Made-up results in a course report: Decision reversed with written acknowledgment",
       "wordings": [
-        "In early 2026, a university review panel found that the applicant had invented program-test results reported in a course assignment and imposed a grade of zero. On appeal, original program-test logs and the applicant's report established that the reported results were genuine and matched the program's actual outputs. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected, and the panel determined that no fabrication occurred. The university also issued a written acknowledgment that its original finding was erroneous.",
-        "In early 2026, a university review panel concluded that the applicant fabricated program-test results in a course assignment and assigned a grade of zero. On appeal, the submitted report and original program-test logs established that the reported results matched actual program outputs and had not been fabricated. The finding was reversed, the zero grade and any resulting academic-record consequences were corrected, and the panel determined that the fabrication allegation was false. The university subsequently issued a written acknowledgment that its original finding was erroneous."
+        "In early 2026, the academic integrity office found that the applicant had made up numerical results in a course report and imposed a grade of zero. On appeal, the report and calculations that the applicant had originally submitted were checked against the data provided for the assignment. They showed that the results came from those data and were calculated correctly. The academic integrity office reversed its decision and confirmed that the applicant had not made up the results. The university removed the zero grade and corrected the course record. The university also confirmed in writing that its original decision was wrong.",
+        "In early 2026, the applicant received a grade of zero after the academic integrity office decided that results in a course report had been invented. During an appeal, the applicant's original report and calculations were compared with the supplied data. They showed that the results were calculated correctly from those data. The academic integrity office overturned its decision and confirmed that no results had been invented. The zero grade was removed and the course record corrected. The university then provided written confirmation that its original decision was wrong."
       ]
     },
     {
       "role": "control",
       "id": "technical_error_verified",
-      "label": "technical_error: verified",
+      "label": "Calculation mistake in a course report: Checked during normal grading; no prior concern",
       "wordings": [
-        "In early 2026, a university review panel checked original program-test logs and the applicant's report during a routine coursework review. The records established that the reported results accurately represented the program's actual outputs, with no calculation error. No concern about a calculation error had been raised, and no adverse finding or grade penalty was imposed. No dishonesty or academic misconduct was alleged.",
-        "In early 2026, a routine coursework review by a university review panel examined the applicant's submitted report and original program-test logs. The records established that the reported results accurately reflected actual program outputs and contained no calculation error. There had been no concern about a calculation error, and no adverse finding or grade penalty followed. No dishonesty or academic misconduct was alleged."
+        "In early 2026, the course instructor checked a report's calculations against the data provided for the assignment. This was a normal part of grading the class's work. The instructor confirmed that the applicant had used the correct method to calculate an average and that the answer was correct. No concern about the report had been raised before this check. No dishonesty or academic misconduct was alleged.",
+        "In early 2026, the course instructor compared the applicant's report and calculations with the data supplied for the assignment. This check was part of normal grading for the class. The instructor confirmed that both the method used to calculate an average and the reported answer were correct. There had been no prior concern about the report. No dishonesty or academic misconduct was alleged."
       ]
     },
     {
       "role": "secondary",
       "id": "technical_error_pending",
-      "label": "technical_error: pending",
+      "label": "Calculation mistake in a course report: Review pending",
       "wordings": [
-        "In early 2026, a concern was raised that program-test results reported in the applicant's course assignment were incorrect because of an unintentional calculation error. A university review panel is reviewing the concern. No finding has been made, and no grade penalty has been imposed. No dishonesty or academic misconduct was alleged.",
-        "In early 2026, a concern that an unintentional calculation error made the reported program-test results in the applicant's course assignment incorrect was referred to a university review panel. The review remains pending, with no finding or grade penalty. No dishonesty or academic misconduct was alleged."
+        "In early 2026, a concern was raised that the applicant had used the wrong method to calculate an average in a course report. The report used data provided for the assignment. The course instructor is checking the calculation. No decision has been made, and no marks have been deducted. No dishonesty or academic misconduct was alleged.",
+        "In early 2026, the course instructor began reviewing a concern that the applicant had calculated an average using an incorrect method in a course report. The report used data supplied for the assignment. The review is still underway, with no decision or deduction of marks. No dishonesty or academic misconduct was alleged."
       ]
     },
     {
       "role": "secondary",
       "id": "technical_error_confirmed",
-      "label": "technical_error: confirmed",
+      "label": "Calculation mistake in a course report: Concern confirmed",
       "wordings": [
-        "In early 2026, a concern was raised that program-test results reported in the applicant's course assignment were incorrect because of an unintentional calculation error. Following a hearing, a university review panel determined that the report contained that calculation error. The applicant received a grade of zero on the assignment. No dishonesty or academic misconduct was alleged.",
-        "In early 2026, a university review panel held a hearing about a possible unintentional calculation error in the program-test results reported in the applicant's course assignment. The panel established that the reported results were incorrect because of that calculation error. The applicant received a grade of zero on the assignment. No dishonesty or academic misconduct was alleged."
+        "In early 2026, a concern was raised that the applicant had used the wrong method to calculate an average in a course report. The instructor checked the submitted calculation against the supplied data and confirmed that the method and answer were incorrect. Under the course's normal grading rules, the applicant lost 10 marks on a report graded out of 100. No dishonesty or academic misconduct was alleged.",
+        "In early 2026, the course instructor reviewed a concern that the applicant had calculated an average using an incorrect method in a course report. The submitted calculation and supplied data confirmed that both the method and answer were wrong. The applicant lost 10 of the report's 100 possible marks under the normal grading rules. No dishonesty or academic misconduct was alleged."
       ]
     },
     {
       "role": "primary",
       "id": "technical_error_cleared",
-      "label": "technical_error: cleared",
+      "label": "Calculation mistake in a course report: Concern disproved before a penalty",
       "wordings": [
-        "In early 2026, a concern was raised that program-test results reported in the applicant's course assignment were incorrect because of an unintentional calculation error. A university review panel checked original program-test logs and the applicant's report. The records established that the reported results accurately represented the program's actual outputs, with no calculation error. No adverse finding was made, and no grade penalty was imposed. No dishonesty or academic misconduct was alleged.",
-        "In early 2026, a university review panel investigated a concern about an unintentional calculation error in the program-test results reported in the applicant's course assignment. The submitted report and original program-test logs established that the reported results accurately reflected actual program outputs and contained no calculation error. The panel made no adverse finding and imposed no grade penalty. No dishonesty or academic misconduct was alleged."
+        "In early 2026, a concern was raised that the applicant had used the wrong method to calculate an average in a course report. The instructor checked the originally submitted calculation against the supplied data. The check confirmed that both the method and answer were correct and that the alleged mistake had not occurred. No marks were deducted. No dishonesty or academic misconduct was alleged.",
+        "In early 2026, the course instructor reviewed a concern that the applicant had calculated an average using an incorrect method in a course report. The applicant's original calculation was compared with the supplied data. The check showed that both the method and reported answer were correct and that there had been no calculation mistake. No marks were deducted. No dishonesty or academic misconduct was alleged."
       ]
     },
     {
       "role": "primary",
       "id": "technical_error_appeal",
-      "label": "technical_error: appeal",
+      "label": "Calculation mistake in a course report: Initial decision reversed",
       "wordings": [
-        "In early 2026, a university review panel found an unintentional calculation error in the program-test results reported in the applicant's course assignment and imposed a grade of zero. On appeal, original program-test logs and the applicant's report established that the reported results accurately represented the program's actual outputs, with no calculation error. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected. No dishonesty or academic misconduct was alleged.",
-        "In early 2026, a university review panel concluded that an unintentional calculation error made the reported program-test results in the applicant's course assignment incorrect and assigned a grade of zero. On appeal, the submitted report and original program-test logs established that the reported results accurately reflected actual program outputs and contained no calculation error. The finding was reversed, the zero grade and any resulting academic-record consequences were corrected. No dishonesty or academic misconduct was alleged."
+        "In early 2026, the course instructor decided that the applicant had used the wrong method to calculate an average in a course report. The applicant lost 10 marks on the report, which was graded out of 100. The applicant requested a grade review. The department checked the original calculation against the supplied data and found that both the method and answer were correct. The department restored the 10 marks and corrected the course record. No dishonesty or academic misconduct was alleged.",
+        "In early 2026, the applicant lost 10 of a course report's 100 possible marks because the instructor judged the method used to calculate an average to be incorrect. The applicant asked the department to review the grade. Comparing the original calculation with the supplied data showed that both the method and answer had been correct. The department returned the 10 marks and corrected the course record. No dishonesty or academic misconduct was alleged."
       ]
     },
     {
       "role": "primary",
       "id": "technical_error_acknowledged",
-      "label": "technical_error: acknowledged",
+      "label": "Calculation mistake in a course report: Decision reversed with written acknowledgment",
       "wordings": [
-        "In early 2026, a university review panel found an unintentional calculation error in the program-test results reported in the applicant's course assignment and imposed a grade of zero. On appeal, original program-test logs and the applicant's report established that the reported results accurately represented the program's actual outputs, with no calculation error. The finding was overturned, the zero grade and any resulting academic-record consequences were corrected. No dishonesty or academic misconduct was alleged. The university also issued a written acknowledgment that its original finding was erroneous.",
-        "In early 2026, a university review panel concluded that an unintentional calculation error made the reported program-test results in the applicant's course assignment incorrect and assigned a grade of zero. On appeal, the submitted report and original program-test logs established that the reported results accurately reflected actual program outputs and contained no calculation error. The finding was reversed, the zero grade and any resulting academic-record consequences were corrected. No dishonesty or academic misconduct was alleged. The university subsequently issued a written acknowledgment that its original finding was erroneous."
+        "In early 2026, the course instructor decided that the applicant had used the wrong method to calculate an average in a course report. The applicant lost 10 marks on the report, which was graded out of 100. The applicant requested a grade review. The department checked the original calculation against the supplied data and found that both the method and answer were correct. The department restored the 10 marks and corrected the course record. No dishonesty or academic misconduct was alleged. The department also confirmed in writing that its original grading decision was wrong.",
+        "In early 2026, the applicant lost 10 of a course report's 100 possible marks because the instructor judged the method used to calculate an average to be incorrect. The applicant asked the department to review the grade. Comparing the original calculation with the supplied data showed that both the method and answer had been correct. The department returned the 10 marks and corrected the course record. No dishonesty or academic misconduct was alleged. The department then provided written confirmation that its original grading decision was wrong."
       ]
     }
   ],
@@ -251,6 +251,11 @@
       "item": "Focused PhD follow-up (DRAFT)",
       "change": "Three scenarios, each with six states; shared clean and neutral controls. Two preserved task prompts and answer_only format. Added routine verification, fabrication, and honest technical error texts. Existing AI texts and shared controls are verbatim under new analysis IDs.",
       "reason": "Separate favorable verification evidence from accusation history and test additional course-related concerns. Draft requires wording review before any API run."
+    },
+    {
+      "item": "Focused follow-up wording revision, 2026-11-16",
+      "change": "Replaced program-test jargon with course reports using supplied data. Verification now occurs during normal grading. Calculation mistakes receive a 10/100-mark deduction and an ordinary grade review, not a zero or a misconduct hearing. New acknowledgment sentences use plain language and the appropriate decision maker. Original seven bridge conditions remain verbatim.",
+      "reason": "Improve comprehension and plausibility after user review. Consequence and reviewer differences remain visible limitations; these cases do not isolate a pure integrity-versus-competence mechanism."
     }
   ],
   "models": [
@@ -319,6 +324,8 @@
     "expected_budget_usd": 25,
     "budget_status": "proposal_only",
     "primary_outcome": "advance score",
-    "primary_family_size": 36
+    "primary_family_size": 36,
+    "wording_revision": "2026-11-16-plain-language-v2",
+    "competence_case_status": "Draft comparison case; plausibility and perceived competence versus integrity require human review."
   }
 }

@@ -2,8 +2,8 @@
   "status": "OFFLINE DRAFT CHECKS PASSED; WORDING APPROVAL STILL REQUIRED",
   "api_requests_sent": 0,
   "plan_directory_created": false,
-  "config_hash": "845f5abf73774dd780a2d107ae210bb3663fe71c0f59e9fd426917be78186a17",
-  "design_hash": "92ae4fb25420f6989208f4d60f7c6adf69dc27a758f37cff78274d01b6bf8126",
+  "config_hash": "027ebabc5c12e3ef137b62fd98b07caf2b6888464a5f1afa607d14f0b4c047aa",
+  "design_hash": "9d79f212dd2676fb7d62ba95bb2eefcf203624adb1d76874e7f3c35570723943",
   "applicants": 100,
   "applicants_by_tier": {
     "weak": 29,
@@ -32,8 +32,8 @@
       36
     ],
     "ai_use_verified": [
-      51,
-      37
+      53,
+      45
     ],
     "ai_use_pending": [
       35,
@@ -56,52 +56,52 @@
       75
     ],
     "fabrication_verified": [
-      50,
+      54,
       52
     ],
     "fabrication_pending": [
-      36,
-      32
+      47,
+      42
     ],
     "fabrication_confirmed": [
-      47,
+      58,
       49
     ],
     "fabrication_cleared": [
-      61,
-      52
+      73,
+      67
     ],
     "fabrication_appeal": [
-      70,
-      71
+      89,
+      76
     ],
     "fabrication_acknowledged": [
-      83,
-      84
+      101,
+      88
     ],
     "technical_error_verified": [
-      62,
-      62
+      66,
+      63
     ],
     "technical_error_pending": [
-      51,
-      45
+      56,
+      52
     ],
     "technical_error_confirmed": [
-      56,
-      57
+      67,
+      61
     ],
     "technical_error_cleared": [
-      71,
+      64,
       65
     ],
     "technical_error_appeal": [
-      73,
-      75
+      81,
+      73
     ],
     "technical_error_acknowledged": [
-      86,
-      88
+      94,
+      86
     ]
   }
 }
