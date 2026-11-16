@@ -4,11 +4,11 @@
 plans the design, sends requests to a model and exports the replies. It uses
 only the Python standard library. Planning and previewing make no API calls.
 
-The commands below describe the original 11-condition design. The separately
-named [focused follow-up](docs/phd_followup/README.md) is an offline draft:
-three topics, six states per topic, two shared controls, and two selected prompts
-in answer-only format. Its [exact wording](docs/phd_followup/WORDINGS.md) requires
-review and explicit launch approval. No earlier results are replaced.
+The commands below describe the original 11-condition PhD design. Keep these
+conditions, all three tasks, and both response formats for the proposed TA
+extension. [TA preparation](docs/TA_PREPARATION.md) records the opportunity and
+missing applicant evidence. TA collection is not configured or approved yet;
+these commands still run the PhD study. No earlier results are replaced.
 
 Inputs are the corrected packets in
 [`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/)

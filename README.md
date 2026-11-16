@@ -7,20 +7,19 @@ studies evaluations of otherwise identical applications across integrity conditi
 ## Experiment status
 
 The PhD pilot, five-model full-design run, and three-model no-infer ablation
-are complete. A focused PhD follow-up is in **offline preparation**, awaiting
-review of the exact wordings and explicit approval to run. TA and the other
-opportunities have not been run.
+are complete. The original 11-condition methodology remains the study design.
+The next opportunity is an introductory-CS teaching assistant role; applicant
+materials are in **offline preparation**. No TA model run or spending is approved.
 
-Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis.
-The [follow-up protocol](docs/phd_followup/README.md) explains the 20 proposed
-conditions, and [WORDINGS.md](docs/phd_followup/WORDINGS.md) contains all 40 exact
-record texts for review. Earlier results and published datasets are retained.
+Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis,
+and [TA preparation](docs/TA_PREPARATION.md) for what must be ready before a run.
+Earlier results and published datasets are retained.
 
 ## Published datasets
 
 | Dataset | Contents |
 | --- | --- |
-| [Applications, version 4](datasets/phd-applications-v4-recommendations-v2/) | **Use this for evaluation.** The 100 packets with contradictory GPAs and letters corrected |
+| [Applications, version 4](datasets/phd-applications-v4-recommendations-v2/) | **Use this for PhD evaluation.** The 100 packets with contradictory GPAs and letters corrected |
 | [CVs, version 3](datasets/phd-cvs-v3-gpa-consistency-v1/) | The 100 CVs with 19 GPA values corrected; all prose unchanged |
 | [CVs, version 2](datasets/phd-cvs-v2-rubric-v1/) | 100 revised CVs: 30 weak, 40 borderline and 30 strong, including ten mixed profiles |
 | [Applications, version 3](datasets/phd-applications-v3-recommendations-v1/) | The same 100 CVs with 300 recommendation summaries and 100 complete packets |
