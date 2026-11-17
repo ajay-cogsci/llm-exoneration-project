@@ -4,6 +4,11 @@ Status: offline preparation only. The original 11-condition PhD design is retain
 No TA applicant set, evaluation config, run plan, model panel, or spending cap is
 approved. Nothing here authorizes model calls or human recruitment.
 
+Three fictional examples and the exact adapted prompt are now available in
+[TA review](TA_REVIEW.md) on `codex/ta-prep`. They are unapproved illustrations,
+not a full applicant set. The [Claude Code handoff](TA_CLAUDE_CODE_PROMPT.md)
+permits offline preparation and keeps all computational runs behind approval.
+
 ## What stays the same
 
 - The original condition definitions and two wordings in
@@ -64,8 +69,9 @@ Prepare a separate TA packet specification for review before generating a bank:
 | Timing | Ensure every applicant was enrolled when the original early-2026 coursework incident could have occurred. Any necessary date changes require review. |
 
 These are proposed fields, not invented facts about the published applicants.
-The next review deliverable is a small set of example TA packets and the adapted
-prompt, before producing a full dataset or making API requests.
+Review the three new example packets and adapted prompt before approving a full
+dataset or making API requests. The examples use a common eligibility rule and
+availability; the provisional tiers describe preparation for the TA role.
 
 Only the opportunity, applicant evidence, and necessary role placeholders should
 change for the initial extension: TA selection committee, interview, and hire/do

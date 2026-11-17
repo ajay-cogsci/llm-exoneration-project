@@ -8,7 +8,7 @@ results remain available and are not pooled with a new run by default.
 | PhD pilot | Completed for the seven-model panel | `runs/pilot/results.csv`, `runs/pilot/summary.json` |
 | Original PhD full design | Five of seven planned models completed; 66,000 valid replies | [Written analysis](../runs/main/analysis/SUMMARY.md), `runs/main/results.csv`, `runs/main/summary.json` |
 | No-inference-sentence ablation | Completed for three models and two arms | [Written analysis](../runs/ablation/analysis/SUMMARY.md); results in `runs/ablation/plan_A/` and `plan_B/` |
-| Introductory-CS teaching assistant | Offline preparation; no run configured or approved | [Preparation notes](TA_PREPARATION.md). Retain the original 11 conditions, three tasks and two formats; prepare suitable applicant evidence first. |
+| Introductory-CS teaching assistant | Three fictional examples and exact prompt awaiting review on `codex/ta-prep`; no bank or run approved | [Review materials](TA_REVIEW.md), [preparation notes](TA_PREPARATION.md), [Claude Code handoff](TA_CLAUDE_CODE_PROMPT.md). Original 11 conditions, three tasks and two formats retained. |
 | Fellowship, research assistant | Not run | Opportunity drafts exist in the shared notes. Current PhD packets do not supply all needed opportunity-specific evidence. |
 
 The full-design run used GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
