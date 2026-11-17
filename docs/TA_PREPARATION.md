@@ -4,8 +4,8 @@ Status, 17 November 2026: applicant generation is complete following approval.
 [Version 2](../datasets/ta-applicants-v2/) contains 100 graduate applicants,
 allocated 30 weak, 40 borderline and 30 strong, including ten designated mixed
 profiles. The [method](../TA_V2_METHOD.md) and [verification record](../VALIDATION.md)
-describe the source facts, rubric, model wording and checks. Version 1 is retained
-unchanged for comparison.
+describe the source facts, rubric, model wording and checks. Only the approved
+version 2 applicant dataset is published; unapproved TA drafts are excluded.
 
 The original 11-condition design is retained. No TA evaluation config, run plan,
 model panel, evaluation spending cap or human recruitment is approved by this

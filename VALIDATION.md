@@ -6,9 +6,23 @@
 borderline and 30 strong, including ten designated mixed profiles. There are
 55 master's students and 45 doctoral students. The introductory CS TA role,
 selection criteria and shared assessment messages remain those in the research
-plan. Version 1 and the earlier PhD datasets are retained unchanged.
+plan. Version 2 is the only approved TA dataset in the current repository.
+The earlier PhD datasets remain unchanged.
 
-The corrections address the construction problems found in version 1:
+The unapproved TA version 1 export was removed following the publication
+correction. The standalone audit now checks the approved records and source plan
+wording without an earlier dataset. Only the v2 README, audit report and their
+checksums changed during cleanup; applicant facts, application texts, evaluator
+inputs, generation records and provenance are unchanged. Other TA dataset
+directories are ignored by default. Future publication requires explicit approval.
+After removal, all 118 tests passed, including standalone auditing, rejection of
+altered plan wording and the TA publication ignore policy. Export verification
+passed for all 100 approved applications. Hash checks confirmed that all 1,554
+protected approved TA and PhD files were unchanged.
+
+The corrections address the construction problems found in the unapproved draft.
+The following aggregate comparison records the earlier audit findings; the draft
+applicant records are no longer included:
 
 | Check | Version 1 | Version 2 |
 | --- | ---: | ---: |
@@ -63,7 +77,8 @@ separated from CV sections in the application text.
   importing the sampler or renderer. Its checks passed for counts, graduate
   enrollment, availability, appointment periods, fixed evidence in text,
   designated mixed cases, assessment inputs and unchanged plan messages.
-  Results and the v1 comparison are saved in `audit.json`.
+  Current results are saved in `audit.json`. The audit checks prompt files against
+  the source wording and does not require the unapproved v1 export.
 - Direct inspection covered all four designated mixed-case types and a graduate
   course project, including team-contribution wording. An additional keyword
   scan of all 578 generated bullets found none of its screened numeric or
@@ -77,8 +92,8 @@ separated from CV sections in the application text.
   All 115 tests in the combined checkout passed. The TA export, separate audit
   and PhD dataset verifier passed, including identical reconstruction of the
   corrected PhD datasets. All 2,052 previously published dataset files retained
-  their Git blob hashes; the local TA version 1 baseline was added unchanged so
-  the comparison audit can run from a fresh checkout.
+  their Git blob hashes. That initial publication also included the v1 baseline;
+  the subsequent publication correction removes it and makes the audit standalone.
 
 ### Remaining limits
 
@@ -92,42 +107,6 @@ are 340.5 weak, 347.4 borderline and 372.0 strong. A separate-context check by t
 same model and passing software tests do not establish independent human
 agreement, empirical hiring validity or absence of wording effects. Full rules
 and assumptions are documented in `TA_V2_METHOD.md`.
-
-## Earlier graduate TA dataset, version 1 — 2026-11-17
-
-`datasets/ta-applicants-v1/` contains 100 graduate-student introductory CS TA
-applications: 30 weak, 40 borderline and 30 strong under the provisional TA
-rubric, with ten designated mixed profiles. The selected sample contains 46
-master's students and 54 doctoral students.
-
-- The 6,000-record pool and selected 100 reproduce from the saved configuration.
-  All records pass graduate-enrollment, date, duration and evidence checks.
-- The shared assessment system message, TA description and selection criteria
-  match the local research plan, with normalized paragraph wrapping. Committee
-  substitution is explicit. Evaluator inputs use the plan's overall-quality
-  assessment prompt; no integrity conditions or model assessments were generated.
-- GPT-6 Astra generated the constrained wording and performed factual checks in
-  separate contexts. All 100 passed initially; none required a wording repair.
-  There are 200 saved API responses reporting 248,664 total tokens. These are
-  saved-response usage totals, not a billing estimate.
-- All application texts reproduce exactly from the saved facts and wording.
-  Evaluator messages contain the application and plan wording, with no research
-  tier, mixed-profile tag or latent sampling level.
-- The 81-test suite passed, including 24 new TA tests. Tests cover no-experience
-  cases, missing evidence, contradictory dates/feedback, changed frozen facts,
-  bounded repairs, incomplete API output, cache reuse and rejected exports.
-- Export verification checks the file inventory and hashes, sample reproduction,
-  rubric labels, application rendering and exact assessment messages. The local
-  viewer has 100 applicant cards and 101 valid local links. Credential and
-  attribution scans passed. Visual browser inspection is not claimed.
-- The existing PhD export verification also passed. No existing PhD applicant
-  data, recommendation data or generation implementation changed.
-
-TA rubric thresholds, conditional probabilities, observation templates and
-allocation are study assumptions. The grade patterns, project tasks and tools
-are deliberately restricted. Source consistency and same-model checking do not
-establish realistic hiring frequencies, independent human agreement or absence
-of wording effects. See `TA_METHOD.md` for the precise rules and limitations.
 
 ## Published update — 2026-11-12
 

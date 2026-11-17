@@ -34,7 +34,11 @@ models; the originally proposed seven-model panel remains incomplete.
 | [Applications, version 3](datasets/phd-applications-v3-recommendations-v1/) | The same 100 CVs with 300 recommendation summaries and 100 complete packets |
 | [Original sample](sample-100-resume-generated/) | Historical sample retained unchanged |
 | [Graduate TA applications, version 2](datasets/ta-applicants-v2/) | Revised 100-applicant TA sample: 30 weak, 40 borderline, 30 strong and ten designated mixed cases; capable first-time TAs and varied source records |
-| [Graduate TA applications, version 1](datasets/ta-applicants-v1/) | Earlier 100-applicant draft retained for comparison; design limitations addressed in version 2 |
+
+Only final datasets explicitly approved for publication are committed. TA version
+2 is the approved TA dataset. Drafts, pilots and intermediate outputs belong in
+ignored local run directories. Other TA dataset directories are ignored by
+default; a future approved dataset requires an explicit publication update.
 
 Dataset directories include documentation, a local HTML viewer and file
 checksums. GitHub displays HTML source; clone or download the repository to
@@ -95,7 +99,8 @@ choices, not thresholds supplied by the plan. The current implementation permits
 strong first-time TAs, samples communication separately from teaching history,
 and holds required-duty availability fixed across the selected sample. See
 [TA_V2_METHOD.md](TA_V2_METHOD.md) for the current mapping, assumptions, limits and
-commands; [TA_METHOD.md](TA_METHOD.md) describes the preserved version 1.
+commands. The audit runs directly on the approved dataset and does not require
+an earlier applicant draft.
 
 ```sh
 python3 -m ta_applicants_v2 verify --out datasets/ta-applicants-v2
@@ -106,7 +111,6 @@ python3 scripts/audit_ta_v2.py
 
 - [RUBRIC.md](RUBRIC.md): tier definitions, mixed profiles and sampler design.
 - [RECOMMENDATIONS.md](RECOMMENDATIONS.md): template fields and assignment settings.
-- [TA_METHOD.md](TA_METHOD.md): TA criteria, generation, rubric and sampling settings.
 - [TA_V2_METHOD.md](TA_V2_METHOD.md): revised TA sampling, rubric and verification.
 - [VALIDATION.md](VALIDATION.md): validation results and limitations.
 - [EVALUATION.md](EVALUATION.md): running the PhD evaluation and its open choices.

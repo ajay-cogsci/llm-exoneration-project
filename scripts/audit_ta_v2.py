@@ -1,11 +1,14 @@
 """Read-only substantive audit from exported facts and text, without the sampler."""
 
 import argparse
-import hashlib
 import json
 import statistics
+import sys
 from collections import Counter
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from ta_applicants.plan import OPPORTUNITY, SYSTEM_TEMPLATE
 
 
 def read_rows(path):
@@ -42,8 +45,8 @@ def metrics(root):
     }
 
 
-def audit(root, previous):
-    root,previous=Path(root),Path(previous)
+def audit(root, previous=None):
+    root=Path(root)
     rows=read_rows(root/"profiles.jsonl")
     config=json.loads((root/"config.json").read_text())
     assert len(rows)==100 and len({r["profile_id"] for r in rows})==100
@@ -85,17 +88,25 @@ def audit(root, previous):
         assert record["condition"] is None
         assert record["messages"][0]["content"]==(root/"prompts/system_resolved.txt").read_text().strip()
         assert texts[record["profile_id"]].strip() in record["messages"][1]["content"]
-    for filename in ("system_template.txt","system_resolved.txt","opportunity.txt"):
-        assert (root/"prompts"/filename).read_bytes()==(previous/"prompts"/filename).read_bytes()
+    expected_prompts={
+        "system_template.txt":SYSTEM_TEMPLATE,
+        "system_resolved.txt":SYSTEM_TEMPLATE.replace("{{committee_name}}",config["committee_name"]),
+        "opportunity.txt":OPPORTUNITY,
+    }
+    for filename,expected in expected_prompts.items():
+        assert (root/"prompts"/filename).read_bytes()==(expected+"\n").encode("utf-8")
     corpus=metrics(root)
     assert corpus["strong_first_time"]>=3 and corpus["education_histories"]>2 and corpus["anchor_grade_patterns"]>5 and corpus["skill_sets"]>1 and corpus["project_task_sets"]>1
-    return {"status":"record_and_text_checks_passed","api_calls":0,"current":corpus,"previous":metrics(previous),"fixed_facts_present_in_text":True,"plan_prompt_files_unchanged":True,"designated_mixed_profiles":10,"independent_human_validation":False,"interpretation":"Checks address the identified construction problems. Descriptive differences and consistency do not establish empirical hiring validity. No population targets were fitted."}
+    result={"status":"record_and_text_checks_passed","api_calls":0,"current":corpus,"fixed_facts_present_in_text":True,"plan_prompt_files_match_source":True,"designated_mixed_profiles":10,"independent_human_validation":False,"interpretation":"Checks address the identified construction problems. Descriptive differences and consistency do not establish empirical hiring validity. No population targets were fitted."}
+    if previous is not None:
+        result["previous"]=metrics(Path(previous))
+    return result
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset",default="datasets/ta-applicants-v2")
-    parser.add_argument("--previous",default="datasets/ta-applicants-v1")
+    parser.add_argument("--previous",help="Optional local comparison dataset; the approved dataset is audited on its own by default")
     parser.add_argument("--report")
     args=parser.parse_args()
     result=audit(args.dataset,args.previous)

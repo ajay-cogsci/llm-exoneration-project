@@ -1,5 +1,11 @@
 # Introductory CS TA applicant generation
 
+This document describes the legacy implementation retained for shared code and
+tests. Its version 1 applicant export is unapproved and has been removed from
+the repository. Use [TA_V2_METHOD.md](TA_V2_METHOD.md) for the approved dataset
+and current workflow. Legacy commands below are reference material; their output
+must remain local unless explicitly approved for publication.
+
 ## Scope and plan fidelity
 
 The source is `LLM exoneration research plan.pdf`, SHA-256

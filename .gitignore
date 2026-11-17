@@ -12,3 +12,7 @@ runs/
 /audits/
 /sample-100-resume-generated-v2-rubric-v1/
 /sample-100-resume-generated-v3-recommendations-v1/
+
+# Only explicitly approved TA datasets belong in version control.
+/datasets/ta-*/
+!/datasets/ta-applicants-v2/

@@ -52,11 +52,14 @@ This command makes no API calls. It reproduces the pool and selection, recompute
 labels, checks hashes and rerenders every application and assessment message.
 Fresh model prose is not guaranteed to repeat. Automated checks and same-model
 factual review do not establish real hiring accuracy, empirical realism or
-independent human agreement. The earlier TA and PhD datasets are preserved.
+independent human agreement. The PhD datasets are preserved. This is the only
+approved TA applicant dataset in the repository.
 
 ## Revision audit
 
-`audit.json` compares this sample with version 1 and checks source evidence against
-the exported text without using the generator's sampler. `revision_history.json`
+`audit.json` checks source evidence against the exported text and prompt files
+against the plan wording without using the generator's sampler. It does not
+require an earlier applicant draft. Run `python3 scripts/audit_ta_v2.py` from the
+repository root to reproduce it. `revision_history.json`
 records the superseded three-applicant pilot, its timeline correction and total
 reported API usage, including responses not used in the final dataset.

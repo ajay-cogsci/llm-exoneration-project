@@ -14,8 +14,12 @@ No fellowship, RA or PhD-admissions criteria are imported into the TA rubric.
 Applicant generation uses separate factual-writing instructions. This stage
 creates application materials, not evaluator scores or integrity treatments.
 
-Version 1 and the PhD datasets remain separate historical artifacts. Version 2
-uses `ta_applicants_v2/`, `configs/ta_v2.json`, and `datasets/ta-applicants-v2/`.
+Version 2 is the only approved TA dataset in the repository. It uses
+`ta_applicants_v2/`, `configs/ta_v2.json`, and `datasets/ta-applicants-v2/`.
+The unapproved version 1 applicant export has been removed. Shared TA code is
+retained because version 2 imports its plan wording, schemas and utilities.
+The PhD datasets remain unchanged. Future TA exports stay local until explicitly
+approved for publication; other TA dataset directories are ignored by default.
 
 ## Response to the version 1 audit
 
@@ -181,8 +185,10 @@ teaching and communication distributions to check their separation, strong
 novice cases, availability failures, chronology, GPA compatibility, unchanged
 facts through repairs, failed-export rejection and caching. Export verification
 reproduces the pool and selection and checks every file, rendered application,
-plan message and saved diagnostic. A separate audit compares v1 and v2 evidence
-distributions and checks the reviewer-requested properties directly from records.
+plan message and saved diagnostic. A separate audit checks the requested
+properties directly from the approved records and compares prompt files with the
+source plan wording. It needs no older dataset; an optional `--previous` path can
+be used for a local comparison.
 
 Same-model factual checking is not independent human review. The remaining finite
 task catalogue, generic institutions, synthetic feedback, simplified course/grade
