@@ -1,5 +1,26 @@
 # Verification record
 
+## TA implementation consolidation
+
+The approved TA implementation is consolidated in `ta_applicants/`, with one
+configuration (`configs/ta.json`), one method document (`TA_METHOD.md`) and one
+audit command (`scripts/audit_ta.py`). The legacy generator, alternate versioned
+package/configurations, duplicate method document, superseded preparation notes
+and version-specific test file have been removed. Required constants and wording checks now live in the approved
+package; useful tests exercise this implementation.
+
+Before and after consolidation, all 6,000 source records, the selected 100
+records, their labels, diagnostics and full model request contract matched
+exactly. Published applicant facts, texts, evaluator inputs, saved model outputs
+and original generation provenance remain unchanged. The approved dataset keeps
+its v2 release identifier; this is a data release, not a second implementation.
+Its recorded implementation hash remains historical. New runs hash the current
+source, and the guard against resuming runs with changed code remains enabled.
+All 121 tests passed after consolidation. The approved export and standalone
+audit passed, and all 1,555 protected dataset files retained their pre-change
+hashes. The only approved dataset edits are its README command/link updates and
+corresponding checksums. No generation or evaluation model calls were made.
+
 ## Revised graduate TA dataset, version 2 — 2026-11-17
 
 `datasets/ta-applicants-v2/` contains 100 graduate applicants: 30 weak, 40
@@ -73,7 +94,7 @@ separated from CV sections in the application text.
   checksums, pool and sample reproduction, rubric labels, diagnostic summaries,
   deterministic rendering and assessment messages. The three plan prompt files
   are byte-identical to version 1. No integrity treatments or evaluations ran.
-- `scripts/audit_ta_v2.py` independently reads exported records and texts without
+- `scripts/audit_ta.py` independently reads exported records and texts without
   importing the sampler or renderer. Its checks passed for counts, graduate
   enrollment, availability, appointment periods, fixed evidence in text,
   designated mixed cases, assessment inputs and unchanged plan messages.
@@ -106,7 +127,7 @@ availability effects. Applications are not matched for length: mean word counts
 are 340.5 weak, 347.4 borderline and 372.0 strong. A separate-context check by the
 same model and passing software tests do not establish independent human
 agreement, empirical hiring validity or absence of wording effects. Full rules
-and assumptions are documented in `TA_V2_METHOD.md`.
+and assumptions are documented in `TA_METHOD.md`.
 
 ## Published update — 2026-11-12
 

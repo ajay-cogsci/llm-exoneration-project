@@ -1,1 +1,1 @@
-"""Introductory computer science TA applicant materials."""
+"""Approved graduate introductory CS TA applicant pipeline."""

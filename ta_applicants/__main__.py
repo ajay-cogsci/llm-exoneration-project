@@ -11,7 +11,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
     sampling = sub.add_parser("prepare")
-    sampling.add_argument("--config", default="configs/ta_v1.json")
+    sampling.add_argument("--config", default="configs/ta.json")
     sampling.add_argument("--run", required=True)
     generation = sub.add_parser("generate")
     generation.add_argument("--run", required=True)

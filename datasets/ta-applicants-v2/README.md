@@ -28,7 +28,7 @@ All people, institutions, activities, instructor observations and supervisor
 feedback are fictional. Supporting evidence uses fixed templates grounded in the
 same source record as the CV sections. No recommendation letters or essays have
 been added. The research plan supplies criteria, not numerical thresholds or
-empirical applicant distributions. See [the version 2 method](../../TA_V2_METHOD.md)
+empirical applicant distributions. See [the version 2 method](../../TA_METHOD.md)
 for the mapping, rubric rules, mixed-case definition and limitations.
 
 ## Generation and verification
@@ -45,7 +45,7 @@ Accepted profiles by number of wording repairs: {"0": 100}.
 Usage totals are not a billing estimate.
 
 ```sh
-python3 -m ta_applicants_v2 verify --out datasets/ta-applicants-v2
+python3 -m ta_applicants verify --out datasets/ta-applicants-v2
 ```
 
 This command makes no API calls. It reproduces the pool and selection, recomputes
@@ -59,7 +59,7 @@ approved TA applicant dataset in the repository.
 
 `audit.json` checks source evidence against the exported text and prompt files
 against the plan wording without using the generator's sampler. It does not
-require an earlier applicant draft. Run `python3 scripts/audit_ta_v2.py` from the
+require an earlier applicant draft. Run `python3 scripts/audit_ta.py` from the
 repository root to reproduce it. `revision_history.json`
 records the superseded three-applicant pilot, its timeline correction and total
 reported API usage, including responses not used in the final dataset.

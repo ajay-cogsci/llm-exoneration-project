@@ -16,3 +16,13 @@ runs/
 # Only explicitly approved TA datasets belong in version control.
 /datasets/ta-*/
 !/datasets/ta-applicants-v2/
+
+# Keep a single approved TA implementation and configuration.
+/ta_applicants*/
+!/ta_applicants/
+/configs/ta*.json
+!/configs/ta.json
+/TA_V*_METHOD.md
+/scripts/audit_ta*.py
+!/scripts/audit_ta.py
+/tests/test_ta_v[0-9]*.py

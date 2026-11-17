@@ -14,12 +14,13 @@ approval: 100 graduate applicants in [version 2](datasets/ta-applicants-v2/).
 TA evaluation runs, model-panel choices and evaluation spending remain pending.
 
 Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis,
-and [TA preparation](docs/TA_PREPARATION.md) for what must be ready before a run.
+and [the approved TA method](TA_METHOD.md) for the applicant-generation scope.
 Earlier results and published datasets are retained.
 
-**Start from `main` for completed work.** The only preparation branch is
-`codex/ta-prep`; the versioned TA applicant bank is now on `main`. Preparation
-notes and applicant-generation approval do not authorize an evaluation run.
+**Start from `main` for approved work.** The former `codex/ta-prep` branch is
+synchronized with the approved files; its draft examples and handoff prompt
+have been removed. Applicant-generation approval does not authorize an
+evaluation run.
 The [branch history](docs/EXPERIMENTS.md#repository-branches-consolidated-16-november-2026)
 explains the retired names. The five-model full run is complete for those five
 models; the originally proposed seven-model panel remains incomplete.
@@ -39,6 +40,9 @@ Only final datasets explicitly approved for publication are committed. TA versio
 2 is the approved TA dataset. Drafts, pilots and intermediate outputs belong in
 ignored local run directories. Other TA dataset directories are ignored by
 default; a future approved dataset requires an explicit publication update.
+The only TA generator is `ta_applicants/`, configured by `configs/ta.json` and
+documented in [TA_METHOD.md](TA_METHOD.md). Its approved dataset keeps the v2
+release identifier; it is not a second pipeline.
 
 Dataset directories include documentation, a local HTML viewer and file
 checksums. GitHub displays HTML source; clone or download the repository to
@@ -98,20 +102,20 @@ research metadata. The numerical sampler and TA rubric are provisional study
 choices, not thresholds supplied by the plan. The current implementation permits
 strong first-time TAs, samples communication separately from teaching history,
 and holds required-duty availability fixed across the selected sample. See
-[TA_V2_METHOD.md](TA_V2_METHOD.md) for the current mapping, assumptions, limits and
+[TA_METHOD.md](TA_METHOD.md) for the current mapping, assumptions, limits and
 commands. The audit runs directly on the approved dataset and does not require
 an earlier applicant draft.
 
 ```sh
-python3 -m ta_applicants_v2 verify --out datasets/ta-applicants-v2
-python3 scripts/audit_ta_v2.py
+python3 -m ta_applicants verify --out datasets/ta-applicants-v2
+python3 scripts/audit_ta.py
 ```
 
 ## Documentation
 
 - [RUBRIC.md](RUBRIC.md): tier definitions, mixed profiles and sampler design.
 - [RECOMMENDATIONS.md](RECOMMENDATIONS.md): template fields and assignment settings.
-- [TA_V2_METHOD.md](TA_V2_METHOD.md): revised TA sampling, rubric and verification.
+- [TA_METHOD.md](TA_METHOD.md): revised TA sampling, rubric and verification.
 - [VALIDATION.md](VALIDATION.md): validation results and limitations.
 - [EVALUATION.md](EVALUATION.md): running the PhD evaluation and its open choices.
 - [configs/](configs/): reusable parameter files; numerical PhD settings are provisional.

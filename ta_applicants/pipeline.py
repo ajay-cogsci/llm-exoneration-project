@@ -3,13 +3,15 @@
 import hashlib
 import html
 import json
+import shutil
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from threading import Event
 
 from phd_resumes.api import APIError, OpenAIResponses, request_body
-from phd_resumes.io import digest, implementation_hash as shared_hash, read_json, read_jsonl, write_json, write_jsonl
+from phd_resumes.io import implementation_hash as shared_hash
+from phd_resumes.io import digest, read_json, read_jsonl, write_json, write_jsonl
 from phd_resumes.pipeline import cached_call, utc_now
 from phd_resumes.writing import review_schema
 from .plan import CRITERION_FIELDS, OPPORTUNITY, PLAN_FILENAME, PLAN_SHA256, SOURCE_URLS, SYSTEM_TEMPLATE, assessment_messages, verify_source
@@ -41,6 +43,11 @@ def prepare(config, root):
     write_jsonl(root / "profiles.jsonl", rows)
     write_json(root / "contract.json", contract(config))
     write_json(root / "manifest.json", {"created_at": utc_now(), "implementation_hash": implementation_hash(), "config_hash": digest(config), "profiles_hash": digest(rows), "pool_hash": digest(pool), "contract_hash": digest(contract(config)), "plan_sha256": PLAN_SHA256})
+    for package in ("ta_applicants", "phd_resumes"):
+        snapshot = root / "implementation" / package
+        snapshot.mkdir(parents=True)
+        for path in (PROJECT / package).glob("*.py"):
+            shutil.copyfile(path, snapshot / path.name)
     report = {"pool": summarize(pool), "selected": summarize(rows), "api_calls": 0, "parameter_status": config["parameter_status"]}
     write_json(root / "sampling_report.json", report)
     return report
@@ -192,7 +199,7 @@ def export(root, out):
         write_json(out / name, value)
     write_jsonl(out / "profiles.jsonl", rows)
     write_jsonl(out / "evaluator_fields.jsonl", [row["facts"] for row in rows])
-    write_json(out / "source_map.json", {"plan_file": PLAN_FILENAME, "plan_sha256": PLAN_SHA256, "opportunity_sources_as_listed_in_plan": SOURCE_URLS, "criterion_fields": CRITERION_FIELDS, "method": "Structured conditional sampling, fixed criterion rubric and allocated selection adapted from the revised PhD pipeline.", "assumptions": "All numerical settings, evidence templates, graduate pathway frequencies and rubric rules are provisional study choices, not supplied by the plan or empirical TA population data."})
+    write_json(out / "source_map.json", {"plan_file": PLAN_FILENAME, "plan_sha256": PLAN_SHA256, "opportunity_sources_as_listed_in_plan": SOURCE_URLS, "criterion_fields": CRITERION_FIELDS, "method": "Structured conditional sampling, criterion rubric with neutral no-history evidence, independent communication draws and allocated selection adapted from the revised PhD pipeline.", "assumptions": "All numerical settings, evidence templates, graduate pathway frequencies and rubric rules are provisional study choices, not supplied by the plan or empirical TA population data."})
     prompts = out / "prompts"
     prompts.mkdir()
     (prompts / "system_template.txt").write_text(SYSTEM_TEMPLATE + "\n", encoding="utf-8")
@@ -208,12 +215,12 @@ def export(root, out):
         write_json(out / "generation" / f"{pid}.status.json", status)
         manifest.append({"profile_id": pid, "application": str(path.relative_to(out)), "facts_hash": row["facts_hash"], "application_hash": digest(application), "content_hash": digest(content)})
         messages.append({"profile_id": pid, "condition": None, "assessment": "overall_quality", "messages": assessment_messages(application, config["committee_name"])})
-        cards.append(f'<article data-tier="{row["strength"]}"><h2>{html.escape(pid)}</h2><p class="meta">Provisional study tier: {row["strength"]} · Pattern: {html.escape(row["rubric"]["selection_pattern"].replace("_", " "))}</p><p><a href="applications/{pid}.txt">Open application text</a></p><pre>{html.escape(application)}</pre></article>')
+        cards.append(f'<article data-tier="{row["strength"]}"><h2>{html.escape(pid)}</h2><p class="meta">Provisional study tier: {row["strength"]} · Pattern: {html.escape(row["designated_mixed_pattern"].replace("_", " "))}</p><p><a href="applications/{pid}.txt">Open application text</a></p><pre>{html.escape(application)}</pre></article>')
     write_json(out / "application_manifest.json", manifest)
     write_jsonl(out / "evaluator_inputs.jsonl", messages)
-    write_json(out / "dataset.json", {"version": "ta-graduate-v1", "created_at": utc_now(), "source_implementation_hash": implementation_hash(), "profiles_hash": digest(rows), "config_hash": digest(config), "plan_sha256": PLAN_SHA256, "application_count": len(rows), "selection": summarize(rows), "evaluation_calls": 0, "integrity_conditions_assigned": False})
+    write_json(out / "dataset.json", {"version": "ta-graduate-v2", "created_at": utc_now(), "source_implementation_hash": implementation_hash(), "profiles_hash": digest(rows), "config_hash": digest(config), "plan_sha256": PLAN_SHA256, "application_count": len(rows), "selection": summarize(rows), "evaluation_calls": 0, "integrity_conditions_assigned": False})
     (out / "index.html").write_text(viewer_html("\n".join(cards), len(rows)), encoding="utf-8")
-    (out / "README.md").write_text(dataset_readme(summary), encoding="utf-8")
+    (out / "README.md").write_text(dataset_readme(summary, config), encoding="utf-8")
     write_json(out / "checksums.json", file_checksums(out))
     return verify_export(out)
 
@@ -222,70 +229,63 @@ def viewer_html(cards, count):
     return f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Graduate TA applicant sample</title><style>body{{margin:0;background:#f4f5f7;color:#182331;font:16px system-ui,sans-serif}}main{{max-width:1050px;margin:auto;padding:36px 24px}}h1{{font-size:32px}}article{{background:white;border:1px solid #d8dfe5;border-radius:10px;padding:24px;margin:24px 0}}h2{{font-size:20px}}pre{{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.65 ui-monospace,monospace}}.meta{{color:#566477}}select{{font:inherit;padding:8px}}a{{color:#164c88}}[hidden]{{display:none}}</style><main><h1>Graduate TA applicant sample</h1><p>{count} fictional applicants for introductory computer science teaching assistant roles.</p><p>Research view: provisional tier labels appear here, but are excluded from application files and evaluator inputs.</p><p><a href="README.md">Dataset documentation</a> · <label>Show <select id="tier"><option value="all">All applicants</option><option>weak</option><option>borderline</option><option>strong</option></select></label> · <span id="count">{count}</span> shown</p>{cards}</main><script>document.getElementById('tier').addEventListener('change',function(){{let n=0;document.querySelectorAll('article').forEach(a=>{{a.hidden=this.value!=='all'&&a.dataset.tier!==this.value;if(!a.hidden)n++;}});document.getElementById('count').textContent=n;}});</script></html>'''
 
 
-def dataset_readme(summary):
-    return f'''# Graduate introductory CS TA applicants, version 1
+def dataset_readme(summary, config):
+    return f"""# Graduate introductory CS TA applicants, version 2
 
-100 fictional graduate-student applicants: 30 weak, 40 borderline and 30 strong
-under a provisional study rubric, including ten designated mixed profiles.
-The opportunity and shared assessment system message reproduce the local
-research plan, with paragraph wrapping normalized and the committee placeholder
-resolved. Source-plan SHA-256 is in `source_map.json`.
+{summary['applicant_count']} fictional graduate applicants, with study allocation
+{config['allocation']} and ten designated mixed cases in the full sample.
+All selected applicants are available for the advertised duties. Applicants with
+no teaching history can be strong. Communication is sampled separately from
+teaching history. Courses, grades, projects, skills and education histories vary.
 
-## Files and use
+## Files
 
-- `applications/`: 100 application texts containing education, coursework,
-  programming project, teaching/tutoring history and supervisor feedback,
-  communication evidence, teaching interest, and duty availability.
-- `index.html`: local research viewer. Its tier/pattern annotations are not
-  included in the application text files.
-- `evaluator_fields.jsonl`: fixed factual records only.
-- `evaluator_inputs.jsonl`: untreated overall-quality assessment inputs using
-  the plan's system message and rating prompt. `condition: null` means no
-  integrity treatment has been attached; it does not mean a clean record.
-  No evaluations have been run. Reuse identical application text when attaching
-  the plan's integrity conditions or using its other assessment prompts.
-- `prompts/`: exact shared system template, resolved system message and TA
-  opportunity text. Applicant generation uses separate instructions.
-- `profiles.jsonl`: research metadata, source facts and provisional labels.
-  Do not pass this file or the viewer's labels to an evaluator.
-- `generation/`: accepted wording and factual-check status, without raw API logs.
-- `config.json`, `generation_contract.json`, `source_map.json`: sampling,
-  rubric, wording instructions and provenance.
-- `sampling_report.json`, `validation.json`, `application_manifest.json`,
-  `checksums.json`: coverage, automated checks, identities and file hashes.
+- `applications/`: the complete application profiles, including supporting
+  communication and teaching-performance evidence. These are not CVs alone.
+- `index.html`: local research viewer; its tier and mixed-case annotations are
+  excluded from the application files and evaluator messages.
+- `profiles.jsonl`: source facts plus private study metadata and provisional tiers.
+- `evaluator_fields.jsonl`: source facts only.
+- `evaluator_inputs.jsonl`: the plan's exact shared system message (committee
+  placeholder resolved), TA opportunity and overall-quality prompt. No integrity
+  treatment is attached: `condition: null` does not mean a clean record.
+  No evaluations have been run. Reuse the same application across treatments.
+- `prompts/`: the shared system template, resolved system message and TA opportunity.
+- `generation/`: accepted wording and separate-context factual-check results.
+- `config.json`, `generation_contract.json`, `source_map.json`: reproducible choices.
+- `sampling_report.json`, `validation.json`, `dataset.json`,
+  `application_manifest.json`, `checksums.json`: diagnostics and file hashes.
 
-The full method and assumptions are in `../../TA_METHOD.md`. All institutions,
-projects, communication observations and supervisor feedback are synthetic.
-These are short application profiles, including evidence a CV alone may omit.
-No recommendation letters are generated for TA applications: the plan does not
-include them among the TA criteria.
+All people, institutions, activities, instructor observations and supervisor
+feedback are fictional. Supporting evidence uses fixed templates grounded in the
+same source record as the CV sections. No recommendation letters or essays have
+been added. The research plan supplies criteria, not numerical thresholds or
+empirical applicant distributions. See [the version 2 method](../../TA_METHOD.md)
+for the mapping, rubric rules, mixed-case definition and limitations.
 
 ## Generation and verification
 
-Fixed facts were sampled and labelled before wording. GPT-6 Astra, with medium
-reasoning effort, paraphrased only the recorded project and teaching activities.
-A separate model context checked each accepted output against those facts.
-Dates, grades, role details, feedback, interest and availability were rendered
-directly from the source records. Repairs changed wording only.
+GPT-6 Astra at medium reasoning effort writes only titles and two short factual
+bullets per project or teaching entry. It receives no tier or mixed-case label.
+A separate context checks each output against the fixed record. Grades, dates,
+roles, feedback, teaching interest and availability render deterministically.
+Repairs, if needed, change wording only. Raw API records stay in the local run.
 
 Saved API responses: {summary['saved_api_responses']}.
-Reported tokens in saved responses: {summary['reported_usage'].get('total_tokens', 0)}.
-Accepted applicants by number of wording repairs: {json.dumps(summary['accepted_by_repair_attempt'], sort_keys=True)}.
-These token counts are usage evidence, not a billing estimate.
-
-From the repository root, without an API key:
+Reported total tokens: {summary['reported_usage'].get('total_tokens', 0)}.
+Accepted profiles by number of wording repairs: {json.dumps(summary['accepted_by_repair_attempt'], sort_keys=True)}.
+Usage totals are not a billing estimate.
 
 ```sh
-python3 -m ta_applicants verify --out datasets/ta-applicants-v1
+python3 -m ta_applicants verify --out datasets/ta-applicants-v2
 ```
 
-Verification reproduces the 6,000-record pool and selection, recomputes tiers,
-checks all file hashes, renders each application again, and verifies exact
-assessment messages. Fixed records are reproducible; fresh model wording is not
-guaranteed to repeat. All numeric thresholds and distributions are study choices.
-Automated consistency checks do not establish empirical realism, hiring accuracy,
-independent human agreement or absence of evaluator bias.
-'''
+This command makes no API calls. It reproduces the pool and selection, recomputes
+labels, checks hashes and rerenders every application and assessment message.
+Fresh model prose is not guaranteed to repeat. Automated checks and same-model
+factual review do not establish real hiring accuracy, empirical realism or
+independent human agreement. The PhD datasets are preserved. Exporting a dataset does not approve it for publication.
+"""
 
 
 def verify_export(out):
@@ -295,8 +295,13 @@ def verify_export(out):
     pool = make_pool(config)
     rows = read_jsonl(out / "profiles.jsonl")
     require(select_allocated(pool, config) == rows, "Structured sample does not reproduce")
+    metadata = read_json(out / "dataset.json")
+    require(metadata["version"] == config["version"] and metadata["config_hash"] == digest(config) and metadata["profiles_hash"] == digest(rows) and metadata["application_count"] == len(rows) and metadata["selection"] == summarize(rows) and metadata["plan_sha256"] == PLAN_SHA256, "Dataset metadata differs")
+    report = read_json(out / "sampling_report.json")
+    require(report["pool"] == summarize(pool) and report["selected"] == summarize(rows), "Saved sampling diagnostics differ")
     require(read_jsonl(out / "evaluator_fields.jsonl") == [row["facts"] for row in rows], "Evaluator facts differ")
     require((out / "prompts/system_template.txt").read_text() == SYSTEM_TEMPLATE + "\n" and (out / "prompts/opportunity.txt").read_text() == OPPORTUNITY + "\n", "Plan wording changed")
+    require((out / "prompts/system_resolved.txt").read_text() == assessment_messages("placeholder", config["committee_name"])[0]["content"] + "\n", "Resolved system message changed")
     expected_messages, expected_manifest = [], []
     for row in rows:
         pid = row["profile_id"]

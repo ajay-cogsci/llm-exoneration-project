@@ -6,8 +6,8 @@ only the Python standard library. Planning and previewing make no API calls.
 
 The commands below describe the original 11-condition PhD design. Keep these
 conditions, all three tasks, and both response formats for the proposed TA
-extension. [TA preparation](docs/TA_PREPARATION.md) records the opportunity and
-missing applicant evidence. TA collection is not configured or approved yet;
+extension. [The approved TA method](TA_METHOD.md) records the opportunity and
+supplied applicant evidence. TA evaluation is not configured or approved yet;
 these commands still run the PhD study. No earlier results are replaced.
 
 Inputs are the corrected packets in

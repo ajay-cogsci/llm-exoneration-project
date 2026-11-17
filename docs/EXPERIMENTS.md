@@ -8,7 +8,7 @@ results remain available and are not pooled with a new run by default.
 | PhD pilot | Completed for the seven-model panel | `runs/pilot/results.csv`, `runs/pilot/summary.json` |
 | Original PhD full design | Five of seven planned models completed; 66,000 valid replies | [Written analysis](../runs/main/analysis/SUMMARY.md), `runs/main/results.csv`, `runs/main/summary.json` |
 | No-inference-sentence ablation | Completed for three models and two arms | [Written analysis](../runs/ablation/analysis/SUMMARY.md); results in `runs/ablation/plan_A/` and `plan_B/` |
-| Introductory-CS teaching assistant | Applicant generation completed; evaluation run not configured or approved | [100 graduate applicants, version 2](../datasets/ta-applicants-v2/), [method](../TA_V2_METHOD.md), [verification](../VALIDATION.md). Retain the original 11 conditions, three tasks and two formats for the eventual evaluation. |
+| Introductory-CS teaching assistant | Applicant generation completed; evaluation run not configured or approved | [100 graduate applicants, version 2](../datasets/ta-applicants-v2/), [method](../TA_METHOD.md), [verification](../VALIDATION.md). Retain the original 11 conditions, three tasks and two formats for the eventual evaluation. |
 | Fellowship, research assistant | Not run | Opportunity drafts exist in the shared notes. Current PhD packets do not supply all needed opportunity-specific evidence. |
 
 The full-design run used GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
@@ -18,10 +18,11 @@ in the pilot but have not completed the full design.
 ## Repository branches (consolidated 16 November 2026)
 
 `main` is the canonical branch for completed work and current study documentation.
-`codex/ta-prep` is the only preparation branch, for TA materials awaiting review.
-No TA evaluation experiment is approved. The approved TA applicant-generation
-update is on `main`; the preparation branch is retained. Review any later work
-on that branch before merging or retiring it.
+The former `codex/ta-prep` branch is synchronized with the approved files on
+`main`. Its unapproved example packets, generation handoff and superseded
+preparation notes have been removed. It does not contain an alternative TA
+pipeline. No TA evaluation experiment is approved. Only explicitly approved
+final changes should be published.
 
 Before consolidation, the GitHub default branch was behind the experiments.
 All six remote branch tips formed one ancestry chain ending at `70ae71a`; there
@@ -59,7 +60,7 @@ or whether a collaborator has read the existing results.
 
 - `configs/`: original study configurations; do not rewrite completed-run inputs.
 - `analysis/`: analysis code for the completed PhD study and ablation.
-- `docs/TA_PREPARATION.md`: TA applicant status and remaining evaluation preparation.
+- `TA_METHOD.md`: the single approved TA method and current generation scope.
 - `runs/`: historical outputs and local raw replies. Existing committed exports
   remain tracked; new raw logs and private human-pilot files remain ignored.
 - `datasets/`: versioned applicant inputs. Keep the published versions intact.
