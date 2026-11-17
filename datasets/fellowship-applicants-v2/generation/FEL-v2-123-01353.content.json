@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Multimodal Transit Graph Path Search",
+      "bullets": [
+        "Constructed graphs from public route tables using Python and NetworkX during a supervised undergraduate independent study of path search in multimodal transit networks.",
+        "Compared search times on sampled transportation graphs and tested disconnected graph cases within the supervised study."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Regional Rail Graph Path Search",
+      "bullets": [
+        "As a student research assistant, constructed public regional rail network graphs from route tables using Python and NetworkX under faculty supervision.",
+        "Compared path search times on sampled graphs representing public regional rail networks as part of supervised faculty research."
+      ]
+    }
+  ]
+}

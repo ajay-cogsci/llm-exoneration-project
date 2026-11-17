@@ -1,6 +1,7 @@
 # Semi-synthetic applicant pipelines
 
-Structured PhD and graduate CS teaching-assistant applicant generation, provisional
+Structured PhD, graduate CS teaching-assistant and graduate research fellowship
+applicant generation, provisional
 criterion-based labels, and constrained application wording. PhD applications also
 include fixed-template recommendation summaries. The project studies evaluations
 of otherwise identical applications across integrity conditions.
@@ -12,6 +13,11 @@ are complete. The original 11-condition methodology remains the study design.
 The introductory-CS TA applicant bank has been generated and verified following
 approval: 100 graduate applicants in [version 2](datasets/ta-applicants-v2/).
 TA evaluation runs, model-panel choices and evaluation spending remain pending.
+
+The graduate research fellowship applicant bank is approved for publication:
+100 early-stage CS graduate applicants in [version 2](datasets/fellowship-applicants-v2/).
+Fellowship evaluation runs remain unapproved. See the
+[fellowship method](FELLOWSHIP_METHOD.md) for scope, assumptions and verification.
 
 Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis,
 and [the approved TA method](TA_METHOD.md) for the applicant-generation scope.
@@ -35,6 +41,7 @@ models; the originally proposed seven-model panel remains incomplete.
 | [Applications, version 3](datasets/phd-applications-v3-recommendations-v1/) | The same 100 CVs with 300 recommendation summaries and 100 complete packets |
 | [Original sample](sample-100-resume-generated/) | Historical sample retained unchanged |
 | [Graduate TA applications, version 2](datasets/ta-applicants-v2/) | Revised 100-applicant TA sample: 30 weak, 40 borderline, 30 strong and ten designated mixed cases; capable first-time TAs and varied source records |
+| [Graduate research fellowship applications, version 2](datasets/fellowship-applicants-v2/) | Approved 100-applicant sample: 64 MS and 36 PhD students, 30 weak, 40 borderline, 30 strong and ten designated mixed cases; complete research and broader-impact plans |
 
 Only final datasets explicitly approved for publication are committed. TA version
 2 is the approved TA dataset. Drafts, pilots and intermediate outputs belong in
@@ -43,6 +50,11 @@ default; a future approved dataset requires an explicit publication update.
 The only TA generator is `ta_applicants/`, configured by `configs/ta.json` and
 documented in [TA_METHOD.md](TA_METHOD.md). Its approved dataset keeps the v2
 release identifier; it is not a second pipeline.
+
+Fellowship version 2 is the only approved fellowship release. Its canonical
+pipeline is `fellowship_applicants/`, with `configs/fellowship.json` and
+[FELLOWSHIP_METHOD.md](FELLOWSHIP_METHOD.md). Earlier fellowship data, pilots and
+raw generation logs remain excluded from version control.
 
 Dataset directories include documentation, a local HTML viewer and file
 checksums. GitHub displays HTML source; clone or download the repository to
@@ -116,6 +128,7 @@ python3 scripts/audit_ta.py
 - [RUBRIC.md](RUBRIC.md): tier definitions, mixed profiles and sampler design.
 - [RECOMMENDATIONS.md](RECOMMENDATIONS.md): template fields and assignment settings.
 - [TA_METHOD.md](TA_METHOD.md): revised TA sampling, rubric and verification.
+- [FELLOWSHIP_METHOD.md](FELLOWSHIP_METHOD.md): fellowship evidence rubric, sampling, model wording and verification.
 - [VALIDATION.md](VALIDATION.md): validation results and limitations.
 - [EVALUATION.md](EVALUATION.md): running the PhD evaluation and its open choices.
 - [configs/](configs/): reusable parameter files; numerical PhD settings are provisional.
@@ -135,6 +148,8 @@ Python 3.10+ and the standard library are sufficient. These checks make no model
 ```sh
 python3 -m unittest discover -s tests -v
 python3 scripts/verify_datasets.py
+python3 -m fellowship_applicants verify --out datasets/fellowship-applicants-v2
+python3 scripts/audit_fellowship.py --out datasets/fellowship-applicants-v2
 ```
 
 Dataset verification checks every exported file, reproduces the structured pool

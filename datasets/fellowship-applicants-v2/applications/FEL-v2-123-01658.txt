@@ -1,0 +1,68 @@
+Applicant FEL-v2-123-01658
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.40/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B+ | undergraduate, 2021-05
+Linear Algebra: B+ | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Graduate Research Methods: C+ | graduate, 2025-12
+Advanced Algorithms: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-03 to 2024-05 | 2 months; 4 hours/week
+Path Search on Public Transportation Graphs
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public multimodal transit route tables using Python and NetworkX for a supervised undergraduate team course project.
+- Implemented shortest-path queries and compared search times on sampled transportation graphs as assigned contributions to the course project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Path Search on Public Transportation Graphs': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Path Search on Public Transportation Graphs': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Path Search on Public Transportation Graphs': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in query repetition affect the total cost of preprocessed shortest-path queries on public regional rail networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Map the conditions under which preprocessing repays its construction cost while retaining correct route costs after the tested changes.
+Method: Vary query repetition across held-out network regions, compare total preprocessing and query cost, and test path-cost agreement after each controlled route change.
+Comparison: Use unmodified Dijkstra search on the same graphs and query pairs as the correctness and timing baseline.
+Evaluation: Report correctness failures and total cost with repeated-query intervals; locate break-even query counts and verify them on held-out network regions.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Controlled changes do not reproduce live transport disruptions; report sensitivity to changed edges and separate correctness from timing conclusions.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-08 | 4 hours | adapted introductory programming exercises. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is adapting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Share the materials through an open online learning group and invite interested learners to use them during their own study time.
+Access: Provide the materials online with brief instructions so interested learners can choose when and how to work through them.
+Assessment: Track views and downloads and collect optional comments about adapting an example to decide which materials to share more widely.

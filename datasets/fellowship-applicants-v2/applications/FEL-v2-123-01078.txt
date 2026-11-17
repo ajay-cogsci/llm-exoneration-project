@@ -1,0 +1,69 @@
+Applicant FEL-v2-123-01078
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.71/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2021-11
+Algorithms: A | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: A | undergraduate, 2022-05
+Introduction to Machine Learning: A- | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Computer vision: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+NumPy, PyTorch, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-02 to 2025-05 | 3 months; 8 hours/week
+Small-Image Classification Course Project
+Inputs: public small-object image collections.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Loaded public small-image datasets for a supervised undergraduate team course project examining classification under input changes.
+- Summarized classification errors in public small-object image collections as part of the assigned course project contribution.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Small-Image Classification Course Project': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Small-Image Classification Course Project': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Small-Image Classification Course Project': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Computer vision
+Topic: small-image classification under input changes
+Question: How does variation in brightness variation affect the benefit and cost of training augmentation on public natural-scene image collections?
+Rationale: An augmentation can improve transformed-image accuracy while harming unchanged images, making aggregate accuracy an incomplete guide to robustness.
+Contribution: Describe where augmentation improves or worsens transformed-image accuracy on the selected split, using representative errors to illustrate the differences.
+Method: Train compact classifiers with and without an augmentation on one split, vary brightness variation, and compare accuracy on transformed images.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Report transformed-image accuracy from the chosen split and show representative misclassified images for each setting.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A single split and transformed-only evaluation can obscure losses on ordinary images and variation between training runs.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-11 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is reproducing an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a student-led computing club, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on reproducing an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

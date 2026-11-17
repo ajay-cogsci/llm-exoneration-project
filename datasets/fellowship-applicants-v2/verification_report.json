@@ -1,0 +1,16 @@
+{
+  "offline_tests": 151,
+  "test_status": "passed",
+  "test_run_log_sha256": "35bfdbc9cdd490bde4bd5a9725bdc065c427752288d41d71f83a2b5b3335de64",
+  "preserved_tracked_and_prior_fellowship_files": 3309,
+  "changed_protected_files": [],
+  "viewer_cards": 100,
+  "broken_local_links": [],
+  "catalogue_technical_review_calls": 3,
+  "catalogue_issues_resolved": 8,
+  "superseded_pilot_applicants": 3,
+  "superseded_pilot_reason": "Subject-verb agreement in shared questions and clearer source references were corrected before the final run. No applicant was replaced in response to a merit judgment.",
+  "independent_human_review_completed": false,
+  "verification_scope": "Generation and pre-publication checks; not a claim of independent human validation",
+  "publication_approved_on": "2026-11-18"
+}

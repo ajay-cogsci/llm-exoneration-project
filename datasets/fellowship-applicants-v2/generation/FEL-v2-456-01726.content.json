@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Supervised Text Classification Study",
+      "bullets": [
+        "Documented training and test splits for short public text classification in a supervised undergraduate independent study.",
+        "Compared classification errors across document lengths using Python, scikit-learn, and pandas for the assigned analysis."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Text Classification Course Project",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public text documents as part of a supervised graduate course project.",
+        "Cleaned public text records and documented training and test splits using Python, scikit-learn, and pandas."
+      ]
+    }
+  ],
+  "research": []
+}

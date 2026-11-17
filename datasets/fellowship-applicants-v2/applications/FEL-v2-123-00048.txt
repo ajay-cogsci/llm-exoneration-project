@@ -1,0 +1,86 @@
+Applicant FEL-v2-123-00048
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.18/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2022-11
+Algorithms: B+ | undergraduate, 2023-05
+Linear Algebra: B | undergraduate, 2022-11
+Probability and Statistics: B+ | undergraduate, 2023-05
+Database Systems: A- | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Applied machine learning: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, SQL, SQLite, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-05 to 2024-11 | 6 months; 4 hours/week
+Municipal Data Query Performance
+Inputs: public municipal service tables.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Documented query plans for public municipal service tables in a supervised undergraduate capstone examining query performance.
+- Wrote SQL aggregation and join queries for public municipal service data using SQLite within the capstone project.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+Undergraduate course project, Fictional University A | 2025-01 to 2025-05 | 4 months; 4 hours/week
+Transit Timetable Database Queries
+Inputs: public transit timetable tables.
+Scope: Supervised project with 4 student(s); listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public transit timetable tables into a SQLite relational database as part of a supervised undergraduate team course project.
+- Wrote SQL aggregation and join queries and documented query plans for the course project's examination of query performance.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-07 to 2025-01 | 6 months; 6 hours/week
+River Level Time Series Preparation
+Inputs: public river-level measurement series.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Aligned public river-level sensor time series and identified missing observations as a student assistant in supervised faculty research.
+- Implemented a seasonal baseline for forecasting from public environmental time series within the supervised research assignment.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+query performance on public tabular data | 2024-11 | Presented at a fictional university student research symposium; source: Municipal Data Query Performance (2024-05 to 2024-11).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'River Level Time Series Preparation': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'River Level Time Series Preparation': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'River Level Time Series Preparation': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Applied machine learning
+Topic: forecasting from public environmental time series
+Question: How does variation in seasonal variation affect imputation and short-horizon forecasting on public rainfall measurement series?
+Rationale: A low average forecast error may hide failure during extended outages; comparing missingness patterns can clarify when imputation ceases to be useful.
+Contribution: Describe how imputation and the seasonal reference differ in average forecast error over the selected period, with examples near missing observations.
+Method: Apply simple imputation to one chronological split, vary seasonal variation, and compare forecast errors with a seasonal-naive reference. Fill missing historical inputs using past observations only, then forecast one step ahead with lagged-input ridge regression fitted only on earlier observations.
+Comparison: Compare the resulting ridge forecasts with seasonal-naive forecasts on the same test dates.
+Evaluation: Summarize mean absolute error over the selected test period and inspect example forecasts near missing observations.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The chosen period may underrepresent extended outages and seasonal changes that would alter the preferred method.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-10 | 4 hours | assembled a short troubleshooting note for peers. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is reproducing an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Share the materials through a community education programme and invite interested learners to use them during their own study time.
+Access: Provide the materials online with brief instructions so interested learners can choose when and how to work through them.
+Assessment: Track views and downloads and collect optional comments about reproducing an example to decide which materials to share more widely.

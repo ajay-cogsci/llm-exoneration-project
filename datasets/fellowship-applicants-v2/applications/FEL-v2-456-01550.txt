@@ -1,0 +1,69 @@
+Applicant FEL-v2-456-01550
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.82/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2019-11
+Algorithms: B+ | undergraduate, 2020-05
+Linear Algebra: A- | undergraduate, 2019-11
+Probability and Statistics: A- | undergraduate, 2020-05
+Introduction to Machine Learning: A- | undergraduate, 2021-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Computer vision: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+NumPy, PyTorch, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-11 to 2023-05 | 6 months; 4 hours/week
+Small-Image Classification Capstone
+Inputs: public texture image collections.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Trained a compact image classifier on public texture image collections with Python, PyTorch, and NumPy in a supervised undergraduate capstone team project.
+- Applied simple input transformations and summarized classification errors as assigned contributions to the capstone study of small-image classification under input changes.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Small-Image Classification Capstone': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Small-Image Classification Capstone': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Small-Image Classification Capstone': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Computer vision
+Topic: small-image classification under input changes
+Question: How does variation in brightness variation affect the benefit and cost of training augmentation on public texture image collections?
+Rationale: An augmentation can improve transformed-image accuracy while harming unchanged images, making aggregate accuracy an incomplete guide to robustness.
+Contribution: Map where an augmentation improves transformed-image performance without unacceptable loss on unchanged inputs, including settings where the tradeoff reverses.
+Method: Vary brightness variation under matched budgets and repeated training seeds, reserve transformation intensities for evaluation, and separate tuning images from the final test set.
+Comparison: Compare with an unaugmented classifier and a fixed combined-augmentation baseline using the same train and test split.
+Evaluation: Report paired accuracy differences and repeated-seed intervals for unchanged and held-out transformations; examine whether improvements persist beyond the tuning intensities.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Artificial transformations approximate only some imaging changes; distinguish tested perturbation tolerance from claims about deployment conditions or general visual robustness.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is reproducing an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at an open online learning group, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about reproducing an example; use participant comments to revise the examples and instructions after the pilot.

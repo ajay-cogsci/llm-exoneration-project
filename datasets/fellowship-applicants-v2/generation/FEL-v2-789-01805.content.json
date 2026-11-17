@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Applied simple input transformations to public handwritten-symbol images as part of a supervised undergraduate capstone project.",
+        "Trained a compact image classifier using Python, PyTorch and NumPy for small-image classification under input changes."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Environmental Time-Series Forecasting Course Project",
+      "bullets": [
+        "Aligned public rainfall measurement time series and identified missing observations as part of a supervised undergraduate course project.",
+        "Implemented a seasonal baseline for forecasting from public rainfall measurement series using Python, pandas and scikit-learn."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Small-Image Classification Research Assistance",
+      "bullets": [
+        "Loaded public texture image datasets and trained a compact image classifier using Python, PyTorch and NumPy.",
+        "Summarized classification errors in small-image classification under input changes as a supervised student research assistant."
+      ]
+    }
+  ]
+}

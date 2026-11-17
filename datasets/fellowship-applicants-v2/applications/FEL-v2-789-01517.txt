@@ -1,0 +1,69 @@
+Applicant FEL-v2-789-01517
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.80/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2021-11
+Algorithms: A- | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: B+ | undergraduate, 2022-05
+Introduction to Machine Learning: B+ | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Natural language processing: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-11 to 2025-05 | 6 months; 4 hours/week
+Supervised Public Text Classification Study
+Inputs: public discussion-topic text.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Implemented a bag-of-words classifier for short public discussion-topic documents in a supervised undergraduate independent study, following a supervisor-provided specification.
+- Compared classification errors across document lengths and documented training and test splits, using Python, scikit-learn, and pandas for project tasks.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+Departmental undergraduate academic commendation | 2025-05
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Supervised Public Text Classification Study': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Supervised Public Text Classification Study': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Supervised Public Text Classification Study': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in document-length variation change the relative performance of linear and compact encoder classifiers on public discussion-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers across several settings of document-length variation, using a fixed held-out split and inspecting errors within each label group.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training time on the held-out split; compare patterns across the chosen settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The fixed test split permits controlled comparisons, while uncertainty across new training samples and collections remains a limitation.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is adapting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a community education programme, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

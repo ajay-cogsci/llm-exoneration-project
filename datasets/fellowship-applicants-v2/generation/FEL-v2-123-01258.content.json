@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Sensor Time Series Preparation",
+      "bullets": [
+        "Identified missing observations in public temperature sensor series during a supervised undergraduate independent study on environmental forecasting.",
+        "Aligned public temperature sensor time series using Python and pandas as part of the supervised forecasting project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public numeric-computation example programs using Python as a student research assistant in supervised faculty research.",
+        "Implemented abstract syntax tree traversal for static checks on small programming exercises within the supervised research work."
+      ]
+    }
+  ]
+}

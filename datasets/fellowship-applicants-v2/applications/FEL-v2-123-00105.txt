@@ -1,0 +1,79 @@
+Applicant FEL-v2-123-00105
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.38/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B- | undergraduate, 2022-11
+Algorithms: A- | undergraduate, 2023-05
+Linear Algebra: A- | undergraduate, 2022-11
+Probability and Statistics: B | undergraduate, 2023-05
+Introduction to Machine Learning: B | undergraduate, 2023-09
+Scientific Computing: B | undergraduate, 2023-09
+Graduate Research Methods: C+ | graduate, 2025-12
+Advanced Natural language processing: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-03 to 2025-05 | 2 months; 4 hours/week
+Short Public Text Classification
+Inputs: public question-category text.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Compared classification errors across document lengths for short public question-category texts using Python, scikit-learn, and pandas in a supervised undergraduate course project.
+- Documented the training and test splits used for classifying short public text documents as an assigned project contribution.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 8 hours/week
+Reproducible Scientific Table Processing
+Inputs: public bibliographic analysis workflows.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Assembled a scripted data-cleaning workflow for public scientific tables in a supervised graduate course project using Python, pandas, and Git.
+- Recorded software dependencies and reproduced summary tables from raw inputs as assigned contributions to the public bibliographic analysis workflow.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Short Public Text Classification': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Short Public Text Classification': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Short Public Text Classification': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in training-set size change the relative performance of linear and compact encoder classifiers on public news-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers across several settings of training-set size, using a fixed held-out split and inspecting errors within each label group.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training time on the held-out split; compare patterns across the chosen settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The fixed test split permits controlled comparisons, while uncertainty across new training samples and collections remains a limitation.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-11 | 12 hours | facilitated a tutorial activity for a study group. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is interpreting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Include text alternatives for figures, small downloadable inputs and instructions for running examples on ordinary laptops.
+Assessment: Use a short task on interpreting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

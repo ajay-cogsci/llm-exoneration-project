@@ -1,0 +1,87 @@
+Applicant FEL-v2-456-00451
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.18/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B | undergraduate, 2021-11
+Algorithms: B | undergraduate, 2022-05
+Linear Algebra: A- | undergraduate, 2021-11
+Probability and Statistics: B- | undergraduate, 2022-05
+Database Systems: B- | undergraduate, 2023-09
+Introduction to Machine Learning: B | undergraduate, 2023-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Data management: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+NumPy, PyTorch, Python, SQL, SQLite
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-03 to 2025-05 | 2 months; 8 hours/week
+Municipal Data Query Performance
+Inputs: public municipal service tables.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Wrote SQL aggregation and join queries for public municipal service tables as part of a supervised undergraduate course project.
+- Compared indexed and unindexed queries and documented query plans using SQLite within the course project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-11 to 2025-05 | 6 months; 10 hours/week
+Small-Image Classification
+Inputs: public small-object image collections.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Loaded public small-image datasets and trained a compact image classifier using Python and PyTorch as part of supervised faculty research.
+- Summarized classification errors for small-image classification under input changes, working with public small-object image collections.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 6 hours/week
+Bibliographic Data Query Performance
+Inputs: public bibliographic tables.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Wrote SQL aggregation and join queries for public bibliographic tables as a student research assistant under faculty supervision.
+- Compared indexed and unindexed queries using SQLite and documented query plans for research on public tabular data query performance.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH OUTPUTS
+small-image classification under input changes | 2025-05 | Coauthored preprint; not peer reviewed; source: Small-Image Classification (2024-11 to 2025-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Bibliographic Data Query Performance': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Bibliographic Data Query Performance': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Bibliographic Data Query Performance': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Data management
+Topic: query performance on public tabular data
+Question: How does variation in query selectivity change the balance of query latency, update overhead and storage for indexes on public municipal service tables?
+Rationale: An index can accelerate reads while imposing storage and update costs; a recommendation based only on query latency can therefore be misleading.
+Contribution: Identify workload conditions where an indexing choice changes from a useful speed improvement to an avoidable maintenance cost.
+Method: Replay matched workloads across query selectivity with fixed index configurations, consistent warm-up and repeated runs on the same machine.
+Comparison: Compare each configuration with an unindexed database and a fixed index set under identical query workloads.
+Evaluation: Report median query time, update cost and storage by setting, separating read-heavy and update-heavy workload results.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Standardized runs improve comparability, while the fixed machine and workload family limit transfer to other installations.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-09 | 24 hours | delivered a series of beginner programming practice sessions. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is interpreting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Share the materials through an open online learning group and invite interested learners to use them during their own study time.
+Access: Provide the materials online with brief instructions so interested learners can choose when and how to work through them.
+Assessment: Track views and downloads and collect optional comments about interpreting an example to decide which materials to share more widely.

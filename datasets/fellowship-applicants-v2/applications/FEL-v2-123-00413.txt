@@ -1,0 +1,77 @@
+Applicant FEL-v2-123-00413
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.44/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B+ | undergraduate, 2021-05
+Linear Algebra: C+ | undergraduate, 2020-11
+Probability and Statistics: B | undergraduate, 2021-05
+Introduction to Machine Learning: A- | undergraduate, 2021-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Natural language processing: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-12 to 2023-05 | 5 months; 8 hours/week
+Short-Text Classification Capstone
+Inputs: public discussion-topic text.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public discussion-topic text records using Python and pandas for a supervised undergraduate capstone on short-document classification.
+- Compared classification errors across document lengths as part of the supervised capstone investigation using scikit-learn.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-05 to 2022-11 | 6 months; 10 hours/week
+Short-Text Classification Research Assistance
+Inputs: public product-review text.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public product-review text records using Python and pandas as a student assistant in supervised faculty research.
+- Implemented a bag-of-words classifier using scikit-learn for short public text documents within the supervised research project.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Short-Text Classification Research Assistance': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Research supervisor on 'Short-Text Classification Research Assistance': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Research supervisor on 'Short-Text Classification Research Assistance': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in rare-label frequency change the relative performance of linear and compact encoder classifiers on public news-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers across several settings of rare-label frequency, using a fixed held-out split and inspecting errors within each label group.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training time on the held-out split; compare patterns across the chosen settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The fixed test split permits controlled comparisons, while uncertainty across new training samples and collections remains a limitation.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2021-12 | 24 hours | organized a series of student reproducibility practice activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a student-led computing club, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Use small public inputs, explicit environment instructions and text-based checks that run without specialized hardware.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

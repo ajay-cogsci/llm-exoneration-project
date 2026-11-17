@@ -1,0 +1,86 @@
+Applicant FEL-v2-123-01285
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.69/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B- | undergraduate, 2020-11
+Algorithms: B+ | undergraduate, 2021-05
+Linear Algebra: B+ | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Algorithms: B- | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2022-05 to 2022-11 | 6 months; 4 hours/week
+Multimodal Transit Path Search
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Implemented shortest-path queries for public multimodal transit networks using Python and NetworkX in a supervised undergraduate independent study.
+- Compared search times on sampled transportation graphs as part of the supervised path-search project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+Undergraduate course project, Fictional University A | 2023-03 to 2023-05 | 2 months; 8 hours/week
+Walking-Route Graph Search
+Inputs: public walking-route networks.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Tested disconnected graph cases for public walking-route networks using Python and NetworkX in a supervised undergraduate course project.
+- Compared search times on sampled walking-route graphs as an assigned contribution to the course project.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-07 to 2023-01 | 6 months; 12 hours/week
+Urban Bus Network Path Search
+Inputs: public urban bus networks.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public urban bus route tables using Python and NetworkX as a student assistant in supervised faculty research.
+- Implemented shortest-path queries and tested disconnected graph cases for path search on public urban bus networks.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Walking-Route Graph Search': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Walking-Route Graph Search': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Walking-Route Graph Search': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in query repetition affect the total cost of preprocessed shortest-path queries on public urban bus networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Map the conditions under which preprocessing repays its construction cost while retaining correct route costs on the tested graphs.
+Method: Compare preprocessing and Dijkstra search across query repetition, checking path costs on fixed query sets and recording preprocessing time.
+Comparison: Use unmodified Dijkstra search on the same graphs and query pairs as the correctness and timing baseline.
+Evaluation: Report path-cost agreement, preprocessing time, memory and query latency for the selected network sizes and settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The comparison covers the selected static graphs, but may not reflect the frequency of changes in operational routing systems.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-04 | 24 hours | organized a series of student reproducibility practice activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+2025-09 | 4 hours | assembled a short troubleshooting note for peers. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is reproducing an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about reproducing an example; use participant comments to revise the examples and instructions after the pilot.

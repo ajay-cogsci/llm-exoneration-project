@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Independent Study in Short-Text Classification",
+      "bullets": [
+        "Cleaned public product-review text records using Python and pandas during a supervised undergraduate independent study on short-document classification.",
+        "Implemented a bag-of-words classifier with scikit-learn and compared classification errors across document lengths within the supervised project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Assistance in Short-Text Classification",
+      "bullets": [
+        "Cleaned public discussion-topic text records using Python and pandas as a student research assistant contributing to supervised faculty research.",
+        "Implemented a bag-of-words classifier with scikit-learn and compared classification errors across document lengths as part of the supervised research."
+      ]
+    }
+  ]
+}

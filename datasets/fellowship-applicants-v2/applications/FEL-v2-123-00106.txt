@@ -1,0 +1,68 @@
+Applicant FEL-v2-123-00106
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.25/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2021-11
+Algorithms: A- | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: C+ | undergraduate, 2022-05
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Applied machine learning: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-01 to 2024-05 | 4 months; 4 hours/week
+Environmental Time Series Forecasting
+Inputs: public river-level measurement series.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Identified missing observations in public river-level measurement series during a supervised undergraduate independent study on environmental forecasting.
+- Plotted forecast residuals and implemented a seasonal baseline using Python, pandas, and scikit-learn within the supervised project.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Environmental Time Series Forecasting': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Project supervisor on 'Environmental Time Series Forecasting': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Project supervisor on 'Environmental Time Series Forecasting': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Applied machine learning
+Topic: forecasting from public environmental time series
+Question: How does variation in outage duration affect imputation and short-horizon forecasting on public rainfall measurement series?
+Rationale: A low average forecast error may hide failure during extended outages; comparing missingness patterns can clarify when imputation ceases to be useful.
+Contribution: Characterize conditions where simple imputation preserves forecast usefulness and where uncertainty or long outages undermine that conclusion.
+Method: Vary outage duration across chronological evaluation windows, preserve a final holdout period, and compare imputation with seasonal-naive and unaltered-input reference forecasts. Fill missing historical inputs using past observations only, then forecast one step ahead with lagged-input ridge regression fitted only on earlier observations.
+Comparison: Compare the resulting ridge forecasts with seasonal-naive forecasts on the same test dates. Also apply the same ridge model to unaltered historical inputs as a reference.
+Evaluation: Report sensor-level error distributions and uncertainty across windows; test whether conclusions hold for long contiguous outages in the final holdout period.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Observed sensor failures can have different causes from injected missingness; compare several patterns and avoid interpreting associations as causal outage effects.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-01 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is adapting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a community education programme, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Include text alternatives for figures, small downloadable inputs and instructions for running examples on ordinary laptops.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

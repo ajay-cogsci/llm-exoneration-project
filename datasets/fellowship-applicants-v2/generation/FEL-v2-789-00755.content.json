@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Air-Quality Forecasting Course Project",
+      "bullets": [
+        "Aligned public air-quality sensor time series as an assigned contribution to a supervised undergraduate course project.",
+        "Implemented a seasonal baseline for environmental time-series forecasting within the course project using Python, pandas and scikit-learn."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "River-Level Forecasting Research Assistance",
+      "bullets": [
+        "Implemented a seasonal baseline for forecasting public river-level measurements as a student assistant in supervised faculty research.",
+        "Aligned public river-level sensor time series for the forecasting work using Python, pandas and scikit-learn."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Rainfall Forecasting Research Assistance",
+      "bullets": [
+        "Aligned public rainfall measurement time series and identified missing observations as a student assistant in supervised faculty research.",
+        "Implemented a seasonal baseline for forecasting public rainfall measurements using Python, pandas and scikit-learn."
+      ]
+    }
+  ]
+}

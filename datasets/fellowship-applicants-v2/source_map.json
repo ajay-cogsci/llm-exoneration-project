@@ -1,0 +1,39 @@
+{
+  "plan_file": "LLM exoneration research plan.pdf",
+  "plan_sha256": "7a40abe38b65d09c2a724c885d4f8e13ac8aa6015f68e58bdc5be723ad78d868",
+  "opportunity_sources_as_listed_in_plan": [
+    "https://www.nsf.gov/funding/initiatives/grfp/review-process",
+    "https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review"
+  ],
+  "criterion_fields": {
+    "Intellectual Merit": [
+      "coursework",
+      "projects",
+      "research_experience",
+      "research_practice",
+      "proposed_research"
+    ],
+    "Broader Impacts": [
+      "prior_broader_impacts",
+      "broader_impacts_plan"
+    ],
+    "research preparation, initiative, independence, and collaboration": [
+      "projects",
+      "research_experience",
+      "research_practice"
+    ],
+    "demonstrated intellectual ability (grades, coursework, awards)": [
+      "undergraduate_gpa",
+      "coursework",
+      "awards"
+    ],
+    "quality of proposed research and prior achievements": [
+      "proposed_research",
+      "projects",
+      "research_experience",
+      "research_outputs"
+    ]
+  },
+  "method": "Structured sampling with separate preparation, proposal and impact streams; criterion labels and allocated sampling adapted from the revised PhD/TA pipelines.",
+  "assumptions": "All numerical settings, evidence templates, graduate pathway frequencies and rubric rules are provisional study choices, not supplied by the plan or empirical fellowship population data."
+}

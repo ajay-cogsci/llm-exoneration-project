@@ -1,0 +1,87 @@
+Applicant FEL-v2-123-01954
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.56/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B- | undergraduate, 2021-11
+Algorithms: B | undergraduate, 2022-05
+Linear Algebra: B- | undergraduate, 2021-11
+Probability and Statistics: B+ | undergraduate, 2022-05
+Introduction to Machine Learning: B | undergraduate, 2022-09
+Scientific Computing: B | undergraduate, 2022-09
+Graduate Research Methods: C+ | graduate, 2025-12
+Advanced Scientific computing: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, NumPy, PyTorch, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-12 to 2024-05 | 5 months; 8 hours/week
+Small-Image Classification Capstone
+Inputs: public natural-scene image collections.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Loaded public small-image datasets from natural-scene collections as part of a supervised undergraduate capstone project.
+- Trained a compact image classifier using Python and PyTorch for the capstone topic of classification under input changes.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-07 to 2024-01 | 6 months; 10 hours/week
+Reproducible Scientific Table Processing
+Inputs: public bibliographic analysis workflows.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Reproduced summary tables from raw inputs in public bibliographic analysis workflows as a supervised student research assistant.
+- Assembled a scripted data-cleaning workflow using Python and pandas for reproducible processing of public scientific tables.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Image Classification Under Input Changes
+Inputs: public handwritten-symbol image collections.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Trained a compact image classifier using Python and PyTorch on public handwritten-symbol image collections within supervised faculty research.
+- Applied simple input transformations and summarized classification errors as assigned contributions to supervised research on small-image classification.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Reproducible Scientific Table Processing': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Reproducible Scientific Table Processing': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Reproducible Scientific Table Processing': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in unit inconsistencies affect fault detection by lightweight checks in public municipal-data analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Characterize which silent processing failures inexpensive checks detect and which require contextual knowledge beyond schema validation.
+Method: Define fault categories before writing checks, vary unit inconsistencies, and reserve workflows and fault instances for evaluating schema-only and combined checks.
+Comparison: Compare unchecked workflows, schema-only checks and the combined check set on identical fault cases.
+Evaluation: Report detection and false-alarm rates on held-out workflows with category-specific intervals; test whether conclusions change when fault prevalence differs.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Injected faults need not match real processing failures; disclose the fault taxonomy and distinguish detection coverage from claims about complete analytical correctness.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-07 | 24 hours | delivered a series of tutorial sessions on reproducible analysis. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Share the materials through an open online learning group and invite interested learners to use them during their own study time.
+Access: Provide the materials online with brief instructions so interested learners can choose when and how to work through them.
+Assessment: Track views and downloads and collect optional comments about adapting an example to decide which materials to share more widely.

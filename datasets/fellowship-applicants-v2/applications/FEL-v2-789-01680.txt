@@ -1,0 +1,86 @@
+Applicant FEL-v2-789-01680
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 3.44/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B+ | undergraduate, 2021-05
+Linear Algebra: B | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Programming Languages: B+ | undergraduate, 2022-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Programming languages: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-03 to 2023-11 | 8 months; 8 hours/week
+Capstone on Static Checks
+Inputs: public numeric-computation example programs.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public example programs using Python and abstract syntax trees as part of a supervised undergraduate capstone on static checks.
+- Wrote checks for selected code patterns and documented false-positive cases involving static checks for small programming exercises.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 8 hours/week
+Course Project on Syntax-Tree Traversal
+Inputs: public file-processing example programs.
+Scope: Supervised project with 4 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Implemented syntax-tree traversal in Python for static checks of small programming exercises within a supervised undergraduate team course project.
+- Parsed small public example programs using abstract syntax trees as an assigned contribution to the course project.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Research Assistance on Static Checks
+Inputs: public string-processing example programs.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Implemented syntax-tree traversal in Python for static checks of small programming exercises as a student assistant in supervised faculty research.
+- Parsed small public example programs using abstract syntax trees as part of assigned research assistance tasks.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Research Assistance on Static Checks': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Research Assistance on Static Checks': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Research Assistance on Static Checks': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in nesting depth affect false warnings from syntax-pattern checks on public list-processing example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Identify contexts where additional syntax information reduces false warnings and document cases where that extra complexity still misses the intended distinction.
+Method: Vary nesting depth in examples reserved by program family, define labeling rules before tuning, and have a collaborator independently recheck a subset of warning labels.
+Comparison: Use context-free pattern matching on the same manually checked examples as the reference method.
+Evaluation: Report precision and recall by context with uncertainty intervals, adjudicate labeling disagreements, and evaluate on program families excluded from rule tuning.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Manual labels and template overlap can distort apparent gains; publish the labeling rules and repeat analysis after excluding near-duplicate program families.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-05 | 24 hours | delivered a series of public-data interpretation activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is adapting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a student-led computing club, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

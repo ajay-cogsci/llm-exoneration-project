@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Project in Small-Image Classification",
+      "bullets": [
+        "Trained a compact image classifier on public handwritten-symbol image collections as part of a supervised undergraduate course project.",
+        "Applied simple input transformations to handwritten-symbol images for the course project's study of small-image classification under input changes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Supervised Research on Small-Image Classification",
+      "bullets": [
+        "Loaded public small-image datasets from texture image collections as a student research assistant working under faculty supervision.",
+        "Summarized classification errors for supervised research examining small-image classification under input changes using public texture image collections."
+      ]
+    }
+  ]
+}

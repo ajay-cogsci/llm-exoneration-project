@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time Series Forecasting Course Project",
+      "bullets": [
+        "Implemented a seasonal baseline for forecasting public air-quality sensor series as a contributor to a supervised undergraduate course project.",
+        "Plotted forecast residuals and identified missing observations in the public environmental time series used for the course project."
+      ]
+    }
+  ],
+  "research": []
+}

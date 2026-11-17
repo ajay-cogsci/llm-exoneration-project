@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Review Text Classification",
+      "bullets": [
+        "Cleaned public product-review text records for short-document classification during a supervised undergraduate independent study.",
+        "Compared classification errors across document lengths using Python, scikit-learn and pandas within the assigned independent-study analysis."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Question Text Classification Research Assistance",
+      "bullets": [
+        "Implemented a bag-of-words classifier for public question-category text using Python and scikit-learn as a supervised student research assistant.",
+        "Documented train and test splits and compared classification errors across document lengths for the supervised short-text classification study."
+      ]
+    }
+  ]
+}

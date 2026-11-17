@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Path Search on Urban Bus Networks",
+      "bullets": [
+        "Constructed graphs from public urban bus route tables using Python and NetworkX as part of a supervised undergraduate capstone project.",
+        "Implemented shortest-path queries and tested disconnected graph cases for path search on public urban bus networks."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Path Search on Multimodal Transit Networks",
+      "bullets": [
+        "Constructed graphs from public multimodal transit route tables using Python and NetworkX as part of supervised faculty research.",
+        "Implemented shortest-path queries and compared search times on sampled graphs representing public multimodal transit networks."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public string-processing example programs with Python as part of supervised research on static checks for programming exercises.",
+        "Implemented syntax-tree traversal using abstract syntax trees for static checks on the small example programs."
+      ]
+    }
+  ]
+}

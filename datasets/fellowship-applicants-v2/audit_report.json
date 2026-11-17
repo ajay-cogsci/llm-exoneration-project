@@ -1,0 +1,476 @@
+{
+  "applicants": 100,
+  "tiers": {
+    "borderline": 40,
+    "strong": 30,
+    "weak": 30
+  },
+  "designated_mixed": {
+    "no_publication_substantive_potential": 2,
+    "lower_gpa_substantive_research": 3,
+    "intellectual_merit_impact_gap": 3,
+    "limited_preparation_promising_proposal": 2
+  },
+  "errors": [],
+  "word_counts_by_tier": {
+    "weak": {
+      "min": 571,
+      "max": 975,
+      "mean": 710.2
+    },
+    "borderline": {
+      "min": 576,
+      "max": 905,
+      "mean": 711.0
+    },
+    "strong": {
+      "min": 590,
+      "max": 928,
+      "mean": 726.6
+    }
+  },
+  "largest_to_smallest_tier_mean_ratio": 1.0231,
+  "unique_proposals": 100,
+  "unique_impact_plans": 100,
+  "ra_in_proposal_area": 52,
+  "evidence_sensitivity": {
+    "graduate_grades_to_C": {
+      "affected_records": 100,
+      "dimension_changes": {
+        "academic": 74
+      },
+      "tier_changes": 58,
+      "changes": [
+        {
+          "profile_id": "FEL-v2-123-01417",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-00656",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00677",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-01681",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01680",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00823",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01398",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00931",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-01726",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-01393",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-01037",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01532",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00183",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01845",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-01967",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01246",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00424",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00606",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00515",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-00066",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00244",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01517",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01327",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00106",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-01319",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01805",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-01238",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-01166",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-00899",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01253",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-01059",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00451",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-01042",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00257",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00413",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01709",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-01353",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01078",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-00008",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01481",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-00272",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01258",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-00896",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01190",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00559",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00698",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01590",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01015",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01325",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01825",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-456-01550",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01774",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01448",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-01063",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00179",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00796",
+          "before": "borderline",
+          "after": "weak"
+        }
+      ]
+    },
+    "remove_research_appointments": {
+      "affected_records": 58,
+      "dimension_changes": {
+        "research": 19
+      },
+      "tier_changes": 9,
+      "changes": [
+        {
+          "profile_id": "FEL-v2-789-01398",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00175",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-01246",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00451",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-00413",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00008",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01481",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-01448",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "remove_outputs": {
+      "affected_records": 24,
+      "dimension_changes": {
+        "research": 17
+      },
+      "tier_changes": 5,
+      "changes": [
+        {
+          "profile_id": "FEL-v2-123-00823",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-01037",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-123-00008",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00272",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00179",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "remove_awards": {
+      "affected_records": 8,
+      "dimension_changes": {
+        "academic": 3
+      },
+      "tier_changes": 0,
+      "changes": []
+    },
+    "remove_prior_impact": {
+      "affected_records": 71,
+      "dimension_changes": {
+        "broader_impacts": 12
+      },
+      "tier_changes": 5,
+      "changes": [
+        {
+          "profile_id": "FEL-v2-789-01845",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-789-00244",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "FEL-v2-123-00906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-789-01253",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "FEL-v2-456-00272",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    }
+  },
+  "sensitivity_interpretation": "Evidence ablations test the rubric, not new valid applicant packets. Removing appointments also removes their outputs; proposal design and all other evidence remain fixed. These diagnostics share the rubric function; structural and rendering checks above are separately implemented.",
+  "limitations": [
+    "Provisional rubric and distributions; no empirical fellowship calibration.",
+    "Complete designs vary in methodological quality, but novelty and scientific value remain unvalidated.",
+    "Full bundles are unique; shared sentence templates, generic institutions and eight topic families constrain diversity.",
+    "Tier mean lengths are controlled before wording, not exact individual length matching or proof against length effects.",
+    "Separate-context factual review by the same model is not independent human validation."
+  ],
+  "api_calls": 0
+}

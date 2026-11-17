@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Municipal Data Query Performance",
+      "bullets": [
+        "Documented query plans for public municipal service tables in a supervised undergraduate capstone examining query performance.",
+        "Wrote SQL aggregation and join queries for public municipal service data using SQLite within the capstone project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Transit Timetable Database Queries",
+      "bullets": [
+        "Loaded public transit timetable tables into a SQLite relational database as part of a supervised undergraduate team course project.",
+        "Wrote SQL aggregation and join queries and documented query plans for the course project's examination of query performance."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "River Level Time Series Preparation",
+      "bullets": [
+        "Aligned public river-level sensor time series and identified missing observations as a student assistant in supervised faculty research.",
+        "Implemented a seasonal baseline for forecasting from public environmental time series within the supervised research assignment."
+      ]
+    }
+  ]
+}

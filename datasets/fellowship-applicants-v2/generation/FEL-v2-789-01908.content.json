@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time Series Forecasting Capstone",
+      "bullets": [
+        "Aligned public river-level sensor time series using Python and pandas for a supervised undergraduate capstone on environmental forecasting.",
+        "Implemented a seasonal baseline and plotted forecast residuals as assigned components of the capstone's forecasting analysis."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public list-processing example programs and implemented abstract syntax tree traversal in Python as a supervised student research assistant.",
+        "Wrote checks for selected code patterns in the public example programs as part of supervised research on static checks for programming exercises."
+      ]
+    }
+  ]
+}

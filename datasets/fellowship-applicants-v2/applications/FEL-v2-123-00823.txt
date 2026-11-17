@@ -1,0 +1,69 @@
+Applicant FEL-v2-123-00823
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.57/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2022-11
+Algorithms: A | undergraduate, 2023-05
+Linear Algebra: A | undergraduate, 2022-11
+Probability and Statistics: A | undergraduate, 2023-05
+Scientific Computing: A- | undergraduate, 2023-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Scientific computing: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-11 to 2025-05 | 6 months; 4 hours/week
+Reproducible Scientific Table Processing
+Inputs: public transport analysis workflows.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Assembled a scripted workflow using Python and pandas to clean public scientific tables during a supervised undergraduate independent study.
+- Recorded software dependencies and reproduced summary tables from raw inputs for the public scientific table processing workflow.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+reproducible processing of public scientific tables | 2025-05 | Presented at a fictional university student research symposium; source: Reproducible Scientific Table Processing (2024-11 to 2025-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Reproducible Scientific Table Processing': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Reproducible Scientific Table Processing': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Reproducible Scientific Table Processing': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in schema changes affect fault detection by lightweight checks in public transport analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Characterize which silent processing failures inexpensive checks detect and which require contextual knowledge beyond schema validation.
+Method: Compare unchecked, schema-only and combined checks across schema changes, using a fixed list of processing faults and expected table outputs.
+Comparison: Compare unchecked workflows, schema-only checks and the combined check set on identical fault cases.
+Evaluation: Report detected faults, false alarms and overhead by failure category, comparing the same fault cases across check sets.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Using shared fault cases permits comparisons, while a developer-selected fault list can still favor the implemented checks.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is adapting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

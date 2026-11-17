@@ -1,0 +1,77 @@
+Applicant FEL-v2-123-01353
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 3.27/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2021-11
+Algorithms: B | undergraduate, 2022-05
+Linear Algebra: A- | undergraduate, 2021-11
+Probability and Statistics: B | undergraduate, 2022-05
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Algorithms: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-11 to 2025-05 | 6 months; 4 hours/week
+Multimodal Transit Graph Path Search
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public route tables using Python and NetworkX during a supervised undergraduate independent study of path search in multimodal transit networks.
+- Compared search times on sampled transportation graphs and tested disconnected graph cases within the supervised study.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-10 to 2025-01 | 3 months; 12 hours/week
+Regional Rail Graph Path Search
+Inputs: public regional rail networks.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- As a student research assistant, constructed public regional rail network graphs from route tables using Python and NetworkX under faculty supervision.
+- Compared path search times on sampled graphs representing public regional rail networks as part of supervised faculty research.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Regional Rail Graph Path Search': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Research supervisor on 'Regional Rail Graph Path Search': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Research supervisor on 'Regional Rail Graph Path Search': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in query repetition affect the total cost of preprocessed shortest-path queries on public walking-route networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Map the conditions under which preprocessing repays its construction cost while retaining correct route costs after the tested changes.
+Method: Vary query repetition across held-out network regions, compare total preprocessing and query cost, and test path-cost agreement after each controlled route change.
+Comparison: Use unmodified Dijkstra search on the same graphs and query pairs as the correctness and timing baseline.
+Evaluation: Report correctness failures and total cost with repeated-query intervals; locate break-even query counts and verify them on held-out network regions.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Controlled changes do not reproduce live transport disruptions; report sensitivity to changed edges and separate correctness from timing conclusions.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-09 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+2022-05 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is reproducing an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a campus learning centre, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about reproducing an example; use participant comments to revise the examples and instructions after the pilot.

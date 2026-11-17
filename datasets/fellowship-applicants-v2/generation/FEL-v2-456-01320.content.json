@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Handwritten-Symbol Classification Under Input Changes",
+      "bullets": [
+        "Trained a compact image classifier with Python and PyTorch using public handwritten-symbol images in a supervised undergraduate independent study.",
+        "Applied simple input transformations and summarized classification errors for the small-image classification study."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Texture Image Classification Course Project",
+      "bullets": [
+        "Loaded public small-image datasets from texture image collections as part of a supervised undergraduate course project.",
+        "Trained a compact image classifier using Python and PyTorch for the course project on small-image classification under input changes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Test Coverage for Numerical Utility Libraries",
+      "bullets": [
+        "Documented test failures and fixes in public numerical utility libraries as a student assistant in supervised faculty research.",
+        "Measured branch coverage for small open-source numerical utility libraries as part of the supervised test coverage study."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Natural-Scene Classification Under Input Changes",
+      "bullets": [
+        "Applied simple input transformations to public natural-scene images as a student assistant in supervised faculty research.",
+        "Summarized classification errors for the supervised study of small-image classification under input changes."
+      ]
+    }
+  ]
+}

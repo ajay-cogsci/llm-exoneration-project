@@ -1,0 +1,69 @@
+Applicant FEL-v2-789-00257
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 3.14/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2021-11
+Algorithms: B | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: A- | undergraduate, 2022-05
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Algorithms: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-11 to 2024-05 | 6 months; 4 hours/week
+Path Search on Public Transit Graphs
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public route tables for path search on multimodal transit networks during a supervised undergraduate independent study.
+- Implemented shortest-path queries on public transportation graphs using Python and NetworkX as part of the independent study.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+path search on public transportation graphs | 2024-05 | Presented at a fictional university student research symposium; source: Path Search on Public Transit Graphs (2023-11 to 2024-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Path Search on Public Transit Graphs': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Path Search on Public Transit Graphs': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Path Search on Public Transit Graphs': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in localized route changes affect the total cost of preprocessed shortest-path queries on public urban bus networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Map the conditions under which preprocessing repays its construction cost while retaining correct route costs after the tested changes.
+Method: Vary localized route changes across held-out network regions, compare total preprocessing and query cost, and test path-cost agreement after each controlled route change.
+Comparison: Use unmodified Dijkstra search on the same graphs and query pairs as the correctness and timing baseline.
+Evaluation: Report correctness failures and total cost with repeated-query intervals; locate break-even query counts and verify them on held-out network regions.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Controlled changes do not reproduce live transport disruptions; report sensitivity to changed edges and separate correctness from timing conclusions.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-07 | 24 hours | delivered a series of public-data interpretation activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+2025-10 | 4 hours | assembled a short troubleshooting note for peers. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is interpreting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a campus learning centre, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on interpreting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Test Coverage Capstone",
+      "bullets": [
+        "Wrote unit tests for utility functions in small open-source data-cleaning libraries using Python and pytest as part of a supervised undergraduate capstone team.",
+        "Documented test failures and fixes and measured branch coverage for the libraries within the capstone project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public News Text Classification",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public news-topic documents using Python and scikit-learn as a supervised student research assistant.",
+        "Documented training and test splits for the public news-topic text used in the supervised classification work."
+      ]
+    }
+  ]
+}

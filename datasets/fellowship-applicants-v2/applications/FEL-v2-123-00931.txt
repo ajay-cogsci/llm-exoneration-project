@@ -1,0 +1,76 @@
+Applicant FEL-v2-123-00931
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.64/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2021-11
+Algorithms: B- | undergraduate, 2022-05
+Linear Algebra: C | undergraduate, 2021-11
+Probability and Statistics: B | undergraduate, 2022-05
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Algorithms: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-02 to 2025-05 | 3 months; 8 hours/week
+Transportation Graph Path Search Course Project
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public route tables using Python and NetworkX as part of a supervised undergraduate course project on multimodal transit networks.
+- Implemented shortest-path queries and tested disconnected graph cases, contributing to the course team's work on public transportation graph path search.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 10 hours/week
+Supervised Bus Network Path Search Research
+Inputs: public urban bus networks.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public route tables using Python and NetworkX as a student research assistant in supervised research on urban bus networks.
+- Implemented shortest-path queries and tested disconnected graph cases as assigned contributions to supervised research on path search in public transportation graphs.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Supervised Bus Network Path Search Research': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Supervised Bus Network Path Search Research': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Supervised Bus Network Path Search Research': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in network sparsity affect the query latency of preprocessed shortest-path queries on public urban bus networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Describe query latency and illustrative path-cost agreement under the selected settings on the chosen network.
+Method: Implement a preprocessing strategy on one network, vary network sparsity, and compare query execution time with unmodified Dijkstra search.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Report average query latency and several checked path costs from the selected network and query set.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A single query set can favor the selected preprocessing strategy and gives limited evidence about update-heavy uses.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-04 | 12 hours | guided peers through a public-data analysis setup activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is interpreting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a student-led computing club, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Include text alternatives for figures, small downloadable inputs and instructions for running examples on ordinary laptops.
+Assessment: Use a short task on interpreting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

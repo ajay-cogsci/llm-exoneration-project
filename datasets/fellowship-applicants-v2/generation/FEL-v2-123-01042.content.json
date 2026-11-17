@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Scientific Table Processing",
+      "bullets": [
+        "Wrote data-schema checks for public scientific tables as part of a supervised undergraduate course project.",
+        "Reproduced summary tables from raw inputs, working with Python, pandas, and Git on the assigned processing procedure."
+      ]
+    }
+  ],
+  "research": []
+}

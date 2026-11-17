@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Loaded public small-image datasets from natural-scene collections as part of a supervised undergraduate capstone project.",
+        "Trained a compact image classifier using Python and PyTorch for the capstone topic of classification under input changes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Reproduced summary tables from raw inputs in public bibliographic analysis workflows as a supervised student research assistant.",
+        "Assembled a scripted data-cleaning workflow using Python and pandas for reproducible processing of public scientific tables."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Image Classification Under Input Changes",
+      "bullets": [
+        "Trained a compact image classifier using Python and PyTorch on public handwritten-symbol image collections within supervised faculty research.",
+        "Applied simple input transformations and summarized classification errors as assigned contributions to supervised research on small-image classification."
+      ]
+    }
+  ]
+}

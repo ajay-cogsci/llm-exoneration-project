@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time Series Forecasting",
+      "bullets": [
+        "Identified missing observations in public river-level measurement series during a supervised undergraduate independent study on environmental forecasting.",
+        "Plotted forecast residuals and implemented a seasonal baseline using Python, pandas, and scikit-learn within the supervised project."
+      ]
+    }
+  ],
+  "research": []
+}

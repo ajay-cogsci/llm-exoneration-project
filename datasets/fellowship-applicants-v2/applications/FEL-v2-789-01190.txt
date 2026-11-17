@@ -1,0 +1,77 @@
+Applicant FEL-v2-789-01190
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 3.87/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: A- | undergraduate, 2021-05
+Linear Algebra: A | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Introduction to Machine Learning: B | undergraduate, 2022-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Computer vision: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+NumPy, PyTorch, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-02 to 2024-05 | 3 months; 4 hours/week
+Small-Image Classification Course Project
+Inputs: public small-object image collections.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Trained a compact image classifier using Python, PyTorch and NumPy as part of a supervised undergraduate course project with another student.
+- Summarized classification errors for public small-object image collections in the course project's study of classification under input changes.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-02 to 2023-11 | 9 months; 12 hours/week
+Small-Image Classification Research Assistance
+Inputs: public handwritten-symbol image collections.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Trained a compact image classifier using Python, PyTorch and NumPy as a student research assistant contributing to supervised faculty research.
+- Summarized classification errors for public handwritten-symbol image collections within a supervised study of small-image classification under input changes.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Small-Image Classification Research Assistance': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Small-Image Classification Research Assistance': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Small-Image Classification Research Assistance': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Computer vision
+Topic: small-image classification under input changes
+Question: How does variation in brightness variation affect the benefit and cost of training augmentation on public handwritten-symbol image collections?
+Rationale: An augmentation can improve transformed-image accuracy while harming unchanged images, making aggregate accuracy an incomplete guide to robustness.
+Contribution: Map where an augmentation improves transformed-image performance without unacceptable loss on unchanged inputs, including settings where the tradeoff reverses.
+Method: Vary brightness variation under matched budgets and repeated training seeds, reserve transformation intensities for evaluation, and separate tuning images from the final test set.
+Comparison: Compare with an unaugmented classifier and a fixed combined-augmentation baseline using the same train and test split.
+Evaluation: Report paired accuracy differences and repeated-seed intervals for unchanged and held-out transformations; examine whether improvements persist beyond the tuning intensities.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Artificial transformations approximate only some imaging changes; distinguish tested perturbation tolerance from claims about deployment conditions or general visual robustness.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-09 | 24 hours | organized a series of student reproducibility practice activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a student-led computing club, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

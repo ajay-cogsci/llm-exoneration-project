@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Course Project",
+      "bullets": [
+        "Loaded public small-image datasets for a supervised undergraduate team course project examining classification under input changes.",
+        "Summarized classification errors in public small-object image collections as part of the assigned course project contribution."
+      ]
+    }
+  ],
+  "research": []
+}

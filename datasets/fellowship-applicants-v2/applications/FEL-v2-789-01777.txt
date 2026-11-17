@@ -1,0 +1,70 @@
+Applicant FEL-v2-789-01777
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.26/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2019-11
+Algorithms: B+ | undergraduate, 2020-05
+Linear Algebra: B | undergraduate, 2019-11
+Probability and Statistics: A- | undergraduate, 2020-05
+Programming Languages: A- | undergraduate, 2021-09
+Graduate Research Methods: C+ | graduate, 2025-12
+Advanced Programming languages: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-11 to 2023-05 | 6 months; 8 hours/week
+Static Checks for Programming Exercises
+Inputs: public list-processing example programs.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Implemented abstract syntax tree traversal in Python for public list-processing example programs as part of a supervised undergraduate capstone project.
+- Wrote checks for selected code patterns in small programming exercises, contributing this implementation within the capstone student team.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Static Checks for Programming Exercises': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Static Checks for Programming Exercises': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Static Checks for Programming Exercises': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in nesting depth affect false warnings from syntax-pattern checks on public string-processing example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Describe how contextual checks change warning counts and illustrate warnings judged useful or unhelpful in the selected program collection.
+Method: Implement context-aware checks for one set of examples, vary nesting depth, and compare their warning counts with simple pattern matching.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Count warnings and inspect examples judged useful or unhelpful in the selected program collection.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Warning counts alone do not establish accuracy, and hand-picked examples can favor the implemented rule.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2022-09 | 24 hours | delivered a series of tutorial sessions on reproducible analysis. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+2023-03 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is reproducing an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Include text alternatives for figures, small downloadable inputs and instructions for running examples on ordinary laptops.
+Assessment: Use a short task on reproducing an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

@@ -1,0 +1,78 @@
+Applicant FEL-v2-456-00073
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.58/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B | undergraduate, 2022-11
+Algorithms: A- | undergraduate, 2023-05
+Linear Algebra: B+ | undergraduate, 2022-11
+Probability and Statistics: A | undergraduate, 2023-05
+Graduate Research Methods: B- | graduate, 2025-12
+Advanced Algorithms: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+NetworkX, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-07 to 2024-11 | 4 months; 8 hours/week
+Bus Network Path Search
+Inputs: public urban bus networks.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Implemented shortest-path queries using Python and NetworkX for public urban bus networks during a supervised undergraduate independent study.
+- Tested disconnected graph cases and compared search times on sampled graphs as part of the supervised path-search project.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Undergraduate course project, Fictional University A | 2025-02 to 2025-05 | 3 months; 4 hours/week
+Multimodal Transit Graph Comparison
+Inputs: public multimodal transit networks.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public multimodal transit route tables using Python and NetworkX in a supervised undergraduate team course project.
+- Compared search times on sampled transportation graphs as my contribution to the course project's path-search comparison.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Multimodal Transit Graph Comparison': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Multimodal Transit Graph Comparison': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Multimodal Transit Graph Comparison': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in network sparsity affect the query latency of preprocessed shortest-path queries on public walking-route networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Describe query latency and illustrative path-cost agreement under the selected settings on the chosen network.
+Method: Implement a preprocessing strategy on one network, vary network sparsity, and compare query execution time with unmodified Dijkstra search.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Report average query latency and several checked path costs from the selected network and query set.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A single query set can favor the selected preprocessing strategy and gives limited evidence about update-heavy uses.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-11 | 12 hours | guided peers through a public-data analysis setup activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+2023-09 | 12 hours | helped explain a chart during a supervised outreach activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is adapting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a campus learning centre, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

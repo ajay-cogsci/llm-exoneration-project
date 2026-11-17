@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Project on Library Test Coverage",
+      "bullets": [
+        "Wrote unit tests for Python utility functions using pytest in a supervised undergraduate team course project on small open-source data-cleaning libraries.",
+        "Measured branch coverage and documented test failures and fixes for the public data-cleaning libraries as assigned project contributions."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Assistance on File-Format Utility Testing",
+      "bullets": [
+        "Wrote unit tests for Python utility functions using pytest while assisting with faculty-supervised research on small open-source file-format libraries.",
+        "Measured branch coverage for public file-format utilities as part of assigned tasks in supervised software-testing research."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Text Classification Capstone",
+      "bullets": [
+        "Cleaned public product-review text records for short-document classification as part of a supervised undergraduate capstone project.",
+        "Documented training and test splits and compared classification errors across document lengths using Python, pandas, and scikit-learn."
+      ]
+    }
+  ],
+  "research": []
+}

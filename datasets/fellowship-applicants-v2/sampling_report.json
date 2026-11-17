@@ -1,0 +1,240 @@
+{
+  "pool": {
+    "n": 6000,
+    "tiers": {
+      "borderline": 3620,
+      "weak": 1226,
+      "strong": 1154
+    },
+    "designated_mixed": {
+      "none": 6000
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 3377,
+      "PhD in Computer Science": 2623
+    },
+    "research_areas": {
+      "Natural language processing": 798,
+      "Software engineering": 716,
+      "Applied machine learning": 746,
+      "Programming languages": 731,
+      "Algorithms": 763,
+      "Scientific computing": 751,
+      "Data management": 764,
+      "Computer vision": 731
+    },
+    "impact_areas": {
+      "community_data_literacy": 1559,
+      "open_teaching_materials": 1499,
+      "introductory_workshops": 1475,
+      "reproducibility_support": 1467
+    },
+    "project_counts": {
+      "1": 4005,
+      "2": 1995
+    },
+    "project_roles": {
+      "Undergraduate capstone": 1997,
+      "Graduate course project": 986,
+      "Undergraduate course project": 2973,
+      "Undergraduate independent study": 2039
+    },
+    "project_months": {
+      "5": 659,
+      "3": 2170,
+      "6": 1315,
+      "4": 1699,
+      "8": 686,
+      "2": 1466
+    },
+    "practice_source_types": {
+      "Research supervisor": 2691,
+      "Project supervisor": 3309
+    },
+    "ra_in_proposal_area": 3681,
+    "unique_education_histories": 192,
+    "unique_grade_vectors": 5716,
+    "unique_proposals": 288,
+    "unique_impact_plans": 144,
+    "by_tier": {
+      "weak": {
+        "n": 1226,
+        "gpa_range": [
+          2.7,
+          3.97
+        ],
+        "no_research_appointment": 460,
+        "with_preprint": 83,
+        "no_prior_impact_activity": 473,
+        "intellectual_merit": {
+          "limited": 612,
+          "developing": 614
+        },
+        "broader_impacts": {
+          "detailed": 255,
+          "limited": 761,
+          "specified": 210
+        }
+      },
+      "borderline": {
+        "n": 3620,
+        "gpa_range": [
+          2.7,
+          3.98
+        ],
+        "no_research_appointment": 1109,
+        "with_preprint": 230,
+        "no_prior_impact_activity": 1273,
+        "intellectual_merit": {
+          "developing": 3419,
+          "high": 201
+        },
+        "broader_impacts": {
+          "detailed": 1390,
+          "specified": 1466,
+          "limited": 764
+        }
+      },
+      "strong": {
+        "n": 1154,
+        "gpa_range": [
+          2.71,
+          3.97
+        ],
+        "no_research_appointment": 276,
+        "with_preprint": 158,
+        "no_prior_impact_activity": 379,
+        "intellectual_merit": {
+          "high": 580,
+          "developing": 574
+        },
+        "broader_impacts": {
+          "specified": 271,
+          "detailed": 883
+        }
+      }
+    }
+  },
+  "selected": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "strong": 30,
+      "weak": 30
+    },
+    "designated_mixed": {
+      "none": 90,
+      "no_publication_substantive_potential": 2,
+      "lower_gpa_substantive_research": 3,
+      "intellectual_merit_impact_gap": 3,
+      "limited_preparation_promising_proposal": 2
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 64,
+      "PhD in Computer Science": 36
+    },
+    "research_areas": {
+      "Data management": 9,
+      "Scientific computing": 17,
+      "Programming languages": 13,
+      "Software engineering": 10,
+      "Natural language processing": 16,
+      "Algorithms": 11,
+      "Applied machine learning": 13,
+      "Computer vision": 11
+    },
+    "impact_areas": {
+      "community_data_literacy": 24,
+      "open_teaching_materials": 24,
+      "introductory_workshops": 26,
+      "reproducibility_support": 26
+    },
+    "project_counts": {
+      "2": 25,
+      "1": 75
+    },
+    "project_roles": {
+      "Undergraduate capstone": 40,
+      "Undergraduate course project": 40,
+      "Undergraduate independent study": 33,
+      "Graduate course project": 12
+    },
+    "project_months": {
+      "5": 13,
+      "4": 24,
+      "3": 31,
+      "6": 26,
+      "8": 16,
+      "2": 15
+    },
+    "practice_source_types": {
+      "Research supervisor": 40,
+      "Project supervisor": 60
+    },
+    "ra_in_proposal_area": 52,
+    "unique_education_histories": 68,
+    "unique_grade_vectors": 99,
+    "unique_proposals": 100,
+    "unique_impact_plans": 100,
+    "by_tier": {
+      "weak": {
+        "n": 30,
+        "gpa_range": [
+          2.71,
+          3.95
+        ],
+        "no_research_appointment": 16,
+        "with_preprint": 2,
+        "no_prior_impact_activity": 4,
+        "intellectual_merit": {
+          "developing": 10,
+          "limited": 20
+        },
+        "broader_impacts": {
+          "limited": 14,
+          "detailed": 9,
+          "specified": 7
+        }
+      },
+      "borderline": {
+        "n": 40,
+        "gpa_range": [
+          2.79,
+          3.93
+        ],
+        "no_research_appointment": 16,
+        "with_preprint": 1,
+        "no_prior_impact_activity": 15,
+        "intellectual_merit": {
+          "developing": 37,
+          "high": 3
+        },
+        "broader_impacts": {
+          "specified": 19,
+          "detailed": 15,
+          "limited": 6
+        }
+      },
+      "strong": {
+        "n": 30,
+        "gpa_range": [
+          2.81,
+          3.89
+        ],
+        "no_research_appointment": 10,
+        "with_preprint": 2,
+        "no_prior_impact_activity": 10,
+        "intellectual_merit": {
+          "developing": 13,
+          "high": 17
+        },
+        "broader_impacts": {
+          "detailed": 23,
+          "specified": 7
+        }
+      }
+    }
+  },
+  "api_calls": 0,
+  "parameter_status": "Provisional study design. The plan supplies fellowship criteria and assessment wording, not distributions, numeric thresholds or outcome probabilities."
+}

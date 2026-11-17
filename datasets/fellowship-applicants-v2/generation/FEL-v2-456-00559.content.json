@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Wrote Python checks for selected code patterns in small programming exercises during a supervised undergraduate independent study.",
+        "Parsed small public numeric-computation example programs using abstract syntax trees as part of the static-checking work."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Path Search on Public Route Graphs",
+      "bullets": [
+        "Constructed graphs from public walking-route tables using Python and NetworkX as an assigned contribution to a supervised undergraduate course project.",
+        "Implemented shortest-path queries and tested disconnected graph cases for path search on public walking-route networks."
+      ]
+    }
+  ],
+  "research": []
+}

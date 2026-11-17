@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Transit Timetable Query Performance Capstone",
+      "bullets": [
+        "Loaded public transit timetable tables into a SQLite relational database within a supervised undergraduate capstone team project.",
+        "Compared indexed and unindexed queries on public transit timetable data using Python, SQL, and SQLite."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Bibliographic Data Query Performance Research",
+      "bullets": [
+        "Wrote aggregation and join queries for public bibliographic tables in SQLite as a student research assistant under faculty supervision.",
+        "Documented query plans and compared indexed and unindexed SQL queries to examine query performance on public bibliographic data."
+      ]
+    }
+  ]
+}

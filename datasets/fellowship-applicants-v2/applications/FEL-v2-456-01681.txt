@@ -1,0 +1,78 @@
+Applicant FEL-v2-456-01681
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.63/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2019-11
+Algorithms: A- | undergraduate, 2020-05
+Linear Algebra: B+ | undergraduate, 2019-11
+Probability and Statistics: A | undergraduate, 2020-05
+Software Engineering: A- | undergraduate, 2021-09
+Database Systems: A- | undergraduate, 2021-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Data management: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, SQL, SQLite, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-11 to 2023-05 | 6 months; 6 hours/week
+Numerical Library Testing Capstone
+Inputs: public numerical utility libraries.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pytest, Git
+- Wrote unit tests with Python and pytest for utility functions in small open-source numerical libraries as part of a supervised undergraduate capstone.
+- Documented test failures and fixes for the capstone's public numerical utility libraries, using Git during the work.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 12 hours/week
+Public Transit Table Queries
+Inputs: public transit timetable tables.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public transit timetable tables into a SQLite relational database using Python as part of supervised faculty research.
+- Wrote SQL aggregation and join queries for public transit timetable tables while assisting research on query performance.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+test coverage for small open-source libraries | 2023-05 | Presented at a fictional university student research symposium; source: Numerical Library Testing Capstone (2022-11 to 2023-05).
+
+AWARDS
+Departmental undergraduate academic commendation | 2023-05
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Public Transit Table Queries': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Public Transit Table Queries': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Public Transit Table Queries': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Data management
+Topic: query performance on public tabular data
+Question: How does variation in read-to-update ratio change the balance of query latency, update overhead and storage for indexes on public environmental measurement tables?
+Rationale: An index can accelerate reads while imposing storage and update costs; a recommendation based only on query latency can therefore be misleading.
+Contribution: Identify workload conditions where an indexing choice changes from a useful speed improvement to an avoidable maintenance cost.
+Method: Vary read-to-update ratio under matched database states, randomize workload order, standardize warm-up, and reserve workload mixes for checking the indexing tradeoff.
+Comparison: Compare each configuration with an unindexed database and a fixed index set under identical query workloads.
+Evaluation: Report median and tail latency, update overhead and storage with run-to-run intervals; test whether the inferred tradeoff persists on held-out workload mixes.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Cache effects and skewed inputs may change the preferred index; repeat key comparisons with cold starts and altered data skew.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is interpreting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a community education programme, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Use small public inputs, explicit environment instructions and text-based checks that run without specialized hardware.
+Assessment: Use a short task on interpreting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

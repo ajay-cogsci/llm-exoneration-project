@@ -1,0 +1,77 @@
+Applicant FEL-v2-123-00803
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 2.95/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: C+ | undergraduate, 2020-11
+Algorithms: C+ | undergraduate, 2021-05
+Linear Algebra: B+ | undergraduate, 2020-11
+Probability and Statistics: A- | undergraduate, 2021-05
+Programming Languages: B | undergraduate, 2022-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Programming languages: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-02 to 2024-05 | 3 months; 4 hours/week
+Static Checks for File-Processing Examples
+Inputs: public file-processing example programs.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public file-processing example programs using Python and abstract syntax trees during a supervised undergraduate independent study.
+- Wrote checks for selected code patterns in small programming exercises as part of the supervised project.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+Syntax-Tree Checks for List-Processing Examples
+Inputs: public list-processing example programs.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public list-processing example programs and implemented syntax-tree traversal using Python as a student assistant in supervised faculty research.
+- Wrote checks for selected code patterns using abstract syntax trees for small programming exercises.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Static Checks for File-Processing Examples': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Static Checks for File-Processing Examples': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Static Checks for File-Processing Examples': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in identifier reuse affect false warnings from syntax-pattern checks on public numeric-computation example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Identify contexts where additional syntax information reduces false warnings and document cases where that extra complexity still misses the intended distinction.
+Method: Vary identifier reuse in examples reserved by program family, define labeling rules before tuning, and have a collaborator independently recheck a subset of warning labels.
+Comparison: Use context-free pattern matching on the same manually checked examples as the reference method.
+Evaluation: Report precision and recall by context with uncertainty intervals, adjudicate labeling disagreements, and evaluate on program families excluded from rule tuning.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Manual labels and template overlap can distort apparent gains; publish the labeling rules and repeat analysis after excluding near-duplicate program families.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-05 | 12 hours | facilitated a tutorial activity for a study group. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is reproducing an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about reproducing an example; use participant comments to revise the examples and instructions after the pilot.

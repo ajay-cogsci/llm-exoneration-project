@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public example programs using Python for a supervised undergraduate course project on static checks.",
+        "Implemented traversal of abstract syntax trees for static checks on small programming exercises within the course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Query Performance on Public Tables",
+      "bullets": [
+        "Loaded public tables into a SQLite relational database as part of a supervised undergraduate team course project.",
+        "Wrote aggregation and join queries in SQL for the course project's investigation of query performance on public tabular data."
+      ]
+    }
+  ],
+  "research": []
+}

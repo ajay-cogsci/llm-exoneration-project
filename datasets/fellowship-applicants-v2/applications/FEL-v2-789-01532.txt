@@ -1,0 +1,86 @@
+Applicant FEL-v2-789-01532
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.79/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2021-11
+Algorithms: A | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: A- | undergraduate, 2022-05
+Introduction to Machine Learning: A | undergraduate, 2023-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Natural language processing: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-12 to 2025-05 | 5 months; 8 hours/week
+Public Text Classification Capstone
+Inputs: public discussion-topic text.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public discussion-topic text records with Python and pandas for a supervised undergraduate capstone on short-document classification.
+- Implemented a bag-of-words classifier with scikit-learn and documented the training and test splits used for the capstone classification task.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-08 to 2025-05 | 9 months; 10 hours/week
+Environmental Time Series Forecasting
+Inputs: public air-quality sensor series.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Aligned public air-quality sensor time series using Python and pandas as a research assistant contributing to supervised faculty research.
+- Implemented a seasonal baseline and plotted forecast residuals for the forecasting task involving public environmental time series.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+Product Review Classification Errors
+Inputs: public product-review text.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Implemented a bag-of-words classifier using Python and scikit-learn for public product-review text as part of supervised faculty research.
+- Compared classification errors across document lengths and documented training and test splits for the short public text documents.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+forecasting from public environmental time series | 2025-05 | Presented at a fictional university student research symposium; source: Environmental Time Series Forecasting (2024-08 to 2025-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Product Review Classification Errors': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Research supervisor on 'Product Review Classification Errors': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Research supervisor on 'Product Review Classification Errors': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in rare-label frequency change the relative performance of linear and compact encoder classifiers on public news-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Describe how aggregate accuracy differs between the linear classifier and compact encoder across the selected settings, with illustrative classification errors.
+Method: Fit a linear classifier and a compact encoder to one training split, vary rare-label frequency, and compare the resulting aggregate accuracy values.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Use overall accuracy from the selected split to rank the settings and summarize several illustrative classification errors.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A result from one split may depend on its label mix and may not describe performance on a different collection.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-06 | 12 hours | helped explain a chart during a supervised outreach activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is interpreting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

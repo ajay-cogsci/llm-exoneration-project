@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Trained a compact image classifier using Python and PyTorch as a contribution to a supervised undergraduate capstone team project.",
+        "Applied simple input transformations and summarized classification errors while examining small-image classification under input changes."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Image Input Transformations Course Project",
+      "bullets": [
+        "Loaded public small-image datasets using Python for a supervised graduate course project on classification under input changes.",
+        "Applied simple input transformations to the small-image datasets as part of the supervised course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Static Checks for Example Programs",
+      "bullets": [
+        "Parsed small public example programs using Python and abstract syntax trees as a student assistant contributing to supervised faculty research.",
+        "Wrote checks for selected code patterns and documented false-positive cases in static checking of small programming exercises."
+      ]
+    }
+  ]
+}

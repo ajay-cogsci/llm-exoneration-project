@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Municipal Data Query Performance",
+      "bullets": [
+        "Wrote SQL aggregation and join queries for public municipal service tables as part of a supervised undergraduate course project.",
+        "Compared indexed and unindexed queries and documented query plans using SQLite within the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Small-Image Classification",
+      "bullets": [
+        "Loaded public small-image datasets and trained a compact image classifier using Python and PyTorch as part of supervised faculty research.",
+        "Summarized classification errors for small-image classification under input changes, working with public small-object image collections."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Bibliographic Data Query Performance",
+      "bullets": [
+        "Wrote SQL aggregation and join queries for public bibliographic tables as a student research assistant under faculty supervision.",
+        "Compared indexed and unindexed queries using SQLite and documented query plans for research on public tabular data query performance."
+      ]
+    }
+  ]
+}

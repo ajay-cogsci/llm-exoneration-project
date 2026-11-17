@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Capstone Static Checks for Programming Exercises",
+      "bullets": [
+        "Implemented abstract syntax tree traversal in Python for static checks on small programming exercises as part of a supervised undergraduate capstone team.",
+        "Documented false-positive cases for the capstone's static checks, focusing on public numeric-computation example programs."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Transportation Graph Search",
+      "bullets": [
+        "Constructed graphs from public urban bus route tables using Python and NetworkX as a student assistant in supervised faculty research.",
+        "Tested disconnected graph cases and compared path-search times on sampled graphs for the public transportation graph study."
+      ]
+    }
+  ]
+}

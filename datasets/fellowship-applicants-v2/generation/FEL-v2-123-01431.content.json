@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Test Coverage Independent Study",
+      "bullets": [
+        "Wrote unit tests for utility functions in public numerical utility libraries using Python and pytest during a supervised undergraduate independent study.",
+        "Measured branch coverage and documented test failures and fixes for the small open-source libraries."
+      ]
+    }
+  ],
+  "research": []
+}

@@ -1,0 +1,16 @@
+{
+  "release": "fellowship-applicants-v2",
+  "approval_date": "2026-11-18",
+  "approval_scope": "Final fellowship v2 profiles, pipeline and documentation for repository publication",
+  "source_export_checksums_sha256": "5fbbb393037f0bed1027f07f4775d18c225ac0fab60720c016c33fe1af64530a",
+  "unchanged_source_files": 316,
+  "publication_only_changes": [
+    "METHOD.md",
+    "README.md",
+    "dataset.json",
+    "verification_report.json"
+  ],
+  "included_applicants": 100,
+  "excluded": "Earlier fellowship datasets, pilot packets, source pool files, raw API responses, credentials and intermediate implementation snapshots",
+  "evaluation_calls": 0
+}

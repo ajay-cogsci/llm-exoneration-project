@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Short Public Text Classification",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public news-topic documents using Python, scikit-learn, and pandas during a supervised undergraduate independent study.",
+        "Compared classification errors across document lengths and documented the training and test splits for the text classification project."
+      ]
+    }
+  ],
+  "research": []
+}

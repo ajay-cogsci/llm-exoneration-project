@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Trained a compact image classifier on public texture image collections with Python, PyTorch, and NumPy in a supervised undergraduate capstone team project.",
+        "Applied simple input transformations and summarized classification errors as assigned contributions to the capstone study of small-image classification under input changes."
+      ]
+    }
+  ],
+  "research": []
+}

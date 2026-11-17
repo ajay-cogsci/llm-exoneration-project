@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Bus Network Path Search",
+      "bullets": [
+        "Implemented shortest-path queries using Python and NetworkX for public urban bus networks during a supervised undergraduate independent study.",
+        "Tested disconnected graph cases and compared search times on sampled graphs as part of the supervised path-search project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Multimodal Transit Graph Comparison",
+      "bullets": [
+        "Constructed graphs from public multimodal transit route tables using Python and NetworkX in a supervised undergraduate team course project.",
+        "Compared search times on sampled transportation graphs as my contribution to the course project's path-search comparison."
+      ]
+    }
+  ],
+  "research": []
+}

@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Testing Numerical Utility Libraries",
+      "bullets": [
+        "Reproduced reported software defects in small open-source numerical utility libraries using Python during a supervised undergraduate capstone.",
+        "Documented test failures and fixes, and wrote unit tests for library utility functions using pytest."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Assembled a scripted data-cleaning workflow using Python and pandas for public scientific tables within a supervised undergraduate team course project.",
+        "Recorded software dependencies and reproduced summary tables from raw inputs for public environmental analysis workflows."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Path Search on Transportation Graphs",
+      "bullets": [
+        "Implemented shortest-path queries using Python and NetworkX for public transportation graphs as a student assistant in supervised faculty research.",
+        "Compared search times on sampled graphs drawn from public multimodal transit networks as part of the assigned research tasks."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Reproducible Transport Analysis Tables",
+      "bullets": [
+        "Recorded software dependencies for reproducible processing of public scientific tables as a student assistant in supervised faculty research.",
+        "Reproduced summary tables from raw public transport analysis inputs using Python and pandas."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Scientific Table Processing",
+      "bullets": [
+        "Reproduced summary tables from raw inputs using Python and pandas as part of a supervised undergraduate capstone.",
+        "Wrote data-schema checks and assembled a scripted data-cleaning workflow for reproducible processing of public scientific tables."
+      ]
+    }
+  ],
+  "research": []
+}

@@ -1,0 +1,87 @@
+Applicant FEL-v2-123-01709
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.81/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2020-11
+Algorithms: A- | undergraduate, 2021-05
+Linear Algebra: B+ | undergraduate, 2020-11
+Probability and Statistics: A- | undergraduate, 2021-05
+Scientific Computing: A | undergraduate, 2021-09
+Introduction to Machine Learning: A | undergraduate, 2021-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Natural language processing: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-02 to 2023-05 | 3 months; 4 hours/week
+Reproducible Scientific Tables Course Project
+Inputs: public bibliographic analysis workflows.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Reproduced summary tables from raw public scientific inputs using Python and pandas as part of a supervised undergraduate team course project.
+- Wrote data-schema checks for the public scientific tables and recorded software dependencies used in processing.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 8 hours/week
+Short Text Classification Course Project
+Inputs: public product-review text.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Implemented a bag-of-words classifier for short public text documents using Python and scikit-learn in a supervised graduate course project.
+- Cleaned public text records using pandas and documented the training and test splits for classification.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-01 to 2023-01 | 12 months; 10 hours/week
+Supervised Text Classification Research Assistance
+Inputs: public news-topic text.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public text records using pandas as a student research assistant contributing to supervised faculty research on short text classification.
+- Implemented a bag-of-words classifier using Python and scikit-learn for the classification of short public text documents.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Supervised Text Classification Research Assistance': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Research supervisor on 'Supervised Text Classification Research Assistance': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Research supervisor on 'Supervised Text Classification Research Assistance': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in document-length variation change the relative performance of linear and compact encoder classifiers on public news-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers across several settings of document-length variation, using a fixed held-out split and inspecting errors within each label group.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training time on the held-out split; compare patterns across the chosen settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The fixed test split permits controlled comparisons, while uncertainty across new training samples and collections remains a limitation.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2022-10 | 12 hours | guided peers through a public-data analysis setup activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is adapting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Share the materials through a campus learning centre and invite interested learners to use them during their own study time.
+Access: Provide the materials online with brief instructions so interested learners can choose when and how to work through them.
+Assessment: Track views and downloads and collect optional comments about adapting an example to decide which materials to share more widely.

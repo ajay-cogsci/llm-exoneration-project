@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time-Series Forecasting",
+      "bullets": [
+        "Identified missing observations in public rainfall measurement series during a supervised undergraduate independent study on environmental time-series forecasting.",
+        "Implemented a seasonal forecasting baseline for the rainfall series using Python, pandas, and scikit-learn within the supervised project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Transportation Graph Path Search",
+      "bullets": [
+        "Implemented shortest-path queries on public multimodal transit networks using Python and NetworkX as part of a supervised graduate course project.",
+        "Tested disconnected graph cases for path search on the transportation networks as an assigned contribution to the course project."
+      ]
+    }
+  ],
+  "research": []
+}

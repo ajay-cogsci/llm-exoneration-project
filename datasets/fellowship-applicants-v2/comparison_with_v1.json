@@ -1,0 +1,17 @@
+{
+  "previous_dataset": "runs/fellowship-applicants-review",
+  "previous_word_means": {
+    "weak": 575.0,
+    "borderline": 607.9,
+    "strong": 645.5
+  },
+  "new_word_means": {
+    "weak": 710.2,
+    "borderline": 711.0,
+    "strong": 726.6
+  },
+  "previous_unique_proposal_bundles": 69,
+  "previous_unique_impact_bundles": 42,
+  "new_unique_proposal_bundles": 100,
+  "new_unique_impact_bundles": 100
+}

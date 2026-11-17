@@ -1,0 +1,87 @@
+Applicant FEL-v2-456-00272
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 3.55/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B | undergraduate, 2020-11
+Algorithms: A- | undergraduate, 2021-05
+Linear Algebra: B | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Programming Languages: B | undergraduate, 2021-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Algorithms: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, NetworkX, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-11 to 2023-05 | 6 months; 6 hours/week
+Path Search on Urban Bus Networks
+Inputs: public urban bus networks.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public urban bus route tables using Python and NetworkX as part of a supervised undergraduate capstone project.
+- Implemented shortest-path queries and tested disconnected graph cases for path search on public urban bus networks.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-11 to 2023-05 | 6 months; 6 hours/week
+Path Search on Multimodal Transit Networks
+Inputs: public multimodal transit networks.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public multimodal transit route tables using Python and NetworkX as part of supervised faculty research.
+- Implemented shortest-path queries and compared search times on sampled graphs representing public multimodal transit networks.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 6 hours/week
+Static Checks for Programming Exercises
+Inputs: public string-processing example programs.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public string-processing example programs with Python as part of supervised research on static checks for programming exercises.
+- Implemented syntax-tree traversal using abstract syntax trees for static checks on the small example programs.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+path search on public transportation graphs | 2023-05 | Presented at a fictional university student research symposium; source: Path Search on Urban Bus Networks (2022-11 to 2023-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Path Search on Multimodal Transit Networks': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Path Search on Multimodal Transit Networks': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Path Search on Multimodal Transit Networks': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Algorithms
+Topic: path search on public transportation graphs
+Question: How does variation in network sparsity affect the total cost of preprocessed shortest-path queries on public walking-route networks?
+Rationale: Graph preprocessing can reduce query time but becomes expensive when routes change, so query speed alone does not describe the useful operating range.
+Contribution: Map the conditions under which preprocessing repays its construction cost while retaining correct route costs on the tested graphs.
+Method: Compare preprocessing and Dijkstra search across network sparsity, checking path costs on fixed query sets and recording preprocessing time.
+Comparison: Use unmodified Dijkstra search on the same graphs and query pairs as the correctness and timing baseline.
+Evaluation: Report path-cost agreement, preprocessing time, memory and query latency for the selected network sizes and settings.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The comparison covers the selected static graphs, but may not reflect the frequency of changes in operational routing systems.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-02 | 4 hours | prepared public-data plots for a student outreach session. Prepared a single activity resource and shared it with the organizing group..
+2023-05 | 24 hours | delivered a series of tutorial sessions on reproducible analysis. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is adapting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a student-led computing club, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

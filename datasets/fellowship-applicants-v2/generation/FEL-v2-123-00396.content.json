@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Project on Product-Review Classification",
+      "bullets": [
+        "Cleaned public product-review text records and implemented a bag-of-words classifier using Python, pandas, and scikit-learn for a supervised undergraduate course project.",
+        "Compared classification errors across document lengths as an assigned contribution to the student team's analysis."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Question-Category Text Classification",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public question-category documents using Python and scikit-learn as a supervised student research assistant.",
+        "Compared classification errors across document lengths in public question-category text within the supervised research work."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "River-Level Time Series Forecasting",
+      "bullets": [
+        "Aligned public river-level sensor time series using Python and pandas as a student research assistant working under faculty supervision.",
+        "Implemented a seasonal baseline for forecasting from public river-level measurement series within the supervised research project."
+      ]
+    }
+  ]
+}

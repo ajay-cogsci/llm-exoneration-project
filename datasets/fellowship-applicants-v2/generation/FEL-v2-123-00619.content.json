@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "River-Level Forecasting Capstone",
+      "bullets": [
+        "Implemented a seasonal forecasting baseline for public river-level measurement series in a supervised undergraduate capstone team project.",
+        "Aligned public sensor time series for environmental forecasting, using Python, pandas and scikit-learn across the assigned capstone tasks."
+      ]
+    }
+  ],
+  "research": []
+}

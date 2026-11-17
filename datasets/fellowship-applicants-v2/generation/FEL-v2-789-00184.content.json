@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Scientific Table Processing Capstone",
+      "bullets": [
+        "As part of a supervised undergraduate capstone team, reproduced summary tables from raw inputs for public scientific tables using Python and pandas.",
+        "Assembled a scripted data-cleaning workflow and wrote data-schema checks as assigned contributions to the capstone project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Short Public Text Classification",
+      "bullets": [
+        "Cleaned public text records using Python and pandas as a student research assistant in supervised faculty research.",
+        "Implemented a bag-of-words classifier with scikit-learn for classification of short public text documents under faculty supervision."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Wrote data-schema checks and assembled a scripted data-cleaning workflow for public scientific tables as part of supervised faculty research.",
+        "Reproduced summary tables from raw inputs using Python and pandas in a student research assistant role."
+      ]
+    }
+  ]
+}

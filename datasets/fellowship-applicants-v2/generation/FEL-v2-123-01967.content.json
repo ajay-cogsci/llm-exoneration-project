@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Project on Library Test Coverage",
+      "bullets": [
+        "Documented test failures and fixes for small open-source numerical utility libraries as part of a supervised undergraduate course project.",
+        "Measured branch coverage for the public numerical utility libraries using Python and pytest within the course project's assigned work."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Assistance on Tabular Query Performance",
+      "bullets": [
+        "Loaded public bibliographic tables into a SQLite relational database as a student research assistant working under faculty supervision.",
+        "Wrote SQL aggregation and join queries for the bibliographic tables and documented query plans within the supervised query performance study."
+      ]
+    }
+  ]
+}

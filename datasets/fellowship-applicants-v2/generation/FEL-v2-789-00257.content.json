@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Path Search on Public Transit Graphs",
+      "bullets": [
+        "Constructed graphs from public route tables for path search on multimodal transit networks during a supervised undergraduate independent study.",
+        "Implemented shortest-path queries on public transportation graphs using Python and NetworkX as part of the independent study."
+      ]
+    }
+  ],
+  "research": []
+}

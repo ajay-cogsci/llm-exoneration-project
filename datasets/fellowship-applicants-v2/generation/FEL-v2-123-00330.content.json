@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Transportation Path Search Capstone",
+      "bullets": [
+        "Constructed graphs from public route tables using Python and NetworkX for a supervised undergraduate capstone on transportation path search.",
+        "Tested disconnected graph cases and compared search times on sampled graphs as assigned contributions to the capstone team's work."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Shortest-Path Query Research Assistance",
+      "bullets": [
+        "Implemented shortest-path queries using Python and NetworkX as a student research assistant working under faculty supervision.",
+        "Constructed public transportation graphs from public route tables and compared path search times on sampled graphs."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Graph Search Testing Research Assistance",
+      "bullets": [
+        "Tested disconnected graph cases for public transportation path search using Python and NetworkX under faculty supervision.",
+        "Compared search times on sampled transportation graphs as an assigned task within supervised faculty research."
+      ]
+    }
+  ]
+}

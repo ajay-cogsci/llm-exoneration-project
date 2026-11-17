@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Discussion-Topic Text Classification Course Project",
+      "bullets": [
+        "Cleaned public discussion-topic text records using Python and pandas as part of a supervised undergraduate team course project.",
+        "Implemented a bag-of-words classifier with scikit-learn for classifying short public text documents within the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Question-Category Text Classification Research Assistance",
+      "bullets": [
+        "Cleaned public question-category text records using Python and pandas while assisting with supervised faculty research on short-document classification.",
+        "Implemented a bag-of-words classifier with scikit-learn for short public text documents as a student research assistant."
+      ]
+    }
+  ]
+}

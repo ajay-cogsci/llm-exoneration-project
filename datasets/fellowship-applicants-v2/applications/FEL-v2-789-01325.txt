@@ -1,0 +1,95 @@
+Applicant FEL-v2-789-01325
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.53/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2022-11
+Algorithms: A | undergraduate, 2023-05
+Linear Algebra: A | undergraduate, 2022-11
+Probability and Statistics: A- | undergraduate, 2023-05
+Introduction to Machine Learning: A | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Natural language processing: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-12 to 2025-05 | 5 months; 8 hours/week
+Environmental Forecasting Capstone
+Inputs: public temperature sensor series.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Implemented a seasonal baseline for public temperature sensor forecasting as part of a supervised undergraduate capstone team.
+- Plotted forecast residuals and identified missing observations in public temperature sensor time series using Python and pandas.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 4 hours/week
+Air Quality Forecasting Course Project
+Inputs: public air-quality sensor series.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Aligned public air-quality sensor time series as an assigned contribution to a supervised graduate course team project.
+- Plotted forecast residuals for public air-quality sensor series using Python within the course project's environmental forecasting scope.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-04 to 2025-01 | 9 months; 10 hours/week
+Public Review Text Classification
+Inputs: public product-review text.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public product-review text records as a student research assistant working under faculty supervision.
+- Implemented a bag-of-words classifier using Python and scikit-learn for supervised research on classifying short public text documents.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+River Level Time Series Forecasting
+Inputs: public river-level measurement series.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Implemented a seasonal baseline for forecasting public river-level measurement series as part of supervised faculty research.
+- Identified missing observations in public river-level time series using Python and pandas within the supervised forecasting work.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+classification of short public text documents | 2025-01 | Presented at a fictional university student research symposium; source: Public Review Text Classification (2024-04 to 2025-01).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Public Review Text Classification': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Public Review Text Classification': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Public Review Text Classification': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in rare-label frequency change the relative performance of linear and compact encoder classifiers on public news-topic text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers under matched training budgets across rare-label frequency, separate near-duplicates before splitting, and repeat training on multiple held-out partitions.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training cost with repeated-split uncertainty estimates; test whether the pattern transfers to a separately held-out collection.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Label definitions and duplicate detection can change the apparent effect; retain per-collection results and test the result under alternative deduplication rules.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-05 | 12 hours | helped explain a chart during a supervised outreach activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is reproducing an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on reproducing an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

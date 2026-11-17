@@ -1,0 +1,69 @@
+Applicant FEL-v2-456-01594
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 2.98/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: C+ | undergraduate, 2021-11
+Algorithms: B+ | undergraduate, 2022-05
+Linear Algebra: B- | undergraduate, 2021-11
+Probability and Statistics: B- | undergraduate, 2022-05
+Introduction to Machine Learning: B | undergraduate, 2022-09
+Graduate Research Methods: B- | graduate, 2025-12
+Advanced Natural language processing: B- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-09 to 2024-05 | 8 months; 6 hours/week
+Public Text Classification Capstone
+Inputs: public product-review text.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Cleaned public product-review text records for short-document classification as part of a supervised undergraduate capstone project.
+- Documented training and test splits and compared classification errors across document lengths using Python, pandas, and scikit-learn.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Public Text Classification Capstone': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Public Text Classification Capstone': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Public Text Classification Capstone': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in document-length variation change the relative performance of linear and compact encoder classifiers on public question-category text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Identify conditions where the encoder's additional training cost improves minority-label performance, and where the simpler classifier retains comparable performance.
+Method: Compare the classifiers under matched training budgets across document-length variation, separate near-duplicates before splitting, and repeat training on multiple held-out partitions.
+Comparison: Compare against a majority-class baseline and a full-training-set linear classifier using the same held-out documents.
+Evaluation: Report macro F-score, label-specific errors and training cost with repeated-split uncertainty estimates; test whether the pattern transfers to a separately held-out collection.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Label definitions and duplicate detection can change the apparent effect; retain per-collection results and test the result under alternative deduplication rules.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-06 | 24 hours | delivered a series of beginner programming practice sessions. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is interpreting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a student-led computing club, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Provide print-ready examples and plain-language descriptions so attendance does not require a laptop or programming knowledge.
+Assessment: Use a short task on interpreting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

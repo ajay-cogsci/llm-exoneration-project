@@ -1,0 +1,78 @@
+Applicant FEL-v2-456-00559
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.78/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: A | undergraduate, 2021-05
+Linear Algebra: A- | undergraduate, 2020-11
+Probability and Statistics: A | undergraduate, 2021-05
+Programming Languages: B+ | undergraduate, 2022-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Programming languages: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, NetworkX, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-05 to 2023-11 | 6 months; 6 hours/week
+Static Checks for Programming Exercises
+Inputs: public numeric-computation example programs.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Wrote Python checks for selected code patterns in small programming exercises during a supervised undergraduate independent study.
+- Parsed small public numeric-computation example programs using abstract syntax trees as part of the static-checking work.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 4 hours/week
+Path Search on Public Route Graphs
+Inputs: public walking-route networks.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, NetworkX
+- Constructed graphs from public walking-route tables using Python and NetworkX as an assigned contribution to a supervised undergraduate course project.
+- Implemented shortest-path queries and tested disconnected graph cases for path search on public walking-route networks.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Static Checks for Programming Exercises': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Static Checks for Programming Exercises': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Static Checks for Programming Exercises': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in nesting depth affect false warnings from syntax-pattern checks on public numeric-computation example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Identify contexts where additional syntax information reduces false warnings and document cases where that extra complexity still misses the intended distinction.
+Method: Vary nesting depth in examples reserved by program family, define labeling rules before tuning, and have a collaborator independently recheck a subset of warning labels.
+Comparison: Use context-free pattern matching on the same manually checked examples as the reference method.
+Evaluation: Report precision and recall by context with uncertainty intervals, adjudicate labeling disagreements, and evaluate on program families excluded from rule tuning.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Manual labels and template overlap can distort apparent gains; publish the labeling rules and repeat analysis after excluding near-duplicate program families.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at an open online learning group, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

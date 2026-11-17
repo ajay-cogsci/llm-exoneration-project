@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Wrote checks for selected code patterns using Python and abstract syntax trees in a supervised undergraduate course project.",
+        "Documented false-positive cases in static checks for small programming exercises as part of the course project team."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Short Text Document Classification",
+      "bullets": [
+        "Compared classification errors across document lengths for short public text documents in a supervised undergraduate course project.",
+        "Documented training and test splits used for classifying short public text documents within the course project."
+      ]
+    }
+  ],
+  "research": []
+}

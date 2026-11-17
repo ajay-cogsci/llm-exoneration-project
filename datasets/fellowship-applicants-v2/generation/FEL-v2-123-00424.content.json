@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Reproduced summary tables from raw public scientific inputs as part of a supervised undergraduate independent study.",
+        "Assembled a scripted data-cleaning workflow using Python and pandas for reproducible processing of public scientific tables."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Project on Query Performance",
+      "bullets": [
+        "Compared indexed and unindexed queries on public tabular data within a supervised graduate course project.",
+        "Documented query plans for the course project's examination of query performance using SQL and SQLite."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Scientific Table Processing Research Assistance",
+      "bullets": [
+        "Reproduced summary tables from raw public scientific inputs while assisting with supervised faculty research.",
+        "Assembled a scripted data-cleaning workflow using Python and pandas, and recorded software dependencies for the processing work."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Tabular Query Performance Research Assistance",
+      "bullets": [
+        "Compared indexed and unindexed queries on public tabular data as part of supervised faculty research.",
+        "Wrote aggregation and join queries using SQL and SQLite, and documented query plans for the query performance work."
+      ]
+    }
+  ]
+}

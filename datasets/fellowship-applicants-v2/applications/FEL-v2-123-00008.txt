@@ -1,0 +1,86 @@
+Applicant FEL-v2-123-00008
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.54/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B- | undergraduate, 2021-11
+Algorithms: B- | undergraduate, 2022-05
+Linear Algebra: B+ | undergraduate, 2021-11
+Probability and Statistics: B | undergraduate, 2022-05
+Database Systems: B | undergraduate, 2022-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Data management: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, SQL, SQLite
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-09 to 2024-05 | 8 months; 6 hours/week
+Environmental Data Query Performance Capstone
+Inputs: public environmental measurement tables.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Compared indexed and unindexed SQL queries on public environmental measurement tables for a supervised undergraduate capstone project.
+- Documented query plans for the capstone team's SQLite queries on public environmental measurement tables.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-08 to 2024-05 | 9 months; 6 hours/week
+Transit Timetable Query Research Assistance
+Inputs: public transit timetable tables.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public transit timetable tables into a SQLite relational database as part of supervised faculty research.
+- Wrote SQL aggregation and join queries for assigned research tasks examining query performance on public transit timetable data.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Bibliographic Data Query Research Assistance
+Inputs: public bibliographic tables.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public bibliographic tables into a SQLite relational database as part of supervised faculty research.
+- Compared indexed and unindexed queries and documented query plans for assigned work on public bibliographic data.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH OUTPUTS
+query performance on public tabular data | 2024-05 | Presented at a fictional university student research symposium; source: Transit Timetable Query Research Assistance (2023-08 to 2024-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Bibliographic Data Query Research Assistance': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Bibliographic Data Query Research Assistance': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Bibliographic Data Query Research Assistance': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Data management
+Topic: query performance on public tabular data
+Question: How does variation in query selectivity change the balance of query latency, update overhead and storage for indexes on public bibliographic tables?
+Rationale: An index can accelerate reads while imposing storage and update costs; a recommendation based only on query latency can therefore be misleading.
+Contribution: Identify workload conditions where an indexing choice changes from a useful speed improvement to an avoidable maintenance cost.
+Method: Vary query selectivity under matched database states, randomize workload order, standardize warm-up, and reserve workload mixes for checking the indexing tradeoff.
+Comparison: Compare each configuration with an unindexed database and a fixed index set under identical query workloads.
+Evaluation: Report median and tail latency, update overhead and storage with run-to-run intervals; test whether the inferred tradeoff persists on held-out workload mixes.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Cache effects and skewed inputs may change the preferred index; repeat key comparisons with cold starts and altered data skew.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is adapting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a student-led computing club, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

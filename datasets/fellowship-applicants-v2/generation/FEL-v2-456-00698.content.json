@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Path Search on Public Transportation Graphs",
+      "bullets": [
+        "Constructed graphs from public urban bus route tables using Python and NetworkX for a supervised undergraduate capstone team project.",
+        "Tested disconnected graph cases as part of the capstone team's work on path search in public transportation graphs."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Reproducible Processing of Bibliographic Tables",
+      "bullets": [
+        "Recorded software dependencies for reproducible processing of public scientific tables in a supervised undergraduate course project on bibliographic analysis.",
+        "Wrote data-schema checks using Python and pandas as an assigned contribution to the course team's public bibliographic analysis workflow."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Reproducible Public Transport Table Processing",
+      "bullets": [
+        "Recorded software dependencies as a student research assistant contributing to supervised faculty research on reproducible public scientific table processing.",
+        "Reproduced summary tables from raw inputs using Python and pandas within supervised research on public transport analysis workflows."
+      ]
+    }
+  ]
+}

@@ -26,3 +26,15 @@ runs/
 /scripts/audit_ta*.py
 !/scripts/audit_ta.py
 /tests/test_ta_v[0-9]*.py
+
+# Only the approved fellowship release and canonical pipeline belong in Git.
+/datasets/fellowship-*/
+!/datasets/fellowship-applicants-v2/
+/fellowship_applicants*/
+!/fellowship_applicants/
+/configs/fellowship*.json
+!/configs/fellowship.json
+/FELLOWSHIP_V*_METHOD.md
+/scripts/audit_fellowship*.py
+!/scripts/audit_fellowship.py
+/tests/test_fellowship_v[0-9]*.py

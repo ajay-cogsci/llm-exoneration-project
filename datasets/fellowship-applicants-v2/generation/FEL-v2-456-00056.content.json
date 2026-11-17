@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Recorded software dependencies for reproducible processing of public scientific tables as part of a supervised undergraduate capstone team.",
+        "Assembled a scripted data-cleaning workflow using Python and pandas for public environmental analysis as an assigned capstone contribution."
+      ]
+    }
+  ],
+  "research": []
+}

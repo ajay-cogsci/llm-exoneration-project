@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time Series Forecasting",
+      "bullets": [
+        "Aligned public river-level measurement series and identified missing observations as part of a supervised undergraduate independent study in environmental forecasting.",
+        "Implemented a seasonal forecasting baseline for the public sensor time series using Python, pandas, and scikit-learn."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "File-Format Utility Test Coverage",
+      "bullets": [
+        "Measured branch coverage and reproduced reported defects in public file-format utilities for a supervised graduate course project on small open-source libraries.",
+        "Wrote unit tests for utility functions using Python and pytest as an assigned contribution to the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Parsing Utility Test Coverage",
+      "bullets": [
+        "Measured branch coverage in public parsing utilities as a student research assistant contributing to supervised faculty research on small open-source libraries.",
+        "Wrote Python unit tests for utility functions in the public parsing utilities, using pytest as part of the supervised research."
+      ]
+    }
+  ]
+}

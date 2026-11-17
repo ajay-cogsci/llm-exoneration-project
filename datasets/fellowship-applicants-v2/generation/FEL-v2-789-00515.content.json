@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Short Public Text Classification",
+      "bullets": [
+        "Cleaned public question-category text records using Python and pandas for short-document classification in a supervised undergraduate independent study.",
+        "Compared classification errors across document lengths using scikit-learn and documented the train and test splits."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Bibliographic Database Queries",
+      "bullets": [
+        "Loaded public bibliographic tables into a SQLite relational database using Python as part of a supervised undergraduate course project.",
+        "Wrote SQL aggregation and join queries for the course project's investigation of query performance on public tabular data."
+      ]
+    }
+  ],
+  "research": []
+}

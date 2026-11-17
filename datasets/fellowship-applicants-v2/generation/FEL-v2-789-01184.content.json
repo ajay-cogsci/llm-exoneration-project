@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Test Coverage Capstone",
+      "bullets": [
+        "Wrote unit tests for utility functions in small open-source libraries using Python and pytest as part of a supervised undergraduate capstone team.",
+        "Measured branch coverage and documented test failures and fixes for the capstone project's small open-source libraries."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Library Test Coverage Research Assistance",
+      "bullets": [
+        "Measured branch coverage for small open-source libraries as a student research assistant working under faculty supervision.",
+        "Wrote unit tests for utility functions in these libraries using Python and pytest within the supervised research project."
+      ]
+    }
+  ]
+}

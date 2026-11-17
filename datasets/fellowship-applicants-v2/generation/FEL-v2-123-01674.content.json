@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "River-Level Forecasting Capstone",
+      "bullets": [
+        "Aligned public river-level measurement time series as a contribution to a supervised undergraduate team capstone on environmental forecasting.",
+        "Implemented a seasonal baseline for forecasting public environmental time series using Python, pandas and scikit-learn."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Temperature Sensor Forecasting Assistance",
+      "bullets": [
+        "Identified missing observations and aligned public temperature sensor time series as a student assistant in supervised faculty research.",
+        "Used Python, pandas and scikit-learn in assigned environmental time-series forecasting work, including plotting forecast residuals."
+      ]
+    }
+  ]
+}

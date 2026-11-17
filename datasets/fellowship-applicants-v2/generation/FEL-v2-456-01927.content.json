@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Data-Cleaning Library Test Coverage",
+      "bullets": [
+        "Wrote unit tests for utility functions in small open-source data-cleaning libraries using Python and pytest as part of a supervised undergraduate capstone.",
+        "Measured branch coverage and documented test failures and fixes for the capstone project's assigned testing work."
+      ]
+    }
+  ],
+  "research": []
+}

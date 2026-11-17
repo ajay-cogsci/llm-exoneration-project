@@ -1,0 +1,69 @@
+Applicant FEL-v2-456-00259
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.45/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2019-11
+Algorithms: A | undergraduate, 2020-05
+Linear Algebra: A | undergraduate, 2019-11
+Probability and Statistics: B | undergraduate, 2020-05
+Scientific Computing: B+ | undergraduate, 2021-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Scientific computing: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-02 to 2023-05 | 3 months; 6 hours/week
+Reproducible Scientific Table Processing
+Inputs: public municipal-data analysis workflows.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Recorded software dependencies for reproducible processing of public scientific tables in a supervised undergraduate course project.
+- Assembled a scripted data-cleaning workflow using Python and pandas, and wrote data-schema checks for the public tables.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Reproducible Scientific Table Processing': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Project supervisor on 'Reproducible Scientific Table Processing': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Project supervisor on 'Reproducible Scientific Table Processing': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in unit inconsistencies affect fault detection by lightweight checks in public transport analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Characterize which silent processing failures inexpensive checks detect and which require contextual knowledge beyond schema validation.
+Method: Define fault categories before writing checks, vary unit inconsistencies, and reserve workflows and fault instances for evaluating schema-only and combined checks.
+Comparison: Compare unchecked workflows, schema-only checks and the combined check set on identical fault cases.
+Evaluation: Report detection and false-alarm rates on held-out workflows with category-specific intervals; test whether conclusions change when fault prevalence differs.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Injected faults need not match real processing failures; disclose the fault taxonomy and distinguish detection coverage from claims about complete analytical correctness.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-05 | 12 hours | helped explain a chart during a supervised outreach activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is reproducing an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about reproducing an example; use participant comments to revise the examples and instructions after the pilot.

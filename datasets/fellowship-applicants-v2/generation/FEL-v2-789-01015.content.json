@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Scientific Table Processing Capstone",
+      "bullets": [
+        "Assembled a scripted data-cleaning workflow using Python and pandas for public scientific tables in a supervised undergraduate capstone.",
+        "Recorded software dependencies for the capstone workflow to document the software needed for reproducible table processing."
+      ]
+    }
+  ],
+  "research": []
+}

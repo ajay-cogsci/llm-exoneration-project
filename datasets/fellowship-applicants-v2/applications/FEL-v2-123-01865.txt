@@ -1,0 +1,77 @@
+Applicant FEL-v2-123-01865
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 2.83/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: C | undergraduate, 2022-11
+Algorithms: C | undergraduate, 2023-05
+Linear Algebra: C+ | undergraduate, 2022-11
+Probability and Statistics: C+ | undergraduate, 2023-05
+Programming Languages: B- | undergraduate, 2023-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Programming languages: B- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-02 to 2025-05 | 3 months; 4 hours/week
+Course Project on Static Code Checks
+Inputs: public numeric-computation example programs.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Wrote checks for selected code patterns in small programming exercises using Python and abstract syntax trees during a supervised undergraduate course project.
+- Documented false-positive cases from static checks as an assigned contribution to the supervised student team project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-10 to 2025-01 | 3 months; 12 hours/week
+Supervised Research on Syntax-Tree Analysis
+Inputs: public list-processing example programs.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Implemented syntax-tree traversal in Python for static checks on small programming exercises as a student assistant in supervised faculty research.
+- Parsed small public example programs for static checks on programming exercises within the scope of supervised research assistance.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Course Project on Static Code Checks': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Course Project on Static Code Checks': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Course Project on Static Code Checks': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in helper-function boundaries affect false warnings from syntax-pattern checks on public numeric-computation example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Identify contexts where additional syntax information reduces false warnings and document cases where that extra complexity still misses the intended distinction.
+Method: Vary helper-function boundaries in examples reserved by program family, define labeling rules before tuning, and have a collaborator independently recheck a subset of warning labels.
+Comparison: Use context-free pattern matching on the same manually checked examples as the reference method.
+Evaluation: Report precision and recall by context with uncertainty intervals, adjudicate labeling disagreements, and evaluate on program families excluded from rule tuning.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Manual labels and template overlap can distort apparent gains; publish the labeling rules and repeat analysis after excluding near-duplicate program families.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is adapting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at an open online learning group, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

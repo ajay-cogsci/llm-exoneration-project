@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time Series Forecasting Capstone",
+      "bullets": [
+        "Implemented a seasonal forecasting baseline for public air-quality sensor series using Python, pandas, and scikit-learn as part of a supervised undergraduate capstone team.",
+        "Plotted forecast residuals and identified missing observations in public environmental time series for the capstone's forecasting analysis."
+      ]
+    }
+  ],
+  "research": []
+}

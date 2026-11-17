@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Numerical Library Testing Capstone",
+      "bullets": [
+        "Wrote unit tests with Python and pytest for utility functions in small open-source numerical libraries as part of a supervised undergraduate capstone.",
+        "Documented test failures and fixes for the capstone's public numerical utility libraries, using Git during the work."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Transit Table Queries",
+      "bullets": [
+        "Loaded public transit timetable tables into a SQLite relational database using Python as part of supervised faculty research.",
+        "Wrote SQL aggregation and join queries for public transit timetable tables while assisting research on query performance."
+      ]
+    }
+  ]
+}

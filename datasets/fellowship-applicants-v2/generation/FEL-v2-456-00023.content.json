@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Scientific Table Processing Course Project",
+      "bullets": [
+        "Wrote data-schema checks using Python and pandas for public scientific tables as part of a supervised undergraduate team course project.",
+        "Assembled a scripted data-cleaning workflow and reproduced summary tables from raw inputs for public environmental analysis workflows."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Scientific Table Processing Research Assistance",
+      "bullets": [
+        "Wrote data-schema checks for public scientific tables in public transport analysis workflows as a student assistant in supervised faculty research.",
+        "Recorded software dependencies and assembled a scripted data-cleaning workflow using Python and pandas for reproducible table processing."
+      ]
+    }
+  ]
+}

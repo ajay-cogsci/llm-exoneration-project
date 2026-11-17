@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public file-processing example programs using Python and abstract syntax trees during a supervised undergraduate independent study.",
+        "Wrote checks for selected code patterns and documented false-positive cases in static checks for small programming exercises."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Small-Object Image Classification",
+      "bullets": [
+        "Loaded public small-object image datasets using Python, PyTorch, and NumPy as part of supervised faculty research.",
+        "Summarized classification errors for public small-object image collections in research on small-image classification under input changes."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Natural-Scene Image Classification",
+      "bullets": [
+        "Loaded public small-image datasets from natural-scene image collections and applied simple input transformations as part of supervised faculty research.",
+        "Summarized classification errors for public natural-scene image collections in research on small-image classification under input changes."
+      ]
+    }
+  ]
+}

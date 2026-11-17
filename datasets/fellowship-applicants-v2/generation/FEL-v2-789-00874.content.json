@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Temperature Time Series Course Project",
+      "bullets": [
+        "Identified missing observations in public temperature sensor time series as part of a supervised undergraduate course project on environmental forecasting.",
+        "Implemented a seasonal forecasting baseline for public temperature sensor series in the course project, working with Python, pandas, and scikit-learn."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Rainfall Time Series Research Assistance",
+      "bullets": [
+        "Aligned public rainfall measurement time series and identified missing observations while assisting with supervised faculty research on environmental forecasting.",
+        "Plotted forecast residuals for the public rainfall series as a student research assistant, working with Python, pandas, and scikit-learn."
+      ]
+    }
+  ]
+}

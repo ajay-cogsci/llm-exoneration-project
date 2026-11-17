@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Regional Rail Path Search Capstone",
+      "bullets": [
+        "Compared search times on sampled public regional rail graphs using Python and NetworkX as part of a supervised undergraduate capstone.",
+        "Tested disconnected graph cases for path search on public transportation networks within the supervised capstone project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Urban Bus Network Path Search",
+      "bullets": [
+        "Constructed graphs from public urban bus route tables using Python and NetworkX as a student assistant in supervised faculty research.",
+        "Compared search times on sampled graphs and tested disconnected graph cases for public transportation path search under faculty supervision."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Bibliographic Data Query Performance",
+      "bullets": [
+        "Documented query plans for public bibliographic tables as a student assistant contributing to supervised faculty research on query performance.",
+        "Compared indexed and unindexed queries on public bibliographic data using Python, SQL, and SQLite within the supervised research."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Reproducible Public Transport Tables",
+      "bullets": [
+        "Recorded software dependencies for a supervised undergraduate course project on public transport analysis using Python, pandas, and Git.",
+        "Reproduced summary tables from raw inputs as an assigned contribution to the student project's reproducible processing of public scientific tables."
+      ]
+    }
+  ],
+  "research": []
+}

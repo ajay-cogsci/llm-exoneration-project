@@ -1,0 +1,68 @@
+Applicant FEL-v2-456-01037
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.89/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A | undergraduate, 2022-11
+Algorithms: A | undergraduate, 2023-05
+Linear Algebra: A | undergraduate, 2022-11
+Probability and Statistics: A | undergraduate, 2023-05
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Applied machine learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-09 to 2025-05 | 8 months; 8 hours/week
+River-Level Forecasting Capstone
+Inputs: public river-level measurement series.
+Scope: Supervised project with 4 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Implemented a seasonal baseline in Python for forecasting public river-level measurements within a supervised undergraduate capstone team project.
+- Plotted forecast residuals for the public environmental time series as part of the assigned capstone project contribution.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+forecasting from public environmental time series | 2025-05 | Coauthored preprint; not peer reviewed; source: River-Level Forecasting Capstone (2024-09 to 2025-05).
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'River-Level Forecasting Capstone': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'River-Level Forecasting Capstone': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'River-Level Forecasting Capstone': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Applied machine learning
+Topic: forecasting from public environmental time series
+Question: How does variation in seasonal variation affect imputation and short-horizon forecasting on public river-level measurement series?
+Rationale: A low average forecast error may hide failure during extended outages; comparing missingness patterns can clarify when imputation ceases to be useful.
+Contribution: Characterize conditions where simple imputation preserves forecast usefulness and where uncertainty or long outages undermine that conclusion.
+Method: Compare several imputation methods across seasonal variation, retain chronological splits, and evaluate separately by sensor and missingness pattern. Fill missing historical inputs using past observations only, then forecast one step ahead with lagged-input ridge regression fitted only on earlier observations.
+Comparison: Compare the resulting ridge forecasts with seasonal-naive forecasts on the same test dates. Also apply the same ridge model to unaltered historical inputs as a reference.
+Evaluation: Report forecast errors by sensor and outage pattern over several windows, including the error of the seasonal-naive reference.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Chronological evaluation avoids future-data leakage, while simulated missingness may differ from the process causing actual sensor failures.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-02 | 12 hours | answered learner questions during a supervised workshop. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is interpreting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at a campus learning centre, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

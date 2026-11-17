@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Independent Study",
+      "bullets": [
+        "Loaded public small-image datasets from natural-scene collections using Python, PyTorch and NumPy in a supervised undergraduate independent study.",
+        "Summarized classification errors for the supervised project examining small-image classification under input changes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Supervised Image Classification Research",
+      "bullets": [
+        "Trained a compact image classifier using Python, PyTorch and NumPy as a student assistant in supervised faculty research.",
+        "Applied simple input transformations to public handwritten-symbol images for research on small-image classification under input changes."
+      ]
+    }
+  ]
+}

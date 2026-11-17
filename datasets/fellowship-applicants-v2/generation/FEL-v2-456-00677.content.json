@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Open-Source Library Testing",
+      "bullets": [
+        "Reproduced reported software defects in small open-source libraries during a supervised undergraduate independent study on test coverage.",
+        "Wrote unit tests for utility functions using Python and pytest, and documented test failures and fixes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Library Branch Coverage",
+      "bullets": [
+        "Measured branch coverage in small open-source libraries while assisting with supervised faculty research on test coverage.",
+        "Documented test failures and associated fixes for the libraries examined as part of supervised research assistance."
+      ]
+    }
+  ]
+}

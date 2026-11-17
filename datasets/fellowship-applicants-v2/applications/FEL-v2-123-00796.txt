@@ -1,0 +1,77 @@
+Applicant FEL-v2-123-00796
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-01 to 2030-01 (enrolled; expected completion)
+Undergraduate GPA: 3.29/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B+ | undergraduate, 2021-05
+Linear Algebra: B+ | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Introduction to Machine Learning: B+ | undergraduate, 2021-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Computer vision: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+NumPy, PyTorch, Python
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-03 to 2023-05 | 2 months; 4 hours/week
+Course Project in Small-Image Classification
+Inputs: public handwritten-symbol image collections.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Trained a compact image classifier on public handwritten-symbol image collections as part of a supervised undergraduate course project.
+- Applied simple input transformations to handwritten-symbol images for the course project's study of small-image classification under input changes.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-01 to 2025-12 | 11 months; 12 hours/week
+Supervised Research on Small-Image Classification
+Inputs: public texture image collections.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, PyTorch, NumPy
+- Loaded public small-image datasets from texture image collections as a student research assistant working under faculty supervision.
+- Summarized classification errors for supervised research examining small-image classification under input changes using public texture image collections.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Supervised Research on Small-Image Classification': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Supervised Research on Small-Image Classification': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Supervised Research on Small-Image Classification': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Computer vision
+Topic: small-image classification under input changes
+Question: How does variation in blur intensity affect the benefit and cost of training augmentation on public small-object image collections?
+Rationale: An augmentation can improve transformed-image accuracy while harming unchanged images, making aggregate accuracy an incomplete guide to robustness.
+Contribution: Describe where augmentation improves or worsens transformed-image accuracy on the selected split, using representative errors to illustrate the differences.
+Method: Train compact classifiers with and without an augmentation on one split, vary blur intensity, and compare accuracy on transformed images.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Report transformed-image accuracy from the chosen split and show representative misclassified images for each setting.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A single split and transformed-only evaluation can obscure losses on ordinary images and variation between training runs.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2022-02 | 12 hours | answered learner questions during a supervised workshop. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is interpreting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at a student-led computing club, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

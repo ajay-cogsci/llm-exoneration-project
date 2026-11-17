@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Transit Query Performance Capstone",
+      "bullets": [
+        "Loaded public transit timetable tables into a SQLite relational database as part of a supervised undergraduate capstone team.",
+        "Documented query plans and compared indexed and unindexed SQL queries for the project's public tabular data."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Utility Test Coverage Course Project",
+      "bullets": [
+        "Wrote unit tests for public file-format utility functions using Python and pytest within a supervised graduate course project team.",
+        "Measured branch coverage for public file-format utilities as part of the course project's examination of small open-source libraries."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Numerical Utility Test Coverage Assistance",
+      "bullets": [
+        "Measured branch coverage for small open-source numerical utility libraries as a student research assistant under faculty supervision.",
+        "Wrote unit tests for functions in public numerical utility libraries using Python and pytest."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Municipal Data Query Performance Assistance",
+      "bullets": [
+        "Loaded public municipal service tables into a SQLite relational database as a student research assistant under faculty supervision.",
+        "Documented query plans and compared indexed and unindexed SQL queries on public municipal service tables."
+      ]
+    }
+  ]
+}

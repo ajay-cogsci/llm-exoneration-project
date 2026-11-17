@@ -1,0 +1,69 @@
+Applicant FEL-v2-456-00056
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 2.79/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B- | undergraduate, 2022-11
+Algorithms: C+ | undergraduate, 2023-05
+Linear Algebra: C+ | undergraduate, 2022-11
+Probability and Statistics: C+ | undergraduate, 2023-05
+Scientific Computing: C | undergraduate, 2023-09
+Graduate Research Methods: B- | graduate, 2025-12
+Advanced Scientific computing: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-12 to 2025-05 | 5 months; 8 hours/week
+Reproducible Scientific Table Processing
+Inputs: public environmental analysis workflows.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Recorded software dependencies for reproducible processing of public scientific tables as part of a supervised undergraduate capstone team.
+- Assembled a scripted data-cleaning workflow using Python and pandas for public environmental analysis as an assigned capstone contribution.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Reproducible Scientific Table Processing': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Reproducible Scientific Table Processing': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Reproducible Scientific Table Processing': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in unit inconsistencies affect fault detection by lightweight checks in public environmental analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Characterize which silent processing failures inexpensive checks detect and which require contextual knowledge beyond schema validation.
+Method: Compare unchecked, schema-only and combined checks across unit inconsistencies, using a fixed list of processing faults and expected table outputs.
+Comparison: Compare unchecked workflows, schema-only checks and the combined check set on identical fault cases.
+Evaluation: Report detected faults, false alarms and overhead by failure category, comparing the same fault cases across check sets.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Using shared fault cases permits comparisons, while a developer-selected fault list can still favor the implemented checks.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-10 | 4 hours | assembled a short troubleshooting note for peers. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Use small public inputs, explicit environment instructions and text-based checks that run without specialized hardware.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

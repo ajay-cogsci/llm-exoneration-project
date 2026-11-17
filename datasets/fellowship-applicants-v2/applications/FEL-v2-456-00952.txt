@@ -1,0 +1,70 @@
+Applicant FEL-v2-456-00952
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 3.88/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2022-11
+Algorithms: B | undergraduate, 2023-05
+Linear Algebra: A- | undergraduate, 2022-11
+Probability and Statistics: A | undergraduate, 2023-05
+Introduction to Machine Learning: B | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Natural language processing: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2025-02 to 2025-05 | 3 months; 4 hours/week
+Short Public Text Classification
+Inputs: public news-topic text.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, scikit-learn, pandas
+- Implemented a bag-of-words classifier for short public news-topic documents using Python, scikit-learn, and pandas during a supervised undergraduate independent study.
+- Compared classification errors across document lengths and documented the training and test splits for the text classification project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+Departmental undergraduate academic commendation | 2025-05
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Short Public Text Classification': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Project supervisor on 'Short Public Text Classification': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Project supervisor on 'Short Public Text Classification': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Natural language processing
+Topic: classification of short public text documents
+Question: How does variation in rare-label frequency change the relative performance of linear and compact encoder classifiers on public question-category text?
+Rationale: Overall accuracy can conceal failures on short documents and rare labels, making it difficult to decide when additional training data help those groups.
+Contribution: Describe how aggregate accuracy differs between the linear classifier and compact encoder across the selected settings, with illustrative classification errors.
+Method: Fit a linear classifier and a compact encoder to one training split, vary rare-label frequency, and compare the resulting aggregate accuracy values.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Use overall accuracy from the selected split to rank the settings and summarize several illustrative classification errors.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: A result from one split may depend on its label mix and may not describe performance on a different collection.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-02 | 24 hours | delivered a series of beginner programming practice sessions. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+2024-11 | 4 hours | adapted introductory programming exercises. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Students beginning programming
+Goal: Help beginning learners interpret and modify a small data-analysis example. The learning task is adapting an example.
+Activity: Develop a short hands-on programming workshop with worked examples and reusable exercises.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.

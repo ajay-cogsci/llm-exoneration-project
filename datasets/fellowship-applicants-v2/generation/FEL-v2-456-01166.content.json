@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Loaded public small-image datasets using Python, PyTorch and NumPy for a supervised undergraduate capstone on classification under input changes.",
+        "Summarized classification errors for public small-object image collections, contributing to the student team's investigation of classification under input changes."
+      ]
+    }
+  ],
+  "research": []
+}

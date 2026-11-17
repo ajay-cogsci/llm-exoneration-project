@@ -1,0 +1,86 @@
+Applicant FEL-v2-456-01319
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.17/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: B+ | undergraduate, 2021-11
+Algorithms: A | undergraduate, 2022-05
+Linear Algebra: B | undergraduate, 2021-11
+Probability and Statistics: A- | undergraduate, 2022-05
+Software Engineering: B+ | undergraduate, 2023-09
+Graduate Research Methods: B | graduate, 2025-12
+Advanced Software engineering: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-01 to 2025-05 | 4 months; 4 hours/week
+File-Format Utility Test Coverage
+Inputs: public file-format utilities.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pytest, Git
+- Wrote unit tests for utility functions using Python and pytest in a supervised undergraduate team course project on small open-source file-format libraries.
+- Measured branch coverage and documented test failures and fixes for the public file-format utilities studied in the course project.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Graduate course project, Fictional University B | 2025-10 to 2025-12 | 2 months; 4 hours/week
+Data-Cleaning Library Test Coverage
+Inputs: public data-cleaning libraries.
+Scope: Supervised project with 4 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pytest, Git
+- Wrote unit tests for utility functions using Python and pytest in a supervised graduate team course project on small open-source data-cleaning libraries.
+- Reproduced reported software defects and measured branch coverage for the public data-cleaning libraries studied in the course project.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Numerical Utility Test Coverage
+Inputs: public numerical utility libraries.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pytest, Git
+- Wrote unit tests for utility functions using Python and pytest as a supervised student research assistant studying small open-source numerical utility libraries.
+- Measured branch coverage and documented test failures and fixes for public numerical utility libraries within supervised faculty research.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Numerical Utility Test Coverage': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Numerical Utility Test Coverage': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Numerical Utility Test Coverage': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Software engineering
+Topic: test coverage for small open-source libraries
+Question: How does variation in library version change affect fault detection by coverage-guided test selection on public parsing utilities?
+Rationale: Coverage can increase without detecting additional faults, so a useful selection strategy must preserve defect detection while reducing execution cost.
+Contribution: Characterize when coverage is a useful proxy for fault detection and identify failure categories where inexpensive test selection loses important evidence.
+Method: Compare budget-matched coverage-guided and random subsets across library version change, define defect categories before selection, and reserve library versions for a transfer check.
+Comparison: Use the full test suite as an unrestricted reference, and compare random selection with coverage-guided selection under matched execution budgets.
+Evaluation: Report detection loss and runtime with repeated-selection intervals on held-out versions; separate real-defect results from any mutation-based supplementary check.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Defect availability can favor well-documented libraries; report inclusion rules and examine whether conclusions change when libraries are held out.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2022-09 | 12 hours | guided peers through a public-data analysis setup activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is reproducing an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at an open online learning group, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Use small public inputs, explicit environment instructions and text-based checks that run without specialized hardware.
+Assessment: Use a short task on reproducing an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

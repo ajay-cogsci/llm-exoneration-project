@@ -1,0 +1,134 @@
+{
+  "version": "fellowship-cs-graduate-v2",
+  "publication_status": "approved_for_publication",
+  "created_at": "2026-11-17T14:26:37.463788+00:00",
+  "source_implementation_hash": "79df844c3cd1a500fcde72014c06bbf8cbe139779e869f0f828140626ba4ef80",
+  "profiles_hash": "3e323f78cc994b2db0ce5cd6fa315f645d3d8cdab6601ade7dd7814514277304",
+  "config_hash": "20c8a1df1ada3ab2fd1336f335040c7e35f6c562758b2e48e3a475e4b7ee1ed1",
+  "plan_sha256": "7a40abe38b65d09c2a724c885d4f8e13ac8aa6015f68e58bdc5be723ad78d868",
+  "application_count": 100,
+  "selection": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "strong": 30,
+      "weak": 30
+    },
+    "designated_mixed": {
+      "none": 90,
+      "no_publication_substantive_potential": 2,
+      "lower_gpa_substantive_research": 3,
+      "intellectual_merit_impact_gap": 3,
+      "limited_preparation_promising_proposal": 2
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 64,
+      "PhD in Computer Science": 36
+    },
+    "research_areas": {
+      "Data management": 9,
+      "Scientific computing": 17,
+      "Programming languages": 13,
+      "Software engineering": 10,
+      "Natural language processing": 16,
+      "Algorithms": 11,
+      "Applied machine learning": 13,
+      "Computer vision": 11
+    },
+    "impact_areas": {
+      "community_data_literacy": 24,
+      "open_teaching_materials": 24,
+      "introductory_workshops": 26,
+      "reproducibility_support": 26
+    },
+    "project_counts": {
+      "2": 25,
+      "1": 75
+    },
+    "project_roles": {
+      "Undergraduate capstone": 40,
+      "Undergraduate course project": 40,
+      "Undergraduate independent study": 33,
+      "Graduate course project": 12
+    },
+    "project_months": {
+      "5": 13,
+      "4": 24,
+      "3": 31,
+      "6": 26,
+      "8": 16,
+      "2": 15
+    },
+    "practice_source_types": {
+      "Research supervisor": 40,
+      "Project supervisor": 60
+    },
+    "ra_in_proposal_area": 52,
+    "unique_education_histories": 68,
+    "unique_grade_vectors": 99,
+    "unique_proposals": 100,
+    "unique_impact_plans": 100,
+    "by_tier": {
+      "weak": {
+        "n": 30,
+        "gpa_range": [
+          2.71,
+          3.95
+        ],
+        "no_research_appointment": 16,
+        "with_preprint": 2,
+        "no_prior_impact_activity": 4,
+        "intellectual_merit": {
+          "developing": 10,
+          "limited": 20
+        },
+        "broader_impacts": {
+          "limited": 14,
+          "detailed": 9,
+          "specified": 7
+        }
+      },
+      "borderline": {
+        "n": 40,
+        "gpa_range": [
+          2.79,
+          3.93
+        ],
+        "no_research_appointment": 16,
+        "with_preprint": 1,
+        "no_prior_impact_activity": 15,
+        "intellectual_merit": {
+          "developing": 37,
+          "high": 3
+        },
+        "broader_impacts": {
+          "specified": 19,
+          "detailed": 15,
+          "limited": 6
+        }
+      },
+      "strong": {
+        "n": 30,
+        "gpa_range": [
+          2.81,
+          3.89
+        ],
+        "no_research_appointment": 10,
+        "with_preprint": 2,
+        "no_prior_impact_activity": 10,
+        "intellectual_merit": {
+          "developing": 13,
+          "high": 17
+        },
+        "broader_impacts": {
+          "detailed": 23,
+          "specified": 7
+        }
+      }
+    }
+  },
+  "evaluation_calls": 0,
+  "integrity_conditions_assigned": false,
+  "publication_approved_on": "2026-11-18",
+  "published_directory": "datasets/fellowship-applicants-v2"
+}

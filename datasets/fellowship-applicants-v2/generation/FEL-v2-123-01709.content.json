@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Reproducible Scientific Tables Course Project",
+      "bullets": [
+        "Reproduced summary tables from raw public scientific inputs using Python and pandas as part of a supervised undergraduate team course project.",
+        "Wrote data-schema checks for the public scientific tables and recorded software dependencies used in processing."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Short Text Classification Course Project",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public text documents using Python and scikit-learn in a supervised graduate course project.",
+        "Cleaned public text records using pandas and documented the training and test splits for classification."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Supervised Text Classification Research Assistance",
+      "bullets": [
+        "Cleaned public text records using pandas as a student research assistant contributing to supervised faculty research on short text classification.",
+        "Implemented a bag-of-words classifier using Python and scikit-learn for the classification of short public text documents."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "prompt_version": "fellowship-wording-v2",
+  "generator_instructions": "Write concise experience entries for a fictional early-stage CS graduate student's fellowship application.\nThe fixed_record is authoritative. Return only the requested JSON. This is stimulus generation, not assessment.\nReturn one entry per supplied project and research_experience item, preserving IDs and empty lists.\nEach entry has a short descriptive title and exactly two bullets of twelve to thirty words each.\nCover all listed tasks using only that entry's topic, tasks, tools and scope. Paraphrase without inventing work,\nmethods, results, leadership, authorship, effectiveness, measured improvements, partnerships or achievements.\nDescribe the applicant's own tasks, not sole ownership of a team's project. Course projects remain course projects;\nresearch assistance remains supervised work. Do not transfer tools or tasks between entries.\nThe proposal, broader-impact plan, grades, dates, skills, awards, outputs and supervisor observations are fixed\nand rendered separately. Do not rewrite or restate them. In particular, never turn proposed work into past work.\nDo not mention publications, awards, demographic information, personal names, integrity history, character praise,\ntier labels, comparative applicant judgments or selection decisions. Do not use digits in titles or bullets.\nUse the same restrained professional style for every applicant. Do not add introductions or conclusions.\n",
+  "repair_instructions": "Write concise experience entries for a fictional early-stage CS graduate student's fellowship application.\nThe fixed_record is authoritative. Return only the requested JSON. This is stimulus generation, not assessment.\nReturn one entry per supplied project and research_experience item, preserving IDs and empty lists.\nEach entry has a short descriptive title and exactly two bullets of twelve to thirty words each.\nCover all listed tasks using only that entry's topic, tasks, tools and scope. Paraphrase without inventing work,\nmethods, results, leadership, authorship, effectiveness, measured improvements, partnerships or achievements.\nDescribe the applicant's own tasks, not sole ownership of a team's project. Course projects remain course projects;\nresearch assistance remains supervised work. Do not transfer tools or tasks between entries.\nThe proposal, broader-impact plan, grades, dates, skills, awards, outputs and supervisor observations are fixed\nand rendered separately. Do not rewrite or restate them. In particular, never turn proposed work into past work.\nDo not mention publications, awards, demographic information, personal names, integrity history, character praise,\ntier labels, comparative applicant judgments or selection decisions. Do not use digits in titles or bullets.\nUse the same restrained professional style for every applicant. Do not add introductions or conclusions.\n\nRevise previous_entries to address validation_issues. Return the complete object without changing any fixed facts.",
+  "review_instructions": "Review the supplied fictional fellowship application for factual consistency and scientific plausibility.\nCompare entries and application_text with fixed_record. Do not assess merit, score applicants or demand stronger evidence.\nFlag unsupported claims, tools, tasks, outcomes, publications, sole ownership, partnerships or past achievements.\nProjects and supervised research must retain their supplied scope. Planned research and broader-impact activities\nmust remain future intentions, not accomplishments. Supervisor observations apply only to the linked work episode.\nThe complete proposals intentionally vary in methodological quality; a narrow design or weak assessment is\na study input, not a factual error to repair. Different work episodes may share a research area while using\ndistinct public inputs. Do not mistake topical continuity for duplicate work. Absence of a publication, award, prior research job or outreach is not a defect.\nDo flag a technical or chronological contradiction within fixed_record if one exists; never silently repair it.\nDates, grades, outputs and fixed proposal components are printed separately and need not recur in generated bullets.\nReturn passes=true and issues=[] only if there is no material unsupported claim or contradiction.\nOtherwise return passes=false with specific factual issues. Do not request essays, recommendation letters,\nactual NSF eligibility evidence, real institutional names or external proof for explicitly synthetic records.\n",
+  "content_schema": {
+    "type": "object",
+    "properties": {
+      "projects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "bullets"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "research": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "bullets"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "projects",
+      "research"
+    ],
+    "additionalProperties": false
+  },
+  "review_schema": {
+    "type": "object",
+    "properties": {
+      "passes": {
+        "type": "boolean"
+      },
+      "issues": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "passes",
+      "issues"
+    ],
+    "additionalProperties": false
+  },
+  "settings": {
+    "model": "gpt-6-astra",
+    "review_model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "max_output_tokens": 7000,
+    "review_max_output_tokens": 3000
+  },
+  "max_repairs": 2
+}

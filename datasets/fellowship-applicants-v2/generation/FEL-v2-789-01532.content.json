@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Text Classification Capstone",
+      "bullets": [
+        "Cleaned public discussion-topic text records with Python and pandas for a supervised undergraduate capstone on short-document classification.",
+        "Implemented a bag-of-words classifier with scikit-learn and documented the training and test splits used for the capstone classification task."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Environmental Time Series Forecasting",
+      "bullets": [
+        "Aligned public air-quality sensor time series using Python and pandas as a research assistant contributing to supervised faculty research.",
+        "Implemented a seasonal baseline and plotted forecast residuals for the forecasting task involving public environmental time series."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Product Review Classification Errors",
+      "bullets": [
+        "Implemented a bag-of-words classifier using Python and scikit-learn for public product-review text as part of supervised faculty research.",
+        "Compared classification errors across document lengths and documented training and test splits for the short public text documents."
+      ]
+    }
+  ]
+}

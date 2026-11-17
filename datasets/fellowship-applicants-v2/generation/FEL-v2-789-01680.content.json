@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Capstone on Static Checks",
+      "bullets": [
+        "Parsed small public example programs using Python and abstract syntax trees as part of a supervised undergraduate capstone on static checks.",
+        "Wrote checks for selected code patterns and documented false-positive cases involving static checks for small programming exercises."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Project on Syntax-Tree Traversal",
+      "bullets": [
+        "Implemented syntax-tree traversal in Python for static checks of small programming exercises within a supervised undergraduate team course project.",
+        "Parsed small public example programs using abstract syntax trees as an assigned contribution to the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Assistance on Static Checks",
+      "bullets": [
+        "Implemented syntax-tree traversal in Python for static checks of small programming exercises as a student assistant in supervised faculty research.",
+        "Parsed small public example programs using abstract syntax trees as part of assigned research assistance tasks."
+      ]
+    }
+  ]
+}

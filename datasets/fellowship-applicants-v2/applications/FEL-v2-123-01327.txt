@@ -1,0 +1,79 @@
+Applicant FEL-v2-123-01327
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-01 to 2030-01 (enrolled; expected completion)
+Undergraduate GPA: 3.71/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B- | undergraduate, 2021-05
+Linear Algebra: A | undergraduate, 2020-11
+Probability and Statistics: A | undergraduate, 2021-05
+Programming Languages: A | undergraduate, 2022-09
+Database Systems: A | undergraduate, 2022-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Data management: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, SQL, SQLite, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-07 to 2023-11 | 4 months; 8 hours/week
+Static Checks for Programming Exercises
+Inputs: public numeric-computation example programs.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public example programs using Python for a supervised undergraduate course project on static checks.
+- Implemented traversal of abstract syntax trees for static checks on small programming exercises within the course project.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 4 hours/week
+Query Performance on Public Tables
+Inputs: public municipal service tables.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public tables into a SQLite relational database as part of a supervised undergraduate team course project.
+- Wrote aggregation and join queries in SQL for the course project's investigation of query performance on public tabular data.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Query Performance on Public Tables': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Project supervisor on 'Query Performance on Public Tables': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Project supervisor on 'Query Performance on Public Tables': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Data management
+Topic: query performance on public tabular data
+Question: How does variation in table-size variation change the balance of query latency, update overhead and storage for indexes on public transit timetable tables?
+Rationale: An index can accelerate reads while imposing storage and update costs; a recommendation based only on query latency can therefore be misleading.
+Contribution: Identify workload conditions where an indexing choice changes from a useful speed improvement to an avoidable maintenance cost.
+Method: Vary table-size variation under matched database states, randomize workload order, standardize warm-up, and reserve workload mixes for checking the indexing tradeoff.
+Comparison: Compare each configuration with an unindexed database and a fixed index set under identical query workloads.
+Evaluation: Report median and tail latency, update overhead and storage with run-to-run intervals; test whether the inferred tradeoff persists on held-out workload mixes.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Cache effects and skewed inputs may change the preferred index; repeat key comparisons with cold starts and altered data skew.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2024-01 | 4 hours | checked setup instructions for a student tutorial. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is reproducing an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a community education programme, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Include text alternatives for figures, small downloadable inputs and instructions for running examples on ordinary laptops.
+Assessment: Use a short task on reproducing an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

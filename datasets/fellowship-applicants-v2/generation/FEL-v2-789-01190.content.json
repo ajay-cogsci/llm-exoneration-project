@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Course Project",
+      "bullets": [
+        "Trained a compact image classifier using Python, PyTorch and NumPy as part of a supervised undergraduate course project with another student.",
+        "Summarized classification errors for public small-object image collections in the course project's study of classification under input changes."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Small-Image Classification Research Assistance",
+      "bullets": [
+        "Trained a compact image classifier using Python, PyTorch and NumPy as a student research assistant contributing to supervised faculty research.",
+        "Summarized classification errors for public handwritten-symbol image collections within a supervised study of small-image classification under input changes."
+      ]
+    }
+  ]
+}

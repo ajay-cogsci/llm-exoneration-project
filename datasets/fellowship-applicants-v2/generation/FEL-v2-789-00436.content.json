@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Table Query Performance",
+      "bullets": [
+        "Wrote aggregation and join queries in SQL for public tabular data as part of a supervised undergraduate independent study.",
+        "Documented SQLite query plans while examining query performance on public tabular data within the supervised project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Recorded software dependencies for reproducible processing of public scientific tables in a supervised graduate course team project.",
+        "Assembled a scripted data-cleaning workflow using Python and pandas, and wrote data-schema checks as assigned contributions to the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Table Query Research Assistance",
+      "bullets": [
+        "Loaded public tables into a relational database using SQLite as a student research assistant in supervised faculty research.",
+        "Wrote SQL aggregation and join queries for supervised research examining query performance on public tabular data."
+      ]
+    }
+  ]
+}

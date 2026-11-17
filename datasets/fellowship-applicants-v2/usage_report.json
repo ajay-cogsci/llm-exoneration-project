@@ -1,0 +1,29 @@
+{
+  "final_applicants": {
+    "saved_api_responses": 200,
+    "tokens": {
+      "input_tokens": 498510,
+      "output_tokens": 37424,
+      "total_tokens": 535934
+    }
+  },
+  "catalogue_reviews": {
+    "saved_api_responses": 3,
+    "tokens": {
+      "input_tokens": 29149,
+      "output_tokens": 3364,
+      "total_tokens": 32513
+    }
+  },
+  "superseded_three_applicant_pilot": {
+    "saved_api_responses": 6,
+    "tokens": {
+      "input_tokens": 15784,
+      "output_tokens": 1383,
+      "total_tokens": 17167
+    }
+  },
+  "total_saved_api_responses": 209,
+  "total_reported_tokens": 585614,
+  "evaluation_calls": 0
+}

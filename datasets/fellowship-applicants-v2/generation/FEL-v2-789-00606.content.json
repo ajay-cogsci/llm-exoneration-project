@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Implemented syntax-tree traversal in Python for static checks on small programming exercises during a supervised undergraduate independent study.",
+        "Wrote checks for selected code patterns and documented false-positive cases in the programming exercises."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Testing Small Open-Source Libraries",
+      "bullets": [
+        "Reproduced reported software defects and documented test failures and fixes while assisting with supervised faculty research on small open-source libraries.",
+        "Wrote unit tests for utility functions using Python and pytest as part of the supervised test coverage work."
+      ]
+    }
+  ]
+}

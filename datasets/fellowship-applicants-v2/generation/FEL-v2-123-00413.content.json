@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Short-Text Classification Capstone",
+      "bullets": [
+        "Cleaned public discussion-topic text records using Python and pandas for a supervised undergraduate capstone on short-document classification.",
+        "Compared classification errors across document lengths as part of the supervised capstone investigation using scikit-learn."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Short-Text Classification Research Assistance",
+      "bullets": [
+        "Cleaned public product-review text records using Python and pandas as a student assistant in supervised faculty research.",
+        "Implemented a bag-of-words classifier using scikit-learn for short public text documents within the supervised research project."
+      ]
+    }
+  ]
+}

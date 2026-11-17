@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Unit Testing for Parsing Utilities",
+      "bullets": [
+        "Wrote unit tests for utility functions using Python and pytest in a supervised undergraduate capstone team project on public parsing utilities.",
+        "Reproduced reported software defects and documented test failures and fixes for the small open-source libraries."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Testing Public Data-Cleaning Libraries",
+      "bullets": [
+        "Reproduced reported software defects in public data-cleaning libraries as a student assistant in supervised faculty research.",
+        "Wrote unit tests for utility functions using Python and pytest within the research topic of test coverage for small open-source libraries."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Branch Coverage for File-Format Utilities",
+      "bullets": [
+        "Measured branch coverage for public file-format utilities as a student assistant contributing to supervised faculty research.",
+        "Documented test failures and fixes for public file-format utilities within research on test coverage for small open-source libraries."
+      ]
+    }
+  ]
+}

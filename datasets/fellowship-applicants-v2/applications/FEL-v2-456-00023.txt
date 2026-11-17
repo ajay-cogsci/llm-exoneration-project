@@ -1,0 +1,77 @@
+Applicant FEL-v2-456-00023
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.71/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2021-11
+Algorithms: A- | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: B- | undergraduate, 2022-05
+Scientific Computing: A | undergraduate, 2022-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Scientific computing: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-03 to 2024-05 | 2 months; 6 hours/week
+Public Scientific Table Processing Course Project
+Inputs: public environmental analysis workflows.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Wrote data-schema checks using Python and pandas for public scientific tables as part of a supervised undergraduate team course project.
+- Assembled a scripted data-cleaning workflow and reproduced summary tables from raw inputs for public environmental analysis workflows.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-11 to 2023-11 | 12 months; 12 hours/week
+Public Scientific Table Processing Research Assistance
+Inputs: public transport analysis workflows.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Wrote data-schema checks for public scientific tables in public transport analysis workflows as a student assistant in supervised faculty research.
+- Recorded software dependencies and assembled a scripted data-cleaning workflow using Python and pandas for reproducible table processing.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Public Scientific Table Processing Research Assistance': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Research supervisor on 'Public Scientific Table Processing Research Assistance': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Research supervisor on 'Public Scientific Table Processing Research Assistance': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in unit inconsistencies affect fault detection by lightweight checks in public transport analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Characterize which silent processing failures inexpensive checks detect and which require contextual knowledge beyond schema validation.
+Method: Compare unchecked, schema-only and combined checks across unit inconsistencies, using a fixed list of processing faults and expected table outputs.
+Comparison: Compare unchecked workflows, schema-only checks and the combined check set on identical fault cases.
+Evaluation: Report detected faults, false alarms and overhead by failure category, comparing the same fault cases across check sets.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Using shared fault cases permits comparisons, while a developer-selected fault list can still favor the implemented checks.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is adapting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a community education programme, pilot the activity with volunteer learners, revise the difficult steps and offer a follow-up session.
+Access: Use small public inputs, explicit environment instructions and text-based checks that run without specialized hardware.
+Assessment: Use a short task on adapting an example before and after the activity, inspect common mistakes and use optional feedback to revise the materials.

@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Data Query Performance Capstone",
+      "bullets": [
+        "Compared indexed and unindexed SQL queries on public environmental measurement tables for a supervised undergraduate capstone project.",
+        "Documented query plans for the capstone team's SQLite queries on public environmental measurement tables."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Transit Timetable Query Research Assistance",
+      "bullets": [
+        "Loaded public transit timetable tables into a SQLite relational database as part of supervised faculty research.",
+        "Wrote SQL aggregation and join queries for assigned research tasks examining query performance on public transit timetable data."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Bibliographic Data Query Research Assistance",
+      "bullets": [
+        "Loaded public bibliographic tables into a SQLite relational database as part of supervised faculty research.",
+        "Compared indexed and unindexed queries and documented query plans for assigned work on public bibliographic data."
+      ]
+    }
+  ]
+}

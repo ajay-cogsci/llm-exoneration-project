@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for File-Processing Examples",
+      "bullets": [
+        "Parsed small public file-processing example programs using Python and abstract syntax trees during a supervised undergraduate independent study.",
+        "Wrote checks for selected code patterns in small programming exercises as part of the supervised project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Syntax-Tree Checks for List-Processing Examples",
+      "bullets": [
+        "Parsed small public list-processing example programs and implemented syntax-tree traversal using Python as a student assistant in supervised faculty research.",
+        "Wrote checks for selected code patterns using abstract syntax trees for small programming exercises."
+      ]
+    }
+  ]
+}

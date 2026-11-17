@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Undergraduate Scientific Table Processing",
+      "bullets": [
+        "Reproduced summary tables from raw inputs using Python and pandas in a supervised undergraduate course project on public scientific tables.",
+        "Wrote data-schema checks for raw inputs used in the reproducible processing of public scientific tables."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Graduate Scientific Table Processing",
+      "bullets": [
+        "Contributed a scripted data-cleaning workflow using Python and pandas to a supervised graduate course team project on public scientific tables.",
+        "Reproduced summary tables from raw inputs and recorded software dependencies for the scientific table processing workflow."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Scientific Table Processing Research Assistance",
+      "bullets": [
+        "Assembled a scripted data-cleaning workflow using Python and pandas for public scientific tables as a supervised student research assistant.",
+        "Reproduced summary tables from raw inputs and recorded software dependencies for the workflow within supervised faculty research."
+      ]
+    }
+  ]
+}

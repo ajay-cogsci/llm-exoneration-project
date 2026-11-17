@@ -1,0 +1,79 @@
+Applicant FEL-v2-123-00906
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 2.81/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: C+ | undergraduate, 2022-11
+Algorithms: C | undergraduate, 2023-05
+Linear Algebra: B- | undergraduate, 2022-11
+Probability and Statistics: C+ | undergraduate, 2023-05
+Software Engineering: C+ | undergraduate, 2023-09
+Database Systems: B- | undergraduate, 2023-09
+Graduate Research Methods: A- | graduate, 2025-12
+Advanced Software engineering: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, SQL, SQLite, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-03 to 2025-05 | 2 months; 6 hours/week
+Library Test Coverage Course Project
+Inputs: public parsing utilities.
+Scope: Supervised project with 2 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pytest, Git
+- Wrote unit tests for utility functions using Python and pytest in a supervised undergraduate course project on small open-source libraries.
+- Measured branch coverage and documented test failures and fixes while examining test coverage in the course project's small open-source libraries.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-02 to 2024-11 | 9 months; 10 hours/week
+Public Data Query Performance
+Inputs: public municipal service tables.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, SQL, SQLite
+- Loaded public tables into a SQLite relational database as a student research assistant contributing to supervised faculty research on query performance.
+- Wrote aggregation and join queries using SQL and documented query plans for the supervised investigation of performance on public tabular data.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Library Test Coverage Course Project': Proposed a diagnostic comparison, explained its purpose and recorded what evidence would distinguish alternative explanations.
+Independence - Project supervisor on 'Library Test Coverage Course Project': Diagnosed implementation problems and justified analysis choices before bringing the results to supervisory review.
+Collaboration - Project supervisor on 'Library Test Coverage Course Project': Coordinated review of the analysis, resolved integration questions and documented revisions so collaborators could reproduce the work.
+
+PROPOSED RESEARCH
+Area: Software engineering
+Topic: test coverage for small open-source libraries
+Question: How does variation in test execution budget affect fault detection by coverage-guided test selection on public parsing utilities?
+Rationale: Coverage can increase without detecting additional faults, so a useful selection strategy must preserve defect detection while reducing execution cost.
+Contribution: Characterize when coverage is a useful proxy for fault detection and identify failure categories where inexpensive test selection loses important evidence.
+Method: Compare coverage-guided and random test subsets under matched budgets, varying test execution budget across several library versions with reproducible defects.
+Comparison: Use the full test suite as an unrestricted reference, and compare random selection with coverage-guided selection under matched execution budgets.
+Evaluation: Report defect detection and runtime by version and defect type, repeating the random selection to estimate its variability.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Repeated random selection helps compare methods, while results can still depend on which library versions are included.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-07 | 24 hours | organized a series of student reproducibility practice activities. Delivered a sequence of activities, reviewed participant task responses and revised the materials using that feedback..
+2024-02 | 12 hours | guided peers through a public-data analysis setup activity. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is interpreting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a student-led computing club, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

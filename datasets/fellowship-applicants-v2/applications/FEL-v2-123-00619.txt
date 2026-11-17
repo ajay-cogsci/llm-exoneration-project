@@ -1,0 +1,69 @@
+Applicant FEL-v2-123-00619
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.59/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2020-11
+Algorithms: B | undergraduate, 2021-05
+Linear Algebra: A- | undergraduate, 2020-11
+Probability and Statistics: B+ | undergraduate, 2021-05
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Applied machine learning: C+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-09 to 2024-05 | 8 months; 4 hours/week
+River-Level Forecasting Capstone
+Inputs: public river-level measurement series.
+Scope: Supervised project with 4 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, scikit-learn
+- Implemented a seasonal forecasting baseline for public river-level measurement series in a supervised undergraduate capstone team project.
+- Aligned public sensor time series for environmental forecasting, using Python, pandas and scikit-learn across the assigned capstone tasks.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+Departmental undergraduate academic commendation | 2024-05
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'River-Level Forecasting Capstone': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'River-Level Forecasting Capstone': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'River-Level Forecasting Capstone': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Applied machine learning
+Topic: forecasting from public environmental time series
+Question: How does variation in outage duration affect imputation and short-horizon forecasting on public air-quality sensor series?
+Rationale: A low average forecast error may hide failure during extended outages; comparing missingness patterns can clarify when imputation ceases to be useful.
+Contribution: Describe how imputation and the seasonal reference differ in average forecast error over the selected period, with examples near missing observations.
+Method: Apply simple imputation to one chronological split, vary outage duration, and compare forecast errors with a seasonal-naive reference. Fill missing historical inputs using past observations only, then forecast one step ahead with lagged-input ridge regression fitted only on earlier observations.
+Comparison: Compare the resulting ridge forecasts with seasonal-naive forecasts on the same test dates.
+Evaluation: Summarize mean absolute error over the selected test period and inspect example forecasts near missing observations.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: The chosen period may underrepresent extended outages and seasonal changes that would alter the preferred method.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2023-04 | 12 hours | answered learner questions during a supervised workshop. Delivered the planned activity, retained the materials and recorded participant questions for revision..
+2022-08 | 4 hours | assembled a short troubleshooting note for peers. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Student research groups reusing public-data analysis code
+Goal: Reduce avoidable setup and data-checking obstacles when students reuse computational analyses. The learning task is interpreting an example.
+Activity: Develop a lightweight reproducibility checklist with an executable example and a troubleshooting guide.
+Delivery: Seek a host at a community education programme, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

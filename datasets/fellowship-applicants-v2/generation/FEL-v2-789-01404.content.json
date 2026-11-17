@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Text Classification Capstone",
+      "bullets": [
+        "Implemented a bag-of-words classifier for short public product-review documents using Python and scikit-learn as part of a supervised undergraduate team capstone.",
+        "Compared classification errors across document lengths using pandas, interpreted error cases, and documented analysis choices with periodic supervision."
+      ]
+    }
+  ],
+  "research": []
+}

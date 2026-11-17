@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Transportation Graph Path Search Course Project",
+      "bullets": [
+        "Constructed graphs from public route tables using Python and NetworkX as part of a supervised undergraduate course project on multimodal transit networks.",
+        "Implemented shortest-path queries and tested disconnected graph cases, contributing to the course team's work on public transportation graph path search."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Supervised Bus Network Path Search Research",
+      "bullets": [
+        "Constructed graphs from public route tables using Python and NetworkX as a student research assistant in supervised research on urban bus networks.",
+        "Implemented shortest-path queries and tested disconnected graph cases as assigned contributions to supervised research on path search in public transportation graphs."
+      ]
+    }
+  ]
+}

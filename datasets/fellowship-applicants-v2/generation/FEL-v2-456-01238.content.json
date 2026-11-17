@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Reproduced summary tables from raw inputs using Python and pandas in a supervised undergraduate course project on public scientific tables.",
+        "Recorded software dependencies for the public scientific table processing workflow as part of the student team's course project."
+      ]
+    }
+  ],
+  "research": []
+}

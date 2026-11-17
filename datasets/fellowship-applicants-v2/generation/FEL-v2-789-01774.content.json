@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Static Checks for Programming Exercises",
+      "bullets": [
+        "Parsed small public list-processing example programs using Python and abstract syntax trees as part of a supervised undergraduate capstone team.",
+        "Wrote checks for selected code patterns and documented false-positive cases within the team's analysis of small programming exercises."
+      ]
+    }
+  ],
+  "research": []
+}

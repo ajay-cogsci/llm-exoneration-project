@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Project on Static Code Checks",
+      "bullets": [
+        "Wrote checks for selected code patterns in small programming exercises using Python and abstract syntax trees during a supervised undergraduate course project.",
+        "Documented false-positive cases from static checks as an assigned contribution to the supervised student team project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Supervised Research on Syntax-Tree Analysis",
+      "bullets": [
+        "Implemented syntax-tree traversal in Python for static checks on small programming exercises as a student assistant in supervised faculty research.",
+        "Parsed small public example programs for static checks on programming exercises within the scope of supervised research assistance."
+      ]
+    }
+  ]
+}

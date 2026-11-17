@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Time-Series Forecasting",
+      "bullets": [
+        "Identified missing observations in public air-quality sensor time series during a supervised undergraduate independent study.",
+        "Implemented a seasonal forecasting baseline for public environmental time series using Python, pandas, and scikit-learn."
+      ]
+    }
+  ],
+  "research": []
+}

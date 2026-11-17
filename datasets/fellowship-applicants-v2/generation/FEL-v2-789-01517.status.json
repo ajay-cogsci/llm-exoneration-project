@@ -1,0 +1,15 @@
+{
+  "profile_id": "FEL-v2-789-01517",
+  "facts_hash": "363ae4e268d7c987a2de10b4d5bc665988bc74ee8d6bf5667edf2eac3f0b2728",
+  "content_hash": "cc118b16a319b64e7771234e39f3b1d12a69ddd4ff4e9d8b89436152b7ae6575",
+  "status": "passed_automated_checks",
+  "repair_attempts": 0,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "generation_model": "gpt-6-astra",
+  "review_model": "gpt-6-astra",
+  "application_hash": "950a038376a3f7f77f643c0658b8c4f7eaff65976ba5a9af7e1fee5db069dd31"
+}

@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Short Public Text Classification",
+      "bullets": [
+        "Compared classification errors across document lengths for short public question-category texts using Python, scikit-learn, and pandas in a supervised undergraduate course project.",
+        "Documented the training and test splits used for classifying short public text documents as an assigned project contribution."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Reproducible Scientific Table Processing",
+      "bullets": [
+        "Assembled a scripted data-cleaning workflow for public scientific tables in a supervised graduate course project using Python, pandas, and Git.",
+        "Recorded software dependencies and reproduced summary tables from raw inputs as assigned contributions to the public bibliographic analysis workflow."
+      ]
+    }
+  ],
+  "research": []
+}

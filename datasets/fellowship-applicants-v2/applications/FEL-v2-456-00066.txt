@@ -1,0 +1,86 @@
+Applicant FEL-v2-456-00066
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.87/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2021-11
+Algorithms: A- | undergraduate, 2022-05
+Linear Algebra: A | undergraduate, 2021-11
+Probability and Statistics: A | undergraduate, 2022-05
+Scientific Computing: A- | undergraduate, 2023-09
+Graduate Research Methods: A | graduate, 2025-12
+Advanced Scientific computing: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-01 to 2025-05 | 4 months; 4 hours/week
+Undergraduate Scientific Table Processing
+Inputs: public bibliographic analysis workflows.
+Scope: Supervised project with 1 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Reproduced summary tables from raw inputs using Python and pandas in a supervised undergraduate course project on public scientific tables.
+- Wrote data-schema checks for raw inputs used in the reproducible processing of public scientific tables.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 8 hours/week
+Graduate Scientific Table Processing
+Inputs: public environmental analysis workflows.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Contributed a scripted data-cleaning workflow using Python and pandas to a supervised graduate course team project on public scientific tables.
+- Reproduced summary tables from raw inputs and recorded software dependencies for the scientific table processing workflow.
+Contribution: Formulated a diagnostic question, justified a comparison and investigated alternative explanations with periodic supervisory review.
+Deliverable: Reproducible investigation, diagnostic experiments and a report explaining the evidence and limitations.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 6 hours/week
+Scientific Table Processing Research Assistance
+Inputs: public transport analysis workflows.
+Scope: Supervised faculty research; listed tasks are the applicant's contribution.
+Tools: Python, pandas, Git
+- Assembled a scripted data-cleaning workflow using Python and pandas for public scientific tables as a supervised student research assistant.
+- Reproduced summary tables from raw inputs and recorded software dependencies for the workflow within supervised faculty research.
+Contribution: Implemented the assigned procedure using a supervisor-provided specification and submitted the working files.
+Deliverable: Working code and a brief implementation note.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Research supervisor on 'Scientific Table Processing Research Assistance': Worked on the assigned question; the supervisor proposed the next diagnostic step.
+Independence - Research supervisor on 'Scientific Table Processing Research Assistance': Used step-by-step supervisory guidance to diagnose implementation errors and organize the analysis.
+Collaboration - Research supervisor on 'Scientific Table Processing Research Assistance': Shared working files for review; collaborators requested additional explanation before they could use the contribution.
+
+PROPOSED RESEARCH
+Area: Scientific computing
+Topic: reproducible processing of public scientific tables
+Question: How does variation in unit inconsistencies affect fault detection by lightweight checks in public environmental analysis workflows?
+Rationale: A workflow can run successfully while producing a misleading table; examining silent processing faults can distinguish successful execution from reliable reuse.
+Contribution: Describe which selected faults trigger the added checks in the chosen workflow and the observed runtime with those checks enabled.
+Method: Add checks to one workflow, vary unit inconsistencies, and inspect whether the selected processing faults cause a warning.
+Comparison: Compare the workflow with and without the added checks on the same selected fault cases, holding other implementation settings fixed.
+Evaluation: Count detected injected faults and describe the runtime of the selected workflow with the checks enabled.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Checks written around a small fault list can appear successful without covering the errors encountered in other workflows.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+No prior broader-impact activity reported.
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Community learners seeking to interpret public data visualizations
+Goal: Help participants recognize uncertainty and misleading comparisons in public data displays. The learning task is interpreting an example.
+Activity: Prepare a guided session using public datasets and contrasting examples of data visualizations.
+Delivery: Seek a host at a campus learning centre, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about interpreting an example; use participant comments to revise the examples and instructions after the pilot.

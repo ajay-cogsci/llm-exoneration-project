@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Small-Image Classification Capstone",
+      "bullets": [
+        "Loaded public small-image datasets using Python, PyTorch and NumPy as an assigned contribution to a supervised undergraduate capstone.",
+        "Summarized classification errors for small-image classification under input changes within the supervised capstone project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Data Query Course Project",
+      "bullets": [
+        "Loaded public tables into a relational database using SQLite for a supervised undergraduate course project on query performance.",
+        "Wrote SQL aggregation and join queries for public tabular data as part of the course project."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Indexed Query Comparison",
+      "bullets": [
+        "Compared indexed and unindexed queries using SQL and SQLite as a student assistant in supervised faculty research.",
+        "Documented query plans for the assigned research on query performance using public tabular data."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Relational Data Query Research Assistance",
+      "bullets": [
+        "Loaded public tables into a relational database using SQLite as an assigned contribution to supervised faculty research.",
+        "Wrote SQL aggregation and join queries and compared indexed and unindexed queries on public tabular data."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Environmental Forecasting Capstone",
+      "bullets": [
+        "Implemented a seasonal baseline for public temperature sensor forecasting as part of a supervised undergraduate capstone team.",
+        "Plotted forecast residuals and identified missing observations in public temperature sensor time series using Python and pandas."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Air Quality Forecasting Course Project",
+      "bullets": [
+        "Aligned public air-quality sensor time series as an assigned contribution to a supervised graduate course team project.",
+        "Plotted forecast residuals for public air-quality sensor series using Python within the course project's environmental forecasting scope."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Review Text Classification",
+      "bullets": [
+        "Cleaned public product-review text records as a student research assistant working under faculty supervision.",
+        "Implemented a bag-of-words classifier using Python and scikit-learn for supervised research on classifying short public text documents."
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "River Level Time Series Forecasting",
+      "bullets": [
+        "Implemented a seasonal baseline for forecasting public river-level measurement series as part of supervised faculty research.",
+        "Identified missing observations in public river-level time series using Python and pandas within the supervised forecasting work."
+      ]
+    }
+  ]
+}

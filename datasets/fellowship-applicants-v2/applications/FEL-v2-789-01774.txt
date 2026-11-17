@@ -1,0 +1,69 @@
+Applicant FEL-v2-789-01774
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.25/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Data Structures: A- | undergraduate, 2021-11
+Algorithms: C+ | undergraduate, 2022-05
+Linear Algebra: A- | undergraduate, 2021-11
+Probability and Statistics: B+ | undergraduate, 2022-05
+Programming Languages: A- | undergraduate, 2022-09
+Graduate Research Methods: B+ | graduate, 2025-12
+Advanced Programming languages: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Python, abstract syntax trees
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-11 to 2024-05 | 6 months; 6 hours/week
+Static Checks for Programming Exercises
+Inputs: public list-processing example programs.
+Scope: Supervised project with 3 student(s); listed tasks are the applicant's contribution.
+Tools: Python, abstract syntax trees, Git
+- Parsed small public list-processing example programs using Python and abstract syntax trees as part of a supervised undergraduate capstone team.
+- Wrote checks for selected code patterns and documented false-positive cases within the team's analysis of small programming exercises.
+Contribution: Completed the assigned comparison, interpreted error cases and documented the analysis choices with periodic supervision.
+Deliverable: Reproducible analysis files and a comparative technical report.
+
+RESEARCH EXPERIENCE
+No research appointment reported. Course-based preparation is listed separately.
+
+RESEARCH OUTPUTS
+No research publications or presentations reported.
+
+AWARDS
+No awards reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+INITIATIVE, INDEPENDENCE AND COLLABORATION
+Initiative - Project supervisor on 'Static Checks for Programming Exercises': Suggested an additional diagnostic check and implemented it after discussing the approach with the supervisor.
+Independence - Project supervisor on 'Static Checks for Programming Exercises': Completed routine implementation independently and sought advice on interpretation and design choices.
+Collaboration - Project supervisor on 'Static Checks for Programming Exercises': Shared code and progress notes, discussed the review comments and incorporated agreed revisions.
+
+PROPOSED RESEARCH
+Area: Programming languages
+Topic: static checks for small programming exercises
+Question: How does variation in identifier reuse affect false warnings from syntax-pattern checks on public list-processing example programs?
+Rationale: A warning rule that matches a useful surface pattern can still generate false positives when surrounding program context changes its meaning.
+Contribution: Describe how contextual checks change warning counts and illustrate warnings judged useful or unhelpful in the selected program collection.
+Method: Implement context-aware checks for one set of examples, vary identifier reuse, and compare their warning counts with simple pattern matching.
+Comparison: Use the stated reference approach on the same selected inputs, with the available implementation settings held fixed during the comparison.
+Evaluation: Count warnings and inspect examples judged useful or unhelpful in the selected program collection.
+Feasibility: Use small public inputs and university computing available through the department; schedule a pilot, comparisons and a written report within six months.
+Limitations: Warning counts alone do not establish accuracy, and hand-picked examples can favor the implemented rule.
+
+PRIOR BROADER-IMPACT ACTIVITIES
+2025-10 | 4 hours | adapted introductory programming exercises. Prepared a single activity resource and shared it with the organizing group..
+
+BROADER-IMPACTS PLAN
+Beneficiaries: Instructors and students learning reproducible computational analysis
+Goal: Make a small reproducible analysis example easier to use in introductory teaching. The learning task is adapting an example.
+Activity: Create an openly licensed tutorial with runnable examples, dependency instructions and an instructor guide.
+Delivery: Seek a host at a campus learning centre, offer a guided pilot activity and collect participant questions for a revised version.
+Access: Offer the materials without a participation fee and provide worked examples suitable for learners using ordinary laptops or printed instructions.
+Assessment: Record activity completion and questions about adapting an example; use participant comments to revise the examples and instructions after the pilot.
