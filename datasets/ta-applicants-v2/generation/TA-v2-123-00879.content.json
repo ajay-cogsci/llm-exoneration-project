@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Implemented a small systems program in C with explicit memory handling for a memory allocation exercise.",
+        "Checked array bounds and error paths in the memory allocation exercise, using Git for the project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "File Validation Utility",
+      "bullets": [
+        "Isolated a defect in a file validation utility using a minimal reproducing example, working with C++ and Git.",
+        "Documented expected behaviour and regression checks, and designed boundary and invalid-input test cases for the file validation utility."
+      ]
+    }
+  ]
+}

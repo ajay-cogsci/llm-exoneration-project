@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Prepared practice questions on variables and conditionals for use in individual programming tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions as part of assigned programming tutor activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Catalogue",
+      "bullets": [
+        "Tested representative inputs and recorded expected outputs for a team course project involving a library catalogue in C++.",
+        "Documented how records are added, searched, and updated within the team's C++ library catalogue project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into C++ program functions for an individual truth-table explorer course project.",
+        "Explained connections between formal definitions and implementation, and constructed examples and counterexamples for the represented rules."
+      ]
+    }
+  ]
+}

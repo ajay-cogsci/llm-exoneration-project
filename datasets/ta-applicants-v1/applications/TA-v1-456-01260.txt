@@ -1,0 +1,33 @@
+Applicant TA-v1-456-01260
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 3.05/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (C+); Data Structures (C+); Discrete Mathematics (B-); Computer Systems (B)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING PROJECT
+Command-Line Word Game | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line word game in Python using functions and collections.
+- Used Git for the project, tested example inputs, and documented the word game's behaviour.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Word Game': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Word Game': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Not available.
+Course administration: Available.

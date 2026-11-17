@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Contact Index",
+      "bullets": [
+        "Implemented linked structures and traversal operations in C++ for a team contact index course project.",
+        "Wrote tests for contact index insertion, lookup, and deletion, using Git for the project."
+      ]
+    }
+  ]
+}

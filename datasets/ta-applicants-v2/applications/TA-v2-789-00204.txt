@@ -1,0 +1,49 @@
+Applicant TA-v2-789-00204
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.73/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2020-05
+Data Structures: A- | undergraduate, 2021-05
+Discrete Mathematics: A- | undergraduate, 2020-11
+Computer Systems: B | undergraduate, 2023-10
+
+TECHNICAL SKILLS
+Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Recipe Organiser | Introduction to Programming, 2020-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Implemented a menu-driven recipe organiser in Python using functions and collections as a contribution to a team course project.
+- Documented how recipe records are added, searched, and updated; tested representative inputs and recorded expected outputs.
+Truth-Table Explorer | Discrete Mathematics, 2020-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Translated discrete mathematical definitions into Python functions for a truth-table explorer as part of a team course project.
+- Tested the Python implementation of the truth-table explorer against hand-worked cases for the team project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Recipe Organiser': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Truth-Table Explorer': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

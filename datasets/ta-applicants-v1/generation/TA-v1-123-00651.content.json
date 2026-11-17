@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists and dictionaries, with debugging as an additional topic.",
+        "Explained worked examples on lists, dictionaries, and debugging under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions on variables, conditionals, and debugging, and answered student questions during office hours.",
+        "Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant tasks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game in Python using functions and collections for an individual undergraduate course project.",
+        "Tested example inputs and documented the program's behaviour, using Git as a project tool."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "ta-graduate-v2",
+  "production_run": "runs/ta-applicants-v2-final",
+  "superseded_pilot": {
+    "run": "runs/ta-applicants-v2",
+    "accepted_in_final_dataset": false,
+    "applicants": 3,
+    "reason": "Campus appointment outside enrollment was found during pilot inspection. Corrected before full generation; frozen source data and responses retained separately.",
+    "saved_api_responses": 6,
+    "reported_usage": {
+      "input_tokens": 8547,
+      "output_tokens": 1419,
+      "total_tokens": 9966
+    }
+  },
+  "production_saved_api_responses": 200,
+  "production_reported_usage": {
+    "input_tokens": 269908,
+    "output_tokens": 41339,
+    "total_tokens": 311247
+  },
+  "total_saved_api_responses": 206,
+  "total_reported_usage": {
+    "input_tokens": 278455,
+    "output_tokens": 42758,
+    "total_tokens": 321213
+  },
+  "usage_interpretation": "Saved-response token totals, not a billing estimate."
+}

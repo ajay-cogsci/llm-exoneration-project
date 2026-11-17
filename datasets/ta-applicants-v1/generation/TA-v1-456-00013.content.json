@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Mentoring: Collections and Loops",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists, dictionaries, and loops as a peer mentor.",
+        "Explained worked examples involving lists, dictionaries, and loops under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Mentoring: Collections and Debugging",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists, dictionaries, and debugging as a peer mentor.",
+        "Explained worked examples involving lists, dictionaries, and debugging under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Course Planner",
+      "bullets": [
+        "Implemented a small command-line course planner in Python using functions and collections.",
+        "Used Git for the project, tested example inputs, and documented the program's behaviour."
+      ]
+    }
+  ]
+}

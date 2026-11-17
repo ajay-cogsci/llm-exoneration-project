@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions about loops and functions during office hours for introductory programming.",
+        "Prepared worked examples for instructor review and assisted with introductory programming lab sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Finite-State Machine Simulator",
+      "bullets": [
+        "Tested the team's Java finite-state machine simulator implementation against hand-worked cases as a project contribution.",
+        "Constructed examples and counterexamples for the rules represented in the team's finite-state machine simulator."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Tested representative inputs for the team's Java study-session scheduler and recorded expected outputs.",
+        "Documented how records are added, searched, and updated in the team's study-session scheduler."
+      ]
+    }
+  ]
+}

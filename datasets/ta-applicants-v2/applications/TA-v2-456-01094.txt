@@ -1,0 +1,53 @@
+Applicant TA-v2-456-01094
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.53/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2019-05
+Data Structures: A- | undergraduate, 2020-05
+Discrete Mathematics: B+ | undergraduate, 2019-11
+Software Engineering: A- | undergraduate, 2022-01
+Algorithms: A- | undergraduate, 2023-01
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2025-06 to 2025-08 | 2 months; 3 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions on loops and debugging as a peer programming mentor.
+- Facilitated discussion of common programming errors and helped peers trace short programs step by step.
+
+PROGRAMMING AND COURSE PROJECTS
+String Utility Library Testing | Software Engineering, 2022-01
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python, Git
+- Contributed to a team string utility library project using Python and Git, documenting expected behaviour and regression checks.
+- Isolated a defect using a minimal reproducing example and designed boundary and invalid-input test cases.
+Maze Traversal | Algorithms, 2023-01
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Implemented graph traversal and a route or ordering routine for an individual maze traversal project using Python and Git.
+- Represented maze connections using adjacency lists and explained algorithm choices and computational complexity.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'String Utility Library Testing': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Maze Traversal': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2025-06 to 2025-08 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Undecided about teaching beginning programmers; willing to discuss the responsibilities of the role.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

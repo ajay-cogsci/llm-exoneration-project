@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Prepared practice questions on functions, lists, and arrays for use in individual programming tutoring sessions.",
+        "Asked learners to explain the steps in their solutions during individual programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Finite-State Machine Simulator",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python functions for a finite-state machine simulator in an individual course project.",
+        "Constructed examples and counterexamples for the represented rules and tested the implementation against hand-worked cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Local Book Search Interface",
+      "bullets": [
+        "Contributed to a team project by building a local book search interface with form inputs using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Book Lending Records",
+      "bullets": [
+        "Designed related tables and key constraints for book lending records using SQL and SQLite in an individual course project.",
+        "Checked missing values and duplicate records, and wrote queries joining and aggregating sample book lending records."
+      ]
+    }
+  ]
+}

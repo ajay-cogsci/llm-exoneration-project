@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering lists, arrays, and loops, and answered student questions during office hours.",
+        "Prepared worked examples on lists, arrays, and loops for review by the supervising course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Flashcard Practice Interface",
+      "bullets": [
+        "Contributed event handling and input validation to a team flashcard practice interface using JavaScript, HTML, and CSS.",
+        "Tested keyboard interaction and alternate input cases for the flashcard practice interface as part of the team project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Isolated a defect in a date parser using a minimal reproducing example for an individual course project.",
+        "Wrote automated tests for a small date parser software module using C++ and Git."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Document Lookup Data Structures",
+      "bullets": [
+        "Compared alternative data structures for document lookup operations and documented operation costs and boundary cases.",
+        "Wrote tests for insertion, lookup, and deletion in an individual document lookup project using C++ and Git."
+      ]
+    }
+  ]
+}

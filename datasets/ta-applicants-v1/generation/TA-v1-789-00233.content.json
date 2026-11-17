@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists and dictionaries in a peer mentoring role.",
+        "Explained worked examples on debugging under a course instructor's supervision during beginner practice sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a small command-line study-session scheduler in Python using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git as a project tool."
+      ]
+    }
+  ]
+}

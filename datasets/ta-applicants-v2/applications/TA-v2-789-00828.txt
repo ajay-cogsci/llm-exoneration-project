@@ -1,0 +1,44 @@
+Applicant TA-v2-789-00828
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2017-09 to 2021-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 3.36/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2018-05
+Data Structures: B- | undergraduate, 2019-05
+Discrete Mathematics: C | undergraduate, 2018-11
+Computer Systems: B | undergraduate, 2019-09
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Binary File Reader | Computer Systems, 2019-09
+Scope: individual undergraduate course project.
+Project tools: C, Git
+- Worked with C and Git on a binary file reader, documenting program structure and test cases.
+- Used a debugger to trace program behaviour and checked array bounds and error paths.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Binary File Reader': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Binary File Reader': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

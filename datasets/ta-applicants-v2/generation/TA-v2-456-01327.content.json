@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples on loops, variables, and conditionals under a course instructor's supervision.",
+        "Supported beginner practice sessions and facilitated discussion of common programming errors during programming mentoring."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on variables, conditionals, and loops for individual programming tutoring sessions.",
+        "Guided beginning programmers through practice exercises and asked learners to explain the steps in their solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Tested representative inputs and recorded expected outputs for a team recipe organiser project using C++.",
+        "Documented how records are added, searched, and updated within the team's C++ recipe organiser."
+      ]
+    }
+  ]
+}

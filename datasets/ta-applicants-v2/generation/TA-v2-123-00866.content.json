@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions.",
+        "Guided beginning programmers through practice exercises covering loops and debugging during programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Task Queue Data Structures",
+      "bullets": [
+        "Compared alternative data structures for recorded task queue operations in a team course project using Java and Git.",
+        "Documented operation costs and boundary cases associated with the task queue's recorded operations."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a string utility library in a team course project using Java and Git.",
+        "Documented expected behaviour and regression checks, and isolated a defect using a minimal reproducing example."
+      ]
+    }
+  ]
+}

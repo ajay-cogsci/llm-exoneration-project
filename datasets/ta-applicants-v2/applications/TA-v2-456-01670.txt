@@ -1,0 +1,64 @@
+Applicant TA-v2-456-01670
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2028-05 (enrolled; expected completion)
+Undergraduate GPA: 2.92/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2019-05
+Data Structures: C+ | undergraduate, 2020-05
+Discrete Mathematics: B- | undergraduate, 2019-11
+Web Programming: B- | undergraduate, 2022-11
+Computer Systems: B | graduate, 2024-05
+Software Engineering: B | undergraduate, 2021-01
+
+TECHNICAL SKILLS
+C, C++, CSS, Git, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2025-06 to 2025-08 | 2 months; 6 hours/week
+Programming Tutoring
+- Prepared practice questions on variables and conditionals for individual programming tutoring sessions.
+- Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions.
+Programming Tutor, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 6 hours/week
+Beginning Programming Tutoring
+- Guided beginning programmers through practice exercises covering lists and arrays, variables, and conditionals.
+- Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Study Planner Interface | Web Programming, 2022-11
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Implemented event handling and input validation for a study planner interface using JavaScript, HTML, and CSS.
+- Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases.
+Command-Line Text Utility | Computer Systems, 2024-05
+Scope: individual graduate course project.
+Project tools: C, Git
+- Implemented a small command-line text utility in C with explicit memory handling, using Git.
+- Documented the program structure and test cases, and checked array bounds and error paths.
+String Utility Library Testing | Software Engineering, 2021-01
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Designed boundary and invalid-input test cases for a string utility library using C++ and Git.
+- Documented expected behaviour and regression checks for the string utility library course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Text Utility': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Text Utility': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2025-06 to 2025-08 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Programming Tutor, 2025-09 to 2025-12 - feedback from the tutoring programme coordinator: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

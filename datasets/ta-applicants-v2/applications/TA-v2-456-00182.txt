@@ -1,0 +1,52 @@
+Applicant TA-v2-456-00182
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.10/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2022-05
+Data Structures: C+ | undergraduate, 2023-05
+Discrete Mathematics: B+ | undergraduate, 2022-11
+Computer Systems: C | undergraduate, 2024-10
+
+TECHNICAL SKILLS
+C++, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 20 hours/week
+Programming Teaching Assistant
+- Answered student questions about debugging and functions during assigned office hours as a teaching assistant.
+- Graded programming exercises covering debugging and functions using the rubric provided by the course instructor.
+Programming Tutor, University Programming Support Programme | 2025-01 to 2025-05 | 4 months; 4 hours/week
+Programming Tutor
+- Asked learners to explain the steps in their solutions involving loops, variables, and conditionals.
+- Discussed debugging approaches during tutoring sessions focused on programming with loops, variables, and conditionals.
+
+PROGRAMMING AND COURSE PROJECTS
+Task Queue | Data Structures, 2023-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++, Git
+- Implemented linked structures and traversal operations for a team task queue project using C++ and Git.
+- Wrote tests for insertion, lookup, and deletion, and documented operation costs and boundary cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Task Queue': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Task Queue': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2023-01 to 2023-05 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Programming Tutor, 2025-01 to 2025-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

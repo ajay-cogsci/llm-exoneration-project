@@ -1,0 +1,50 @@
+Applicant TA-v2-123-00506
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.29/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2019-05
+Data Structures: B- | undergraduate, 2020-05
+Discrete Mathematics: B | undergraduate, 2019-11
+Algorithms: B+ | undergraduate, 2022-05
+Software Engineering: B | undergraduate, 2020-09
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Campus Route Finder | Algorithms, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java, Git
+- Explained algorithm choices and computational complexity as a contributor to a team campus route finder project.
+- Tested connected, disconnected, and cyclic examples for the team project, which used Java and Git.
+Date Parser Testing | Software Engineering, 2020-09
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Isolated a date parser defect using a minimal reproducing example in an individual project using Java and Git.
+- Wrote automated tests for a small software module and designed boundary and invalid-input test cases for the date parser.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Date Parser Testing': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Date Parser Testing': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a small Python command-line study-session scheduler using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git for the project."
+      ]
+    }
+  ]
+}

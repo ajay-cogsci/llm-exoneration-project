@@ -1,0 +1,42 @@
+Applicant TA-v1-789-00705
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 4.00/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (A-); Data Structures (A-); Discrete Mathematics (B+); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2024-08 to 2025-03 | 7 months; 4 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering lists and dictionaries, with debugging among the assigned topics.
+- Answered student questions during office hours and graded programming exercises using an instructor-provided rubric.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Peer Programming Mentor, University Programming Support Programme | 2025-04 to 2025-11 | 7 months; 8 hours/week
+Peer Programming Mentor
+- Supported beginner programming practice sessions on lists and dictionaries and functions as a peer programming mentor.
+- Explained worked examples on these programming topics under a course instructor's supervision during assigned mentoring activities.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Study-Session Scheduler | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line study-session scheduler in Python using functions and collections for an individual course project.
+- Tested example inputs and documented the program's behaviour, using Git for the course project.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Study-Session Scheduler': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

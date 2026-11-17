@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor: Debugging and Loops",
+      "bullets": [
+        "Supported beginner programming practice sessions focused on debugging and loops as a peer programming mentor.",
+        "Explained worked examples involving debugging and loops under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor: Collections and Conditionals",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists and dictionaries, along with variables and conditionals.",
+        "Explained worked examples involving lists, dictionaries, variables, and conditionals under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Used Python and Git for an individual course project implementing a small command-line study-session scheduler with functions and collections.",
+        "Tested example inputs and documented the behaviour of the study-session scheduler program."
+      ]
+    }
+  ]
+}

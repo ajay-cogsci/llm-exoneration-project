@@ -1,0 +1,57 @@
+Applicant TA-v2-789-00586
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2028-05 (enrolled; expected completion)
+Undergraduate GPA: 3.54/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2019-05
+Data Structures: B- | undergraduate, 2020-05
+Discrete Mathematics: C+ | undergraduate, 2019-11
+Computer Systems: B- | undergraduate, 2022-10
+
+TECHNICAL SKILLS
+C++, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2022-09 to 2022-12 | 3 months; 20 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions and prepared worked examples on variables, conditionals, and loops for instructor review.
+- Answered student questions during office hours about introductory programming topics, including variables, conditionals, and loops.
+Peer Programming Mentor, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 6 hours/week
+Peer Programming Mentor
+- Explained worked examples involving functions, variables, and conditionals under a course instructor's supervision.
+- Supported beginner practice sessions focused on programming with functions, variables, and conditionals.
+
+PROGRAMMING AND COURSE PROJECTS
+Graph Property Checker | Discrete Mathematics, 2019-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++
+- Translated discrete mathematical definitions into C++ program functions as a contribution to a team graph property checker project.
+- Tested the implementation against hand-worked cases and constructed examples and counterexamples for the represented rules.
+Contact Index | Data Structures, 2020-05
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Implemented linked structures and traversal operations for an individual contact index project using C++ and Git.
+- Documented operation costs and boundary cases, and wrote tests for insertion, lookup, and deletion.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Graph Property Checker': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Graph Property Checker': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2022-09 to 2022-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Peer Programming Mentor, 2023-01 to 2023-05 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

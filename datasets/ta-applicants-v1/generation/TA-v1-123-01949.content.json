@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a small command-line recipe organiser in Python using functions and collections for an individual undergraduate course project.",
+        "Tested example inputs and documented the program's behaviour, using Git as a project tool."
+      ]
+    }
+  ]
+}

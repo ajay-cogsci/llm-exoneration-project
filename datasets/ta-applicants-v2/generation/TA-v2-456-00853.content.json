@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises on lists and arrays, as well as loops.",
+        "Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Event Registration Database",
+      "bullets": [
+        "Designed related tables and key constraints for event registration records using SQL and SQLite.",
+        "Wrote queries joining and aggregating sample records, and documented the schema and example queries."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup Structures",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Java for a document lookup project using Git.",
+        "Wrote tests for insertion, lookup and deletion, and documented operation costs and boundary cases."
+      ]
+    }
+  ]
+}

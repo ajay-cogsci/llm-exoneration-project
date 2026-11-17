@@ -1,0 +1,52 @@
+Applicant TA-v2-789-00853
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 2.90/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2019-05
+Data Structures: B+ | undergraduate, 2020-05
+Discrete Mathematics: B | undergraduate, 2019-11
+Computer Systems: B | undergraduate, 2020-10
+
+TECHNICAL SKILLS
+C, Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 4 hours/week
+Introductory Programming Tutoring
+- Guided beginning programmers through practice exercises covering variables and conditionals, as well as loops.
+- Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Set Operation Explorer | Discrete Mathematics, 2019-11
+Scope: individual undergraduate course project.
+Project tools: Java
+- Explained the connection between formal definitions and implementation in a Java set operation explorer.
+- Tested the Java implementation against hand-worked cases for the set operation explorer course project.
+Memory Allocation Exercise | Computer Systems, 2020-10
+Scope: individual undergraduate course project.
+Project tools: C, Git
+- Checked array bounds and error paths in a memory allocation exercise using C and Git.
+- Traced program behaviour using a debugger as part of the memory allocation course exercise.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Set Operation Explorer': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Memory Allocation Exercise': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2021-01 to 2021-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

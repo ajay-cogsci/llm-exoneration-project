@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions as a peer mentor, covering functions, variables, and conditionals.",
+        "Explained worked examples on functions, variables, and conditionals under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions and answered student questions during office hours about variables, conditionals, lists, and dictionaries.",
+        "Graded programming exercises on variables, conditionals, lists, and dictionaries using an instructor-provided rubric."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Library Catalogue",
+      "bullets": [
+        "Implemented a small Python command-line library catalogue using functions and collections for an individual undergraduate course project.",
+        "Used Git for the project, tested example inputs, and documented the library catalogue program's behaviour."
+      ]
+    }
+  ]
+}

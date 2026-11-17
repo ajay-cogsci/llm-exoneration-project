@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Lab Assistance",
+      "bullets": [
+        "Assisted with introductory programming lab sessions covering loops and debugging as a teaching assistant.",
+        "Helped organise assignment materials and submission records for the introductory programming lab sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Event Ordering Data Structures",
+      "bullets": [
+        "Implemented linked structures and traversal operations in C++ as part of a team event ordering course project.",
+        "Compared alternative data structures for the recorded event ordering operations; project tools included Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Flashcard Practice Interface",
+      "bullets": [
+        "Documented the flashcard practice interface and its local data flow in a JavaScript, HTML, and CSS course project.",
+        "Tested keyboard interaction and alternate input cases for the individual flashcard practice interface project."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Graded programming exercises on variables, conditionals, lists and arrays using an instructor-provided rubric.",
+        "Prepared worked examples covering these programming topics for review by the course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser in Python using functions and collections for an individual course project.",
+        "Documented how recipe records are added, searched and updated within the menu-driven program."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Quiz Practice Interface",
+      "bullets": [
+        "Built a local quiz practice browser interface with form inputs using JavaScript, HTML and CSS.",
+        "Implemented event handling and input validation, and tested keyboard interaction and alternate input cases."
+      ]
+    }
+  ]
+}

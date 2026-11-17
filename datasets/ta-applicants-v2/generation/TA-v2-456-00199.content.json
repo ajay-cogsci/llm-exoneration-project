@@ -1,0 +1,46 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on variables and conditionals for use during individual programming tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions during office hours and prepared worked examples on debugging, lists, and arrays for instructor review.",
+        "Graded programming exercises covering debugging, lists, and arrays using a rubric provided by the instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Built a local browser interface with form inputs for a study planner using JavaScript, HTML, and CSS.",
+        "Documented the study planner interface and the local data flow associated with its form inputs."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Dependency Ordering",
+      "bullets": [
+        "Used Python and Git for a dependency ordering project, implementing graph traversal and an ordering routine.",
+        "Tested the dependency ordering implementation against connected, disconnected, and cyclic examples in the course project."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python functions for a truth-table explorer implementation.",
+        "Tested the implementation against hand-worked cases and explained connections between formal definitions and program functions."
+      ]
+    }
+  ]
+}

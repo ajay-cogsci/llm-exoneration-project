@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Helped peers trace short programs step by step, with attention to debugging and functions.",
+        "Supported beginner programming practice sessions and facilitated peer discussion of common programming errors."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Asked learners to explain the steps in their solutions to exercises involving functions and loops.",
+        "Guided beginning programmers through practice exercises focused on working with functions and loops."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Equipment Inventory Database",
+      "bullets": [
+        "Designed related tables and key constraints for an equipment inventory as part of a team course project.",
+        "Wrote SQL queries in SQLite to join and aggregate sample equipment inventory records."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a date parser in an individual course project.",
+        "Wrote automated tests in C++ for the small date parser software module, using Git."
+      ]
+    }
+  ]
+}

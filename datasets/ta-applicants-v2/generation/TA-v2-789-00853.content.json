@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering variables and conditionals, as well as loops.",
+        "Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Explained the connection between formal definitions and implementation in a Java set operation explorer.",
+        "Tested the Java implementation against hand-worked cases for the set operation explorer course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Checked array bounds and error paths in a memory allocation exercise using C and Git.",
+        "Traced program behaviour using a debugger as part of the memory allocation course exercise."
+      ]
+    }
+  ]
+}

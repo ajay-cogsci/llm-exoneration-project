@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Explained worked examples involving functions, variables, and conditionals under a course instructor's supervision.",
+        "Helped peers trace short programs step by step and supported beginner programming practice sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Book Lending Records",
+      "bullets": [
+        "Designed related tables and key constraints for book lending records as a team project contributor.",
+        "Wrote SQL queries in SQLite to join and aggregate sample book lending records."
+      ]
+    }
+  ]
+}

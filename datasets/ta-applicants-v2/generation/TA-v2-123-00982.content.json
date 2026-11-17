@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Prerequisite Graph",
+      "bullets": [
+        "Used Java and Git for a course prerequisite graph project, representing connections with adjacency lists.",
+        "Tested connected, disconnected, and cyclic examples, and explained algorithm choices and computational complexity."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a menu-driven study-session scheduler in Java using functions and collections, with input checks and handling for invalid entries.",
+        "Tested representative inputs for the study-session scheduler and recorded the expected outputs for those inputs."
+      ]
+    }
+  ]
+}

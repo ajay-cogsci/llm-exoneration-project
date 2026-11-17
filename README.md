@@ -1,27 +1,30 @@
-# PhD semi-synthetic applicant pipeline
+# Semi-synthetic applicant pipelines
 
-Structured PhD applicant generation, provisional admissions-rubric labels,
-constrained CV wording, and fixed-template recommendation summaries. The project
-studies evaluations of otherwise identical applications across integrity conditions.
+Structured PhD and graduate CS teaching-assistant applicant generation, provisional
+criterion-based labels, and constrained application wording. PhD applications also
+include fixed-template recommendation summaries. The project studies evaluations
+of otherwise identical applications across integrity conditions.
 
 ## Experiment status
 
 The PhD pilot, five-model full-design run, and three-model no-infer ablation
 are complete. The original 11-condition methodology remains the study design.
-The next opportunity is an introductory-CS teaching assistant role; applicant
-materials are in **offline preparation**. No TA model run or spending is approved.
+The introductory-CS TA applicant bank has been generated and verified following
+approval: 100 graduate applicants in [version 2](datasets/ta-applicants-v2/).
+TA evaluation runs, model-panel choices and evaluation spending remain pending.
 
 Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysis,
 and [TA preparation](docs/TA_PREPARATION.md) for what must be ready before a run.
 Earlier results and published datasets are retained.
 
 **Start from `main` for completed work.** The only preparation branch is
-`codex/ta-prep`; its TA materials await review and do not authorize a run.
+`codex/ta-prep`; the versioned TA applicant bank is now on `main`. Preparation
+notes and applicant-generation approval do not authorize an evaluation run.
 The [branch history](docs/EXPERIMENTS.md#repository-branches-consolidated-16-november-2026)
 explains the retired names. The five-model full run is complete for those five
 models; the originally proposed seven-model panel remains incomplete.
 
-## Published datasets
+## Datasets
 
 | Dataset | Contents |
 | --- | --- |
@@ -30,8 +33,10 @@ models; the originally proposed seven-model panel remains incomplete.
 | [CVs, version 2](datasets/phd-cvs-v2-rubric-v1/) | 100 revised CVs: 30 weak, 40 borderline and 30 strong, including ten mixed profiles |
 | [Applications, version 3](datasets/phd-applications-v3-recommendations-v1/) | The same 100 CVs with 300 recommendation summaries and 100 complete packets |
 | [Original sample](sample-100-resume-generated/) | Historical sample retained unchanged |
+| [Graduate TA applications, version 2](datasets/ta-applicants-v2/) | Revised 100-applicant TA sample: 30 weak, 40 borderline, 30 strong and ten designated mixed cases; capable first-time TAs and varied source records |
+| [Graduate TA applications, version 1](datasets/ta-applicants-v1/) | Earlier 100-applicant draft retained for comparison; design limitations addressed in version 2 |
 
-Each dataset has its own README, data dictionary, local HTML viewer and file
+Dataset directories include documentation, a local HTML viewer and file
 checksums. GitHub displays HTML source; clone or download the repository to
 open a viewer. The version 4 `applications/` directory contains the complete
 evaluation inputs. Preserve each packet across integrity conditions.
@@ -56,7 +61,7 @@ Rebuild both from the published datasets with `python3 -m phd_revisions`
 `phd_eval`: prompt assembly, the integrity-record slot, the design, the runner
 and the export.
 
-## Construction
+## PhD construction
 
 1. Sample academic and research preparation using separate conditional draws.
 2. Assign CV tiers from explicit academic/research rubric rules.
@@ -75,10 +80,34 @@ level, comparison-to-other-students flag and specific-work-example flag. Dates
 and examples are linked to the source CV. Recommendation strength is distinct
 from the applicant's CV tier.
 
+## TA construction
+
+The TA pipeline follows the opportunity and shared assessment system message in
+`LLM exoneration research plan.pdf`. It models relevant coursework, programming,
+teaching/tutoring experience and performance, written/oral communication,
+teaching interest, and availability. All applicants are current graduate students.
+
+Applicant wording uses separate generation instructions. Evaluator inputs preserve
+the plan's system message and overall-quality assessment prompt; no integrity
+conditions are attached and no assessments are run. Tier labels remain separate
+research metadata. The numerical sampler and TA rubric are provisional study
+choices, not thresholds supplied by the plan. The current implementation permits
+strong first-time TAs, samples communication separately from teaching history,
+and holds required-duty availability fixed across the selected sample. See
+[TA_V2_METHOD.md](TA_V2_METHOD.md) for the current mapping, assumptions, limits and
+commands; [TA_METHOD.md](TA_METHOD.md) describes the preserved version 1.
+
+```sh
+python3 -m ta_applicants_v2 verify --out datasets/ta-applicants-v2
+python3 scripts/audit_ta_v2.py
+```
+
 ## Documentation
 
 - [RUBRIC.md](RUBRIC.md): tier definitions, mixed profiles and sampler design.
 - [RECOMMENDATIONS.md](RECOMMENDATIONS.md): template fields and assignment settings.
+- [TA_METHOD.md](TA_METHOD.md): TA criteria, generation, rubric and sampling settings.
+- [TA_V2_METHOD.md](TA_V2_METHOD.md): revised TA sampling, rubric and verification.
 - [VALIDATION.md](VALIDATION.md): validation results and limitations.
 - [EVALUATION.md](EVALUATION.md): running the PhD evaluation and its open choices.
 - [configs/](configs/): reusable parameter files; numerical PhD settings are provisional.

@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Implemented a small systems program in C with explicit memory handling for a memory allocation exercise.",
+        "Traced program behaviour using a debugger as part of the individual systems course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Isolated a defect in a Python date parser using a minimal reproducing example.",
+        "Documented expected behaviour and regression checks, and designed boundary and invalid-input test cases."
+      ]
+    }
+  ]
+}

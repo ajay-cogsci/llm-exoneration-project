@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Prepared practice questions on lists, arrays, and loops for individual programming tutoring sessions.",
+        "Asked learners to explain the steps in their solutions during individual programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Campus Route Finder",
+      "bullets": [
+        "Implemented graph traversal and a route or ordering routine in C++, representing campus connections using adjacency lists.",
+        "Used Git for the campus route finder project and tested connected, disconnected, and cyclic examples."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Planner",
+      "bullets": [
+        "Implemented a menu-driven course planner in C++ using functions and collections for the course project.",
+        "Documented how records are added, searched, and updated within the course planner program."
+      ]
+    }
+  ]
+}

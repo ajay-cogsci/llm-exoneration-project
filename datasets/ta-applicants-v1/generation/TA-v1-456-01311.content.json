@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering debugging, variables, and conditionals, and answered student questions during office hours.",
+        "Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant activities."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Beginning Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering programming topics including loops, lists, and dictionaries.",
+        "Discussed debugging approaches during tutoring sessions with beginning programmers working on practice exercises."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Course Planner",
+      "bullets": [
+        "Implemented a small command-line course planner in Python using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git for the course project."
+      ]
+    }
+  ]
+}

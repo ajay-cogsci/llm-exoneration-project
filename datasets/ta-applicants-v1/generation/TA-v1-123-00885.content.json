@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted with introductory programming lab sessions covering loops and functions as a teaching assistant.",
+        "Answered student questions during office hours and graded programming exercises using an instructor-provided rubric."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a small command-line study-session scheduler in Python using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git as a project tool."
+      ]
+    }
+  ]
+}

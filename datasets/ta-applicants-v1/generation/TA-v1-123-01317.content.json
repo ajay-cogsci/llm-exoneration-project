@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises involving functions, variables, and conditionals during tutoring sessions.",
+        "Discussed debugging approaches with beginning programmers during tutoring sessions covering functions, variables, and conditionals."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises involving functions, variables, and conditionals during tutoring sessions.",
+        "Discussed debugging approaches with beginning programmers during tutoring sessions covering functions, variables, and conditionals."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a small command-line study-session scheduler in Python using functions and collections for an individual course project.",
+        "Used Git for the course project, tested example inputs, and documented the program's behaviour."
+      ]
+    }
+  ]
+}

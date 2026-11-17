@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Discussed debugging approaches during tutoring sessions covering loops, variables, and conditionals in programming.",
+        "Asked learners to explain the steps in their solutions involving loops, variables, and conditionals."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Teaching Assistant",
+      "bullets": [
+        "Helped organise assignment materials and submission records for assignments on functions and debugging.",
+        "Prepared worked examples on functions and debugging for review by the supervising course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Explained the connection between formal definitions and the Python implementation as a contribution to the team's graph property checker project.",
+        "Constructed examples and counterexamples for the represented rules and tested the implementation against hand-worked cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Local Book Search Interface",
+      "bullets": [
+        "Built a local browser interface for book searches with form inputs using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow for the individual book search interface project."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Wrote automated tests for a small string utility library module in an individual course project.",
+        "Isolated a defect using a minimal reproducing example; project tools included Java and Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Task Queue Implementation",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Java as a contribution to the task queue team project.",
+        "Documented operation costs and boundary cases, and wrote tests for insertion, lookup, and deletion; project tools included Git."
+      ]
+    }
+  ]
+}

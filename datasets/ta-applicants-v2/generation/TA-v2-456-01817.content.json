@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions for individual tutoring sessions covering variables and conditionals, as well as functions.",
+        "Guided beginning programmers through practice exercises and asked learners to explain the steps in their solutions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Helped peers trace short programs step by step during beginner practice sessions on debugging, variables, and conditionals.",
+        "Explained worked examples on debugging, variables, and conditionals under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Constructed examples and counterexamples for the represented rules as a contributor to a team truth-table explorer project using Python.",
+        "Explained the connection between formal definitions and implementation, and tested the implementation against hand-worked cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup",
+      "bullets": [
+        "Wrote tests for insertion, lookup, and deletion in an individual document lookup project using Python and Git.",
+        "Compared alternative data structures for the document lookup project's insertion, lookup, and deletion operations."
+      ]
+    }
+  ]
+}

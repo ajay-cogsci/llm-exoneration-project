@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Beginning Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering lists and arrays, as well as loops.",
+        "Prepared practice questions for individual tutoring sessions and asked learners to explain the steps in their solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Wrote automated tests for a small string utility library module using C++ and Git.",
+        "Designed boundary and invalid-input test cases for the string utility library course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Book Lending Records",
+      "bullets": [
+        "Documented the schema and example queries for book lending records using SQL and SQLite.",
+        "Checked book lending records for missing values and duplicate records in the individual course project."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Quiz Practice Interface",
+      "bullets": [
+        "Built a local quiz practice interface with form inputs using JavaScript, HTML, and CSS.",
+        "Implemented event handling and input validation, and documented the interface and its local data flow."
+      ]
+    }
+  ]
+}

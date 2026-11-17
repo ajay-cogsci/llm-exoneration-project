@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Helped peers trace short programs step by step, covering functions, lists, and arrays.",
+        "Explained worked examples under a course instructor's supervision and supported beginner programming practice sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Binary File Reader",
+      "bullets": [
+        "Contributed to a team binary file reader project in C, tracing program behaviour using a debugger.",
+        "Documented the program structure and test cases, checked array bounds and error paths, and used Git."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling as a contribution to a team course project.",
+        "Documented program structure and test cases, checked array bounds and error paths, and used Git for the project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Equipment Inventory Queries",
+      "bullets": [
+        "Wrote SQL queries in SQLite to join and aggregate sample equipment inventory records for an individual course project.",
+        "Documented the equipment inventory schema and example queries, and checked missing values and duplicate records."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Helped peers trace short programs step by step during beginner practice sessions covering functions and loops.",
+        "Facilitated discussion of common programming errors while supporting peers in beginner programming practice sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Finite-State Machine Simulator",
+      "bullets": [
+        "Constructed examples and counterexamples for the represented rules in a finite-state machine simulator course project.",
+        "Translated discrete mathematical definitions into program functions using C++ for the finite-state machine simulator."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling, using Git.",
+        "Traced program behaviour using a debugger and checked array bounds and error paths in the utility."
+      ]
+    }
+  ]
+}

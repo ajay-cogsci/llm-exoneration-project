@@ -1,0 +1,49 @@
+Applicant TA-v2-789-01499
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 2.85/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2019-05
+Data Structures: B- | undergraduate, 2020-05
+Discrete Mathematics: C+ | undergraduate, 2019-11
+Database Systems: B | undergraduate, 2020-10
+
+TECHNICAL SKILLS
+Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Set Operation Explorer | Discrete Mathematics, 2019-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Contributed to a team set operation explorer project by translating discrete mathematical definitions into Python program functions.
+- Constructed examples and counterexamples for the represented rules and explained the connection between formal definitions and their implementation.
+Course Enrolment Records | Database Systems, 2020-10
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: SQL, SQLite
+- Contributed to a team course enrolment records project by designing related tables and key constraints in SQLite.
+- Checked missing values and duplicate records, and wrote SQL queries joining and aggregating sample enrolment records.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Course Enrolment Records': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Course Enrolment Records': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

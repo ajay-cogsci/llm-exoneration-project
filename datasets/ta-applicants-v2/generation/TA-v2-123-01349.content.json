@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Dependency Ordering",
+      "bullets": [
+        "Represented connections using adjacency lists for dependency ordering as part of a team course project.",
+        "Implemented graph traversal and a route or ordering routine using C++ and Git for the team project."
+      ]
+    }
+  ]
+}

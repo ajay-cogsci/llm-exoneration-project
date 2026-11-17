@@ -1,0 +1,33 @@
+Applicant TA-v1-123-01139
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 3.04/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (B-); Data Structures (B); Discrete Mathematics (B); Computer Systems (B+)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING PROJECT
+Study-Session Scheduler | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line study-session scheduler using Python functions and collections for an individual course project.
+- Used Git for the project, tested example inputs, and documented the scheduler's behaviour.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Study-Session Scheduler': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

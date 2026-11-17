@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistance",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering lists and arrays, along with debugging as an assigned topic.",
+        "Helped organise assignment materials and submission records, and graded programming exercises using an instructor-provided rubric."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Functions and Loops Teaching Assistance",
+      "bullets": [
+        "Prepared worked examples on functions and loops for review by the course instructor.",
+        "Answered student questions during office hours, covering the assigned topics of functions and loops."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a date parser in an individual course project using Java and Git.",
+        "Isolated a defect using a minimal reproducing example, and documented expected behaviour and regression checks."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Event Ordering Data Structures",
+      "bullets": [
+        "Implemented linked structures and traversal operations for event ordering in an individual course project using Java and Git.",
+        "Wrote tests for insertion, lookup and deletion operations within the event ordering project."
+      ]
+    }
+  ]
+}

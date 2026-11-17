@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a menu-driven study-session scheduler in Python using functions and collections for an individual course project.",
+        "Added input checks, handled invalid entries, tested representative inputs, and recorded expected outputs for the scheduler."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Contact Index",
+      "bullets": [
+        "Used Python and Git for a contact index project, implementing linked structures and traversal operations.",
+        "Wrote tests for insertion, lookup, and deletion, and documented operation costs and boundary cases."
+      ]
+    }
+  ]
+}

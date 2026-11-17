@@ -1,0 +1,57 @@
+Applicant TA-v2-456-01066
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 3.88/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2022-05
+Data Structures: B- | undergraduate, 2023-05
+Discrete Mathematics: A- | undergraduate, 2022-11
+Computer Systems: A | undergraduate, 2024-10
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2023-06 to 2023-08 | 2 months; 6 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions on variables, conditionals, and functions as a peer programming mentor.
+- Helped peers trace short programs step by step and facilitated discussion of common programming errors.
+Programming Tutor, University Programming Support Programme | 2024-01 to 2024-05 | 4 months; 4 hours/week
+Programming Tutor
+- Guided beginning programmers through practice exercises on loops and debugging during tutoring sessions.
+- Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Course Planner | Introduction to Programming, 2022-05
+Scope: individual undergraduate course project.
+Project tools: Java
+- Implemented a menu-driven Java course planner using functions and collections, adding input checks and handling invalid entries.
+- Tested representative inputs for the course planner and recorded the expected outputs for those inputs.
+Document Lookup | Data Structures, 2023-05
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Implemented linked structures and traversal operations in Java for an individual document lookup course project.
+- Used Git for the project and wrote tests for insertion, lookup, and deletion.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Course Planner': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Document Lookup': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2023-06 to 2023-08 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Programming Tutor, 2024-01 to 2024-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

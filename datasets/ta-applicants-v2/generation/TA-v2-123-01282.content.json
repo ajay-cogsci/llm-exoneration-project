@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a menu-driven study-session scheduler using C++ functions and collections as a contribution to a team course project.",
+        "Documented how records are added, searched, and updated, and added input checks to handle invalid entries."
+      ]
+    }
+  ]
+}

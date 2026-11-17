@@ -1,0 +1,15 @@
+{
+  "profile_id": "TA-v2-123-01231",
+  "facts_hash": "ab447d3c5ebec5e46cf83dcf7a86d4a7bb3982316397af1a6d155a49ab0f061d",
+  "content_hash": "2ed972779386b5322519e739a6c81f564913d91508c200fb21cf39745f10ef78",
+  "status": "passed_automated_checks",
+  "repair_attempts": 0,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "generation_model": "gpt-6-astra",
+  "review_model": "gpt-6-astra",
+  "application_hash": "338784f8cfea989a0aa60ccaf635bdcd55584513f2b23524becd16cb2d5c8371"
+}

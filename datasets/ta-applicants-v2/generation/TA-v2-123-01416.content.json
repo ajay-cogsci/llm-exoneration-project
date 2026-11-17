@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions on functions, variables and conditionals, explaining worked examples under a course instructor's supervision.",
+        "Helped peers trace short programs step by step during beginner programming practice sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Lookup",
+      "bullets": [
+        "Implemented linked structures and traversal operations as a contribution to a team document lookup project, using Python and Git.",
+        "Documented operation costs and boundary cases, and compared alternative data structures for the recorded operations."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python program functions for an individual truth-table explorer course project.",
+        "Explained the connection between formal discrete mathematical definitions and their implementation in the truth-table explorer."
+      ]
+    }
+  ]
+}

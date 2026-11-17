@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions on variables, conditionals, and functions as a peer programming mentor.",
+        "Helped peers trace short programs step by step and facilitated discussion of common programming errors."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises on loops and debugging during tutoring sessions.",
+        "Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Planner",
+      "bullets": [
+        "Implemented a menu-driven Java course planner using functions and collections, adding input checks and handling invalid entries.",
+        "Tested representative inputs for the course planner and recorded the expected outputs for those inputs."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Java for an individual document lookup course project.",
+        "Used Git for the project and wrote tests for insertion, lookup, and deletion."
+      ]
+    }
+  ]
+}

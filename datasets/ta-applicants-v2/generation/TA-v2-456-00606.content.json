@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions about debugging and loops during assigned office hours sessions.",
+        "Graded programming exercises using an instructor-provided rubric and prepared worked examples for instructor review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Calculator Module Testing",
+      "bullets": [
+        "Wrote automated tests for a small calculator module using C++ and Git as a team project contributor.",
+        "Designed boundary and invalid-input test cases, and documented expected behaviour and regression checks for the calculator module."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into C++ program functions for an individual set operation explorer project.",
+        "Explained the connection between formal definitions and implementation, and tested the implementation against hand-worked cases."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser in C++ using functions and collections for an individual course project.",
+        "Tested representative inputs, recorded expected outputs, and documented how recipe records are added, searched and updated."
+      ]
+    }
+  ]
+}

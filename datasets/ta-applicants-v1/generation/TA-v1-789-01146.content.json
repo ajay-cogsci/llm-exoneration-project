@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Catalogue",
+      "bullets": [
+        "Implemented a small Python command-line library catalogue using functions and collections for an individual course project.",
+        "Used Git for the project, tested example inputs, and documented the library catalogue program's behaviour."
+      ]
+    }
+  ]
+}

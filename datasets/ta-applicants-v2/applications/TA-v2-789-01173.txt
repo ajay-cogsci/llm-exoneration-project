@@ -1,0 +1,58 @@
+Applicant TA-v2-789-01173
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.38/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2021-05
+Data Structures: C+ | undergraduate, 2022-05
+Discrete Mathematics: B | undergraduate, 2021-11
+Computer Systems: A- | undergraduate, 2024-03
+Web Programming: B+ | undergraduate, 2023-07
+
+TECHNICAL SKILLS
+C, CSS, Git, HTML, JavaScript, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-09 to 2021-12 | 3 months; 4 hours/week
+Peer Programming Mentoring
+- Helped peers trace short programs step by step during peer mentoring on debugging.
+- Supported beginner practice sessions covering debugging and working with lists and arrays.
+
+PROGRAMMING AND COURSE PROJECTS
+Command-Line Text Utility | Computer Systems, 2024-03
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C, Git
+- Checked array bounds and error paths for a team command-line text utility written in C.
+- Documented the program structure and test cases as a team project contribution, using Git.
+Local Book Search Interface | Web Programming, 2023-07
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Implemented event handling and input validation for a local book search interface using JavaScript, HTML, and CSS.
+- Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases.
+Task Queue | Data Structures, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python, Git
+- Wrote tests for insertion, lookup, and deletion for a team task queue project using Python and Git.
+- Compared alternative data structures for the task queue's insertion, lookup, and deletion operations.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Task Queue': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Local Book Search Interface': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-09 to 2021-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

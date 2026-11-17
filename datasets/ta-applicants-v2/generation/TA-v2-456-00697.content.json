@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples on variables, conditionals, and loops under a course instructor's supervision.",
+        "Helped peers trace short programs step by step and facilitated discussion of common programming errors."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Java program functions for an individual set operation explorer project.",
+        "Explained the connection between formal mathematical definitions and their implementation in the set operation explorer."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "String Utility Library",
+      "bullets": [
+        "Wrote automated tests for a small string utility library module using Java and Git.",
+        "Isolated a defect in the string utility library by using a minimal reproducing example."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+Applicant TA-v2-789-01851
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 2.96/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2022-05
+Data Structures: C+ | undergraduate, 2023-05
+Discrete Mathematics: C+ | undergraduate, 2022-11
+Computer Systems: B- | undergraduate, 2024-10
+
+TECHNICAL SKILLS
+Java
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2023-06 to 2023-08 | 2 months; 10 hours/week
+Introductory Programming Teaching Assistant
+- Answered student questions about loops and functions during office hours for introductory programming.
+- Prepared worked examples for instructor review and assisted with introductory programming lab sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Finite-State Machine Simulator | Discrete Mathematics, 2022-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java
+- Tested the team's Java finite-state machine simulator implementation against hand-worked cases as a project contribution.
+- Constructed examples and counterexamples for the rules represented in the team's finite-state machine simulator.
+Study-Session Scheduler | Introduction to Programming, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java
+- Tested representative inputs for the team's Java study-session scheduler and recorded expected outputs.
+- Documented how records are added, searched, and updated in the team's study-session scheduler.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Finite-State Machine Simulator': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Study-Session Scheduler': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2023-06 to 2023-08 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

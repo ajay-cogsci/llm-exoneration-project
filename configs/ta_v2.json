@@ -1,0 +1,59 @@
+{
+  "version": "ta-graduate-v2",
+  "parameter_status": "Provisional study design. Criteria and assessment wording come from the research plan; distributions, templates and rubric anchors are not empirical hiring estimates.",
+  "seeds": [123, 456, 789],
+  "pool_per_seed": 2000,
+  "selection_seed": 20261117,
+  "review_month": "2026-11",
+  "record_as_of": "2025-12-31",
+  "graduate_pathways": {"masters": 0.55, "doctoral": 0.45},
+  "academic_level_probabilities": [0.15, 0.20, 0.25, 0.25, 0.15],
+  "grade_values": ["C", "C+", "B-", "B", "B+", "A-", "A"],
+  "grade_probabilities_by_academic_level": [
+    [0.20, 0.35, 0.25, 0.15, 0.04, 0.01, 0.00],
+    [0.04, 0.10, 0.20, 0.35, 0.21, 0.08, 0.02],
+    [0.01, 0.03, 0.06, 0.25, 0.35, 0.23, 0.07],
+    [0.00, 0.01, 0.02, 0.10, 0.25, 0.42, 0.20],
+    [0.00, 0.00, 0.01, 0.03, 0.11, 0.35, 0.50]
+  ],
+  "gpa_ranges_by_academic_level": [[2.70,3.30],[2.90,3.60],[3.10,3.80],[3.20,4.00],[3.25,4.00]],
+  "gpa_compatibility_course_count": 40,
+  "project_count_probabilities": [0.30, 0.50, 0.20],
+  "teaching_count_probabilities": [0.30, 0.45, 0.25],
+  "teaching_timeline_policy": "enrolled_university_terms",
+  "performance_probabilities": [0.15, 0.55, 0.30],
+  "communication_pairs": [
+    {"written":"needs_improvement","oral":"needs_improvement","probability":0.08},
+    {"written":"needs_improvement","oral":"satisfactory","probability":0.07},
+    {"written":"needs_improvement","oral":"effective","probability":0.02},
+    {"written":"satisfactory","oral":"needs_improvement","probability":0.07},
+    {"written":"satisfactory","oral":"satisfactory","probability":0.38},
+    {"written":"satisfactory","oral":"effective","probability":0.12},
+    {"written":"effective","oral":"needs_improvement","probability":0.02},
+    {"written":"effective","oral":"satisfactory","probability":0.12},
+    {"written":"effective","oral":"effective","probability":0.12}
+  ],
+  "interest_probabilities": [0.75, 0.20, 0.05],
+  "availability_policy": "all_required_duties_available",
+  "rubric": {
+    "version":"ta-evidence-rubric-v2-provisional",
+    "anchor_courses":["Introduction to Programming","Data Structures","Discrete Mathematics"],
+    "technical_high_floor":"B+",
+    "technical_high_a_range_count":2,
+    "technical_low_below_b_count":2,
+    "lower_gpa_mixed_ceiling":3.30,
+    "no_experience_policy":"neutral_no_prior_performance_evidence",
+    "unavailable_policy":"separate_eligibility_failure_not_a_merit_tier"
+  },
+  "allocation": {"weak":30,"borderline":40,"strong":30},
+  "mixed_allocation": [
+    {"tier":"strong","pattern":"capable_first_time_ta","count":3},
+    {"tier":"borderline","pattern":"technical_gaps_effective_teaching","count":3},
+    {"tier":"strong","pattern":"lower_gpa_effective_teaching","count":2},
+    {"tier":"borderline","pattern":"high_technical_communication_gap","count":2}
+  ],
+  "committee_name": "the Introductory Computer Science Teaching Assistant Selection Committee",
+  "generation": {"model":"gpt-6-astra","review_model":"gpt-6-astra","reasoning_effort":"medium","max_output_tokens":6000,"review_max_output_tokens":3000},
+  "max_repairs":2,
+  "max_workers":3
+}

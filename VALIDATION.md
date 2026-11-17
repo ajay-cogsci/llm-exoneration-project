@@ -1,5 +1,134 @@
 # Verification record
 
+## Revised graduate TA dataset, version 2 — 2026-11-17
+
+`datasets/ta-applicants-v2/` contains 100 graduate applicants: 30 weak, 40
+borderline and 30 strong, including ten designated mixed profiles. There are
+55 master's students and 45 doctoral students. The introductory CS TA role,
+selection criteria and shared assessment messages remain those in the research
+plan. Version 1 and the earlier PhD datasets are retained unchanged.
+
+The corrections address the construction problems found in version 1:
+
+| Check | Version 1 | Version 2 |
+| --- | ---: | ---: |
+| Strong applicants with no teaching history | 0 | 6 |
+| Communication concern among first-time applicants | 22/26 (84.6%) | 6/26 (23.1%) |
+| Communication concern among experienced applicants | 15/74 (20.3%) | 21/74 (28.4%) |
+| Applicants unavailable for a required duty | 6 | 0 |
+| Distinct education histories | 2 | 74 |
+| Distinct foundational-course grade patterns | 5 | 70 |
+| Distinct skill sets | 1 | 25 |
+| Distinct project task sets | 1 | 73 |
+
+No prior teaching now means no prior performance evidence, rather than adverse
+evidence. Separate random streams generate communication and teaching history.
+Counterfactual tests change one distribution while checking that the same
+applicants retain their draws from the other. Independence is a construction
+choice; the selected sample's proportions are not population estimates.
+Availability is handled separately from merit, with all selected applicants
+available for the advertised duties. Fixed supporting observations are clearly
+separated from CV sections in the application text.
+
+### Generation and checks
+
+- The frozen 6,000-record pool and selected 100 reproduce exactly. Selection
+  keeps source facts unchanged. The ten designated mixed cases are three strong
+  first-time applicants, three borderline applicants with technical gaps and
+  effective teaching evidence, two strong applicants with lower GPA and effective
+  teaching evidence, and two borderline applicants with high technical
+  preparation and a communication concern. Other records can naturally have
+  uneven strengths without being designated mixed cases.
+- The full 100-test suite passed, including 19 version 2 tests. These cover the
+  separation of evidence draws, strong novice cases, availability failures,
+  chronology, GPA compatibility, unchanged facts through repairs, caching,
+  rejected exports and tamper detection. Test API responses are simulated.
+- GPT-6 Astra generated the production wording and checked fidelity in separate
+  contexts. All 100 passed without a wording repair. There are 200 saved
+  production responses reporting 311,247 tokens.
+- Direct pilot inspection caught a university appointment during a gap between
+  degree enrollments. The model check had not detected it because the prose
+  matched the source facts. The sampler and validator were corrected to require
+  university appointments within enrolled study periods. A fresh frozen run
+  replaced that three-applicant pilot before full generation. The discarded
+  pilot used six saved responses and 9,966 reported tokens; none of its wording
+  was reused in the final dataset. Combined saved-response usage is 206
+  responses and 321,213 tokens, not a billing estimate. The revision history
+  retains this distinction.
+- Export verification passed for all 100 applications: full file inventory and
+  checksums, pool and sample reproduction, rubric labels, diagnostic summaries,
+  deterministic rendering and assessment messages. The three plan prompt files
+  are byte-identical to version 1. No integrity treatments or evaluations ran.
+- `scripts/audit_ta_v2.py` independently reads exported records and texts without
+  importing the sampler or renderer. Its checks passed for counts, graduate
+  enrollment, availability, appointment periods, fixed evidence in text,
+  designated mixed cases, assessment inputs and unchanged plan messages.
+  Results and the v1 comparison are saved in `audit.json`.
+- Direct inspection covered all four designated mixed-case types and a graduate
+  course project, including team-contribution wording. An additional keyword
+  scan of all 578 generated bullets found none of its screened numeric or
+  superlative claims; this limited scan is not a semantic proof of fidelity.
+- The HTML viewer contains 100 applicant cards and 101 valid local links.
+  Credential and attribution scans passed. Visual browser testing is not claimed.
+- All 953 files in the earlier PhD/TA dataset and implementation preservation
+  inventory retain their original hashes. The earlier dataset verifiers passed.
+- Before publication, the TA update was integrated with current `main` at
+  `ac2c596`, preserving the later PhD corrections, results and documentation.
+  All 115 tests in the combined checkout passed. The TA export, separate audit
+  and PhD dataset verifier passed, including identical reconstruction of the
+  corrected PhD datasets. All 2,052 previously published dataset files retained
+  their Git blob hashes; the local TA version 1 baseline was added unchanged so
+  the comparison audit can run from a fresh checkout.
+
+### Remaining limits
+
+The finite task catalogue, generic institutions, synthetic instructor/supervisor
+observations and provisional rubric remain deliberate simplifications. The
+numeric assumptions are not calibrated against real TA hiring. The profile is
+an explicit 2025-12-31 evidence snapshot for a 2026 review, not a complete current
+CV. All applicants meet the availability condition, so this sample cannot test
+availability effects. Applications are not matched for length: mean word counts
+are 340.5 weak, 347.4 borderline and 372.0 strong. A separate-context check by the
+same model and passing software tests do not establish independent human
+agreement, empirical hiring validity or absence of wording effects. Full rules
+and assumptions are documented in `TA_V2_METHOD.md`.
+
+## Earlier graduate TA dataset, version 1 — 2026-11-17
+
+`datasets/ta-applicants-v1/` contains 100 graduate-student introductory CS TA
+applications: 30 weak, 40 borderline and 30 strong under the provisional TA
+rubric, with ten designated mixed profiles. The selected sample contains 46
+master's students and 54 doctoral students.
+
+- The 6,000-record pool and selected 100 reproduce from the saved configuration.
+  All records pass graduate-enrollment, date, duration and evidence checks.
+- The shared assessment system message, TA description and selection criteria
+  match the local research plan, with normalized paragraph wrapping. Committee
+  substitution is explicit. Evaluator inputs use the plan's overall-quality
+  assessment prompt; no integrity conditions or model assessments were generated.
+- GPT-6 Astra generated the constrained wording and performed factual checks in
+  separate contexts. All 100 passed initially; none required a wording repair.
+  There are 200 saved API responses reporting 248,664 total tokens. These are
+  saved-response usage totals, not a billing estimate.
+- All application texts reproduce exactly from the saved facts and wording.
+  Evaluator messages contain the application and plan wording, with no research
+  tier, mixed-profile tag or latent sampling level.
+- The 81-test suite passed, including 24 new TA tests. Tests cover no-experience
+  cases, missing evidence, contradictory dates/feedback, changed frozen facts,
+  bounded repairs, incomplete API output, cache reuse and rejected exports.
+- Export verification checks the file inventory and hashes, sample reproduction,
+  rubric labels, application rendering and exact assessment messages. The local
+  viewer has 100 applicant cards and 101 valid local links. Credential and
+  attribution scans passed. Visual browser inspection is not claimed.
+- The existing PhD export verification also passed. No existing PhD applicant
+  data, recommendation data or generation implementation changed.
+
+TA rubric thresholds, conditional probabilities, observation templates and
+allocation are study assumptions. The grade patterns, project tasks and tools
+are deliberately restricted. Source consistency and same-model checking do not
+establish realistic hiring frequencies, independent human agreement or absence
+of wording effects. See `TA_METHOD.md` for the precise rules and limitations.
+
 ## Published update — 2026-11-12
 
 The update contains 100 revised CVs, 300 recommendation summaries and 100

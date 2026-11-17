@@ -1,0 +1,59 @@
+Applicant TA-v2-123-01249
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 2.97/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2022-05
+Data Structures: B- | undergraduate, 2023-05
+Discrete Mathematics: B+ | undergraduate, 2022-11
+Web Programming: B+ | undergraduate, 2024-06
+Database Systems: B | graduate, 2025-12
+Software Engineering: B- | undergraduate, 2024-04
+
+TECHNICAL SKILLS
+CSS, Git, HTML, JavaScript, Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2024-06 to 2024-08 | 2 months; 4 hours/week
+Peer Programming Mentor
+- Explained worked examples on debugging and loops under a course instructor's supervision.
+- Supported beginner practice sessions and helped peers trace short programs step by step.
+
+PROGRAMMING AND COURSE PROJECTS
+Study Planner Interface | Web Programming, 2024-06
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Built a local study planner browser interface with form inputs using JavaScript, HTML, and CSS.
+- Implemented event handling and input validation, and tested keyboard interaction and alternate input cases.
+Event Registration Records | Database Systems, 2025-12
+Scope: individual graduate course project.
+Project tools: SQL, SQLite
+- Documented the schema and example queries for event registration records using SQL and SQLite.
+- Wrote SQL queries joining and aggregating sample event registration records in SQLite.
+String Utility Library Testing | Software Engineering, 2024-04
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python, Git
+- Contributed to a team string utility library project using Python and Git, isolating a defect with a minimal reproducing example.
+- Designed boundary and invalid-input test cases, and documented expected behaviour and regression checks.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study Planner Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Event Registration Records': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2024-06 to 2024-08 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

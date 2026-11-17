@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser in Python using functions and collections as a contribution to a team course project.",
+        "Documented how recipe records are added, searched, and updated; tested representative inputs and recorded expected outputs."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python functions for a truth-table explorer as part of a team course project.",
+        "Tested the Python implementation of the truth-table explorer against hand-worked cases for the team project."
+      ]
+    }
+  ]
+}

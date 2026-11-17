@@ -1,0 +1,52 @@
+Applicant TA-v2-789-00993
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.51/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2022-05
+Data Structures: B+ | undergraduate, 2023-05
+Discrete Mathematics: A- | undergraduate, 2022-11
+Algorithms: B+ | undergraduate, 2024-09
+
+TECHNICAL SKILLS
+C++, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2024-06 to 2024-08 | 2 months; 4 hours/week
+Programming Tutoring
+- Prepared practice questions on lists, arrays, and loops for individual programming tutoring sessions.
+- Asked learners to explain the steps in their solutions during individual programming tutoring sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Campus Route Finder | Algorithms, 2024-09
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Implemented graph traversal and a route or ordering routine in C++, representing campus connections using adjacency lists.
+- Used Git for the campus route finder project and tested connected, disconnected, and cyclic examples.
+Course Planner | Introduction to Programming, 2022-05
+Scope: individual undergraduate course project.
+Project tools: C++
+- Implemented a menu-driven course planner in C++ using functions and collections for the course project.
+- Documented how records are added, searched, and updated within the course planner program.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Campus Route Finder': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Campus Route Finder': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2024-06 to 2024-08 - feedback from the tutoring programme coordinator: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

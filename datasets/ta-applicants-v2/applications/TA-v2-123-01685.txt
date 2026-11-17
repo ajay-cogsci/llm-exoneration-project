@@ -1,0 +1,52 @@
+Applicant TA-v2-123-01685
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 3.03/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2019-05
+Data Structures: B | undergraduate, 2020-05
+Discrete Mathematics: C+ | undergraduate, 2019-11
+Database Systems: B | undergraduate, 2023-05
+
+TECHNICAL SKILLS
+Java, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 8 hours/week
+Peer Programming Mentor
+- Helped peers trace short programs step by step during mentoring activities focused on loops and debugging.
+- Supported beginner programming practice sessions covering loops and debugging as a peer programming mentor.
+Teaching Assistant, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 20 hours/week
+Introductory Programming Teaching Assistant
+- Helped organise assignment materials and submission records, and assisted lab sessions covering variables, conditionals, and loops.
+- Graded programming exercises on variables, conditionals, and loops using a rubric provided by the instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Event Registration Database | Database Systems, 2023-05
+Scope: individual undergraduate course project.
+Project tools: SQL, SQLite
+- Checked event registration records for missing values and duplicate records using SQL and SQLite in an individual course project.
+- Designed related tables and key constraints for event registration records, and documented the schema and example queries.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Event Registration Database': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Event Registration Database': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2023-01 to 2023-05 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Teaching Assistant, 2025-09 to 2025-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

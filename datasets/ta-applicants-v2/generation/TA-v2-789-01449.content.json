@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions on functions and loops, helping peers trace short programs step by step.",
+        "Explained worked examples involving functions and loops under the supervision of a course instructor."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering variables and conditionals, as well as debugging.",
+        "Explained worked examples on variables, conditionals, and debugging under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Dependency Ordering",
+      "bullets": [
+        "Used Python and Git for a dependency ordering project, representing connections with adjacency lists.",
+        "Implemented graph traversal and an ordering routine, and tested connected, disconnected, and cyclic examples."
+      ]
+    }
+  ]
+}

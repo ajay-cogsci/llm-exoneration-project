@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists and dictionaries, alongside variables and conditionals.",
+        "Explained worked examples on these programming topics under a course instructor's supervision as a peer programming mentor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Course Planner",
+      "bullets": [
+        "Implemented a small command-line course planner using functions and collections, with Python and Git as project tools.",
+        "Tested example inputs for the course planner and documented the command-line program's behaviour."
+      ]
+    }
+  ]
+}

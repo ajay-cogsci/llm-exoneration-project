@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Graded programming exercises on functions, lists, and arrays using an instructor-provided rubric.",
+        "Answered student questions during office hours on programming topics including functions, lists, and arrays."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Enrolment Database",
+      "bullets": [
+        "Designed related tables and key constraints for course enrolment records using SQL and SQLite.",
+        "Documented the schema and example queries for the individual course project on course enrolment records."
+      ]
+    }
+  ]
+}

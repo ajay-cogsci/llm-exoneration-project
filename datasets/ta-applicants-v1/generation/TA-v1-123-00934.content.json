@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions covering lists and dictionaries as a peer programming mentor.",
+        "Explained worked examples involving variables and conditionals under the supervision of a course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Expense Tracker",
+      "bullets": [
+        "Implemented a small command-line expense tracker using Python functions and collections for an individual undergraduate course project.",
+        "Tested example inputs and documented the program's behaviour, using Git during the project."
+      ]
+    }
+  ]
+}

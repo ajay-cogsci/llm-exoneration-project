@@ -1,0 +1,47 @@
+Applicant TA-v2-123-00990
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 2.92/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C | undergraduate, 2021-05
+Data Structures: B- | undergraduate, 2022-05
+Discrete Mathematics: B | undergraduate, 2021-11
+Computer Systems: B | undergraduate, 2024-10
+
+TECHNICAL SKILLS
+Java
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2025-01 to 2025-05 | 4 months; 3 hours/week
+Peer Programming Mentor
+- Facilitated discussion of common programming errors involving lists, arrays, variables, and conditionals as a peer programming mentor.
+- Supported beginner programming practice sessions covering variables and conditionals alongside lists and arrays.
+
+PROGRAMMING AND COURSE PROJECTS
+Graph Property Checker | Discrete Mathematics, 2021-11
+Scope: individual undergraduate course project.
+Project tools: Java
+- Constructed examples and counterexamples for the rules represented in a Java graph property checker.
+- Explained the connection between formal definitions and implementation for the graph property checker in an individual course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Graph Property Checker': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Graph Property Checker': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2025-01 to 2025-05 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

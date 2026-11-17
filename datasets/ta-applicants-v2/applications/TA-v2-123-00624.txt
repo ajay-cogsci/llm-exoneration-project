@@ -1,0 +1,63 @@
+Applicant TA-v2-123-00624
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2017-09 to 2021-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.44/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2018-05
+Data Structures: B+ | undergraduate, 2019-05
+Discrete Mathematics: A- | undergraduate, 2018-11
+Software Engineering: B+ | undergraduate, 2020-07
+Database Systems: A | undergraduate, 2020-06
+
+TECHNICAL SKILLS
+Git, Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-01 to 2025-05 | 4 months; 10 hours/week
+Programming Teaching Assistant
+- Prepared worked examples on debugging, lists, and arrays for review by the course instructor.
+- Graded programming exercises covering debugging, lists, and arrays using a rubric provided by the instructor.
+Peer Programming Mentor, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 4 hours/week
+Peer Programming Mentor
+- Facilitated discussions of common programming errors related to loops and functions as a peer programming mentor.
+- Supported beginner practice sessions on loops and functions, helping peers trace short programs step by step.
+
+PROGRAMMING AND COURSE PROJECTS
+String Utility Library Testing | Software Engineering, 2020-07
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Used Python and Git in a string utility library project, isolating a defect with a minimal reproducing example.
+- Documented expected behaviour and regression checks for the string utility library course project.
+Study-Session Scheduler | Introduction to Programming, 2018-05
+Scope: individual undergraduate course project.
+Project tools: Python
+- Tested representative inputs and recorded expected outputs for a study-session scheduler written in Python.
+- Added input checks, handled invalid entries, and documented how scheduler records are added, searched, and updated.
+Equipment Inventory Database | Database Systems, 2020-06
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: SQL, SQLite
+- Designed related tables and key constraints using SQL and SQLite for a team equipment inventory project.
+- Documented the equipment inventory schema and example queries as part of the assigned team project contribution.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Equipment Inventory Database': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2025-01 to 2025-05 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Peer Programming Mentor, 2025-09 to 2025-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

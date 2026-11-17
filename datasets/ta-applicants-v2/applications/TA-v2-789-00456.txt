@@ -1,0 +1,50 @@
+Applicant TA-v2-789-00456
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.63/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2022-05
+Data Structures: A | undergraduate, 2023-05
+Discrete Mathematics: A | undergraduate, 2022-11
+Computer Systems: A- | undergraduate, 2024-08
+Software Engineering: B+ | undergraduate, 2023-09
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Memory Allocation Exercise | Computer Systems, 2024-08
+Scope: individual undergraduate course project.
+Project tools: C, Git
+- Implemented a small systems program in C with explicit memory handling for a memory allocation exercise.
+- Traced program behaviour using a debugger as part of the individual systems course project.
+Date Parser Testing | Software Engineering, 2023-09
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Isolated a defect in a Python date parser using a minimal reproducing example.
+- Documented expected behaviour and regression checks, and designed boundary and invalid-input test cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Memory Allocation Exercise': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Date Parser Testing': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

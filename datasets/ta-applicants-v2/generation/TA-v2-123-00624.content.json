@@ -1,0 +1,46 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Prepared worked examples on debugging, lists, and arrays for review by the course instructor.",
+        "Graded programming exercises covering debugging, lists, and arrays using a rubric provided by the instructor."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Facilitated discussions of common programming errors related to loops and functions as a peer programming mentor.",
+        "Supported beginner practice sessions on loops and functions, helping peers trace short programs step by step."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Used Python and Git in a string utility library project, isolating a defect with a minimal reproducing example.",
+        "Documented expected behaviour and regression checks for the string utility library course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Tested representative inputs and recorded expected outputs for a study-session scheduler written in Python.",
+        "Added input checks, handled invalid entries, and documented how scheduler records are added, searched, and updated."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Equipment Inventory Database",
+      "bullets": [
+        "Designed related tables and key constraints using SQL and SQLite for a team equipment inventory project.",
+        "Documented the equipment inventory schema and example queries as part of the assigned team project contribution."
+      ]
+    }
+  ]
+}

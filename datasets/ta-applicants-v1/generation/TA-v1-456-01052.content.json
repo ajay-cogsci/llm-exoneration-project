@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Supported beginner practice sessions focused on functions and debugging as a peer programming mentor.",
+        "Explained worked examples covering functions and debugging under the supervision of a course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game in Python using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git as a project tool."
+      ]
+    }
+  ]
+}

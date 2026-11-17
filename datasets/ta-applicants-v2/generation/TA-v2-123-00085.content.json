@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Graded programming exercises on variables, conditionals, and functions using an instructor-provided rubric.",
+        "Prepared worked examples covering variables, conditionals, and functions for review by the course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Binary File Reader",
+      "bullets": [
+        "Checked array bounds and error paths in a binary file reader written in C.",
+        "Traced program behaviour using a debugger and documented the program structure and test cases."
+      ]
+    }
+  ]
+}

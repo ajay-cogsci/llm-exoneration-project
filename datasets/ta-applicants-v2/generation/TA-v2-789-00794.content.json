@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering variables and conditionals, along with lists and arrays.",
+        "Answered student questions during office hours and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Task Queue",
+      "bullets": [
+        "Implemented linked structures and traversal operations for an individual task queue course project using Java and Git.",
+        "Documented operation costs and boundary cases for the task queue as part of the course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Built a local browser interface with form inputs using JavaScript, HTML, and CSS as a contribution to a team project.",
+        "Documented the study planner interface and its local data flow, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Wrote automated tests for a small string utility module in an individual course project using Java and Git.",
+        "Designed boundary and invalid-input test cases, and isolated a defect using a minimal reproducing example."
+      ]
+    }
+  ]
+}

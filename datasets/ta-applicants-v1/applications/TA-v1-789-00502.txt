@@ -1,0 +1,33 @@
+Applicant TA-v1-789-00502
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 2.76/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (C+); Data Structures (C+); Discrete Mathematics (B-); Computer Systems (B)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING PROJECT
+Command-Line Expense Tracker | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line expense tracker in Python using functions and collections for an individual course project.
+- Tested example inputs and documented the program's behaviour; project tools included Python and Git.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Expense Tracker': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Expense Tracker': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

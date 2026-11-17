@@ -1,0 +1,114 @@
+{
+  "pool": {
+    "n": 6000,
+    "tiers": {
+      "weak": 1381,
+      "strong": 1400,
+      "borderline": 3219
+    },
+    "designated_mixed": {
+      "none": 6000
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 3292,
+      "PhD in Computer Science": 2708
+    },
+    "first_time_by_tier": {
+      "strong": 370,
+      "weak": 476,
+      "borderline": 1001
+    },
+    "unavailable": 0,
+    "communication_by_experience": {
+      "first_time": {
+        "n": 1847,
+        "with_concern": 505,
+        "fraction": 0.2734
+      },
+      "experienced": {
+        "n": 4153,
+        "with_concern": 1081,
+        "fraction": 0.2603
+      }
+    },
+    "unique_education_histories": 288,
+    "unique_grade_vectors": 299,
+    "unique_skill_sets": 36,
+    "project_counts": {
+      "1": 1759,
+      "2": 2974,
+      "3": 1267
+    },
+    "project_families": {
+      "record_program": 1486,
+      "software_testing": 1503,
+      "systems": 1467,
+      "web_interface": 1366,
+      "database": 1410,
+      "data_structures": 1383,
+      "discrete_simulation": 1457,
+      "graph_algorithms": 1436
+    },
+    "unique_project_task_sets": 80,
+    "graduate_course_projects": 1410
+  },
+  "selected": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "strong": 30,
+      "weak": 30
+    },
+    "designated_mixed": {
+      "none": 90,
+      "technical_gaps_effective_teaching": 3,
+      "high_technical_communication_gap": 2,
+      "capable_first_time_ta": 3,
+      "lower_gpa_effective_teaching": 2
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 55,
+      "PhD in Computer Science": 45
+    },
+    "first_time_by_tier": {
+      "strong": 6,
+      "weak": 12,
+      "borderline": 8
+    },
+    "unavailable": 0,
+    "communication_by_experience": {
+      "first_time": {
+        "n": 26,
+        "with_concern": 6,
+        "fraction": 0.2308
+      },
+      "experienced": {
+        "n": 74,
+        "with_concern": 21,
+        "fraction": 0.2838
+      }
+    },
+    "unique_education_histories": 74,
+    "unique_grade_vectors": 70,
+    "unique_skill_sets": 25,
+    "project_counts": {
+      "3": 16,
+      "2": 58,
+      "1": 26
+    },
+    "project_families": {
+      "web_interface": 22,
+      "graph_algorithms": 20,
+      "discrete_simulation": 28,
+      "record_program": 27,
+      "systems": 22,
+      "software_testing": 28,
+      "database": 18,
+      "data_structures": 25
+    },
+    "unique_project_task_sets": 73,
+    "graduate_course_projects": 20
+  },
+  "api_calls": 0,
+  "parameter_status": "Provisional study design. Criteria and assessment wording come from the research plan; distributions, templates and rubric anchors are not empirical hiring estimates."
+}

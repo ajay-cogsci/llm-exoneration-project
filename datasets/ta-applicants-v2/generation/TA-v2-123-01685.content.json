@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Helped peers trace short programs step by step during mentoring activities focused on loops and debugging.",
+        "Supported beginner programming practice sessions covering loops and debugging as a peer programming mentor."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Helped organise assignment materials and submission records, and assisted lab sessions covering variables, conditionals, and loops.",
+        "Graded programming exercises on variables, conditionals, and loops using a rubric provided by the instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Event Registration Database",
+      "bullets": [
+        "Checked event registration records for missing values and duplicate records using SQL and SQLite in an individual course project.",
+        "Designed related tables and key constraints for event registration records, and documented the schema and example queries."
+      ]
+    }
+  ]
+}

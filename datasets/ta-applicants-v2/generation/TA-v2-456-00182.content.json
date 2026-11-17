@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions about debugging and functions during assigned office hours as a teaching assistant.",
+        "Graded programming exercises covering debugging and functions using the rubric provided by the course instructor."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Asked learners to explain the steps in their solutions involving loops, variables, and conditionals.",
+        "Discussed debugging approaches during tutoring sessions focused on programming with loops, variables, and conditionals."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Task Queue",
+      "bullets": [
+        "Implemented linked structures and traversal operations for a team task queue project using C++ and Git.",
+        "Wrote tests for insertion, lookup, and deletion, and documented operation costs and boundary cases."
+      ]
+    }
+  ]
+}

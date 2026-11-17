@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game in Python using functions and collections.",
+        "Used Git for the project, tested example inputs, and documented the word game's behaviour."
+      ]
+    }
+  ]
+}

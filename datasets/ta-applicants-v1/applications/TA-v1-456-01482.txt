@@ -1,0 +1,42 @@
+Applicant TA-v1-456-01482
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 2.83/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (C+); Data Structures (C+); Discrete Mathematics (B-); Computer Systems (B)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-01 to 2025-06 | 5 months; 10 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering functions, variables, and conditionals, and answered student questions during office hours.
+- Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant activities.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Programming Tutor, University Programming Support Programme | 2025-07 to 2025-12 | 5 months; 10 hours/week
+Beginning Programming Tutor
+- Guided beginning programmers through practice exercises focused on loops during assigned programming tutoring sessions.
+- Discussed approaches to debugging during tutoring sessions as beginning programmers worked through practice exercises.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+PROGRAMMING PROJECT
+Text-File Analyser | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line text-file analyser using Python functions and collections for an individual undergraduate course project.
+- Tested example inputs and documented the program's behaviour, using Git as a project tool.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Text-File Analyser': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Text-File Analyser': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

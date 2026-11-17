@@ -1,0 +1,52 @@
+Applicant TA-v2-789-01449
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.90/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2019-05
+Data Structures: B | undergraduate, 2020-05
+Discrete Mathematics: A | undergraduate, 2019-11
+Algorithms: A | undergraduate, 2021-01
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2022-01 to 2022-05 | 4 months; 3 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions on functions and loops, helping peers trace short programs step by step.
+- Explained worked examples involving functions and loops under the supervision of a course instructor.
+Peer Programming Mentor, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 8 hours/week
+Peer Programming Mentor
+- Supported beginner programming practice sessions covering variables and conditionals, as well as debugging.
+- Explained worked examples on variables, conditionals, and debugging under a course instructor's supervision.
+
+PROGRAMMING AND COURSE PROJECTS
+Dependency Ordering | Algorithms, 2021-01
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Used Python and Git for a dependency ordering project, representing connections with adjacency lists.
+- Implemented graph traversal and an ordering routine, and tested connected, disconnected, and cyclic examples.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Dependency Ordering': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Dependency Ordering': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2022-01 to 2022-05 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Peer Programming Mentor, 2025-09 to 2025-12 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,53 @@
+Applicant TA-v2-456-01229
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.23/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2020-05
+Data Structures: B+ | undergraduate, 2021-05
+Discrete Mathematics: A- | undergraduate, 2020-11
+Software Engineering: A- | undergraduate, 2023-02
+Computer Systems: A- | graduate, 2025-08
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-06 to 2021-08 | 2 months; 4 hours/week
+Peer Programming Mentor
+- Explained worked examples covering variables, conditionals, and functions under a course instructor's supervision.
+- Facilitated discussion of common programming errors involving variables, conditionals, and functions as a peer programming mentor.
+
+PROGRAMMING AND COURSE PROJECTS
+Calculator Module Testing | Software Engineering, 2023-02
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Wrote automated tests for a small calculator module in an individual course project using Python and Git.
+- Documented expected behaviour and regression checks for the calculator module, and isolated a defect using a minimal reproducing example.
+Command-Line Text Utility | Computer Systems, 2025-08
+Scope: individual graduate course project.
+Project tools: C, Git
+- Documented the program structure and test cases for a command-line text utility using C and Git.
+- Checked array bounds and error paths within the command-line text utility for the individual course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Text Utility': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Text Utility': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-06 to 2021-08 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

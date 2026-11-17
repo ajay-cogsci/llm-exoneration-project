@@ -1,0 +1,47 @@
+Applicant TA-v2-123-00085
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2018-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 2.96/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2019-05
+Data Structures: C+ | undergraduate, 2020-05
+Discrete Mathematics: C+ | undergraduate, 2019-11
+Computer Systems: B- | undergraduate, 2020-11
+
+TECHNICAL SKILLS
+C, Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2024-09 to 2024-12 | 3 months; 10 hours/week
+Programming Teaching Assistant
+- Graded programming exercises on variables, conditionals, and functions using an instructor-provided rubric.
+- Prepared worked examples covering variables, conditionals, and functions for review by the course instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Binary File Reader | Computer Systems, 2020-11
+Scope: individual undergraduate course project.
+Project tools: C, Git
+- Checked array bounds and error paths in a binary file reader written in C.
+- Traced program behaviour using a debugger and documented the program structure and test cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Binary File Reader': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Binary File Reader': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2024-09 to 2024-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

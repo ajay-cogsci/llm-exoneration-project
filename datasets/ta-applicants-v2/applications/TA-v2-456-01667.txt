@@ -1,0 +1,52 @@
+Applicant TA-v2-456-01667
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 3.74/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2022-05
+Data Structures: A | undergraduate, 2023-05
+Discrete Mathematics: A | undergraduate, 2022-11
+Software Engineering: A- | undergraduate, 2023-12
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2022-06 to 2022-08 | 2 months; 10 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering variables, conditionals and loops, and answered student questions during office hours.
+- Helped organise assignment materials and submission records for the introductory programming course.
+
+PROGRAMMING AND COURSE PROJECTS
+Calculator Module Testing | Software Engineering, 2023-12
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java, Git
+- Designed boundary and invalid-input test cases for a calculator module as part of a team course project.
+- Wrote automated tests in Java using Git, and documented expected behaviour and regression checks for the module.
+Document Lookup Structures | Data Structures, 2023-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java, Git
+- Implemented linked structures and traversal operations in Java for document lookup within a team course project.
+- Wrote insertion, lookup and deletion tests, documented operation costs and boundary cases, and used Git for the project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Document Lookup Structures': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Document Lookup Structures': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2022-06 to 2022-08 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

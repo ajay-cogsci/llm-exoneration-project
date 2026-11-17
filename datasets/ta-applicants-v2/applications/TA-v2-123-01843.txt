@@ -1,0 +1,57 @@
+Applicant TA-v2-123-01843
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2017-09 to 2021-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.43/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2018-05
+Data Structures: A | undergraduate, 2019-05
+Discrete Mathematics: A- | undergraduate, 2018-11
+Computer Systems: B+ | graduate, 2025-07
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 8 hours/week
+Peer Programming Mentoring
+- Facilitated discussion of common programming errors involving functions and debugging as a peer programming mentor.
+- Explained worked examples on functions and debugging under the supervision of a course instructor.
+Programming Tutor, University Programming Support Programme | 2025-06 to 2025-08 | 2 months; 8 hours/week
+Programming Tutoring
+- Asked learners to explain the steps in their solutions involving lists, arrays, and loops.
+- Prepared practice questions for individual tutoring sessions and discussed debugging approaches during those sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Set Operation Explorer | Discrete Mathematics, 2018-11
+Scope: individual undergraduate course project.
+Project tools: Python
+- Explained the connection between formal definitions and the Python implementation of a set operation explorer.
+- Constructed examples and counterexamples for the rules represented within the set operation explorer.
+Command-Line Text Utility | Computer Systems, 2025-07
+Scope: individual graduate course project.
+Project tools: C, Git
+- Implemented a small command-line text utility in C with explicit memory handling, using Git.
+- Documented the program structure and test cases, and checked array bounds and error paths.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Text Utility': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Set Operation Explorer': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-01 to 2021-05 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Programming Tutor, 2025-06 to 2025-08 - feedback from the tutoring programme coordinator: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

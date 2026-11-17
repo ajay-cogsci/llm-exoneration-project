@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering lists and arrays, along with the use of functions.",
+        "Helped peers trace short programs step by step while working with lists, arrays, and functions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Helped organise assignment materials and submission records, and answered student questions during office hours.",
+        "Graded programming exercises on variables, conditionals, lists, and arrays using an instructor-provided rubric."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Finite-State Machine Simulator",
+      "bullets": [
+        "Explained the connection between formal definitions and the Java implementation of a finite-state machine simulator.",
+        "Tested the finite-state machine simulator implementation in Java against hand-worked cases for the project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Enrolment Records",
+      "bullets": [
+        "Wrote SQL queries in SQLite to join and aggregate sample course enrolment records.",
+        "Documented the schema and example SQL queries for the course enrolment records project."
+      ]
+    }
+  ]
+}

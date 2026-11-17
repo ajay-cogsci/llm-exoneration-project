@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering debugging, variables, and conditionals during tutoring.",
+        "Prepared practice questions on debugging, variables, and conditionals for use in individual tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Lookup",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Java for a team document lookup project using Git.",
+        "Compared alternative data structures for the recorded operations and wrote tests for insertion, lookup, and deletion."
+      ]
+    }
+  ]
+}

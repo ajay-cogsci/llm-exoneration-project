@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering variables, conditionals and loops, and answered student questions during office hours.",
+        "Helped organise assignment materials and submission records for the introductory programming course."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Calculator Module Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a calculator module as part of a team course project.",
+        "Wrote automated tests in Java using Git, and documented expected behaviour and regression checks for the module."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup Structures",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Java for document lookup within a team course project.",
+        "Wrote insertion, lookup and deletion tests, documented operation costs and boundary cases, and used Git for the project."
+      ]
+    }
+  ]
+}

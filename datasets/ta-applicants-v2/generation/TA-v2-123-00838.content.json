@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving loops, lists, and arrays as a peer programming mentor.",
+        "Explained worked examples on loops, lists, and arrays under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a date parser in an individual course project using Python and Git.",
+        "Isolated a defect using a minimal reproducing example and documented expected behaviour and regression checks."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises on functions and debugging during tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Maze Traversal",
+      "bullets": [
+        "Contributed to a team project using C++ and Git by implementing graph traversal and a route or ordering routine for maze traversal.",
+        "Tested connected, disconnected, and cyclic examples, and explained algorithm choices and computational complexity."
+      ]
+    }
+  ]
+}

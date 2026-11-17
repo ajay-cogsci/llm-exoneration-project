@@ -1,0 +1,42 @@
+Applicant TA-v1-456-01102
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 3.06/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (C+); Data Structures (C+); Discrete Mathematics (B-); Computer Systems (B)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-02 to 2025-06 | 4 months; 8 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering variables, conditionals, and loops, and answered student questions during office hours.
+- Graded programming exercises on introductory programming topics using a rubric provided by the instructor.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Programming Tutor, University Programming Support Programme | 2025-07 to 2025-11 | 4 months; 10 hours/week
+Beginning Programming Tutor
+- Guided beginning programmers through practice exercises involving lists and dictionaries during programming tutoring sessions.
+- Discussed debugging approaches with beginning programmers during tutoring sessions focused on programming practice.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Command-Line Course Planner | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line course planner in Python using functions and collections for an individual course project.
+- Tested example inputs and documented the program's behaviour, using Git as a project tool.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Course Planner': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Course Planner': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

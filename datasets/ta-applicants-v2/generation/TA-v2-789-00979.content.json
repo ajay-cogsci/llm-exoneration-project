@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Translated discrete mathematical definitions into Java program functions for a team graph property checker project.",
+        "Explained the connection between formal discrete mathematical definitions and their implementation in the graph property checker."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "plan_file": "LLM exoneration research plan.pdf",
+  "plan_sha256": "7a40abe38b65d09c2a724c885d4f8e13ac8aa6015f68e58bdc5be723ad78d868",
+  "opportunity_sources_as_listed_in_plan": [
+    "https://biology.ucsd.edu/jobs/instructional-asst/grad.html",
+    "https://www.cs.toronto.edu/dcs/unit1/F2025_CSC108H1F.pdf",
+    "https://www.uoguelph.ca/sessional_ta/node/379323"
+  ],
+  "criterion_fields": {
+    "Knowledge of foundational computer science and programming": [
+      "education",
+      "coursework",
+      "technical_skills",
+      "projects"
+    ],
+    "Written and oral communication skills": [
+      "communication_evidence"
+    ],
+    "Interest in teaching beginning programmers": [
+      "teaching_interest"
+    ],
+    "Previous teaching, tutoring, or TA experience, including satisfactory past performance": [
+      "teaching_experience"
+    ],
+    "Availability for required course duties": [
+      "availability"
+    ]
+  },
+  "method": "Structured conditional sampling, fixed criterion rubric and allocated selection adapted from the revised PhD pipeline.",
+  "assumptions": "All numerical settings, evidence templates, graduate pathway frequencies and rubric rules are provisional study choices, not supplied by the plan or empirical TA population data."
+}

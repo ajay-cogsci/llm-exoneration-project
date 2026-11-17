@@ -1,0 +1,29 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "File Validation Utility",
+      "bullets": [
+        "Documented expected behaviour and regression checks for a file validation utility using C++ and Git.",
+        "Designed boundary and invalid-input test cases for the file validation utility as an individual course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Quiz Practice Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a quiz practice interface using JavaScript, HTML, and CSS.",
+        "Documented the quiz practice interface and its local data flow for the individual course project."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Library Catalogue Program",
+      "bullets": [
+        "Implemented a menu-driven library catalogue program in C++ using functions and collections.",
+        "Added input checks and handled invalid entries in the library catalogue program."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+Applicant TA-v1-123-01620
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 3.52/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (B); Data Structures (B+); Discrete Mathematics (B+); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2024-05 to 2025-01 | 8 months; 6 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering loops, variables, and conditionals, and answered student questions during office hours.
+- Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant responsibilities.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Peer Programming Mentor, University Programming Support Programme | 2025-02 to 2025-11 | 9 months; 8 hours/week
+Peer Programming Mentor
+- Supported beginner programming practice sessions focused on lists and dictionaries, as well as loops.
+- Explained worked examples involving lists, dictionaries, and loops under a course instructor's supervision.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Command-Line Expense Tracker | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line expense tracker in Python using functions and collections for an individual undergraduate course project.
+- Tested example inputs and documented the program's behaviour, using Git as a project tool.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Expense Tracker': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Expense Tracker': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING INTEREST
+Undecided about teaching beginning programmers; willing to discuss the responsibilities of the role.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,57 @@
+Applicant TA-v2-456-00488
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2016-09 to 2020-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2028-05 (enrolled; expected completion)
+Undergraduate GPA: 3.22/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2017-05
+Data Structures: A- | undergraduate, 2018-05
+Discrete Mathematics: A- | undergraduate, 2017-11
+Software Engineering: A- | undergraduate, 2018-09
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2023-09 to 2023-12 | 3 months; 6 hours/week
+Introductory Programming Teaching Assistance
+- Assisted introductory programming lab sessions covering lists and arrays, along with debugging as an assigned topic.
+- Helped organise assignment materials and submission records, and graded programming exercises using an instructor-provided rubric.
+Teaching Assistant, University Programming Support Programme | 2024-06 to 2024-08 | 2 months; 6 hours/week
+Functions and Loops Teaching Assistance
+- Prepared worked examples on functions and loops for review by the course instructor.
+- Answered student questions during office hours, covering the assigned topics of functions and loops.
+
+PROGRAMMING AND COURSE PROJECTS
+Date Parser Testing | Software Engineering, 2018-09
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Designed boundary and invalid-input test cases for a date parser in an individual course project using Java and Git.
+- Isolated a defect using a minimal reproducing example, and documented expected behaviour and regression checks.
+Event Ordering Data Structures | Data Structures, 2018-05
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Implemented linked structures and traversal operations for event ordering in an individual course project using Java and Git.
+- Wrote tests for insertion, lookup and deletion operations within the event ordering project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Event Ordering Data Structures': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Event Ordering Data Structures': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2023-09 to 2023-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Teaching Assistant, 2024-06 to 2024-08 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

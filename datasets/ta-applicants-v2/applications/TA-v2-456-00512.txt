@@ -1,0 +1,47 @@
+Applicant TA-v2-456-00512
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 2.70/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2021-05
+Data Structures: C | undergraduate, 2022-05
+Discrete Mathematics: C+ | undergraduate, 2021-11
+Computer Systems: B- | undergraduate, 2023-10
+
+TECHNICAL SKILLS
+Python
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2021-06 to 2021-08 | 2 months; 20 hours/week
+Introductory Programming Support
+- Answered student questions about debugging and functions during assigned introductory programming office hours.
+- Assisted with introductory programming lab sessions covering debugging and functions as a teaching assistant.
+
+PROGRAMMING AND COURSE PROJECTS
+Recipe Organiser | Introduction to Programming, 2021-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Implemented a menu-driven recipe organiser in Python using functions and collections as a contributor to a team project.
+- Tested representative inputs, recorded expected outputs, and documented how recipe records are added, searched, and updated.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Recipe Organiser': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Recipe Organiser': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2021-06 to 2021-08 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

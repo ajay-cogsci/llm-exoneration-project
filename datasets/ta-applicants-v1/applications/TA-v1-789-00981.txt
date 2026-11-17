@@ -1,0 +1,37 @@
+Applicant TA-v1-789-00981
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 3.42/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (A-); Data Structures (A-); Discrete Mathematics (B+); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2025-07 to 2025-10 | 3 months; 8 hours/week
+Programming Tutor
+- Guided beginning programmers through practice exercises focused on loops and functions during tutoring sessions.
+- Discussed debugging approaches with beginning programmers during tutoring sessions covering loops and functions.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Command-Line Expense Tracker | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line expense tracker using Python functions and collections for an individual course project.
+- Tested example inputs and documented the program's behaviour; project tools included Python and Git.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Expense Tracker': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Expense Tracker': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

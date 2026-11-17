@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring: Loops, Lists, and Arrays",
+      "bullets": [
+        "Guided beginning programmers through practice exercises on loops, lists, and arrays during tutoring.",
+        "Prepared practice questions on loops, lists, and arrays for individual programming tutoring sessions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutoring: Debugging and Loops",
+      "bullets": [
+        "Guided beginning programmers through practice exercises focused on debugging and loops during tutoring.",
+        "Prepared practice questions covering debugging and loops for use in individual programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Documented expected behaviour and regression checks for a date parser as a team project contribution.",
+        "Wrote automated tests for a small date parser software module using Python and Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python program functions for an individual truth-table explorer project.",
+        "Tested the truth-table explorer implementation against hand-worked cases as part of the individual course project."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "status": "record_and_text_checks_passed",
+  "api_calls": 0,
+  "current": {
+    "applicants": 100,
+    "tiers": {
+      "borderline": 40,
+      "strong": 30,
+      "weak": 30
+    },
+    "strong_first_time": 6,
+    "communication_by_experience": {
+      "first_time": {
+        "n": 26,
+        "communication_concerns": 6,
+        "fraction": 0.2308
+      },
+      "experienced": {
+        "n": 74,
+        "communication_concerns": 21,
+        "fraction": 0.2838
+      }
+    },
+    "unavailable": 0,
+    "education_histories": 74,
+    "anchor_grade_patterns": 70,
+    "skill_sets": 25,
+    "project_counts": {
+      "3": 16,
+      "2": 58,
+      "1": 26
+    },
+    "project_task_sets": 73,
+    "application_words_by_tier": {
+      "weak": {
+        "min": 239,
+        "max": 488,
+        "mean": 340.5
+      },
+      "borderline": {
+        "min": 244,
+        "max": 480,
+        "mean": 347.4
+      },
+      "strong": {
+        "min": 247,
+        "max": 474,
+        "mean": 372.0
+      }
+    }
+  },
+  "previous": {
+    "applicants": 100,
+    "tiers": {
+      "borderline": 40,
+      "weak": 30,
+      "strong": 30
+    },
+    "strong_first_time": 0,
+    "communication_by_experience": {
+      "first_time": {
+        "n": 26,
+        "communication_concerns": 22,
+        "fraction": 0.8462
+      },
+      "experienced": {
+        "n": 74,
+        "communication_concerns": 15,
+        "fraction": 0.2027
+      }
+    },
+    "unavailable": 6,
+    "education_histories": 2,
+    "anchor_grade_patterns": 5,
+    "skill_sets": 1,
+    "project_counts": {
+      "1": 100
+    },
+    "project_task_sets": 1,
+    "application_words_by_tier": {
+      "weak": {
+        "min": 200,
+        "max": 333,
+        "mean": 244.4
+      },
+      "borderline": {
+        "min": 200,
+        "max": 333,
+        "mean": 268.2
+      },
+      "strong": {
+        "min": 260,
+        "max": 335,
+        "mean": 312.4
+      }
+    }
+  },
+  "fixed_facts_present_in_text": true,
+  "plan_prompt_files_unchanged": true,
+  "designated_mixed_profiles": 10,
+  "independent_human_validation": false,
+  "interpretation": "Checks address the identified construction problems. Descriptive differences and consistency do not establish empirical hiring validity. No population targets were fitted."
+}

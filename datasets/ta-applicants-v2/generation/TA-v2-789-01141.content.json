@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering lists, arrays, and functions during tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions focused on programming topics including lists, arrays, and functions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Discussed debugging approaches during tutoring sessions covering programming topics including loops and functions.",
+        "Prepared practice questions about loops and functions for use in individual tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Buffer Management Exercise",
+      "bullets": [
+        "Implemented a small C systems program with explicit memory handling for a buffer management exercise.",
+        "Traced program behaviour using a debugger and checked array bounds and error paths, using Git for the project."
+      ]
+    }
+  ]
+}

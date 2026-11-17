@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Helped peers trace short programs step by step, focusing on variables and conditionals.",
+        "Supported beginner programming practice sessions covering debugging, variables, and conditionals as a peer mentor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Buffer Management Exercise",
+      "bullets": [
+        "Implemented a small buffer management program in C with explicit memory handling, using Git.",
+        "Checked array bounds and error paths, and documented the program structure and test cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Flashcard Practice Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a team flashcard practice interface using JavaScript, HTML, and CSS.",
+        "Tested keyboard interaction and alternate input cases as part of the flashcard practice interface team project."
+      ]
+    }
+  ]
+}

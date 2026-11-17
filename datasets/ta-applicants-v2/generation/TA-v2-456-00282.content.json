@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on functions, lists, and arrays for individual programming tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions covering programming topics including functions, lists, and arrays."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples involving functions, variables, and conditionals under a course instructor's supervision.",
+        "Supported beginner programming practice sessions focused on functions and on variables and conditionals."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Campus Route Finder",
+      "bullets": [
+        "Implemented graph traversal and a route routine in Python for an individual campus route finder course project.",
+        "Explained algorithm choices and computational complexity for the campus route finder, using Git for the project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Tested the Python truth-table explorer implementation against hand-worked cases as a team project contributor.",
+        "Explained the connection between formal definitions and implementation for the team's truth-table explorer project."
+      ]
+    }
+  ]
+}

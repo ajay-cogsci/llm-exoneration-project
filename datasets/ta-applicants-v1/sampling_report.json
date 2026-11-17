@@ -1,0 +1,72 @@
+{
+  "pool": {
+    "n": 6000,
+    "tiers": {
+      "weak": 896,
+      "strong": 1832,
+      "borderline": 3272
+    },
+    "selection_cells": {
+      "weak:none": 896,
+      "strong:none": 1574,
+      "borderline:none": 2941,
+      "strong:lower_gpa_effective_teaching": 258,
+      "borderline:technical_gaps_experienced_tutor": 186,
+      "borderline:strong_preparation_limited_availability": 103,
+      "borderline:high_academics_no_teaching": 42
+    },
+    "graduate_degrees": {
+      "PhD in Computer Science": 2667,
+      "MS in Computer Science": 3333
+    },
+    "technical_by_teaching": {
+      "low:low": 630,
+      "high:high": 1139,
+      "adequate:adequate": 1090,
+      "low:adequate": 258,
+      "adequate:low": 980,
+      "high:adequate": 646,
+      "high:low": 438,
+      "adequate:high": 625,
+      "low:high": 194
+    },
+    "no_teaching_experience": 1503,
+    "incomplete_availability": 641
+  },
+  "selected": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "weak": 30,
+      "strong": 30
+    },
+    "selection_cells": {
+      "borderline:none": 32,
+      "weak:none": 30,
+      "borderline:technical_gaps_experienced_tutor": 3,
+      "borderline:strong_preparation_limited_availability": 2,
+      "strong:none": 28,
+      "borderline:high_academics_no_teaching": 3,
+      "strong:lower_gpa_effective_teaching": 2
+    },
+    "graduate_degrees": {
+      "PhD in Computer Science": 54,
+      "MS in Computer Science": 46
+    },
+    "technical_by_teaching": {
+      "high:low": 10,
+      "adequate:high": 12,
+      "adequate:adequate": 13,
+      "low:low": 18,
+      "low:high": 5,
+      "high:high": 18,
+      "high:adequate": 9,
+      "adequate:low": 5,
+      "low:adequate": 10
+    },
+    "no_teaching_experience": 26,
+    "incomplete_availability": 6
+  },
+  "api_calls": 0,
+  "parameter_status": "Provisional study settings; the research plan supplies criteria, not numerical thresholds or applicant distributions."
+}

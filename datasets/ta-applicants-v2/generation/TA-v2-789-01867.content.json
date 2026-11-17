@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions on debugging and functions, helping peers trace short programs step by step.",
+        "Explained worked examples on debugging and functions under a course instructor's supervision as a peer programming mentor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling, using Git for the project.",
+        "Traced program behaviour using a debugger and documented the program structure and test cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python program functions for a set operation explorer.",
+        "Constructed examples and counterexamples for the represented rules and tested the implementation against hand-worked cases."
+      ]
+    }
+  ]
+}

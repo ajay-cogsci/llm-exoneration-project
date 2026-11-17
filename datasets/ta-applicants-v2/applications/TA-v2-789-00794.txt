@@ -1,0 +1,58 @@
+Applicant TA-v2-789-00794
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 3.03/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2020-05
+Data Structures: C+ | undergraduate, 2021-05
+Discrete Mathematics: C | undergraduate, 2020-11
+Web Programming: C+ | undergraduate, 2021-10
+Software Engineering: C+ | graduate, 2025-04
+
+TECHNICAL SKILLS
+CSS, Git, HTML, Java, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2022-09 to 2022-12 | 3 months; 15 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering variables and conditionals, along with lists and arrays.
+- Answered student questions during office hours and helped organise assignment materials and submission records.
+
+PROGRAMMING AND COURSE PROJECTS
+Task Queue | Data Structures, 2021-05
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Implemented linked structures and traversal operations for an individual task queue course project using Java and Git.
+- Documented operation costs and boundary cases for the task queue as part of the course project.
+Study Planner Interface | Web Programming, 2021-10
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: JavaScript, HTML, CSS
+- Built a local browser interface with form inputs using JavaScript, HTML, and CSS as a contribution to a team project.
+- Documented the study planner interface and its local data flow, and tested keyboard interaction and alternate input cases.
+String Utility Library Testing | Software Engineering, 2025-04
+Scope: individual graduate course project.
+Project tools: Java, Git
+- Wrote automated tests for a small string utility module in an individual course project using Java and Git.
+- Designed boundary and invalid-input test cases, and isolated a defect using a minimal reproducing example.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Task Queue': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Task Queue': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2022-09 to 2022-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

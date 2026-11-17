@@ -1,0 +1,52 @@
+Applicant TA-v2-456-00697
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.33/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C+ | undergraduate, 2020-05
+Data Structures: B+ | undergraduate, 2021-05
+Discrete Mathematics: B- | undergraduate, 2020-11
+Software Engineering: B | undergraduate, 2023-05
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-06 to 2021-08 | 2 months; 4 hours/week
+Peer Programming Mentor
+- Explained worked examples on variables, conditionals, and loops under a course instructor's supervision.
+- Helped peers trace short programs step by step and facilitated discussion of common programming errors.
+
+PROGRAMMING AND COURSE PROJECTS
+Set Operation Explorer | Discrete Mathematics, 2020-11
+Scope: individual undergraduate course project.
+Project tools: Java
+- Translated discrete mathematical definitions into Java program functions for an individual set operation explorer project.
+- Explained the connection between formal mathematical definitions and their implementation in the set operation explorer.
+String Utility Library | Software Engineering, 2023-05
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Wrote automated tests for a small string utility library module using Java and Git.
+- Isolated a defect in the string utility library by using a minimal reproducing example.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'String Utility Library': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'String Utility Library': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-06 to 2021-08 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

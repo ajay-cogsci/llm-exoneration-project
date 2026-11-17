@@ -1,0 +1,52 @@
+Applicant TA-v2-789-00829
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 2.96/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2021-05
+Data Structures: B- | undergraduate, 2022-05
+Discrete Mathematics: B | undergraduate, 2021-11
+Database Systems: B- | undergraduate, 2024-09
+
+TECHNICAL SKILLS
+Java, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-06 to 2021-08 | 2 months; 3 hours/week
+Peer Programming Mentoring
+- Facilitated discussion of common programming errors involving functions and loops as a peer mentor.
+- Supported beginner programming practice and helped peers trace short programs step by step.
+
+PROGRAMMING AND COURSE PROJECTS
+Course Enrolment Database | Database Systems, 2024-09
+Scope: individual undergraduate course project.
+Project tools: SQL, SQLite
+- Designed related tables and key constraints for course enrolment records using SQL and SQLite.
+- Wrote queries joining and aggregating sample records, and documented the schema and example queries.
+Truth-Table Explorer | Discrete Mathematics, 2021-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java
+- Constructed examples and counterexamples for represented rules as part of a team truth-table explorer project.
+- Translated discrete mathematical definitions into Java program functions and tested the implementation against hand-worked cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Course Enrolment Database': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Truth-Table Explorer': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-06 to 2021-08 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

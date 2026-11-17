@@ -1,0 +1,44 @@
+Applicant TA-v2-456-00777
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 2.95/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2021-05
+Data Structures: B- | undergraduate, 2022-05
+Discrete Mathematics: B- | undergraduate, 2021-11
+Software Engineering: B- | undergraduate, 2023-09
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+String Utility Library Testing | Software Engineering, 2023-09
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Wrote automated tests in Python for a small software module implementing a string utility library.
+- Documented expected behaviour and regression checks for the string utility library, using Git for the project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'String Utility Library Testing': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'String Utility Library Testing': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

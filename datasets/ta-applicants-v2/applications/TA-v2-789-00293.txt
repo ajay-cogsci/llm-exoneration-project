@@ -1,0 +1,57 @@
+Applicant TA-v2-789-00293
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 3.04/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2021-05
+Data Structures: B- | undergraduate, 2022-05
+Discrete Mathematics: A- | undergraduate, 2021-11
+Database Systems: B- | undergraduate, 2024-01
+
+TECHNICAL SKILLS
+Git, Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2022-09 to 2022-12 | 3 months; 6 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions focused on lists, arrays, and loops as a peer programming mentor.
+- Explained worked examples involving lists, arrays, and loops under a course instructor's supervision.
+
+PROGRAMMING AND COURSE PROJECTS
+Course Planner | Introduction to Programming, 2021-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Contributed to a team course planner project by implementing a menu-driven Python program using functions and collections.
+- Added input checks, handled invalid entries, and tested representative inputs while recording their expected outputs.
+Book Lending Records | Database Systems, 2024-01
+Scope: individual undergraduate course project.
+Project tools: SQL, SQLite
+- Designed related tables and key constraints for book lending records using SQL and SQLite.
+- Documented the book lending schema and example queries as part of the individual course project.
+Task Queue | Data Structures, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python, Git
+- Implemented linked structures and traversal operations in Python for a team task queue project using Git.
+- Compared alternative data structures for the recorded operations and wrote tests for insertion, lookup, and deletion.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Task Queue': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Book Lending Records': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2022-09 to 2022-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Binary File Reader",
+      "bullets": [
+        "Worked with C and Git on a binary file reader, documenting program structure and test cases.",
+        "Used a debugger to trace program behaviour and checked array bounds and error paths."
+      ]
+    }
+  ]
+}

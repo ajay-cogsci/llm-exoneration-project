@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Helped peers trace short programs step by step while working with lists and arrays.",
+        "Facilitated discussion of common programming errors in peer mentoring activities focused on debugging."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on lists, arrays, and functions for use in individual tutoring sessions.",
+        "Asked learners to explain the steps in their solutions during individual programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Traced program behaviour using a debugger for an individual command-line text utility course project in C.",
+        "Checked array bounds and error paths for the command-line text utility, using Git for the project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Prerequisite Graph",
+      "bullets": [
+        "Represented course prerequisite connections using adjacency lists in an individual course project using Python and Git.",
+        "Explained algorithm choices and computational complexity, and tested connected, disconnected, and cyclic examples."
+      ]
+    }
+  ]
+}

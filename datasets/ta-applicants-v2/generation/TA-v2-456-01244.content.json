@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Task Queue",
+      "bullets": [
+        "Implemented linked structures and traversal operations for a team task queue project using Python and Git.",
+        "Documented operation costs and boundary cases, and compared alternative data structures for the recorded task queue operations."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser in Python using functions and collections, with input checks and handling for invalid entries.",
+        "Tested representative inputs for the recipe organiser and recorded the expected outputs for those inputs."
+      ]
+    }
+  ]
+}

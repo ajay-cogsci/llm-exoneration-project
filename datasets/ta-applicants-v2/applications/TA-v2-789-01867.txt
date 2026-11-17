@@ -1,0 +1,52 @@
+Applicant TA-v2-789-01867
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 3.64/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2020-05
+Data Structures: A- | undergraduate, 2021-05
+Discrete Mathematics: A- | undergraduate, 2020-11
+Computer Systems: A- | undergraduate, 2022-04
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 8 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions on debugging and functions, helping peers trace short programs step by step.
+- Explained worked examples on debugging and functions under a course instructor's supervision as a peer programming mentor.
+
+PROGRAMMING AND COURSE PROJECTS
+Command-Line Text Utility | Computer Systems, 2022-04
+Scope: individual undergraduate course project.
+Project tools: C, Git
+- Implemented a small command-line text utility in C with explicit memory handling, using Git for the project.
+- Traced program behaviour using a debugger and documented the program structure and test cases.
+Set Operation Explorer | Discrete Mathematics, 2020-11
+Scope: individual undergraduate course project.
+Project tools: Python
+- Translated discrete mathematical definitions into Python program functions for a set operation explorer.
+- Constructed examples and counterexamples for the represented rules and tested the implementation against hand-worked cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Set Operation Explorer': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Set Operation Explorer': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2023-01 to 2023-05 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

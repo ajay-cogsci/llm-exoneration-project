@@ -1,0 +1,58 @@
+Applicant TA-v2-123-01547
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.85/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2021-05
+Data Structures: A- | undergraduate, 2022-05
+Discrete Mathematics: A | undergraduate, 2021-11
+Database Systems: A | undergraduate, 2023-02
+Web Programming: B | undergraduate, 2022-09
+
+TECHNICAL SKILLS
+CSS, HTML, JavaScript, Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 15 hours/week
+Introductory Programming Lab Assistance
+- Assisted introductory programming lab sessions covering lists and arrays, along with functions.
+- Graded programming exercises using an instructor-provided rubric and helped organise assignment materials and submission records.
+Teaching Assistant, University Programming Support Programme | 2023-06 to 2023-08 | 2 months; 15 hours/week
+Introductory Programming Lab Assistance
+- Assisted introductory programming lab sessions covering lists and arrays, along with loops.
+- Graded programming exercises using an instructor-provided rubric and helped organise assignment materials and submission records.
+
+PROGRAMMING AND COURSE PROJECTS
+Book Lending Database | Database Systems, 2023-02
+Scope: individual undergraduate course project.
+Project tools: SQL, SQLite
+- Designed related tables and key constraints for book lending records using SQL and SQLite.
+- Documented the schema and example queries for the book lending records course project.
+Study Planner Interface | Web Programming, 2022-09
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: JavaScript, HTML, CSS
+- Implemented event handling and input validation for a team study planner interface using JavaScript, HTML, and CSS.
+- Documented the study planner interface and its local data flow as a contribution to the team project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study Planner Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Study Planner Interface': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2023-01 to 2023-05 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Teaching Assistant, 2023-06 to 2023-08 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

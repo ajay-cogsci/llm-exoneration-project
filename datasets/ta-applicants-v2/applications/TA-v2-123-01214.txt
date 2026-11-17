@@ -1,0 +1,58 @@
+Applicant TA-v2-123-01214
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2017-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 2.93/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2018-05
+Data Structures: B | undergraduate, 2019-05
+Discrete Mathematics: B+ | undergraduate, 2018-11
+Web Programming: B | undergraduate, 2021-11
+Software Engineering: B- | undergraduate, 2021-01
+
+TECHNICAL SKILLS
+C++, CSS, Git, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 20 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering lists, arrays, and loops, and answered student questions during office hours.
+- Prepared worked examples on lists, arrays, and loops for review by the supervising course instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Flashcard Practice Interface | Web Programming, 2021-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: JavaScript, HTML, CSS
+- Contributed event handling and input validation to a team flashcard practice interface using JavaScript, HTML, and CSS.
+- Tested keyboard interaction and alternate input cases for the flashcard practice interface as part of the team project.
+Date Parser Testing | Software Engineering, 2021-01
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Isolated a defect in a date parser using a minimal reproducing example for an individual course project.
+- Wrote automated tests for a small date parser software module using C++ and Git.
+Document Lookup Data Structures | Data Structures, 2019-05
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Compared alternative data structures for document lookup operations and documented operation costs and boundary cases.
+- Wrote tests for insertion, lookup, and deletion in an individual document lookup project using C++ and Git.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Date Parser Testing': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Flashcard Practice Interface': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2021-01 to 2021-05 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,52 @@
+Applicant TA-v2-123-01626
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 2.82/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C | undergraduate, 2022-05
+Data Structures: C+ | undergraduate, 2023-05
+Discrete Mathematics: B- | undergraduate, 2022-11
+Web Programming: C+ | undergraduate, 2024-10
+
+TECHNICAL SKILLS
+C++, CSS, Git, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2022-09 to 2022-12 | 3 months; 6 hours/week
+Introductory Programming Lab Assistance
+- Assisted with introductory programming lab sessions covering loops and debugging as a teaching assistant.
+- Helped organise assignment materials and submission records for the introductory programming lab sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Event Ordering Data Structures | Data Structures, 2023-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++, Git
+- Implemented linked structures and traversal operations in C++ as part of a team event ordering course project.
+- Compared alternative data structures for the recorded event ordering operations; project tools included Git.
+Flashcard Practice Interface | Web Programming, 2024-10
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Documented the flashcard practice interface and its local data flow in a JavaScript, HTML, and CSS course project.
+- Tested keyboard interaction and alternate input cases for the individual flashcard practice interface project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Flashcard Practice Interface': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Event Ordering Data Structures': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2022-09 to 2022-12 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving functions and loops as a peer mentor.",
+        "Supported beginner programming practice and helped peers trace short programs step by step."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Enrolment Database",
+      "bullets": [
+        "Designed related tables and key constraints for course enrolment records using SQL and SQLite.",
+        "Wrote queries joining and aggregating sample records, and documented the schema and example queries."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Constructed examples and counterexamples for represented rules as part of a team truth-table explorer project.",
+        "Translated discrete mathematical definitions into Java program functions and tested the implementation against hand-worked cases."
+      ]
+    }
+  ]
+}

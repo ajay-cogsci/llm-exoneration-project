@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Campus Route Finder",
+      "bullets": [
+        "Explained algorithm choices and computational complexity as a contributor to a team campus route finder project.",
+        "Tested connected, disconnected, and cyclic examples for the team project, which used Java and Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Isolated a date parser defect using a minimal reproducing example in an individual project using Java and Git.",
+        "Wrote automated tests for a small software module and designed boundary and invalid-input test cases for the date parser."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+Applicant TA-v2-789-00286
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2017-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.24/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2018-05
+Data Structures: A | undergraduate, 2019-05
+Discrete Mathematics: A | undergraduate, 2018-11
+Web Programming: B+ | undergraduate, 2021-11
+
+TECHNICAL SKILLS
+CSS, HTML, JavaScript, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 6 hours/week
+Programming Tutor
+- Discussed debugging approaches during tutoring sessions covering loops, variables, and conditionals in programming.
+- Asked learners to explain the steps in their solutions involving loops, variables, and conditionals.
+Teaching Assistant, University Programming Support Programme | 2022-01 to 2022-05 | 4 months; 10 hours/week
+Teaching Assistant
+- Helped organise assignment materials and submission records for assignments on functions and debugging.
+- Prepared worked examples on functions and debugging for review by the supervising course instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Graph Property Checker | Discrete Mathematics, 2018-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Explained the connection between formal definitions and the Python implementation as a contribution to the team's graph property checker project.
+- Constructed examples and counterexamples for the represented rules and tested the implementation against hand-worked cases.
+Local Book Search Interface | Web Programming, 2021-11
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Built a local browser interface for book searches with form inputs using JavaScript, HTML, and CSS.
+- Documented the interface and its local data flow for the individual book search interface project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Local Book Search Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Graph Property Checker': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2021-01 to 2021-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Teaching Assistant, 2022-01 to 2022-05 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

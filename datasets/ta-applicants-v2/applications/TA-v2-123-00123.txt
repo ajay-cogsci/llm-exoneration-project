@@ -1,0 +1,52 @@
+Applicant TA-v2-123-00123
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.66/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2019-05
+Data Structures: A | undergraduate, 2020-05
+Discrete Mathematics: A- | undergraduate, 2019-11
+Software Engineering: A | undergraduate, 2020-09
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 4 hours/week
+Peer Programming Mentor
+- Facilitated discussion of common programming errors involving lists and arrays, alongside discussion of debugging.
+- Explained worked examples on lists, arrays, and debugging under a course instructor's supervision.
+
+PROGRAMMING AND COURSE PROJECTS
+Library Catalogue Program | Introduction to Programming, 2019-05
+Scope: individual undergraduate course project.
+Project tools: Python
+- Implemented a menu-driven library catalogue program in Python, using functions and collections.
+- Added input checks to the library catalogue program and handled invalid entries in Python.
+String Utility Library Testing | Software Engineering, 2020-09
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python, Git
+- Contributed to a string utility library team project using Python and Git, isolating a defect with a minimal reproducing example.
+- Designed boundary and invalid-input test cases for the string utility library, and documented expected behaviour and regression checks.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Library Catalogue Program': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Library Catalogue Program': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-01 to 2021-05 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

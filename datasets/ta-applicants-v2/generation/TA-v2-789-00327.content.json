@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Graded programming exercises on lists, arrays, and functions using a rubric provided by the instructor.",
+        "Prepared worked examples for instructor review and answered student questions during office hours on lists, arrays, and functions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on loops and debugging for use during individual programming tutoring sessions.",
+        "Discussed debugging approaches during individual tutoring sessions covering programming topics including loops and debugging."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Quiz Practice Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a quiz practice interface using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into C++ program functions for a set operation explorer.",
+        "Tested the set operation explorer implementation against hand-worked cases as part of an individual course project."
+      ]
+    }
+  ]
+}

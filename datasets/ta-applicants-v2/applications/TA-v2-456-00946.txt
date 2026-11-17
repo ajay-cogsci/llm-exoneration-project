@@ -1,0 +1,49 @@
+Applicant TA-v2-456-00946
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 3.61/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2020-05
+Data Structures: B+ | undergraduate, 2021-05
+Discrete Mathematics: B+ | undergraduate, 2020-11
+Algorithms: B- | graduate, 2024-11
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Event Ordering Data Structures | Data Structures, 2021-05
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Compared alternative data structures for event ordering operations in an individual course project.
+- Wrote tests for insertion, lookup, and deletion, using Java and Git for the event ordering project.
+Dependency Ordering Algorithms | Algorithms, 2024-11
+Scope: individual graduate course project.
+Project tools: Java, Git
+- Implemented graph traversal and a route or ordering routine for dependency ordering in an individual course project using Java and Git.
+- Explained algorithm choices and computational complexity, and tested connected, disconnected, and cyclic examples.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Event Ordering Data Structures': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Dependency Ordering Algorithms': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

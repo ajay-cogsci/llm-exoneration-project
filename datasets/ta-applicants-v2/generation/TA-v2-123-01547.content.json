@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Lab Assistance",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering lists and arrays, along with functions.",
+        "Graded programming exercises using an instructor-provided rubric and helped organise assignment materials and submission records."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Lab Assistance",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering lists and arrays, along with loops.",
+        "Graded programming exercises using an instructor-provided rubric and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Book Lending Database",
+      "bullets": [
+        "Designed related tables and key constraints for book lending records using SQL and SQLite.",
+        "Documented the schema and example queries for the book lending records course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a team study planner interface using JavaScript, HTML, and CSS.",
+        "Documented the study planner interface and its local data flow as a contribution to the team project."
+      ]
+    }
+  ]
+}

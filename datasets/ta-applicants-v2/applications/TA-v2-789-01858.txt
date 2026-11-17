@@ -1,0 +1,50 @@
+Applicant TA-v2-789-01858
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 3.17/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2022-05
+Data Structures: B | undergraduate, 2023-05
+Discrete Mathematics: C | undergraduate, 2022-11
+Algorithms: B+ | undergraduate, 2024-10
+Web Programming: B | undergraduate, 2024-07
+
+TECHNICAL SKILLS
+CSS, Git, HTML, JavaScript, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Maze Traversal | Algorithms, 2024-10
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Represented maze connections using adjacency lists in Python for an individual course project.
+- Tested connected, disconnected, and cyclic examples as part of the maze traversal project.
+Study Planner Interface | Web Programming, 2024-07
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: JavaScript, HTML, CSS
+- Built a local study planner browser interface with form inputs using JavaScript, HTML, and CSS as a team project contribution.
+- Implemented event handling and input validation, and documented the interface and its local data flow.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study Planner Interface': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Study Planner Interface': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

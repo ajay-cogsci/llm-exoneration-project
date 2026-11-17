@@ -1,0 +1,57 @@
+Applicant TA-v2-456-00606
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.52/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2022-05
+Data Structures: B- | undergraduate, 2023-05
+Discrete Mathematics: B | undergraduate, 2022-11
+Software Engineering: B | undergraduate, 2024-12
+
+TECHNICAL SKILLS
+C++, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 6 hours/week
+Programming Teaching Assistant
+- Answered student questions about debugging and loops during assigned office hours sessions.
+- Graded programming exercises using an instructor-provided rubric and prepared worked examples for instructor review.
+
+PROGRAMMING AND COURSE PROJECTS
+Calculator Module Testing | Software Engineering, 2024-12
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++, Git
+- Wrote automated tests for a small calculator module using C++ and Git as a team project contributor.
+- Designed boundary and invalid-input test cases, and documented expected behaviour and regression checks for the calculator module.
+Set Operation Explorer | Discrete Mathematics, 2022-11
+Scope: individual undergraduate course project.
+Project tools: C++
+- Translated discrete mathematical definitions into C++ program functions for an individual set operation explorer project.
+- Explained the connection between formal definitions and implementation, and tested the implementation against hand-worked cases.
+Recipe Organiser | Introduction to Programming, 2022-05
+Scope: individual undergraduate course project.
+Project tools: C++
+- Implemented a menu-driven recipe organiser in C++ using functions and collections for an individual course project.
+- Tested representative inputs, recorded expected outputs, and documented how recipe records are added, searched and updated.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Calculator Module Testing': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Set Operation Explorer': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2025-09 to 2025-12 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

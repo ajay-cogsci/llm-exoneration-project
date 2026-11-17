@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Enrolment Records",
+      "bullets": [
+        "Documented the schema and example queries for course enrolment records as a contribution to a team course project.",
+        "Wrote SQL queries joining and aggregating sample course enrolment records using SQLite."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a menu-driven study-session scheduler in Java using functions and collections, adding input checks.",
+        "Handled invalid entries and documented how study-session records are added, searched, and updated."
+      ]
+    }
+  ]
+}

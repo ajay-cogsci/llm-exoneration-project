@@ -1,0 +1,50 @@
+Applicant TA-v2-789-00345
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 3.00/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2020-05
+Data Structures: B | undergraduate, 2021-05
+Discrete Mathematics: C+ | undergraduate, 2020-11
+Software Engineering: B | undergraduate, 2024-01
+Computer Systems: B- | graduate, 2025-12
+
+TECHNICAL SKILLS
+C, Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+String Utility Library Testing | Software Engineering, 2024-01
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Documented expected behaviour and regression checks for a string utility library course project.
+- Wrote automated tests for a small software module in the string utility library using Java and Git.
+Memory Allocation Exercise | Computer Systems, 2025-12
+Scope: individual graduate course project.
+Project tools: C, Git
+- Implemented a small systems program with explicit memory handling for a memory allocation exercise using C and Git.
+- Checked array bounds and error paths in the systems program for the memory allocation exercise.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Memory Allocation Exercise': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Memory Allocation Exercise': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

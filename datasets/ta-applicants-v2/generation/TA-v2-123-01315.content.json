@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Checked array bounds and error paths in a command-line text utility written in C as a team project contribution.",
+        "Traced program behaviour using a debugger and documented the program structure and test cases."
+      ]
+    }
+  ]
+}

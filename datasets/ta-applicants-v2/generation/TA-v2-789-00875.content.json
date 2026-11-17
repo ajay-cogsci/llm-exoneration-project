@@ -1,0 +1,46 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Supported beginner programming practice sessions covering loops and functions as a peer mentor.",
+        "Explained worked examples on loops and functions under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Assistance",
+      "bullets": [
+        "Graded programming exercises covering loops and debugging according to an instructor-provided assessment rubric.",
+        "Assisted introductory programming lab sessions and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Flashcard Practice Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a flashcard practice interface using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow for the flashcard practice course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Date Parser Testing",
+      "bullets": [
+        "Wrote automated tests for a small date parser software module using C++ and Git.",
+        "Isolated a defect in the date parser using a minimal reproducing example."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Maze Traversal Algorithms",
+      "bullets": [
+        "Implemented graph traversal and a route or ordering routine for maze traversal using C++ and Git.",
+        "Represented maze connections using adjacency lists and explained algorithm choices and computational complexity."
+      ]
+    }
+  ]
+}

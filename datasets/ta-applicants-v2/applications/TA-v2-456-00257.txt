@@ -1,0 +1,58 @@
+Applicant TA-v2-456-00257
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.27/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2021-05
+Data Structures: C | undergraduate, 2022-05
+Discrete Mathematics: B | undergraduate, 2021-11
+Algorithms: B | graduate, 2025-12
+Web Programming: B | undergraduate, 2022-11
+
+TECHNICAL SKILLS
+C++, CSS, Git, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2021-09 to 2021-12 | 3 months; 15 hours/week
+Programming Teaching Assistance
+- Prepared worked examples on functions, lists, and arrays for review by the course instructor.
+- Helped organise assignment materials and submission records for the assigned programming topics.
+
+PROGRAMMING AND COURSE PROJECTS
+Graph Property Checker | Discrete Mathematics, 2021-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++
+- Constructed examples and counterexamples for the represented rules in the team's C++ graph property checker.
+- Tested the implementation against hand-worked cases and explained the connection between formal definitions and implementation.
+Course Prerequisite Graph | Algorithms, 2025-12
+Scope: team graduate course project; listed tasks are the applicant's contribution.
+Project tools: C++, Git
+- Represented course prerequisite connections using adjacency lists in C++ as part of the team project.
+- Explained algorithm choices and computational complexity for the course prerequisite graph project, which used Git.
+Local Book Search Interface | Web Programming, 2022-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: JavaScript, HTML, CSS
+- Built a local browser interface with form inputs for the team's book search project using JavaScript, HTML, and CSS.
+- Implemented event handling and input validation, and documented the interface and its local data flow.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Local Book Search Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Course Prerequisite Graph': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2021-09 to 2021-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

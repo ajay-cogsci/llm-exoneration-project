@@ -1,0 +1,52 @@
+Applicant TA-v2-123-01231
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2018-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.06/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2019-05
+Data Structures: B- | undergraduate, 2020-05
+Discrete Mathematics: B | undergraduate, 2019-11
+Web Programming: B+ | undergraduate, 2021-03
+
+TECHNICAL SKILLS
+CSS, HTML, JavaScript, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 20 hours/week
+Programming Teaching Assistant
+- Graded programming exercises on variables, conditionals, lists and arrays using an instructor-provided rubric.
+- Prepared worked examples covering these programming topics for review by the course instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Recipe Organiser | Introduction to Programming, 2019-05
+Scope: individual undergraduate course project.
+Project tools: Python
+- Implemented a menu-driven recipe organiser in Python using functions and collections for an individual course project.
+- Documented how recipe records are added, searched and updated within the menu-driven program.
+Quiz Practice Interface | Web Programming, 2021-03
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Built a local quiz practice browser interface with form inputs using JavaScript, HTML and CSS.
+- Implemented event handling and input validation, and tested keyboard interaction and alternate input cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Quiz Practice Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Quiz Practice Interface': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2025-09 to 2025-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

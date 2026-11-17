@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions focused on lists, arrays, and loops as a peer programming mentor.",
+        "Explained worked examples involving lists, arrays, and loops under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Planner",
+      "bullets": [
+        "Contributed to a team course planner project by implementing a menu-driven Python program using functions and collections.",
+        "Added input checks, handled invalid entries, and tested representative inputs while recording their expected outputs."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Book Lending Records",
+      "bullets": [
+        "Designed related tables and key constraints for book lending records using SQL and SQLite.",
+        "Documented the book lending schema and example queries as part of the individual course project."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Task Queue",
+      "bullets": [
+        "Implemented linked structures and traversal operations in Python for a team task queue project using Git.",
+        "Compared alternative data structures for the recorded operations and wrote tests for insertion, lookup, and deletion."
+      ]
+    }
+  ]
+}

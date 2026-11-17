@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving lists, arrays, variables, and conditionals as a peer programming mentor.",
+        "Supported beginner programming practice sessions covering variables and conditionals alongside lists and arrays."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Constructed examples and counterexamples for the rules represented in a Java graph property checker.",
+        "Explained the connection between formal definitions and implementation for the graph property checker in an individual course project."
+      ]
+    }
+  ]
+}

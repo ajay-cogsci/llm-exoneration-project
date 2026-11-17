@@ -1,0 +1,49 @@
+Applicant TA-v2-123-00982
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 2.95/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2020-05
+Data Structures: A- | undergraduate, 2021-05
+Discrete Mathematics: B+ | undergraduate, 2020-11
+Algorithms: C+ | undergraduate, 2022-02
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Course Prerequisite Graph | Algorithms, 2022-02
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Used Java and Git for a course prerequisite graph project, representing connections with adjacency lists.
+- Tested connected, disconnected, and cyclic examples, and explained algorithm choices and computational complexity.
+Study-Session Scheduler | Introduction to Programming, 2020-05
+Scope: individual undergraduate course project.
+Project tools: Java
+- Implemented a menu-driven study-session scheduler in Java using functions and collections, with input checks and handling for invalid entries.
+- Tested representative inputs for the study-session scheduler and recorded the expected outputs for those inputs.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Course Prerequisite Graph': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

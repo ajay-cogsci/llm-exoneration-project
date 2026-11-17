@@ -1,0 +1,57 @@
+Applicant TA-v2-789-00327
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.76/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2020-05
+Data Structures: B | undergraduate, 2021-05
+Discrete Mathematics: B | undergraduate, 2020-11
+Web Programming: B+ | undergraduate, 2023-05
+
+TECHNICAL SKILLS
+C++, CSS, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2021-09 to 2021-12 | 3 months; 10 hours/week
+Programming Teaching Assistant
+- Graded programming exercises on lists, arrays, and functions using a rubric provided by the instructor.
+- Prepared worked examples for instructor review and answered student questions during office hours on lists, arrays, and functions.
+Programming Tutor, University Programming Support Programme | 2023-01 to 2023-05 | 4 months; 3 hours/week
+Programming Tutor
+- Prepared practice questions on loops and debugging for use during individual programming tutoring sessions.
+- Discussed debugging approaches during individual tutoring sessions covering programming topics including loops and debugging.
+
+PROGRAMMING AND COURSE PROJECTS
+Quiz Practice Interface | Web Programming, 2023-05
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Implemented event handling and input validation for a quiz practice interface using JavaScript, HTML, and CSS.
+- Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases.
+Set Operation Explorer | Discrete Mathematics, 2020-11
+Scope: individual undergraduate course project.
+Project tools: C++
+- Translated discrete mathematical definitions into C++ program functions for a set operation explorer.
+- Tested the set operation explorer implementation against hand-worked cases as part of an individual course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Set Operation Explorer': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Set Operation Explorer': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2021-09 to 2021-12 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Programming Tutor, 2023-01 to 2023-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

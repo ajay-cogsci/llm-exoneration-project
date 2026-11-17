@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Flashcard Practice Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a flashcard practice interface using JavaScript, HTML, and CSS.",
+        "Tested keyboard interaction and alternate input cases, and documented the interface and its local data flow."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Planner",
+      "bullets": [
+        "Implemented a menu-driven course planner in Python, using functions and collections for the program.",
+        "Tested representative inputs for the course planner and recorded the expected outputs for those inputs."
+      ]
+    }
+  ]
+}

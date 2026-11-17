@@ -1,0 +1,42 @@
+Applicant TA-v1-456-00742
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 3.59/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (A); Data Structures (A); Discrete Mathematics (A-); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2024-12 to 2025-05 | 5 months; 8 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering variables and conditionals, as well as lists and dictionaries.
+- Answered student questions during office hours and graded programming exercises using an instructor-provided rubric.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Programming Tutor, University Programming Support Programme | 2025-06 to 2025-11 | 5 months; 6 hours/week
+Beginning Programming Tutor
+- Guided beginning programmers through practice exercises covering lists and dictionaries during tutoring sessions.
+- Discussed approaches to debugging during tutoring sessions while guiding beginning programmers through practice exercises.
+Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+PROGRAMMING PROJECT
+Quiz Practice Tool | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line quiz practice program in Python using functions and collections.
+- Used Git for the project, tested example inputs, and documented the quiz practice program's behaviour.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Quiz Practice Tool': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Quiz Practice Tool': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

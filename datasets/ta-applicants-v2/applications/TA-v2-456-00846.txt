@@ -1,0 +1,49 @@
+Applicant TA-v2-456-00846
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.15/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2021-05
+Data Structures: B | undergraduate, 2022-05
+Discrete Mathematics: A- | undergraduate, 2021-11
+Software Engineering: A- | undergraduate, 2023-01
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+String Utility Library Testing | Software Engineering, 2023-01
+Scope: individual undergraduate course project.
+Project tools: Java, Git
+- Wrote automated tests for a small string utility library module in an individual course project.
+- Isolated a defect using a minimal reproducing example; project tools included Java and Git.
+Task Queue Implementation | Data Structures, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java, Git
+- Implemented linked structures and traversal operations in Java as a contribution to the task queue team project.
+- Documented operation costs and boundary cases, and wrote tests for insertion, lookup, and deletion; project tools included Git.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Task Queue Implementation': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'String Utility Library Testing': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

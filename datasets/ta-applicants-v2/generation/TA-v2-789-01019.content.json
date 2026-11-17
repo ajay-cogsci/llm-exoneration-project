@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions during office hours on introductory programming topics, including lists, arrays, and loops.",
+        "Assisted introductory programming lab sessions and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Catalogue",
+      "bullets": [
+        "Documented how records are added, searched, and updated in a Java library catalogue course project.",
+        "Tested representative inputs and recorded expected outputs, added input checks, and handled invalid entries."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Tested the Java set operation explorer against hand-worked cases and constructed examples and counterexamples for the represented rules.",
+        "Explained the connection between formal definitions and their implementation in the set operation explorer."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Lab Support",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering debugging and functions, and answered student questions during office hours.",
+        "Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant activities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game using Python functions and collections for an individual undergraduate course project.",
+        "Tested example inputs and documented the program's behaviour, using Git within the course project."
+      ]
+    }
+  ]
+}

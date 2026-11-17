@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor: Functions and Loops",
+      "bullets": [
+        "Guided beginning programmers through practice exercises focused on functions and loops during tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions covering practice exercises involving functions and loops."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor: Functions and Collections",
+      "bullets": [
+        "Guided beginning programmers through practice exercises focused on functions, lists and dictionaries during tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions covering practice exercises involving functions, lists and dictionaries."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Recipe Organiser",
+      "bullets": [
+        "Implemented a small command-line recipe organiser in Python using functions and collections.",
+        "Tested example inputs and documented the program's behaviour, using Git for the individual course project."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions and prepared worked examples on variables, conditionals, and loops for instructor review.",
+        "Answered student questions during office hours about introductory programming topics, including variables, conditionals, and loops."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples involving functions, variables, and conditionals under a course instructor's supervision.",
+        "Supported beginner practice sessions focused on programming with functions, variables, and conditionals."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Translated discrete mathematical definitions into C++ program functions as a contribution to a team graph property checker project.",
+        "Tested the implementation against hand-worked cases and constructed examples and counterexamples for the represented rules."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Contact Index",
+      "bullets": [
+        "Implemented linked structures and traversal operations for an individual contact index project using C++ and Git.",
+        "Documented operation costs and boundary cases, and wrote tests for insertion, lookup, and deletion."
+      ]
+    }
+  ]
+}

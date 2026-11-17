@@ -1,0 +1,44 @@
+Applicant TA-v2-123-01315
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2017-09 to 2021-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.45/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2018-05
+Data Structures: B- | undergraduate, 2019-05
+Discrete Mathematics: A- | undergraduate, 2018-11
+Computer Systems: B+ | undergraduate, 2021-01
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Command-Line Text Utility | Computer Systems, 2021-01
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C, Git
+- Checked array bounds and error paths in a command-line text utility written in C as a team project contribution.
+- Traced program behaviour using a debugger and documented the program structure and test cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Text Utility': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Text Utility': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

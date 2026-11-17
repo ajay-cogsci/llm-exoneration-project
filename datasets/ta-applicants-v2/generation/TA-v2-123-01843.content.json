@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving functions and debugging as a peer programming mentor.",
+        "Explained worked examples on functions and debugging under the supervision of a course instructor."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Asked learners to explain the steps in their solutions involving lists, arrays, and loops.",
+        "Prepared practice questions for individual tutoring sessions and discussed debugging approaches during those sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Explained the connection between formal definitions and the Python implementation of a set operation explorer.",
+        "Constructed examples and counterexamples for the rules represented within the set operation explorer."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling, using Git.",
+        "Documented the program structure and test cases, and checked array bounds and error paths."
+      ]
+    }
+  ]
+}

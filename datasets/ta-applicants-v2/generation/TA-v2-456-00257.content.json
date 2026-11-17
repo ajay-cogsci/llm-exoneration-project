@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistance",
+      "bullets": [
+        "Prepared worked examples on functions, lists, and arrays for review by the course instructor.",
+        "Helped organise assignment materials and submission records for the assigned programming topics."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Constructed examples and counterexamples for the represented rules in the team's C++ graph property checker.",
+        "Tested the implementation against hand-worked cases and explained the connection between formal definitions and implementation."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Prerequisite Graph",
+      "bullets": [
+        "Represented course prerequisite connections using adjacency lists in C++ as part of the team project.",
+        "Explained algorithm choices and computational complexity for the course prerequisite graph project, which used Git."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Local Book Search Interface",
+      "bullets": [
+        "Built a local browser interface with form inputs for the team's book search project using JavaScript, HTML, and CSS.",
+        "Implemented event handling and input validation, and documented the interface and its local data flow."
+      ]
+    }
+  ]
+}

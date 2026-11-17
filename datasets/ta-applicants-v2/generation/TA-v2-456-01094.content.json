@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner practice sessions on loops and debugging as a peer programming mentor.",
+        "Facilitated discussion of common programming errors and helped peers trace short programs step by step."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Contributed to a team string utility library project using Python and Git, documenting expected behaviour and regression checks.",
+        "Isolated a defect using a minimal reproducing example and designed boundary and invalid-input test cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Maze Traversal",
+      "bullets": [
+        "Implemented graph traversal and a route or ordering routine for an individual maze traversal project using Python and Git.",
+        "Represented maze connections using adjacency lists and explained algorithm choices and computational complexity."
+      ]
+    }
+  ]
+}

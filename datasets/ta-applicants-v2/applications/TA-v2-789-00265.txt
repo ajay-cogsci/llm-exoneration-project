@@ -1,0 +1,54 @@
+Applicant TA-v2-789-00265
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2017-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2023-09 to 2028-05 (enrolled; expected completion)
+Undergraduate GPA: 3.49/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2018-05
+Data Structures: B- | undergraduate, 2019-05
+Discrete Mathematics: B+ | undergraduate, 2018-11
+Algorithms: C+ | graduate, 2025-02
+
+TECHNICAL SKILLS
+Git, Java
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Contact Index | Data Structures, 2019-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java, Git
+- Compared alternative data structures for the recorded contact index operations as a contribution to a team course project.
+- Implemented linked structures and traversal operations in Java for the team's contact index project, using Git.
+Course Planner | Introduction to Programming, 2018-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Java
+- Implemented a menu-driven course planner in Java using functions and collections as a contribution to a team course project.
+- Tested representative inputs, recorded expected outputs, and documented how course planner records are added, searched, and updated.
+Course Prerequisite Graph | Algorithms, 2025-02
+Scope: individual graduate course project.
+Project tools: Java, Git
+- Tested connected, disconnected, and cyclic examples for an individual course prerequisite graph project using Java and Git.
+- Explained algorithm choices and computational complexity for the course prerequisite graph in the individual course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Course Prerequisite Graph': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Course Planner': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

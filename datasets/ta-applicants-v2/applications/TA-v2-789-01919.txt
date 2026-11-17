@@ -1,0 +1,49 @@
+Applicant TA-v2-789-01919
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-05 (enrolled; expected completion)
+Undergraduate GPA: 3.29/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: C | undergraduate, 2021-05
+Data Structures: C+ | undergraduate, 2022-05
+Discrete Mathematics: B+ | undergraduate, 2021-11
+Database Systems: B | undergraduate, 2022-10
+
+TECHNICAL SKILLS
+Java, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Course Enrolment Records | Database Systems, 2022-10
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: SQL, SQLite
+- Documented the schema and example queries for course enrolment records as a contribution to a team course project.
+- Wrote SQL queries joining and aggregating sample course enrolment records using SQLite.
+Study-Session Scheduler | Introduction to Programming, 2021-05
+Scope: individual undergraduate course project.
+Project tools: Java
+- Implemented a menu-driven study-session scheduler in Java using functions and collections, adding input checks.
+- Handled invalid entries and documented how study-session records are added, searched, and updated.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Study-Session Scheduler': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

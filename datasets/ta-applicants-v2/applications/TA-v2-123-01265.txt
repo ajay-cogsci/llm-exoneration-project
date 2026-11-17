@@ -1,0 +1,47 @@
+Applicant TA-v2-123-01265
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 2.93/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B- | undergraduate, 2020-05
+Data Structures: C+ | undergraduate, 2021-05
+Discrete Mathematics: C+ | undergraduate, 2020-11
+Algorithms: C+ | undergraduate, 2022-05
+
+TECHNICAL SKILLS
+C++, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 8 hours/week
+Programming Tutoring
+- Guided beginning programmers through practice exercises on functions and debugging during tutoring sessions.
+- Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions.
+
+PROGRAMMING AND COURSE PROJECTS
+Maze Traversal | Algorithms, 2022-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++, Git
+- Contributed to a team project using C++ and Git by implementing graph traversal and a route or ordering routine for maze traversal.
+- Tested connected, disconnected, and cyclic examples, and explained algorithm choices and computational complexity.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Maze Traversal': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Maze Traversal': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2021-01 to 2021-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

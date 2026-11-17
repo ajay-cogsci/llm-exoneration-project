@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions for individual tutoring sessions covering variables and conditionals, lists, and arrays.",
+        "Guided beginning programmers through practice exercises and discussed debugging approaches during tutoring sessions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Prepared practice questions on debugging, variables, and conditionals for use in individual tutoring sessions.",
+        "Guided beginning programmers through practice exercises focused on debugging and using variables and conditionals."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Truth-Table Explorer",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python functions for a truth-table explorer as part of a team project.",
+        "Explained the connection between formal definitions and implementation, and tested the implementation against hand-worked cases."
+      ]
+    }
+  ]
+}

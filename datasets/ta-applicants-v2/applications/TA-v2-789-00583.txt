@@ -1,0 +1,49 @@
+Applicant TA-v2-789-00583
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2017-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (enrolled; expected completion)
+Undergraduate GPA: 2.99/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2018-05
+Data Structures: B- | undergraduate, 2019-05
+Discrete Mathematics: B+ | undergraduate, 2018-11
+Computer Systems: B | undergraduate, 2021-10
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Study-Session Scheduler | Introduction to Programming, 2018-05
+Scope: individual undergraduate course project.
+Project tools: Python
+- Implemented a menu-driven study-session scheduler in Python using functions and collections for an individual course project.
+- Added input checks, handled invalid entries, tested representative inputs, and recorded expected outputs for the scheduler.
+Contact Index | Data Structures, 2019-05
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Used Python and Git for a contact index project, implementing linked structures and traversal operations.
+- Wrote tests for insertion, lookup, and deletion, and documented operation costs and boundary cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Contact Index': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

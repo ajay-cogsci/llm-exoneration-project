@@ -1,0 +1,47 @@
+Applicant TA-v2-789-00232
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 3.36/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2020-05
+Data Structures: A | undergraduate, 2021-05
+Discrete Mathematics: A | undergraduate, 2020-11
+Computer Systems: B- | undergraduate, 2022-10
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2021-09 to 2021-12 | 3 months; 3 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions by helping peers trace short programs step by step.
+- Explained worked examples on functions and debugging under the supervision of a course instructor.
+
+PROGRAMMING AND COURSE PROJECTS
+Contact Index | Data Structures, 2021-05
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Worked with Python and Git to write tests for contact index insertion, lookup, and deletion.
+- Documented operation costs and boundary cases for the contact index in an individual course project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Contact Index': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Contact Index': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2021-09 to 2021-12 - feedback from the supervising course instructor: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

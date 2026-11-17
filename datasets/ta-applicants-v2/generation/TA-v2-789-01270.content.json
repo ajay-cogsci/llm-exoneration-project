@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Asked learners to explain the steps in their solutions during tutoring on loops and debugging.",
+        "Prepared practice questions on loops and debugging for use in individual programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Finite-State Machine Simulator",
+      "bullets": [
+        "Translated discrete mathematical definitions into Java program functions for a finite-state machine simulator within a team course project.",
+        "Tested the implementation against hand-worked cases and explained the connection between formal definitions and implementation."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup",
+      "bullets": [
+        "Compared alternative data structures for insertion, lookup, and deletion as part of a team document lookup course project.",
+        "Wrote insertion, lookup, and deletion tests for the team project, working with Java and Git."
+      ]
+    }
+  ]
+}

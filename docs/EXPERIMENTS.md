@@ -8,7 +8,7 @@ results remain available and are not pooled with a new run by default.
 | PhD pilot | Completed for the seven-model panel | `runs/pilot/results.csv`, `runs/pilot/summary.json` |
 | Original PhD full design | Five of seven planned models completed; 66,000 valid replies | [Written analysis](../runs/main/analysis/SUMMARY.md), `runs/main/results.csv`, `runs/main/summary.json` |
 | No-inference-sentence ablation | Completed for three models and two arms | [Written analysis](../runs/ablation/analysis/SUMMARY.md); results in `runs/ablation/plan_A/` and `plan_B/` |
-| Introductory-CS teaching assistant | Offline preparation; no run configured or approved | [Preparation notes](TA_PREPARATION.md). Retain the original 11 conditions, three tasks and two formats; prepare suitable applicant evidence first. |
+| Introductory-CS teaching assistant | Applicant generation completed; evaluation run not configured or approved | [100 graduate applicants, version 2](../datasets/ta-applicants-v2/), [method](../TA_V2_METHOD.md), [verification](../VALIDATION.md). Retain the original 11 conditions, three tasks and two formats for the eventual evaluation. |
 | Fellowship, research assistant | Not run | Opportunity drafts exist in the shared notes. Current PhD packets do not supply all needed opportunity-specific evidence. |
 
 The full-design run used GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
@@ -19,8 +19,9 @@ in the pilot but have not completed the full design.
 
 `main` is the canonical branch for completed work and current study documentation.
 `codex/ta-prep` is the only preparation branch, for TA materials awaiting review.
-No TA experiment is approved. Merge reviewed work back into `main` and retire its
-preparation branch when finished.
+No TA evaluation experiment is approved. The approved TA applicant-generation
+update is on `main`; the preparation branch is retained. Review any later work
+on that branch before merging or retiring it.
 
 Before consolidation, the GitHub default branch was behind the experiments.
 All six remote branch tips formed one ancestry chain ending at `70ae71a`; there
@@ -39,7 +40,8 @@ fast-forwarding `main` and retiring the five superseded branch names.
 
 The abandoned 20-condition follow-up files have been deleted from the current
 tree. Their creation and deletion remain in Git history; they are not an active
-dataset, experiment or archive folder. The TA notes at this commit are planning
+dataset, experiment or archive folder. The TA notes at consolidation commit
+`ac2c596` were planning
 requirements, not a prepared applicant bank or executable TA run.
 
 Only branch names were retired. Results, local raw responses, and Git history
@@ -48,7 +50,7 @@ Use experiment folders and this index to distinguish runs, rather than keeping
 a permanent branch for each run. A future cleanup must recheck remote tips and
 retain any branch that gained collaborator work.
 
-No TA-specific applicant bank or collaborator TA submission was found in the
+At consolidation on 16 November, no TA-specific applicant bank or collaborator TA submission was found in the
 six branch trees, pull requests, or current shared notebook and its comments.
 This does not establish whether work exists in another clone, fork or document,
 or whether a collaborator has read the existing results.
@@ -57,7 +59,7 @@ or whether a collaborator has read the existing results.
 
 - `configs/`: original study configurations; do not rewrite completed-run inputs.
 - `analysis/`: analysis code for the completed PhD study and ablation.
-- `docs/TA_PREPARATION.md`: the next opportunity and its preparation requirements.
+- `docs/TA_PREPARATION.md`: TA applicant status and remaining evaluation preparation.
 - `runs/`: historical outputs and local raw replies. Existing committed exports
   remain tracked; new raw logs and private human-pilot files remain ignored.
 - `datasets/`: versioned applicant inputs. Keep the published versions intact.

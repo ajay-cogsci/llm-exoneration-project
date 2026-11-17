@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering functions, variables, and conditionals during tutoring sessions.",
+        "Discussed debugging approaches with beginning programmers during tutoring sessions focused on introductory programming topics."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Introductory Programming Teaching Assistance",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering functions and debugging, and answered student questions during office hours.",
+        "Graded introductory programming exercises using an instructor-provided rubric as part of assigned teaching assistant responsibilities."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game in Python using functions and collections for an individual course project.",
+        "Tested example inputs and documented the program's behaviour, using Git for the word game project."
+      ]
+    }
+  ]
+}

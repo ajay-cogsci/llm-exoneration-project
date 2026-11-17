@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving loops and debugging as a peer programming mentor.",
+        "Explained worked examples on loops and debugging under a course instructor's supervision during assigned mentoring activities."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Discussed debugging approaches for variables, conditionals, and loops, asking learners to explain the steps in their solutions.",
+        "Prepared practice questions on variables, conditionals, and loops for use in individual tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a string utility library in an individual course project.",
+        "Wrote automated tests for a small software module in the string utility library project using C++ and Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Documented the study planner interface and its local data flow as part of a team course project.",
+        "Implemented event handling and input validation for the study planner interface using JavaScript, HTML, and CSS."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Wrote automated tests in Python for a small software module implementing a string utility library.",
+        "Documented expected behaviour and regression checks for the string utility library, using Git for the project."
+      ]
+    }
+  ]
+}

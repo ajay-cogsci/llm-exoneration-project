@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Discussed debugging approaches during tutoring sessions focused on programming topics including variables and conditionals.",
+        "Prepared practice questions on variables, conditionals, and debugging for use in individual tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser in Python using functions and collections as a contribution to a team course project.",
+        "Tested representative inputs for the recipe organiser and recorded expected outputs as part of the team project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Implemented a small C systems program with explicit memory handling as a contribution to a team memory allocation exercise.",
+        "Traced program behaviour using a debugger for the memory allocation exercise; project tools included Git."
+      ]
+    }
+  ]
+}

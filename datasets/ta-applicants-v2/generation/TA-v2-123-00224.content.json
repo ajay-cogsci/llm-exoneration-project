@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Binary File Reader",
+      "bullets": [
+        "Documented the program structure and test cases for a binary file reader written in C.",
+        "Traced the binary file reader's program behaviour using a debugger in an individual course project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Library Catalogue",
+      "bullets": [
+        "Implemented a menu-driven library catalogue program in C++ using functions and collections for the project.",
+        "Documented how library catalogue records are added, searched and updated in an individual course project."
+      ]
+    }
+  ]
+}

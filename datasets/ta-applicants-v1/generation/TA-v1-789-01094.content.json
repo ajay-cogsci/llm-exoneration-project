@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises on loops during programming tutoring sessions.",
+        "Discussed debugging approaches with beginning programmers during tutoring sessions focused on programming practice."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Course Planner",
+      "bullets": [
+        "Implemented a small command-line course planner in Python using functions and collections for an individual course project.",
+        "Used Git for the project, tested example inputs, and documented the program's behaviour."
+      ]
+    }
+  ]
+}

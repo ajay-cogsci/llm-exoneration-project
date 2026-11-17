@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Answered student questions about lists, arrays, and loops during assigned office hours.",
+        "Prepared worked examples covering lists, arrays, and loops for review by the course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Prerequisite Graph",
+      "bullets": [
+        "Contributed to a team course project using Python and Git, representing course prerequisite connections with adjacency lists.",
+        "Implemented graph traversal and a route or ordering routine, and explained algorithm choices and computational complexity."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Traced program behaviour using a debugger for a team memory allocation exercise using C and Git.",
+        "Documented the program structure and test cases as part of the team's memory allocation exercise."
+      ]
+    }
+  ]
+}

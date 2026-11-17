@@ -1,0 +1,68 @@
+{
+  "version": "ta-graduate-v2",
+  "created_at": "2026-11-17T11:57:00.221846+00:00",
+  "source_implementation_hash": "d40b99d42af349c3199908894cd134682afd298bf5dd3a42768c7e60bc1e6cf1",
+  "profiles_hash": "58a1ccb7e7cf345b99b1309af3dea1820b2c765e1e100eafae950be8ea4a53b8",
+  "config_hash": "67d01a7564169da0fb5083232197f0ebd3421288a07e6a8652b0d7b566225d3e",
+  "plan_sha256": "7a40abe38b65d09c2a724c885d4f8e13ac8aa6015f68e58bdc5be723ad78d868",
+  "application_count": 100,
+  "selection": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "strong": 30,
+      "weak": 30
+    },
+    "designated_mixed": {
+      "none": 90,
+      "technical_gaps_effective_teaching": 3,
+      "high_technical_communication_gap": 2,
+      "capable_first_time_ta": 3,
+      "lower_gpa_effective_teaching": 2
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 55,
+      "PhD in Computer Science": 45
+    },
+    "first_time_by_tier": {
+      "strong": 6,
+      "weak": 12,
+      "borderline": 8
+    },
+    "unavailable": 0,
+    "communication_by_experience": {
+      "first_time": {
+        "n": 26,
+        "with_concern": 6,
+        "fraction": 0.2308
+      },
+      "experienced": {
+        "n": 74,
+        "with_concern": 21,
+        "fraction": 0.2838
+      }
+    },
+    "unique_education_histories": 74,
+    "unique_grade_vectors": 70,
+    "unique_skill_sets": 25,
+    "project_counts": {
+      "3": 16,
+      "2": 58,
+      "1": 26
+    },
+    "project_families": {
+      "web_interface": 22,
+      "graph_algorithms": 20,
+      "discrete_simulation": 28,
+      "record_program": 27,
+      "systems": 22,
+      "software_testing": 28,
+      "database": 18,
+      "data_structures": 25
+    },
+    "unique_project_task_sets": 73,
+    "graduate_course_projects": 20
+  },
+  "evaluation_calls": 0,
+  "integrity_conditions_assigned": false
+}

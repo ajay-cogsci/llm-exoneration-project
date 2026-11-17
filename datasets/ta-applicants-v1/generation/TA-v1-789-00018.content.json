@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutor",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering variables and conditionals during programming tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions, with programming topics including lists and dictionaries."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Word Game",
+      "bullets": [
+        "Implemented a small command-line word game in Python using functions and collections for an individual undergraduate course project.",
+        "Tested example inputs and documented the program's behaviour, using Git for the project."
+      ]
+    }
+  ]
+}

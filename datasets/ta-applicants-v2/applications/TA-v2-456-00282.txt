@@ -1,0 +1,57 @@
+Applicant TA-v2-456-00282
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.36/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2019-05
+Data Structures: A | undergraduate, 2020-05
+Discrete Mathematics: A- | undergraduate, 2019-11
+Algorithms: B+ | undergraduate, 2022-01
+
+TECHNICAL SKILLS
+Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 6 hours/week
+Programming Tutor
+- Prepared practice questions on functions, lists, and arrays for individual programming tutoring sessions.
+- Discussed debugging approaches during tutoring sessions covering programming topics including functions, lists, and arrays.
+Peer Programming Mentor, University Programming Support Programme | 2021-06 to 2021-08 | 2 months; 3 hours/week
+Peer Programming Mentor
+- Explained worked examples involving functions, variables, and conditionals under a course instructor's supervision.
+- Supported beginner programming practice sessions focused on functions and on variables and conditionals.
+
+PROGRAMMING AND COURSE PROJECTS
+Campus Route Finder | Algorithms, 2022-01
+Scope: individual undergraduate course project.
+Project tools: Python, Git
+- Implemented graph traversal and a route routine in Python for an individual campus route finder course project.
+- Explained algorithm choices and computational complexity for the campus route finder, using Git for the project.
+Truth-Table Explorer | Discrete Mathematics, 2019-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Tested the Python truth-table explorer implementation against hand-worked cases as a team project contributor.
+- Explained the connection between formal definitions and implementation for the team's truth-table explorer project.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Campus Route Finder': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Campus Route Finder': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2021-01 to 2021-05 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+Peer Programming Mentor, 2021-06 to 2021-08 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

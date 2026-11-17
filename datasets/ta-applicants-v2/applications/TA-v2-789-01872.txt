@@ -1,0 +1,52 @@
+Applicant TA-v2-789-01872
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 3.24/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B+ | undergraduate, 2021-05
+Data Structures: B+ | undergraduate, 2022-05
+Discrete Mathematics: B+ | undergraduate, 2021-11
+Computer Systems: B | undergraduate, 2023-10
+
+TECHNICAL SKILLS
+Python
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2023-09 to 2023-12 | 3 months; 4 hours/week
+Programming Tutor
+- Prepared practice questions for individual tutoring sessions covering variables and conditionals, lists, and arrays.
+- Guided beginning programmers through practice exercises and discussed debugging approaches during tutoring sessions.
+Programming Tutor, University Programming Support Programme | 2025-09 to 2025-12 | 3 months; 4 hours/week
+Programming Tutor
+- Prepared practice questions on debugging, variables, and conditionals for use in individual tutoring sessions.
+- Guided beginning programmers through practice exercises focused on debugging and using variables and conditionals.
+
+PROGRAMMING AND COURSE PROJECTS
+Truth-Table Explorer | Discrete Mathematics, 2021-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: Python
+- Translated discrete mathematical definitions into Python functions for a truth-table explorer as part of a team project.
+- Explained the connection between formal definitions and implementation, and tested the implementation against hand-worked cases.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Truth-Table Explorer': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Truth-Table Explorer': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2023-09 to 2023-12 - feedback from the tutoring programme coordinator: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+Programming Tutor, 2025-09 to 2025-12 - feedback from the tutoring programme coordinator: Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

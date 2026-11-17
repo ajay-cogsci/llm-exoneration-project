@@ -1,0 +1,44 @@
+Applicant TA-v2-123-01282
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.21/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2021-05
+Data Structures: B- | undergraduate, 2022-05
+Discrete Mathematics: B+ | undergraduate, 2021-11
+Computer Systems: B | undergraduate, 2023-10
+
+TECHNICAL SKILLS
+C++
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Study-Session Scheduler | Introduction to Programming, 2021-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++
+- Implemented a menu-driven study-session scheduler using C++ functions and collections as a contribution to a team course project.
+- Documented how records are added, searched, and updated, and added input checks to handle invalid entries.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Study-Session Scheduler': The report required revisions to organize the explanation and clarify terminology.
+Oral communication - course instructor feedback on the project presentation for 'Study-Session Scheduler': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

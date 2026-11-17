@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples covering variables, conditionals, and functions under a course instructor's supervision.",
+        "Facilitated discussion of common programming errors involving variables, conditionals, and functions as a peer programming mentor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Calculator Module Testing",
+      "bullets": [
+        "Wrote automated tests for a small calculator module in an individual course project using Python and Git.",
+        "Documented expected behaviour and regression checks for the calculator module, and isolated a defect using a minimal reproducing example."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Documented the program structure and test cases for a command-line text utility using C and Git.",
+        "Checked array bounds and error paths within the command-line text utility for the individual course project."
+      ]
+    }
+  ]
+}

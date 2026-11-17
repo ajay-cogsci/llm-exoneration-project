@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Event Ordering Data Structures",
+      "bullets": [
+        "Compared alternative data structures for event ordering operations in an individual course project.",
+        "Wrote tests for insertion, lookup, and deletion, using Java and Git for the event ordering project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Dependency Ordering Algorithms",
+      "bullets": [
+        "Implemented graph traversal and a route or ordering routine for dependency ordering in an individual course project using Java and Git.",
+        "Explained algorithm choices and computational complexity, and tested connected, disconnected, and cyclic examples."
+      ]
+    }
+  ]
+}

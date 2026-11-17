@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Set Operation Explorer",
+      "bullets": [
+        "Contributed to a team set operation explorer project by translating discrete mathematical definitions into Python program functions.",
+        "Constructed examples and counterexamples for the represented rules and explained the connection between formal definitions and their implementation."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Enrolment Records",
+      "bullets": [
+        "Contributed to a team course enrolment records project by designing related tables and key constraints in SQLite.",
+        "Checked missing values and duplicate records, and wrote SQL queries joining and aggregating sample enrolment records."
+      ]
+    }
+  ]
+}

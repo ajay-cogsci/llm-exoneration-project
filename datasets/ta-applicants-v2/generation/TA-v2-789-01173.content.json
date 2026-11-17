@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentoring",
+      "bullets": [
+        "Helped peers trace short programs step by step during peer mentoring on debugging.",
+        "Supported beginner practice sessions covering debugging and working with lists and arrays."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Checked array bounds and error paths for a team command-line text utility written in C.",
+        "Documented the program structure and test cases as a team project contribution, using Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Local Book Search Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a local book search interface using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Task Queue",
+      "bullets": [
+        "Wrote tests for insertion, lookup, and deletion for a team task queue project using Python and Git.",
+        "Compared alternative data structures for the task queue's insertion, lookup, and deletion operations."
+      ]
+    }
+  ]
+}

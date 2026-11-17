@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Maze Traversal",
+      "bullets": [
+        "Represented maze connections using adjacency lists in Python for an individual course project.",
+        "Tested connected, disconnected, and cyclic examples as part of the maze traversal project."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Built a local study planner browser interface with form inputs using JavaScript, HTML, and CSS as a team project contribution.",
+        "Implemented event handling and input validation, and documented the interface and its local data flow."
+      ]
+    }
+  ]
+}

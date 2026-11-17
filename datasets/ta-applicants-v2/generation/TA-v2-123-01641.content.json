@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Teaching Assistant",
+      "bullets": [
+        "Graded programming exercises on variables, conditionals, and debugging using an instructor-provided rubric.",
+        "Prepared worked examples for instructor review and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Quiz Practice Interface",
+      "bullets": [
+        "Built a local browser interface for quiz practice with form inputs using JavaScript, HTML, and CSS.",
+        "Tested keyboard interaction and alternate input cases, and documented the interface and its local data flow."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Calculator Module Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases and wrote automated tests for a small calculator module.",
+        "Used C++ and Git for the calculator module project, documenting expected behaviour and regression checks."
+      ]
+    }
+  ]
+}

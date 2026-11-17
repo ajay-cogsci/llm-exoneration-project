@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Facilitated discussion of common programming errors involving lists and arrays, alongside discussion of debugging.",
+        "Explained worked examples on lists, arrays, and debugging under a course instructor's supervision."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Catalogue Program",
+      "bullets": [
+        "Implemented a menu-driven library catalogue program in Python, using functions and collections.",
+        "Added input checks to the library catalogue program and handled invalid entries in Python."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Contributed to a string utility library team project using Python and Git, isolating a defect with a minimal reproducing example.",
+        "Designed boundary and invalid-input test cases for the string utility library, and documented expected behaviour and regression checks."
+      ]
+    }
+  ]
+}

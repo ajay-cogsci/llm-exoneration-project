@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Expense Tracker",
+      "bullets": [
+        "Implemented a small command-line expense tracker in Python using functions and collections.",
+        "Tested example inputs and documented the program's behaviour for an individual undergraduate course project."
+      ]
+    }
+  ]
+}

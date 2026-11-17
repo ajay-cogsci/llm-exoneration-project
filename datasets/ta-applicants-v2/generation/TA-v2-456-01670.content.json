@@ -1,0 +1,46 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Prepared practice questions on variables and conditionals for individual programming tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Beginning Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering lists and arrays, variables, and conditionals.",
+        "Asked learners to explain the steps in their solutions and discussed debugging approaches during tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Implemented event handling and input validation for a study planner interface using JavaScript, HTML, and CSS.",
+        "Documented the interface and its local data flow, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling, using Git.",
+        "Documented the program structure and test cases, and checked array bounds and error paths."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases for a string utility library using C++ and Git.",
+        "Documented expected behaviour and regression checks for the string utility library course project."
+      ]
+    }
+  ]
+}

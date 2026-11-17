@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples involving variables and conditionals as a peer programming mentor under a course instructor's supervision.",
+        "Helped peers trace short programs step by step, covering introductory topics including lists and arrays."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Built a local browser interface with form inputs for a study planner using JavaScript, HTML, and CSS.",
+        "Implemented event handling and input validation, and tested keyboard interaction alongside alternate input cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Course Planner",
+      "bullets": [
+        "Documented how records are added, searched, and updated in a Python course planner project.",
+        "Added input checks and handled invalid entries within the course planner as an individual programming project."
+      ]
+    }
+  ]
+}

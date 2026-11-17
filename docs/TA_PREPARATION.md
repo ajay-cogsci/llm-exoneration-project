@@ -1,8 +1,15 @@
 # Introductory-CS TA preparation
 
-Status: offline preparation only. The original 11-condition PhD design is retained.
-No TA applicant set, evaluation config, run plan, model panel, or spending cap is
-approved. Nothing here authorizes model calls or human recruitment.
+Status, 17 November 2026: applicant generation is complete following approval.
+[Version 2](../datasets/ta-applicants-v2/) contains 100 graduate applicants,
+allocated 30 weak, 40 borderline and 30 strong, including ten designated mixed
+profiles. The [method](../TA_V2_METHOD.md) and [verification record](../VALIDATION.md)
+describe the source facts, rubric, model wording and checks. Version 1 is retained
+unchanged for comparison.
+
+The original 11-condition design is retained. No TA evaluation config, run plan,
+model panel, evaluation spending cap or human recruitment is approved by this
+applicant-generation update. No TA evaluations have run.
 
 ## What stays the same
 
@@ -43,14 +50,15 @@ Source notebook: [LLM exoneration](https://docs.google.com/document/d/1dgZkwce8f
 Its attribution notes remain there; they have not been rechecked as current job
 requirements in this preparation step.
 
-## What needs preparation
+## Applicant preparation checklist
 
 The published 100 PhD packets contain academic and research evidence. Their fact
 schema has no teaching/tutoring history, teaching-interest, or availability fields.
 Their tiers reflect PhD preparation, not suitability for TA work. Merely changing
 the opportunity title would leave several stated TA criteria unsupported.
 
-Prepare a separate TA packet specification for review before generating a bank:
+The checklist below was prepared before generation. Applicant evidence is now
+implemented in the separate TA specification; evaluation decisions remain open:
 
 | Component | Required decision or evidence |
 |---|---|
@@ -63,9 +71,11 @@ Prepare a separate TA packet specification for review before generating a bank:
 | Quality variation | Define weak, borderline, and strong TA profiles from TA criteria. Do not relabel the existing PhD tiers. |
 | Timing | Ensure every applicant was enrolled when the original early-2026 coursework incident could have occurred. Any necessary date changes require review. |
 
-These are proposed fields, not invented facts about the published applicants.
-The next review deliverable is a small set of example TA packets and the adapted
-prompt, before producing a full dataset or making API requests.
+The generated TA facts describe a separate fictional sample; the PhD applicants
+were not relabeled or modified. The current TA package includes the plan's shared
+system message, opportunity and untreated overall-quality inputs. It includes
+supporting observations, without adding three recommendation letters or essays.
+The full condition-by-task evaluation prompts still need preparation and review.
 
 Only the opportunity, applicant evidence, and necessary role placeholders should
 change for the initial extension: TA selection committee, interview, and hire/do

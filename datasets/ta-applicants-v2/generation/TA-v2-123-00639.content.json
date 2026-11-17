@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises involving variables, conditionals, and functions during tutoring sessions.",
+        "Discussed debugging approaches during tutoring sessions and asked learners to explain the steps in their solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Contact Index",
+      "bullets": [
+        "Contributed linked structures and traversal operations to a team contact index project using Java and Git.",
+        "Wrote tests for insertion, lookup, and deletion, and compared alternative data structures for those operations."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Dependency Ordering",
+      "bullets": [
+        "Represented connections using adjacency lists for an individual dependency ordering course project using Java and Git.",
+        "Tested connected, disconnected, and cyclic examples, and explained algorithm choices and computational complexity."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Recipe Organiser",
+      "bullets": [
+        "Implemented a menu-driven recipe organiser using Java functions and collections as part of a team course project.",
+        "Tested representative inputs, recorded expected outputs, added input checks, and handled invalid entries."
+      ]
+    }
+  ]
+}

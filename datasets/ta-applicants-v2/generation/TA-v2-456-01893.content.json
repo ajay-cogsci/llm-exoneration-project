@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Lab Assistance",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering lists and arrays, along with debugging.",
+        "Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant duties."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Course Prerequisite Graph",
+      "bullets": [
+        "Represented connections in a course prerequisite graph using adjacency lists in Java.",
+        "Used Git for the project and explained algorithm choices and computational complexity."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Study-Session Scheduler",
+      "bullets": [
+        "Implemented a menu-driven study-session scheduler in Java using functions and collections to manage records.",
+        "Tested representative inputs and recorded expected outputs; documented how records are added, searched, and updated."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Explained worked examples on debugging and loops under a course instructor's supervision.",
+        "Supported beginner practice sessions and helped peers trace short programs step by step."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Study Planner Interface",
+      "bullets": [
+        "Built a local study planner browser interface with form inputs using JavaScript, HTML, and CSS.",
+        "Implemented event handling and input validation, and tested keyboard interaction and alternate input cases."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Event Registration Records",
+      "bullets": [
+        "Documented the schema and example queries for event registration records using SQL and SQLite.",
+        "Wrote SQL queries joining and aggregating sample event registration records in SQLite."
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Contributed to a team string utility library project using Python and Git, isolating a defect with a minimal reproducing example.",
+        "Designed boundary and invalid-input test cases, and documented expected behaviour and regression checks."
+      ]
+    }
+  ]
+}

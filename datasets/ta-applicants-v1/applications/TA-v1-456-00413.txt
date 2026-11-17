@@ -1,0 +1,33 @@
+Applicant TA-v1-456-00413
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2029-05 (expected completion)
+Undergraduate GPA: 3.57/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (B); Data Structures (B+); Discrete Mathematics (B+); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING PROJECT
+Command-Line Recipe Organiser | Data Structures, 2023-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line recipe organiser in Python using functions and collections for an individual undergraduate course project.
+- Used Git for the project, tested example inputs, and documented the program's behaviour.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Command-Line Recipe Organiser': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Command-Line Recipe Organiser': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

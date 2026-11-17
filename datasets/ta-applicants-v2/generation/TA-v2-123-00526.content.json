@@ -1,0 +1,38 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Tutoring",
+      "bullets": [
+        "Prepared practice questions for individual tutoring sessions on lists, arrays, variables, and conditionals.",
+        "Discussed debugging approaches during tutoring sessions and guided beginning programmers through practice exercises."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Programming Fundamentals Tutoring",
+      "bullets": [
+        "Discussed debugging approaches during programming tutoring sessions covering variables, conditionals, and functions.",
+        "Asked learners to explain the steps in their solutions during programming tutoring sessions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Campus Route Finder",
+      "bullets": [
+        "Implemented graph traversal and a route routine in Java for a campus route finder.",
+        "Represented connections using adjacency lists and tested connected, disconnected, and cyclic graph examples."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Lookup",
+      "bullets": [
+        "Wrote tests in Java for insertion, lookup, and deletion as part of a team document lookup project.",
+        "Compared alternative data structures for insertion, lookup, and deletion in the document lookup project."
+      ]
+    }
+  ]
+}

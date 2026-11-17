@@ -1,0 +1,21 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Documented expected behaviour and regression checks for a string utility library course project.",
+        "Wrote automated tests for a small software module in the string utility library using Java and Git."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Memory Allocation Exercise",
+      "bullets": [
+        "Implemented a small systems program with explicit memory handling for a memory allocation exercise using C and Git.",
+        "Checked array bounds and error paths in the systems program for the memory allocation exercise."
+      ]
+    }
+  ]
+}

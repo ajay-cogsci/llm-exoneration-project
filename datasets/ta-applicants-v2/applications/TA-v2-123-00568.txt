@@ -1,0 +1,52 @@
+Applicant TA-v2-123-00568
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2030-05 (enrolled; expected completion)
+Undergraduate GPA: 3.60/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: B | undergraduate, 2020-05
+Data Structures: A- | undergraduate, 2021-05
+Discrete Mathematics: B+ | undergraduate, 2020-11
+Computer Systems: B | undergraduate, 2023-10
+
+TECHNICAL SKILLS
+C++
+
+TEACHING AND TUTORING EXPERIENCE
+Programming Tutor, University Programming Support Programme | 2025-06 to 2025-08 | 2 months; 8 hours/week
+Programming Tutoring
+- Prepared practice questions on variables and conditionals for use in individual programming tutoring sessions.
+- Discussed debugging approaches during tutoring sessions as part of assigned programming tutor activities.
+
+PROGRAMMING AND COURSE PROJECTS
+Library Catalogue | Introduction to Programming, 2020-05
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C++
+- Tested representative inputs and recorded expected outputs for a team course project involving a library catalogue in C++.
+- Documented how records are added, searched, and updated within the team's C++ library catalogue project.
+Truth-Table Explorer | Discrete Mathematics, 2020-11
+Scope: individual undergraduate course project.
+Project tools: C++
+- Translated discrete mathematical definitions into C++ program functions for an individual truth-table explorer course project.
+- Explained connections between formal definitions and implementation, and constructed examples and counterexamples for the represented rules.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Library Catalogue': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Library Catalogue': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Programming Tutor, 2025-06 to 2025-08 - feedback from the tutoring programme coordinator: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in university teaching; no specific preference for teaching beginning programmers is stated.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

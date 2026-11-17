@@ -1,0 +1,37 @@
+Applicant TA-v1-456-00467
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 3.27/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (B); Data Structures (B+); Discrete Mathematics (B+); Computer Systems (A-)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2025-06 to 2025-12 | 6 months; 8 hours/week
+Peer Programming Mentor
+- Supported beginner practice sessions covering variables and conditionals, lists and dictionaries as a peer programming mentor.
+- Explained worked examples on these programming topics under a course instructor's supervision during beginner practice sessions.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Library Catalogue Program | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small Python command-line library catalogue program using functions and collections for an individual undergraduate course project.
+- Tested example inputs and documented the library catalogue program's behaviour, using Git for the project.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Library Catalogue Program': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Library Catalogue Program': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

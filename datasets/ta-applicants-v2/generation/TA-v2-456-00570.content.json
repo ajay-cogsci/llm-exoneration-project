@@ -1,0 +1,22 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Introductory Programming Teaching Assistant",
+      "bullets": [
+        "Assisted introductory programming lab sessions covering variables and conditionals, as well as lists and arrays.",
+        "Answered student questions during office hours and helped organise assignment materials and submission records."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Command-Line Text Utility",
+      "bullets": [
+        "Implemented a small command-line text utility in C with explicit memory handling as a contribution to a team course project.",
+        "Used Git, checked array bounds and error paths, and traced program behaviour using a debugger."
+      ]
+    }
+  ]
+}

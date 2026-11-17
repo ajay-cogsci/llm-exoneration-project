@@ -1,0 +1,47 @@
+Applicant TA-v2-789-01549
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.38/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2021-05
+Data Structures: B+ | undergraduate, 2022-05
+Discrete Mathematics: A- | undergraduate, 2021-11
+Computer Systems: B | undergraduate, 2023-02
+
+TECHNICAL SKILLS
+C, Git, Python
+
+TEACHING AND TUTORING EXPERIENCE
+Peer Programming Mentor, University Programming Support Programme | 2023-06 to 2023-08 | 2 months; 3 hours/week
+Peer Programming Mentor
+- Helped peers trace short programs step by step, covering functions, lists, and arrays.
+- Explained worked examples under a course instructor's supervision and supported beginner programming practice sessions.
+
+PROGRAMMING AND COURSE PROJECTS
+Binary File Reader | Computer Systems, 2023-02
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C, Git
+- Contributed to a team binary file reader project in C, tracing program behaviour using a debugger.
+- Documented the program structure and test cases, checked array bounds and error paths, and used Git.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Binary File Reader': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Binary File Reader': The presentation required prompting to explain the reasoning and respond clearly to questions.
+
+TEACHING PERFORMANCE EVIDENCE
+Peer Programming Mentor, 2023-06 to 2023-08 - feedback from the supervising course instructor: Supervisor feedback recorded a need for improvement in explanations and follow-through on assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

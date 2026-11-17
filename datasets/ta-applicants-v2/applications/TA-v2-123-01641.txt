@@ -1,0 +1,53 @@
+Applicant TA-v2-123-01641
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (enrolled; expected completion)
+Undergraduate GPA: 3.82/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A- | undergraduate, 2019-05
+Data Structures: A- | undergraduate, 2020-05
+Discrete Mathematics: A | undergraduate, 2019-11
+Web Programming: A | undergraduate, 2020-10
+Software Engineering: A- | undergraduate, 2021-02
+
+TECHNICAL SKILLS
+C++, CSS, Git, HTML, JavaScript
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2021-01 to 2021-05 | 4 months; 15 hours/week
+Programming Teaching Assistant
+- Graded programming exercises on variables, conditionals, and debugging using an instructor-provided rubric.
+- Prepared worked examples for instructor review and helped organise assignment materials and submission records.
+
+PROGRAMMING AND COURSE PROJECTS
+Quiz Practice Interface | Web Programming, 2020-10
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Built a local browser interface for quiz practice with form inputs using JavaScript, HTML, and CSS.
+- Tested keyboard interaction and alternate input cases, and documented the interface and its local data flow.
+Calculator Module Testing | Software Engineering, 2021-02
+Scope: individual undergraduate course project.
+Project tools: C++, Git
+- Designed boundary and invalid-input test cases and wrote automated tests for a small calculator module.
+- Used C++ and Git for the calculator module project, documenting expected behaviour and regression checks.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Quiz Practice Interface': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Calculator Module Testing': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Teaching Assistant, 2021-01 to 2021-05 - feedback from the supervising course instructor: Supervisor feedback recorded clear explanations, responsive student support, and effective completion of assigned teaching tasks.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

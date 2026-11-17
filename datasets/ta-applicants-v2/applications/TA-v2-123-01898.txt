@@ -1,0 +1,50 @@
+Applicant TA-v2-123-01898
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2017-09 to 2021-05 (completed)
+MS in Computer Science, Fictional University B | 2025-01 to 2026-12 (enrolled; expected completion)
+Undergraduate GPA: 3.93/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2018-05
+Data Structures: B+ | undergraduate, 2019-05
+Discrete Mathematics: A- | undergraduate, 2018-11
+Computer Systems: C+ | undergraduate, 2020-11
+Database Systems: A | undergraduate, 2020-03
+
+TECHNICAL SKILLS
+C, Git, Python, SQL, SQLite
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Command-Line Text Utility | Computer Systems, 2020-11
+Scope: team undergraduate course project; listed tasks are the applicant's contribution.
+Project tools: C, Git
+- Implemented a small command-line text utility in C with explicit memory handling as a contribution to a team course project.
+- Documented program structure and test cases, checked array bounds and error paths, and used Git for the project.
+Equipment Inventory Queries | Database Systems, 2020-03
+Scope: individual undergraduate course project.
+Project tools: SQL, SQLite
+- Wrote SQL queries in SQLite to join and aggregate sample equipment inventory records for an individual course project.
+- Documented the equipment inventory schema and example queries, and checked missing values and duplicate records.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Equipment Inventory Queries': The report explained the approach clearly enough to follow, with occasional requests for clarification.
+Oral communication - course instructor feedback on the project presentation for 'Equipment Inventory Queries': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

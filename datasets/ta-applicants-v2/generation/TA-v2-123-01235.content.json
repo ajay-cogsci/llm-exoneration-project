@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Programming Tutoring",
+      "bullets": [
+        "Guided beginning programmers through practice exercises covering debugging and lists and arrays.",
+        "Asked learners to explain the steps in their solutions during programming tutoring."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Graph Property Checker",
+      "bullets": [
+        "Translated discrete mathematical definitions into Python functions for a graph property checker.",
+        "Tested the implementation against hand-worked cases and explained its connection to the formal definitions."
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Library Catalogue",
+      "bullets": [
+        "Added input checks and handled invalid entries in a Python library catalogue.",
+        "Documented how records are added, searched and updated within the library catalogue."
+      ]
+    }
+  ]
+}

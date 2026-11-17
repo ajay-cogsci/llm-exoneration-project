@@ -1,0 +1,49 @@
+Applicant TA-v2-456-01439
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2018-09 to 2022-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.72/4.0
+Academic and experience record as of 2025-12-31.
+
+RELEVANT COURSEWORK
+Introduction to Programming: A | undergraduate, 2019-05
+Data Structures: A | undergraduate, 2020-05
+Discrete Mathematics: A- | undergraduate, 2019-11
+Web Programming: A | undergraduate, 2021-01
+
+TECHNICAL SKILLS
+CSS, HTML, JavaScript, Python
+
+TEACHING AND TUTORING EXPERIENCE
+No previous teaching, tutoring, or TA experience reported.
+
+PROGRAMMING AND COURSE PROJECTS
+Flashcard Practice Interface | Web Programming, 2021-01
+Scope: individual undergraduate course project.
+Project tools: JavaScript, HTML, CSS
+- Implemented event handling and input validation for a flashcard practice interface using JavaScript, HTML, and CSS.
+- Tested keyboard interaction and alternate input cases, and documented the interface and its local data flow.
+Course Planner | Introduction to Programming, 2019-05
+Scope: individual undergraduate course project.
+Project tools: Python
+- Implemented a menu-driven course planner in Python, using functions and collections for the program.
+- Tested representative inputs for the course planner and recorded the expected outputs for those inputs.
+
+SUPPORTING APPLICATION EVIDENCE
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Flashcard Practice Interface': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Course Planner': The presentation explained the reasoning clearly and adapted explanations when questions indicated confusion.
+
+TEACHING PERFORMANCE EVIDENCE
+Not applicable: no previous teaching, tutoring, or TA appointment reported.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

@@ -1,0 +1,37 @@
+Applicant TA-v1-123-00747
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-05 (expected completion)
+Undergraduate GPA: 3.20/4.0
+Academic and experience record as of 2025-12-31.
+Undergraduate relevant coursework: Introduction to Programming (B-); Data Structures (B); Discrete Mathematics (B); Computer Systems (B+)
+
+TECHNICAL SKILLS
+Python, Git
+
+TEACHING AND TUTORING EXPERIENCE
+Teaching Assistant, University Programming Support Programme | 2025-08 to 2025-11 | 3 months; 6 hours/week
+Introductory Programming Teaching Assistant
+- Assisted introductory programming lab sessions covering debugging and loops, and answered student questions during office hours.
+- Graded programming exercises using an instructor-provided rubric as part of assigned teaching assistant activities.
+Supervisor feedback recorded satisfactory completion of assigned teaching tasks and appropriate responses to student questions.
+
+PROGRAMMING PROJECT
+Text-File Analyser | Data Structures, 2024-12
+Scope: individual undergraduate course project.
+- Implemented a small command-line text-file analyser in Python using functions and collections for an individual course project.
+- Tested example inputs and documented the program's behaviour, using Git for the course project.
+
+COMMUNICATION EVIDENCE
+Written communication - course instructor feedback on the project report for 'Text-File Analyser': The report organized the explanation clearly and used examples to explain unfamiliar terminology.
+Oral communication - course instructor feedback on the project presentation for 'Text-File Analyser': The presentation explained the approach and addressed questions, with occasional requests for clarification.
+
+TEACHING INTEREST
+Interested in helping beginning programmers understand concepts and work through programming difficulties.
+
+AVAILABILITY FOR THE ADVERTISED DUTIES
+Lab or discussion sections: Available.
+Office hours: Available.
+Grading and feedback: Available.
+Course administration: Available.

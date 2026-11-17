@@ -1,0 +1,30 @@
+{
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering variables, conditionals, and loops as a peer mentor.",
+        "Explained worked examples on variables, conditionals, and loops under a course instructor's supervision."
+      ]
+    },
+    {
+      "id": "teaching-2",
+      "title": "Peer Programming Mentor",
+      "bullets": [
+        "Supported beginner programming practice sessions covering debugging and loops in a peer mentoring role.",
+        "Explained worked examples on debugging and loops under the supervision of a course instructor."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Library Catalogue Program",
+      "bullets": [
+        "Implemented a small Python command-line program for a library catalogue using functions and collections.",
+        "Tested example inputs and documented the program's behaviour, using Git in the individual course project."
+      ]
+    }
+  ]
+}

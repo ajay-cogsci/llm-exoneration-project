@@ -1,0 +1,13 @@
+{
+  "teaching": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "String Utility Library Testing",
+      "bullets": [
+        "Designed boundary and invalid-input test cases and wrote automated tests for a small Java string utility module.",
+        "Isolated a defect using a minimal reproducing example; used Git as part of the individual course project."
+      ]
+    }
+  ]
+}
