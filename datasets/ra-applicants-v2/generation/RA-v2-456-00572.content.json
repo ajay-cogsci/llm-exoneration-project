@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Company Report Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and frequency-count steps on provided document samples, then inspected frequent terms with guidance using the topic-coding guide."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to reporting metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, implemented reusable Python modules for the product review workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected product review documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined review document identifiers to metadata using SQL and checked unmatched records, then visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

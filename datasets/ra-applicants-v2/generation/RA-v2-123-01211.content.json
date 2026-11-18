@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course team project, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins for company report metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised team research, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins for public policy metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Programming Question Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised team research, wrote Python functions to parse provided programming question records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined programming question document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

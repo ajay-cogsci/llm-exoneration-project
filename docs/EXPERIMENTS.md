@@ -10,7 +10,7 @@ results remain available and are not pooled with a new run by default.
 | No-inference-sentence ablation | Completed for three models and two arms | [Written analysis](../runs/ablation/analysis/SUMMARY.md); results in `runs/ablation/plan_A/` and `plan_B/` |
 | Introductory-CS teaching assistant | Applicant generation completed; evaluation run not configured or approved | [100 graduate applicants, version 2](../datasets/ta-applicants-v2/), [method](../TA_METHOD.md), [verification](../VALIDATION.md). Retain the original 11 conditions, three tasks and two formats for the eventual evaluation. |
 | Graduate research fellowship | Applicant generation completed; final v2 release approved on 18 November 2026; evaluation run not approved | [100 early-stage CS graduate applicants](../datasets/fellowship-applicants-v2/), [method](../FELLOWSHIP_METHOD.md), [audit](../datasets/fellowship-applicants-v2/audit_report.json). Allocation: 30 weak, 40 borderline, 30 strong and ten designated mixed cases. Earlier fellowship drafts and raw generation logs are not published. |
-| Research assistant | Not run | Opportunity draft exists in the shared notes. Current PhD packets do not supply all needed opportunity-specific evidence. |
+| Research assistant | Applicant generation completed; final v2 release approved on 18 November 2026; evaluation run not approved | [100 current CS graduate applicants](../datasets/ra-applicants-v2/), [method](../RA_METHOD.md), [audit](../datasets/ra-applicants-v2/audit_report.json). Allocation: 30 weak, 40 borderline, 30 strong and ten designated mixed cases. Earlier RA drafts and raw generation logs are not published. |
 
 The full-design run used GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
 Llama 4 Maverick, and Qwen3-32B. GPT-5.5 and Claude Sonnet 5.5 were included
@@ -63,6 +63,7 @@ or whether a collaborator has read the existing results.
 - `analysis/`: analysis code for the completed PhD study and ablation.
 - `TA_METHOD.md`: the single approved TA method and current generation scope.
 - `FELLOWSHIP_METHOD.md`: the single approved fellowship method; the final applicant bank is `datasets/fellowship-applicants-v2/`.
+- `RA_METHOD.md`: the single approved RA method; the final applicant bank is `datasets/ra-applicants-v2/`.
 - `runs/`: historical outputs and local raw replies. Existing committed exports
   remain tracked; new raw logs and private human-pilot files remain ignored.
 - `datasets/`: versioned applicant inputs. Keep the published versions intact.

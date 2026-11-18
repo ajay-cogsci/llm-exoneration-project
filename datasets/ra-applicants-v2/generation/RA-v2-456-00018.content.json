@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public policy records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Report Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the public report workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used scikit-learn to compare a TF-IDF classifier with a majority-label reference on held-out document groups, checked near-duplicate overlap, and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined report document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python modules for the news metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined news document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

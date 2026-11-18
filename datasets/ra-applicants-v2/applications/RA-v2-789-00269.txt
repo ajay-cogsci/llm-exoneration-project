@@ -1,0 +1,76 @@
+Applicant RA-v2-789-00269
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 2.97/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: A- | undergraduate, 2020-12
+Programming Fundamentals: C+ | undergraduate, 2021-12
+Linear Algebra: B+ | undergraduate, 2022-12
+Data Wrangling and Management: B- | undergraduate, 2023-05
+Introduction to Machine Learning: C+ | undergraduate, 2023-12
+Graduate Data Analysis: A- | graduate, 2025-12
+Reliable Scientific Software: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, SQL, SQLite, pandas, unittest
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-03 to 2024-11 | 8 months; 8 hours/week
+Product Review Metadata Analysis
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: Under capstone supervision, wrote Python functions to parse provided product review records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, validated SQL joins of provided product review metadata using duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules with Matplotlib.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2025-01 to 2025-05 | 4 months; 4 hours/week
+Company Report Metadata Analysis
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As an individual contribution to a supervised team project, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: As an individual contribution to a supervised team project, validated SQL joins of company report metadata with duplicate-key and unmatched-record checks, and visualized changes in group comparisons under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-05 to 2024-11 | 6 months; 6 hours/week
+Programming Question Metadata Analysis
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As part of a supervised research team, wrote Python functions to parse provided programming question records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under research supervision, validated SQL joins of programming question metadata using duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 12 hours/week
+Policy Excerpt Metadata Analysis
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As part of a supervised research team, wrote Python functions to parse provided policy excerpt records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under research supervision, validated SQL joins of policy document metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Policy Excerpt Metadata Analysis' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Policy Excerpt Metadata Analysis' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Policy Excerpt Metadata Analysis' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Policy Excerpt Metadata Analysis' (2025-09 to 2025-12): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Research supervisor on 'Policy Excerpt Metadata Analysis' (2025-09 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

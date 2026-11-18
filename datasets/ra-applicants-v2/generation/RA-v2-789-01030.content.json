@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the public policy text workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined stability across repeated fits, and inspected policy excerpts supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Guided Product Review Dictionary Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided product review records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebook procedures using NLTK to apply a documented topic dictionary to review samples, then checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge procedures joining document identifiers to metadata, checked unmatched records, ran supplied Matplotlib group-comparison visualizations, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Product Review Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions for parsing provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected reviews supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

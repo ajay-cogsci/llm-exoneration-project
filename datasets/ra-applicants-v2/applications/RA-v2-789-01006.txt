@@ -1,0 +1,73 @@
+Applicant RA-v2-789-01006
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.09/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: B- | undergraduate, 2021-05
+Scientific Programming: B | undergraduate, 2022-05
+Computational Linear Algebra: B- | undergraduate, 2023-12
+Introduction to Machine Learning: B+ | undergraduate, 2023-12
+Natural Language Processing: B | undergraduate, 2023-12
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Public Policy Text Retrieval', listed below.
+Numerical Linear Algebra: B+ | graduate, 2025-12
+Probabilistic Models: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-07 to 2023-11 | 4 months; 6 hours/week
+Public Policy Text Retrieval
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: Under supervision within a student team, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, ranked public policy excerpts for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set.
+  Work product: Retrieval notebook with ranked examples and relevance-check notes.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling for the public policy excerpts.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 6 hours/week
+Research Abstract Classification
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided labeled document examples.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: Under supervision within a student team, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used TF-IDF features and a logistic-regression text classifier for public research abstracts, evaluating a fixed held-out split using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Under supervision, joined research abstract identifiers to bibliographic metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-05 to 2024-05 | 12 months; 12 hours/week
+Programming Question Classification
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided labeled document examples.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn
+- Programming: Within a supervised research team, implemented reusable Python modules for the programming-question workflow and wrote regression tests for malformed and edge-case inputs using pytest.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out programming-question groups; checked near-duplicate overlap and examined label-specific errors across repeated splits.
+  Work product: Classifier comparison, split-overlap checks and label-specific error analysis.
+- Data analysis: Under supervision, joined programming-question document identifiers to post metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Research Abstract Classification' (2024-01 to 2024-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Research Abstract Classification' (2024-01 to 2024-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Research Abstract Classification' (2024-01 to 2024-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Research Abstract Classification' (2024-01 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Research Abstract Classification' (2024-01 to 2024-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

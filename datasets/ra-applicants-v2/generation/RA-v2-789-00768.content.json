@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Programming Question Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under course supervision, implemented reusable Python modules for the programming question metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under course supervision, validated SQL joins on provided programming question metadata tables using duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python modules for the product review metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to supervised research, validated SQL joins on provided product metadata tables with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

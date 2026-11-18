@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Sentiment Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the product review workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out review groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges of product review records with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Company Report Excerpt Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course team, wrote Python functions for parsing provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "As an individual contribution to a supervised course team, ranked company report excerpts for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to a supervised course team, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Policy Excerpt Topic Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised research team, wrote Python functions for parsing provided policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Within a supervised research team, compared a TF-IDF classifier with a majority-label reference on held-out policy document groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to a supervised research team, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

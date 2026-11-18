@@ -1,0 +1,69 @@
+Applicant RA-v2-456-00482
+
+EDUCATION
+BS in Statistics, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2031-08 (enrolled; expected completion)
+Undergraduate GPA: 3.59/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: A- | undergraduate, 2021-05
+Probability and Statistics: B+ | undergraduate, 2021-05
+Statistical Pattern Recognition: B+ | undergraduate, 2023-12
+Algorithms and Data Structures: A- | undergraduate, 2024-05
+Data Wrangling and Management: A- | undergraduate, 2025-05
+Numerical Linear Algebra: A | graduate, 2025-12
+Reliable Scientific Software: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, Python re, SQL, SQLite, pandas, pytest, scikit-learn, spaCy, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-09 to 2025-05 | 8 months; 4 hours/week
+Document Metadata Visualization
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As an individual contribution to a supervised capstone team, wrote Python functions for parsing provided product-review records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Graduate course project, Fictional University B | 2025-10 to 2025-12 | 2 months; 6 hours/week
+Organization and Date Extraction
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided examples with manually checked organization and date spans.
+Tools: Git, Matplotlib, Python, Python re, SQL, SQLite, pandas, pytest, spaCy
+- Programming: As an individual contribution to a supervised course project team, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared rule-based and pretrained spaCy extraction on held-out annotated research-abstract excerpts, checked span precision and recall, and analyzed errors by entity type.
+  Work product: Held-out extraction comparison, span metrics and entity-type error analysis.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and visualized how research-abstract group comparisons changed under alternative cleaning rules using Matplotlib.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 6 hours/week
+Research Abstract Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: As an individual contribution to a supervised research team, wrote Python functions for parsing provided research-abstract records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected documents supporting each interpretation.
+  Work product: Theme comparison, repeated-fit stability checks and supporting document examples.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Organization and Date Extraction' (2025-10 to 2025-12): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Organization and Date Extraction' (2025-10 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Organization and Date Extraction' (2025-10 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Organization and Date Extraction' (2025-10 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Organization and Date Extraction' (2025-10 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

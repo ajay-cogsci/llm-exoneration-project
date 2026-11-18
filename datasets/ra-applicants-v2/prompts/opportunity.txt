@@ -1,0 +1,3 @@
+OPPORTUNITY
+Description: A university research group seeks an assistant for computational text analysis. Responsibilities include developing and implementing text-analysis and natural language processing code, cleaning, visualizing, and analyzing data, and helping summarize and draft findings. The assistant works with faculty and a research team.
+Selection criteria: Relevant academic preparation; programming proficiency (for example, Python) and experience with natural language processing; data processing and analysis (for example, SQL and visualization); ability to work independently and as part of a team; organization and communication skills; interest in academic research.

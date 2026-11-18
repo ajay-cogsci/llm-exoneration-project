@@ -1,0 +1,62 @@
+Applicant RA-v2-456-00494
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.40/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: B- | undergraduate, 2019-12
+Programming Fundamentals: B- | undergraduate, 2020-05
+Introduction to Text Analysis: A- | undergraduate, 2021-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Data Structures and Algorithms: B+ | undergraduate, 2022-05
+Computational Linear Algebra: B | undergraduate, 2022-12
+Numerical Linear Algebra: A- | graduate, 2025-12
+Machine Learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, Python re, SQL, SQLite, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-12 to 2024-05 | 5 months; 6 hours/week
+Organization and Date Extraction
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided public research abstract records within a supervised project; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied notebooks applying regular-expression and dictionary rules to extract organization and date spans from public research abstracts; compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, joined document identifiers to bibliographic metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Public Text Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided public research abstract records within a supervised research team; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied notebooks applying a documented topic dictionary to provided document samples; checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Under supervision, joined document identifiers to bibliographic metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Research supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

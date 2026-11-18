@@ -1,0 +1,69 @@
+Applicant RA-v2-789-00233
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 3.46/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A | undergraduate, 2019-05
+Statistical Inference: B | undergraduate, 2019-12
+Data Wrangling and Management: A- | undergraduate, 2021-05
+Linear Algebra: A- | undergraduate, 2021-12
+Introduction to Text Analysis: A- | undergraduate, 2023-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Product Review Theme Exploration', listed below.
+Graduate Data Analysis: A | graduate, 2025-05
+Statistical Learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2022-07 to 2022-11 | 4 months; 4 hours/week
+Research Abstract Metadata Integration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the research abstract metadata workflow and wrote regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Under supervision, joined research abstract identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2023-03 to 2023-05 | 2 months; 6 hours/week
+Product Review Theme Exploration
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: As an individual contribution to a supervised course project, wrote Python functions for parsing provided product review records and tested transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration for public product reviews, examined topic stability across repeated fits, and inspected documents supporting each interpretation.
+  Work product: Theme comparison, repeated-fit stability checks and supporting document examples.
+- Data analysis: Under supervision, joined product review identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-03 to 2025-12 | 9 months; 10 hours/week
+News Summary Metadata Integration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As an individual contribution to supervised team research, wrote Python functions for parsing provided news summary records and tested transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, joined news summary identifiers to publication metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'News Summary Metadata Integration' (2025-03 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'News Summary Metadata Integration' (2025-03 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'News Summary Metadata Integration' (2025-03 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Research supervisor on 'News Summary Metadata Integration' (2025-03 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'News Summary Metadata Integration' (2025-03 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

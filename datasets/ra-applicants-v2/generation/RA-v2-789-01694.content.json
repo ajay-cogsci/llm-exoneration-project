@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Theme Exploration in Public Research Abstracts",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised capstone, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

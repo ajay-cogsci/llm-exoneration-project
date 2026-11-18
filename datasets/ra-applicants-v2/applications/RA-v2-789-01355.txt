@@ -1,0 +1,71 @@
+Applicant RA-v2-789-01355
+
+EDUCATION
+BS in Statistics, Fictional University A | 2020-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.94/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: A | undergraduate, 2021-05
+Statistical Inference: B+ | undergraduate, 2021-12
+Data Wrangling and Management: A- | undergraduate, 2023-05
+Introduction to Machine Learning: B+ | undergraduate, 2023-12
+Natural Language Processing: A- | undergraduate, 2024-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Research Abstract Retrieval', listed below.
+Numerical Linear Algebra: A- | graduate, 2025-12
+Statistical Learning: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn, sentence-transformers, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-02 to 2024-05 | 3 months; 4 hours/week
+Research Abstract Retrieval
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, sentence-transformers, unittest
+- Programming: As an individual contribution to a supervised team project, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries for research abstracts, examined recall at fixed cutoffs, and grouped retrieval errors by query type.
+  Work product: Held-out retrieval comparison, cutoff-based recall summaries and query error analysis.
+- Data analysis: Under supervision, joined research abstract document identifiers to bibliographic metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Graduate course project, Fictional University B | 2025-10 to 2025-12 | 2 months; 4 hours/week
+Company Report Metadata Integration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest
+- Programming: In a supervised individual project, implemented reusable Python modules for the company report metadata workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Under supervision, validated SQL joins for provided company report metadata tables with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-05 to 2023-11 | 6 months; 10 hours/week
+Public Policy Excerpt Retrieval
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided query examples and document-relevance judgments.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn, sentence-transformers
+- Programming: As an individual contribution to supervised team research, implemented reusable Python modules for the public policy excerpt workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries for public policy excerpts, examined recall at fixed cutoffs, and grouped retrieval errors by query type.
+  Work product: Held-out retrieval comparison, cutoff-based recall summaries and query error analysis.
+- Data analysis: Under supervision, validated SQL joins for public policy excerpt data with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Company Report Metadata Integration' (2025-10 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Company Report Metadata Integration' (2025-10 to 2025-12): Shared assigned files, but needed prompts to communicate changes that affected the group's review.
+Organization - Project supervisor on 'Company Report Metadata Integration' (2025-10 to 2025-12): Folder names and handoff notes needed clarification before the review group could follow the workflow.
+Written communication - Project supervisor on 'Company Report Metadata Integration' (2025-10 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Company Report Metadata Integration' (2025-10 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

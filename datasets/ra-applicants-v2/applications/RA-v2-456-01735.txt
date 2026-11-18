@@ -1,0 +1,60 @@
+Applicant RA-v2-456-01735
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.32/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A | undergraduate, 2020-12
+Computational Linear Algebra: A- | undergraduate, 2021-05
+Probability and Statistics: A- | undergraduate, 2021-05
+Introduction to Text Analysis: B+ | undergraduate, 2021-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Data Management: A- | undergraduate, 2022-12
+Graduate Data Analysis: A | graduate, 2025-12
+Machine Learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-11 to 2024-05 | 6 months; 4 hours/week
+Public Report Text Classification
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided labeled document examples.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used scikit-learn TF-IDF features and a logistic-regression classifier on public company report excerpts; evaluated a fixed held-out split using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Cleaned supplied metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-02 to 2023-11 | 9 months; 10 hours/week
+Public Policy Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: As an individual contribution to supervised research, implemented reusable Python workflow modules and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration of public policy excerpts using scikit-learn; examined stability across repeated fits and inspected documents supporting each interpretation.
+  Work product: Theme comparison, repeated-fit stability checks and supporting document examples.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Report Text Classification' (2023-11 to 2024-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Public Report Text Classification' (2023-11 to 2024-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Public Report Text Classification' (2023-11 to 2024-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Public Report Text Classification' (2023-11 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public Report Text Classification' (2023-11 to 2024-05): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

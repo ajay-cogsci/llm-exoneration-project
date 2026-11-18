@@ -1,0 +1,87 @@
+Applicant RA-v2-789-00766
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 3.41/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: B | undergraduate, 2020-05
+Statistical Inference: B+ | undergraduate, 2020-05
+Data Structures and Algorithms: B | undergraduate, 2022-05
+Data Wrangling and Management: B | undergraduate, 2023-05
+Introduction to Machine Learning: C+ | undergraduate, 2024-05
+Reliable Scientific Software: B+ | graduate, 2025-05
+Numerical Linear Algebra: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, SQL, SQLite, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-09 to 2023-11 | 2 months; 4 hours/week
+Company Report Text Classification Preparation
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided labeled document examples.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance as an individual contribution to a supervised team project.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Ran supplied NLTK tokenization and word-count steps on company report samples and inspected vocabulary examples with guidance before attempting classification.
+  Work product: Tokenization notebook and vocabulary inspection notes.
+- Data analysis: Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2024-02 to 2024-05 | 3 months; 6 hours/week
+Research Abstract Theme Exploration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: In a supervised individual project, ran a supplied Python notebook to load provided research abstract records and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Ran supplied NLTK tokenization and frequency-count steps on research abstract samples and inspected frequent terms with guidance using the provided topic-coding guide.
+  Work product: Frequency-count notebook and inspected term examples.
+- Data analysis: Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-07 to 2024-01 | 6 months; 12 hours/week
+Public Policy Topic Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided public policy records and edited simple filters and loops with step-by-step guidance as an individual contribution to supervised team research.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed supplied NLTK notebook procedures to apply a documented topic dictionary to public policy samples and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Company Report Text Retrieval
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance as an individual contribution to supervised team research.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed supplied scikit-learn notebook procedures to rank company report documents for provided queries using TF-IDF similarity and checked retrieved documents against a small judged query set.
+  Work product: Retrieval notebook with ranked examples and relevance-check notes.
+- Data analysis: Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Company Report Text Retrieval' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Company Report Text Retrieval' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Company Report Text Retrieval' (2025-09 to 2025-12): Folder names and handoff notes needed clarification before the review group could follow the workflow.
+Written communication - Research supervisor on 'Company Report Text Retrieval' (2025-09 to 2025-12): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Research supervisor on 'Company Report Text Retrieval' (2025-09 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

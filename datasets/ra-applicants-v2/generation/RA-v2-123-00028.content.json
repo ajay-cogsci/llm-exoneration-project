@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "In a supervised course project, ran a supplied Python notebook to load provided product review records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Executed and inspected supplied scikit-learn notebook procedures to rank documents for provided queries using TF-IDF similarity, then checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas procedures to validate merges through duplicate-key and unmatched-record checks, and used supplied Matplotlib procedures to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

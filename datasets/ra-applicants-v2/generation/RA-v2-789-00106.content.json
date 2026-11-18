@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "News Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided news summary records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins of provided metadata tables with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Organization and Date Extraction from Reviews",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the product review workflow and wrote regression tests for malformed and edge-case inputs using pytest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on product review excerpts under supervision and inspected organization-name and date examples with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to product metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python modules for the review metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to supervised research, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

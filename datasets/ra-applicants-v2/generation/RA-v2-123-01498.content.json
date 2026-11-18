@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared rule-based and pretrained spaCy extraction on held-out annotated excerpts, checked span precision and recall, and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins using duplicate-key and unmatched-record checks and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Guided Policy Text Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load the provided records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebook procedures using regular-expression and dictionary rules to extract organization and date spans, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks; executed and inspected supplied visualization procedures and analyzed how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Document Metadata Visual Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions for parsing the provided research abstract records and tested transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

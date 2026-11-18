@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Processing and Visualization",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Guided Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

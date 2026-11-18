@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Theme Exploration in Public Programming Questions",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn; examined topic stability across repeated fits and inspected supplied public programming questions supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied post metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

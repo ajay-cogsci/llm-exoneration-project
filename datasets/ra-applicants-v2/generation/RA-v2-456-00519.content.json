@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided public policy records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn notebook procedures comparing dictionary coding with nonnegative-matrix-factorization topic exploration; examined stability across repeated fits and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas and Matplotlib procedures to validate merges through duplicate-key and unmatched-record checks and visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course project, wrote Python functions to parse provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, ranked product review documents for provided queries using scikit-learn TF-IDF similarity and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Programming Question Topic Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to provided public programming question samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Product Review Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected product review documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using pandas merges and checked unmatched records; visualized group comparisons with Matplotlib and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

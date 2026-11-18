@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Sentiment Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course project, wrote Python functions to parse provided review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used TF-IDF features and a logistic-regression text classifier in scikit-learn for product reviews; evaluated a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Summary Topic Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, wrote Python functions to parse provided news summary records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out document groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied publication metadata tables using provided steps in pandas, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

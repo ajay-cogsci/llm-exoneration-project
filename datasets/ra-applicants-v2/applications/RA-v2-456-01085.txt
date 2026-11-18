@@ -1,0 +1,48 @@
+Applicant RA-v2-456-01085
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.74/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: A- | undergraduate, 2020-12
+Scientific Programming: A | undergraduate, 2021-12
+Data Wrangling and Management: A | undergraduate, 2022-12
+Data Structures and Algorithms: A- | undergraduate, 2022-12
+Software Engineering: A | undergraduate, 2022-12
+Data Engineering: A- | graduate, 2025-12
+Advanced Algorithms: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, Python re, SQL, SQLite, pandas, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-09 to 2025-05 | 8 months; 4 hours/week
+Organization and Date Extraction from Public Text
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Git, Matplotlib, Python, Python re, SQL, SQLite, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the extraction workflow and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, joined document identifiers to post metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Organization and Date Extraction from Public Text' (2024-09 to 2025-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Organization and Date Extraction from Public Text' (2024-09 to 2025-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Organization and Date Extraction from Public Text' (2024-09 to 2025-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Organization and Date Extraction from Public Text' (2024-09 to 2025-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Organization and Date Extraction from Public Text' (2024-09 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

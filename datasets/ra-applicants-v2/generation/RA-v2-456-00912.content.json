@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided product review records within a supervised project; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn procedures using TF-IDF features and logistic regression on product reviews; examined fixed held-out evaluation using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables by executing provided pandas notebook steps; ran supplied Matplotlib procedures to plot record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Programming Question Text Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided programming question records within supervised research; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on programming question samples; inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL in SQLite and checked unmatched records; executed and inspected supplied pandas and Matplotlib procedures to visualize group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction from Public Text",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised team project, wrote Python functions to parse provided news summary records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared rule-based extraction using Python re with pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

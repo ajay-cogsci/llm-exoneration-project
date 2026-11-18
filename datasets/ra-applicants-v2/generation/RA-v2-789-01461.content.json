@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public News Document Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under project supervision, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under project supervision, ranked public news summaries for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied publication metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

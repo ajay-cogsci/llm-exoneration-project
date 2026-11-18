@@ -1,0 +1,61 @@
+Applicant RA-v2-456-00461
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.60/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A- | undergraduate, 2022-12
+Software Engineering: B | undergraduate, 2023-05
+Statistical Inference: B- | undergraduate, 2023-05
+Natural Language Processing: B+ | undergraduate, 2023-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Algorithms and Data Structures: A- | undergraduate, 2024-12
+Data Engineering: A- | graduate, 2025-12
+Numerical Linear Algebra: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-11 to 2025-05 | 6 months; 4 hours/week
+Product Review Classification
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided labeled document examples.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran and inspected a supplied Python notebook to load provided review records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied notebooks comparing a TF-IDF classifier with a majority-label reference on held-out document groups, checking near-duplicate overlap, and examining label-specific errors across repeated splits.
+  Work product: Classifier comparison, split-overlap checks and label-specific error analysis.
+- Data analysis: Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebooks to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-08 to 2025-05 | 9 months; 12 hours/week
+Policy Excerpt Classification
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided labeled document examples.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: Under supervision, wrote Python functions to parse provided policy records and tested transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out document groups, checked near-duplicate overlap, and examined label-specific errors across repeated splits.
+  Work product: Classifier comparison, split-overlap checks and label-specific error analysis.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Product Review Classification' (2024-11 to 2025-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Product Review Classification' (2024-11 to 2025-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Product Review Classification' (2024-11 to 2025-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Product Review Classification' (2024-11 to 2025-05): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Project supervisor on 'Product Review Classification' (2024-11 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

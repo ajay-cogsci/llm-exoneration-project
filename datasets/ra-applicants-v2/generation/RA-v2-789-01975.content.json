@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Visualization",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "News Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised team project, wrote Python functions to parse provided news records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "For the supervised team project, cleaned supplied metadata tables using pandas and provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Company Report Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to company report samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Within the supervised research team, cleaned supplied metadata tables using pandas and provided steps, plotted record counts with Matplotlib, and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

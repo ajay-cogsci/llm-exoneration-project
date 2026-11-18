@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Research Abstract Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised group capstone, wrote Python functions to parse provided records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to provided document samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

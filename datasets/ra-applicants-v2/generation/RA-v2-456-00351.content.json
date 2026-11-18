@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Guided Organization and Date Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided product review records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Executed supplied NLTK tokenization steps on document excerpts and inspected provided organization-name and date examples with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records, then used supplied Matplotlib procedures to visualize and analyze group comparisons under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Programming Question Text Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided programming question records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on programming question excerpts and inspected provided organization-name and date examples with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, wrote Python functions to parse provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined review document identifiers to metadata using pandas merges and checked unmatched records; visualized group comparisons with Matplotlib and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Organization and Date Span Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, wrote Python functions for parsing provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to product metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

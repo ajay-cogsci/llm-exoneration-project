@@ -1,0 +1,62 @@
+Applicant RA-v2-123-00359
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 2.89/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: C+ | undergraduate, 2019-12
+Probability and Statistics: C+ | undergraduate, 2019-12
+Introduction to Machine Learning: B- | undergraduate, 2020-12
+Data Structures and Algorithms: B | undergraduate, 2022-05
+Linear Algebra: C | undergraduate, 2023-05
+Computational Linguistics: A- | graduate, 2025-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Reliable Scientific Software: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, Python re, pandas, spaCy
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-02 to 2023-05 | 3 months; 6 hours/week
+Public Policy Entity Extraction
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, spaCy
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran a supplied Python notebook to load provided public policy excerpt records for a supervised course project; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied notebooks comparing rule-based and pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type.
+  Work product: Held-out extraction comparison, span metrics and entity-type error analysis.
+- Data analysis: Executed and inspected supplied pandas and Matplotlib notebooks to clean supplied metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-05 to 2023-05 | 12 months; 12 hours/week
+Entity Extraction from Public Programming Questions
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, spaCy
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran a supplied Python notebook to load provided public programming question records within a supervised research team; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied notebooks comparing rule-based and pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type.
+  Work product: Held-out extraction comparison, span metrics and entity-type error analysis.
+- Data analysis: Executed and inspected supplied pandas and Matplotlib notebooks to clean supplied metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Policy Entity Extraction' (2023-02 to 2023-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Public Policy Entity Extraction' (2023-02 to 2023-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Public Policy Entity Extraction' (2023-02 to 2023-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public Policy Entity Extraction' (2023-02 to 2023-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public Policy Entity Extraction' (2023-02 to 2023-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

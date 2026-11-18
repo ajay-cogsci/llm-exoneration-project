@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction from Public Text",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the extraction workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to post metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

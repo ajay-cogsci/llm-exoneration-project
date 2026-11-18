@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Report Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used scikit-learn TF-IDF features and a logistic-regression classifier on public company report excerpts; evaluated a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python workflow modules and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration of public policy excerpts using scikit-learn; examined stability across repeated fits and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

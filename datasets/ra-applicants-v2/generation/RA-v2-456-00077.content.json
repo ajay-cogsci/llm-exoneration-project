@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Executed and inspected a supplied Python notebook to load provided records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons, analyzed the comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Text Classification Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, wrote Python functions for parsing provided records and tested transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on document samples, then inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables using provided steps with pandas, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

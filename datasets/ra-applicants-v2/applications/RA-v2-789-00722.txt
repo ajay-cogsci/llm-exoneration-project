@@ -1,0 +1,64 @@
+Applicant RA-v2-789-00722
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 2.72/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: B- | undergraduate, 2019-12
+Programming Fundamentals: B | undergraduate, 2020-12
+Data Structures and Algorithms: C+ | undergraduate, 2021-12
+Software Testing: C+ | undergraduate, 2022-05
+Natural Language Processing: C+ | undergraduate, 2023-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Applied Regression: B | graduate, 2024-12
+Computational Linguistics: C+ | graduate, 2025-12
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Public Text Theme Exploration', listed below.
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, Python re, pandas, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-09 to 2023-05 | 8 months; 6 hours/week
+Organization and Date Extraction
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran and inspected a supplied Python notebook to load provided records, then edited simple filters and loops with step-by-step guidance within a supervised project.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied Python re and dictionary rules to extract organization and date spans from public policy excerpts, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Executed supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 4 hours/week
+Public Text Theme Exploration
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, pandas, unittest
+- Programming: Within a supervised course project, wrote Python functions for parsing provided records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, applied a documented topic dictionary to provided document samples using NLTK and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Cleaned supplied metadata tables using pandas and provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): The methods summary listed steps, but the reviewer needed clarification of their purpose and limitations.
+Oral communication - Project supervisor on 'Public Text Theme Exploration' (2025-09 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

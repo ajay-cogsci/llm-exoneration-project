@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Metadata Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided public policy records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean policy document metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Text Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided product review records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on public product review samples, then inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean product metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Summary Text Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided news summary records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on public news summary samples, then inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean publication metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

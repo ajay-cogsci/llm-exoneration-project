@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided product review records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out review groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined review document identifiers to product metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Company Report Span Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As a supervised research team contributor, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans from company report excerpts, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined report document identifiers to section and reporting-period metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Programming Question Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As a supervised research team contributor, implemented reusable Python modules for the programming question workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out programming question groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined programming question document identifiers to post metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

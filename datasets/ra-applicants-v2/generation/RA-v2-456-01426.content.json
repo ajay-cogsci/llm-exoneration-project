@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Research Abstract Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse the provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on the research abstract collection and inspected query terms and example matches with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to bibliographic metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

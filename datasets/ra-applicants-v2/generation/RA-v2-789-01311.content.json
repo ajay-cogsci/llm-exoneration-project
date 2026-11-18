@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "News Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided news records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Programming Question Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised team project, wrote Python functions to parse provided programming-question records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

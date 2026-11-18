@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Programming Question Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided programming question records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks using TF-IDF features and a logistic-regression classifier; examined evaluation on a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Policy Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, ranked public policy documents for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables using provided steps in pandas; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Programming Question Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided programming question records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Company Report Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided company report records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

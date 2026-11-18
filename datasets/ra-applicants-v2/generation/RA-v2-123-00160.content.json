@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided research abstract metadata records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks in SQLite and visualized how group comparisons changed under alternative cleaning rules using pandas and Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Programming Question Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course project, wrote Python functions to parse provided programming question records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and frequency-count steps on public programming question samples, then inspected frequent terms with guidance using the provided topic-coding guide."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "For the supervised project, validated SQL joins with duplicate-key and unmatched-record checks in SQLite and used pandas and Matplotlib to visualize group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Company Report Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised research team, implemented reusable Python modules for the company report workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to public company report samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks in SQLite and visualized changes in group comparisons under alternative cleaning rules using pandas and Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Research Abstract Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised research team, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to public research abstract samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks in SQLite and used pandas and Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

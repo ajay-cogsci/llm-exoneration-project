@@ -1,0 +1,49 @@
+Applicant RA-v2-123-00028
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2017-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-08 to 2031-08 (enrolled; expected completion)
+Undergraduate GPA: 3.55/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A | undergraduate, 2018-12
+Statistical Inference: A- | undergraduate, 2019-05
+Algorithms and Data Structures: B+ | undergraduate, 2020-05
+Statistical Pattern Recognition: A- | undergraduate, 2020-05
+Software Engineering: A | undergraduate, 2020-12
+Statistical Learning: B | graduate, 2024-12
+Data Engineering: B+ | graduate, 2025-05
+
+TECHNICAL SKILLS
+Matplotlib, Python, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2022-03 to 2022-05 | 2 months; 4 hours/week
+Product Review Retrieval
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, Python, pandas, scikit-learn
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: In a supervised course project, ran a supplied Python notebook to load provided product review records and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Executed and inspected supplied scikit-learn notebook procedures to rank documents for provided queries using TF-IDF similarity, then checked retrieved documents against a small judged query set.
+  Work product: Retrieval notebook with ranked examples and relevance-check notes.
+- Data analysis: Executed and inspected supplied pandas procedures to validate merges through duplicate-key and unmatched-record checks, and used supplied Matplotlib procedures to visualize changes in group comparisons under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Product Review Retrieval' (2022-03 to 2022-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Product Review Retrieval' (2022-03 to 2022-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Product Review Retrieval' (2022-03 to 2022-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Product Review Retrieval' (2022-03 to 2022-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Product Review Retrieval' (2022-03 to 2022-05): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

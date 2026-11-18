@@ -1,0 +1,48 @@
+Applicant RA-v2-456-00702
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2021-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.61/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: A | undergraduate, 2022-05
+Scientific Programming: A | undergraduate, 2023-05
+Software Testing: B+ | undergraduate, 2023-05
+Linear Algebra: A | undergraduate, 2024-05
+Data Structures and Algorithms: B+ | undergraduate, 2024-12
+Advanced Algorithms: B | graduate, 2025-12
+Numerical Linear Algebra: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, NLTK, Python, SQL, SQLite, pandas, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2025-02 to 2025-05 | 3 months; 4 hours/week
+Public Programming Question Theme Exploration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, NLTK, Python, SQL, SQLite, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, applied a documented topic dictionary to provided programming-question samples using NLTK and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using pandas and Matplotlib.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Programming Question Theme Exploration' (2025-02 to 2025-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Public Programming Question Theme Exploration' (2025-02 to 2025-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Public Programming Question Theme Exploration' (2025-02 to 2025-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public Programming Question Theme Exploration' (2025-02 to 2025-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public Programming Question Theme Exploration' (2025-02 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

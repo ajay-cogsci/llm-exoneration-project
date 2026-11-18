@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public company report excerpts; edited simple filters and loops with step-by-step guidance as an individual contribution to the supervised course project."
+        },
+        {
+          "domain": "nlp",
+          "text": "Executed supplied NLTK tokenization steps on company report excerpts and inspected query terms and example matches with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records; used supplied Matplotlib procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Research Abstract Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public research abstract records; edited simple filters and loops with step-by-step guidance as an individual contribution to the supervised course project."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed supplied pandas merges joining document identifiers to metadata and checked unmatched records; used supplied Matplotlib procedures to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Programming Question Retrieval Comparison",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public programming question records; edited simple filters and loops with step-by-step guidance as an individual contribution to supervised research."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed supplied notebooks to compare TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries; examined recall at fixed cutoffs and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records; used supplied Matplotlib procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Company Report Retrieval Checks",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public company report excerpts; edited simple filters and loops with step-by-step guidance as an individual contribution to supervised research."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed supplied scikit-learn procedures to rank company report excerpts for provided queries using TF-IDF similarity; checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records; used supplied Matplotlib procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

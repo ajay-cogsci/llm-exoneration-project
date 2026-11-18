@@ -1,0 +1,59 @@
+Applicant RA-v2-123-00021
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2031-08 (enrolled; expected completion)
+Undergraduate GPA: 3.56/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B- | undergraduate, 2019-12
+Statistical Inference: B | undergraduate, 2020-05
+Computational Linear Algebra: B+ | undergraduate, 2021-12
+Introduction to Machine Learning: A- | undergraduate, 2022-05
+Software Testing: B+ | undergraduate, 2023-05
+Numerical Linear Algebra: B- | graduate, 2025-12
+Applied Regression: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, NLTK, Python, pandas, pytest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-09 to 2023-05 | 8 months; 8 hours/week
+Public News Theme Exploration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, NLTK, Python, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the capstone workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Ran supplied NLTK tokenization and frequency-count steps on public news document samples, then inspected frequent terms with guidance using the provided topic-coding guide.
+  Work product: Frequency-count notebook and inspected term examples.
+- Data analysis: Under supervision, joined document identifiers to publication metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 10 hours/week
+Public Policy Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, NLTK, Python, pandas, pytest
+- Programming: As an individual contribution within supervised research, implemented reusable Python workflow modules and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, applied a documented topic dictionary to public policy document samples and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, then used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Public Policy Theme Exploration' (2025-08 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Public Policy Theme Exploration' (2025-08 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Public Policy Theme Exploration' (2025-08 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Public Policy Theme Exploration' (2025-08 to 2025-12): The methods summary listed steps, but the reviewer needed clarification of their purpose and limitations.
+Oral communication - Research supervisor on 'Public Policy Theme Exploration' (2025-08 to 2025-12): The briefing covered the activity, but follow-up questions were needed to clarify the main result and next step.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

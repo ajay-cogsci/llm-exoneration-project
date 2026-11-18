@@ -1,0 +1,73 @@
+Applicant RA-v2-123-00927
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-01 to 2030-01 (enrolled; expected completion)
+Undergraduate GPA: 3.45/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B+ | undergraduate, 2021-12
+Statistical Inference: B+ | undergraduate, 2022-05
+Software Testing: A | undergraduate, 2023-05
+Introduction to Text Analysis: A | undergraduate, 2023-12
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Public News Text Classification', listed below.
+Algorithms and Data Structures: B+ | undergraduate, 2024-05
+Advanced Algorithms: A- | graduate, 2025-05
+Numerical Linear Algebra: B+ | graduate, 2025-05
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn, sentence-transformers
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-08 to 2023-11 | 3 months; 8 hours/week
+Public News Text Classification
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided labeled document examples.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: As an individual contribution to a supervised two-student project, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used scikit-learn TF-IDF features and a logistic-regression classifier on public news summaries; evaluated a fixed held-out split using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 6 hours/week
+Public News Text Retrieval
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided query examples and document-relevance judgments.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn, sentence-transformers
+- Programming: As an individual contribution to a supervised two-student project, implemented reusable Python modules for the retrieval workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries using scikit-learn and sentence-transformers; examined recall at fixed cutoffs and grouped retrieval errors by query type.
+  Work product: Held-out retrieval comparison, cutoff-based recall summaries and query error analysis.
+- Data analysis: Under supervision, joined document identifiers to metadata using pandas merges and checked unmatched records; visualized group comparisons with Matplotlib and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-07 to 2024-01 | 6 months; 10 hours/week
+Public Product Review Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: As an individual contribution within a supervised research team, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration in public product reviews; examined topic stability across repeated fits and inspected documents supporting each interpretation.
+  Work product: Theme comparison, repeated-fit stability checks and supporting document examples.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public News Text Retrieval' (2024-01 to 2024-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Public News Text Retrieval' (2024-01 to 2024-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Public News Text Retrieval' (2024-01 to 2024-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public News Text Retrieval' (2024-01 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public News Text Retrieval' (2024-01 to 2024-05): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

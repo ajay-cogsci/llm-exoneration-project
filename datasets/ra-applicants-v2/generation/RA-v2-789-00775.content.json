@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public research abstracts with subject labels and bibliographic metadata; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn notebook procedures comparing dictionary coding with nonnegative-matrix-factorization topic exploration; examined topic stability across repeated fits and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas and Matplotlib notebook procedures to validate merges using duplicate-key and unmatched-record checks and visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public policy excerpts with hand-coded topic labels and document metadata; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn notebook procedures comparing a TF-IDF classifier with a majority-label reference on held-out document groups; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas and Matplotlib notebook procedures to validate merges using duplicate-key and unmatched-record checks and visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

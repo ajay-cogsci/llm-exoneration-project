@@ -1,0 +1,61 @@
+Applicant RA-v2-456-01690
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.62/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: B+ | undergraduate, 2021-12
+Probability and Statistics: A | undergraduate, 2021-12
+Algorithms and Data Structures: A- | undergraduate, 2023-05
+Natural Language Processing: B | undergraduate, 2023-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Introduction to Machine Learning: B- | undergraduate, 2024-12
+Advanced Algorithms: A- | graduate, 2025-12
+Numerical Linear Algebra: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, pandas, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2025-02 to 2025-05 | 3 months; 4 hours/week
+Public News Text Processing and Analysis
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided labeled document examples.
+Tools: Matplotlib, NLTK, Python, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided news records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Ran supplied NLTK tokenization and word-count steps on document samples, then inspected vocabulary examples with guidance before attempting classification.
+  Work product: Tokenization notebook and vocabulary inspection notes.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-11 to 2025-05 | 6 months; 12 hours/week
+Research Abstract Retrieval Support
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, NLTK, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran a supplied Python notebook to load provided research abstract records and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Executed supplied NLTK tokenization steps on the research abstract collection and inspected query terms and example matches with guidance.
+  Work product: Tokenization notebook and inspected query-match examples.
+- Data analysis: Under supervision, executed and inspected supplied pandas merges joining document identifiers to metadata, checked unmatched records, ran supplied Matplotlib group-comparison visualizations, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public News Text Processing and Analysis' (2025-02 to 2025-05): Needed frequent prompts to choose the next task and bring stalled work to review.
+Teamwork - Project supervisor on 'Public News Text Processing and Analysis' (2025-02 to 2025-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Public News Text Processing and Analysis' (2025-02 to 2025-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public News Text Processing and Analysis' (2025-02 to 2025-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public News Text Processing and Analysis' (2025-02 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

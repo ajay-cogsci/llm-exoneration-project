@@ -1,0 +1,68 @@
+Applicant RA-v2-123-01576
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.35/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: C+ | undergraduate, 2019-05
+Probability and Statistics: B- | undergraduate, 2019-12
+Data Management: C | undergraduate, 2021-12
+Data Structures and Algorithms: B- | undergraduate, 2022-05
+Statistical Pattern Recognition: B- | undergraduate, 2022-12
+Numerical Linear Algebra: B | graduate, 2025-12
+Computational Linguistics: C | graduate, 2025-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+
+TECHNICAL SKILLS
+Matplotlib, Python, Python re, pandas, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2022-11 to 2023-05 | 6 months; 8 hours/week
+Programming Question Metadata Processing
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public programming question records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Cleaned supplied programming question metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2021-11 to 2022-11 | 12 months; 6 hours/week
+News Summary Metadata Processing
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public news summary records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Cleaned supplied news summary metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 12 hours/week
+Organization and Date Extraction from Reviews
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public product review records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans from public product reviews, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Cleaned supplied product review metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Organization and Date Extraction from Reviews' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Organization and Date Extraction from Reviews' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Organization and Date Extraction from Reviews' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Organization and Date Extraction from Reviews' (2025-09 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Organization and Date Extraction from Reviews' (2025-09 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

@@ -1,0 +1,57 @@
+Applicant RA-v2-456-01807
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.48/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A- | undergraduate, 2018-12
+Probability and Statistics: B+ | undergraduate, 2019-12
+Data Wrangling and Management: A- | undergraduate, 2020-05
+Linear Algebra: B+ | undergraduate, 2021-12
+Introduction to Text Analysis: A- | undergraduate, 2021-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Graduate Data Analysis: B+ | graduate, 2025-12
+Probabilistic Models: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, unittest
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-02 to 2023-05 | 3 months; 4 hours/week
+Product Review Metadata Integration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Cleaned supplied product metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+Research Abstract Metadata Integration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Within a supervised research team, wrote Python functions for parsing provided research abstract records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, joined document identifiers to bibliographic metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Research Abstract Metadata Integration' (2025-08 to 2025-12): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Research supervisor on 'Research Abstract Metadata Integration' (2025-08 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Research Abstract Metadata Integration' (2025-08 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Research Abstract Metadata Integration' (2025-08 to 2025-12): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Research supervisor on 'Research Abstract Metadata Integration' (2025-08 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

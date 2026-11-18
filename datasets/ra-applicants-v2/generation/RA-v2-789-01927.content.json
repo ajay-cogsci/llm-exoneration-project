@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under project supervision, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied company report metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under research supervision, ranked public product reviews for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons with Matplotlib and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Research Abstract Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, wrote Python functions for parsing the provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied research abstract metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

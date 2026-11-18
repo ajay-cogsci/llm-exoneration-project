@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the research abstract metadata workflow and wrote regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined research abstract identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course project, wrote Python functions for parsing provided product review records and tested transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration for public product reviews, examined topic stability across repeated fits, and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined product review identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Summary Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised team research, wrote Python functions for parsing provided news summary records and tested transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined news summary identifiers to publication metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

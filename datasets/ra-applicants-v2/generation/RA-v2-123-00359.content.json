@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Entity Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public policy excerpt records for a supervised course project; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks comparing rule-based and pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebooks to clean supplied metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Entity Extraction from Public Programming Questions",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public programming question records within a supervised research team; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks comparing rule-based and pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebooks to clean supplied metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

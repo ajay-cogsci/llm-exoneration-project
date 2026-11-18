@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the public policy text workflow and wrote regression tests for malformed and edge-case inputs as an individual contribution to the team project."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration for public policy excerpts, examined stability across repeated fits, and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling for the public policy excerpts."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contributor on a supervised research team, implemented reusable Python modules for the product review metadata workflow and wrote regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins for product review metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

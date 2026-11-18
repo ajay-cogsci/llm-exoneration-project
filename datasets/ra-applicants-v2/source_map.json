@@ -1,0 +1,40 @@
+{
+  "plan_file": "LLM exoneration research plan.pdf",
+  "plan_sha256": "7a40abe38b65d09c2a724c885d4f8e13ac8aa6015f68e58bdc5be723ad78d868",
+  "opportunity_sources_as_listed_in_plan": [
+    "https://curf.upenn.edu/rd/research-assistant-textual-analysis",
+    "https://app.joinhandshake.com/jobs/5303669/share_preview",
+    "https://jobs.hku.hk/cw/en/job/530506/parttime-research-assistant-iii-in-the-faculty-of-education"
+  ],
+  "criterion_fields": {
+    "relevant academic preparation": [
+      "education",
+      "undergraduate_gpa",
+      "coursework"
+    ],
+    "programming proficiency and NLP experience": [
+      "projects",
+      "research_experience",
+      "technical_skills"
+    ],
+    "data processing and analysis": [
+      "projects",
+      "research_experience",
+      "technical_skills"
+    ],
+    "independent and team work": [
+      "work_evidence.independence",
+      "work_evidence.teamwork"
+    ],
+    "organization and communication": [
+      "work_evidence.organization",
+      "work_evidence.written_communication",
+      "work_evidence.oral_communication"
+    ],
+    "interest in academic research": [
+      "research_interest"
+    ]
+  },
+  "method": "Structured criterion evidence, conditional technical preparation, separate work observations and allocated sampling adapted from the approved PhD, TA and fellowship workflows.",
+  "assumptions": "All numerical settings, evidence templates and rubric rules are provisional study choices. The user specified CS graduate applicants; the plan does not impose a degree stage."
+}

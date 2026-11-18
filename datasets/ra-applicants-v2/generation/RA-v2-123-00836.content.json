@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under project supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under project supervision, joined report document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on the public policy document collection and inspected query terms and example matches with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined policy document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, wrote Python functions to parse provided public product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined review document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Text Classification Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance as an individual contribution to a supervised team project."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on company report samples and inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Research Abstract Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "In a supervised individual project, ran a supplied Python notebook to load provided research abstract records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and frequency-count steps on research abstract samples and inspected frequent terms with guidance using the provided topic-coding guide."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Topic Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public policy records and edited simple filters and loops with step-by-step guidance as an individual contribution to supervised team research."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed supplied NLTK notebook procedures to apply a documented topic dictionary to public policy samples and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Company Report Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance as an individual contribution to supervised team research."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed supplied scikit-learn notebook procedures to rank company report documents for provided queries using TF-IDF similarity and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins using duplicate-key and unmatched-record checks; executed and inspected supplied notebook procedures to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

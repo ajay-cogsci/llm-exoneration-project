@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction from Policy Text",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges using duplicate-key and unmatched-record checks, and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Company Report Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on the company report document collection and inspected query terms and example matches with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Text Processing",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization steps on public product review excerpts and inspected organization-name and date examples with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As part of supervised research, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

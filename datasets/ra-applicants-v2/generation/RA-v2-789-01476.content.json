@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "News Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load public news summary records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load public product review records, then edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn notebook procedures to rank documents for provided queries using TF-IDF similarity, then checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

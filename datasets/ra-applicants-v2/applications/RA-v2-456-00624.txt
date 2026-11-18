@@ -1,0 +1,57 @@
+Applicant RA-v2-456-00624
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-01 to 2030-01 (enrolled; expected completion)
+Undergraduate GPA: 3.36/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A- | undergraduate, 2019-12
+Data Structures and Algorithms: A | undergraduate, 2021-05
+Statistical Inference: B+ | undergraduate, 2021-05
+Data Wrangling and Management: B | undergraduate, 2022-12
+Natural Language Processing: B | undergraduate, 2022-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Advanced Algorithms: A- | graduate, 2025-12
+Numerical Linear Algebra: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, SQL, SQLite, pandas, pytest
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2023-03 to 2023-05 | 2 months; 6 hours/week
+Policy Document Metadata Analysis
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Under supervision, joined policy document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2022-08 to 2022-11 | 3 months; 6 hours/week
+Product Review Metadata Analysis
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, pandas, pytest
+- Programming: As an individual contribution to supervised research, implemented reusable Python workflow modules and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Cleaned supplied product review metadata tables using provided steps in pandas; with guidance, plotted record counts using Matplotlib and inspected missing-value summaries.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Policy Document Metadata Analysis' (2023-03 to 2023-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Policy Document Metadata Analysis' (2023-03 to 2023-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Policy Document Metadata Analysis' (2023-03 to 2023-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Policy Document Metadata Analysis' (2023-03 to 2023-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Policy Document Metadata Analysis' (2023-03 to 2023-05): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

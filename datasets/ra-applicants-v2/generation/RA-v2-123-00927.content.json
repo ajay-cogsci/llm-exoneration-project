@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public News Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised two-student project, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used scikit-learn TF-IDF features and a logistic-regression classifier on public news summaries; evaluated a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public News Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised two-student project, implemented reusable Python modules for the retrieval workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries using scikit-learn and sentence-transformers; examined recall at fixed cutoffs and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using pandas merges and checked unmatched records; visualized group comparisons with Matplotlib and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Product Review Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution within a supervised research team, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration in public product reviews; examined topic stability across repeated fits and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

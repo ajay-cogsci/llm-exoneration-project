@@ -1,0 +1,59 @@
+Applicant RA-v2-789-01311
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 2.97/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: A- | undergraduate, 2021-05
+Statistical Inference: B | undergraduate, 2021-05
+Natural Language Processing: B- | undergraduate, 2022-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Data Management: B+ | undergraduate, 2024-12
+Statistical Pattern Recognition: C+ | undergraduate, 2024-12
+Probabilistic Models: B+ | graduate, 2025-12
+Statistical Learning: B- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, SQL, SQLite, pandas, unittest
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-09 to 2025-05 | 8 months; 8 hours/week
+News Document Metadata Integration
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran and inspected a supplied Python notebook to load provided news records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Graduate course project, Fictional University B | 2025-09 to 2025-12 | 3 months; 8 hours/week
+Programming Question Metadata Integration
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, unittest
+- Programming: As an individual contribution to a supervised team project, wrote Python functions to parse provided programming-question records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Programming Question Metadata Integration' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Programming Question Metadata Integration' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Programming Question Metadata Integration' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Programming Question Metadata Integration' (2025-09 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Programming Question Metadata Integration' (2025-09 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

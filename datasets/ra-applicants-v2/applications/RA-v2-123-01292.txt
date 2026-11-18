@@ -1,0 +1,62 @@
+Applicant RA-v2-123-01292
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2018-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.57/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: B+ | undergraduate, 2019-05
+Statistical Inference: A- | undergraduate, 2019-12
+Statistical Pattern Recognition: B | undergraduate, 2020-12
+Software Engineering: A | undergraduate, 2020-12
+Data Wrangling and Management: A- | undergraduate, 2022-05
+Graduate Text Mining: A- | graduate, 2025-12
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Organization and Date Extraction from Policy Excerpts', listed below.
+Reliable Scientific Software: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, Python re, pandas, pytest, spaCy, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-02 to 2023-05 | 3 months; 4 hours/week
+Organization and Date Extraction from Programming Questions
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Git, Matplotlib, Python, Python re, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, validated pandas merges using duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Graduate course project, Fictional University B | 2025-10 to 2025-12 | 2 months; 4 hours/week
+Organization and Date Extraction from Policy Excerpts
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, spaCy, unittest
+- Programming: As an individual contribution to a supervised team project, wrote Python functions for parsing provided records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: As an individual contribution to a supervised team project, compared rule-based and pretrained spaCy extraction on held-out annotated policy excerpts, checked span precision and recall, and analyzed errors by entity type.
+  Work product: Held-out extraction comparison, span metrics and entity-type error analysis.
+- Data analysis: As an individual contribution to a supervised team project, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Organization and Date Extraction from Policy Excerpts' (2025-10 to 2025-12): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Organization and Date Extraction from Policy Excerpts' (2025-10 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Organization and Date Extraction from Policy Excerpts' (2025-10 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Organization and Date Extraction from Policy Excerpts' (2025-10 to 2025-12): The methods summary listed steps, but the reviewer needed clarification of their purpose and limitations.
+Oral communication - Project supervisor on 'Organization and Date Extraction from Policy Excerpts' (2025-10 to 2025-12): The briefing covered the activity, but follow-up questions were needed to clarify the main result and next step.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

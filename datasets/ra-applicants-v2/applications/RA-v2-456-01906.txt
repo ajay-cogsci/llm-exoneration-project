@@ -1,0 +1,60 @@
+Applicant RA-v2-456-01906
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2018-09 to 2022-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-01 to 2031-01 (enrolled; expected completion)
+Undergraduate GPA: 3.20/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: A- | undergraduate, 2018-12
+Probability and Statistics: B | undergraduate, 2019-05
+Data Wrangling and Management: B+ | undergraduate, 2020-05
+Algorithms and Data Structures: B+ | undergraduate, 2021-12
+Natural Language Processing: B+ | undergraduate, 2022-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Reliable Scientific Software: A | graduate, 2025-05
+Statistical Learning: A | graduate, 2025-05
+
+TECHNICAL SKILLS
+Git, Matplotlib, NLTK, Python, SQL, SQLite, pandas, pytest, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2021-11 to 2022-05 | 6 months; 8 hours/week
+Public News Summary Classification
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided labeled document examples.
+Tools: Git, Matplotlib, Python, SQL, SQLite, pandas, pytest, scikit-learn
+- Programming: Under supervision, implemented reusable Python modules for the news-summary workflow and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out document groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits.
+  Work product: Classifier comparison, split-overlap checks and label-specific error analysis.
+- Data analysis: Under supervision, joined news-summary document identifiers to publication metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-01 to 2025-12 | 11 months; 12 hours/week
+Public Product Review Theme Exploration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas, unittest
+- Programming: Under supervision, wrote Python functions for parsing the provided product review records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, applied a documented topic dictionary to product review document samples using NLTK and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Under supervision, joined review document identifiers to product metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Public Product Review Theme Exploration' (2025-01 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Public Product Review Theme Exploration' (2025-01 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Public Product Review Theme Exploration' (2025-01 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Public Product Review Theme Exploration' (2025-01 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Public Product Review Theme Exploration' (2025-01 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

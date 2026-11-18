@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load public research abstract records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks to compare TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries, examine recall at fixed cutoffs, and group retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebooks to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "News Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public news summary records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Company Report Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load public company report excerpts; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks to rank company report excerpts for provided queries using TF-IDF similarity and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebooks to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Public Policy Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load public policy excerpts; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks to compare a TF-IDF classifier with a majority-label reference on held-out document groups, check near-duplicate overlap, and examine label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebooks to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

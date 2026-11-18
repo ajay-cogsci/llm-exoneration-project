@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided records for the document metadata project and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how document metadata group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Organization and Date Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided research abstract records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared rule-based extraction using Python re with pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Abstract Entity Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised team research, implemented reusable Python modules for the extraction workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under research supervision, compared rule-based extraction using Python re with pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

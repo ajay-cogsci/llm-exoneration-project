@@ -1,0 +1,74 @@
+Applicant RA-v2-456-00843
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.04/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: B- | undergraduate, 2019-12
+Programming Fundamentals: C+ | undergraduate, 2021-05
+Algorithms and Data Structures: B- | undergraduate, 2023-05
+Data Wrangling and Management: C+ | undergraduate, 2024-05
+Natural Language Processing: B | undergraduate, 2024-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Product Review Text Preparation', listed below.
+Reliable Scientific Software: A- | graduate, 2025-12
+Applied Regression: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, pandas
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-07 to 2023-11 | 4 months; 8 hours/week
+Public Policy Metadata Preparation
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran and inspected a supplied Python notebook to load provided public policy records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- Data analysis: Executed supplied pandas and Matplotlib notebook procedures to clean policy document metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2024-01 to 2024-05 | 4 months; 4 hours/week
+Product Review Text Preparation
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided labeled document examples.
+Tools: Matplotlib, NLTK, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran and inspected a supplied Python notebook to load provided product review records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Ran supplied NLTK tokenization and word-count steps on public product review samples, then inspected vocabulary examples with guidance before attempting classification.
+  Work product: Tokenization notebook and vocabulary inspection notes.
+- Data analysis: Executed supplied pandas and Matplotlib notebook procedures to clean product metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2023-08 to 2024-05 | 9 months; 6 hours/week
+News Summary Text Preparation
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided labeled document examples.
+Tools: Matplotlib, NLTK, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran and inspected a supplied Python notebook to load provided news summary records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Ran supplied NLTK tokenization and word-count steps on public news summary samples, then inspected vocabulary examples with guidance before attempting classification.
+  Work product: Tokenization notebook and vocabulary inspection notes.
+- Data analysis: Executed supplied pandas and Matplotlib notebook procedures to clean publication metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Product Review Text Preparation' (2024-01 to 2024-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Product Review Text Preparation' (2024-01 to 2024-05): Shared assigned files, but needed prompts to communicate changes that affected the group's review.
+Organization - Project supervisor on 'Product Review Text Preparation' (2024-01 to 2024-05): Folder names and handoff notes needed clarification before the review group could follow the workflow.
+Written communication - Project supervisor on 'Product Review Text Preparation' (2024-01 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Product Review Text Preparation' (2024-01 to 2024-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

@@ -1,0 +1,61 @@
+Applicant RA-v2-789-01603
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.71/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: A | undergraduate, 2020-05
+Programming Fundamentals: A | undergraduate, 2021-05
+Data Structures and Algorithms: A | undergraduate, 2023-05
+Statistical Pattern Recognition: A- | undergraduate, 2024-05
+Natural Language Processing: A | undergraduate, 2024-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Numerical Linear Algebra: A | graduate, 2025-12
+Computational Linguistics: B | graduate, 2025-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, Python re, pandas, pytest, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-12 to 2024-05 | 5 months; 8 hours/week
+Organization and Date Extraction Capstone
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public programming question records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used Python re and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, validated pandas merges using duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+Organization and Date Extraction Research
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Git, Matplotlib, Python, Python re, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the public programming question workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used Python re and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and visualized changes in group comparisons under alternative cleaning rules using Matplotlib.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Organization and Date Extraction Research' (2025-08 to 2025-12): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Research supervisor on 'Organization and Date Extraction Research' (2025-08 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Organization and Date Extraction Research' (2025-08 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Organization and Date Extraction Research' (2025-08 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Organization and Date Extraction Research' (2025-08 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

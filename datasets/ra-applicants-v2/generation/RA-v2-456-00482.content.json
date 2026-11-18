@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Visualization",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised capstone team, wrote Python functions for parsing provided product-review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Organization and Date Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course project team, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared rule-based and pretrained spaCy extraction on held-out annotated research-abstract excerpts, checked span precision and recall, and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and visualized how research-abstract group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Abstract Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised research team, wrote Python functions for parsing provided research-abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn, examined topic stability across repeated fits, and inspected documents supporting each interpretation."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

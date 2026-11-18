@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Programming Question Metadata Processing",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public programming question records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied programming question metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Summary Metadata Processing",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public news summary records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied news summary metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Organization and Date Extraction from Reviews",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided public product review records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans from public product reviews, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied product review metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

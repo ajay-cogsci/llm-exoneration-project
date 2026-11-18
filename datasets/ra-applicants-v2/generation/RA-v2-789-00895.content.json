@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Supervised Research Abstract Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided public research abstract records, inspected its execution, and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Executed and inspected supplied scikit-learn notebook procedures using TF-IDF features and a logistic-regression text classifier; evaluated the fixed held-out split through macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib procedures to validate merges through duplicate-key and unmatched-record checks and visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

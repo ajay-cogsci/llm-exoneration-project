@@ -1,0 +1,49 @@
+Applicant RA-v2-123-00890
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2019-09 to 2023-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.45/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: A- | undergraduate, 2019-12
+Programming Fundamentals: B | undergraduate, 2020-12
+Software Engineering: B+ | undergraduate, 2021-12
+Introduction to Machine Learning: B | undergraduate, 2022-05
+Data Structures and Algorithms: B | undergraduate, 2023-05
+Numerical Linear Algebra: B- | graduate, 2025-12
+Machine Learning: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, SQL, SQLite, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2023-01 to 2023-05 | 4 months; 8 hours/week
+Public Policy Text Classification
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided labeled document examples.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Under supervision, ran and inspected a supplied Python notebook to load provided public policy records, then edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Executed and inspected supplied scikit-learn notebook procedures using TF-IDF features and logistic regression for topic classification; examined fixed held-out evaluation using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Validated SQL joins with duplicate-key and unmatched-record checks; executed and inspected supplied analysis notebooks to visualize and examine how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Policy Text Classification' (2023-01 to 2023-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Public Policy Text Classification' (2023-01 to 2023-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Public Policy Text Classification' (2023-01 to 2023-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Public Policy Text Classification' (2023-01 to 2023-05): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Project supervisor on 'Public Policy Text Classification' (2023-01 to 2023-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

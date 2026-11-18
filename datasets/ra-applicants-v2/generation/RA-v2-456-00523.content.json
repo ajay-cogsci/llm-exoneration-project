@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "In a supervised individual study, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined research abstract identifiers to provided metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised four-student project, wrote Python functions to parse provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, ranked product review documents for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined product review document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "News Summary Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contributor within a supervised research team, wrote Python functions to parse provided news summary records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined news summary document identifiers to provided metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

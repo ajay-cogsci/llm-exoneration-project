@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Text Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public policy excerpts for the supervised project; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks comparing TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries; examined recall at fixed cutoffs and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Product Review Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public product reviews for the supervised project; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected a supplied notebook ranking product reviews for provided queries using TF-IDF similarity; checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to product metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Organization and Date Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public news summaries within a supervised research team; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied notebooks using regular-expression and dictionary rules to extract organization and date spans from news summaries; compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to publication metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Programming Question Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load public programming questions within a supervised research team; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected a supplied notebook ranking programming questions for provided queries using TF-IDF similarity; checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to post metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

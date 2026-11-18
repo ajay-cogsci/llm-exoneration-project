@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Research Abstract Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Implemented reusable Python modules for the supervised project workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied tokenization steps using NLTK on public research abstracts and inspected query terms and example matches with guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied bibliographic metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

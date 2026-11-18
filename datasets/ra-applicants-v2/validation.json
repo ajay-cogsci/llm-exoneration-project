@@ -1,0 +1,17 @@
+{
+  "applicant_count": 100,
+  "status_counts": {
+    "passed_automated_checks": 100
+  },
+  "accepted_by_repair_attempt": {
+    "0": 100
+  },
+  "saved_api_responses": 200,
+  "reported_usage": {
+    "input_tokens": 561707,
+    "output_tokens": 48410,
+    "total_tokens": 610117
+  },
+  "independent_human_validation_completed": false,
+  "calibration_against_real_ra_selection": "not_established"
+}

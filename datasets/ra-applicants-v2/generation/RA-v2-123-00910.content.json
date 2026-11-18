@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Text Classification Capstone",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised team capstone, implemented reusable Python modules for the recorded workflow and wrote regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used TF-IDF features and a logistic-regression classifier on labeled public policy excerpts; evaluated a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Text Classification Course Project",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "In a supervised individual course project, implemented reusable Python modules for the recorded workflow and wrote regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out document groups; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

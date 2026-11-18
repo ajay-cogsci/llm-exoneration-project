@@ -1,0 +1,486 @@
+{
+  "pool": {
+    "n": 6000,
+    "tiers": {
+      "weak": 2085,
+      "borderline": 3365,
+      "strong": 550
+    },
+    "designated_mixed": {
+      "none": 6000
+    },
+    "graduate_degrees": {
+      "MS in Computer Science": 3289,
+      "PhD in Computer Science": 2711
+    },
+    "project_roles": {
+      "Undergraduate capstone": 1924,
+      "Undergraduate course project": 3018,
+      "Graduate course project": 1023,
+      "Undergraduate independent study": 2069
+    },
+    "project_counts": {
+      "1": 3966,
+      "2": 2034
+    },
+    "research_counts": {
+      "2": 1186,
+      "0": 2109,
+      "1": 2705
+    },
+    "work_families": {
+      "data_integration": 2167,
+      "text_retrieval": 2163,
+      "corpus_exploration": 2212,
+      "entity_extraction": 2182,
+      "text_classification": 2201,
+      "visual_reporting": 2186
+    },
+    "work_observation_sources": {
+      "Research supervisor": 2326,
+      "Project supervisor": 3674
+    },
+    "unique_portfolios": 5153,
+    "unique_grade_vectors": 5439,
+    "by_tier": {
+      "weak": {
+        "n": 2085,
+        "gpa_range": [
+          2.7,
+          3.97
+        ],
+        "first_time_ra": 891,
+        "no_completed_nlp_work": 719,
+        "limited_nlp": 1311,
+        "dimensions": {
+          "academic": {
+            "0": 1025,
+            "1": 964,
+            "2": 96
+          },
+          "programming": {
+            "1": 731,
+            "0": 693,
+            "2": 661
+          },
+          "nlp": {
+            "0": 1311,
+            "2": 321,
+            "1": 453
+          },
+          "data_analysis": {
+            "2": 619,
+            "1": 749,
+            "0": 717
+          },
+          "independence": {
+            "2": 696,
+            "1": 983,
+            "0": 406
+          },
+          "teamwork": {
+            "2": 748,
+            "1": 950,
+            "0": 387
+          },
+          "organization": {
+            "1": 994,
+            "0": 416,
+            "2": 675
+          },
+          "written_communication": {
+            "1": 970,
+            "0": 585,
+            "2": 530
+          },
+          "oral_communication": {
+            "1": 1021,
+            "0": 543,
+            "2": 521
+          },
+          "research_interest": {
+            "2": 738,
+            "1": 792,
+            "0": 555
+          }
+        }
+      },
+      "borderline": {
+        "n": 3365,
+        "gpa_range": [
+          2.7,
+          3.99
+        ],
+        "first_time_ra": 1083,
+        "no_completed_nlp_work": 467,
+        "limited_nlp": 727,
+        "dimensions": {
+          "academic": {
+            "1": 2524,
+            "0": 438,
+            "2": 403
+          },
+          "programming": {
+            "1": 1606,
+            "2": 1545,
+            "0": 214
+          },
+          "nlp": {
+            "1": 1420,
+            "2": 1218,
+            "0": 727
+          },
+          "data_analysis": {
+            "2": 1615,
+            "1": 1540,
+            "0": 210
+          },
+          "independence": {
+            "1": 1700,
+            "2": 1171,
+            "0": 494
+          },
+          "teamwork": {
+            "0": 499,
+            "2": 1197,
+            "1": 1669
+          },
+          "organization": {
+            "2": 1111,
+            "1": 1737,
+            "0": 517
+          },
+          "written_communication": {
+            "1": 1857,
+            "0": 488,
+            "2": 1020
+          },
+          "oral_communication": {
+            "1": 1861,
+            "2": 1041,
+            "0": 463
+          },
+          "research_interest": {
+            "1": 1602,
+            "2": 1417,
+            "0": 346
+          }
+        }
+      },
+      "strong": {
+        "n": 550,
+        "gpa_range": [
+          2.7,
+          3.97
+        ],
+        "first_time_ra": 135,
+        "no_completed_nlp_work": 0,
+        "limited_nlp": 0,
+        "dimensions": {
+          "academic": {
+            "1": 434,
+            "2": 116
+          },
+          "programming": {
+            "2": 443,
+            "1": 107
+          },
+          "nlp": {
+            "2": 419,
+            "1": 131
+          },
+          "data_analysis": {
+            "1": 128,
+            "2": 422
+          },
+          "independence": {
+            "2": 222,
+            "1": 328
+          },
+          "teamwork": {
+            "2": 221,
+            "1": 329
+          },
+          "organization": {
+            "1": 317,
+            "2": 233
+          },
+          "written_communication": {
+            "1": 344,
+            "2": 206
+          },
+          "oral_communication": {
+            "1": 323,
+            "2": 227
+          },
+          "research_interest": {
+            "1": 303,
+            "2": 247
+          }
+        }
+      }
+    },
+    "course_area_sets": 420,
+    "course_title_sets": 5336,
+    "graduate_course_dates": {
+      "2025-12": 10105,
+      "2025-05": 1204,
+      "2024-12": 691
+    },
+    "nlp_course_assessments": {
+      "practical": 1937,
+      "written": 3157
+    },
+    "no_nlp_course": 1933,
+    "without_sql_by_tier": {
+      "weak": 1391,
+      "borderline": 1733,
+      "strong": 269
+    }
+  },
+  "selected": {
+    "n": 100,
+    "tiers": {
+      "borderline": 40,
+      "weak": 30,
+      "strong": 30
+    },
+    "designated_mixed": {
+      "none": 90,
+      "lower_gpa_practical_strength": 3,
+      "strong_programming_limited_nlp": 3,
+      "technical_strength_communication_gap": 2,
+      "capable_first_time_ra": 2
+    },
+    "graduate_degrees": {
+      "PhD in Computer Science": 47,
+      "MS in Computer Science": 53
+    },
+    "project_roles": {
+      "Undergraduate course project": 47,
+      "Undergraduate capstone": 35,
+      "Undergraduate independent study": 34,
+      "Graduate course project": 20
+    },
+    "project_counts": {
+      "1": 64,
+      "2": 36
+    },
+    "research_counts": {
+      "2": 24,
+      "1": 48,
+      "0": 28
+    },
+    "work_families": {
+      "visual_reporting": 40,
+      "text_retrieval": 38,
+      "corpus_exploration": 37,
+      "entity_extraction": 35,
+      "text_classification": 46,
+      "data_integration": 36
+    },
+    "work_observation_sources": {
+      "Research supervisor": 46,
+      "Project supervisor": 54
+    },
+    "unique_portfolios": 100,
+    "unique_grade_vectors": 100,
+    "by_tier": {
+      "weak": {
+        "n": 30,
+        "gpa_range": [
+          2.72,
+          3.94
+        ],
+        "first_time_ra": 11,
+        "no_completed_nlp_work": 8,
+        "limited_nlp": 14,
+        "dimensions": {
+          "academic": {
+            "0": 11,
+            "1": 17,
+            "2": 2
+          },
+          "programming": {
+            "2": 7,
+            "0": 13,
+            "1": 10
+          },
+          "nlp": {
+            "1": 9,
+            "0": 14,
+            "2": 7
+          },
+          "data_analysis": {
+            "2": 13,
+            "0": 11,
+            "1": 6
+          },
+          "independence": {
+            "1": 18,
+            "0": 2,
+            "2": 10
+          },
+          "teamwork": {
+            "1": 12,
+            "0": 5,
+            "2": 13
+          },
+          "organization": {
+            "1": 13,
+            "2": 13,
+            "0": 4
+          },
+          "written_communication": {
+            "0": 10,
+            "1": 13,
+            "2": 7
+          },
+          "oral_communication": {
+            "0": 9,
+            "1": 14,
+            "2": 7
+          },
+          "research_interest": {
+            "1": 14,
+            "2": 6,
+            "0": 10
+          }
+        }
+      },
+      "borderline": {
+        "n": 40,
+        "gpa_range": [
+          2.91,
+          3.95
+        ],
+        "first_time_ra": 11,
+        "no_completed_nlp_work": 7,
+        "limited_nlp": 13,
+        "dimensions": {
+          "academic": {
+            "1": 28,
+            "2": 7,
+            "0": 5
+          },
+          "programming": {
+            "2": 19,
+            "0": 4,
+            "1": 17
+          },
+          "nlp": {
+            "1": 16,
+            "0": 13,
+            "2": 11
+          },
+          "data_analysis": {
+            "1": 16,
+            "2": 22,
+            "0": 2
+          },
+          "independence": {
+            "1": 22,
+            "0": 4,
+            "2": 14
+          },
+          "teamwork": {
+            "1": 17,
+            "0": 3,
+            "2": 20
+          },
+          "organization": {
+            "1": 24,
+            "2": 13,
+            "0": 3
+          },
+          "written_communication": {
+            "1": 22,
+            "2": 10,
+            "0": 8
+          },
+          "oral_communication": {
+            "0": 6,
+            "1": 20,
+            "2": 14
+          },
+          "research_interest": {
+            "2": 22,
+            "1": 17,
+            "0": 1
+          }
+        }
+      },
+      "strong": {
+        "n": 30,
+        "gpa_range": [
+          2.72,
+          3.93
+        ],
+        "first_time_ra": 6,
+        "no_completed_nlp_work": 0,
+        "limited_nlp": 0,
+        "dimensions": {
+          "academic": {
+            "1": 26,
+            "2": 4
+          },
+          "programming": {
+            "2": 26,
+            "1": 4
+          },
+          "nlp": {
+            "1": 5,
+            "2": 25
+          },
+          "data_analysis": {
+            "2": 21,
+            "1": 9
+          },
+          "independence": {
+            "2": 11,
+            "1": 19
+          },
+          "teamwork": {
+            "1": 15,
+            "2": 15
+          },
+          "organization": {
+            "1": 18,
+            "2": 12
+          },
+          "written_communication": {
+            "2": 9,
+            "1": 21
+          },
+          "oral_communication": {
+            "1": 19,
+            "2": 11
+          },
+          "research_interest": {
+            "2": 11,
+            "1": 19
+          }
+        }
+      }
+    },
+    "course_area_sets": 86,
+    "course_title_sets": 99,
+    "graduate_course_dates": {
+      "2025-12": 170,
+      "2025-05": 20,
+      "2024-12": 10
+    },
+    "nlp_course_assessments": {
+      "practical": 30,
+      "written": 50
+    },
+    "no_nlp_course": 34,
+    "without_sql_by_tier": {
+      "weak": 19,
+      "borderline": 18,
+      "strong": 15
+    }
+  },
+  "api_calls": 0,
+  "parameter_status": "Provisional study design. The plan provides role criteria and assessment wording, not RA distributions, correlations or numerical merit thresholds."
+}

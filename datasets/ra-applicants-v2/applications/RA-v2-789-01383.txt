@@ -1,0 +1,49 @@
+Applicant RA-v2-789-01383
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.64/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: A- | undergraduate, 2022-12
+Programming Fundamentals: A- | undergraduate, 2023-05
+Data Wrangling and Management: A- | undergraduate, 2023-12
+Statistical Pattern Recognition: A- | undergraduate, 2023-12
+Natural Language Processing: A- | undergraduate, 2024-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Advanced Algorithms: A- | graduate, 2025-12
+Reliable Scientific Software: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-11 to 2025-05 | 6 months; 8 hours/week
+Theme Exploration in Public Programming Questions
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided document samples and a topic-coding guide.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, compared dictionary coding with nonnegative-matrix-factorization topic exploration using scikit-learn; examined topic stability across repeated fits and inspected supplied public programming questions supporting each interpretation.
+  Work product: Theme comparison, repeated-fit stability checks and supporting document examples.
+- Data analysis: Cleaned supplied post metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Theme Exploration in Public Programming Questions' (2024-11 to 2025-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Theme Exploration in Public Programming Questions' (2024-11 to 2025-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Theme Exploration in Public Programming Questions' (2024-11 to 2025-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Theme Exploration in Public Programming Questions' (2024-11 to 2025-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Theme Exploration in Public Programming Questions' (2024-11 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

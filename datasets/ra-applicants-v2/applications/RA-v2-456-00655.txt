@@ -1,0 +1,48 @@
+Applicant RA-v2-456-00655
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.52/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: A- | undergraduate, 2022-05
+Software Engineering: A- | undergraduate, 2022-05
+Statistical Inference: A- | undergraduate, 2022-05
+Computational Linear Algebra: A- | undergraduate, 2023-12
+Data Management: B+ | undergraduate, 2024-05
+Advanced Algorithms: B+ | graduate, 2025-12
+Probabilistic Models: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, pandas, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-09 to 2025-05 | 8 months; 8 hours/week
+Public Research Abstract Theme Exploration
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided document samples and a topic-coding guide.
+Tools: Matplotlib, NLTK, Python, pandas, unittest
+- Programming: As an individual contribution to a supervised group capstone, wrote Python functions to parse provided records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, applied a documented topic dictionary to provided document samples using NLTK and checked dictionary matches against manually reviewed examples.
+  Work product: Dictionary coding notebook and manually reviewed match examples.
+- Data analysis: Cleaned supplied metadata tables using pandas and provided steps; plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public Research Abstract Theme Exploration' (2024-09 to 2025-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Public Research Abstract Theme Exploration' (2024-09 to 2025-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Public Research Abstract Theme Exploration' (2024-09 to 2025-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Public Research Abstract Theme Exploration' (2024-09 to 2025-05): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Project supervisor on 'Public Research Abstract Theme Exploration' (2024-09 to 2025-05): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

@@ -1,0 +1,63 @@
+Applicant RA-v2-456-00912
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 3.58/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: B | undergraduate, 2021-12
+Data Wrangling and Management: B | undergraduate, 2023-05
+Scientific Programming: A- | undergraduate, 2023-05
+Algorithms and Data Structures: B | undergraduate, 2023-12
+Natural Language Processing: B+ | undergraduate, 2023-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Probabilistic Models: B- | graduate, 2025-12
+Computational Linguistics: B- | graduate, 2025-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, SQL, SQLite, pandas, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-12 to 2025-05 | 5 months; 4 hours/week
+Product Review Text Classification
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided labeled document examples.
+Tools: Matplotlib, Python, pandas, scikit-learn
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran a supplied Python notebook to load provided product review records within a supervised project; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Under supervision, executed and inspected supplied scikit-learn procedures using TF-IDF features and logistic regression on product reviews; examined fixed held-out evaluation using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Cleaned supplied metadata tables by executing provided pandas notebook steps; ran supplied Matplotlib procedures to plot record counts and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-08 to 2025-05 | 9 months; 12 hours/week
+Programming Question Text Analysis
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided labeled document examples.
+Tools: Matplotlib, NLTK, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded NLP and analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Ran a supplied Python notebook to load provided programming question records within supervised research; edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- NLP: Ran supplied NLTK tokenization and word-count steps on programming question samples; inspected vocabulary examples with guidance before attempting classification.
+  Work product: Tokenization notebook and vocabulary inspection notes.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL in SQLite and checked unmatched records; executed and inspected supplied pandas and Matplotlib procedures to visualize group comparisons, and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Product Review Text Classification' (2024-12 to 2025-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Product Review Text Classification' (2024-12 to 2025-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Product Review Text Classification' (2024-12 to 2025-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Product Review Text Classification' (2024-12 to 2025-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Product Review Text Classification' (2024-12 to 2025-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

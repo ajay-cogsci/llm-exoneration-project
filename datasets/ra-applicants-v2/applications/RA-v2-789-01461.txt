@@ -1,0 +1,50 @@
+Applicant RA-v2-789-01461
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2019-09 to 2024-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.54/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: A | undergraduate, 2020-05
+Programming Fundamentals: A- | undergraduate, 2020-12
+Data Structures and Algorithms: B+ | undergraduate, 2022-05
+Data Management: A- | undergraduate, 2024-05
+Introduction to Text Analysis: A- | undergraduate, 2024-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Public News Document Retrieval', listed below.
+Advanced Algorithms: A- | graduate, 2025-12
+Machine Learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-02 to 2024-05 | 3 months; 8 hours/week
+Public News Document Retrieval
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided query examples and document-relevance judgments.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: Under project supervision, implemented reusable Python modules for the workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under project supervision, ranked public news summaries for provided queries using TF-IDF similarity in scikit-learn and checked retrieved documents against a small judged query set.
+  Work product: Retrieval notebook with ranked examples and relevance-check notes.
+- Data analysis: Cleaned supplied publication metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Public News Document Retrieval' (2024-02 to 2024-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Public News Document Retrieval' (2024-02 to 2024-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Public News Document Retrieval' (2024-02 to 2024-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Public News Document Retrieval' (2024-02 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Public News Document Retrieval' (2024-02 to 2024-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

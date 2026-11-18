@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision in an individual project, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries, examined recall at fixed cutoffs, and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to bibliographic metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Document Metadata Visual Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised course team project, implemented reusable Python modules for the document metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Within the supervised team project, validated SQL joins for company report metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Abstract Retrieval Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised team research, implemented reusable Python modules for the research abstract workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Within supervised team research, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries, examined recall at fixed cutoffs, and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Within supervised team research, validated SQL joins for research abstract metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

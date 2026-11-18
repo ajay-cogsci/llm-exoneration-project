@@ -1,0 +1,69 @@
+Applicant RA-v2-123-00836
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-09 to 2027-09 (enrolled; expected completion)
+Undergraduate GPA: 2.98/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B | undergraduate, 2020-12
+Statistical Inference: B+ | undergraduate, 2021-12
+Introduction to Text Analysis: C+ | undergraduate, 2022-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Data Structures and Algorithms: B | undergraduate, 2022-12
+Software Testing: B | undergraduate, 2025-05
+Numerical Linear Algebra: B+ | graduate, 2025-12
+Graduate Text Mining: A- | graduate, 2025-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+
+TECHNICAL SKILLS
+Matplotlib, NLTK, Python, pandas, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-11 to 2025-05 | 6 months; 8 hours/week
+Company Report Metadata Integration
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Under project supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under project supervision, joined report document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-11 to 2025-05 | 6 months; 10 hours/week
+Public Policy Text Retrieval
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, NLTK, Python, pandas, unittest
+- Programming: Under research supervision, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Ran supplied NLTK tokenization steps on the public policy document collection and inspected query terms and example matches with guidance.
+  Work product: Tokenization notebook and inspected query-match examples.
+- Data analysis: Under research supervision, joined policy document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Product Review Metadata Integration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Under research supervision, wrote Python functions to parse provided public product review records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under research supervision, joined review document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Product Review Metadata Integration' (2025-09 to 2025-12): Needed frequent prompts to choose the next task and bring stalled work to review.
+Teamwork - Research supervisor on 'Product Review Metadata Integration' (2025-09 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Product Review Metadata Integration' (2025-09 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Product Review Metadata Integration' (2025-09 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Product Review Metadata Integration' (2025-09 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

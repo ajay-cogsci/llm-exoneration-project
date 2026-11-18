@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided records, then edited simple filters and loops with step-by-step guidance within a supervised project."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied Python re and dictionary rules to extract organization and date spans from public policy excerpts, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Public Text Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised course project, wrote Python functions for parsing provided records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to provided document samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied metadata tables using pandas and provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

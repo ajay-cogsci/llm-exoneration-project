@@ -1,0 +1,49 @@
+Applicant RA-v2-456-00802
+
+EDUCATION
+BS in Software Engineering, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-08 to 2030-08 (enrolled; expected completion)
+Undergraduate GPA: 3.33/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B- | undergraduate, 2020-12
+Statistical Inference: A | undergraduate, 2021-05
+Natural Language Processing: A | undergraduate, 2021-12
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Data Structures and Algorithms: A- | undergraduate, 2023-05
+Software Testing: B | undergraduate, 2023-12
+Machine Learning: A- | graduate, 2024-12
+Advanced Algorithms: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, Python re, pandas, spaCy, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2023-11 to 2024-05 | 6 months; 8 hours/week
+Organization and Date Extraction from Public Text
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, spaCy, unittest
+- Programming: As an individual contribution to a supervised team project, wrote Python functions to parse provided news summary records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared rule-based extraction using Python re with pretrained spaCy extraction on held-out annotated excerpts; checked span precision and recall and analyzed errors by entity type.
+  Work product: Held-out extraction comparison, span metrics and entity-type error analysis.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Organization and Date Extraction from Public Text' (2023-11 to 2024-05): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Project supervisor on 'Organization and Date Extraction from Public Text' (2023-11 to 2024-05): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Project supervisor on 'Organization and Date Extraction from Public Text' (2023-11 to 2024-05): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Project supervisor on 'Organization and Date Extraction from Public Text' (2023-11 to 2024-05): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Project supervisor on 'Organization and Date Extraction from Public Text' (2023-11 to 2024-05): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

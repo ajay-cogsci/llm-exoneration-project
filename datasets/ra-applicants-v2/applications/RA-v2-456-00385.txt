@@ -1,0 +1,58 @@
+Applicant RA-v2-456-00385
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-08 to 2031-08 (enrolled; expected completion)
+Undergraduate GPA: 3.20/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: B- | undergraduate, 2019-12
+Statistical Inference: C+ | undergraduate, 2019-12
+Data Management: B | undergraduate, 2021-05
+Natural Language Processing: B- | undergraduate, 2022-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+Algorithms and Data Structures: B- | undergraduate, 2022-12
+Data Engineering: A- | graduate, 2025-12
+Reliable Scientific Software: A | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, pandas, unittest
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-12 to 2023-05 | 5 months; 4 hours/week
+Programming Question Metadata Integration
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: As an individual contribution to a supervised capstone, ran and inspected a supplied Python notebook to load provided records, and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- Data analysis: Under supervision, executed and inspected supplied notebook procedures validating pandas merges through duplicate-key and unmatched-record checks, and analyzed Matplotlib visualizations of how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+Public Policy Metadata Integration
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: As an individual contribution to supervised research, wrote Python functions for parsing provided public policy records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Under supervision, validated pandas merges of provided metadata tables with duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Public Policy Metadata Integration' (2025-08 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Public Policy Metadata Integration' (2025-08 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Public Policy Metadata Integration' (2025-08 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Research supervisor on 'Public Policy Metadata Integration' (2025-08 to 2025-12): The methods summary listed steps, but the reviewer needed clarification of their purpose and limitations.
+Oral communication - Research supervisor on 'Public Policy Metadata Integration' (2025-08 to 2025-12): The briefing covered the activity, but follow-up questions were needed to clarify the main result and next step.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

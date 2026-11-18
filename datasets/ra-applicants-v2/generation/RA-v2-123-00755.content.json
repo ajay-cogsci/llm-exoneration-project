@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran a supplied Python notebook to load provided research abstract records and edited simple filters and loops with step-by-step guidance during a supervised independent study."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records, and used supplied Matplotlib procedures to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Report Text Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised research team, ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on company report samples, then inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied pandas merge checks for duplicate keys and unmatched records, and used supplied Matplotlib procedures to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ]
+}

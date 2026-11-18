@@ -1,0 +1,84 @@
+Applicant RA-v2-123-01081
+
+EDUCATION
+BS in Computer Engineering, Fictional University A | 2021-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.39/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B- | undergraduate, 2021-12
+Statistical Inference: A- | undergraduate, 2021-12
+Introduction to Machine Learning: B+ | undergraduate, 2023-05
+Data Structures and Algorithms: C+ | undergraduate, 2024-12
+Natural Language Processing: B+ | undergraduate, 2025-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Organization and Date Extraction from Programming Questions', listed below.
+Advanced Algorithms: A- | graduate, 2025-12
+Statistical Learning: B+ | graduate, 2025-12
+
+TECHNICAL SKILLS
+Matplotlib, Python, Python re, SQL, SQLite, pandas, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate course project, Fictional University A | 2024-09 to 2024-11 | 2 months; 4 hours/week
+Document Metadata Integration
+Scope: Supervised project with 2 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, SQL, SQLite, pandas
+Implementation support: Supplied Python notebooks implemented the recorded analysis procedures. The applicant executed and inspected them and made the recorded guided code edits. SQL tasks describe separate work.
+- Programming: Under supervision, ran and inspected a supplied Python notebook to load provided records, and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; executed and inspected supplied notebooks to visualize group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2025-01 to 2025-05 | 4 months; 4 hours/week
+Organization and Date Extraction from Programming Questions
+Scope: Supervised project with 3 student(s); tasks describe the applicant's contribution.
+Inputs: public programming questions with category labels and post metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, SQL, SQLite, pandas, unittest
+- Programming: Under supervision, wrote Python functions for parsing provided programming-question records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, joined document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University A | 2024-05 to 2024-11 | 6 months; 10 hours/week
+Public Policy Text Classification
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided labeled document examples.
+Tools: Matplotlib, Python, SQL, SQLite, pandas, scikit-learn, unittest
+- Programming: Under supervision, wrote Python functions for parsing provided public policy records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used TF-IDF features and a logistic-regression classifier for public policy excerpts; evaluated a fixed held-out split using macro F-score and example errors.
+  Work product: Baseline classifier notebook, held-out evaluation and error examples.
+- Data analysis: Under supervision, validated SQL joins with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules.
+  Work product: Validated join queries, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 10 hours/week
+Organization and Date Extraction from News Summaries
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, SQL, SQLite, pandas, unittest
+- Programming: Under supervision, wrote Python functions for parsing provided news-summary records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public news summaries, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, joined document identifiers to publication metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling.
+  Work product: Join queries, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Organization and Date Extraction from News Summaries' (2025-08 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Organization and Date Extraction from News Summaries' (2025-08 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Organization and Date Extraction from News Summaries' (2025-08 to 2025-12): Maintained dated task notes and tracked pending checks alongside the working files.
+Written communication - Research supervisor on 'Organization and Date Extraction from News Summaries' (2025-08 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Organization and Date Extraction from News Summaries' (2025-08 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in translating academic research questions into text-analysis choices, examining assumptions and helping explain findings to a research team.

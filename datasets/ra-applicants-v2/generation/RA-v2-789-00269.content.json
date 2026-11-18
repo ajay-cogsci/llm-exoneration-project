@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under capstone supervision, wrote Python functions to parse provided product review records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins of provided product review metadata using duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules with Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Company Report Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised team project, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to a supervised team project, validated SQL joins of company report metadata with duplicate-key and unmatched-record checks, and visualized changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Programming Question Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of a supervised research team, wrote Python functions to parse provided programming question records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, validated SQL joins of programming question metadata using duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Policy Excerpt Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of a supervised research team, wrote Python functions to parse provided policy excerpt records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, validated SQL joins of policy document metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    }
+  ]
+}

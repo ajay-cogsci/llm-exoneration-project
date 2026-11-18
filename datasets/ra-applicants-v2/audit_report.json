@@ -1,0 +1,2366 @@
+{
+  "applicants": 100,
+  "tiers": {
+    "borderline": 40,
+    "weak": 30,
+    "strong": 30
+  },
+  "designated_mixed": {
+    "lower_gpa_practical_strength": 3,
+    "strong_programming_limited_nlp": 3,
+    "technical_strength_communication_gap": 2,
+    "capable_first_time_ra": 2
+  },
+  "errors": [],
+  "word_counts_by_tier": {
+    "weak": {
+      "min": 440,
+      "max": 1143,
+      "mean": 678.4
+    },
+    "borderline": {
+      "min": 440,
+      "max": 1100,
+      "mean": 690.2
+    },
+    "strong": {
+      "min": 439,
+      "max": 1022,
+      "mean": 700.7
+    }
+  },
+  "largest_to_smallest_tier_mean_ratio": 1.0329,
+  "unique_portfolios": 100,
+  "course_area_sets": 86,
+  "course_title_sets": 99,
+  "graduate_course_dates": {
+    "2025-12": 170,
+    "2025-05": 20,
+    "2024-12": 10
+  },
+  "nlp_course_assessments": {
+    "practical": 30,
+    "written": 50
+  },
+  "without_sql_by_tier": {
+    "weak": 19,
+    "borderline": 18,
+    "strong": 15
+  },
+  "first_time_ra_by_tier": {
+    "weak": 11,
+    "borderline": 11,
+    "strong": 6
+  },
+  "evidence_sensitivity": {
+    "academic": {
+      "dimension_changes": {
+        "academic": 84
+      },
+      "tier_changes": 54,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00494",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01433",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00731",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00085",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00624",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00177",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00508",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00106",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01992",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00833",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00356",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00890",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01383",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00805",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00655",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00028",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01882",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01807",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01426",
+          "before": "borderline",
+          "after": "weak"
+        }
+      ]
+    },
+    "programming": {
+      "dimension_changes": {
+        "programming": 83
+      },
+      "tier_changes": 56,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01433",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00731",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00085",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00927",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00624",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00177",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00106",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01649",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01992",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00833",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00356",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01383",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00805",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00910",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00655",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00457",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01591",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01882",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01807",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01426",
+          "before": "borderline",
+          "after": "weak"
+        }
+      ]
+    },
+    "nlp": {
+      "dimension_changes": {
+        "nlp": 73
+      },
+      "tier_changes": 47,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00494",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01433",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00927",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00177",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00508",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01649",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01992",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00890",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01383",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00910",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00655",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00457",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00028",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01591",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01882",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "data_analysis": {
+      "dimension_changes": {
+        "data_analysis": 87
+      },
+      "tier_changes": 58,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00494",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01433",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00731",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00085",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00927",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00624",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00177",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00508",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00106",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01649",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01992",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00833",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00356",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00890",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00805",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00910",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00457",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00028",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01591",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01882",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01807",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01426",
+          "before": "borderline",
+          "after": "weak"
+        }
+      ]
+    },
+    "independence": {
+      "dimension_changes": {
+        "independence": 94
+      },
+      "tier_changes": 33,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "teamwork": {
+      "dimension_changes": {
+        "teamwork": 92
+      },
+      "tier_changes": 34,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "organization": {
+      "dimension_changes": {
+        "organization": 93
+      },
+      "tier_changes": 33,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "written_communication": {
+      "dimension_changes": {
+        "written_communication": 82
+      },
+      "tier_changes": 35,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "oral_communication": {
+      "dimension_changes": {
+        "oral_communication": 85
+      },
+      "tier_changes": 35,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00351",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        }
+      ]
+    },
+    "research_interest": {
+      "dimension_changes": {
+        "research_interest": 89
+      },
+      "tier_changes": 54,
+      "changes": [
+        {
+          "profile_id": "RA-v2-789-01437",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01991",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01906",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00494",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01211",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01535",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01603",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00018",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01749",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01433",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00731",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00085",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00802",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00624",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00177",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00107",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00508",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01735",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00106",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00251",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00815",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01126",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00482",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00702",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00175",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00519",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01671",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01992",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-01569",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00833",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00356",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00461",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-00890",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01498",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01777",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01383",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-01075",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00836",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00834",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-00805",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01006",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-00655",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-01030",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-123-01100",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-123-00028",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-456-00572",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01882",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00589",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01694",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-456-01807",
+          "before": "borderline",
+          "after": "weak"
+        },
+        {
+          "profile_id": "RA-v2-789-00233",
+          "before": "strong",
+          "after": "borderline"
+        },
+        {
+          "profile_id": "RA-v2-789-01426",
+          "before": "borderline",
+          "after": "weak"
+        }
+      ]
+    }
+  },
+  "sensitivity_interpretation": "Each dimension is downgraded separately while other evidence stays fixed. These are rubric diagnostics, not new valid application records or external hiring validation. Sensitivity shares the rubric functions; chronology, coverage and workload checks above are separately implemented.",
+  "limitations": [
+    "Provisional priors, templates and rubric; no empirical RA hiring calibration.",
+    "Complete portfolios are unique, but task templates, institutions and observation wording repeat.",
+    "Evidence comes from projects and appointments completed before 2026; later work is intentionally absent.",
+    "Tier mean length balance does not eliminate individual length or writing-style effects.",
+    "Same-model factual review is not independent human validation."
+  ],
+  "api_calls": 0,
+  "additional_verification": {
+    "tests_passed": 180,
+    "test_command": "python3 -B -m unittest discover -s tests -q",
+    "equivalent_sql_dataframe_record_checks": 200,
+    "tool_substitution_dimension_or_tier_changes": 0,
+    "duplicate_work_detection_ignores_family_names": true,
+    "protected_preexisting_files_checked": 3650,
+    "protected_files_changed": [],
+    "viewer_cards": 100,
+    "viewer_links_checked": 101,
+    "text_spot_check_profile_ids": [
+      "RA-v2-123-00021",
+      "RA-v2-789-01927",
+      "RA-v2-789-01437",
+      "RA-v2-456-01991",
+      "RA-v2-123-01638",
+      "RA-v2-456-00494",
+      "RA-v2-123-01498",
+      "RA-v2-789-00106",
+      "RA-v2-123-00160",
+      "RA-v2-456-00702"
+    ],
+    "spot_checks_do_not_establish_external_validation": true,
+    "repeated_generated_titles_within_applicant": 0
+  }
+}

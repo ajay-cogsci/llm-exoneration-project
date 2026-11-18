@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Document Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided research abstract records, and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, executed and inspected supplied procedures using pandas merges to join document identifiers to metadata, checked unmatched records, generated group comparison visualizations with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

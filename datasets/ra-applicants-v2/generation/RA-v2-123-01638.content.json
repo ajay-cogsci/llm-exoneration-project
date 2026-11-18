@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Research Abstract Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided research abstract records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn procedures using TF-IDF features and a logistic-regression classifier on labeled research abstracts; evaluated a fixed held-out split using macro F-score and example errors."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean bibliographic metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Company Report Text Preparation",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Ran and inspected a supplied Python notebook to load provided company report excerpt records; edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and word-count steps on company report excerpt samples; inspected vocabulary examples with guidance before attempting classification."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed supplied pandas and Matplotlib notebook procedures to clean reporting-period metadata tables using provided steps; plotted record counts and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

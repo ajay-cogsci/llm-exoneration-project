@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction from Policy Excerpts",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under project supervision, wrote Python functions to parse provided policy records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under project supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied policy metadata tables using provided steps and pandas; with guidance, plotted record counts using Matplotlib and inspected missing-value summaries."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Entity Extraction from Research Abstracts",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, wrote Python functions to parse provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under research supervision, compared rule-based and pretrained spaCy extraction on held-out annotated research excerpts, checked span precision and recall, and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined research document identifiers to bibliographic metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Entity Extraction from Company Reports",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under research supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under research supervision, compared rule-based and pretrained spaCy extraction on held-out annotated company report excerpts, checked span precision and recall, and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined company report document identifiers to metadata using SQL and checked unmatched records; visualized group comparisons and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+Applicant RA-v2-456-00834
+
+EDUCATION
+BS in Computational Linguistics, Fictional University A | 2018-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2025-09 to 2030-09 (enrolled; expected completion)
+Undergraduate GPA: 2.72/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Programming Fundamentals: B | undergraduate, 2019-12
+Statistical Inference: C+ | undergraduate, 2020-05
+Data Wrangling and Management: B | undergraduate, 2021-12
+Algorithms and Data Structures: B | undergraduate, 2023-05
+Introduction to Text Analysis: B- | undergraduate, 2023-05
+  Assessment: Assessed practical work documented in the linked course project.
+  Practical evidence: 'Public Company Report Text Retrieval', listed below.
+Advanced Algorithms: A- | graduate, 2025-12
+Numerical Linear Algebra: A- | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, NLTK, Python, Python re, pandas, pytest, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2022-08 to 2022-11 | 3 months; 6 hours/week
+Organization and Date Extraction from Policy Text
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided examples with manually checked organization and date spans.
+Tools: Matplotlib, Python, Python re, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public policy records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, used regular-expression and dictionary rules with Python re to extract organization and date spans, then compared extracted spans with provided manually checked examples.
+  Work product: Extraction rules and a table of checked span matches and errors.
+- Data analysis: Under supervision, validated pandas merges using duplicate-key and unmatched-record checks, and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2023-01 to 2023-05 | 4 months; 8 hours/week
+Public Company Report Text Retrieval
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, NLTK, Python, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided company report records and tested transformations on hand-checked input examples using unittest.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Ran supplied NLTK tokenization steps on the company report document collection and inspected query terms and example matches with guidance.
+  Work product: Tokenization notebook and inspected query-match examples.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 12 hours/week
+Product Review Text Processing
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public product reviews with rating-derived sentiment labels and product metadata; provided examples with manually checked organization and date spans.
+Tools: Git, Matplotlib, NLTK, Python, pandas, pytest
+- Programming: As part of supervised research, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Ran supplied NLTK tokenization steps on public product review excerpts and inspected organization-name and date examples with guidance.
+  Work product: Tokenized excerpts and inspected organization/date examples.
+- Data analysis: As part of supervised research, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize group comparisons under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Product Review Text Processing' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Product Review Text Processing' (2025-09 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'Product Review Text Processing' (2025-09 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Research supervisor on 'Product Review Text Processing' (2025-09 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'Product Review Text Processing' (2025-09 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Company Report Retrieval",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised capstone team, ran a supplied Python notebook to load provided company report records and edited simple filters and loops with step-by-step guidance."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, executed and inspected supplied scikit-learn notebook procedures that ranked company report excerpts using TF-IDF similarity for provided queries, then checked retrieved documents against a small judged query set."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Executed and inspected supplied pandas and Matplotlib notebook procedures to clean metadata tables using provided steps, plot record counts, and inspect missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Abstract Retrieval Comparison",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of a supervised research team, wrote Python functions to parse provided research abstract records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval of research abstracts on held-out judged queries using scikit-learn and sentence-transformers; examined recall at fixed cutoffs and grouped retrieval errors by query type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied bibliographic metadata tables using provided steps in pandas, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "News Summary Theme Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of a supervised research team, implemented reusable Python modules for the recorded workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, applied a documented topic dictionary to provided news summary samples using NLTK and checked dictionary matches against manually reviewed examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied publication metadata tables using provided steps in pandas, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Public Policy Text Exploration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under project supervision, implemented reusable Python modules for the recorded workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Ran supplied NLTK tokenization and frequency-count steps on public policy document samples; inspected frequent terms with guidance using the provided topic-coding guide."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under project supervision, validated SQL joins with duplicate-key and unmatched-record checks and visualized how group comparisons changed under alternative cleaning rules using pandas and Matplotlib."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Organization and Date Span Extraction",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within supervised research, wrote Python functions for parsing provided company report records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under research supervision, used regular-expression and dictionary rules to extract organization and date spans from public company report excerpts and compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under research supervision, joined document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, wrote Python functions to parse provided product review records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins with duplicate-key and unmatched-record checks on provided metadata tables, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Public Policy Text Classification",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, implemented reusable Python modules for the public policy text workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, compared a TF-IDF classifier with a majority-label reference on held-out policy document groups using scikit-learn; checked near-duplicate overlap and examined label-specific errors across repeated splits."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins for policy document metadata with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": "research-2",
+      "title": "Product Review Metadata Visualization",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As part of supervised research, implemented reusable Python modules for the product review metadata workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated SQL joins on provided product metadata tables with duplicate-key and unmatched-record checks, and visualized how group comparisons changed under alternative cleaning rules using Matplotlib."
+        }
+      ]
+    }
+  ]
+}

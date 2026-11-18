@@ -1,0 +1,57 @@
+Applicant RA-v2-456-01991
+
+EDUCATION
+BS in Computer Science, Fictional University A | 2019-09 to 2024-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-08 to 2031-08 (enrolled; expected completion)
+Undergraduate GPA: 3.58/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Statistical Inference: A | undergraduate, 2020-12
+Programming Fundamentals: A | undergraduate, 2021-05
+Data Wrangling and Management: A | undergraduate, 2022-05
+Data Structures and Algorithms: A- | undergraduate, 2022-12
+Linear Algebra: A | undergraduate, 2024-05
+Advanced Algorithms: A- | graduate, 2024-12
+Numerical Linear Algebra: A- | graduate, 2025-05
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn, sentence-transformers, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate independent study, Fictional University A | 2024-02 to 2024-05 | 3 months; 8 hours/week
+Document Metadata Visual Analysis
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, pandas, pytest
+- Programming: Under supervision, implemented reusable Python modules for the document metadata workflow and wrote regression tests with pytest for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how metadata group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-09 to 2025-12 | 3 months; 10 hours/week
+Public Policy Text Retrieval
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided query examples and document-relevance judgments.
+Tools: Matplotlib, Python, pandas, scikit-learn, sentence-transformers, unittest
+- Programming: As part of supervised research, wrote Python functions to parse the provided records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- NLP: Under supervision, compared TF-IDF and pretrained sentence-embedding retrieval on held-out judged queries, examined recall at fixed cutoffs, and grouped retrieval errors by query type.
+  Work product: Held-out retrieval comparison, cutoff-based recall summaries and query error analysis.
+- Data analysis: Under supervision, validated pandas merges with duplicate-key and unmatched-record checks and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules.
+  Work product: Validated dataframe merges, sensitivity comparisons and figures explaining the cleaning assumptions.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'Public Policy Text Retrieval' (2025-09 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'Public Policy Text Retrieval' (2025-09 to 2025-12): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Research supervisor on 'Public Policy Text Retrieval' (2025-09 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Research supervisor on 'Public Policy Text Retrieval' (2025-09 to 2025-12): The methods summary connected choices to the task, explained limitations and incorporated substantive reviewer comments.
+Oral communication - Research supervisor on 'Public Policy Text Retrieval' (2025-09 to 2025-12): The briefing explained methodological choices and limitations, and addressed questions without overstating the findings.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

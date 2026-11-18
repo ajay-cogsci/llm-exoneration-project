@@ -1,0 +1,67 @@
+Applicant RA-v2-456-00018
+
+EDUCATION
+BS in Mathematics, Fictional University A | 2020-09 to 2025-05 (completed)
+MS in Computer Science, Fictional University B | 2025-08 to 2027-08 (enrolled; expected completion)
+Undergraduate GPA: 3.32/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Scientific Programming: B+ | undergraduate, 2021-05
+Statistical Inference: A- | undergraduate, 2021-05
+Algorithms and Data Structures: A | undergraduate, 2022-05
+Linear Algebra: A- | undergraduate, 2023-12
+Introduction to Machine Learning: B+ | undergraduate, 2024-05
+Data Engineering: A | graduate, 2025-12
+Probabilistic Models: B | graduate, 2025-12
+
+TECHNICAL SKILLS
+Git, Matplotlib, Python, pandas, pytest, scikit-learn, unittest
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2024-03 to 2024-11 | 8 months; 6 hours/week
+Document Metadata Analysis
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public policy excerpts with hand-coded topic labels and document metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas, unittest
+- Programming: Under supervision, wrote Python functions to parse provided public policy records and used unittest to test transformations on hand-checked input examples.
+  Work product: Processing functions with checked examples and usage instructions.
+- Data analysis: Cleaned supplied metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance.
+  Work product: Cleaning notebook with record-count plots and missing-value summaries.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+Undergraduate course project, Fictional University A | 2025-03 to 2025-05 | 2 months; 8 hours/week
+Public Report Text Classification
+Scope: Supervised project with 1 student(s); tasks describe the applicant's contribution.
+Inputs: public company report excerpts with section labels and reporting-period metadata; provided labeled document examples.
+Tools: Git, Matplotlib, Python, pandas, pytest, scikit-learn
+- Programming: Under supervision, implemented reusable Python modules for the public report workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- NLP: Under supervision, used scikit-learn to compare a TF-IDF classifier with a majority-label reference on held-out document groups, checked near-duplicate overlap, and examined label-specific errors across repeated splits.
+  Work product: Classifier comparison, split-overlap checks and label-specific error analysis.
+- Data analysis: Under supervision, joined report document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+Student research assistant, Fictional University B | 2025-08 to 2025-12 | 4 months; 12 hours/week
+News Document Metadata Analysis
+Scope: Supervised research team; tasks describe the applicant's contribution.
+Inputs: public news summaries with topic labels and publication metadata; provided metadata tables and a data dictionary.
+Tools: Git, Matplotlib, Python, pandas, pytest
+- Programming: As an individual contribution to supervised research, implemented reusable Python modules for the news metadata workflow and wrote pytest regression tests for malformed and edge-case inputs.
+  Work product: Processing modules, regression tests and documented expected behavior.
+- Data analysis: Under research supervision, joined news document identifiers to metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Research supervisor on 'News Document Metadata Analysis' (2025-08 to 2025-12): Completed agreed routine tasks between check-ins and brought unresolved questions to review.
+Teamwork - Research supervisor on 'News Document Metadata Analysis' (2025-08 to 2025-12): Shared progress and files with the review group and incorporated the agreed revisions.
+Organization - Research supervisor on 'News Document Metadata Analysis' (2025-08 to 2025-12): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Research supervisor on 'News Document Metadata Analysis' (2025-08 to 2025-12): The methods summary explained the recorded steps and separated observations from interpretations.
+Oral communication - Research supervisor on 'News Document Metadata Analysis' (2025-08 to 2025-12): The briefing clearly summarized the activity and answered routine questions about the recorded work.
+
+INTEREST IN ACADEMIC RESEARCH
+I am interested in supporting academic research through text analysis, data preparation and discussion of findings with a research group.

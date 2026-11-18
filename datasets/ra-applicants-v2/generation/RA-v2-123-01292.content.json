@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Organization and Date Extraction from Programming Questions",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote pytest regression tests for malformed and edge-case inputs."
+        },
+        {
+          "domain": "nlp",
+          "text": "Under supervision, used regular-expression and dictionary rules to extract organization and date spans from public programming questions, then compared extracted spans with provided manually checked examples."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, validated pandas merges using duplicate-key and unmatched-record checks, and used Matplotlib to visualize how group comparisons changed under alternative cleaning rules."
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Organization and Date Extraction from Policy Excerpts",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to a supervised team project, wrote Python functions for parsing provided records and used unittest to test transformations on hand-checked input examples."
+        },
+        {
+          "domain": "nlp",
+          "text": "As an individual contribution to a supervised team project, compared rule-based and pretrained spaCy extraction on held-out annotated policy excerpts, checked span precision and recall, and analyzed errors by entity type."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "As an individual contribution to a supervised team project, validated pandas merges with duplicate-key and unmatched-record checks, and used Matplotlib to visualize changes in group comparisons under alternative cleaning rules."
+        }
+      ]
+    }
+  ],
+  "research": []
+}

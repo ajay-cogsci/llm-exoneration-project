@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Product Review Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied product metadata tables in pandas using provided steps, then plotted record counts with Matplotlib and inspected missing-value summaries with guidance."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Research Abstract Metadata Integration",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Within a supervised research team, wrote Python functions for parsing provided research abstract records and tested transformations on hand-checked input examples using unittest."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined document identifiers to bibliographic metadata using pandas merges, checked unmatched records, visualized group comparisons with Matplotlib, and documented missing-data handling."
+        }
+      ]
+    }
+  ]
+}

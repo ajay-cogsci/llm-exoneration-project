@@ -1,0 +1,49 @@
+Applicant RA-v2-123-00976
+
+EDUCATION
+BS in Statistics, Fictional University A | 2019-09 to 2023-05 (completed)
+PhD in Computer Science, Fictional University B | 2024-09 to 2031-09 (enrolled; expected completion)
+Undergraduate GPA: 3.61/4.0
+Academic and experience record as of 2025-12-31.
+
+SELECTED RELEVANT COURSEWORK
+Probability and Statistics: B | undergraduate, 2020-05
+Scientific Programming: B+ | undergraduate, 2021-05
+Software Engineering: A- | undergraduate, 2021-05
+Computational Linear Algebra: A- | undergraduate, 2022-12
+Statistical Pattern Recognition: A- | undergraduate, 2022-12
+Advanced Algorithms: B | graduate, 2025-05
+Computational Linguistics: C | graduate, 2025-05
+  Assessment: Written analysis of language-processing concepts and methods; no assessed coding component.
+
+TECHNICAL SKILLS
+Matplotlib, Python, pandas
+No completed NLP project or work activity reported.
+
+PROJECTS AND INDEPENDENT STUDY
+Undergraduate capstone, Fictional University A | 2022-12 to 2023-05 | 5 months; 4 hours/week
+Document Metadata Integration
+Scope: Supervised project with 4 student(s); tasks describe the applicant's contribution.
+Inputs: public research abstracts with subject labels and bibliographic metadata; provided metadata tables and a data dictionary.
+Tools: Matplotlib, Python, pandas
+Implementation support: Supplied Python notebooks implemented the recorded analysis procedures. The applicant executed and inspected them and made the recorded guided code edits.
+- Programming: Ran and inspected a supplied Python notebook to load provided research abstract records, and edited simple filters and loops with step-by-step guidance.
+  Work product: Annotated notebook and a record of the changes made with guidance.
+- Data analysis: Under supervision, executed and inspected supplied procedures using pandas merges to join document identifiers to metadata, checked unmatched records, generated group comparison visualizations with Matplotlib, and documented missing-data handling.
+  Work product: Dataframe merge code, checked analysis tables and annotated comparison figures.
+Communication work: Short methods summary of the recorded work; briefing to the supervisor and peer reviewers.
+
+RESEARCH EXPERIENCE
+No previous research appointment reported.
+
+SUPPORTING APPLICATION EVIDENCE
+
+WORK AND COMMUNICATION OBSERVATIONS
+Independence - Project supervisor on 'Document Metadata Integration' (2022-12 to 2023-05): Planned a sequence of checks, investigated unexpected inputs and brought remaining design questions to review.
+Teamwork - Project supervisor on 'Document Metadata Integration' (2022-12 to 2023-05): Coordinated review of shared inputs and explained changes so the group could integrate the contribution.
+Organization - Project supervisor on 'Document Metadata Integration' (2022-12 to 2023-05): Kept input versions, the task queue and decision notes aligned so reviewers could locate each change.
+Written communication - Project supervisor on 'Document Metadata Integration' (2022-12 to 2023-05): The methods summary listed steps, but the reviewer needed clarification of their purpose and limitations.
+Oral communication - Project supervisor on 'Document Metadata Integration' (2022-12 to 2023-05): The briefing covered the activity, but follow-up questions were needed to clarify the main result and next step.
+
+INTEREST IN ACADEMIC RESEARCH
+I am mainly looking to develop general coding experience; academic research is one of several directions I am considering.

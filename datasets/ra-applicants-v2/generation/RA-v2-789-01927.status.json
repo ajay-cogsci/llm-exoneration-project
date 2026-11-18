@@ -1,0 +1,15 @@
+{
+  "profile_id": "RA-v2-789-01927",
+  "facts_hash": "4cbd4d46350f4777477e44d4df9765d4cc9bfd182e79e864e2e13f335e5aeeaa",
+  "content_hash": "ee1ceb40764c27c248f08277499ddd540255d4d03980d22c39c1748641e82111",
+  "status": "passed_automated_checks",
+  "repair_attempts": 0,
+  "issues": [],
+  "review": {
+    "passes": true,
+    "issues": []
+  },
+  "generation_model": "gpt-6-astra",
+  "review_model": "gpt-6-astra",
+  "application_hash": "64b6b177cdf59b0cee1ae56ced603425cb89b78204612c40a5f46322c9e73093"
+}

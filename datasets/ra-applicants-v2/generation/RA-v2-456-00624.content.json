@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Policy Document Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "Under supervision, implemented reusable Python modules for the project workflow and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Under supervision, joined policy document identifiers to metadata using SQL, checked unmatched records, visualized group comparisons, and documented missing-data handling."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-1",
+      "title": "Product Review Metadata Analysis",
+      "bullets": [
+        {
+          "domain": "programming",
+          "text": "As an individual contribution to supervised research, implemented reusable Python workflow modules and wrote regression tests with pytest for malformed and edge-case inputs."
+        },
+        {
+          "domain": "data_analysis",
+          "text": "Cleaned supplied product review metadata tables using provided steps in pandas; with guidance, plotted record counts using Matplotlib and inspected missing-value summaries."
+        }
+      ]
+    }
+  ]
+}

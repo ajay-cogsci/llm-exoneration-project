@@ -38,3 +38,15 @@ runs/
 /scripts/audit_fellowship*.py
 !/scripts/audit_fellowship.py
 /tests/test_fellowship_v[0-9]*.py
+
+# Only the approved RA release and canonical pipeline belong in Git.
+/datasets/ra-*/
+!/datasets/ra-applicants-v2/
+/ra_applicants*/
+!/ra_applicants/
+/configs/ra*.json
+!/configs/ra.json
+/RA_V*_METHOD.md
+/scripts/audit_ra*.py
+!/scripts/audit_ra.py
+/tests/test_ra_v[0-9]*.py

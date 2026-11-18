@@ -1,0 +1,135 @@
+{
+  "prompt_version": "ra-wording-v2",
+  "generator_instructions": "Write concise completed-work entries for a fictional CS graduate student's Data and Text Analysis Research Assistant application.\nThe fixed_record is authoritative. This is stimulus generation, not applicant assessment. Return only the requested JSON.\nReturn one entry per supplied project and research_experience item, preserving IDs and empty lists.\nGive each entry a short descriptive title and one bullet for each technical_evidence domain present in that entry.\nEach bullet is an object with domain and text. The text must be twelve to forty words and cover both recorded tasks\nin that domain. Preserve guidance/supervision and the applicant's individual scope. Use only the recorded methods,\ntools, inputs and tasks; do not transfer evidence between work episodes or domains. Topic names describe the work\narea, not extra methods the applicant completed. Where implementation_support records supplied code,\ndescribe execution, inspection and analysis; do not claim the applicant implemented those methods. Do not invent results, measured gains, leadership, publications,\npartnerships, authorship, duties or skills. Grade and date fields, artifacts, work observations and research interest\nare rendered separately; do not rewrite them. Use a restrained professional style throughout.\nDo not mention names, demographic attributes, integrity history, ethical character, tiers or selection decisions.\nDo not use digits in titles or bullet text. Do not add introductions, conclusions or recommendations.\n",
+  "repair_instructions": "Write concise completed-work entries for a fictional CS graduate student's Data and Text Analysis Research Assistant application.\nThe fixed_record is authoritative. This is stimulus generation, not applicant assessment. Return only the requested JSON.\nReturn one entry per supplied project and research_experience item, preserving IDs and empty lists.\nGive each entry a short descriptive title and one bullet for each technical_evidence domain present in that entry.\nEach bullet is an object with domain and text. The text must be twelve to forty words and cover both recorded tasks\nin that domain. Preserve guidance/supervision and the applicant's individual scope. Use only the recorded methods,\ntools, inputs and tasks; do not transfer evidence between work episodes or domains. Topic names describe the work\narea, not extra methods the applicant completed. Where implementation_support records supplied code,\ndescribe execution, inspection and analysis; do not claim the applicant implemented those methods. Do not invent results, measured gains, leadership, publications,\npartnerships, authorship, duties or skills. Grade and date fields, artifacts, work observations and research interest\nare rendered separately; do not rewrite them. Use a restrained professional style throughout.\nDo not mention names, demographic attributes, integrity history, ethical character, tiers or selection decisions.\nDo not use digits in titles or bullet text. Do not add introductions, conclusions or recommendations.\n\nRevise previous_entries to address validation_issues. Return the complete object while preserving every fixed fact.",
+  "review_instructions": "Check the supplied fictional RA application against fixed_record for factual consistency, coverage and technical plausibility.\nCheck entries and the complete application_text. Flag invented methods, tools, duties, outcomes, publications,\nunsupported ownership, omitted recorded tasks, missing guidance/supervision or mismatched source links.\nTechnical domains may have different proficiency evidence; a good programmer can have little NLP experience.\nPlanning tasks independently does not imply independently implementing every method. Topic-family labels do not\nimply methods absent from the recorded tasks. Different episodes may share a topic while using distinct input contexts.\nWork and communication observations apply only to their source episode. Do not infer character or score merit.\nDo flag contradictions in the fixed facts themselves, rather than silently changing the record.\nMissing prior research employment is not a defect: course and independent-study work can supply relevant evidence.\nSQL and dataframe operations are alternative data-analysis methods; SQL is not required.\nNLP courses explicitly distinguish written assessment from practical work linked to a project. Do not infer\nunreported programming experience from a course grade or require a formal NLP course before supervised NLP work.\nDo not demand publications, recommendation letters, research proposals, broader-impact plans, minimum GPA,\nactual university eligibility, personal identities or external proof for these explicitly synthetic records.\nReturn passes=true with issues=[] only if no material contradiction, omission or unsupported claim remains.\nOtherwise return passes=false with specific factual issues. Do not request stronger credentials or better performance.\n",
+  "content_schema": {
+    "type": "object",
+    "properties": {
+      "projects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string",
+                    "enum": [
+                      "programming",
+                      "nlp",
+                      "data_analysis"
+                    ]
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "bullets"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "research": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string",
+                    "enum": [
+                      "programming",
+                      "nlp",
+                      "data_analysis"
+                    ]
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "bullets"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "projects",
+      "research"
+    ],
+    "additionalProperties": false
+  },
+  "review_schema": {
+    "type": "object",
+    "properties": {
+      "passes": {
+        "type": "boolean"
+      },
+      "issues": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "passes",
+      "issues"
+    ],
+    "additionalProperties": false
+  },
+  "settings": {
+    "model": "gpt-6-astra",
+    "review_model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "max_output_tokens": 7000,
+    "review_max_output_tokens": 3000
+  },
+  "max_repairs": 2
+}
