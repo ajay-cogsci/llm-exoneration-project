@@ -29,13 +29,41 @@ Use the [experiment index](docs/EXPERIMENTS.md) to find each dataset and analysi
 and [the approved TA method](TA_METHOD.md) for the applicant-generation scope.
 Earlier results and published datasets are retained.
 
-**Start from `main` for approved work.** The former `codex/ta-prep` branch is
-synchronized with the approved files; its draft examples and handoff prompt
-have been removed. Applicant-generation approval does not authorize an
-evaluation run.
+**Start from `main` for approved work.** It is the only current remote branch.
+The former `codex/ta-prep` branch has been retired; its unapproved draft examples
+and handoff prompt were removed. Applicant-generation approval does not authorize
+an evaluation run.
 The [branch history](docs/EXPERIMENTS.md#repository-branches-consolidated-16-november-2026)
 explains the retired names. The five-model full run is complete for those five
 models; the originally proposed seven-model panel remains incomplete.
+
+## Which code should I use?
+
+The four `phd_*` folders are different steps, not competing versions of the study.
+
+| Folder | Purpose | Why it remains |
+| --- | --- | --- |
+| `phd_resumes/` | Sample structured PhD facts, assign provisional tiers and write CVs | Reproduces the PhD inputs. TA, fellowship and RA generators also import its shared API, file and validation helpers. |
+| `phd_recommendations/` | Add three source-linked recommendation summaries to each PhD CV | Reproduces the recommendation evidence in the evaluated PhD packets; no model calls. |
+| `phd_revisions/` | Apply the published GPA and recommendation corrections | Rebuilds corrected CV v3 and application v4 from their published predecessors; required by `scripts/verify_datasets.py`. This is not a second applicant generator. |
+| `phd_eval/` | Assemble PhD treatments, send evaluation requests and collect replies | Reproduces the completed PhD pilot, full run and sentence ablation. Its packet loader is PhD-specific. |
+
+The current applicant generators for the other opportunities are `ta_applicants/`,
+`fellowship_applicants/` and `ra_applicants/`. Their JSON configs control applicant
+generation. They are **not evaluation configs**. Their `evaluator_inputs.jsonl`
+files contain an untreated quality-question preview, not the full experiment.
+
+For PhD work, use application v4 and `configs/phd_eval_v1.json`. Older published
+CVs, packets and policies remain because the correction checks reproduce their
+successors from them. `configs/phd_eval_v1_no_infer.json` belongs only to the
+completed sentence ablation. The saved config and plan in each run directory
+record what that particular experiment used. Do not regenerate existing banks
+or delete these dependencies as housekeeping.
+
+The [fellowship evaluation handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md) records
+the readiness review and instructions for offline adapter preparation. It does
+not authorize evaluation calls. No TA, fellowship or RA evaluation adapter is
+implemented yet.
 
 ## Datasets
 
@@ -188,13 +216,15 @@ The reusable allocation defaults to null; published allocation settings are
 in the version 2 dataset. Historical `sample` and `inspect` commands retain the
 original composite-quintile behavior.
 
-Generate another recommendation package from the published CVs:
+For a separately approved new recommendation package, use the corrected CVs
+and current recommendation policy explicitly. The CLI's historical default is
+policy v1, which is retained for reproduction:
 
 ```sh
 python3 -m phd_recommendations generate \
-  --source datasets/phd-cvs-v2-rubric-v1 \
+  --source datasets/phd-cvs-v3-gpa-consistency-v1 \
   --out runs/phd-recommendations-new \
-  --policy configs/phd_recommendations_v1.json
+  --policy configs/phd_recommendations_v2.json
 ```
 
 Generation refuses to overwrite an existing output. The published datasets are
