@@ -13,12 +13,12 @@ these commands still run the PhD study. No earlier results are replaced.
 Inputs are the corrected packets in
 [`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/)
 and the settings in [`configs/phd_eval_v1.json`](configs/phd_eval_v1.json).
-Only the Computer Science PhD opportunity is implemented in this evaluation
-harness. Separate approved TA, fellowship and RA applicant banks now exist;
-they require opportunity-specific evaluation adapters. Do not substitute their
-paths into the existing PhD commands: the loader expects the PhD packet schema
-and three recommendation summaries. Use the
-[fellowship handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md) for offline preparation.
+This entry point implements the Computer Science PhD opportunity. Separate
+approved TA, fellowship and RA applicant banks now exist. Do not substitute their
+paths into the PhD commands: the loader expects the PhD packet schema and three
+recommendation summaries. Fellowship now has a separate `fellowship_eval` adapter;
+use the [fellowship handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md). TA and RA
+evaluation adapters remain unimplemented.
 Applicant-generation approval does not authorize evaluation spending.
 
 ## What a prompt contains

@@ -16,7 +16,7 @@ TA evaluation runs, model-panel choices and evaluation spending remain pending.
 
 The graduate research fellowship applicant bank is approved for publication:
 100 early-stage CS graduate applicants in [version 2](datasets/fellowship-applicants-v2/).
-Fellowship evaluation runs remain unapproved. See the
+The offline fellowship evaluation adapter is prepared; evaluation spending remains unapproved. See the
 [fellowship method](FELLOWSHIP_METHOD.md) for scope, assumptions and verification.
 
 The Data and Text Analysis Research Assistant applicant bank is approved for
@@ -47,6 +47,7 @@ The four `phd_*` folders are different steps, not competing versions of the stud
 | `phd_recommendations/` | Add three source-linked recommendation summaries to each PhD CV | Reproduces the recommendation evidence in the evaluated PhD packets; no model calls. |
 | `phd_revisions/` | Apply the published GPA and recommendation corrections | Rebuilds corrected CV v3 and application v4 from their published predecessors; required by `scripts/verify_datasets.py`. This is not a second applicant generator. |
 | `phd_eval/` | Assemble PhD treatments, send evaluation requests and collect replies | Reproduces the completed PhD pilot, full run and sentence ablation. Its packet loader is PhD-specific. |
+| `fellowship_eval/` | Load fellowship packets and apply the same 11-condition experiment | Separate adapter; reuses shared task formatting, parsing and descriptive exports without changing PhD code. |
 
 The current applicant generators for the other opportunities are `ta_applicants/`,
 `fellowship_applicants/` and `ra_applicants/`. Their JSON configs control applicant
@@ -61,9 +62,10 @@ record what that particular experiment used. Do not regenerate existing banks
 or delete these dependencies as housekeeping.
 
 The [fellowship evaluation handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md) records
-the readiness review and instructions for offline adapter preparation. It does
-not authorize evaluation calls. No TA, fellowship or RA evaluation adapter is
-implemented yet.
+the finalized offline setup and the Claude Code execution prompt. Use
+`python3 -m fellowship_eval` with `configs/fellowship_eval_v1.json` for fellowship
+preview, planning, execution and collection. Model selection and a fresh dollar
+cap require approval before calls. TA and RA evaluation adapters remain unimplemented.
 
 ## Datasets
 

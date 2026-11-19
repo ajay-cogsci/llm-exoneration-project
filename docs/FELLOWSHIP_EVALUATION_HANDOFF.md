@@ -1,145 +1,36 @@
-# Fellowship evaluation: readiness and Claude Code handoff
+# Fellowship evaluation: finalized setup and Claude Code handoff
 
-Status: offline preparation only. No evaluation calls or spending are approved.
-Reviewed on 19 November 2026 against `main` at
-`c1e30a216a79da85e34ddc6bb5015ccafc57e57f`.
+Status: offline preparation finalized on 19 November 2026. No generation or
+paid evaluation was run. A model panel and a new dollar cap remain unapproved.
+Implementation is on local branch `codex/fellowship-eval-prep`; do not assume
+these files are already on remote `main`.
 
-## Readiness decision
+## Frozen study choices
 
-The approved fellowship v2 bank supports an extension of the original
-11-condition experiment. No substantive regeneration need was found. Keep the
-existing PhD inputs and results. The fellowship applications describe a different
-population and different evidence, so a difference between opportunities cannot
-be attributed solely to the opportunity label.
+- Use all 100 published applications in `datasets/fellowship-applicants-v2/`.
+- Preserve application bytes. Remove only the exact internal `Applicant FEL-v2-...`
+  line during prompt assembly. Save original and transformed-text hashes.
+- Use `fellowship_eval/` and `configs/fellowship_eval_v1.json`. Applicant-generation
+  config `configs/fellowship.json` is not an evaluation config.
+- Copy all 11 condition objects, both wordings, the system template, task templates,
+  both formats, empty request parameters, and order seed from `configs/phd_eval_v1.json`.
+- Retain the sentence `Do not assume or infer details that are not stated.`
+- Put `INSTITUTIONAL RECORD` after the complete application and before the task.
+- Use the corrected PhD pending wording. Do not restore the superseded PDF phrase.
+- Preserve the original PhD harness, datasets, configurations and results.
 
-| Study-plan criterion | Evidence checked in the fellowship bank |
+| Design dimension | Values |
 | --- | --- |
-| Intellectual Merit | Academic preparation, completed contributions and a proposed study |
-| Broader Impacts | Beneficiaries, activities, delivery, access and assessment; prior activities where available |
-| Preparation, initiative, independence and collaboration | Dated work, individual responsibilities, deliverables and source-linked supervisor observations |
-| Intellectual ability | Undergraduate GPA, relevant undergraduate and graduate grades, supported awards where present |
-| Proposed research and prior achievements | Question, rationale, contribution, method, comparison, evaluation, feasibility and limitations; separately identified completed outputs |
+| Applicants | All 100 published fellowship v2 applicants |
+| Conditions | clean, pending, responsible, cleared, dismissed, withdrawn, exonerated_on_appeal, neutral_control, exonerated_acknowledged, responsible_rehabilitated, procedural_reversal |
+| Wordings | 1 and 2 |
+| Tasks | quality, advance, decide |
+| Formats | answer_only, rationale |
+| Repeats | 1 |
+| Size | 13,200 planned requests per model; 66,000 for a five-model panel, before retries |
 
-The full-bank verification and audit passed on the reviewed source. There are
-100 applicants: 30 weak, 40 borderline and 30 strong, including ten designated
-mixed cases. All are enrolled in February 2026 and at the November 2026 review.
-Completed academic and work evidence is dated no later than December 2025.
-The six-month proposed studies fit within enrollment. These dates permit the
-original course-assignment conditions without inventing a new allegation.
-
-The system template matches the PhD template. The opportunity criteria match
-the local research plan. The overall-quality wording matches apart from
-paragraph spacing. The latest source check ran 180 tests: 177 passed and three
-PDF-extraction tests skipped because `pdftotext` was unavailable. A separate
-`pypdf` extraction checked all 12 TA/fellowship/RA source passages and the PDF
-hash; they matched. PhD, TA, fellowship and RA dataset verification also passed.
-
-Four complete fellowship packets were read for this review: the middle
-identifier among non-designated applicants in each tier, plus the first
-identifier in the lower-GPA/substantive-research mixed group:
-
-- Weak: `FEL-v2-456-01320`.
-- Borderline: `FEL-v2-456-00451`.
-- Strong: `FEL-v2-456-00656`.
-- Mixed strong: `FEL-v2-123-00106`.
-
-The packets distinguish proposed work from completed achievements. They contain
-plausible differences in the adequacy of research methods and impact assessment.
-A weak researcher's label can coexist with strong evidence on other dimensions;
-these are provisional multi-criterion labels, not GPA ranks. Strong profiles need
-not have publications. The labels still require empirical calibration from clean
-scores, and the bank has not received independent human validation.
-
-Minor doubled punctuation occurs in 71 packets, mostly at the end of prior
-activity descriptions. It is a cosmetic renderer issue, not a reason to regenerate
-the bank. Preserve the published bytes for this proposed extension. A later
-punctuation correction would require a documented new release or explicit,
-uniformly applied transformation, never an undisclosed edit to frozen inputs.
-Finite templates, synthetic supervisor evidence and the dated record snapshot
-also limit realism. Automated verification does not resolve those limits.
-
-## Why an adapter is required
-
-`fellowship_applicants` creates applicants, not treatment runs. Its exported
-`evaluator_inputs.jsonl` contains only the quality question. `condition: null`
-means no assigned record condition; it is not the clean treatment. All 100 base
-previews also include an internal applicant identifier. The optional record
-helper uses `ACADEMIC INTEGRITY RECORD`, whereas the actual PhD experiment used
-the neutral heading `INSTITUTIONAL RECORD`.
-
-The existing `phd_eval` loader expects a different manifest, PhD metadata, two
-identifier lines and a recommendation section. Merely changing its dataset path
-will not produce a valid fellowship experiment. None of these facts invalidates
-the applicant bank; they define the remaining offline implementation work.
-
-## Prompt to give Claude Code
-
-You are preparing the fellowship extension in `ajay-cogsci/llm-exoneration-project`.
-Do the offline work below. Stop with reviewable outputs. Do not make generation
-or evaluation API calls. Do not start a smoke test. Do not infer a budget from
-earlier PhD or ablation approvals.
-
-### 1. Inspect and protect the existing study
-
-1. Fetch `origin`. Start from current `origin/main` in an isolated branch named
-   `codex/fellowship-eval-prep`. Preserve any unrelated worktree changes.
-2. Read `README.md`, `EVALUATION.md`, `FELLOWSHIP_METHOD.md`, this handoff, the
-   fellowship dataset README, and the completed PhD analysis summary.
-3. Record the starting commit and hashes of protected files. Keep published
-   datasets, original PhD configs, original harness and old results unchanged.
-   Do not run applicant generation. Do not rename or remove the four PhD packages.
-4. Use only `datasets/fellowship-applicants-v2/` for applicant evidence. Validate
-   its manifest, checksums and source facts before assembling prompts.
-
-### 2. Implement a separate fellowship evaluation entry point
-
-Create a small adapter with a documented CLI and
-`configs/fellowship_eval_v1.json`. Reuse existing pure functions where appropriate.
-Keep the original `phd_eval` behavior unchanged. Do not invent missing PhD fields
-or add fake recommendation sections to satisfy its loader. If the existing
-interfaces force a change to frozen code, explain that limitation and stop with
-the proposed diff before making that change.
-
-The current config validator accepts `version: phd-eval-v1` only. Distinguish the
-schema identifier from the opportunity identifier. Either reuse that schema
-explicitly with fellowship metadata or define and validate a separate adapter
-schema. Do not silently bypass validation or label fellowship outputs as PhD.
-
-Use `application_manifest.json`, `profiles.jsonl` and `applications/*.txt` from
-the fellowship bank. Keep each applicant's substantive packet identical across
-all requests. Strip only its exact `Applicant FEL-v2-...` header. Assert that the
-identifier, tier, sampling metadata and rubric labels never enter a prompt.
-Keep the original packet hash and the transformed evaluator-text hash.
-
-Copy these elements exactly from `configs/phd_eval_v1.json`:
-
-- All 11 condition objects, including both wordings and the corrected pending
-  wording. Do not copy the superseded pending sentence from the PDF.
-- The system-message template, including the no-inference sentence.
-- All three task templates, both format instructions and their JSON fields.
-- The neutral `INSTITUTIONAL RECORD` heading, placed after the complete
-  application and before the task.
-- Empty request parameters and the saved order seed.
-
-The condition IDs are:
-
-```text
-clean
-pending
-responsible
-cleared
-dismissed
-withdrawn
-exonerated_on_appeal
-neutral_control
-exonerated_acknowledged
-responsible_rehabilitated
-procedural_reversal
-```
-
-Use the exact fellowship description and criteria from
-`fellowship_applicants/plan.py`. Use these proposed role substitutions, and show
-them for review before calls:
+The fellowship opportunity description and criteria come verbatim from
+`fellowship_applicants/plan.py`. The opportunity substitutions are:
 
 ```json
 {
@@ -151,110 +42,232 @@ them for review before calls:
 }
 ```
 
-The committee name already appears in the approved base inputs. The remaining
-values are explicit proposal choices, not requirements from the source plan.
-Do not invent an interview requirement. Keep `advance_score`/`advance` and
-`decision_score`/`decision`; validate `yes`/`no` and `award`/`decline` correctly.
-The collected score must always refer to the task's stated 0–100 score field.
+Quality returns `score`; advance returns `advance_score` and `advance: yes/no`;
+final decision returns `decision_score` and `decision: award/decline`.
+The score column always uses the task's requested 0–100 field. The rationale
+format retains the original three-sentence instruction and first JSON key.
+No interview requirement or recommendation letters are invented.
 
-### 3. Plan and verify offline
+## Tier and review decision
 
-Prepare a new plan in `runs/fellowship/main/`. Never overwrite an existing plan.
-Use 100 applicants × 11 conditions × 2 wordings × 3 tasks × 2 formats × 1 repeat:
-**13,200 requests per model**. This count is not approval to send those requests.
-Keep a seeded random request order, frozen inputs and resumable response records.
+Keep the published 30 weak / 40 borderline / 30 strong labels as **original
+provisional generation labels**. The CSV calls this field `cv_tier` for PhD
+analysis compatibility; it is the fellowship generation tier, not a CV-only
+rating or a human-validated category.
 
-Run the existing offline suite and applicant checks:
+One researcher reviewed condensed examples: the PhD ordering matched the
+existing labels; the strongest fellowship example ranked first, while the other
+two were close. This supports an informal plausibility check. It is not an
+independent two-rater review or validation of all 100 records.
+
+The proposed 30/25/25/20 research/academics/proposal/impact rubric was not applied
+to the bank. No new numerical scores or tier cutoffs are asserted. The primary
+estimand is the mean within-applicant condition contrast over all 100 applicants.
+Original-tier results are descriptive sensitivity analyses. Also examine strength
+using each model's own clean scores with the cross-fitting used in the PhD
+analysis; reusing the same clean measurement on both sides can create spurious
+moderation. Do not change applicant selection or labels after seeing allegation
+results. Do not insert numerical researcher weights into evaluator prompts.
+
+## Offline commands and safeguards
 
 ```sh
 python3 -m unittest discover -s tests
 python3 scripts/verify_datasets.py
 python3 -m fellowship_applicants verify --out datasets/fellowship-applicants-v2
 python3 scripts/audit_fellowship.py --out datasets/fellowship-applicants-v2
+python3 -m fellowship_eval preview --condition clean --task advance --format answer_only
 ```
 
-Report skips. If PDF extraction is unavailable, check the source hash and compare
-the source passages through an available extractor; do not call skipped tests
-passes. Add focused adapter tests that establish:
+A plan has been prepared locally in `runs/fellowship/main/`. It has no replies.
+For an existing plan, run:
 
-- Exactly 13,200 unique requests, balanced across every design dimension.
-- Complete agreement of condition strings with the original PhD config.
-- For a fixed applicant, wording, task and format, only the institutional-record
-  block differs across conditions. Validate this for all 100 applicants.
-- No identifier or researcher-label leakage; no unresolved placeholders.
-- Enrollment fits the incident and review dates. The fixed record remains the
-  same under all conditions, including those mentioning sanctions.
-- Correct score and decision parsing for every task and format.
-- Resumption skips valid replies, preserves all attempts, rejects changed
-  settings under a reused label, and accounts for missing/failed requests.
-- Original PhD behavior and all protected hashes remain unchanged.
+```sh
+python3 -m fellowship_eval verify-plan --plan runs/fellowship/main
+```
 
-Do not send `evaluator_inputs.jsonl` directly to a provider. Do not treat its
-`condition: null` as a clean baseline.
+Only if that directory is absent, create it:
 
-### 4. Deliver review material and stop
+```sh
+python3 -m fellowship_eval plan --config configs/fellowship_eval_v1.json \
+  --out runs/fellowship/main --repeats 1
+```
 
-Provide complete assembled clean and cleared prompts for the three tier examples
-listed above. Show both wordings, all three task suffixes and both format
-instructions. Also provide an exact diff against the PhD prompt components,
-separating the necessary application/opportunity changes from shared wording.
+Plans refuse overwrite. Config, design, implementation and dataset hashes are
+frozen. Original and identifier-stripped application hashes are stored separately.
+The loader checks every published checksum. All condition changes are tested to
+be confined to the institutional-record block for every applicant/task/format.
 
-Write a run proposal with model labels, API IDs, parameters, concurrency,
-retry limits, request counts and estimated cost. A comparable candidate panel is
-the five completed PhD models: GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
-Llama 4 Maverick and Qwen3-32B. This is a proposal, not an approved panel.
-Read IDs and request settings from saved `runs/main` records. Do not guess missing
-settings or replace an unavailable model silently. Verify availability and current
-pricing against provider documentation before proposing paid work. Record model
-and provider versions where available; later provider changes complicate
-cross-opportunity comparisons.
+Preparation diagnostics and assembled prompt examples are under
+`runs/fellowship/prep/` locally. These directories are ignored by Git. On another
+clone, recreate the plan from the same reviewed implementation; do not copy an
+old plan while substituting new code or data. Tests use fake clients only.
 
-Propose a bounded parse smoke test and a stratified clean-score calibration check
-before the full run. A 20-request smoke test tests transport/parsing; it does not
-validate the provisional tiers. Inspect clean-score ordering and floor/ceiling
-behavior in calibration. Flag clean means below 15. Never tune or select the
-applicant bank to obtain a desired exoneration result. Any revised protocol needs
-its own frozen plan and approval before expansion.
+The preparation check ran 192 tests: 189 passed and three source-PDF tests
+skipped because `pdftotext` was unavailable. A separate `pypdf` check verified
+all 12 source passages and the source PDF hash. Dataset verification, fellowship
+verification and the fellowship audit passed. All 2,244 protected tracked files
+were byte-identical. The full plan contains 13,200 unique requests and zero saved
+evaluation replies. There are 72 complete clean/cleared prompt previews. See
+`runs/fellowship/prep/verification.json` for the local check record.
 
-Show separate cost estimates for smoke/calibration and completion. Use measured
-prompt sizes and explicit assumptions about output length and retries. Require an
-explicit dollar cap before calls; previous $10/$100 caps do not carry over.
-The proposed cap enforcement must reserve for requests in flight and retries,
-not merely notice that spending already exceeded the cap. Keep all attempts;
-propose a finite retry policy rather than retrying until a desired response parses.
+### Request and spending policy
 
-Use only the current `EVAL_API_KEY` environment variable and the OpenRouter base
-URL `https://openrouter.ai/api/v1` after execution is approved. If the key is
-missing then, ask the user to set it in their terminal. Never print, save, commit
-or retrieve a key from chat history. Offline work requires no key.
+The adapter sends only `model` and `messages`; no sampling parameters are added.
+Use one process per plan. The runner prevents simultaneous model processes while
+permitting request concurrency within one model. Proposed concurrency is 1 for
+smoke tests, then 4. Prior PhD response records confirm empty parameters but do
+not record concurrency, so exact concurrency equivalence is not claimed.
 
-Commit only the adapter, new config, tests and preparation documentation locally.
-Check that protected files did not change. Report the branch, commit, checks,
-preview paths and unresolved choices. Ask before pushing or merging this new
-implementation. **Stop here for review and an explicit execution decision.**
+There are at most two recorded attempts per request, including transport failures.
+There are no hidden HTTP retries. Valid replies are skipped on resumption. Every
+attempt is retained. Never retry until a desired score appears or change parsing
+to accept a particular treatment's reply. A model label cannot be reused with a
+different API ID, request cost ceiling or retry policy.
 
-### 5. Requirements for a later, separately approved run
+The cumulative cap covers every model in this plan, including smoke tests,
+clean calibration and retries. `--request-cost-ceiling-usd` is a **verified upper
+bound per attempt**, not an average expected cost. Before sending each request,
+the runner reserves that amount, including requests already in flight. It then
+replaces the reservation with reported usage cost. Missing billing, a timeout,
+an interrupted request or an exceeded ceiling stops further dispatch. Preserve
+unresolved reservations until provider accounting resolves them. The budget is
+frozen in `budget.json`; do not increase it without fresh authorization.
 
-After approval, retain raw replies and every retry. Report sent, valid,
-unparseable and error counts plus cost per model. Report retries by condition,
-and first-attempt validity separately from eventual validity. Track costs from
-saved usage and provider accounting; stop within the approved cap.
+Use a dedicated OpenRouter key with an appropriate provider-side spending limit
+for a hard cap. Confirm that the key is not shared with unrelated jobs. The local
+reservation check depends on a correct upper bound and provider billing. Compute
+that bound from current documented input/output/context maxima and all billable
+rates, including reasoning tokens and request charges where applicable. Empty
+parameters must remain empty. If a finite conservative bound cannot be established
+without setting a token limit, stop and present the change for approval. Do not
+silently add `max_tokens` or `temperature`, or call an average-cost watchdog a
+hard cap. If verification is impossible, stop before paid calls.
 
-Collect fellowship results separately from PhD results. Preserve the original
-analysis questions: paired score differences against clean and neutral_control;
-applicant-clustered 95% intervals; mixed-model sensitivity; prespecified cleared
-and adverse contrasts; binary advance/award differences; tier, wording and format
-checks. State multiplicity families and report corrected inference. Treat Llama's
-format comparison cautiously given its prior prose in both formats. Do not run
-an equivalence test without a chosen meaningful-difference threshold.
+The runner reads only `EVAL_API_KEY`, uses `https://openrouter.ai/api/v1`, and
+rejects a conflicting `EVAL_BASE_URL`. It never falls back to another key.
+No credential is needed for offline work.
 
-Use applicant IDs unique to the fellowship bank. Do not treat applicants across
-opportunities as matched people, or wordings/formats as independent applicants.
-Small differences require corrected intervals before being described as evidence
-of an effect. Keep the absence of independent human validation explicit.
+## Prompt to paste into Claude Code
 
-Save exports and analysis under `runs/fellowship/main/`. Copy the entire run,
-including raw replies, to a dated backup under
-`/Users/baileyhirota/Desktop/test/llm-exoneration-backups/`. Report that exact path.
-Commit only approved code/configs, compact result exports and analysis artifacts.
-Do not commit raw response dumps or secrets. Do not overwrite earlier results.
+```text
+Work in ajay-cogsci/llm-exoneration-project. Run the finalized fellowship
+extension after the execution gate below. Preserve the original PhD experiment.
+
+Read docs/FELLOWSHIP_EVALUATION_HANDOFF.md, EVALUATION.md, FELLOWSHIP_METHOD.md,
+configs/fellowship_eval_v1.json, and fellowship_eval/ before doing anything paid.
+Use the local codex/fellowship-eval-prep checkout containing these files. Do not
+reset it to origin/main or discard uncommitted preparation changes. If the
+adapter is missing on another machine, obtain the reviewed preparation files.
+Do not reconstruct them from this prompt or silently change study wording.
+
+1. Verify the setup offline.
+Run the documented test suite, dataset verification and fellowship audit.
+Report skips accurately. Verify runs/fellowship/main if it exists. Otherwise
+create that plan using the documented command. Expect 100 applicants and
+13,200 unique requests per model. Confirm there are no existing unexpected
+responses. Keep all 11 conditions, two wordings, three tasks, two formats and
+one repeat. Preserve published applications and original provisional labels.
+Do not regenerate, rescore or rebalance the bank. Do not insert numeric rubric
+weights into prompts. Show the resolved clean advance and final-decision prompts.
+
+2. Resolve the execution gate before any paid request.
+Recommend the same five models that completed the PhD full design:
+Gemma 4 31B IT -> google/gemma-4-31b-it
+Qwen3-32B -> qwen/qwen3-32b
+Llama 4 Maverick -> meta-llama/llama-4-maverick
+GPT-5.4 mini -> openai/gpt-5.4-mini
+Gemini 3.8 Flash -> google/gemini-3.8-flash
+These are historical recorded IDs, not a claim of current availability.
+Check availability and prices against official provider documentation. Do not
+substitute an unavailable model. Estimate smoke, clean calibration and full-run
+costs using the actual prompts, expected output lengths and retry allowance.
+Record assumptions and conservative per-request upper bounds separately.
+Ask the user to approve the model panel and a new total dollar cap. Earlier
+PhD and ablation caps do not apply. If the current session already explicitly
+approves this fellowship panel and cap, do not ask again. Configure or confirm
+the dedicated provider-side key limit and the documented local reservations.
+Use only the current EVAL_API_KEY environment variable. If missing, ask the user
+to set it in their terminal. Never retrieve old keys from chat, print a key,
+write it to a file or commit it. Wait for required authorization before calls.
+
+3. Run approved models sequentially, cheapest first.
+Use the documented run command below with the approved cap and the verified
+worst-case request cost. Use no extra sampling parameters. First send at most
+20 requests with concurrency 1. Inspect every saved reply in that smoke test,
+including score fields, decision vocabulary, rationales and errors.
+Stop if transport, billing or prompt semantics are wrong. If replies are sound,
+complete clean-record cells using --conditions clean in this same plan. This
+is 1,200 clean cells per model, and is part of the 13,200 total. Report score
+ranges, clean means by original tier, floor/ceiling rates and near-constant
+scoring. A nonmonotone provisional tier ordering is a finding; do not retune
+applicants to force it. Pause if the evaluator cannot distinguish applicants.
+Then remove --conditions and --limit, use concurrency 4, and complete the
+approved full design. Resumption allows at most two total attempts per request.
+Do not loop indefinitely. Report exhausted requests as incomplete. Stop on any
+budget/billing warning; do not bypass it. Report spend and progress after each
+model and at useful intervals during long runs. Do not start TA or RA work.
+
+4. Collect and analyse separately from PhD.
+Run python3 -m fellowship_eval collect --plan runs/fellowship/main.
+Keep raw replies and attempt_starts.jsonl. Report attempts, distinct requests,
+valid, unparseable, errors, missing, exhausted, and reported/unresolved cost by
+model. Report first-attempt validity and retries by condition. Analyse both
+results.csv and first_attempt_results.csv; do not replace one with the other.
+Use matched applicant/wording/format/repeat cells for contrasts when replies
+are missing, and report denominators. Never code a parse failure as score zero.
+Use paired applicant-level differences and applicant-clustered 95% intervals
+against clean and neutral_control. Fit score ~ condition + wording + format
+with an applicant random intercept as sensitivity. Preserve PhD contrast
+families and multiplicity correction; name the correction used for intervals.
+Use award/decline for fellowship binary decisions. Report original-tier results
+as descriptive and use cross-fitted own-clean scores for strength moderation.
+Flag clean means below 15 and ceiling compression. Inspect wording/format and
+rationales linking allegations to listed work. Mark Llama's format comparison
+cautiously because its PhD replies included prose in both formats.
+Do not run equivalence tests. Do not claim a small difference is established
+unless its corrected interval excludes zero. Separate verified observations
+from interpretation. The three-example sanity check is not bank validation.
+Do not treat PhD and fellowship applicants as matched people or attribute
+cross-opportunity differences solely to the opportunity name.
+Write fellowship-specific analysis code, a tidy estimate CSV, figures and a
+short summary under runs/fellowship/main/analysis/. Reuse PhD analysis helpers
+where appropriate without changing published PhD results or overwriting files.
+
+5. Preserve and report.
+Copy the whole runs/fellowship/main folder, including raw replies, to a dated
+folder under /Users/baileyhirota/Desktop/test/llm-exoneration-backups/. Verify
+copied hashes and report the exact backup path. Report branch, source commit,
+resolved model/provider IDs, cost, completeness, errors, limitations and paths.
+Commit only reviewed code/configs, compact exports and analysis outputs to the
+working fellowship branch. Exclude secrets and large raw dumps. Ask before
+pushing or merging. Do not overwrite earlier results or delete old datasets.
+```
+
+After panel and cap approval, the run command is:
+
+```sh
+python3 -m fellowship_eval run --plan runs/fellowship/main \
+  --label "$MODEL_LABEL" --api-model "$MODEL_ID" \
+  --budget-cap-usd "$FELLOWSHIP_CAP_USD" \
+  --request-cost-ceiling-usd "$VERIFIED_REQUEST_CEILING_USD" \
+  --limit 20 --concurrency 1 --max-attempts 2
+```
+
+Set the four named shell variables to approved, non-secret values. The credential
+stays in `EVAL_API_KEY`. For clean calibration replace `--limit 20` with
+`--conditions clean` and use `--concurrency 4`. For completion remove that filter.
+Do not change the retry limit or request ceiling under an existing label.
+
+## Verified limits of this setup
+
+All applicants are fictional. The bank supports a controlled comparison within
+fixed packets. Template reuse, synthetic supervisor evidence, limited proposal
+topics and unvalidated scientific novelty constrain external validity. The
+December 2025 evidence snapshot and graduate enrollment accommodate the 2026
+record conditions; no later achievement or actual damage to the CV is invented.
+Minor doubled punctuation is preserved from the published release.
+
+A provider/model may have changed since the PhD experiment. Record model and
+provider identifiers and dates. Historical prices and IDs do not guarantee a
+comparable current service. The original PhD code and results remain unchanged.

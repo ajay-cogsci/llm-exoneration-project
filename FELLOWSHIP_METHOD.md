@@ -119,6 +119,20 @@ estimated frequencies; the configuration and frozen source expose all draws.
 
 ## Provisional evidence rubric
 
+**Evaluation use, 19 November 2026.** The rules below describe the immutable
+published v2 generation labels. The fellowship experiment retains all 100
+applications and those labels for provenance. Its primary estimates compare
+each applicant with their own clean record; tier comparisons are descriptive
+sensitivity analyses. An informal review of three condensed examples supported
+the strongest example but treated the other two as close. This was one
+researcher's sanity check, not independent validation of the bank.
+
+The proposed 30% research / 25% academics / 25% proposal / 20% broader-impact
+review rubric remains uncalibrated. It has not been applied to all applicants,
+used to regenerate them or inserted into evaluator prompts. No new tier cutoffs
+are introduced. See the [evaluation handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md)
+for the finalized experiment, interpretation limits and execution gate.
+
 Four dimensions take values 0 (limited), 1 (adequate) or 2 (substantive). These
 values are anchors, not scores to be summed or percentile-ranked.
 

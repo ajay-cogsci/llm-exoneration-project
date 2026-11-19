@@ -34,6 +34,7 @@ runs/
 !/fellowship_applicants/
 /configs/fellowship*.json
 !/configs/fellowship.json
+!/configs/fellowship_eval_v1.json
 /FELLOWSHIP_V*_METHOD.md
 /scripts/audit_fellowship*.py
 !/scripts/audit_fellowship.py
