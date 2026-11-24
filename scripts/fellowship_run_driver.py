@@ -58,8 +58,9 @@ MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD
 ]
 # Request concurrency per model after the smoke test. Raised from 4 by the user on
 # 2026-11-23 because reasoning models (Qwen, Gemini) took ~25 s per request.
+# Llama 4 Maverick stays at 4: its single provider (Parasail) returned HTTP 429 at 16.
 # Each in-flight request reserves its ceiling (GPT-5.4 mini: 16 x $1.166 = $18.66 at most).
-CONCURRENCY = {"Gemma 4 31B IT": 4, "Qwen3-32B": 32, "Llama 4 Maverick": 16,
+CONCURRENCY = {"Gemma 4 31B IT": 4, "Qwen3-32B": 32, "Llama 4 Maverick": 4,
                "GPT-5.4 mini": 8, "Gemini 3.8 Flash": 16}  # GPT-5.4 mini at 8: a blip at 16 would hold ~$19 of cap
 
 

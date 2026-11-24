@@ -82,7 +82,7 @@ def split(slices):
         write_jsonl(dst / "attempt_starts.jsonl", [s for s in starts if s["model_label"] == label])
         json.dump({"cap_usd": slice_cap, "scope": f"Slice of runs/fellowship/main (cap ${cap}) for {label}"},
                   open(dst / "budget.json", "w"), indent=2)
-        print(f"split {label}: slice ${slice_cap}, current charges ${spent:.4f} -> {dst.relative_to(ROOT)}")
+        print(f"split {label}: slice ${slice_cap}, current charges ${spent:.4f} -> {dst}")
     json.dump({"split": sorted(slices), "slices": slices, "note": "Do not run models in main until merged"},
               open(MAIN / "PARALLEL_SPLIT.json", "w"), indent=2)
     main_lock.close()
