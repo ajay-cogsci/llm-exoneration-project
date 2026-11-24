@@ -58,7 +58,7 @@ MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD
 ]
 # Request concurrency per model after the smoke test. Raised from 4 by the user on
 # 2026-11-23 because reasoning models (Qwen, Gemini) took ~25 s per request.
-# Llama 4 Maverick stays at 4: its single provider (Parasail) returned HTTP 429 at 16.
+# Llama 4 Maverick at 4: its single provider (Parasail) returns HTTP 429 at 8 and 16.
 # Each in-flight request reserves its ceiling (GPT-5.4 mini: 16 x $1.166 = $18.66 at most).
 CONCURRENCY = {"Gemma 4 31B IT": 4, "Qwen3-32B": 32, "Llama 4 Maverick": 4,
                "GPT-5.4 mini": 8, "Gemini 3.8 Flash": 16}  # GPT-5.4 mini at 8: a blip at 16 would hold ~$19 of cap
@@ -262,7 +262,11 @@ def stage(plan, label, mid, ceiling, logf, n_reconciled, **kw):
             raise SystemExit(f"STOP: {len(over)} attempt(s) cost more than the verified ceiling; ceiling is wrong")
         if "Unknown billing" in reasons:
             dead_rounds = dead_rounds + 1 if not res.get("valid") else 0
-            time.sleep(60)
+            # A rate-limit rejection (HTTP 429) is refused before any work, so a short
+            # pause suffices; other unknown-billing stops wait a minute.
+            recent = read_jsonl(plan / "responses" / f"{safe_label(label)}.jsonl")[-max(res.get("sent_now") or 1, 1):]
+            only_429 = all("HTTP 429" in (r.get("error") or "") for r in recent if r.get("error"))
+            time.sleep(10 if only_429 else 60)
             continue
         if res.get("sent_now", 0) == 0 or not res["stop_reasons"]:
             return res, n_reconciled
