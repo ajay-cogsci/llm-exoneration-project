@@ -45,7 +45,7 @@ sys.path.insert(0, str(ROOT))
 from fellowship_eval.run import OpenRouter, execute, load_plan  # noqa: E402
 from phd_eval.run import APIError, parse_reply, safe_label  # noqa: E402
 
-CAP_USD = 90.0  # raised from 80 by the user on 2026-11-23 (see budget.json)
+CAP_USD = 100.0  # total cap; 80 -> 90 -> 100 by the user on 2026-11-23. Each plan's budget.json is authoritative.
 MAX_DEAD_ROUNDS = 3  # stop after this many consecutive resumptions with zero valid replies
 # (Replaced a fixed limit of 40 reconciliations on 2026-11-23: at concurrency 32 a single
 # one-minute connection blip cut off 29 Qwen requests at once. The $90 cap still bounds spend.)
@@ -226,6 +226,12 @@ def calibration(plan, label):
     return out
 
 
+def plan_cap(plan):
+    """The plan's frozen cap (a per-model slice for parallel copies)."""
+    path = plan / "budget.json"
+    return json.load(open(path))["cap_usd"] if path.exists() else CAP_USD
+
+
 def stage(plan, label, mid, ceiling, logf, n_reconciled, **kw):
     """Run one stage to completion, reconciling and resuming as approved."""
     config, design, _ = load_plan(plan)
@@ -237,7 +243,7 @@ def stage(plan, label, mid, ceiling, logf, n_reconciled, **kw):
                              "the provider or network looks down")
         wait_for_network(logf)
         try:
-            res = execute(plan, GuardedOpenRouter(), label, mid, budget_cap=CAP_USD,
+            res = execute(plan, GuardedOpenRouter(), label, mid, budget_cap=plan_cap(plan),
                           request_cost_ceiling=ceiling, **kw)
         except Exception as exc:  # unexpected crash: record, reconcile next loop, resume
             log(f"CRASH {label} {type(exc).__name__}: {exc}", logf)
@@ -265,12 +271,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--plan", default="runs/fellowship/main")
     ap.add_argument("--smoke-only", action="store_true", help="Run only the 20-request smoke tests, for manual inspection")
+    ap.add_argument("--only", help="Run just this model label (used for per-model parallel plan copies)")
     args = ap.parse_args()
     plan = (ROOT / args.plan) if not Path(args.plan).is_absolute() else Path(args.plan)
     logf = plan / "driver_log.txt"
     n_rec = 0
-    log(f"DRIVER START cap ${CAP_USD} provider_usage={provider_usage()}", logf)
+    if (plan / "PARALLEL_SPLIT.json").exists():
+        raise SystemExit("This plan is split for parallel runs; run the copies under runs/fellowship/parallel/ and merge first")
+    log(f"DRIVER START cap ${plan_cap(plan)} only={args.only} provider_usage={provider_usage()}", logf)
     for label, mid, ceiling in MODELS:
+        if args.only and label != args.only:
+            continue
         before = provider_usage()
         log(f"MODEL START {label} ({mid}) provider_usage={before}", logf)
         if len(read_jsonl(plan / "responses" / f"{safe_label(label)}.jsonl")) < 20:
