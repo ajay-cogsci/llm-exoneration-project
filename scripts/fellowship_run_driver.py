@@ -21,7 +21,7 @@ fellowship_eval/ or phd_eval/:
 Per model (cheapest first): smoke test (20 requests, concurrency 1) if not yet
 done -> clean-record calibration (--conditions clean, concurrency 4) with an
 automatic distinguishability gate -> full design (concurrency 4). The driver stops
-everything on a budget stop, a failed gate, or more than MAX_RECONCILE reconciliations.
+everything on a budget stop, a failed gate, or MAX_DEAD_ROUNDS consecutive resumptions with no valid reply.
 
 The API key is read only from EVAL_API_KEY by the adapter; it is never handled here.
 usage: python3 scripts/fellowship_run_driver.py [--plan runs/fellowship/main]
@@ -46,7 +46,9 @@ from fellowship_eval.run import OpenRouter, execute, load_plan  # noqa: E402
 from phd_eval.run import APIError, parse_reply, safe_label  # noqa: E402
 
 CAP_USD = 90.0  # raised from 80 by the user on 2026-11-23 (see budget.json)
-MAX_RECONCILE = 40  # 40 x worst-case ceilings is at most about $18 of cap headroom
+MAX_DEAD_ROUNDS = 3  # stop after this many consecutive resumptions with zero valid replies
+# (Replaced a fixed limit of 40 reconciliations on 2026-11-23: at concurrency 32 a single
+# one-minute connection blip cut off 29 Qwen requests at once. The $90 cap still bounds spend.)
 MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD)
     ("Gemma 4 31B IT", "google/gemma-4-31b-it", 0.243),
     ("Qwen3-32B", "qwen/qwen3-32b", 0.069),
@@ -58,7 +60,7 @@ MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD
 # 2026-11-23 because reasoning models (Qwen, Gemini) took ~25 s per request.
 # Each in-flight request reserves its ceiling (GPT-5.4 mini: 16 x $1.166 = $18.66 at most).
 CONCURRENCY = {"Gemma 4 31B IT": 4, "Qwen3-32B": 32, "Llama 4 Maverick": 16,
-               "GPT-5.4 mini": 16, "Gemini 3.8 Flash": 16}  # PhD run used Gemma 16, Qwen 32, GPT-5.4 mini 16
+               "GPT-5.4 mini": 8, "Gemini 3.8 Flash": 16}  # GPT-5.4 mini at 8: a blip at 16 would hold ~$19 of cap
 
 
 REQUEST_DEADLINE_S = 600  # overall wall-clock limit per attempt
@@ -227,10 +229,12 @@ def calibration(plan, label):
 def stage(plan, label, mid, ceiling, logf, n_reconciled, **kw):
     """Run one stage to completion, reconciling and resuming as approved."""
     config, design, _ = load_plan(plan)
-    for _ in range(MAX_RECONCILE + 5):
+    dead_rounds = 0  # consecutive resumptions that produced no valid reply at all
+    while True:
         n_reconciled += reconcile(plan, config, design, logf)
-        if n_reconciled > MAX_RECONCILE:
-            raise SystemExit(f"STOP: more than {MAX_RECONCILE} reconciliations; review transport problems")
+        if dead_rounds >= MAX_DEAD_ROUNDS:
+            raise SystemExit(f"STOP: {MAX_DEAD_ROUNDS} consecutive resumptions produced no valid reply; "
+                             "the provider or network looks down")
         wait_for_network(logf)
         try:
             res = execute(plan, GuardedOpenRouter(), label, mid, budget_cap=CAP_USD,
@@ -250,11 +254,11 @@ def stage(plan, label, mid, ceiling, logf, n_reconciled, **kw):
         if over:
             raise SystemExit(f"STOP: {len(over)} attempt(s) cost more than the verified ceiling; ceiling is wrong")
         if "Unknown billing" in reasons:
-            time.sleep(30)
+            dead_rounds = dead_rounds + 1 if not res.get("valid") else 0
+            time.sleep(60)
             continue
         if res.get("sent_now", 0) == 0 or not res["stop_reasons"]:
             return res, n_reconciled
-    raise SystemExit("STOP: stage did not converge")
 
 
 def main():
