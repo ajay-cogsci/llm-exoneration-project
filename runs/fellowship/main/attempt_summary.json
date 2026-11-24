@@ -1,0 +1,86 @@
+{
+  "GPT-5.4 mini": {
+    "planned": 13200,
+    "attempts": 13200,
+    "distinct_attempted": 13200,
+    "missing": 0,
+    "first_attempt_valid": 13200,
+    "valid_attempts": 13200,
+    "unparseable_attempts": 0,
+    "error_attempts": 0,
+    "reported_cost_usd": 13.3082835,
+    "unresolved_cost_reserve_usd": 0,
+    "unparseable_requests_retried_by_condition": {}
+  },
+  "Gemini 3.8 Flash": {
+    "planned": 13200,
+    "attempts": 13216,
+    "distinct_attempted": 13200,
+    "missing": 0,
+    "first_attempt_valid": 13184,
+    "valid_attempts": 13200,
+    "unparseable_attempts": 0,
+    "error_attempts": 16,
+    "reported_cost_usd": 40.56749904287324,
+    "unresolved_cost_reserve_usd": 0,
+    "unparseable_requests_retried_by_condition": {}
+  },
+  "Gemma 4 31B IT": {
+    "planned": 13200,
+    "attempts": 13250,
+    "distinct_attempted": 13200,
+    "missing": 0,
+    "first_attempt_valid": 13170,
+    "valid_attempts": 13200,
+    "unparseable_attempts": 0,
+    "error_attempts": 50,
+    "reported_cost_usd": 2.513739699478874,
+    "unresolved_cost_reserve_usd": 0,
+    "unparseable_requests_retried_by_condition": {}
+  },
+  "Llama 4 Maverick": {
+    "planned": 13200,
+    "attempts": 13458,
+    "distinct_attempted": 13200,
+    "missing": 0,
+    "first_attempt_valid": 12973,
+    "valid_attempts": 13197,
+    "unparseable_attempts": 17,
+    "error_attempts": 244,
+    "reported_cost_usd": 9.462961027746484,
+    "unresolved_cost_reserve_usd": 0,
+    "unparseable_requests_retried_by_condition": {
+      "clean": 1,
+      "cleared": 1,
+      "exonerated_on_appeal": 1,
+      "pending": 3,
+      "dismissed": 1,
+      "responsible": 3,
+      "neutral_control": 1,
+      "responsible_rehabilitated": 1,
+      "procedural_reversal": 1,
+      "withdrawn": 1
+    }
+  },
+  "Qwen3-32B": {
+    "planned": 13200,
+    "attempts": 13329,
+    "distinct_attempted": 13200,
+    "missing": 0,
+    "first_attempt_valid": 13071,
+    "valid_attempts": 13200,
+    "unparseable_attempts": 14,
+    "error_attempts": 115,
+    "reported_cost_usd": 6.96795072690141,
+    "unresolved_cost_reserve_usd": 0,
+    "unparseable_requests_retried_by_condition": {
+      "procedural_reversal": 2,
+      "clean": 4,
+      "responsible": 2,
+      "exonerated_acknowledged": 3,
+      "withdrawn": 1,
+      "pending": 1,
+      "dismissed": 1
+    }
+  }
+}

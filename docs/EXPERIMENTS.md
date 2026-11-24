@@ -28,10 +28,11 @@ Analysis code:
 
 | Experiment | Folder | Design | Models | Status |
 |---|---|---|---|---|
-| Full design | `runs/fellowship/main/` | Same 11-condition design as the PhD study: 13,200 requests per model | Gemma 4 31B IT, Qwen3-32B, Llama 4 Maverick, GPT-5.4 mini, Gemini 3.8 Flash | Running; $80 cap |
+| Full design | `runs/fellowship/main/` | Same 11-condition design as the PhD study: 13,200 requests per model | Gemma 4 31B IT, Qwen3-32B, Llama 4 Maverick, GPT-5.4 mini, Gemini 3.8 Flash | Done; 65,997 of 66,000 valid; $72.82. [SUMMARY.md](../runs/fellowship/main/analysis/SUMMARY.md) |
 
 - **Inputs:** [`datasets/fellowship-applicants-v2`](../datasets/fellowship-applicants-v2/) with `configs/fellowship_eval_v1.json`.
-- **Harness:** `fellowship_eval`, run through `scripts/fellowship_run_driver.py`.
+- **Harness:** `fellowship_eval`, run through `scripts/fellowship_run_driver.py` (parallel per-model copies: `scripts/fellowship_parallel.py`).
+- **Analysis:** `analysis/fellowship.py`.
 - **Rules:** [FELLOWSHIP_EVALUATION_HANDOFF.md](FELLOWSHIP_EVALUATION_HANDOFF.md) defines how the run is controlled: budget, retries and the analysis plan.
 
 ## Teaching assistant and research assistant

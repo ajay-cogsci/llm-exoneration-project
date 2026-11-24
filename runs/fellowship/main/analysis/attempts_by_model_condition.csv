@@ -1,0 +1,56 @@
+model,condition,requests,first_attempt_valid,first_attempt_error,first_attempt_unparseable
+GPT-5.4 mini,clean,1200,1200,0,0
+GPT-5.4 mini,cleared,1200,1200,0,0
+GPT-5.4 mini,dismissed,1200,1200,0,0
+GPT-5.4 mini,exonerated_acknowledged,1200,1200,0,0
+GPT-5.4 mini,exonerated_on_appeal,1200,1200,0,0
+GPT-5.4 mini,neutral_control,1200,1200,0,0
+GPT-5.4 mini,pending,1200,1200,0,0
+GPT-5.4 mini,procedural_reversal,1200,1200,0,0
+GPT-5.4 mini,responsible,1200,1200,0,0
+GPT-5.4 mini,responsible_rehabilitated,1200,1200,0,0
+GPT-5.4 mini,withdrawn,1200,1200,0,0
+Gemini 3.8 Flash,clean,1200,1200,0,0
+Gemini 3.8 Flash,cleared,1200,1197,3,0
+Gemini 3.8 Flash,dismissed,1200,1198,2,0
+Gemini 3.8 Flash,exonerated_acknowledged,1200,1198,2,0
+Gemini 3.8 Flash,exonerated_on_appeal,1200,1197,3,0
+Gemini 3.8 Flash,neutral_control,1200,1198,2,0
+Gemini 3.8 Flash,pending,1200,1200,0,0
+Gemini 3.8 Flash,procedural_reversal,1200,1199,1,0
+Gemini 3.8 Flash,responsible,1200,1198,2,0
+Gemini 3.8 Flash,responsible_rehabilitated,1200,1200,0,0
+Gemini 3.8 Flash,withdrawn,1200,1199,1,0
+Gemma 4 31B IT,clean,1200,1198,2,0
+Gemma 4 31B IT,cleared,1200,1199,1,0
+Gemma 4 31B IT,dismissed,1200,1194,6,0
+Gemma 4 31B IT,exonerated_acknowledged,1200,1200,0,0
+Gemma 4 31B IT,exonerated_on_appeal,1200,1196,4,0
+Gemma 4 31B IT,neutral_control,1200,1195,5,0
+Gemma 4 31B IT,pending,1200,1197,3,0
+Gemma 4 31B IT,procedural_reversal,1200,1199,1,0
+Gemma 4 31B IT,responsible,1200,1197,3,0
+Gemma 4 31B IT,responsible_rehabilitated,1200,1198,2,0
+Gemma 4 31B IT,withdrawn,1200,1197,3,0
+Llama 4 Maverick,clean,1200,1157,42,1
+Llama 4 Maverick,cleared,1200,1189,10,1
+Llama 4 Maverick,dismissed,1200,1179,20,1
+Llama 4 Maverick,exonerated_acknowledged,1200,1187,13,0
+Llama 4 Maverick,exonerated_on_appeal,1200,1175,24,1
+Llama 4 Maverick,neutral_control,1200,1184,15,1
+Llama 4 Maverick,pending,1200,1177,19,4
+Llama 4 Maverick,procedural_reversal,1200,1183,15,2
+Llama 4 Maverick,responsible,1200,1184,13,3
+Llama 4 Maverick,responsible_rehabilitated,1200,1180,18,2
+Llama 4 Maverick,withdrawn,1200,1178,21,1
+Qwen3-32B,clean,1200,1176,20,4
+Qwen3-32B,cleared,1200,1190,10,0
+Qwen3-32B,dismissed,1200,1187,12,1
+Qwen3-32B,exonerated_acknowledged,1200,1182,15,3
+Qwen3-32B,exonerated_on_appeal,1200,1194,6,0
+Qwen3-32B,neutral_control,1200,1193,7,0
+Qwen3-32B,pending,1200,1193,6,1
+Qwen3-32B,procedural_reversal,1200,1189,9,2
+Qwen3-32B,responsible,1200,1190,8,2
+Qwen3-32B,responsible_rehabilitated,1200,1192,8,0
+Qwen3-32B,withdrawn,1200,1185,14,1

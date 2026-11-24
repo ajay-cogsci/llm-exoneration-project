@@ -1,0 +1,15 @@
+{
+  "split": [
+    "GPT-5.4 mini",
+    "Gemini 3.8 Flash",
+    "Llama 4 Maverick",
+    "Qwen3-32B"
+  ],
+  "slices": {
+    "Qwen3-32B": 12.0,
+    "Llama 4 Maverick": 20.0,
+    "GPT-5.4 mini": 25,
+    "Gemini 3.8 Flash": 52.0
+  },
+  "note": "Do not run models in main until merged"
+}

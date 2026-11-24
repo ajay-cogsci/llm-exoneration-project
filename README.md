@@ -22,7 +22,7 @@ the [LLM exoneration Google Doc](https://docs.google.com/document/d/1dgZkwce8f8i
 | Opportunity | Applicants | Evaluation |
 |---|---|---|
 | Computer Science PhD | 100 | Done: pilot (7 models), full design (5 models), prompt ablation (3 models). [Results](runs/main/analysis/SUMMARY.md) |
-| Graduate research fellowship | 100 | Running (5 models) |
+| Graduate research fellowship | 100 | Done: full design (5 models). [Results](runs/fellowship/main/analysis/SUMMARY.md) |
 | Introductory CS teaching assistant | 100 | Not started |
 | Research assistant | 100 | Not started |
 

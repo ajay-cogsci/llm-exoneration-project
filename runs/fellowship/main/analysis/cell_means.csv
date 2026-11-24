@@ -1,0 +1,421 @@
+input,model,task,condition,n,mean_score,sd_score,yes_rate,share_score_le_5,share_score_ge_95,cv_tier,floor_flag,ceiling_flag
+eventual,GPT-5.4 mini,decide,clean,400,43.31,10.180028607825243,0.035,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,cleared,400,41.0225,9.578955303778145,0.0225,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,dismissed,400,40.825,9.51765935506191,0.015,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,exonerated_acknowledged,400,44.4125,11.35516151283002,0.06,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,exonerated_on_appeal,400,44.1,10.9903124349832,0.0925,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,neutral_control,400,41.5325,10.096474173037688,0.0275,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,pending,400,32.8175,7.864083116177331,0.0,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,procedural_reversal,400,35.6575,8.84084810626759,0.0,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,responsible,400,17.875,6.142368984508716,0.0,0.02,0.0,,,
+eventual,GPT-5.4 mini,decide,responsible_rehabilitated,400,28.185,7.9428267160124735,0.0,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,withdrawn,400,41.22,9.468936153533788,0.0125,0.0,0.0,,,
+eventual,GPT-5.4 mini,decide,clean,160,44.65,10.089037577751558,0.0375,0.0,0.0,borderline,False,False
+eventual,GPT-5.4 mini,decide,clean,120,45.625,9.300819969273695,0.05,0.0,0.0,strong,False,False
+eventual,GPT-5.4 mini,decide,clean,120,39.208333333333336,10.009151974533093,0.016666666666666666,0.0,0.0,weak,False,False
+eventual,GPT-5.4 mini,advance,clean,400,50.6975,11.546180296904321,0.445,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,cleared,400,51.2,11.827710549472593,0.51,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,dismissed,400,51.33,11.966163657651698,0.5125,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,exonerated_acknowledged,400,52.88,13.104958980274862,0.54,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,exonerated_on_appeal,400,53.015,12.438712913616442,0.545,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,neutral_control,400,49.5975,12.811746401824447,0.42,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,pending,400,39.7425,8.684742692739823,0.095,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,procedural_reversal,400,40.645,8.916711521682322,0.1125,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,responsible,400,20.24,7.083278342702657,0.0,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,responsible_rehabilitated,400,33.4775,8.067353918610507,0.0225,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,withdrawn,400,49.165,11.001835116917979,0.4325,0.0,0.0,,,
+eventual,GPT-5.4 mini,advance,clean,160,52.86875,11.063067844218716,0.50625,0.0,0.0,borderline,False,False
+eventual,GPT-5.4 mini,advance,clean,120,53.44166666666667,10.343508363515081,0.55,0.0,0.0,strong,False,False
+eventual,GPT-5.4 mini,advance,clean,120,45.05833333333333,11.422589908776802,0.25833333333333336,0.0,0.0,weak,False,False
+eventual,GPT-5.4 mini,quality,clean,400,58.9025,9.40100745147864,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,cleared,400,57.905,8.608207018315454,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,dismissed,400,56.1375,9.222050166485918,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,exonerated_acknowledged,400,57.4975,8.81812861272597,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,exonerated_on_appeal,400,58.16,8.938912707986498,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,neutral_control,400,58.525,9.207677683368484,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,pending,400,50.9925,8.703552338457595,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,procedural_reversal,400,52.325,8.697902550151378,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,responsible,400,43.23,8.634726182143908,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,responsible_rehabilitated,400,49.2175,8.697373425999265,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,withdrawn,400,55.5375,9.382893502336605,,0.0,0.0,,,
+eventual,GPT-5.4 mini,quality,clean,160,60.5375,8.288726525913594,,0.0,0.0,borderline,False,False
+eventual,GPT-5.4 mini,quality,clean,120,62.583333333333336,7.890621316595086,,0.0,0.0,strong,False,False
+eventual,GPT-5.4 mini,quality,clean,120,53.041666666666664,9.50665033333109,,0.0,0.0,weak,False,False
+eventual,Gemini 3.8 Flash,decide,clean,400,26.2975,7.951544592310904,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,cleared,400,26.6675,7.888759412141851,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,dismissed,400,25.9375,7.64851903040033,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,exonerated_acknowledged,400,27.64,9.281474258490812,0.01,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,exonerated_on_appeal,400,26.7775,8.617345319231276,0.0025,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,neutral_control,400,26.7825,8.145001311596873,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,pending,400,23.4175,7.18486251597298,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,procedural_reversal,400,22.2725,6.858632944301776,0.0,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,responsible,400,6.315,2.5995517253811915,0.0,0.71,0.0,,,
+eventual,Gemini 3.8 Flash,decide,responsible_rehabilitated,400,9.48,3.076240911463764,0.0,0.24,0.0,,,
+eventual,Gemini 3.8 Flash,decide,withdrawn,400,26.31,8.306708343788888,0.0025,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,decide,clean,160,26.93125,7.175361297414066,0.0,0.0,0.0,borderline,False,False
+eventual,Gemini 3.8 Flash,decide,clean,120,30.158333333333335,7.332437238349998,0.0,0.0,0.0,strong,False,False
+eventual,Gemini 3.8 Flash,decide,clean,120,21.591666666666665,7.178979391113977,0.0,0.0,0.0,weak,False,False
+eventual,Gemini 3.8 Flash,advance,clean,400,29.6125,12.589025086621241,0.05,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,cleared,400,31.045,14.185769812135938,0.08,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,dismissed,400,31.3775,14.777717892668282,0.0925,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,exonerated_acknowledged,400,33.1925,15.693347208818818,0.1125,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,exonerated_on_appeal,400,32.565,15.519597926476663,0.1075,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,neutral_control,400,31.03,13.946517967167335,0.075,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,pending,400,26.9375,12.162994690849127,0.0475,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,procedural_reversal,400,26.265,11.027183318047477,0.0325,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,responsible,400,7.345,3.0951453620193794,0.0,0.5375,0.0,,,
+eventual,Gemini 3.8 Flash,advance,responsible_rehabilitated,400,10.715,3.5959842542608875,0.0,0.1625,0.0,,,
+eventual,Gemini 3.8 Flash,advance,withdrawn,400,31.8675,15.176652156410904,0.1125,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,advance,clean,160,30.45,12.823818248299093,0.05625,0.0,0.0,borderline,False,False
+eventual,Gemini 3.8 Flash,advance,clean,120,34.75833333333333,11.409119036931799,0.06666666666666667,0.0,0.0,strong,False,False
+eventual,Gemini 3.8 Flash,advance,clean,120,23.35,10.690960604897118,0.025,0.0,0.0,weak,False,False
+eventual,Gemini 3.8 Flash,quality,clean,400,48.675,12.082190335707788,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,cleared,400,48.5575,11.824603454964903,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,dismissed,400,48.3625,11.824366064702167,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,exonerated_acknowledged,400,49.09,12.012812708642898,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,exonerated_on_appeal,400,48.66,11.874000155770931,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,neutral_control,400,48.86,12.066042161105852,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,pending,400,45.4575,11.331336714144687,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,procedural_reversal,400,44.33,10.937558019896237,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,responsible,400,20.9975,4.302181500606454,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,responsible_rehabilitated,400,24.91,5.264140760357968,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,withdrawn,400,48.41,12.03219990635404,,0.0,0.0,,,
+eventual,Gemini 3.8 Flash,quality,clean,160,50.2125,11.101808736989861,,0.0,0.0,borderline,False,False
+eventual,Gemini 3.8 Flash,quality,clean,120,55.06666666666667,9.90520899658894,,0.0,0.0,strong,False,False
+eventual,Gemini 3.8 Flash,quality,clean,120,40.233333333333334,10.508686549574065,,0.0,0.0,weak,False,False
+eventual,Gemma 4 31B IT,decide,clean,400,32.6875,13.445884995353437,0.01,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,cleared,400,32.475,13.590848129613013,0.025,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,dismissed,400,30.5125,12.592508563817795,0.0175,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,exonerated_acknowledged,400,35.6,16.91464640948473,0.0925,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,exonerated_on_appeal,400,34.6375,15.713796557663558,0.0625,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,neutral_control,400,31.8,13.083882066298672,0.015,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,pending,400,26.575,10.697216980496355,0.0,0.005,0.0,,,
+eventual,Gemma 4 31B IT,decide,procedural_reversal,400,26.4125,10.552047574762451,0.0025,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,responsible,400,16.2625,7.269850105151993,0.0,0.06,0.0,,,
+eventual,Gemma 4 31B IT,decide,responsible_rehabilitated,400,19.3625,8.1898582524662,0.0,0.015,0.0,,,
+eventual,Gemma 4 31B IT,decide,withdrawn,400,29.775,12.049371077296772,0.0075,0.0,0.0,,,
+eventual,Gemma 4 31B IT,decide,clean,160,32.75,11.679687253502237,0.00625,0.0,0.0,borderline,False,False
+eventual,Gemma 4 31B IT,decide,clean,120,40.166666666666664,12.832687604257316,0.025,0.0,0.0,strong,False,False
+eventual,Gemma 4 31B IT,decide,clean,120,25.125,12.047917285753988,0.0,0.0,0.0,weak,False,False
+eventual,Gemma 4 31B IT,advance,clean,400,39.3,16.368562079834728,0.2125,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,cleared,400,41.1,18.248218919509263,0.255,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,dismissed,400,37.9,16.587732883233734,0.1775,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,exonerated_acknowledged,400,45.75,19.548474547720012,0.3425,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,exonerated_on_appeal,400,46.3,19.752478350893245,0.3425,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,neutral_control,400,39.2625,17.204900908991615,0.205,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,pending,400,34.4625,14.536225382503098,0.125,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,procedural_reversal,400,35.9,15.761855545130588,0.1475,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,responsible,400,23.275,11.094236350488538,0.0075,0.015,0.0,,,
+eventual,Gemma 4 31B IT,advance,responsible_rehabilitated,400,26.9875,11.260743964614038,0.025,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,withdrawn,400,37.9125,16.65904117535597,0.2,0.0,0.0,,,
+eventual,Gemma 4 31B IT,advance,clean,160,40.03125,14.606977687728948,0.18125,0.0,0.0,borderline,False,False
+eventual,Gemma 4 31B IT,advance,clean,120,47.541666666666664,15.86439162302253,0.375,0.0,0.0,strong,False,False
+eventual,Gemma 4 31B IT,advance,clean,120,30.083333333333332,14.377610589889747,0.09166666666666666,0.0,0.0,weak,False,False
+eventual,Gemma 4 31B IT,quality,clean,400,50.0,12.721225331501564,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,cleared,400,48.8625,12.810693909625476,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,dismissed,400,46.6925,12.319999989828467,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,exonerated_acknowledged,400,50.97,13.87752009221296,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,exonerated_on_appeal,400,50.6525,13.553079304963006,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,neutral_control,400,49.245,12.984277170258082,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,pending,400,44.7275,12.082973117092124,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,procedural_reversal,400,44.08,12.530808149604937,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,responsible,400,36.86,9.71397463750783,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,responsible_rehabilitated,400,39.145,9.810177059301076,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,withdrawn,400,46.4025,13.061278123351437,,0.0,0.0,,,
+eventual,Gemma 4 31B IT,quality,clean,160,51.56875,11.690248516492646,,0.0,0.0,borderline,False,False
+eventual,Gemma 4 31B IT,quality,clean,120,55.858333333333334,11.322837659397242,,0.0,0.0,strong,False,False
+eventual,Gemma 4 31B IT,quality,clean,120,42.05,11.408275044711988,,0.0,0.0,weak,False,False
+eventual,Llama 4 Maverick,decide,clean,400,65.2375,13.045364986041886,0.5925,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,cleared,400,64.75,13.634597743941614,0.555,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,dismissed,400,58.9,14.848103091423289,0.395,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,exonerated_acknowledged,400,71.15,11.423824202012925,0.8075,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,exonerated_on_appeal,400,68.8,11.960042078366227,0.7175,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,neutral_control,400,64.2625,12.900956571166645,0.52,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,pending,400,45.825,13.87626577576616,0.0875,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,procedural_reversal,400,55.7875,14.390450180275023,0.3425,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,responsible,400,31.05,10.30353857993313,0.0,0.0025,0.0,,,
+eventual,Llama 4 Maverick,decide,responsible_rehabilitated,399,46.05263157894737,12.587172893440052,0.07769423558897243,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,withdrawn,400,56.1375,15.382136361624774,0.355,0.0,0.0,,,
+eventual,Llama 4 Maverick,decide,clean,160,66.90625,12.012465681990783,0.65625,0.0,0.0,borderline,False,False
+eventual,Llama 4 Maverick,decide,clean,120,69.45833333333333,10.54792650246486,0.6833333333333333,0.0,0.0,strong,False,False
+eventual,Llama 4 Maverick,decide,clean,120,58.791666666666664,14.245680951443076,0.4166666666666667,0.0,0.0,weak,False,False
+eventual,Llama 4 Maverick,advance,clean,400,70.15,12.333197858769594,0.9325,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,cleared,400,71.125,11.51372179070192,0.965,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,dismissed,400,65.7125,13.69392759153507,0.8675,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,exonerated_acknowledged,400,75.7375,9.129730208730733,0.9925,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,exonerated_on_appeal,400,73.8,10.347835243933341,0.9725,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,neutral_control,400,70.055,12.234425934422184,0.9325,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,pending,399,53.20802005012531,12.505650414956612,0.5588972431077694,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,procedural_reversal,399,64.24812030075188,12.578840421809582,0.8696741854636592,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,responsible,400,41.25,10.61693450321768,0.1375,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,responsible_rehabilitated,400,53.5875,12.443046945713622,0.6175,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,withdrawn,400,63.6,13.022633083638565,0.855,0.0,0.0,,,
+eventual,Llama 4 Maverick,advance,clean,160,72.4375,10.815599902819152,0.975,0.0,0.0,borderline,False,False
+eventual,Llama 4 Maverick,advance,clean,120,73.20833333333333,9.995709864050403,0.9916666666666667,0.0,0.0,strong,False,False
+eventual,Llama 4 Maverick,advance,clean,120,64.04166666666667,14.131671226456588,0.8166666666666667,0.0,0.0,weak,False,False
+eventual,Llama 4 Maverick,quality,clean,400,68.05,10.772772696894119,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,cleared,400,67.515,10.86715291745397,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,dismissed,400,64.4875,11.062358844659672,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,exonerated_acknowledged,400,69.8925,10.18874231320098,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,exonerated_on_appeal,400,69.0425,9.86376847718095,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,neutral_control,400,67.215,10.568965539798757,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,pending,400,58.7125,11.109608555464009,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,procedural_reversal,400,61.9225,11.319975634732051,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,responsible,400,48.7525,10.56931975342431,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,responsible_rehabilitated,400,56.7275,10.858084026282192,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,withdrawn,400,62.2575,11.383327462138462,,0.0,0.0,,,
+eventual,Llama 4 Maverick,quality,clean,160,69.3,9.756017333617057,,0.0,0.0,borderline,False,False
+eventual,Llama 4 Maverick,quality,clean,120,71.98333333333333,9.341318113073543,,0.0,0.0,strong,False,False
+eventual,Llama 4 Maverick,quality,clean,120,62.45,11.196375463935274,,0.0,0.0,weak,False,False
+eventual,Qwen3-32B,decide,clean,400,56.095,11.195728463999071,0.305,0.0,0.0,,,
+eventual,Qwen3-32B,decide,cleared,400,55.695,11.231533437531848,0.345,0.0,0.0,,,
+eventual,Qwen3-32B,decide,dismissed,400,52.9775,11.608353821542282,0.215,0.0,0.0,,,
+eventual,Qwen3-32B,decide,exonerated_acknowledged,400,55.55,11.564031176134321,0.3475,0.0,0.0,,,
+eventual,Qwen3-32B,decide,exonerated_on_appeal,400,54.2,11.442347586738455,0.2575,0.0,0.0,,,
+eventual,Qwen3-32B,decide,neutral_control,400,54.54,11.46088039587804,0.2175,0.0,0.0,,,
+eventual,Qwen3-32B,decide,pending,400,45.5925,11.15807781390922,0.0475,0.0025,0.0,,,
+eventual,Qwen3-32B,decide,procedural_reversal,400,50.86,11.466652095345406,0.145,0.0,0.0,,,
+eventual,Qwen3-32B,decide,responsible,400,36.7725,9.017429169228619,0.0025,0.0025,0.0,,,
+eventual,Qwen3-32B,decide,responsible_rehabilitated,400,45.71,11.256672763488359,0.0775,0.0,0.0,,,
+eventual,Qwen3-32B,decide,withdrawn,400,52.185,11.282686850054422,0.1775,0.0,0.0,,,
+eventual,Qwen3-32B,decide,clean,160,57.2,10.05944595045814,0.26875,0.0,0.0,borderline,False,False
+eventual,Qwen3-32B,decide,clean,120,60.15,8.947700516770503,0.4583333333333333,0.0,0.0,strong,False,False
+eventual,Qwen3-32B,decide,clean,120,50.56666666666667,12.488470873646012,0.2,0.0,0.0,weak,False,False
+eventual,Qwen3-32B,advance,clean,400,57.19,11.820669209117495,0.5175,0.0,0.0,,,
+eventual,Qwen3-32B,advance,cleared,400,57.675,11.937152677045214,0.5775,0.0,0.0,,,
+eventual,Qwen3-32B,advance,dismissed,400,55.3175,12.379815966257171,0.475,0.0,0.0,,,
+eventual,Qwen3-32B,advance,exonerated_acknowledged,400,58.205,12.128508845568883,0.58,0.0,0.0,,,
+eventual,Qwen3-32B,advance,exonerated_on_appeal,400,56.52,12.292573710214334,0.505,0.0,0.0,,,
+eventual,Qwen3-32B,advance,neutral_control,400,56.495,12.274838252919603,0.48,0.0,0.0,,,
+eventual,Qwen3-32B,advance,pending,400,45.0975,12.773641161442702,0.11,0.0025,0.0,,,
+eventual,Qwen3-32B,advance,procedural_reversal,400,52.4425,12.621209572687329,0.3875,0.0,0.0,,,
+eventual,Qwen3-32B,advance,responsible,400,33.5575,9.058522828783895,0.0025,0.0,0.0,,,
+eventual,Qwen3-32B,advance,responsible_rehabilitated,400,45.31,12.044982524272298,0.1675,0.0,0.0,,,
+eventual,Qwen3-32B,advance,withdrawn,400,53.08,11.969409631109349,0.375,0.0,0.0,,,
+eventual,Qwen3-32B,advance,clean,160,58.8,10.847600667962125,0.625,0.0,0.0,borderline,False,False
+eventual,Qwen3-32B,advance,clean,120,60.96666666666667,9.554736898464528,0.6333333333333333,0.0,0.0,strong,False,False
+eventual,Qwen3-32B,advance,clean,120,51.266666666666666,12.912591297086818,0.25833333333333336,0.0,0.0,weak,False,False
+eventual,Qwen3-32B,quality,clean,400,62.3725,7.629171277797145,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,cleared,400,61.6875,8.015639083991495,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,dismissed,400,60.3425,8.363615780408958,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,exonerated_acknowledged,400,60.7025,8.089350265583649,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,exonerated_on_appeal,400,60.75,7.7487164431466145,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,neutral_control,400,61.45,7.494860394352057,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,pending,400,56.195,9.305829956427575,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,procedural_reversal,400,59.365,8.398100692305091,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,responsible,400,48.035,8.812088700652668,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,responsible_rehabilitated,400,56.3975,8.744177798021294,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,withdrawn,400,59.5325,8.541741456974362,,0.0,0.0,,,
+eventual,Qwen3-32B,quality,clean,160,62.9125,7.563057765698712,,0.0,0.0,borderline,False,False
+eventual,Qwen3-32B,quality,clean,120,65.09166666666667,5.653876239060301,,0.0,0.0,strong,False,False
+eventual,Qwen3-32B,quality,clean,120,58.93333333333333,8.184565647970475,,0.0,0.0,weak,False,False
+first_attempt,GPT-5.4 mini,decide,clean,400,43.31,10.180028607825243,0.035,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,cleared,400,41.0225,9.578955303778145,0.0225,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,dismissed,400,40.825,9.51765935506191,0.015,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,exonerated_acknowledged,400,44.4125,11.35516151283002,0.06,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,exonerated_on_appeal,400,44.1,10.9903124349832,0.0925,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,neutral_control,400,41.5325,10.096474173037688,0.0275,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,pending,400,32.8175,7.864083116177331,0.0,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,procedural_reversal,400,35.6575,8.84084810626759,0.0,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,responsible,400,17.875,6.142368984508716,0.0,0.02,0.0,,,
+first_attempt,GPT-5.4 mini,decide,responsible_rehabilitated,400,28.185,7.9428267160124735,0.0,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,withdrawn,400,41.22,9.468936153533788,0.0125,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,decide,clean,160,44.65,10.089037577751558,0.0375,0.0,0.0,borderline,False,False
+first_attempt,GPT-5.4 mini,decide,clean,120,45.625,9.300819969273695,0.05,0.0,0.0,strong,False,False
+first_attempt,GPT-5.4 mini,decide,clean,120,39.208333333333336,10.009151974533093,0.016666666666666666,0.0,0.0,weak,False,False
+first_attempt,GPT-5.4 mini,advance,clean,400,50.6975,11.546180296904321,0.445,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,cleared,400,51.2,11.827710549472593,0.51,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,dismissed,400,51.33,11.966163657651698,0.5125,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,exonerated_acknowledged,400,52.88,13.104958980274862,0.54,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,exonerated_on_appeal,400,53.015,12.438712913616442,0.545,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,neutral_control,400,49.5975,12.811746401824447,0.42,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,pending,400,39.7425,8.684742692739823,0.095,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,procedural_reversal,400,40.645,8.916711521682322,0.1125,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,responsible,400,20.24,7.083278342702657,0.0,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,responsible_rehabilitated,400,33.4775,8.067353918610507,0.0225,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,withdrawn,400,49.165,11.001835116917979,0.4325,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,advance,clean,160,52.86875,11.063067844218716,0.50625,0.0,0.0,borderline,False,False
+first_attempt,GPT-5.4 mini,advance,clean,120,53.44166666666667,10.343508363515081,0.55,0.0,0.0,strong,False,False
+first_attempt,GPT-5.4 mini,advance,clean,120,45.05833333333333,11.422589908776802,0.25833333333333336,0.0,0.0,weak,False,False
+first_attempt,GPT-5.4 mini,quality,clean,400,58.9025,9.40100745147864,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,cleared,400,57.905,8.608207018315454,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,dismissed,400,56.1375,9.222050166485918,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,exonerated_acknowledged,400,57.4975,8.81812861272597,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,exonerated_on_appeal,400,58.16,8.938912707986498,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,neutral_control,400,58.525,9.207677683368484,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,pending,400,50.9925,8.703552338457595,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,procedural_reversal,400,52.325,8.697902550151378,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,responsible,400,43.23,8.634726182143908,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,responsible_rehabilitated,400,49.2175,8.697373425999265,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,withdrawn,400,55.5375,9.382893502336605,,0.0,0.0,,,
+first_attempt,GPT-5.4 mini,quality,clean,160,60.5375,8.288726525913594,,0.0,0.0,borderline,False,False
+first_attempt,GPT-5.4 mini,quality,clean,120,62.583333333333336,7.890621316595086,,0.0,0.0,strong,False,False
+first_attempt,GPT-5.4 mini,quality,clean,120,53.041666666666664,9.50665033333109,,0.0,0.0,weak,False,False
+first_attempt,Gemini 3.8 Flash,decide,clean,400,26.2975,7.951544592310904,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,cleared,397,26.634760705289672,7.889393260310057,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,dismissed,400,25.9375,7.64851903040033,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,exonerated_acknowledged,399,27.664160401002505,9.280524468281287,0.010025062656641603,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,exonerated_on_appeal,399,26.794486215538846,8.621456794561341,0.002506265664160401,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,neutral_control,399,26.74436090225564,8.119386319241165,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,pending,400,23.4175,7.18486251597298,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,procedural_reversal,400,22.2725,6.858632944301776,0.0,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,responsible,399,6.305764411027569,2.596236521392388,0.0,0.7117794486215538,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,responsible_rehabilitated,400,9.48,3.076240911463764,0.0,0.24,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,withdrawn,399,26.338345864661655,8.297744942230283,0.002506265664160401,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,decide,clean,160,26.93125,7.175361297414066,0.0,0.0,0.0,borderline,False,False
+first_attempt,Gemini 3.8 Flash,decide,clean,120,30.158333333333335,7.332437238349998,0.0,0.0,0.0,strong,False,False
+first_attempt,Gemini 3.8 Flash,decide,clean,120,21.591666666666665,7.178979391113977,0.0,0.0,0.0,weak,False,False
+first_attempt,Gemini 3.8 Flash,advance,clean,400,29.6125,12.589025086621241,0.05,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,cleared,400,31.045,14.185769812135938,0.08,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,dismissed,399,31.406015037593985,14.785248791240166,0.09273182957393483,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,exonerated_acknowledged,400,33.1925,15.693347208818818,0.1125,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,exonerated_on_appeal,400,32.565,15.519597926476663,0.1075,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,neutral_control,399,31.0125313283208,13.959645477867074,0.07518796992481203,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,pending,400,26.9375,12.162994690849127,0.0475,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,procedural_reversal,400,26.265,11.027183318047477,0.0325,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,responsible,400,7.345,3.0951453620193794,0.0,0.5375,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,responsible_rehabilitated,400,10.715,3.5959842542608875,0.0,0.1625,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,withdrawn,400,31.8675,15.176652156410904,0.1125,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,advance,clean,160,30.45,12.823818248299093,0.05625,0.0,0.0,borderline,False,False
+first_attempt,Gemini 3.8 Flash,advance,clean,120,34.75833333333333,11.409119036931799,0.06666666666666667,0.0,0.0,strong,False,False
+first_attempt,Gemini 3.8 Flash,advance,clean,120,23.35,10.690960604897118,0.025,0.0,0.0,weak,False,False
+first_attempt,Gemini 3.8 Flash,quality,clean,400,48.675,12.082190335707788,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,cleared,400,48.5575,11.824603454964903,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,dismissed,399,48.32330827067669,11.813170108942852,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,exonerated_acknowledged,399,49.11779448621554,12.015009839993699,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,exonerated_on_appeal,398,48.60301507537689,11.862910935930843,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,neutral_control,400,48.86,12.066042161105852,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,pending,400,45.4575,11.331336714144687,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,procedural_reversal,399,44.335839598997495,10.950665693462922,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,responsible,399,20.994987468671678,4.307289011721392,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,responsible_rehabilitated,400,24.91,5.264140760357968,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,withdrawn,400,48.41,12.03219990635404,,0.0,0.0,,,
+first_attempt,Gemini 3.8 Flash,quality,clean,160,50.2125,11.101808736989861,,0.0,0.0,borderline,False,False
+first_attempt,Gemini 3.8 Flash,quality,clean,120,55.06666666666667,9.90520899658894,,0.0,0.0,strong,False,False
+first_attempt,Gemini 3.8 Flash,quality,clean,120,40.233333333333334,10.508686549574065,,0.0,0.0,weak,False,False
+first_attempt,Gemma 4 31B IT,decide,clean,399,32.68170426065163,13.46226593569499,0.010025062656641603,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,cleared,399,32.393483709273184,13.509648799935484,0.02506265664160401,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,dismissed,397,30.503778337531486,12.608042600394716,0.017632241813602016,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,exonerated_acknowledged,400,35.6,16.91464640948473,0.0925,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,exonerated_on_appeal,398,34.64824120603015,15.751594519169576,0.06281407035175879,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,neutral_control,399,31.829573934837093,13.086915770756557,0.015037593984962405,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,pending,400,26.575,10.697216980496355,0.0,0.005,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,procedural_reversal,399,26.44110275689223,10.549758376187919,0.002506265664160401,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,responsible,399,16.265664160401002,7.278701565519306,0.0,0.06015037593984962,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,responsible_rehabilitated,400,19.3625,8.1898582524662,0.0,0.015,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,withdrawn,399,29.81203007518797,12.041688709394856,0.007518796992481203,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,decide,clean,159,32.735849056603776,11.715213969741173,0.006289308176100629,0.0,0.0,borderline,False,False
+first_attempt,Gemma 4 31B IT,decide,clean,120,40.166666666666664,12.832687604257316,0.025,0.0,0.0,strong,False,False
+first_attempt,Gemma 4 31B IT,decide,clean,120,25.125,12.047917285753988,0.0,0.0,0.0,weak,False,False
+first_attempt,Gemma 4 31B IT,advance,clean,400,39.3,16.368562079834728,0.2125,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,cleared,400,41.1,18.248218919509263,0.255,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,dismissed,399,37.89473684210526,16.608224255864517,0.17794486215538846,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,exonerated_acknowledged,400,45.75,19.548474547720012,0.3425,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,exonerated_on_appeal,400,46.3,19.752478350893245,0.3425,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,neutral_control,397,39.130982367758186,17.05422049402374,0.20151133501259447,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,pending,398,34.38442211055276,14.461290588458636,0.12311557788944724,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,procedural_reversal,400,35.9,15.761855545130588,0.1475,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,responsible,400,23.275,11.094236350488538,0.0075,0.015,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,responsible_rehabilitated,399,26.979949874686717,11.273867991730636,0.02506265664160401,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,withdrawn,400,37.9125,16.65904117535597,0.2,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,advance,clean,160,40.03125,14.606977687728948,0.18125,0.0,0.0,borderline,False,False
+first_attempt,Gemma 4 31B IT,advance,clean,120,47.541666666666664,15.86439162302253,0.375,0.0,0.0,strong,False,False
+first_attempt,Gemma 4 31B IT,advance,clean,120,30.083333333333332,14.377610589889747,0.09166666666666666,0.0,0.0,weak,False,False
+first_attempt,Gemma 4 31B IT,quality,clean,399,49.954887218045116,12.705119845014961,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,cleared,400,48.8625,12.810693909625476,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,dismissed,398,46.65829145728643,12.326736483676955,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,exonerated_acknowledged,400,50.97,13.87752009221296,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,exonerated_on_appeal,398,50.68090452261306,13.581220816904164,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,neutral_control,399,49.255639097744364,12.998833037305074,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,pending,399,44.72681704260652,12.098135478427334,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,procedural_reversal,400,44.08,12.530808149604937,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,responsible,398,36.84422110552764,9.729378723689097,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,responsible_rehabilitated,399,39.15538847117794,9.820290490282611,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,withdrawn,398,46.41708542713568,13.078600189608824,,0.0,0.0,,,
+first_attempt,Gemma 4 31B IT,quality,clean,160,51.56875,11.690248516492646,,0.0,0.0,borderline,False,False
+first_attempt,Gemma 4 31B IT,quality,clean,119,55.7563025210084,11.315181332425547,,0.0,0.0,strong,False,False
+first_attempt,Gemma 4 31B IT,quality,clean,120,42.05,11.408275044711988,,0.0,0.0,weak,False,False
+first_attempt,Llama 4 Maverick,decide,clean,382,65.18324607329843,13.100376943032028,0.5916230366492147,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,cleared,392,64.6938775510204,13.646361600300073,0.5510204081632653,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,dismissed,394,58.94670050761421,14.877607600523852,0.39593908629441626,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,exonerated_acknowledged,397,71.12090680100755,11.42346031814712,0.8060453400503779,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,exonerated_on_appeal,388,68.82731958762886,11.90416408289918,0.7164948453608248,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,neutral_control,393,64.30025445292621,12.93454577574661,0.5190839694656488,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,pending,394,45.86294416243655,13.874812791050413,0.08629441624365482,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,procedural_reversal,394,55.65989847715736,14.372226042426528,0.33756345177664976,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,responsible,396,31.01010101010101,10.3111049385147,0.0,0.0025252525252525255,0.0,,,
+first_attempt,Llama 4 Maverick,decide,responsible_rehabilitated,394,46.10406091370558,12.610300477130057,0.07868020304568528,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,withdrawn,396,56.351010101010104,15.286480300898933,0.35858585858585856,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,decide,clean,154,66.98051948051948,11.914987968540618,0.6623376623376623,0.0,0.0,borderline,False,False
+first_attempt,Llama 4 Maverick,decide,clean,112,69.33035714285714,10.811562373328888,0.6696428571428571,0.0,0.0,strong,False,False
+first_attempt,Llama 4 Maverick,decide,clean,116,58.793103448275865,14.304464028911493,0.4224137931034483,0.0,0.0,weak,False,False
+first_attempt,Llama 4 Maverick,advance,clean,388,70.16752577319588,12.338267484066714,0.9329896907216495,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,cleared,399,71.10275689223057,11.519568992257621,0.9649122807017544,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,dismissed,390,65.71794871794872,13.736313530423791,0.8666666666666667,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,exonerated_acknowledged,396,75.70707070707071,9.16819215259402,0.9924242424242424,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,exonerated_on_appeal,394,73.78172588832487,10.382656857757743,0.9720812182741116,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,neutral_control,396,70.15656565656566,12.171172928436526,0.9343434343434344,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,pending,390,53.15384615384615,12.49892223947757,0.5564102564102564,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,procedural_reversal,392,64.20918367346938,12.55217723329706,0.8698979591836735,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,responsible,394,41.31979695431472,10.546601491101418,0.13705583756345177,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,responsible_rehabilitated,395,53.63291139240506,12.474519425745278,0.620253164556962,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,withdrawn,389,63.72750642673522,13.056688028409864,0.8560411311053985,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,advance,clean,157,72.45222929936305,10.825211468220846,0.9745222929936306,0.0,0.0,borderline,False,False
+first_attempt,Llama 4 Maverick,advance,clean,116,73.0603448275862,9.951437556718997,0.9913793103448276,0.0,0.0,strong,False,False
+first_attempt,Llama 4 Maverick,advance,clean,115,64.1304347826087,14.285019597362306,0.8173913043478261,0.0,0.0,weak,False,False
+first_attempt,Llama 4 Maverick,quality,clean,387,68.12144702842377,10.810579637446613,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,cleared,398,67.42713567839196,10.823217293441042,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,dismissed,395,64.55696202531645,11.05540595815321,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,exonerated_acknowledged,394,69.87817258883248,10.231935273986702,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,exonerated_on_appeal,393,68.91094147582697,9.819270276055102,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,neutral_control,395,67.24303797468355,10.620909885122572,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,pending,393,58.791348600508904,11.127151315180484,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,procedural_reversal,397,61.93702770780856,11.294656116931376,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,responsible,394,48.78426395939086,10.582604002424587,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,responsible_rehabilitated,391,56.75447570332481,10.884761126846593,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,withdrawn,393,62.25954198473283,11.401701304929441,,0.0,0.0,,,
+first_attempt,Llama 4 Maverick,quality,clean,154,69.46753246753246,9.808072459701549,,0.0,0.0,borderline,False,False
+first_attempt,Llama 4 Maverick,quality,clean,118,71.9322033898305,9.412420248407845,,0.0,0.0,strong,False,False
+first_attempt,Llama 4 Maverick,quality,clean,115,62.40869565217391,11.192804433687316,,0.0,0.0,weak,False,False
+first_attempt,Qwen3-32B,advance,clean,389,57.174807197943444,11.795083842949829,0.5167095115681234,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,cleared,395,57.65822784810127,12.00432036857586,0.579746835443038,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,dismissed,391,55.37595907928389,12.37612818119203,0.4782608695652174,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,exonerated_acknowledged,396,58.111111111111114,12.130003716187051,0.5782828282828283,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,exonerated_on_appeal,398,56.59045226130653,12.281772010765202,0.507537688442211,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,neutral_control,396,56.446969696969695,12.304973406751092,0.4772727272727273,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,pending,396,45.111111111111114,12.80596292190647,0.1111111111111111,0.0025252525252525255,0.0,,,
+first_attempt,Qwen3-32B,advance,procedural_reversal,396,52.55555555555556,12.612408776027467,0.39141414141414144,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,responsible,398,33.52512562814071,9.062788081927712,0.002512562814070352,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,responsible_rehabilitated,398,45.336683417085425,12.0641530774584,0.16834170854271358,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,withdrawn,397,53.00251889168766,11.94780287915575,0.3702770780856423,0.0,0.0,,,
+first_attempt,Qwen3-32B,advance,clean,157,58.93630573248408,10.5876570182783,0.6242038216560509,0.0,0.0,borderline,False,False
+first_attempt,Qwen3-32B,advance,clean,115,61.052173913043475,9.539248083815444,0.6347826086956522,0.0,0.0,strong,False,False
+first_attempt,Qwen3-32B,advance,clean,117,51.0,12.946175044230712,0.2564102564102564,0.0,0.0,weak,False,False
+first_attempt,Qwen3-32B,decide,clean,393,56.089058524173026,11.217456666301043,0.30279898218829515,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,cleared,399,55.7468671679198,11.197567214242886,0.3458646616541353,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,dismissed,397,52.924433249370274,11.630651444521163,0.2141057934508816,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,exonerated_acknowledged,391,55.491048593350385,11.579127847905706,0.34271099744245526,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,exonerated_on_appeal,399,54.19799498746867,11.456643022136031,0.2581453634085213,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,neutral_control,400,54.54,11.46088039587804,0.2175,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,pending,399,45.54385964912281,11.129545816914764,0.047619047619047616,0.002506265664160401,0.0,,,
+first_attempt,Qwen3-32B,decide,procedural_reversal,396,50.792929292929294,11.469168378581495,0.14393939393939395,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,responsible,396,36.765151515151516,9.045197213726901,0.0025252525252525255,0.0025252525252525255,0.0,,,
+first_attempt,Qwen3-32B,decide,responsible_rehabilitated,397,45.76574307304786,11.234103708162081,0.07808564231738035,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,withdrawn,394,52.142131979695435,11.290073170095019,0.17766497461928935,0.0,0.0,,,
+first_attempt,Qwen3-32B,decide,clean,157,57.210191082802545,10.086822990425498,0.2611464968152866,0.0,0.0,borderline,False,False
+first_attempt,Qwen3-32B,decide,clean,117,60.282051282051285,8.806195070405671,0.46153846153846156,0.0,0.0,strong,False,False
+first_attempt,Qwen3-32B,decide,clean,119,50.48739495798319,12.510921023296438,0.20168067226890757,0.0,0.0,weak,False,False
+first_attempt,Qwen3-32B,quality,clean,394,62.3756345177665,7.635527995122648,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,cleared,396,61.74242424242424,8.00280445665527,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,dismissed,399,60.38095238095238,8.338639134072148,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,exonerated_acknowledged,395,60.74683544303797,8.0589017440696,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,exonerated_on_appeal,397,60.7808564231738,7.718195494345139,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,neutral_control,397,61.405541561712845,7.5001191587443605,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,pending,398,56.20100502512563,9.301813099986365,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,procedural_reversal,397,59.322418136020154,8.41546353215819,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,responsible,396,48.10353535353536,8.776948382705177,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,responsible_rehabilitated,397,56.395465994962215,8.760406775123725,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,withdrawn,394,59.53807106598985,8.566448685954079,,0.0,0.0,,,
+first_attempt,Qwen3-32B,quality,clean,158,62.962025316455694,7.529886166528923,,0.0,0.0,borderline,False,False
+first_attempt,Qwen3-32B,quality,clean,118,65.05084745762711,5.683756218009593,,0.0,0.0,strong,False,False
+first_attempt,Qwen3-32B,quality,clean,118,58.91525423728814,8.227093318099987,,0.0,0.0,weak,False,False
