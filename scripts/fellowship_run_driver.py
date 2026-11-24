@@ -45,7 +45,7 @@ sys.path.insert(0, str(ROOT))
 from fellowship_eval.run import OpenRouter, execute, load_plan  # noqa: E402
 from phd_eval.run import APIError, parse_reply, safe_label  # noqa: E402
 
-CAP_USD = 80.0
+CAP_USD = 90.0  # raised from 80 by the user on 2026-11-23 (see budget.json)
 MAX_RECONCILE = 40  # 40 x worst-case ceilings is at most about $18 of cap headroom
 MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD)
     ("Gemma 4 31B IT", "google/gemma-4-31b-it", 0.243),
