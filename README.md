@@ -126,3 +126,4 @@ Each harness has its own detailed guide:
 
 - **Fictional applicants:** the rubric thresholds and probabilities are study choices, not validated admissions standards.
 - **Scope of the results:** the experiment measures how these models respond to the integrity paragraph in these packets. It does not show how real committees behave.
+- **Sampling settings:** models run at their providers' default sampling settings (no temperature set), with one reply per request. Estimates average over 100 applicants, 2 wordings and 2 formats. An exact re-run of 2,400 PhD requests per model (ablation arm A) reproduced the condition-vs-clean gaps within about 0.2–0.9 points at the median. No formal test–retest study was run.
