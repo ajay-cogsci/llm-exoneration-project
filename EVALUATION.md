@@ -1,25 +1,11 @@
-# Running the PhD evaluation
+# Running the PhD evaluation (`phd_eval`)
 
-`phd_eval` assembles the prompts from the "LLM exoneration" design document,
-plans the design, sends requests to a model and exports the replies. It uses
-only the Python standard library. Planning and previewing make no API calls.
+`phd_eval` builds the evaluation prompts, freezes a request plan, sends requests
+to a chat-completions endpoint and exports the replies. It uses only the Python
+standard library. `preview` and `plan` make no API calls.
 
-The commands below describe the original 11-condition PhD design. Keep these
-conditions, all three tasks, and both response formats for the proposed TA
-extension. [The approved TA method](TA_METHOD.md) records the opportunity and
-supplied applicant evidence. TA evaluation is not configured or approved yet;
-these commands still run the PhD study. No earlier results are replaced.
-
-Inputs are the corrected packets in
-[`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/)
-and the settings in [`configs/phd_eval_v1.json`](configs/phd_eval_v1.json).
-This entry point implements the Computer Science PhD opportunity. Separate
-approved TA, fellowship and RA applicant banks now exist. Do not substitute their
-paths into the PhD commands: the loader expects the PhD packet schema and three
-recommendation summaries. Fellowship now has a separate `fellowship_eval` adapter;
-use the [fellowship handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md). TA and RA
-evaluation adapters remain unimplemented.
-Applicant-generation approval does not authorize evaluation spending.
+- **Inputs:** [`datasets/phd-applications-v4-recommendations-v2/`](datasets/phd-applications-v4-recommendations-v2/) and [`configs/phd_eval_v1.json`](configs/phd_eval_v1.json).
+- **PhD packets only:** the loader expects the PhD packet format (CV plus three recommendation summaries). Use `fellowship_eval` for fellowship packets.
 
 ## What a prompt contains
 
@@ -27,108 +13,84 @@ Applicant-generation approval does not authorize evaluation spending.
 python3 -m phd_eval preview --condition cleared --task advance --format rationale
 ```
 
-- **System message:** the shared system message, with the committee named as
-  "a Computer Science PhD admissions committee".
-- **User message, in order:** the opportunity description and selection
-  criteria; the CV; the three recommendation summaries; the record block; the
-  task prompt.
-- **Record block:** the heading `INSTITUTIONAL RECORD` followed by one condition
-  wording. For one applicant, task and format, this block is the only text that
-  differs between conditions. A test enforces that.
-- **Not in the prompt:** the internal applicant identifier, CV tier, pathway and
-  every other analysis label.
+- **System message:** the committee role, an instruction to use only the information provided, and a request for JSON only.
+- **User message, in order:**
+  1. the opportunity description and selection criteria;
+  2. the CV;
+  3. the three recommendation summaries;
+  4. the `INSTITUTIONAL RECORD` block, which holds one condition wording;
+  5. the task prompt.
+- **Only the record block varies:** for a given applicant, task and format, it is the only text that differs between conditions. A test enforces this.
+- **Never in the prompt:** applicant IDs, tier labels or other analysis fields.
 
-Each of the three prompts (overall quality, advance, final decision) is a
-separate request, as in the reference audit. The `rationale` format adds the
-rationale instruction and puts `"rationale"` first in the requested JSON.
+## Design
 
-## Departures from the design document
+| Factor | Levels |
+|---|---|
+| Applicants | 100 (29 weak, 41 borderline, 30 strong) |
+| Conditions | clean, neutral_control, pending, responsible, responsible_rehabilitated, cleared, dismissed, withdrawn, exonerated_on_appeal, exonerated_acknowledged, procedural_reversal |
+| Wordings | 2 per condition |
+| Tasks | quality (score 0–100), advance (score + yes/no), decide (score + admit/reject) |
+| Formats | answer_only, rationale (≤3-sentence rationale first) |
 
-All prompt, opportunity and condition text is copied verbatim except:
+- **Size:** 13,200 requests per model per repeat.
+- **Order:** requests go out in a seeded random order, so drift at the provider is not lined up with condition.
+- **Separate requests:** each task is its own request.
 
-1. **Pending condition.** The phrase "shortly before the application review, "
-   was removed from both wordings. Review is in 2026-11, and 24 applicants
-   finished their only degree in 2026-05, so a course-assignment allegation
-   shortly before review is impossible for them. "In 2026" is true for all 100
-   applicants and keeps a single wording for everyone. The original wordings
-   are saved in the config under `design_document_departures`.
-2. **Placement.** The document does not say where the condition text goes. It
-   is placed at the end of the application under a neutral heading that also
-   fits the registrar control. Set `record_position` to `after_cv` to move it.
-3. **Placeholders.** `next_stage` is "faculty interview", `offer_verb` is
-   "admit this applicant", and the decision words are "admit" and "reject".
-4. **Applicant identifier.** The line `Applicant PHDv3-…` is removed from the
-   CV and the recommendation section because it encodes the sampling seed.
+## Differences from the design document
 
-## Design size
+Prompt, opportunity and condition text is copied verbatim from the design
+document, with four exceptions. Each is recorded in the config under
+`design_document_departures`.
 
-The design is fully crossed within applicant: 100 applicants × 11 conditions ×
-2 wordings × 3 prompts × 2 formats = 13,200 requests per model for one repeat.
-Requests are sent in a seeded random order so that changes at the provider
-during a run are not aligned with condition.
+1. **Pending wording:** "shortly before the application review" was removed. Twenty-four applicants finished their only degree in May 2026, so it would be impossible for them.
+2. **Placement:** the condition text goes at the end, under the neutral heading `INSTITUTIONAL RECORD`.
+3. **Placeholders:**
+   - `next_stage`: "faculty interview";
+   - `offer_verb`: "admit this applicant";
+   - decision words: admit and reject.
+4. **Identifier:** the internal `Applicant PHDv3-…` line is removed.
 
-The reference audit ([arXiv 2405.04412](https://arxiv.org/abs/2405.04412)) ran
-repeated trials per prompt and found the variance stabilized at about 40. Use
-`--repeats` to add trials. Its prompt check was that scores separate inputs
-that should score differently; the analogue here is that clean-record scores
-rise from weak to borderline to strong CVs, which `collect` reports.
+## Commands
 
-## Steps
+```sh
+# 1. Freeze a plan (refuses to overwrite an existing folder)
+python3 -m phd_eval plan --out runs/<name> [--per-tier N] [--conditions a,b] [--repeats N]
 
-1. **Pilot plan.** Five applicants per CV tier, clean and two other conditions:
+# 2. Run one model; repeat per model. The key comes from EVAL_API_KEY.
+export EVAL_API_KEY=...
+python3 -m phd_eval run --plan runs/<name> --label "GPT-5.4 mini" \
+  --api-model openai/gpt-5.4-mini --base-url https://openrouter.ai/api/v1 \
+  --concurrency 16 [--limit 20]
 
-   ```sh
-   python3 -m phd_eval plan --out runs/pilot --per-tier 5 \
-     --conditions clean,cleared,responsible --repeats 3
-   ```
+# 3. Export
+python3 -m phd_eval collect --plan runs/<name>
+```
 
-2. **Run one model.** The key is read from `EVAL_API_KEY` and is never saved.
-   Any endpoint that implements `POST /chat/completions` works; set
-   `EVAL_BASE_URL` or `--base-url` for a provider other than OpenAI.
+**`run`:**
+- **Labels:** `--label` names the model in the results; `--api-model` is the provider's model ID.
+- **Sampling parameters:** none are sent. Pass `--param key=value` only if a model fails without one.
+- **Resuming:** re-running skips valid replies and retries failed or unparseable ones.
+- **Saved attempts:** each attempt is appended to `runs/<name>/responses/<label>.jsonl`.
 
-   ```sh
-   export EVAL_API_KEY=...
-   python3 -m phd_eval run --plan runs/pilot --label "GPT-5.5" --api-model MODEL_ID
-   ```
+**`collect`:**
+- **`results.csv`:** one row per request and model, with the parsed score, the decision (1/0) and the analysis labels.
+- **`summary.json`:** reply validity, clean-record means by tier, and each condition's mean difference from the clean record.
 
-   `--label` is the name used in results. `--api-model` is the identifier the
-   endpoint expects; the planned models in the config have it left blank. No
-   sampling parameters are sent unless you add them, for example
-   `--param temperature=1 --param max_tokens=300`. A run can be stopped and
-   restarted: requests with a valid saved reply are not sent again, and failed
-   or unparseable ones are retried on the next run.
+A plan pins the config and every packet hash. A run stops if either changes.
 
-3. **Export.**
+## Analysis
 
-   ```sh
-   python3 -m phd_eval collect --plan runs/pilot
-   ```
+`analysis/analyze_main.py` produces the analysis in
+[`runs/main/analysis/`](runs/main/analysis/SUMMARY.md):
 
-   `results.csv` has one row per request and model, with the parsed score,
-   the decision coded 1 or 0, and the analysis labels. `summary.json` gives
-   reply validity, clean-record scores by CV tier, and each condition's mean
-   paired difference from the same applicant's clean record. The summary is a
-   first look, not the analysis.
+- **Main contrasts:** paired applicant-level differences from the clean record, with intervals clustered by applicant.
+- **Model-based check:** a mixed model (condition + wording + format, with a random intercept per applicant) as a sensitivity check.
+- **Multiple comparisons:** Holm correction within each model and task.
+- **Heterogeneity:** results by tier and by each model's own clean-record score.
 
-4. **Full plan.** `python3 -m phd_eval plan --out runs/main --repeats N`, then
-   run each model against it with its own label.
+Things to keep in mind:
 
-`runs/` is ignored by git. A plan pins the config and every packet hash, and a
-run stops if either changed.
-
-## Open choices
-
-- **Analysis.** The reference audit used mixed-effects models with a random
-  effect for the manipulated unit. Here the natural unit is the applicant:
-  condition as a fixed effect against clean, applicant as a random effect,
-  fitted per model and prompt, with wording and format as factors.
-- **CV tier.** Tiers are CV-only, and letters are assigned separately, so
-  they can pull the other way (one strong-CV applicant has two limited
-  letters). Each model's clean-record score is a better measure of perceived
-  strength than the tier label.
-- **Letter headers.** Each summary shows its strength level as a labeled field.
-  That was a requested field; it is a strong signal and worth a look in the
-  pilot rationales.
-- **Course projects.** Every applicant lists a 2026 course project and one
-  letter comes from that project's instructor, so a model may connect the
-  alleged assignment to them. The rationale format will show whether it does.
+- **Tier labels are CV-only.** Recommendation letters can disagree with them, so each model's own clean-record score is a better measure of perceived strength.
+- **Letters show their strength level as a labelled field.** That is a strong signal.
+- **Llama 4 Maverick writes prose even when asked for JSON only,** so its format comparison is not interpretable.

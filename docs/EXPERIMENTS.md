@@ -1,89 +1,48 @@
-# Experiments and current status
+# Experiments
 
-This index separates completed evidence from the next opportunity. Earlier
-results remain available and are not pooled with a new run by default.
+Each experiment has its own folder in `runs/`. Its folder holds:
+- the frozen plan: `config.json`, `plan.json` and `design.jsonl`;
+- the raw replies, in `responses/` (not committed);
+- the exports: `results.csv` and `summary.json`;
+- an `analysis/` folder for finished runs.
 
-| Stage | Status | Inputs and results |
-|---|---|---|
-| PhD pilot | Completed for the seven-model panel | `runs/pilot/results.csv`, `runs/pilot/summary.json` |
-| Original PhD full design | Five of seven planned models completed; 66,000 valid replies | [Written analysis](../runs/main/analysis/SUMMARY.md), `runs/main/results.csv`, `runs/main/summary.json` |
-| No-inference-sentence ablation | Completed for three models and two arms | [Written analysis](../runs/ablation/analysis/SUMMARY.md); results in `runs/ablation/plan_A/` and `plan_B/` |
-| Introductory-CS teaching assistant | Applicant generation completed; evaluation run not configured or approved | [100 graduate applicants, version 2](../datasets/ta-applicants-v2/), [method](../TA_METHOD.md), [verification](../VALIDATION.md). Retain the original 11 conditions, three tasks and two formats for the eventual evaluation. |
-| Graduate research fellowship | Applicant generation completed; offline 11-condition adapter prepared; paid evaluation not approved | [100 early-stage CS graduate applicants](../datasets/fellowship-applicants-v2/), [method](../FELLOWSHIP_METHOD.md), [execution handoff](FELLOWSHIP_EVALUATION_HANDOFF.md). Original 30/40/30 generation labels remain provisional and descriptive; no regeneration or relabeling. |
-| Research assistant | Applicant generation completed; final v2 release approved on 18 November 2026; evaluation run not approved | [100 current CS graduate applicants](../datasets/ra-applicants-v2/), [method](../RA_METHOD.md), [audit](../datasets/ra-applicants-v2/audit_report.json). Allocation: 30 weak, 40 borderline, 30 strong and ten designated mixed cases. Earlier RA drafts and raw generation logs are not published. |
+## PhD
 
-The full-design run used GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT,
-Llama 4 Maverick, and Qwen3-32B. GPT-5.5 and Claude Sonnet 5.5 were included
-in the pilot but have not completed the full design.
+All PhD experiments use [`datasets/phd-applications-v4-recommendations-v2`](../datasets/phd-applications-v4-recommendations-v2/)
+and the `phd_eval` harness. See [EVALUATION.md](../EVALUATION.md).
 
-## Repository branches (consolidated 16 November 2026)
+| Experiment | Folder | Design | Models | Write-up |
+|---|---|---|---|---|
+| Pilot | `runs/pilot/` | 15 applicants (5 per tier) × 3 conditions (clean, cleared, responsible) × 2 wordings × 3 tasks × 2 formats × 3 repeats = 1,620 requests per model | GPT-5.5, GPT-5.4 mini, Claude Sonnet 5.5, Gemini 3.8 Flash, Llama 4 Maverick, Qwen3-32B, Gemma 4 31B IT | `results.csv`, `summary.json` |
+| Full design | `runs/main/` | 100 applicants × 11 conditions × 2 wordings × 3 tasks × 2 formats = 13,200 requests per model | GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT, Llama 4 Maverick, Qwen3-32B | [SUMMARY.md](../runs/main/analysis/SUMMARY.md) |
+| No-infer ablation | `runs/ablation/plan_A`, `plan_B` | 4 conditions, answer-only format, 2,400 requests per model per arm. Arm B removes "Do not assume or infer details that are not stated." from the system message (`configs/phd_eval_v1_no_infer.json`) | Gemma 4 31B IT, Qwen3-32B, GPT-5.4 mini | [SUMMARY.md](../runs/ablation/analysis/SUMMARY.md) |
 
-`main` is the canonical branch for completed work and current study documentation.
-As checked on 19 November 2026, it is the only remote branch. The former
-`codex/ta-prep` branch is retired. Its unapproved example packets, generation
-handoff and superseded preparation notes were removed; the approved TA v2 bank
-is on `main`. The local checkout was also fast-forwarded to the published work,
-and its fully merged TA branch was removed. No TA, fellowship or RA evaluation
-run is approved.
+GPT-5.5 and Claude Sonnet 5.5 were in the pilot but have not run the full design.
 
-Before consolidation, the GitHub default branch was behind the experiments.
-All six remote branch tips formed one ancestry chain ending at `70ae71a`; there
-were no divergent tips or pull requests. The working tree was clean, all 72 tests
-passed, and dataset verification succeeded without model calls. The user approved
-fast-forwarding `main` and retiring the five superseded branch names.
+Analysis code:
+- **Full design:** `analysis/analyze_main.py`.
+- **Ablation:** `analysis/ablation.py`.
+- **Dependencies:** listed in `analysis/requirements.txt`.
 
-| Branch | Tip at audit | What it contains | Disposition |
-|---|---|---|---|
-| `main` | `a449ac9` | Earlier PhD CVs and recommendation datasets; lacked the corrected evaluation inputs, harness and results | Updated to include the cleaned completed history; canonical branch. |
-| `consistency-fixes-and-phd-eval` | `fc50788` | GPA/letter corrections, harness and completed seven-model pilot | Integrated into `main`; branch name retired. |
-| `pilot-results` | `fc50788` | Exactly the same commit as the preceding branch | Duplicate name retired; pilot results retained on `main`. |
-| `main-results` | `12214fb` | Adds the five-model full PhD run and analysis | Integrated into `main`; branch name retired. These are completed results, not disposable trial output. |
-| `ablation-no-infer` | `811803d` | Adds the completed three-model, two-arm sentence ablation | Integrated into `main`; branch name retired. |
-| `codex/phd-followup-prep` | `70ae71a` | All preceding work plus removal of the abandoned PhD follow-up and updated study/TA preparation notes | Cleaned state integrated into `main`; misleading temporary name retired. |
+## Graduate research fellowship
 
-The abandoned 20-condition follow-up files have been deleted from the current
-tree. Their creation and deletion remain in Git history; they are not an active
-dataset, experiment or archive folder. The TA notes at consolidation commit
-`ac2c596` were planning
-requirements, not a prepared applicant bank or executable TA run.
+| Experiment | Folder | Design | Models | Status |
+|---|---|---|---|---|
+| Full design | `runs/fellowship/main/` | Same 11-condition design as the PhD study: 13,200 requests per model | Gemma 4 31B IT, Qwen3-32B, Llama 4 Maverick, GPT-5.4 mini, Gemini 3.8 Flash | Running; $80 cap |
 
-Only branch names were retired. Results, local raw responses, and Git history
-were retained. No experiment inputs or analysis outputs changed in consolidation.
-Use experiment folders and this index to distinguish runs, rather than keeping
-a permanent branch for each run. A future cleanup must recheck remote tips and
-retain any branch that gained collaborator work.
+- **Inputs:** [`datasets/fellowship-applicants-v2`](../datasets/fellowship-applicants-v2/) with `configs/fellowship_eval_v1.json`.
+- **Harness:** `fellowship_eval`, run through `scripts/fellowship_run_driver.py`.
+- **Rules:** [FELLOWSHIP_EVALUATION_HANDOFF.md](FELLOWSHIP_EVALUATION_HANDOFF.md) defines how the run is controlled: budget, retries and the analysis plan.
 
-At consolidation on 16 November, no TA-specific applicant bank or collaborator TA submission was found in the
-six branch trees, pull requests, or current shared notebook and its comments.
-This does not establish whether work exists in another clone, fork or document,
-or whether a collaborator has read the existing results.
+## Teaching assistant and research assistant
 
-## File organization
+Applicant banks exist ([TA](../datasets/ta-applicants-v2/), [RA](../datasets/ra-applicants-v2/)),
+but there is no evaluation harness for them yet. A future harness should reuse
+the same 11 conditions, 2 wordings, 3 tasks and 2 formats, following
+`fellowship_eval/`.
 
-- `configs/`: applicant-generation settings, correction policies and PhD
-  evaluation configurations. These have different purposes; do not rewrite
-  completed-run inputs or pass a generation config to an evaluation command.
-- `analysis/`: analysis code for the completed PhD study and ablation.
-- `TA_METHOD.md`: the single approved TA method and current generation scope.
-- `FELLOWSHIP_METHOD.md`: the single approved fellowship method; the final applicant bank is `datasets/fellowship-applicants-v2/`.
-- `RA_METHOD.md`: the single approved RA method; the final applicant bank is `datasets/ra-applicants-v2/`.
-- `runs/`: historical outputs and local raw replies. Existing committed exports
-  remain tracked; new raw logs and private human-pilot files remain ignored.
-- `datasets/`: versioned applicant inputs. Keep the published versions intact.
+## Conventions
 
-The [package guide](../README.md#which-code-should-i-use) explains why all four
-`phd_*` packages remain necessary. The
-[fellowship handoff](FELLOWSHIP_EVALUATION_HANDOFF.md) is the current offline
-preparation task. It preserves the original 11 conditions and stops before paid
-evaluation. It does not replace the completed PhD study or the approved applicant
-generation methods.
-
-The pilot, main study, and ablation answer different questions. Preserve their
-outputs, raw responses, and provenance. A follow-up should use a separate run
-directory after approval. Do not overwrite an old plan, delete completed results,
-or treat repeated bridge conditions as additional independent applicants.
-
-The Google Doc is the shared research notebook:
-[LLM exoneration](https://docs.google.com/document/d/1dgZkwce8f8iXa1Nt0kmj7WIPqrdzxcMJCaYEYm7VQ2s/edit).
-Exact executable PhD stimuli are in the versioned configs. The TA, fellowship and
-RA methods describe applicant preparation; they are not runnable evaluation configs.
+- **New folder per experiment:** never write into a finished run's folder.
+- **Keep raw replies:** copy each finished run, including `responses/`, to a dated backup outside the repository.
+- **Compare like with like:** compare conditions within an applicant (paired differences against `clean`). Don't pool results from different experiments.

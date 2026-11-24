@@ -1,4 +1,4 @@
-# Data and Text Analysis Research Assistant applicants — version 2
+# Data and text analysis research-assistant applicants
 
 This pipeline implements the remaining applicant category in `LLM exoneration
 research plan.pdf`. The shared committee system message, adapted RA description,
@@ -35,11 +35,9 @@ review, but no intervening achievements are invented.
   mixed profiles and bounded model wording. It is not an exact replication of the
   paper or an empirically calibrated RA population.
 
-## Corrections in version 2
+## Design choices
 
-The approved correction scope is limited to three findings from the RA review:
-
-1. SQL is an example in the plan, not an eligibility gate. The task catalog now
+1. SQL is an example in the plan, not an eligibility gate. The task catalog
    includes pandas merges with matching checks and analytic responsibilities at
    each data-analysis level. A provisional equal-probability draw selects a route
    for each applicant. Swapping the route while preserving its evidence level
@@ -60,12 +58,7 @@ The approved correction scope is limited to three findings from the RA review:
    are linked. Otherwise an eligible practical course is added with provisional
    probability 0.65. No project, skill or outcome is inferred solely from a grade.
 
-The academic adequacy and overall tier rules are retained; the five selected
-undergraduate grades replace the former fixed five-course vector. Grade
-comparability across courses remains a study assumption. The version-1 records
-and their frozen implementation remain unchanged in ignored working directories.
-The active package, configuration, tests and documentation are canonical version 2;
-there is no second versioned source package to publish.
+Grade comparability across courses is a study assumption.
 
 All numeric priors, evidence anchors, grade cutoffs and tier rules are provisional
 study choices. The sources supply criteria, not strong/borderline/weak thresholds.
@@ -198,12 +191,10 @@ Passing these checks establishes reproducibility and internal consistency only.
 Generic institutions, a finite task catalog and repeated observation templates
 limit realism. Same-model factual review can miss errors shared with generation.
 Neither statistical representativeness nor agreement with real RA hiring decisions
-has been established. The final version was approved for publication on
-18 November 2026 and is stored in `datasets/ra-applicants-v2/`. Earlier versions
-and raw generation runs remain ignored. This approval covers applicant generation
-only; no RA evaluation run is authorized.
+has been established. The published bank is `datasets/ra-applicants-v2/`; there
+is no RA evaluation harness yet.
 
-Verify the approved release without model calls:
+Verify the published bank without model calls:
 
 ```sh
 python3 -B -m ra_applicants verify --out datasets/ra-applicants-v2

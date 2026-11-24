@@ -1,205 +1,82 @@
-# Verification record
+# Validation
 
-## TA implementation consolidation
+This page lists what has been checked for each applicant bank and what those
+checks do and do not establish. Run every check offline, without API keys:
 
-The approved TA implementation is consolidated in `ta_applicants/`, with one
-configuration (`configs/ta.json`), one method document (`TA_METHOD.md`) and one
-audit command (`scripts/audit_ta.py`). The legacy generator, alternate versioned
-package/configurations, duplicate method document, superseded preparation notes
-and version-specific test file have been removed. Required constants and wording checks now live in the approved
-package; useful tests exercise this implementation.
+```sh
+python3 -m unittest discover -s tests
+python3 scripts/verify_datasets.py                                    # PhD
+python3 -m ta_applicants verify --out datasets/ta-applicants-v2 && python3 scripts/audit_ta.py
+python3 -m fellowship_applicants verify --out datasets/fellowship-applicants-v2
+python3 scripts/audit_fellowship.py --out datasets/fellowship-applicants-v2
+python3 -m ra_applicants verify --out datasets/ra-applicants-v2
+python3 scripts/audit_ra.py --out datasets/ra-applicants-v2
+```
 
-Before and after consolidation, all 6,000 source records, the selected 100
-records, their labels, diagnostics and full model request contract matched
-exactly. Published applicant facts, texts, evaluator inputs, saved model outputs
-and original generation provenance remain unchanged. The approved dataset keeps
-its v2 release identifier; this is a data release, not a second implementation.
-Its recorded implementation hash remains historical. New runs hash the current
-source, and the guard against resuming runs with changed code remains enabled.
-All 121 tests passed after consolidation. The approved export and standalone
-audit passed, and all 1,555 protected dataset files retained their pre-change
-hashes. The only approved dataset edits are its README command/link updates and
-corresponding checksums. No generation or evaluation model calls were made.
+## What every bank has
 
-## Revised graduate TA dataset, version 2 — 2026-11-17
+- **Reproducibility:** the structured pool (6,000 records across seeds 123, 456 and 789) and the selected 100 applicants rebuild exactly from the saved config.
+- **Integrity:** every published file has a SHA-256 checksum. Verification checks the full file list, the tier labels, the rendered text and the evaluator messages.
+- **Model-written wording:** GPT-6 Astra (medium reasoning) wrote short descriptions only. Dates, grades, tools, observations and credentials are rendered from the structured facts. A separate model call checked each application against its facts.
+- **No labels in prompts:** tier labels, mixed-case designations and identifiers never appear in evaluator prompts.
+- **Simulated tests:** the tests use simulated API responses.
 
-`datasets/ta-applicants-v2/` contains 100 graduate applicants: 30 weak, 40
-borderline and 30 strong, including ten designated mixed profiles. There are
-55 master's students and 45 doctoral students. The introductory CS TA role,
-selection criteria and shared assessment messages remain those in the research
-plan. Version 2 is the only approved TA dataset in the current repository.
-The earlier PhD datasets remain unchanged.
+## PhD
 
-The unapproved TA version 1 export was removed following the publication
-correction. The standalone audit now checks the approved records and source plan
-wording without an earlier dataset. Only the v2 README, audit report and their
-checksums changed during cleanup; applicant facts, application texts, evaluator
-inputs, generation records and provenance are unchanged. Other TA dataset
-directories are ignored by default. Future publication requires explicit approval.
-After removal, all 118 tests passed, including standalone auditing, rejection of
-altered plan wording and the TA publication ignore policy. Export verification
-passed for all 100 approved applications. Hash checks confirmed that all 1,554
-protected approved TA and PhD files were unchanged.
+- **Sample:** 100 CVs, 29 weak, 41 borderline and 30 strong, with ten designated mixed profiles.
+  - Tiers follow fixed academic/research rules ([RUBRIC.md](RUBRIC.md)).
+  - 91 CVs passed the factual check first time; nine passed after one wording repair.
+- **Recommendations:** three per applicant, from fixed templates, with no model calls ([RECOMMENDATIONS.md](RECOMMENDATIONS.md)).
+  - Strength: 68 limited, 147 moderate and 85 strong.
+  - 148 compare the applicant with other students; 97 give a specific example.
+- **Consistency corrections** (the current inputs):
+  - 19 GPAs that contradicted the listed course grades were redrawn, and one applicant changed tier.
+  - 11 letters whose endorsement contradicted the cited grade were changed to moderate.
+  - `scripts/verify_datasets.py` rebuilds both corrections from the earlier versions and requires a byte-for-byte match.
+- **Evaluation harness:** tests confirm that:
+  - conditions differ only in the record block;
+  - no identifier or label reaches a prompt;
+  - replies parse correctly;
+  - runs resume correctly.
+- **Open:** human review of the CVs and letters has not been done.
 
-The corrections address the construction problems found in the unapproved draft.
-The following aggregate comparison records the earlier audit findings; the draft
-applicant records are no longer included:
+## Teaching assistant
 
-| Check | Version 1 | Version 2 |
-| --- | ---: | ---: |
-| Strong applicants with no teaching history | 0 | 6 |
-| Communication concern among first-time applicants | 22/26 (84.6%) | 6/26 (23.1%) |
-| Communication concern among experienced applicants | 15/74 (20.3%) | 21/74 (28.4%) |
-| Applicants unavailable for a required duty | 6 | 0 |
-| Distinct education histories | 2 | 74 |
-| Distinct foundational-course grade patterns | 5 | 70 |
-| Distinct skill sets | 1 | 25 |
-| Distinct project task sets | 1 | 73 |
+- **Sample:** 100 graduate applicants, 55 MS and 45 PhD; 30 weak, 40 borderline and 30 strong, including ten designated mixed cases.
+- **Design checks:**
+  - communication and teaching history are drawn independently;
+  - strong first-time TAs are possible;
+  - every applicant is available for the required duties;
+  - university appointments fall within enrolled periods.
+- **Wording:** all 100 passed the factual check without a repair. A keyword scan of the 578 generated bullets found no screened numeric or superlative claims.
+- **Audit:** `scripts/audit_ta.py` checks the exported records independently of the generator.
+- **Limits:**
+  - mean length is 340.5 words for weak applicants, 347.4 for borderline and 372.0 for strong;
+  - availability effects cannot be tested, because everyone is available.
 
-No prior teaching now means no prior performance evidence, rather than adverse
-evidence. Separate random streams generate communication and teaching history.
-Counterfactual tests change one distribution while checking that the same
-applicants retain their draws from the other. Independence is a construction
-choice; the selected sample's proportions are not population estimates.
-Availability is handled separately from merit, with all selected applicants
-available for the advertised duties. Fixed supporting observations are clearly
-separated from CV sections in the application text.
+## Graduate research fellowship
 
-### Generation and checks
+- **Sample:** 100 applicants, 64 MS and 36 PhD; 30 weak, 40 borderline and 30 strong, including ten designated mixed cases.
+- **Uniqueness:** there are 100 distinct proposal bundles and 100 distinct broader-impact bundles.
+- **Length:** mean length is 710.2 words for weak applicants, 711.0 for borderline and 726.6 for strong (2.3% spread).
+- **Wording:** all 100 passed the factual check without a repair.
+- **Audit:** the audit checks chronology, workload, GPA compatibility, source links, criterion coverage, metadata leakage and duplication.
+- **Rubric sensitivity:** removing one type of evidence at a time changes tiers as expected. For example, setting both graduate grades to C changes 58 tiers. This tests the rules, not their external validity.
 
-- The frozen 6,000-record pool and selected 100 reproduce exactly. Selection
-  keeps source facts unchanged. The ten designated mixed cases are three strong
-  first-time applicants, three borderline applicants with technical gaps and
-  effective teaching evidence, two strong applicants with lower GPA and effective
-  teaching evidence, and two borderline applicants with high technical
-  preparation and a communication concern. Other records can naturally have
-  uneven strengths without being designated mixed cases.
-- The full 100-test suite passed, including 19 version 2 tests. These cover the
-  separation of evidence draws, strong novice cases, availability failures,
-  chronology, GPA compatibility, unchanged facts through repairs, caching,
-  rejected exports and tamper detection. Test API responses are simulated.
-- GPT-6 Astra generated the production wording and checked fidelity in separate
-  contexts. All 100 passed without a wording repair. There are 200 saved
-  production responses reporting 311,247 tokens.
-- Direct pilot inspection caught a university appointment during a gap between
-  degree enrollments. The model check had not detected it because the prose
-  matched the source facts. The sampler and validator were corrected to require
-  university appointments within enrolled study periods. A fresh frozen run
-  replaced that three-applicant pilot before full generation. The discarded
-  pilot used six saved responses and 9,966 reported tokens; none of its wording
-  was reused in the final dataset. Combined saved-response usage is 206
-  responses and 321,213 tokens, not a billing estimate. The revision history
-  retains this distinction.
-- Export verification passed for all 100 applications: full file inventory and
-  checksums, pool and sample reproduction, rubric labels, diagnostic summaries,
-  deterministic rendering and assessment messages. The three plan prompt files
-  are byte-identical to version 1. No integrity treatments or evaluations ran.
-- `scripts/audit_ta.py` independently reads exported records and texts without
-  importing the sampler or renderer. Its checks passed for counts, graduate
-  enrollment, availability, appointment periods, fixed evidence in text,
-  designated mixed cases, assessment inputs and unchanged plan messages.
-  Current results are saved in `audit.json`. The audit checks prompt files against
-  the source wording and does not require the unapproved v1 export.
-- Direct inspection covered all four designated mixed-case types and a graduate
-  course project, including team-contribution wording. An additional keyword
-  scan of all 578 generated bullets found none of its screened numeric or
-  superlative claims; this limited scan is not a semantic proof of fidelity.
-- The HTML viewer contains 100 applicant cards and 101 valid local links.
-  Credential and attribution scans passed. Visual browser testing is not claimed.
-- All 953 files in the earlier PhD/TA dataset and implementation preservation
-  inventory retain their original hashes. The earlier dataset verifiers passed.
-- Before publication, the TA update was integrated with current `main` at
-  `ac2c596`, preserving the later PhD corrections, results and documentation.
-  All 115 tests in the combined checkout passed. The TA export, separate audit
-  and PhD dataset verifier passed, including identical reconstruction of the
-  corrected PhD datasets. All 2,052 previously published dataset files retained
-  their Git blob hashes. That initial publication also included the v1 baseline;
-  the subsequent publication correction removes it and makes the audit standalone.
+## Research assistant
 
-### Remaining limits
+- **Sample:** 100 applicants, 53 MS and 47 PhD; 30 weak, 40 borderline and 30 strong, including ten designated mixed cases.
+- **Audit:** the audit checks:
+  - chronology and workload;
+  - GPA consistency;
+  - source attribution;
+  - distinct portfolios;
+  - that SQL and pandas routes are interchangeable;
+  - absence of researcher metadata.
 
-The finite task catalogue, generic institutions, synthetic instructor/supervisor
-observations and provisional rubric remain deliberate simplifications. The
-numeric assumptions are not calibrated against real TA hiring. The profile is
-an explicit 2025-12-31 evidence snapshot for a 2026 review, not a complete current
-CV. All applicants meet the availability condition, so this sample cannot test
-availability effects. Applications are not matched for length: mean word counts
-are 340.5 weak, 347.4 borderline and 372.0 strong. A separate-context check by the
-same model and passing software tests do not establish independent human
-agreement, empirical hiring validity or absence of wording effects. Full rules
-and assumptions are documented in `TA_METHOD.md`.
+## What validation does not establish
 
-## Published update — 2026-11-12
-
-The update contains 100 revised CVs, 300 recommendation summaries and 100
-complete CV-plus-recommendation packets in the documented `datasets/` folders.
-The existing historical sample is unchanged.
-
-## Corrections — 2026-11-11
-
-- **GPA consistency.** Nineteen version 2 CVs had a GPA more than 0.6 grade
-  points from the mean of their four listed course grades. Their GPA was
-  redrawn under `configs/phd_gpa_consistency_v1.json`. Verification confirms
-  that no other field changed, that the other 81 CV files are byte-identical,
-  and that all 100 CVs now satisfy the rule. One applicant moved from weak to
-  borderline; the sample is 29/41/30.
-- **Letter consistency.** Recommendation policy v2 gives zero probability to a
-  limited letter on an A-range grade and a strong letter on a B-range grade.
-  Eleven of 300 letters changed, all to moderate; the rest are identical.
-- **Not rerun.** The model factual review was not repeated for the 19 changed
-  GPA lines. The line is rendered by code and the reviewed prose does not
-  mention GPA. Human review of CVs and letters is still pending.
-- **Evaluation harness.** Fifteen added tests cover the corrections and
-  `phd_eval`, including that conditions differ only in the record block, that
-  no identifier or label reaches a prompt, reply parsing, and resumable runs.
-  They use a simulated model. No real model has been called with these prompts.
-- The suite now has 72 tests.
-
-## Revised CV sample
-
-- The pool contains 6,000 records across three seeds. Pool construction and the
-  selected 100 applicants reproduce exactly from the saved configuration.
-- Allocation is 30 weak, 40 borderline and 30 strong, including ten designated
-  mixed profiles. Tiers follow a fixed academic/research rubric rather than
-  cohort quintiles.
-- GPT-6 Astra produced 91 first-pass acceptances. Nine CVs passed after one
-  wording repair; fixed credentials and selected applicants were retained.
-- There were 209 saved API responses with 288,504 reported tokens. These are
-  saved-response usage totals, not a billing estimate.
-- Accepted CVs passed chronology, field/count, wording and separate-context
-  factual checks. Exported CV files are byte-identical to the retained revised run.
-
-## Recommendation summaries
-
-- Each applicant has three distinct fictional writers and the four specified
-  letter fields. Summary bodies contain 30–100 words.
-- Fixed templates and separate random streams determine endorsement and flags.
-  Examples repeat accepted CV activities within each writer's linked role.
-- Output contains 68 limited, 147 moderate and 85 strong recommendations, with
-  148 comparisons and 97 specific examples. Grade-only letters do not have
-  specific work examples.
-- The stage made zero model calls. All 300 records pass relationship, observation
-  period, example, flag, template and reproducibility checks.
-- Complete-packet hashes support reuse of identical materials across conditions.
-
-## Software and export checks
-
-The 57-test suite covers the sampler, rubric, bounded generation/cache behavior
-and recommendation constraints. Deliberately inconsistent supervision periods,
-cross-writer examples, altered flags, rejected inputs and changed exports are
-rejected. Tests use simulated API responses.
-
-`python3 scripts/verify_datasets.py` checks the published file inventories and
-SHA-256 hashes, reproduces the pool and selection, recomputes rubric labels,
-checks all CVs and reproduces recommendation records and complete packets.
-The HTML viewers have verified relative links and counts; visual browser testing
-is not part of this release's validation evidence.
-
-## Limits
-
-Numeric PhD probabilities and tier boundaries are provisional. Recommendation
-relationships and endorsements are synthetic judgments, not ranks inferred from
-GPA. Publication/research coupling, generic institutions, restricted coursework
-patterns and absent faculty-fit evidence remain limitations. The checks establish
-internal consistency and reproducibility, not calibration against admissions
-outcomes, independent human agreement, or neutrality of model decisions.
+- **Plausibility, not realism:** passing checks shows the banks are internally consistent and reproducible. It does not show they resemble real applicant pools or match real committee judgments.
+- **Not independent review:** the same model generated the wording and reviewed it.
+- **Provisional thresholds:** the rubric thresholds and sampling probabilities are study choices.
+- **Human review:** the only human check so far is one researcher's informal review of a few examples.

@@ -1,18 +1,11 @@
-# Graduate Research Fellowship applicant generation
+# Graduate research fellowship applicants
 
-## Scope and current version
+## Scope
 
-The fellowship v2 sample contains 100 fictional early-stage CS graduate students:
-30 weak, 40 borderline and 30 strong provisional study labels, including ten
-designated mixed cases within those tiers. The approved release is
-`datasets/fellowship-applicants-v2/`, approved for repository publication on
-18 November 2026. This is the only published fellowship dataset and pipeline.
-Earlier fellowship drafts, pilots and raw responses remain in ignored local runs.
-Approved PhD and TA files are preserved unchanged.
-
-There is one canonical implementation, `fellowship_applicants/`, with settings in
-`configs/fellowship.json`. Each working run freezes its source, facts, configuration
-and generation contract. Working runs and review exports are ignored by Git.
+- **Sample:** 100 fictional early-stage CS graduate students, with provisional labels of 30 weak, 40 borderline and 30 strong, including ten designated mixed cases.
+- **Code and data:** `fellowship_applicants/` (generator), `configs/fellowship.json` (settings) and `datasets/fellowship-applicants-v2/` (published data).
+- **Frozen runs:** each generation run freezes its source, facts, configuration and generation contract.
+- **Evaluation:** this bank is evaluated with `fellowship_eval`; see [the fellowship run specification](docs/FELLOWSHIP_EVALUATION_HANDOFF.md).
 
 The plan's shared system message, fellowship description, selection criteria and
 overall-quality question are preserved verbatim apart from paragraph wrapping.
@@ -42,19 +35,18 @@ informs structured sampling before wording, conditional variables, seeded source
 cohorts and coverage diagnostics. It concerns undergraduate admissions. Fellowship
 fields, criterion-based tiers, proposal templates and model-written experience
 bullets are adaptations, not the paper's empirical fellowship distribution or a
-verbatim reproduction. The earlier approved move away from quintile labels is
-retained; no cohort rank determines an applicant's tier.
+verbatim reproduction. Tiers come from criterion rules; no cohort rank
+determines an applicant's tier.
 
-## Changes from the first fellowship sample
+## Evidence design
 
-The first rubric used undergraduate anchor grades, generic capstone observations
-and proposal/impact specificity. Research appointments, graduate grades, outputs,
-awards and past impact activities were visible to evaluators but did not change
-the researcher's labels. V2 assesses the recorded contributions and recent grades.
-Evidence-removal diagnostics report dimension and tier changes separately; a
-supporting award need not move an applicant across a final tier boundary.
+Labels are based on the evidence an evaluator actually sees: recorded research
+contributions, graduate and undergraduate grades, outputs, awards and past
+impact activities. Evidence-removal diagnostics report dimension and tier changes
+separately; a supporting award need not move an applicant across a final tier
+boundary.
 
-All proposal variants now contain a question, topic-specific rationale, intended
+All proposal variants contain a question, topic-specific rationale, intended
 contribution, method, comparison, evaluation, feasibility and limitations.
 Differences concern the adequacy of comparisons, outcome measures, sampling,
 uncertainty and generalization, rather than whether a component is missing.
@@ -64,7 +56,7 @@ Researcher commentary and repeated missing-detail markers are excluded from the
 application text. Proposed contribution remains an intention, not a verified claim
 of novelty or a completed achievement.
 
-Histories now vary in project type, count, duration and team size. Related projects
+Histories vary in project type, count, duration and team size. Related projects
 and research appointments may use the same topic family, with distinct work inputs
 and episode IDs. A proposal can build on research assistance rather than always
 on an undergraduate capstone. Observations identify their actual project or
@@ -119,19 +111,13 @@ estimated frequencies; the configuration and frozen source expose all draws.
 
 ## Provisional evidence rubric
 
-**Evaluation use, 19 November 2026.** The rules below describe the immutable
-published v2 generation labels. The fellowship experiment retains all 100
-applications and those labels for provenance. Its primary estimates compare
-each applicant with their own clean record; tier comparisons are descriptive
-sensitivity analyses. An informal review of three condensed examples supported
-the strongest example but treated the other two as close. This was one
-researcher's sanity check, not independent validation of the bank.
-
-The proposed 30% research / 25% academics / 25% proposal / 20% broader-impact
-review rubric remains uncalibrated. It has not been applied to all applicants,
-used to regenerate them or inserted into evaluator prompts. No new tier cutoffs
-are introduced. See the [evaluation handoff](docs/FELLOWSHIP_EVALUATION_HANDOFF.md)
-for the finalized experiment, interpretation limits and execution gate.
+**How the labels are used.** The rules below produced the published labels,
+which are fixed. The evaluation's main estimates compare each applicant with
+their own clean record. Comparisons between tiers are descriptive only. One
+researcher informally reviewed three condensed examples: the strongest ranked
+first and the other two were close. That is a sanity check, not validation of
+the bank. A proposed 30/25/25/20 research/academics/proposal/impact weighting is
+uncalibrated and is used nowhere: not in the labels and not in prompts.
 
 Four dimensions take values 0 (limited), 1 (adequate) or 2 (substantive). These
 values are anchors, not scores to be summed or percentile-ranked.
@@ -230,16 +216,18 @@ ablations test sensitivity of the rubric using its dimension function; they are
 not new valid applicant packets or an independent validation of the rubric.
 
 ```sh
-python3 -m fellowship_applicants prepare --config configs/fellowship.json --run runs/fellowship-applicants-v2-generation
-python3 -m fellowship_applicants generate --run runs/fellowship-applicants-v2-generation --limit 3
-python3 -m fellowship_applicants generate --run runs/fellowship-applicants-v2-generation
-python3 -m fellowship_applicants export --run runs/fellowship-applicants-v2-generation --out runs/fellowship-applicants-v2-review
+# Verify the published bank (offline)
 python3 -m fellowship_applicants verify --out datasets/fellowship-applicants-v2
 python3 scripts/audit_fellowship.py --out datasets/fellowship-applicants-v2
+
+# Generate a new bank (billable; uses a new local run folder)
+python3 -m fellowship_applicants prepare --config configs/fellowship.json --run runs/<new-run>
+python3 -m fellowship_applicants generate --run runs/<new-run> --limit 3
+python3 -m fellowship_applicants generate --run runs/<new-run>
+python3 -m fellowship_applicants export --run runs/<new-run> --out runs/<new-run>-export
 ```
 
-Preparation and verification are offline. Generation is a separately authorized,
-billable step. Credentials are read from the environment and never serialized.
+Preparation and verification are offline. Generation is billable and needs approval. Credentials are read from the environment and never serialized.
 
 ## Limits
 
@@ -250,25 +238,14 @@ finite topic catalogue constrain realism even when full bundles are distinct.
 Mean length control does not eliminate individual length differences, template
 recognition or correlated credentials. Automated checks establish consistency and
 reproducibility, not that a real fellowship committee would agree with the tiers.
-The sample is approved for repository publication. Fellowship evaluation runs
-remain unapproved; no assessments or integrity treatments have been run.
 
-## Completed v2 verification
+## Verification results
 
-The final sample contains 64 MS and 36 PhD students, all early-stage CS graduate
-applicants at the plan's review date. The allocation is 30 weak, 40 borderline,
-30 strong, including ten designated mixed cases. The 6,000-candidate pool and final
-selection reproduce offline. All 151 tests passed, all 100 applications passed
-separate-context factual checks without repairs, and the independent structural
-and rendering audit found no errors. The viewer has 100 cards and no broken local
-links. The plan's system, opportunity and assessment wording are unchanged.
-
-Actual mean word counts are 710.2 (weak), 711.0 (borderline) and 726.6 (strong), a
-2.3% largest-to-smallest mean difference versus 12.3% in v1. Individual lengths
-still range from 571 to 975 words. The new packets are longer overall because
-contributions, deliverables and complete study rationales are explicit. There
-are 100 distinct complete proposal bundles and 100 distinct impact bundles,
-compared with 69 and 42 previously; shared sentences and themes remain.
+- **Sample:** 64 MS and 36 PhD students, all early-stage CS graduate applicants at the review date. The 6,000-candidate pool and the final selection reproduce offline.
+- **Wording:** all 100 applications passed the separate-context factual check without repairs. The structural and rendering audit found no errors.
+- **Length:** mean word counts are 710.2 (weak), 711.0 (borderline) and 726.6 (strong), a 2.3% spread. Individual applications range from 571 to 975 words.
+- **Uniqueness:** there are 100 distinct proposal bundles and 100 distinct impact bundles. Shared sentences and themes remain.
+- **Model usage:** applicant wording and factual review used 200 saved API responses (535,934 reported tokens).
 
 | Evidence ablation | Dimension changes | Final tier changes |
 | --- | ---: | ---: |
@@ -278,27 +255,8 @@ compared with 69 and 42 previously; shared sentences and themes remain.
 | Remove academic awards | 3 academic ratings | 0 |
 | Remove past broader-impact activities | 12 impact ratings | 5 |
 
-These ablations show sensitivity of the implemented rules, not external validity.
-Awards affect academic evidence but do not move a final tier in this particular
-sample. A four-month independent study can meet the provisional substantive
-research anchor when a diagnostic contribution and deliverable are recorded;
-that threshold remains a study choice, not a verified fellowship standard.
-
-The template review identified and resolved eight concrete issues, including
-claims exceeding the proposed measurements, a full-suite execution-budget
-contradiction and an unspecified downstream forecasting model. Its final round
-reported no further contradictions. Reading the three-applicant pilot then
-identified subject-verb agreement and unclear output references. Those wording
-issues were corrected before freezing the final run; the superseded pilot remains
-under ignored `runs/fellowship-debug/v2-pilot-wording-correction/`.
-
-The final applicant run used 200 saved API responses and 535,934 reported tokens.
-Including three catalogue-review calls and six responses from the superseded
-pilot, v2 work used 209 saved responses and 585,614 reported tokens. No applicant
-evaluation calls were made. The same configured model supplied generation and
-factual review, so these are not independent committee judgments.
-
-All 3,309 protected tracked files and earlier fellowship-run/export files remained
-byte-identical during generation verification. Detailed checks, ablations,
-usage and the v1 comparison are included in the approved release. The earlier
-raw data and pilot packets are not included.
+These ablations show how sensitive the rules are, not that the rules are valid.
+Awards affect academic evidence but move no final tier in this sample. A
+four-month independent study can meet the substantive research anchor when a
+diagnostic contribution and deliverable are recorded. That threshold is a study
+choice, not a fellowship standard.

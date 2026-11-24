@@ -1,52 +1,22 @@
-# Graduate introductory CS TA applicants: version 2
+# Graduate introductory CS teaching-assistant applicants
 
-## Scope preserved
+## Scope
 
-The dataset contains 100 graduate applicants: 30 weak, 40 borderline and 30
-strong under a provisional study rubric, including ten deliberately selected
-mixed cases within those tiers. The role remains **Introductory Computer Science
-Teaching Assistant**, as described in `LLM exoneration research plan.pdf`.
+- **Sample:** 100 current graduate students applying to be an **Introductory Computer Science Teaching Assistant**, the role described in `LLM exoneration research plan.pdf`. They are labelled 30 weak, 40 borderline and 30 strong under a provisional study rubric, including ten deliberately selected mixed cases.
+- **Code and data:** `ta_applicants/` (generator), `configs/ta.json` (settings) and `datasets/ta-applicants-v2/` (published data).
+- **Prompt text:** the shared assessment system message, opportunity description, selection criteria and overall-quality prompt come unchanged from `ta_applicants/plan.py`. Only the committee placeholder is filled in. No fellowship, RA or PhD-admissions criteria enter the TA rubric.
+- **What this stage produces:** application materials only. It assigns no integrity conditions and records no evaluator scores. There is no TA evaluation harness yet.
 
-The shared assessment system message, opportunity description, selection
-criteria and overall-quality prompt are reused unchanged from `ta_applicants/plan.py`.
-Paragraph wrapping is normalized; only the committee placeholder is substituted.
-No fellowship, RA or PhD-admissions criteria are imported into the TA rubric.
-Applicant generation uses separate factual-writing instructions. This stage
-creates application materials, not evaluator scores or integrity treatments.
-The earlier preparation checklist and alternate example packets are superseded
-by this approved specification. No evaluation run, model panel, evaluation budget
-or human recruitment has been authorized as part of this data-generation work.
+## Design choices
 
-Version 2 is the only approved TA dataset in the repository. It uses
-`ta_applicants/`, `configs/ta.json`, and `datasets/ta-applicants-v2/`.
-The unapproved applicant export and its generator have been removed. Required
-evidence templates and wording checks are included directly in this single
-approved package; there is no second TA generator or alternate configuration.
-The PhD datasets remain unchanged. Future TA exports stay local until explicitly
-approved for publication; other TA dataset and versioned code directories are
-ignored by default.
+- **First-time TAs can be strong.** No teaching history means no prior performance evidence, not adverse evidence. A first-time applicant can be strong through preparation, communication and interest in beginners.
+- **Communication is drawn separately from teaching history.** It has its own random stream, so changing teaching probabilities leaves an applicant's communication evidence unchanged.
+- **Varied records:** degree histories and dates vary, course grades are drawn individually, and each applicant has 1–3 projects from eight task families with project-specific tools.
+- **Availability is not merit.** All 100 applicants can perform every advertised duty. Unavailability is outside this sample.
+- **Facts and observations are kept apart.** CV sections are separate from the supporting communication and teaching observations. Those observations are synthetic fixed-template inputs, not real reviews.
 
-The approved dataset retains its original source-implementation hash and saved
-model contract. That provenance describes the code used for generation, available
-in commit `9e8e2b0`; consolidation does not claim the sample was regenerated.
-The current implementation reproduces the same 6,000 source records, selected
-100 applicants, model contract and rendered applications. New runs record the
-current implementation hash. The existing implementation-change guard still
-rejects resuming a run made by different source code; verify the completed export
-with the current package instead.
-
-## Response to the version 1 audit
-
-| Finding | Version 2 change |
-| --- | --- |
-| No prior teaching automatically prevented a strong label | No history means no prior performance evidence. A strong novice is possible from preparation, communication and explicit interest in beginners. |
-| Communication was sampled from teaching preparation | Communication has a separate random stream and its own joint written/oral distribution. Altering teaching-count probabilities leaves the same applicant's communication evidence unchanged. |
-| Nearly identical underlying education, skills and projects | Varied degree histories and dates, individually drawn course grades, 1–3 projects from eight task families, and project-specific tools and scopes. |
-| Inability to perform duties was folded into a borderline label | Availability is checked separately. All 100 selected applicants can perform all advertised duties; an unavailable input is outside the merit-tier sample. |
-| Supporting judgments could be mistaken for CV facts alone | Applications clearly separate CV sections from supporting communication and teaching-performance evidence. Observations remain synthetic fixed-template inputs, not real reviews or LLM-inferred endorsements. |
-
-These changes address the identified design problems. They do not establish
-that the resulting profiles are representative of real graduate TA applicants.
+These choices make the profiles internally sensible. They do not make them
+representative of real graduate TA applicants.
 
 ## Criteria and application fields
 
@@ -193,7 +163,7 @@ python3 -m ta_applicants verify --out datasets/ta-applicants-v2
 python3 scripts/audit_ta.py
 ```
 
-For a separately authorized generation, use a new local run and export directory:
+To generate a new bank (billable; needs approval), use a new local run and export directory:
 
 ```sh
 python3 -m ta_applicants prepare --config configs/ta.json --run runs/ta-new
@@ -202,8 +172,8 @@ python3 -m ta_applicants generate --run runs/ta-new
 python3 -m ta_applicants export --run runs/ta-new --out runs/ta-new-export
 ```
 
-These local outputs are ignored. Publication requires explicit approval of the
-final dataset and an update to the approved publication paths.
+Local runs are ignored by git. Publishing a new bank means adding it under `datasets/`
+with the team's agreement.
 
 Only `generate` makes model calls. Tests include counterfactual changes to
 teaching and communication distributions to check their separation, strong
@@ -212,8 +182,7 @@ facts through repairs, failed-export rejection and caching. Export verification
 reproduces the pool and selection and checks every file, rendered application,
 plan message and saved diagnostic. A separate audit checks the requested
 properties directly from the approved records and compares prompt files with the
-source plan wording. It needs no older dataset; an optional `--previous` path can
-be used for a local comparison.
+source plan wording.
 
 Same-model factual checking is not independent human review. The remaining finite
 task catalogue, generic institutions, synthetic feedback, simplified course/grade
