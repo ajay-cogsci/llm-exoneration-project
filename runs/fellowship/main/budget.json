@@ -1,0 +1,23 @@
+{
+  "cap_usd": 100.0,
+  "scope": "All models and attempts in this plan",
+  "history": [
+    {
+      "cap_usd": 80.0,
+      "set": "2026-11-19",
+      "by": "user"
+    },
+    {
+      "cap_usd": 90.0,
+      "set": "2026-11-23",
+      "by": "user",
+      "reason": "$11.32 of the $80 cap was reserved for network-failure attempts made while the laptop slept; OpenRouter confirms they were not billed"
+    },
+    {
+      "cap_usd": 100.0,
+      "set": "2026-11-23",
+      "by": "user",
+      "reason": "run remaining models in parallel with per-model cap slices; held amounts re-settled at provider-verified cost"
+    }
+  ]
+}

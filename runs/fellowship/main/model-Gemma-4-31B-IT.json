@@ -1,0 +1,8 @@
+{
+  "label": "Gemma 4 31B IT",
+  "api_model": "google/gemma-4-31b-it",
+  "request_parameters": {},
+  "max_attempts": 2,
+  "request_cost_ceiling": 0.243,
+  "base_url": "https://openrouter.ai/api/v1"
+}

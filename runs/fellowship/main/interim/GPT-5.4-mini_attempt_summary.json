@@ -1,0 +1,13 @@
+{
+  "planned": 13200,
+  "attempts": 13200,
+  "distinct_attempted": 13200,
+  "missing": 0,
+  "first_attempt_valid": 13200,
+  "valid_attempts": 13200,
+  "unparseable_attempts": 0,
+  "error_attempts": 0,
+  "reported_cost_usd": 13.3082835,
+  "unresolved_cost_reserve_usd": 0,
+  "unparseable_requests_retried_by_condition": {}
+}

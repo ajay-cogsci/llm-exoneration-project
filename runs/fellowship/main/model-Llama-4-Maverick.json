@@ -1,0 +1,8 @@
+{
+  "label": "Llama 4 Maverick",
+  "api_model": "meta-llama/llama-4-maverick",
+  "request_parameters": {},
+  "max_attempts": 2,
+  "request_cost_ceiling": 0.036,
+  "base_url": "https://openrouter.ai/api/v1"
+}

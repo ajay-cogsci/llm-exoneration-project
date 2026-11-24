@@ -1,0 +1,8 @@
+{
+  "label": "GPT-5.4 mini",
+  "api_model": "openai/gpt-5.4-mini",
+  "request_parameters": {},
+  "max_attempts": 2,
+  "request_cost_ceiling": 1.166,
+  "base_url": "https://openrouter.ai/api/v1"
+}

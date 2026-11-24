@@ -1,0 +1,8 @@
+{
+  "label": "Qwen3-32B",
+  "api_model": "qwen/qwen3-32b",
+  "request_parameters": {},
+  "max_attempts": 2,
+  "request_cost_ceiling": 0.069,
+  "base_url": "https://openrouter.ai/api/v1"
+}
