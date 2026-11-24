@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-exoneration"
+version = "1.0.0"
+description = "Audit of how LLM evaluators respond to cleared academic-integrity allegations"
+requires-python = ">=3.10"
+dependencies = []  # generation, verification and evaluation use only the standard library
+
+[project.optional-dependencies]
+analysis = ["pandas>=2.0", "numpy>=1.26", "scipy>=1.11", "statsmodels>=0.14", "matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src/generate", "src/evaluate"]

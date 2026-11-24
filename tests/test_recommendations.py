@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def policy():
-    return read_json(ROOT / "configs/phd_recommendations_v1.json")
+    return read_json(ROOT / "old/configs/phd_recommendations_v1.json")
 
 
 def applicant(months=1, research=True):

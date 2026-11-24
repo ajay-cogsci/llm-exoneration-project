@@ -14,7 +14,7 @@ from phd_resumes.writing import render_cv, validate_content
 
 
 def config():
-    value = read_json(Path(__file__).resolve().parents[1] / "configs/phd.json")
+    value = read_json(Path(__file__).resolve().parents[1] / "old/configs/phd.json")
     value.update(n_per_cohort=20, oversample=10)
     return value
 

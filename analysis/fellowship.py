@@ -1,9 +1,11 @@
 """Analysis of the graduate research fellowship evaluation run.
 
-    .venv/bin/python analysis/fellowship.py --plan runs/fellowship/main
+    python analysis/fellowship.py
+    (reads results/fellowship-main/; the attempts table also needs the local raw
+    replies in runs/fellowship/main/responses, and is skipped if those are absent)
 
 Reuses the PhD estimators in analyze_main.py and adds what the fellowship run
-specification asks for (docs/FELLOWSHIP_EVALUATION_HANDOFF.md, step 4):
+specification asks for (old/docs/fellowship-run-spec.md, step 4):
 
 - Both exports are analysed: results.csv (eventual valid reply per request) and
   first_attempt_results.csv (the first attempt only, so retried requests count
@@ -147,9 +149,9 @@ def rationale_scan(df: pd.DataFrame) -> pd.DataFrame:
              .reset_index())
 
 
-def retries_by_condition(plan: Path) -> pd.DataFrame:
+def retries_by_condition(responses: Path) -> pd.DataFrame:
     rows = []
-    for f in sorted((plan / "responses").glob("*.jsonl")):
+    for f in sorted(responses.glob("*.jsonl")):
         recs = [json.loads(line) for line in f.open()]
         first = {}
         for r in recs:
@@ -183,12 +185,13 @@ def phd_comparison(est: pd.DataFrame, phd_path: Path) -> pd.DataFrame:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--plan", default="runs/fellowship/main")
-    ap.add_argument("--out", default=None)
-    ap.add_argument("--phd-estimates", default="runs/main/analysis/estimates.csv")
+    ap.add_argument("--results", default="results/fellowship-main", help="folder with results.csv and first_attempt_results.csv")
+    ap.add_argument("--responses", default="runs/fellowship/main/responses", help="raw replies (local; optional)")
+    ap.add_argument("--out", default="results/fellowship-main/analysis")
+    ap.add_argument("--phd-estimates", default="results/phd-main/analysis/estimates.csv")
     args = ap.parse_args()
-    plan = Path(args.plan)
-    out = Path(args.out) if args.out else plan / "analysis"
+    plan = Path(args.results)
+    out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
     parts, fits, cells = [], [], []
@@ -213,8 +216,8 @@ def main():
     est.to_csv(out / "estimates.csv", index=False)
     pd.DataFrame(fits).to_csv(out / "mixed_model_fits.csv", index=False)
     pd.DataFrame(cells).to_csv(out / "cell_means.csv", index=False)
-    if (plan / "responses").is_dir():
-        retries_by_condition(plan).to_csv(out / "attempts_by_model_condition.csv", index=False)
+    if Path(args.responses).is_dir():
+        retries_by_condition(Path(args.responses)).to_csv(out / "attempts_by_model_condition.csv", index=False)
 
     ev = est[est.input == "eventual"]
     m = ev[ev.analysis == "mixed"].set_index(["model", "task", "contrast"])

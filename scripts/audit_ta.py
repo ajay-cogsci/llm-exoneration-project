@@ -105,7 +105,7 @@ def audit(root, previous=None):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dataset",default="datasets/ta-applicants-v2")
+    parser.add_argument("--dataset",default="data/ta")
     parser.add_argument("--previous",help="Optional local comparison dataset; the approved dataset is audited on its own by default")
     parser.add_argument("--report")
     args=parser.parse_args()

@@ -3,7 +3,9 @@
 Reads results.csv written by `python3 -m phd_eval collect` and writes a tidy CSV
 of estimates, one figure per prompt and supporting tables.
 
-    python analysis/analyze_main.py --plan runs/main
+    python analysis/analyze_main.py
+    (reads results/phd-main/results.csv; attempt tables also need the local raw
+    replies in runs/main/responses, and are skipped if those are absent)
 
 Everything is computed separately for each model and prompt (task).
 
@@ -247,9 +249,8 @@ def strength_block(d, base):
     return rows
 
 
-def reply_tables(plan: Path, out: Path):
+def reply_tables(rdir: Path, out: Path):
     """Attempt counts from the raw replies (every attempt is one line)."""
-    rdir = plan / "responses"
     if not rdir.is_dir():
         return None, None
     per_model, retries = [], []
@@ -334,14 +335,14 @@ def make_figures(est: pd.DataFrame, out: Path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--plan", default="runs/main", help="plan directory containing results.csv")
-    ap.add_argument("--out", default=None, help="output directory (default <plan>/analysis)")
+    ap.add_argument("--results", default="results/phd-main/results.csv", help="results.csv from phd_eval collect")
+    ap.add_argument("--responses", default="runs/main/responses", help="raw replies (local; optional)")
+    ap.add_argument("--out", default="results/phd-main/analysis")
     args = ap.parse_args()
-    plan = Path(args.plan)
-    out = Path(args.out) if args.out else plan / "analysis"
+    out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    raw = pd.read_csv(plan / "results.csv")
+    raw = pd.read_csv(args.results)
     df = raw[raw.valid.astype(str).str.lower() == "true"].copy()
     df["score"] = pd.to_numeric(df.score, errors="coerce")
     df["decision"] = pd.to_numeric(df.decision, errors="coerce")
@@ -421,7 +422,7 @@ def main():
     j["same_conclusion"] = j.holm_significant_mixed == j.holm_significant_paired
     j.reset_index().to_csv(out / "mixed_vs_paired.csv", index=False)
 
-    pm, rt = reply_tables(plan, out)
+    pm, rt = reply_tables(Path(args.responses), out)
     make_figures(est, out)
 
     print(json.dumps({

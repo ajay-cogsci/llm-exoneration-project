@@ -1,54 +1,22 @@
+# Secrets and local environments
 .env
 .env.*
 !.env.example
-__pycache__/
-*.pyc
 .venv/
 .venv-*/
-tmp/
-runs/
+*.egg-info/
+__pycache__/
+*.pyc
 .DS_Store
+tmp/
 
-# Intermediate working runs; final portable exports are in datasets/.
-/audits/
-/sample-100-resume-generated-v2-rubric-v1/
-/sample-100-resume-generated-v3-recommendations-v1/
+# Working runs, drafts and raw model replies stay local.
+# Finished exports are committed under results/.
+runs/
 
-# Only explicitly approved TA datasets belong in version control.
-/datasets/ta-*/
-!/datasets/ta-applicants-v2/
-
-# Keep a single approved TA implementation and configuration.
-/ta_applicants*/
-!/ta_applicants/
-/configs/ta*.json
-!/configs/ta.json
-/TA_V*_METHOD.md
-/scripts/audit_ta*.py
-!/scripts/audit_ta.py
-/tests/test_ta_v[0-9]*.py
-
-# Only the approved fellowship release and canonical pipeline belong in Git.
-/datasets/fellowship-*/
-!/datasets/fellowship-applicants-v2/
-/fellowship_applicants*/
-!/fellowship_applicants/
-/configs/fellowship*.json
-!/configs/fellowship.json
-!/configs/fellowship_eval_v1.json
-/FELLOWSHIP_V*_METHOD.md
-/scripts/audit_fellowship*.py
-!/scripts/audit_fellowship.py
-/tests/test_fellowship_v[0-9]*.py
-
-# Only the approved RA release and canonical pipeline belong in Git.
-/datasets/ra-*/
-!/datasets/ra-applicants-v2/
-/ra_applicants*/
-!/ra_applicants/
-/configs/ra*.json
-!/configs/ra.json
-/RA_V*_METHOD.md
-/scripts/audit_ra*.py
-!/scripts/audit_ra.py
-/tests/test_ra_v[0-9]*.py
+# Only the four published applicant banks belong under data/.
+/data/*
+!/data/phd/
+!/data/fellowship/
+!/data/ta/
+!/data/ra/

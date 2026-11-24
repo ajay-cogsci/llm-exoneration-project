@@ -423,13 +423,13 @@ class TAWorkflowRegressionTests(unittest.TestCase):
 class ApprovedTAReleaseTests(unittest.TestCase):
     def test_current_config_and_model_contract_match_approved_release(self):
         from ta_applicants.pipeline import contract
-        source = PROJECT / "datasets/ta-applicants-v2"
+        source = PROJECT / "data/ta"
         config = read_json(PROJECT / "configs/ta.json")
         self.assertEqual(config, read_json(source / "config.json"))
         self.assertEqual(contract(config), read_json(source / "generation_contract.json"))
 
     def test_approved_export_reproduces_with_the_single_pipeline(self):
-        result = verify_export(PROJECT / "datasets/ta-applicants-v2")
+        result = verify_export(PROJECT / "data/ta")
         self.assertEqual(result["verified_applications"], 100)
         self.assertEqual(result["pool_reproduced"], 6000)
 

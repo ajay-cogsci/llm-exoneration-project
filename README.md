@@ -14,116 +14,85 @@ paragraph at the end:
 Everything else is identical, so a score difference between versions of the same
 applicant is caused by that paragraph.
 
-The study design is in `LLM exoneration research plan.pdf`. The team notebook is
-the [LLM exoneration Google Doc](https://docs.google.com/document/d/1dgZkwce8f8iXa1Nt0kmj7WIPqrdzxcMJCaYEYm7VQ2s/edit).
+The study plan is the "LLM exoneration" Google Doc:
+[docs.google.com/document/d/1dgZkwce8f8iXa1Nt0kmj7WIPqrdzxcMJCaYEYm7VQ2s](https://docs.google.com/document/d/1dgZkwce8f8iXa1Nt0kmj7WIPqrdzxcMJCaYEYm7VQ2s/edit).
 
-## Status
+## Results so far
 
-| Opportunity | Applicants | Evaluation |
+| Opportunity | Evaluation | Write-up |
 |---|---|---|
-| Computer Science PhD | 100 | Done: pilot (7 models), full design (5 models), prompt ablation (3 models). [Results](runs/main/analysis/SUMMARY.md) |
-| Graduate research fellowship | 100 | Done: full design (5 models). [Results](runs/fellowship/main/analysis/SUMMARY.md) |
-| Introductory CS teaching assistant | 100 | Not started |
-| Research assistant | 100 | Not started |
+| Computer Science PhD | 5 models × 13,200 requests | [results/phd-main](results/phd-main/analysis/SUMMARY.md) |
+| Graduate research fellowship | 5 models × 13,200 requests | [results/fellowship-main](results/fellowship-main/analysis/SUMMARY.md) |
+| Teaching assistant, research assistant | Applicants built, not yet evaluated | — |
 
-See [docs/EXPERIMENTS.md](docs/EXPERIMENTS.md) for every experiment, its inputs and its outputs.
+The models were GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT, Llama 4
+Maverick and Qwen3-32B. Scores are on a 0–100 scale. In both opportunities:
 
-## Main PhD findings
+- **Cleared** allegations were barely penalised, and explicit exonerations often scored slightly *above* a clean record (+2 to +7 points). The one penalty that survived the strictest correction was GPT-5.4 mini's −2.3 on the fellowship award decision.
+- **Pending** allegations cost 3–19 points, and **found responsible** cost 13–34 points.
+- **Procedural reversals** (overturned without deciding the facts) were penalised by every model.
+- **Withdrawn** and **dismissed** allegations were penalised by some models: Llama and Qwen on the PhD, and four of five models on the fellowship.
+- **Robustness:** removing the instruction "Do not assume or infer details that are not stated." made no meaningful difference ([ablation](results/phd-ablation/SUMMARY.md)).
 
-Across GPT-5.4 mini, Gemini 3.8 Flash, Gemma 4 31B IT, Llama 4 Maverick and
-Qwen3-32B, with scores on a 0–100 scale:
-
-- **Cleared** allegations were not penalised; explicit exonerations scored slightly *above* a clean record (+2 to +5 points).
-- **Pending** allegations cost 3–14 points.
-- **Found responsible** cost 15–30 points.
-- **Procedural reversals** were penalised by almost every model.
-- **Withdrawn** or **dismissed** allegations were penalised by some models (Llama, Qwen) but not others.
-- Removing the instruction "Do not assume or infer details that are not stated." made no meaningful difference ([ablation](runs/ablation/analysis/SUMMARY.md)).
+[docs/experiments.md](docs/experiments.md) lists every experiment with its cost.
 
 ## Quick start
 
-Python 3.10+. Applicant generation, verification and evaluation use only the
-standard library.
+Python 3.10 or newer.
 
 ```sh
 git clone https://github.com/ajay-cogsci/llm-exoneration-project.git
 cd llm-exoneration-project
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e ".[analysis]"      # the code itself needs only the standard library
 
-python3 -m unittest discover -s tests          # offline tests; no keys needed
-python3 scripts/verify_datasets.py             # checks the published PhD datasets
+python3 -m unittest discover -s tests     # offline tests; no API keys
+python3 scripts/verify_datasets.py        # checks the PhD inputs
 
-# Print exactly what a model is sent
+# See exactly what a model is sent
 python3 -m phd_eval preview --condition cleared --task advance --format rationale
 
-# Reproduce the PhD analysis
-python3 -m venv .venv && .venv/bin/pip install -r analysis/requirements.txt
-.venv/bin/python analysis/analyze_main.py --plan runs/main
+# Rebuild the analyses from the committed results
+python3 analysis/analyze_main.py
+python3 analysis/fellowship.py
 ```
-
-Three tests compare study text with the source PDF. They need `pdftotext` (from
-poppler) and are skipped without it.
 
 ## Repository layout
 
-| Path | Contents |
-|---|---|
-| `datasets/` | Published applicant banks: packets, structured facts, an HTML viewer and checksums. Read-only. |
-| `configs/` | Evaluation configs (prompts and condition wordings) and generation settings. |
-| `phd_eval/`, `fellowship_eval/` | Evaluation harnesses: build prompts, plan, send requests, export results. |
-| `phd_resumes/`, `phd_recommendations/`, `phd_revisions/` | PhD applicant pipeline: CVs, recommendation letters, published corrections. |
-| `ta_applicants/`, `fellowship_applicants/`, `ra_applicants/` | Applicant generators for the other three opportunities. |
-| `analysis/` | Statistical analysis scripts. |
-| `scripts/` | Dataset verification, audits and the fellowship run driver. |
-| `runs/` | Experiment outputs. Ignored by git except committed result exports. |
-| `tests/` | Offline unit tests with simulated API clients. |
-| `docs/` | Experiment index and the fellowship run specification. |
+```
+data/            applicant banks used as inputs (read-only)
+  phd/           cvs/ and applications/ (CV + 3 recommendation letters)
+  fellowship/  ta/  ra/
+src/
+  generate/      code that built the applicants (one package per opportunity)
+  evaluate/      phd_eval, fellowship_eval: build prompts, run models, export
+configs/         prompts, condition wordings and generation settings
+analysis/        statistics and figures for each finished experiment
+results/         committed results of finished experiments, with SUMMARY.md
+scripts/         dataset verification and audits
+docs/            evaluation.md, experiments.md, methods/ (how each bank was built)
+tests/           offline tests (simulated model clients)
+old/             earlier data versions and one-off tooling, kept for the record
+runs/            local working folder for runs and raw replies (not in git)
+```
 
-Method documents: [RUBRIC](RUBRIC.md) (PhD CV tiers),
-[RECOMMENDATIONS](RECOMMENDATIONS.md) (PhD letters),
-[TA_METHOD](TA_METHOD.md), [FELLOWSHIP_METHOD](FELLOWSHIP_METHOD.md),
-[RA_METHOD](RA_METHOD.md), [EVALUATION](EVALUATION.md) (running `phd_eval`) and
-[VALIDATION](VALIDATION.md) (what has been checked).
+## Where to read next
 
-## Datasets
-
-| Dataset | Use |
-|---|---|
-| [`phd-applications-v4-recommendations-v2`](datasets/phd-applications-v4-recommendations-v2/) | **PhD evaluation input**: 100 CVs with three recommendation summaries each |
-| [`fellowship-applicants-v2`](datasets/fellowship-applicants-v2/) | Fellowship evaluation input |
-| [`ta-applicants-v2`](datasets/ta-applicants-v2/) | TA applicants |
-| [`ra-applicants-v2`](datasets/ra-applicants-v2/) | Research-assistant applicants |
-| `phd-cvs-v2-rubric-v1`, `phd-cvs-v3-gpa-consistency-v1`, `phd-applications-v3-recommendations-v1`, `sample-100-resume-generated/` | Earlier PhD versions. The corrected PhD inputs are rebuilt from these, so keep them. |
-
-- **Applicants:** every opportunity has 100 fictional applicants. Each has a provisional weak, borderline or strong label from rule-based rubrics, not human ratings.
-- **Viewers:** clone the repository to open a dataset's `index.html` viewer.
-
-## How an evaluation works
-
-1. **`plan`:** freezes the config, applicant hashes and a shuffled list of requests, 13,200 per model for the full design. A plan never overwrites an existing folder, and it refuses to run if code or data change afterwards.
-2. **`preview`:** prints any prompt without sending it.
-3. **`run`:** sends requests through OpenRouter, using the key in `EVAL_API_KEY`. It is resumable: valid replies are skipped. Every attempt is saved to `runs/<plan>/responses/<model>.jsonl` with the provider's reported cost.
-4. **`collect`:** writes `results.csv`, one row per request with its score and decision, and `summary.json`.
-5. **Analysis:** scripts in `analysis/` compare each condition with the same applicant's clean record, using intervals clustered by applicant.
-
-Each harness has its own detailed guide:
-- **PhD (`phd_eval`):** [EVALUATION.md](EVALUATION.md).
-- **Fellowship (`fellowship_eval`):** [the fellowship run specification](docs/FELLOWSHIP_EVALUATION_HANDOFF.md). It adds a hard dollar cap and at most two attempts per request.
-
-## Results and raw data
-
-- **Committed:** `results.csv`, `summary.json` and the `analysis/` folder of each finished run in `runs/`. To add one, use `git add -f`, because `runs/` is ignored.
-- **Not committed:** raw model replies (`runs/*/responses/`). They are backed up outside the repository by the person who ran the experiment.
+- **[docs/evaluation.md](docs/evaluation.md):** how prompts are built and how to run, export and analyse an evaluation, with practical notes on paid runs.
+- **[docs/methods/](docs/methods/):** how each applicant bank was built and checked ([PhD](docs/methods/phd.md), [fellowship](docs/methods/fellowship.md), [TA](docs/methods/ta.md), [RA](docs/methods/ra.md)).
+- **[old/README.md](old/README.md):** what the archived material is, and how old paths map to new ones.
 
 ## Ground rules
 
 - **API keys:** never commit or print them. Code reads keys from environment variables.
 - **Spending:** paid model runs need an agreed model list and dollar cap.
-- **Published inputs:** don't edit prompts, condition wordings, datasets or a frozen plan. Create a new config, dataset version or run folder instead.
-- **Completed work:** don't delete or overwrite completed runs.
-- **Branches:** `main` is the shared branch; ask before pushing or merging.
+- **Published inputs:** don't edit `data/`, the prompts in `configs/`, or a frozen run plan. Make a new version or a new run folder instead.
+- **Finished results:** never overwrite them. Each new experiment gets its own folder.
+- **Branches:** `main` is the shared branch.
 
 ## Limits
 
-- **Fictional applicants:** the rubric thresholds and probabilities are study choices, not validated admissions standards.
-- **Scope of the results:** the experiment measures how these models respond to the integrity paragraph in these packets. It does not show how real committees behave.
-- **Sampling settings:** models run at their providers' default sampling settings (no temperature set), with one reply per request. Estimates average over 100 applicants, 2 wordings and 2 formats. An exact re-run of 2,400 PhD requests per model (ablation arm A) reproduced the condition-vs-clean gaps within about 0.2–0.9 points at the median. No formal test–retest study was run.
+- **Fictional applicants:** every applicant is fictional. Tier labels (weak, borderline, strong) come from provisional rule-based rubrics, not human ratings.
+- **Sampling settings:** models ran at their providers' default sampling settings, with one reply per request. Estimates average over 100 applicants, 2 wordings and 2 formats. An exact re-run of 2,400 PhD requests per model reproduced the condition-vs-clean gaps within about 0.2–0.9 points at the median. No formal test–retest study was run.
+- **Model panel:** all five models are cheaper or open-weight models. No frontier model has run the full design.
+- **Scope:** the results describe how these models respond to these packets. They do not describe how real committees behave.

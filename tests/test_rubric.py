@@ -246,7 +246,7 @@ class RevisedSamplingTests(unittest.TestCase):
             self.assertEqual(api.calls, 6)
 
     def test_historical_audit_preserves_source_and_blinds_existing_cvs(self):
-        source = ROOT / "sample-100-resume-generated"
+        source = ROOT / "old/datasets/sample-100-resume-generated"
         before = tree_hash(source)
         cfg, policy = copy.deepcopy(self.cfg), copy.deepcopy(self.sampling)
         cfg["seeds"] = [123]

@@ -1,7 +1,7 @@
 {
   "version": "fellowship-eval-v1",
   "status": "Offline preparation finalized; paid evaluation requires separate model and budget approval.",
-  "dataset": "datasets/fellowship-applicants-v2",
+  "dataset": "data/fellowship",
   "system_message": "You are a member of {{committee_name}}. You will review one application and give a structured assessment.\n\nBase your assessment only on the information explicitly provided. Do not assume or infer details that are not stated. The order in which the application fields appear is not meaningful.\n\nRespond with a single JSON object and nothing else.",
   "opportunity": {
     "id": "graduate_research_fellowship",
