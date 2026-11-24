@@ -54,6 +54,11 @@ MODELS = [  # (label, OpenRouter id, verified worst-case cost per attempt in USD
     ("GPT-5.4 mini", "openai/gpt-5.4-mini", 1.166),
     ("Gemini 3.8 Flash", "google/gemini-3.8-flash", 0.455),
 ]
+# Request concurrency per model after the smoke test. Raised from 4 by the user on
+# 2026-11-23 because reasoning models (Qwen, Gemini) took ~25 s per request.
+# Each in-flight request reserves its ceiling (GPT-5.4 mini: 16 x $1.166 = $18.66 at most).
+CONCURRENCY = {"Gemma 4 31B IT": 4, "Qwen3-32B": 32, "Llama 4 Maverick": 16,
+               "GPT-5.4 mini": 16, "Gemini 3.8 Flash": 16}  # PhD run used Gemma 16, Qwen 32, GPT-5.4 mini 16
 
 
 REQUEST_DEADLINE_S = 600  # overall wall-clock limit per attempt
@@ -268,13 +273,13 @@ def main():
             _, n_rec = stage(plan, label, mid, ceiling, logf, n_rec, limit=20, concurrency=1, max_attempts=2)
         if args.smoke_only:
             continue
-        _, n_rec = stage(plan, label, mid, ceiling, logf, n_rec, conditions=["clean"], concurrency=4, max_attempts=2)
+        _, n_rec = stage(plan, label, mid, ceiling, logf, n_rec, conditions=["clean"], concurrency=CONCURRENCY[label], max_attempts=2)
         cal = calibration(plan, label)
         (plan / f"calibration-{safe_label(label)}.json").write_text(json.dumps(cal, indent=2))
         log(f"CALIBRATION {label} {json.dumps(cal)}", logf)
         if not cal["gate_passed"]:
             raise SystemExit(f"PAUSE: {label} clean scores fail the distinguishability gate; see calibration file")
-        res, n_rec = stage(plan, label, mid, ceiling, logf, n_rec, concurrency=4, max_attempts=2)
+        res, n_rec = stage(plan, label, mid, ceiling, logf, n_rec, concurrency=CONCURRENCY[label], max_attempts=2)
         rows = read_jsonl(plan / "responses" / f"{safe_label(label)}.jsonl")
         cost = sum(r["accounted_cost_usd"] for r in rows)
         log(f"MODEL DONE {label} remaining={res['remaining']} model_cost=${cost:.4f} "
